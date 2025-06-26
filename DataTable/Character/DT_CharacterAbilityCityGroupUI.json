@@ -1,0 +1,107 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CharacterAbilityCityGroupUI",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'CharacterAbilityCityGroupUI'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "AbilityGroupType": "ECharacterCityAbilityGroupType::GROUP_VEHICLE",
+        "AbilityGroupIcon": {
+          "AssetPathName": "/Game/UI/UI/YINeng/YH_UI_yineng_celan_icon_04.YH_UI_yineng_celan_icon_04",
+          "SubPathString": ""
+        },
+        "AbilityGroupName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CharacterAbilityCityGroupUI_zaiju",
+          "SourceString": "载具",
+          "LocalizedString": "载具"
+        }
+      },
+      "NewRow_0": {
+        "AbilityGroupType": "ECharacterCityAbilityGroupType::GROUP_HOUSE",
+        "AbilityGroupIcon": {
+          "AssetPathName": "/Game/UI/UI/YINeng/YH_UI_yineng_celan_icon_03.YH_UI_yineng_celan_icon_03",
+          "SubPathString": ""
+        },
+        "AbilityGroupName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CharacterAbilityCityGroupUI_fangwujiaju",
+          "SourceString": "房屋",
+          "LocalizedString": "房屋"
+        }
+      },
+      "NewRow_1": {
+        "AbilityGroupType": "ECharacterCityAbilityGroupType::GROUP_MANHUNT",
+        "AbilityGroupIcon": {
+          "AssetPathName": "/Game/UI/UI/YINeng/YH_UI_yineng_celan_icon_05.YH_UI_yineng_celan_icon_05",
+          "SubPathString": ""
+        },
+        "AbilityGroupName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CharacterAbilityCityGroupUI_zhuibu",
+          "SourceString": "通缉",
+          "LocalizedString": "通缉"
+        }
+      },
+      "NewRow_2": {
+        "AbilityGroupType": "ECharacterCityAbilityGroupType::GROUP_STORE",
+        "AbilityGroupIcon": {
+          "AssetPathName": "/Game/UI/UI/YINeng/YH_UI_yineng_celan_icon_01.YH_UI_yineng_celan_icon_01",
+          "SubPathString": ""
+        },
+        "AbilityGroupName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CharacterAbilityCityGroupUI_jingying",
+          "SourceString": "经营",
+          "LocalizedString": "经营"
+        }
+      },
+      "NewRow_3": {
+        "AbilityGroupType": "ECharacterCityAbilityGroupType::GROUP_EXPLORE",
+        "AbilityGroupIcon": {
+          "AssetPathName": "/Game/UI/UI/YINeng/YH_UI_yineng_celan_icon_06.YH_UI_yineng_celan_icon_06",
+          "SubPathString": ""
+        },
+        "AbilityGroupName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CharacterAbilityCityGroupUI_tansuo",
+          "SourceString": "探索",
+          "LocalizedString": "探索"
+        }
+      },
+      "NewRow_4": {
+        "AbilityGroupType": "ECharacterCityAbilityGroupType::GROUP_OTHER",
+        "AbilityGroupIcon": {
+          "AssetPathName": "/Game/UI/UI/YINeng/YH_UI_yineng_celan_icon_07.YH_UI_yineng_celan_icon_07",
+          "SubPathString": ""
+        },
+        "AbilityGroupName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CharacterAbilityCityGroupUI_qita",
+          "SourceString": "其他",
+          "LocalizedString": "其他"
+        }
+      },
+      "NewRow_5": {
+        "AbilityGroupType": "ECharacterCityAbilityGroupType::GROUP_LIKEABILITY",
+        "AbilityGroupIcon": {
+          "AssetPathName": "/Game/UI/UI/YINeng/YH_UI_yineng_celan_icon_02.YH_UI_yineng_celan_icon_02",
+          "SubPathString": ""
+        },
+        "AbilityGroupName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CharacterAbilityCityGroupUI_jiyu",
+          "SourceString": "羁遇",
+          "LocalizedString": "羁遇"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,543 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "AvatarFrameDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'HTAvatarFrameConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Name": {
+          "TableId": "/Game/Text/ST_EditPlayerInfo.ST_EditPlayerInfo",
+          "Key": "ui_edit_avatarframe_001",
+          "SourceString": "默认头像框",
+          "LocalizedString": "默认头像框"
+        },
+        "bIsDefault": true,
+        "bAutoUnlock": true,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/YH_UI_menu_touxiang.YH_UI_menu_touxiang",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/YH_UI_menu_touxiang.YH_UI_menu_touxiang",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_003",
+          "SourceString": "默认获得",
+          "LocalizedString": "默认获得"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_003",
+          "SourceString": "默认获得",
+          "LocalizedString": "默认获得"
+        }
+      },
+      "Frame_1003": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1003_name",
+          "SourceString": "捉迷藏",
+          "LocalizedString": "捉迷藏"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/UI_IMG_Frame_1003.UI_IMG_Frame_1003",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1003_100.UI_Icon_Frame_1003_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        }
+      },
+      "Frame_1004": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1004_name",
+          "SourceString": "626号番茄",
+          "LocalizedString": "626号番茄"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/UI_IMG_Frame_1004.UI_IMG_Frame_1004",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1004_100.UI_Icon_Frame_1004_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        }
+      },
+      "Frame_1008": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1008_name",
+          "SourceString": "皆为皮囊",
+          "LocalizedString": "皆为皮囊"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/UI_IMG_Frame_1008.UI_IMG_Frame_1008",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1008_100.UI_Icon_Frame_1008_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        }
+      },
+      "Frame_1010": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1010_name",
+          "SourceString": "果壳之王",
+          "LocalizedString": "果壳之王"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/UI_IMG_Frame_1010.UI_IMG_Frame_1010",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1010_100.UI_Icon_Frame_1010_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        }
+      },
+      "Frame_1019": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1019_name",
+          "SourceString": "长夏",
+          "LocalizedString": "长夏"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1019_100.UI_Icon_Frame_1019_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        }
+      },
+      "Frame_1020": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1020_name",
+          "SourceString": "蜜糖序曲",
+          "LocalizedString": "蜜糖序曲"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/UI_IMG_Frame_1020.UI_IMG_Frame_1020",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1020_100.UI_Icon_Frame_1020_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        }
+      },
+      "Frame_1021": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1021_name",
+          "SourceString": "全知悖论",
+          "LocalizedString": "全知悖论"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/UI_IMG_Frame_1021.UI_IMG_Frame_1021",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1021_100.UI_Icon_Frame_1021_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        }
+      },
+      "Frame_1023": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1023_name",
+          "SourceString": "未晞",
+          "LocalizedString": "未晞"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/UI_IMG_Frame_1023.UI_IMG_Frame_1023",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1023_100.UI_Icon_Frame_1023_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        }
+      },
+      "Frame_1025": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1025_name",
+          "SourceString": "我非我",
+          "LocalizedString": "我非我"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/UI_IMG_Frame_1025.UI_IMG_Frame_1025",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1025_100.UI_Icon_Frame_1025_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        }
+      },
+      "Frame_1033": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1033_name",
+          "SourceString": "自在自见",
+          "LocalizedString": "自在自见"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/UI_IMG_Frame_1033.UI_IMG_Frame_1033",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1033_100.UI_Icon_Frame_1033_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        }
+      },
+      "Frame_1039": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1039_name",
+          "SourceString": "救世主",
+          "LocalizedString": "救世主"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/UI_IMG_Frame_1039.UI_IMG_Frame_1039",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1039_100.UI_Icon_Frame_1039_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        }
+      },
+      "Frame_1052": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1029_name",
+          "SourceString": "花遍雪",
+          "LocalizedString": "花遍雪"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/UI_IMG_Frame_1052.UI_IMG_Frame_1052",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1052_100.UI_Icon_Frame_1052_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        }
+      },
+      "Frame_1054": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1005_name",
+          "SourceString": "在湖中央",
+          "LocalizedString": "在湖中央"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/UI_IMG_Frame_1054.UI_IMG_Frame_1054",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1054_100.UI_Icon_Frame_1054_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        }
+      },
+      "Frame_1055": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1014_name",
+          "SourceString": "致夜莺",
+          "LocalizedString": "致夜莺"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/UI_IMG_Frame_1055.UI_IMG_Frame_1055",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1055_100.UI_Icon_Frame_1055_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        }
+      },
+      "Frame_1057": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1057_name",
+          "SourceString": "昨日谈",
+          "LocalizedString": "昨日谈"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/UI_IMG_Frame_1057.UI_IMG_Frame_1057",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1057_100.UI_Icon_Frame_1057_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        }
+      },
+      "Frame_Tajiduo": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_Tajiduo_name",
+          "SourceString": "维修中",
+          "LocalizedString": "维修中"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/UI_IMG_Frame_Tajiduo.UI_IMG_Frame_Tajiduo",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_Tajiduo_100.UI_Icon_Frame_Tajiduo_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        }
+      }
+    }
+  }
+]

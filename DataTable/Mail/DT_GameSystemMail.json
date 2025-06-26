@@ -1,0 +1,226 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_GameSystemMail",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'HTMailModel'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "bugay1_4HunterLv": {
+        "MailType": "EHTMailType::MT_PLAYER",
+        "MailSubType": "EHTMailSubType::MT_Sub_Default",
+        "MailTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji1_Title",
+          "SourceString": "「收容测试」限定补给·一",
+          "LocalizedString": "「收容测试」限定补给·一"
+        },
+        "MailSubTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji1_Title",
+          "SourceString": "「收容测试」限定补给·一",
+          "LocalizedString": "「收容测试」限定补给·一"
+        },
+        "MailContent": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji1_Des",
+          "SourceString": "亲爱的鉴定师：\r\n欢迎来到海特洛市！为了让鉴定师在海特洛市能有更好的游戏体验，我们特地准备了以下道具，祝您游戏愉快！",
+          "LocalizedString": "亲爱的鉴定师：\r\n欢迎来到海特洛市！为了让鉴定师在海特洛市能有更好的游戏体验，我们特地准备了以下道具，祝您游戏愉快！"
+        },
+        "MailParams": "",
+        "MailSender": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_MailModel_Sender",
+          "SourceString": "《异环》运营团队",
+          "LocalizedString": "《异环》运营团队"
+        },
+        "MailAttachStr": "DiceNormal,30",
+        "MailConditions": "bugay1_Condition_4HunterLv",
+        "MailExpiryTimeDays": 30,
+        "MailPath": 0,
+        "bIsPermanent": true,
+        "Hyperlinks": ""
+      },
+      "bugay2_Condition_5HunterLv": {
+        "MailType": "EHTMailType::MT_PLAYER",
+        "MailSubType": "EHTMailSubType::MT_Sub_Default",
+        "MailTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji2_Title",
+          "SourceString": "「收容测试」限定补给·二",
+          "LocalizedString": "「收容测试」限定补给·二"
+        },
+        "MailSubTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji2_Title",
+          "SourceString": "「收容测试」限定补给·二",
+          "LocalizedString": "「收容测试」限定补给·二"
+        },
+        "MailContent": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji1_Des",
+          "SourceString": "亲爱的鉴定师：\r\n欢迎来到海特洛市！为了让鉴定师在海特洛市能有更好的游戏体验，我们特地准备了以下道具，祝您游戏愉快！",
+          "LocalizedString": "亲爱的鉴定师：\r\n欢迎来到海特洛市！为了让鉴定师在海特洛市能有更好的游戏体验，我们特地准备了以下道具，祝您游戏愉快！"
+        },
+        "MailParams": "",
+        "MailSender": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_MailModel_Sender",
+          "SourceString": "《异环》运营团队",
+          "LocalizedString": "《异环》运营团队"
+        },
+        "MailAttachStr": "WeaponGacha,30;Stamina_addpotion,2",
+        "MailConditions": "bugay2_Condition_5HunterLv",
+        "MailExpiryTimeDays": 30,
+        "MailPath": 0,
+        "bIsPermanent": true,
+        "Hyperlinks": ""
+      },
+      "bugay3_Condition_Day2": {
+        "MailType": "EHTMailType::MT_PLAYER",
+        "MailSubType": "EHTMailSubType::MT_Sub_Default",
+        "MailTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji3_Title",
+          "SourceString": "「收容测试」限定补给·三",
+          "LocalizedString": "「收容测试」限定补给·三"
+        },
+        "MailSubTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji3_Title",
+          "SourceString": "「收容测试」限定补给·三",
+          "LocalizedString": "「收容测试」限定补给·三"
+        },
+        "MailContent": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji1_Des",
+          "SourceString": "亲爱的鉴定师：\r\n欢迎来到海特洛市！为了让鉴定师在海特洛市能有更好的游戏体验，我们特地准备了以下道具，祝您游戏愉快！",
+          "LocalizedString": "亲爱的鉴定师：\r\n欢迎来到海特洛市！为了让鉴定师在海特洛市能有更好的游戏体验，我们特地准备了以下道具，祝您游戏愉快！"
+        },
+        "MailParams": "",
+        "MailSender": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_MailModel_Sender",
+          "SourceString": "《异环》运营团队",
+          "LocalizedString": "《异环》运营团队"
+        },
+        "MailAttachStr": "character_ssrbox,1;Dicelimite,30;DiceNormal,20;WeaponGacha,30;Stamina_addpotion,5;HunterLvExp,4000",
+        "MailConditions": "bugay3_Condition_Day2",
+        "MailExpiryTimeDays": 30,
+        "MailPath": 0,
+        "bIsPermanent": true,
+        "Hyperlinks": ""
+      },
+      "bugay3_Condition_Day3": {
+        "MailType": "EHTMailType::MT_PLAYER",
+        "MailSubType": "EHTMailSubType::MT_Sub_Default",
+        "MailTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji4_Title",
+          "SourceString": "「收容测试」限定补给·四",
+          "LocalizedString": "「收容测试」限定补给·四"
+        },
+        "MailSubTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji4_Title",
+          "SourceString": "「收容测试」限定补给·四",
+          "LocalizedString": "「收容测试」限定补给·四"
+        },
+        "MailContent": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji1_Des",
+          "SourceString": "亲爱的鉴定师：\r\n欢迎来到海特洛市！为了让鉴定师在海特洛市能有更好的游戏体验，我们特地准备了以下道具，祝您游戏愉快！",
+          "LocalizedString": "亲爱的鉴定师：\r\n欢迎来到海特洛市！为了让鉴定师在海特洛市能有更好的游戏体验，我们特地准备了以下道具，祝您游戏愉快！"
+        },
+        "MailParams": "",
+        "MailSender": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_MailModel_Sender",
+          "SourceString": "《异环》运营团队",
+          "LocalizedString": "《异环》运营团队"
+        },
+        "MailAttachStr": "character_ssrbox,1;Dicelimite,15;DiceNormal,10;WeaponGacha,10;Stamina_addpotion,5;HunterLvExp,3000",
+        "MailConditions": "bugay3_Condition_Day3",
+        "MailExpiryTimeDays": 30,
+        "MailPath": 0,
+        "bIsPermanent": true,
+        "Hyperlinks": ""
+      },
+      "bugay3_Condition_Day4": {
+        "MailType": "EHTMailType::MT_PLAYER",
+        "MailSubType": "EHTMailSubType::MT_Sub_Default",
+        "MailTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji5_Title",
+          "SourceString": "「收容测试」限定补给·五",
+          "LocalizedString": "「收容测试」限定补给·五"
+        },
+        "MailSubTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji5_Title",
+          "SourceString": "「收容测试」限定补给·五",
+          "LocalizedString": "「收容测试」限定补给·五"
+        },
+        "MailContent": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji1_Des",
+          "SourceString": "亲爱的鉴定师：\r\n欢迎来到海特洛市！为了让鉴定师在海特洛市能有更好的游戏体验，我们特地准备了以下道具，祝您游戏愉快！",
+          "LocalizedString": "亲爱的鉴定师：\r\n欢迎来到海特洛市！为了让鉴定师在海特洛市能有更好的游戏体验，我们特地准备了以下道具，祝您游戏愉快！"
+        },
+        "MailParams": "",
+        "MailSender": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_MailModel_Sender",
+          "SourceString": "《异环》运营团队",
+          "LocalizedString": "《异环》运营团队"
+        },
+        "MailAttachStr": "Characterawaken_player,1;DiceNormal,10;Stamina_addpotion,5;HunterLvExp,6000",
+        "MailConditions": "bugay3_Condition_Day4",
+        "MailExpiryTimeDays": 30,
+        "MailPath": 0,
+        "bIsPermanent": true,
+        "Hyperlinks": ""
+      },
+      "bugay3_Condition_Day10": {
+        "MailType": "EHTMailType::MT_PLAYER",
+        "MailSubType": "EHTMailSubType::MT_Sub_Default",
+        "MailTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji6_Title",
+          "SourceString": "「收容测试」限定补给·六",
+          "LocalizedString": "「收容测试」限定补给·六"
+        },
+        "MailSubTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji6_Title",
+          "SourceString": "「收容测试」限定补给·六",
+          "LocalizedString": "「收容测试」限定补给·六"
+        },
+        "MailContent": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "xiandingbuji1_Des",
+          "SourceString": "亲爱的鉴定师：\r\n欢迎来到海特洛市！为了让鉴定师在海特洛市能有更好的游戏体验，我们特地准备了以下道具，祝您游戏愉快！",
+          "LocalizedString": "亲爱的鉴定师：\r\n欢迎来到海特洛市！为了让鉴定师在海特洛市能有更好的游戏体验，我们特地准备了以下道具，祝您游戏愉快！"
+        },
+        "MailParams": "",
+        "MailSender": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_MailModel_Sender",
+          "SourceString": "《异环》运营团队",
+          "LocalizedString": "《异环》运营团队"
+        },
+        "MailAttachStr": "character_ssrbox,1;Characterawaken_player,1;Stamina_addpotion,5",
+        "MailConditions": "bugay3_Condition_Day10",
+        "MailExpiryTimeDays": 30,
+        "MailPath": 0,
+        "bIsPermanent": true,
+        "Hyperlinks": ""
+      }
+    }
+  }
+]

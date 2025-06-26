@@ -1,0 +1,302 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MatchConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'MatchConfigData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "DLC_RT_C1": {
+        "MatchMode": "EMatchMode::PVP",
+        "RoomMode": "ERoomMode::Multiple",
+        "EnableMapLoop": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "LevelRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 100
+          }
+        },
+        "MaxLevelNum": 1,
+        "MaxLevelEntryNum": 2,
+        "MaxLifetime": 3600,
+        "EnableAutoTravel": false,
+        "EnableAutoReconnect": false,
+        "MatchRoleNum": 2,
+        "MaxTimeOut": 60,
+        "EnableDistinguishPlatform": false
+      },
+      "XL_map_bigworld_test": {
+        "MatchMode": "EMatchMode::PVP",
+        "RoomMode": "ERoomMode::Multiple",
+        "EnableMapLoop": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "LevelRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 100
+          }
+        },
+        "MaxLevelNum": 1,
+        "MaxLevelEntryNum": 4,
+        "MaxLifetime": 0,
+        "EnableAutoTravel": true,
+        "EnableAutoReconnect": false,
+        "MatchRoleNum": 4,
+        "MaxTimeOut": 60,
+        "EnableDistinguishPlatform": false
+      },
+      "DLC_Hockshop_week": {
+        "MatchMode": "EMatchMode::DEFAULT",
+        "RoomMode": "ERoomMode::Single",
+        "EnableMapLoop": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "LevelRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        },
+        "MaxLevelNum": 1,
+        "MaxLevelEntryNum": 100,
+        "MaxLifetime": 3600,
+        "EnableAutoTravel": true,
+        "EnableAutoReconnect": true,
+        "MatchRoleNum": 4,
+        "MaxTimeOut": 60,
+        "EnableDistinguishPlatform": false
+      },
+      "DLC_Hotel_Week": {
+        "MatchMode": "EMatchMode::DEFAULT",
+        "RoomMode": "ERoomMode::Single",
+        "EnableMapLoop": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "LevelRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        },
+        "MaxLevelNum": 1,
+        "MaxLevelEntryNum": 100,
+        "MaxLifetime": 3600,
+        "EnableAutoTravel": true,
+        "EnableAutoReconnect": true,
+        "MatchRoleNum": 4,
+        "MaxTimeOut": 60,
+        "EnableDistinguishPlatform": false
+      },
+      "TestMap_yaoql": {
+        "MatchMode": "EMatchMode::DEFAULT",
+        "RoomMode": "ERoomMode::Single",
+        "EnableMapLoop": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "LevelRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        },
+        "MaxLevelNum": 1,
+        "MaxLevelEntryNum": 4,
+        "MaxLifetime": 3600,
+        "EnableAutoTravel": true,
+        "EnableAutoReconnect": false,
+        "MatchRoleNum": 4,
+        "MaxTimeOut": 60,
+        "EnableDistinguishPlatform": false
+      },
+      "DLC_FilmOrbit_map_WP": {
+        "MatchMode": "EMatchMode::DEFAULT",
+        "RoomMode": "ERoomMode::Single",
+        "EnableMapLoop": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "LevelRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 100
+          }
+        },
+        "MaxLevelNum": 1,
+        "MaxLevelEntryNum": 100,
+        "MaxLifetime": 0,
+        "EnableAutoTravel": true,
+        "EnableAutoReconnect": true,
+        "MatchRoleNum": 4,
+        "MaxTimeOut": 60,
+        "EnableDistinguishPlatform": false
+      },
+      "DLC_hotel": {
+        "MatchMode": "EMatchMode::DEFAULT",
+        "RoomMode": "ERoomMode::Single",
+        "EnableMapLoop": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "LevelRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 100
+          }
+        },
+        "MaxLevelNum": 1,
+        "MaxLevelEntryNum": 100,
+        "MaxLifetime": 0,
+        "EnableAutoTravel": true,
+        "EnableAutoReconnect": true,
+        "MatchRoleNum": 4,
+        "MaxTimeOut": 60,
+        "EnableDistinguishPlatform": false
+      },
+      "DLC_Hockshop": {
+        "MatchMode": "EMatchMode::DEFAULT",
+        "RoomMode": "ERoomMode::Single",
+        "EnableMapLoop": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "LevelRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 100
+          }
+        },
+        "MaxLevelNum": 1,
+        "MaxLevelEntryNum": 100,
+        "MaxLifetime": 0,
+        "EnableAutoTravel": true,
+        "EnableAutoReconnect": true,
+        "MatchRoleNum": 4,
+        "MaxTimeOut": 60,
+        "EnableDistinguishPlatform": false
+      },
+      "DLC_Museum_Lamp": {
+        "MatchMode": "EMatchMode::DEFAULT",
+        "RoomMode": "ERoomMode::Single",
+        "EnableMapLoop": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "LevelRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 100
+          }
+        },
+        "MaxLevelNum": 1,
+        "MaxLevelEntryNum": 100,
+        "MaxLifetime": 0,
+        "EnableAutoTravel": true,
+        "EnableAutoReconnect": true,
+        "MatchRoleNum": 4,
+        "MaxTimeOut": 60,
+        "EnableDistinguishPlatform": false
+      },
+      "Zhuqing_level": {
+        "MatchMode": "EMatchMode::DEFAULT",
+        "RoomMode": "ERoomMode::Multiple",
+        "EnableMapLoop": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "LevelRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        },
+        "MaxLevelNum": 1,
+        "MaxLevelEntryNum": 4,
+        "MaxLifetime": 3600,
+        "EnableAutoTravel": true,
+        "EnableAutoReconnect": false,
+        "MatchRoleNum": 4,
+        "MaxTimeOut": 60,
+        "EnableDistinguishPlatform": false
+      },
+      "DLC_MoonDog": {
+        "MatchMode": "EMatchMode::DEFAULT",
+        "RoomMode": "ERoomMode::Single",
+        "EnableMapLoop": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "LevelRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 100
+          }
+        },
+        "MaxLevelNum": 1,
+        "MaxLevelEntryNum": 100,
+        "MaxLifetime": 0,
+        "EnableAutoTravel": true,
+        "EnableAutoReconnect": true,
+        "MatchRoleNum": 4,
+        "MaxTimeOut": 60,
+        "EnableDistinguishPlatform": false
+      }
+    }
+  }
+]

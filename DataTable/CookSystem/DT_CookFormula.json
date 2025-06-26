@@ -1,0 +1,76 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CookFormula",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'CookFormulaData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "CookBook1": {
+        "CookFoodID": "CookFood1",
+        "FormulaItemArray": [
+          {
+            "MaterialItemID": "CookMaterial1",
+            "MaterialItemNum": 3
+          },
+          {
+            "MaterialItemID": "CookMaterial2",
+            "MaterialItemNum": 2
+          }
+        ],
+        "CookParticleEffect": {
+          "bUseSoftObject": true,
+          "SoftPSTemplate": {
+            "AssetPathName": "/Game/Sequencer/cutscenes/sequence/cutscenes01/FX/Fx_CutScene01/Particle/NS_Sparcle_Stylized_press_3.NS_Sparcle_Stylized_press_3",
+            "SubPathString": ""
+          },
+          "PSTemplate": null,
+          "LocationOffset": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 100.0
+          },
+          "RotationOffset": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "Scale": {
+            "X": 100.0,
+            "Y": 100.0,
+            "Z": 100.0
+          },
+          "SocketName": "None",
+          "Attached": true,
+          "IgnoreHitEffectOpt": false,
+          "UseParentBoundBox": false,
+          "bAcceptCustomDilation": true,
+          "bAttachRootComponent": false,
+          "AdaptiveScale": false,
+          "UserParameters": [],
+          "DirectionForce": null,
+          "SavedParticleSystem": null
+        }
+      },
+      "CookBook2": {
+        "CookFoodID": "CookFood2",
+        "FormulaItemArray": [
+          {
+            "MaterialItemID": "CookMaterial1",
+            "MaterialItemNum": 4
+          },
+          {
+            "MaterialItemID": "CookMaterial2",
+            "MaterialItemNum": 3
+          }
+        ],
+        "CookParticleEffect": null
+      }
+    }
+  }
+]

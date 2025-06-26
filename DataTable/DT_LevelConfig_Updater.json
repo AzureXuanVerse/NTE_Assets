@@ -1,0 +1,39 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LevelConfig_Updater",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'LevelConfigData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Updater_P": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_UPDATER",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bDisableSwitchTrack": false,
+          "bUseNavPathEffect": false,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false
+        },
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": []
+      }
+    }
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SubmitItemDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SubmitItemData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Submit_Police_Lostthing": {
+        "PieceItems": [
+          {
+            "PieceItemID": "Lost_wallet",
+            "PieceAmount": 1
+          }
+        ],
+        "AwardItemID": "Item_reduce_sin"
+      }
+    }
+  }
+]

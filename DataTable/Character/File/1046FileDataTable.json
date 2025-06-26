@@ -1,0 +1,637 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "1046FileDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'CharacterFileData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1046": {
+        "CVNameArr": [
+          {
+            "AudioType": "EAudioCultureType::Audio_Chinese",
+            "CVName": {
+              "CultureInvariantString": "马洋"
+            }
+          }
+        ],
+        "Birthday": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "ZERO_F_birthday",
+          "SourceString": "未知",
+          "LocalizedString": "未知"
+        },
+        "HomePlace": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "ZERO_F_homeplace",
+          "SourceString": "伊波恩古董店",
+          "LocalizedString": "伊波恩古董店"
+        },
+        "AbilityName": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "ZERO_F_abilityname",
+          "SourceString": "「第零感」",
+          "LocalizedString": "「第零感」"
+        },
+        "Introduction": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "ZERO_F_introduction",
+          "SourceString": "迄今唯一一位无法检测出维特海默值的异能者。",
+          "LocalizedString": "迄今唯一一位无法检测出维特海默值的异能者。"
+        },
+        "DetailContent": [
+          {
+            "ID": "Detail01",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "file_Zero_M_001",
+              "SourceString": "当前角色档案未解锁",
+              "LocalizedString": "当前角色档案未解锁"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "file_Zero_M_001",
+              "SourceString": "当前角色档案未解锁",
+              "LocalizedString": "当前角色档案未解锁"
+            },
+            "AudioEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          }
+        ],
+        "DailyContent": [
+          {
+            "ID": "Daily01",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "Zero_M_001",
+              "SourceString": "当前角色无休闲语音",
+              "LocalizedString": "当前角色无休闲语音"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "Zero_M_001",
+              "SourceString": "当前角色无休闲语音",
+              "LocalizedString": "当前角色无休闲语音"
+            },
+            "AudioEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          }
+        ],
+        "BattleContent": [
+          {
+            "ID": "Battle01",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "skill001",
+              "SourceString": "变轨攻击·Ⅰ",
+              "LocalizedString": "变轨攻击·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_skill_001",
+              "SourceString": "鉴刻！",
+              "LocalizedString": "鉴刻！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_skill_001.Play_Vo_Char_ZERO_M_skill_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle02",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "skill002",
+              "SourceString": "变轨攻击·Ⅱ",
+              "LocalizedString": "变轨攻击·Ⅱ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_skill_002",
+              "SourceString": "接招！",
+              "LocalizedString": "接招！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_skill_002.Play_Vo_Char_ZERO_M_skill_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle03",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "skill003",
+              "SourceString": "变轨攻击·Ⅲ",
+              "LocalizedString": "变轨攻击·Ⅲ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_skill_003",
+              "SourceString": "痕印！",
+              "LocalizedString": "痕印！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_skill_003.Play_Vo_Char_ZERO_M_skill_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle04",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "aoe001",
+              "SourceString": "极轨终结·Ⅰ",
+              "LocalizedString": "极轨终结·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_aoe_001",
+              "SourceString": "至此，定胜负吧。",
+              "LocalizedString": "至此，定胜负吧。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_aoe_001.Play_Vo_Char_ZERO_M_aoe_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle05",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "aoe002",
+              "SourceString": "极轨终结·Ⅱ",
+              "LocalizedString": "极轨终结·Ⅱ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_aoe_002",
+              "SourceString": "此瞬，万数皆断。",
+              "LocalizedString": "此瞬，万数皆断。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_aoe_002.Play_Vo_Char_ZERO_M_aoe_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle06",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "aoe003",
+              "SourceString": "极轨终结·Ⅲ",
+              "LocalizedString": "极轨终结·Ⅲ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_aoe_003",
+              "SourceString": "框定，奇零尽除。",
+              "LocalizedString": "框定，奇零尽除。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_aoe_003.Play_Vo_Char_ZERO_M_aoe_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle07",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "anomaly_001",
+              "SourceString": "收容异象·Ⅰ",
+              "LocalizedString": "收容异象·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_containment_001",
+              "SourceString": "搞定了。",
+              "LocalizedString": "搞定了。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_containment_001.Play_Vo_Char_ZERO_M_containment_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle08",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "anomaly_001",
+              "SourceString": "收容异象·Ⅰ",
+              "LocalizedString": "收容异象·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_anomaly_002",
+              "SourceString": "委托完成。",
+              "LocalizedString": "委托完成。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_anomaly_002.Play_Vo_Char_ZERO_M_anomaly_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle11",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "windfall_001",
+              "SourceString": "意外收获·Ⅰ",
+              "LocalizedString": "意外收获·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_windMall_001",
+              "SourceString": "好好收起来吧。",
+              "LocalizedString": "好好收起来吧。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_windMall_001.Play_Vo_Char_ZERO_M_windMall_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle12",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "windfall_002",
+              "SourceString": "意外收获·Ⅱ",
+              "LocalizedString": "意外收获·Ⅱ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_windMall_002",
+              "SourceString": "今天似乎运气不错。",
+              "LocalizedString": "今天似乎运气不错。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_windMall_002.Play_Vo_Char_ZERO_M_windMall_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle13",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "windfall_003",
+              "SourceString": "意外收获·Ⅲ",
+              "LocalizedString": "意外收获·Ⅲ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_windMall_003",
+              "SourceString": "多多益善。",
+              "LocalizedString": "多多益善。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_windMall_003.Play_Vo_Char_ZERO_M_windMall_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle14",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "hp_001",
+              "SourceString": "生命值低·Ⅰ",
+              "LocalizedString": "生命值低·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_hp_001",
+              "SourceString": "再坚持一下。",
+              "LocalizedString": "再坚持一下。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_hp_001.Play_Vo_Char_ZERO_M_hp_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle15",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "hp_002",
+              "SourceString": "生命值低·Ⅱ",
+              "LocalizedString": "生命值低·Ⅱ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_hp_002",
+              "SourceString": "还没结束。",
+              "LocalizedString": "还没结束。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_hp_002.Play_Vo_Char_ZERO_M_hp_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle16",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "fh_001",
+              "SourceString": "恢复生命·Ⅰ",
+              "LocalizedString": "恢复生命·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_Mh_001",
+              "SourceString": "多谢支援。",
+              "LocalizedString": "多谢支援。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_Mh_001.Play_Vo_Char_ZERO_M_Mh_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle17",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "fh_002",
+              "SourceString": "恢复生命·Ⅱ",
+              "LocalizedString": "恢复生命·Ⅱ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_Mh_002",
+              "SourceString": "感觉好多了。",
+              "LocalizedString": "感觉好多了。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_Mh_002.Play_Vo_Char_ZERO_M_Mh_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle18",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "dead_001",
+              "SourceString": "力竭·Ⅰ",
+              "LocalizedString": "力竭·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_dead_001",
+              "SourceString": "奇点，没能看清……",
+              "LocalizedString": "奇点，没能看清……"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_dead_001.Play_Vo_Char_ZERO_M_dead_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle19",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "dead_002",
+              "SourceString": "力竭·Ⅱ",
+              "LocalizedString": "力竭·Ⅱ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_dead_002",
+              "SourceString": "抱歉，没能……",
+              "LocalizedString": "抱歉，没能……"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_dead_002.Play_Vo_Char_ZERO_M_dead_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle20",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "dead_003",
+              "SourceString": "力竭·Ⅲ",
+              "LocalizedString": "力竭·Ⅲ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_dead_003",
+              "SourceString": "真相……还未……",
+              "LocalizedString": "真相……还未……"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_dead_003.Play_Vo_Char_ZERO_M_dead_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle21",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "kill_001",
+              "SourceString": "击败怪物·Ⅰ",
+              "LocalizedString": "击败怪物·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_kill_001",
+              "SourceString": "小事。",
+              "LocalizedString": "小事。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_kill_001.Play_Vo_Char_ZERO_M_kill_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle22",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "kill_002",
+              "SourceString": "击败怪物·Ⅱ",
+              "LocalizedString": "击败怪物·Ⅱ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_kill_002",
+              "SourceString": "奇点，在这。",
+              "LocalizedString": "奇点，在这。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_kill_002.Play_Vo_Char_ZERO_M_kill_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle23",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "struck_001",
+              "SourceString": "普通受击·Ⅰ",
+              "LocalizedString": "普通受击·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_struck_001",
+              "SourceString": "没事。",
+              "LocalizedString": "没事。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_struck_001.Play_Vo_Char_ZERO_M_struck_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle24",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "struck_002",
+              "SourceString": "普通受击·Ⅱ",
+              "LocalizedString": "普通受击·Ⅱ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_struck_002",
+              "SourceString": "小心。",
+              "LocalizedString": "小心。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_struck_002.Play_Vo_Char_ZERO_M_struck_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle25",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "hstruck_001",
+              "SourceString": "重受击·Ⅰ",
+              "LocalizedString": "重受击·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_hstruck_001",
+              "SourceString": "注意时机。",
+              "LocalizedString": "注意时机。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_hstruck_001.Play_Vo_Char_ZERO_M_hstruck_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle26",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "hstruck_002",
+              "SourceString": "重受击·Ⅱ",
+              "LocalizedString": "重受击·Ⅱ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_hstruck_002",
+              "SourceString": "疏忽了。",
+              "LocalizedString": "疏忽了。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_hstruck_002.Play_Vo_Char_ZERO_M_hstruck_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle27",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "deploy_001",
+              "SourceString": "上阵·Ⅰ",
+              "LocalizedString": "上阵·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_deploy_002",
+              "SourceString": "嗯，交给我吧。",
+              "LocalizedString": "嗯，交给我吧。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_deploy_002.Play_Vo_Char_ZERO_M_deploy_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle28",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "deploy_002",
+              "SourceString": "上阵·Ⅱ",
+              "LocalizedString": "上阵·Ⅱ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_deploy_001",
+              "SourceString": "这次要做点什么？",
+              "LocalizedString": "这次要做点什么？"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_deploy_001.Play_Vo_Char_ZERO_M_deploy_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Battle29",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "QTE_001",
+              "SourceString": "协同技",
+              "LocalizedString": "协同技"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "ZERO_M_QTE_001",
+              "SourceString": "鉴痕，破！",
+              "LocalizedString": "鉴痕，破！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/ZERO_M/Play_Vo_Char_ZERO_M_QTE.Play_Vo_Char_ZERO_M_QTE",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          }
+        ],
+        "CharacterPassByAudioEvents": []
+      }
+    }
+  }
+]

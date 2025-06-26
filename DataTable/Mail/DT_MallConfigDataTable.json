@@ -1,0 +1,89 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MallConfigDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'MallShopInfo'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "ShopID": "None",
+        "ShopList": [],
+        "RedPointType": "None",
+        "bIsHide": true,
+        "ContentIndex": 1
+      },
+      "2": {
+        "ShopID": "MallShop",
+        "ShopList": [],
+        "RedPointType": "Redpoint.Menu.Mall.Mall",
+        "bIsHide": true,
+        "ContentIndex": 1
+      },
+      "3": {
+        "ShopID": "raffle",
+        "ShopList": [],
+        "RedPointType": "Redpoint.Menu.Mall.Lottery",
+        "bIsHide": true,
+        "ContentIndex": 1
+      },
+      "FonsLimitTimeShop1": {
+        "ShopID": "FonsLimitTimeShop1",
+        "ShopList": [],
+        "RedPointType": "None",
+        "bIsHide": false,
+        "ContentIndex": 4
+      },
+      "4": {
+        "ShopID": "AnnulithGiftShop",
+        "ShopList": [],
+        "RedPointType": "None",
+        "bIsHide": true,
+        "ContentIndex": 1
+      },
+      "5": {
+        "ShopID": "RiftcrystalGiftShop",
+        "ShopList": [],
+        "RedPointType": "None",
+        "bIsHide": true,
+        "ContentIndex": 1
+      },
+      "6": {
+        "ShopID": "ItemShop",
+        "ShopList": [],
+        "RedPointType": "None",
+        "bIsHide": false,
+        "ContentIndex": 1
+      },
+      "7": {
+        "ShopID": "None",
+        "ShopList": [],
+        "RedPointType": "None",
+        "bIsHide": true,
+        "ContentIndex": 2
+      },
+      "ForkShop": {
+        "ShopID": "None",
+        "ShopList": [],
+        "RedPointType": "None",
+        "bIsHide": false,
+        "ContentIndex": 3
+      },
+      "MultiShop1": {
+        "ShopID": "None",
+        "ShopList": [
+          "WarpPieceShop",
+          "LostPieceShop"
+        ],
+        "RedPointType": "None",
+        "bIsHide": false,
+        "ContentIndex": 5
+      }
+    }
+  }
+]

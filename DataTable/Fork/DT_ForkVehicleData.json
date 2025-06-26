@@ -1,0 +1,205 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ForkVehicleData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'StaticForkVehicleEffectData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "VehicleForkTag": {
+          "TagName": "AI"
+        },
+        "VehicleForkEffectDatas": [
+          {
+            "VehicleID": "Vehicle002",
+            "nPriority": 0,
+            "ForkTopSpeedIncreaseRate": 0.3,
+            "ForkTorqueIncreaseRate": 0.35,
+            "ForkDamageReductionRate": 0.5,
+            "WindEffectStartSpeed": 40.0,
+            "WindEffectTopSpeed": 60.0,
+            "WheelFireTopSpeed": 60.0,
+            "ForkLightColor": {
+              "B": 255,
+              "G": 0,
+              "R": 0,
+              "A": 255,
+              "Hex": "0000FF"
+            },
+            "WheelEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "WheelTailEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VehicleTailEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VehicleWindEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VehicleWindSocket": "None",
+            "VehicleForkBgmID": "None"
+          },
+          {
+            "VehicleID": "Vehicle003",
+            "nPriority": 0,
+            "ForkTopSpeedIncreaseRate": 0.3,
+            "ForkTorqueIncreaseRate": 0.35,
+            "ForkDamageReductionRate": 0.5,
+            "WindEffectStartSpeed": 40.0,
+            "WindEffectTopSpeed": 60.0,
+            "WheelFireTopSpeed": 60.0,
+            "ForkLightColor": {
+              "B": 255,
+              "G": 0,
+              "R": 0,
+              "A": 255,
+              "Hex": "0000FF"
+            },
+            "WheelEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "WheelTailEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VehicleTailEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VehicleWindEffect": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VehicleWindSocket": "None",
+            "VehicleForkBgmID": "None"
+          }
+        ]
+      },
+      "NewRow_0": {
+        "VehicleForkTag": {
+          "TagName": "Vehicle"
+        },
+        "VehicleForkEffectDatas": [
+          {
+            "VehicleID": "Vehicle010",
+            "nPriority": 0,
+            "ForkTopSpeedIncreaseRate": 0.3,
+            "ForkTorqueIncreaseRate": 0.35,
+            "ForkDamageReductionRate": 0.0,
+            "WindEffectStartSpeed": 40.0,
+            "WindEffectTopSpeed": 60.0,
+            "WheelFireTopSpeed": 60.0,
+            "ForkLightColor": {
+              "B": 255,
+              "G": 0,
+              "R": 0,
+              "A": 255,
+              "Hex": "0000FF"
+            },
+            "WheelEffect": {
+              "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_02.Nia_Disk_BlueFire_02",
+              "SubPathString": ""
+            },
+            "WheelTailEffect": {
+              "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_04.Nia_Disk_BlueFire_04",
+              "SubPathString": ""
+            },
+            "VehicleTailEffect": {
+              "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_01.Nia_Disk_BlueFire_01",
+              "SubPathString": ""
+            },
+            "VehicleWindEffect": {
+              "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_03.Nia_Disk_BlueFire_03",
+              "SubPathString": ""
+            },
+            "VehicleWindSocket": "VehicleWindEffectSocket",
+            "VehicleForkBgmID": "NightRun"
+          },
+          {
+            "VehicleID": "None",
+            "nPriority": 0,
+            "ForkTopSpeedIncreaseRate": 0.3,
+            "ForkTorqueIncreaseRate": 0.35,
+            "ForkDamageReductionRate": 0.5,
+            "WindEffectStartSpeed": 40.0,
+            "WindEffectTopSpeed": 60.0,
+            "WheelFireTopSpeed": 60.0,
+            "ForkLightColor": {
+              "B": 255,
+              "G": 0,
+              "R": 0,
+              "A": 255,
+              "Hex": "0000FF"
+            },
+            "WheelEffect": {
+              "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_02.Nia_Disk_BlueFire_02",
+              "SubPathString": ""
+            },
+            "WheelTailEffect": {
+              "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_04.Nia_Disk_BlueFire_04",
+              "SubPathString": ""
+            },
+            "VehicleTailEffect": {
+              "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_01.Nia_Disk_BlueFire_01",
+              "SubPathString": ""
+            },
+            "VehicleWindEffect": {
+              "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_03.Nia_Disk_BlueFire_03",
+              "SubPathString": ""
+            },
+            "VehicleWindSocket": "VehicleWindEffectSocket",
+            "VehicleForkBgmID": "NightRun"
+          },
+          {
+            "VehicleID": "None",
+            "nPriority": 0,
+            "ForkTopSpeedIncreaseRate": 0.3,
+            "ForkTorqueIncreaseRate": 0.35,
+            "ForkDamageReductionRate": 0.5,
+            "WindEffectStartSpeed": 40.0,
+            "WindEffectTopSpeed": 60.0,
+            "WheelFireTopSpeed": 60.0,
+            "ForkLightColor": {
+              "B": 255,
+              "G": 0,
+              "R": 0,
+              "A": 255,
+              "Hex": "0000FF"
+            },
+            "WheelEffect": {
+              "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_02.Nia_Disk_BlueFire_02",
+              "SubPathString": ""
+            },
+            "WheelTailEffect": {
+              "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_04.Nia_Disk_BlueFire_04",
+              "SubPathString": ""
+            },
+            "VehicleTailEffect": {
+              "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_01.Nia_Disk_BlueFire_01",
+              "SubPathString": ""
+            },
+            "VehicleWindEffect": {
+              "AssetPathName": "/Game/FX/Nia/Common/Disk_BlueFire/Nia_Disk_BlueFire_03.Nia_Disk_BlueFire_03",
+              "SubPathString": ""
+            },
+            "VehicleWindSocket": "VehicleWindEffectSocket",
+            "VehicleForkBgmID": "NightRun"
+          }
+        ]
+      }
+    }
+  }
+]

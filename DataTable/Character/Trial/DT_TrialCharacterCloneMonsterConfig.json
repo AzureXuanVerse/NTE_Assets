@@ -1,0 +1,165 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TrialCharacterCloneMonsterConfig",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'AISpawnerChangeAllConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Trial_Monster01": {
+        "SpawnWaveEntriesOverride": [
+          {
+            "WaveName": "None",
+            "SpawnEntries": [
+              {
+                "AITemplate": {
+                  "AssetPathName": "/Game/Blueprints/Character/Monster/mon_14/ResourceClone/mon_14_World_BP_Gold_Lv1.mon_14_World_BP_Gold_Lv1_C",
+                  "SubPathString": ""
+                },
+                "AITemplateCache": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "Count": 1,
+                "SpawnTransformPointsOverride": [
+                  {
+                    "Rotation": {
+                      "X": -0.0,
+                      "Y": 0.0,
+                      "Z": -0.92387956,
+                      "W": 0.38268343,
+                      "IsNormalized": true,
+                      "Size": 1.0,
+                      "SizeSquared": 1.0000001
+                    },
+                    "Translation": {
+                      "X": 21890.0,
+                      "Y": 54790.0,
+                      "Z": 110.0
+                    },
+                    "Scale3D": {
+                      "X": 1.0,
+                      "Y": 1.0,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SpawnTransformPointsTags": [],
+                "bOverrideLevelType": false,
+                "SpawnLevelTypeOverride": "EAISpawnLevelType::PermanentLevel",
+                "LevelOverride": 0,
+                "LevelMin": 0,
+                "LevelMax": 0,
+                "QuestSpawnPointOverrideIDs": [],
+                "SpawnOnlyWhenDeadNumExceeds": 0,
+                "SpawnDelayTime": 0.0,
+                "SpawnIntervalTime": 0.0,
+                "IdleStatesOverride": [],
+                "IdleStateTargetPointsContainer": [],
+                "SpawnProbability": 1.0,
+                "AIControllerOverride": {
+                  "ObjectName": "BlueprintGeneratedClass'mon_14_ControllerBP_World_C'",
+                  "ObjectPath": "/Game/Blueprints/Character/Monster/mon_14/World/mon_14_ControllerBP_World.3"
+                },
+                "AdditionalTags": [],
+                "AISettingsOverrideID": "mon_14_World_BP_Gold_Lv1_DataPack0",
+                "AIConfigOverrideID": "None",
+                "FleeTargetPoints": [],
+                "AILeaveBattleType": "EAILeaveBattleType::AILBNormal",
+                "bUseDataTable": true
+              },
+              {
+                "AITemplate": {
+                  "AssetPathName": "/Game/Blueprints/Character/Monster/mon_14/ResourceClone/mon_14_World_BP_Gold_Lv1.mon_14_World_BP_Gold_Lv1_C",
+                  "SubPathString": ""
+                },
+                "AITemplateCache": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                },
+                "Count": 2,
+                "SpawnTransformPointsOverride": [
+                  {
+                    "Rotation": {
+                      "X": -0.0,
+                      "Y": 0.0,
+                      "Z": -0.98527765,
+                      "W": 0.17096187,
+                      "IsNormalized": true,
+                      "Size": 1.0,
+                      "SizeSquared": 1.0
+                    },
+                    "Translation": {
+                      "X": 21890.0,
+                      "Y": 54790.0,
+                      "Z": 110.0
+                    },
+                    "Scale3D": {
+                      "X": 1.0,
+                      "Y": 1.0,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Rotation": {
+                      "X": -0.0,
+                      "Y": 0.0,
+                      "Z": -0.6343933,
+                      "W": 0.77301043,
+                      "IsNormalized": true,
+                      "Size": 1.0,
+                      "SizeSquared": 1.0
+                    },
+                    "Translation": {
+                      "X": 21890.0,
+                      "Y": 54790.0,
+                      "Z": 110.0
+                    },
+                    "Scale3D": {
+                      "X": 1.0,
+                      "Y": 1.0,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SpawnTransformPointsTags": [],
+                "bOverrideLevelType": false,
+                "SpawnLevelTypeOverride": "EAISpawnLevelType::PermanentLevel",
+                "LevelOverride": 0,
+                "LevelMin": 0,
+                "LevelMax": 0,
+                "QuestSpawnPointOverrideIDs": [],
+                "SpawnOnlyWhenDeadNumExceeds": 4,
+                "SpawnDelayTime": 1.0,
+                "SpawnIntervalTime": 0.0,
+                "IdleStatesOverride": [],
+                "IdleStateTargetPointsContainer": [],
+                "SpawnProbability": 1.0,
+                "AIControllerOverride": {
+                  "ObjectName": "BlueprintGeneratedClass'mon_14_ControllerBP_World_C'",
+                  "ObjectPath": "/Game/Blueprints/Character/Monster/mon_14/World/mon_14_ControllerBP_World.3"
+                },
+                "AdditionalTags": [],
+                "AISettingsOverrideID": "mon_14_World_BP_Gold_Lv1_DataPack0",
+                "AIConfigOverrideID": "None",
+                "FleeTargetPoints": [],
+                "AILeaveBattleType": "EAILeaveBattleType::AILBNormal",
+                "bUseDataTable": true
+              }
+            ],
+            "WaveDelayTime": 0.0,
+            "Weight": 1.0,
+            "ChangeSpawnEntriesID": "None",
+            "ChangeEntryType": "EDynamicChangeEntryType::ChangeByRowID",
+            "bNeedAdditionalDropItem": false
+          }
+        ]
+      }
+    }
+  }
+]

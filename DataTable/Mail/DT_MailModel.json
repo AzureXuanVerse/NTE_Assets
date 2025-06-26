@@ -1,0 +1,112 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_MailModel",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'HTMailModel'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "mail_common": {
+        "MailType": "EHTMailType::MT_PLAYER",
+        "MailSubType": "EHTMailSubType::MT_Sub_Default",
+        "MailTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Mail_FullBag",
+          "SourceString": "【背包已满】请查收失物",
+          "LocalizedString": "【背包已满】请查收失物"
+        },
+        "MailSubTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Mail_FullBag",
+          "SourceString": "【背包已满】请查收失物",
+          "LocalizedString": "【背包已满】请查收失物"
+        },
+        "MailContent": {
+          "CultureInvariantString": null
+        },
+        "MailParams": "",
+        "MailSender": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Mail_FuBag_Sender",
+          "SourceString": "巡警蚁",
+          "LocalizedString": "巡警蚁"
+        },
+        "MailAttachStr": "",
+        "MailConditions": "",
+        "MailExpiryTimeDays": 30,
+        "MailPath": 900,
+        "bIsPermanent": false,
+        "Hyperlinks": ""
+      },
+      "mail_visionsoul": {
+        "MailType": "EHTMailType::MT_PLAYER",
+        "MailSubType": "EHTMailSubType::MT_Sub_Default",
+        "MailTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Mail_Fork",
+          "SourceString": "【弧盘捕获遗漏】请查收未捕获弧盘",
+          "LocalizedString": "【弧盘捕获遗漏】请查收未捕获弧盘"
+        },
+        "MailSubTitle": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Mail_Fork",
+          "SourceString": "【弧盘捕获遗漏】请查收未捕获弧盘",
+          "LocalizedString": "【弧盘捕获遗漏】请查收未捕获弧盘"
+        },
+        "MailContent": {
+          "CultureInvariantString": null
+        },
+        "MailParams": "",
+        "MailSender": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Mail_Fork_Sender",
+          "SourceString": "巡警蚁",
+          "LocalizedString": "巡警蚁"
+        },
+        "MailAttachStr": "",
+        "MailConditions": "",
+        "MailExpiryTimeDays": 30,
+        "MailPath": 0,
+        "bIsPermanent": false,
+        "Hyperlinks": ""
+      },
+      "mail_forklottery": {
+        "MailType": "EHTMailType::MT_PLAYER",
+        "MailSubType": "EHTMailSubType::MT_Sub_Default",
+        "MailTitle": {
+          "Namespace": "",
+          "Key": "EA4BA34F4BD0A893C8C7AE876AE60423",
+          "SourceString": "【弧盘抽奖遗漏】请查收弧盘",
+          "LocalizedString": "【弧盘抽奖遗漏】请查收弧盘"
+        },
+        "MailSubTitle": {
+          "Namespace": "",
+          "Key": "925756AA4D32227C70911A9752760015",
+          "SourceString": "【弧盘抽奖遗漏】请查收弧盘",
+          "LocalizedString": "【弧盘抽奖遗漏】请查收弧盘"
+        },
+        "MailContent": {
+          "CultureInvariantString": null
+        },
+        "MailParams": "",
+        "MailSender": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Mail_Fork_Sender",
+          "SourceString": "巡警蚁",
+          "LocalizedString": "巡警蚁"
+        },
+        "MailAttachStr": "",
+        "MailConditions": "",
+        "MailExpiryTimeDays": 30,
+        "MailPath": 0,
+        "bIsPermanent": false,
+        "Hyperlinks": ""
+      }
+    }
+  }
+]

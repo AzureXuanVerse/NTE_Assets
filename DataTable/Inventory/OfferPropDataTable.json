@@ -1,0 +1,376 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "OfferPropDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'OfferPropData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NPC1": {
+        "OfferPropTag": [
+          "Food"
+        ],
+        "OfferName": {
+          "Namespace": "",
+          "Key": "973E95C4479BABB08EE0D89E6BEA6390",
+          "SourceString": "赠送",
+          "LocalizedString": "赠送"
+        },
+        "TypeNums": [
+          2,
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "Food_001",
+                "Num": 2
+              },
+              {
+                "PropID": "Food_002",
+                "Num": 1
+              }
+            ],
+            "Effect": 1
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "Food_002",
+                "Num": 2
+              },
+              {
+                "PropID": "Food_001",
+                "Num": 1
+              }
+            ],
+            "Effect": 2
+          }
+        ],
+        "bCanOfferUnmatchedProps": true
+      },
+      "L110044": {
+        "OfferPropTag": [
+          "Flower"
+        ],
+        "OfferName": {
+          "Namespace": "",
+          "Key": "DA0664564098185BE77BBA8A6B99D5F7",
+          "SourceString": "赠送",
+          "LocalizedString": "赠送"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "Item_L110042_01",
+                "Num": 1
+              }
+            ],
+            "Effect": 1
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "Item_L110042_02",
+                "Num": 1
+              }
+            ],
+            "Effect": 2
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "Item_L110042_03",
+                "Num": 1
+              }
+            ],
+            "Effect": 3
+          }
+        ],
+        "bCanOfferUnmatchedProps": true
+      },
+      "Mu_Lamp01_Key": {
+        "OfferPropTag": [
+          "Mu_Lamp01_Key"
+        ],
+        "OfferName": {
+          "Namespace": "",
+          "Key": "A2F61EF540075DC495F093B62CBD3295",
+          "SourceString": "故事1-获得道具书",
+          "LocalizedString": "故事1-获得道具书"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_Key",
+                "Num": 1
+              }
+            ],
+            "Effect": 0
+          }
+        ],
+        "bCanOfferUnmatchedProps": true
+      },
+      "Mu_Lamp01_RedBear": {
+        "OfferPropTag": [
+          "Mu_Lamp01_RedBear"
+        ],
+        "OfferName": {
+          "Namespace": "",
+          "Key": "978E1DDC40A9F03F1788CEACBC7448F2",
+          "SourceString": "故事2-获得玩具熊",
+          "LocalizedString": "故事2-获得玩具熊"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_RedBear",
+                "Num": 1
+              }
+            ],
+            "Effect": 0
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_BadBear",
+                "Num": 1
+              }
+            ],
+            "Effect": 1
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_YellowCat",
+                "Num": 1
+              }
+            ],
+            "Effect": 2
+          }
+        ],
+        "bCanOfferUnmatchedProps": true
+      },
+      "Mu_Lamp01_DesignDrawing": {
+        "OfferPropTag": [
+          "Mu_Lamp01_DesignDrawing"
+        ],
+        "OfferName": {
+          "Namespace": "",
+          "Key": "8D2C49FC4A81CFBBE48913AF0F658E74",
+          "SourceString": "故事4-获得设计图",
+          "LocalizedString": "故事4-获得设计图"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_Color_01",
+                "Num": 1
+              }
+            ],
+            "Effect": 0
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_Color_02",
+                "Num": 1
+              }
+            ],
+            "Effect": 1
+          }
+        ],
+        "bCanOfferUnmatchedProps": true
+      },
+      "Mu_Lamp01_Story_01": {
+        "OfferPropTag": [
+          "Mu_Lamp01_Story_01"
+        ],
+        "OfferName": {
+          "Namespace": "",
+          "Key": "875D91E349D64E589A396EA6AB5BF9B2",
+          "SourceString": "完成故事1",
+          "LocalizedString": "完成故事1"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_StoryBook_01",
+                "Num": 1
+              }
+            ],
+            "Effect": 0
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_StoryBook_02",
+                "Num": 1
+              }
+            ],
+            "Effect": 1
+          }
+        ],
+        "bCanOfferUnmatchedProps": true
+      },
+      "Mu_Lamp01_Story_02": {
+        "OfferPropTag": [
+          "Mu_Lamp01_Story_02"
+        ],
+        "OfferName": {
+          "Namespace": "",
+          "Key": "E119A16E4A1627F277325BA1B09A0792",
+          "SourceString": "完成故事2",
+          "LocalizedString": "完成故事2"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_YellowCat",
+                "Num": 1
+              }
+            ],
+            "Effect": 0
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_RedBear_01",
+                "Num": 1
+              }
+            ],
+            "Effect": 1
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_RedBear_02",
+                "Num": 1
+              }
+            ],
+            "Effect": 2
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_BadBear",
+                "Num": 1
+              }
+            ],
+            "Effect": 2
+          }
+        ],
+        "bCanOfferUnmatchedProps": true
+      },
+      "Mu_Lamp01_Story_03": {
+        "OfferPropTag": [
+          "Mu_Lamp01_Story_03"
+        ],
+        "OfferName": {
+          "Namespace": "",
+          "Key": "791497A44CE7ECC53D8C579A96D05423",
+          "SourceString": "完成故事3",
+          "LocalizedString": "完成故事3"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_CookDaily",
+                "Num": 1
+              }
+            ],
+            "Effect": 0
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_CookFormula",
+                "Num": 1
+              }
+            ],
+            "Effect": 1
+          }
+        ],
+        "bCanOfferUnmatchedProps": true
+      },
+      "Mu_Lamp01_Story_04": {
+        "OfferPropTag": [
+          "Mu_Lamp01_Story_04"
+        ],
+        "OfferName": {
+          "Namespace": "",
+          "Key": "5AFB357945852AC309A66DAE51D5E5AA",
+          "SourceString": "完成故事4",
+          "LocalizedString": "完成故事4"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_DesignDrawing",
+                "Num": 1
+              }
+            ],
+            "Effect": 0
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_Color_02",
+                "Num": 1
+              }
+            ],
+            "Effect": 1
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "Yahaha_Mu_Lamp01_Color_01",
+                "Num": 0
+              }
+            ],
+            "Effect": 2
+          }
+        ],
+        "bCanOfferUnmatchedProps": true
+      }
+    }
+  }
+]

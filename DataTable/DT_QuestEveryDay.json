@@ -1,0 +1,1077 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_QuestEveryDay",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'QuestData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "eq10001": {
+        "QuestId": "eq10001",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_QuestEveryDay.ST_QuestEveryDay",
+          "Key": "eq10001_name",
+          "SourceString": "进行1次同城委托",
+          "LocalizedString": "进行1次同城委托"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "ObjectiveID": "None",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_TAKE_ORDERS",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EVERYDAY",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "ItemID": "Activation",
+              "Amount": 30,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              }
+            }
+          ],
+          "bShowAwardWindow": false,
+          "bShowInPanel": true
+        },
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": {
+          "QuestIcon": {
+            "AssetPathName": "/Game/UI/UI/AdventureManual/UI_YH_TSZN_Daily_List_Icon_04.UI_YH_TSZN_Daily_List_Icon_04",
+            "SubPathString": ""
+          },
+          "QuestDisplayName": {
+            "CultureInvariantString": null
+          },
+          "Acceptable_Random": true
+        },
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "WB_CityLive"
+          ],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "eq10002": {
+        "QuestId": "eq10002",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_QuestEveryDay.ST_QuestEveryDay",
+          "Key": "eq10002_name",
+          "SourceString": "任意消费1次方斯",
+          "LocalizedString": "任意消费1次方斯"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bNeedItemsByType": false,
+            "ItemType": "EItemType::ITEM_TYPE_NONE",
+            "bNeedNewAdd": true,
+            "bUseItem": true,
+            "ItemIDArray": [
+              "Fons"
+            ],
+            "ObjectiveID": "None",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_ITEM_BAG",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EVERYDAY",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "ItemID": "Activation",
+              "Amount": 10,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              }
+            }
+          ],
+          "bShowAwardWindow": false,
+          "bShowInPanel": true
+        },
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": {
+          "QuestIcon": {
+            "AssetPathName": "/Game/UI/UI/AdventureManual/UI_YH_TSZN_Daily_List_Icon_05.UI_YH_TSZN_Daily_List_Icon_05",
+            "SubPathString": ""
+          },
+          "QuestDisplayName": {
+            "CultureInvariantString": null
+          },
+          "Acceptable_Random": true
+        },
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "Mall"
+          ],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "eq10003": {
+        "QuestId": "eq10003",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_QuestEveryDay.ST_QuestEveryDay",
+          "Key": "eq10003_name",
+          "SourceString": "累计消耗180点本性像素",
+          "LocalizedString": "累计消耗180点本性像素"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "ObjectiveID": "None",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_STAMINA_USED",
+            "Amount": 180,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EVERYDAY",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "ItemID": "Activation",
+              "Amount": 30,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              }
+            }
+          ],
+          "bShowAwardWindow": false,
+          "bShowInPanel": true
+        },
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": {
+          "QuestIcon": {
+            "AssetPathName": "/Game/UI/UI/AdventureManual/UI_YH_TSZN_Daily_List_Icon_08.UI_YH_TSZN_Daily_List_Icon_08",
+            "SubPathString": ""
+          },
+          "QuestDisplayName": {
+            "CultureInvariantString": null
+          },
+          "Acceptable_Random": true
+        },
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_AdventureManual",
+          "UIParaming": [
+            "2"
+          ],
+          "UnlockFunctionID": "AdventureClone"
+        },
+        "TrialCharacterID": "None"
+      },
+      "eq10004": {
+        "QuestId": "eq10004",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_QuestEveryDay.ST_QuestEveryDay",
+          "Key": "eq10004_name",
+          "SourceString": "累计击败5个敌人",
+          "LocalizedString": "累计击败5个敌人"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "MonsterTagList": [],
+            "bNeedShowKillMark": false,
+            "ObjectiveID": "eq10004",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_KILL",
+            "Amount": 5,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EVERYDAY",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "ItemID": "Activation",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              }
+            }
+          ],
+          "bShowAwardWindow": false,
+          "bShowInPanel": true
+        },
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": {
+          "QuestIcon": {
+            "AssetPathName": "/Game/UI/UI/AdventureManual/UI_YH_TSZN_Daily_List_Icon_06.UI_YH_TSZN_Daily_List_Icon_06",
+            "SubPathString": ""
+          },
+          "QuestDisplayName": {
+            "CultureInvariantString": null
+          },
+          "Acceptable_Random": true
+        },
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_AdventureManual",
+          "UIParaming": [
+            "2"
+          ],
+          "UnlockFunctionID": "AdventureClone"
+        },
+        "TrialCharacterID": "None"
+      },
+      "eq10005": {
+        "QuestId": "eq10005",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_QuestEveryDay.ST_QuestEveryDay",
+          "Key": "eq10005_name",
+          "SourceString": "释放3次极轨攻击",
+          "LocalizedString": "释放3次极轨攻击"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "GameplayTags": [
+              {
+                "TagName": "Ability.UltraSkill"
+              }
+            ],
+            "ObjectiveID": "None",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_ABILIRY_USED",
+            "Amount": 3,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EVERYDAY",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "ItemID": "Activation",
+              "Amount": 10,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              }
+            }
+          ],
+          "bShowAwardWindow": false,
+          "bShowInPanel": true
+        },
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": {
+          "QuestIcon": {
+            "AssetPathName": "/Game/UI/UI/AdventureManual/UI_YH_TSZN_Daily_List_Icon_03.UI_YH_TSZN_Daily_List_Icon_03",
+            "SubPathString": ""
+          },
+          "QuestDisplayName": {
+            "CultureInvariantString": null
+          },
+          "Acceptable_Random": true
+        },
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_AdventureManual",
+          "UIParaming": [
+            "2"
+          ],
+          "UnlockFunctionID": "AdventureClone"
+        },
+        "TrialCharacterID": "None"
+      },
+      "eq10006": {
+        "QuestId": "eq10006",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_QuestEveryDay.ST_QuestEveryDay",
+          "Key": "eq10006_name",
+          "SourceString": "赠送1次礼物",
+          "LocalizedString": "赠送1次礼物"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "ObjectiveID": "None",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_SEND_GIFT",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EVERYDAY",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "ItemID": "Activation",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              }
+            }
+          ],
+          "bShowAwardWindow": false,
+          "bShowInPanel": true
+        },
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": {
+          "QuestIcon": {
+            "AssetPathName": "/Game/UI/UI/AdventureManual/UI_YH_TSZN_Daily_List_Icon_02.UI_YH_TSZN_Daily_List_Icon_02",
+            "SubPathString": ""
+          },
+          "QuestDisplayName": {
+            "CultureInvariantString": null
+          },
+          "Acceptable_Random": true
+        },
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "LikeabilityMain"
+          ],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "eq10007": {
+        "QuestId": "eq10007",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_QuestEveryDay.ST_QuestEveryDay",
+          "Key": "eq10007_name",
+          "SourceString": "登录游戏",
+          "LocalizedString": "登录游戏"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "ObjectiveID": "None",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_DAILY_SIGN",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EVERYDAY",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "ItemID": "Activation",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              }
+            }
+          ],
+          "bShowAwardWindow": false,
+          "bShowInPanel": true
+        },
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": {
+          "QuestIcon": {
+            "AssetPathName": "/Game/UI/UI/AdventureManual/UI_YH_TSZN_Daily_List_Icon_01.UI_YH_TSZN_Daily_List_Icon_01",
+            "SubPathString": ""
+          },
+          "QuestDisplayName": {
+            "CultureInvariantString": null
+          },
+          "Acceptable_Random": true
+        },
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "eq10008": {
+        "QuestId": "eq10008",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_QuestEveryDay.ST_QuestEveryDay",
+          "Key": "eq10008_name",
+          "SourceString": "提升1次弧盘等级",
+          "LocalizedString": "提升1次弧盘等级"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "NotifyItemType": "ENotifyItemType::NOTIFY_CHARACTER_FORK",
+            "Level": 1,
+            "ObjectiveID": "None",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_ITEM_LEVEL",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EVERYDAY",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "None"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": true,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "ItemID": "Activation",
+              "Amount": 20,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              }
+            }
+          ],
+          "bShowAwardWindow": false,
+          "bShowInPanel": true
+        },
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": {
+          "QuestIcon": {
+            "AssetPathName": "/Game/UI/UI/AdventureManual/UI_YH_TSZN_Daily_List_Icon_07.UI_YH_TSZN_Daily_List_Icon_07",
+            "SubPathString": ""
+          },
+          "QuestDisplayName": {
+            "CultureInvariantString": null
+          },
+          "Acceptable_Random": true
+        },
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_ForkLevel",
+          "UIParaming": [
+            "CharacterMainform",
+            "CharacterInfo"
+          ],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      }
+    }
+  }
+]

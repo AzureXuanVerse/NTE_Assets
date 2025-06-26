@@ -1,0 +1,972 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_UpdaterText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'UpdaterText'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "ui_patcher_01": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "更新"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Update"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "更新"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "更新"
+          }
+        ]
+      },
+      "ui_patcher_02": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "退出"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Exit"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "終了"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "退出"
+          }
+        ]
+      },
+      "ui_patcher_03": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "重试"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Retry"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "リトライ"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "重試"
+          }
+        ]
+      },
+      "ui_patcher_04": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "您当前正在使用移动网络，继续更新将消耗流量，是否继续更新？"
+          },
+          {
+            "Language": "en",
+            "TextValue": "You are using mobile network. Continuing the update will consume data. Continue?"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "現在モバイルデータ通信を使用中。更新はデータ量を消費します。続けますか？"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "您當前正在使用移動網路，繼續更新將消耗流量，是否繼續更新？"
+          }
+        ]
+      },
+      "ui_patcher_05": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "取消"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Cancel"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "キャンセル"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "取消"
+          }
+        ]
+      },
+      "ui_patcher_06": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "需要重启应用"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Restart Required"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "アプリを再起動してください"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "需要重啟應用"
+          }
+        ]
+      },
+      "ui_patcher_07": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "重启"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Restart"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "再起動"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "重啟"
+          }
+        ]
+      },
+      "ui_patcher_08": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "健康游戏忠告"
+          }
+        ]
+      },
+      "ui_patcher_08_1": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "抵制不良游戏，拒绝盗版游戏"
+          }
+        ]
+      },
+      "ui_patcher_08_2": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "注意自我保护，谨防受骗上当"
+          }
+        ]
+      },
+      "ui_patcher_08_3": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "适度游戏益脑，沉迷游戏伤身"
+          }
+        ]
+      },
+      "ui_patcher_08_4": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "合理安排时间，享受健康生活"
+          }
+        ]
+      },
+      "ui_patcher_08_5": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "警告：请在游戏前详阅"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Warning: Read Before Playing"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "警告：プレイ前にお読みください"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "警告：請在遊戲前詳閱"
+          }
+        ]
+      },
+      "ui_patcher_08_6": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "当暴露在特定光影图案或闪光光亮下时，有极少数人群会引发癫痫。甚至连不具有癫痫史的人，也可能在进行电子游戏时，出现类似癫痫症状。如果您或您的家人曾出现过癫痫症状，请在游玩本游戏之前咨询您的医生。如果您在游玩本游戏时出现视力模糊、头晕、失去意识、方向混乱、不自觉肌肉痉挛、眼抽搐或麻木等症状，请立即中止游戏及时就医，并且请您再次进行本游戏之前咨询您的医生。"
+          },
+          {
+            "Language": "en",
+            "TextValue": "A very small number of people may experience seizures when exposed to specific patterns of light and flashes. Even those without a history of epilepsy may experience seizure-like symptoms during video games. If you or your family have experienced symptoms of epilepsy, consult your doctor before playing this game. If you experience symptoms like blurred vision, dizziness, unconsciousness, disorientation, seizures, eye twitching, or numbness while playing, stop immediately and seek medical advice. Consult your doctor again before resuming the game."
+          },
+          {
+            "Language": "ja",
+            "TextValue": "明暗のコントラストが強い画面や、激しく点滅する映像を視聴すると、まれにてんかん発作が引き起こされる場合があります。こうした既往歴がない方でも、デジタルゲームをプレイすることで似たような症状が起きる可能性があります。ご自身やご家族に類似の症状または経験がありましたら、プレイ前に専門医にお問い合わせください。また、プレイ中に視界がぼやけたり、めまい、失神、方向感覚の喪失、体や目の筋肉のけいれん、体が痺れるなどの症状が起きた場合は、ただちにゲームを中断し、医療機関を受診してください。その際、ゲーム継続の可否についても医師にご確認ください。"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "當暴露在特定光影圖案或閃光光亮下時，有極少數人群會引發癲癇。甚至連不具有癲癇史的人，也可能在進行電子遊戲時，出現類似癲癇症狀。如果您或您的家人曾出現過癲癇症狀，請在遊玩本遊戲之前諮詢您的醫生。如果您在遊玩本遊戲時出現視力模糊、頭暈、失去意識、方向混亂、不自覺肌肉痙攣、眼抽搐或麻木等症狀，請立即中止遊戲及時就醫，並且請您再次進行本遊戲之前諮詢您的醫生。"
+          }
+        ]
+      },
+      "ui_patcher_08_7": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "合理安排时间"
+          }
+        ]
+      },
+      "ui_patcher_08_8": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "享受健康生活"
+          }
+        ]
+      },
+      "ui_patcher_08_9": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "本网络游戏适合年满16岁以上的用户使用，请您确定已如实进行实名注册，为了您的健康，请合理控制游戏时间"
+          }
+        ]
+      },
+      "ui_patcher_08_10": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "软著登记号：2023SR0987580 苏网文〔2024〕0998-041号"
+          }
+        ]
+      },
+      "ui_patcher_08_11": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "软著登记号：2023SR0524887 苏网文〔2024〕0998-041号"
+          }
+        ]
+      },
+      "ui_patcher_08_12": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "著作权人：苏州幻塔网络科技有限公司  出版单位：合肥完美世界网络技术有限公司"
+          }
+        ]
+      },
+      "ui_patcher_08_14": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "软著登记号：2024SR0231515 苏网文〔2024〕0998-041号"
+          }
+        ]
+      },
+      "ui_patcher_09": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "更新失败，请重新尝试"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Update failed, please try again"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "更新失敗。もう一度お試しください"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "更新失敗，請重新嘗試"
+          }
+        ]
+      },
+      "ui_patcher_10": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "存储空间不足无法更新"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Insufficient Storage"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "ストレージが足りないため、更新できません"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "儲存空間不足無法更新"
+          }
+        ]
+      },
+      "ui_patcher_app_force_update": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "当前版本为{0}需要更新到{1}版本才能进行游戏"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Currently at Ver. {0}. Ver. {1} required"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "現在はバージョン{0}です。バージョン{1}に更新してからゲームを始めてください"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "當前版本為{0}需要更新到{1}版本才能進行遊戲"
+          }
+        ]
+      },
+      "ui_patcher_app_needupdate": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "客户端有更新，请更新客户端后重试。"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Client update available, update and retry."
+          },
+          {
+            "Language": "ja",
+            "TextValue": "アプリに最新版があります。更新後もう一度お試しください。"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "遊戲有更新，請更新遊戲後重試。"
+          }
+        ]
+      },
+      "ui_patcher_app_nonforce_update": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "当前版本为{0}更新到{1}版本后才能体验到完整的游戏，是否要更新到最新版本"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Currently at Ver. {0}. Update to Ver. {1} for a complete experience. Update?"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "現在はバージョン{0}です。バージョン{1}更新後にすべてのコンテンツを体験できます。最新バージョンに更新しますか？"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "當前版本為{0}更新到{1}版本後才能體驗到完整的遊戲，是否要更新到最新版本"
+          }
+        ]
+      },
+      "ui_patcher_app_version_info": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "版本 {0}   资源{1}"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Ver. {0} Asset {1}"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "バージョン {0} リソース{1}"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "版本 {0}   資源{1}"
+          }
+        ]
+      },
+      "ui_patcher_download_info": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "本次下载{0}，速度{1}/秒 ({2})【支持后台更新】"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Size {0}, speed {1}/s ({2}) [Background update supported]"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "{0}をダウンロードしています。速度：{1}/秒 ({2})【バックグラウンドで更新を続けられます】"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "本次下載{0}，速度{1}/秒 ({2})【支援後臺更新】"
+          }
+        ]
+      },
+      "ui_patcher_error_1": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "更新参数错误"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Update parameter error"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "更新パラメータエラー"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "更新參數錯誤"
+          }
+        ]
+      },
+      "ui_patcher_error_2": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "更新失败"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Update failed"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "更新失敗しました"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "更新失敗"
+          }
+        ]
+      },
+      "ui_patcher_error_3": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "域名解析失败"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Domain name parsing failed"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "エリア名解析失敗しました"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "域名解析失敗"
+          }
+        ]
+      },
+      "ui_patcher_error_4": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "无法连接服务器"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Can't connect to server"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "サーバーに接続できません"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "無法連接伺服器"
+          }
+        ]
+      },
+      "ui_patcher_error_5": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "连接超时"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Connection timed out"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "接続がタイムアウトしました"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "連接超時"
+          }
+        ]
+      },
+      "ui_patcher_error_6": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "更新失败"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Update failed"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "更新失敗しました"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "更新失敗"
+          }
+        ]
+      },
+      "ui_patcher_error_7": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "网络异常"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Network Error"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "ネットワークが異常です"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "網路異常"
+          }
+        ]
+      },
+      "ui_patcher_error_8": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "更新失败"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Update failed"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "更新失敗しました"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "更新失敗"
+          }
+        ]
+      },
+      "ui_patcher_error_9": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "更新失败"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Update failed"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "更新失敗しました"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "更新失敗"
+          }
+        ]
+      },
+      "ui_patcher_error_10": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "请求失败"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Request denied"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "請求失敗しました"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "請求失敗"
+          }
+        ]
+      },
+      "ui_patcher_error_11": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "更新失败"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Update failed"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "更新失敗しました"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "更新失敗"
+          }
+        ]
+      },
+      "ui_patcher_error_12": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "更新失败"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Update failed"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "更新失敗しました"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "更新失敗"
+          }
+        ]
+      },
+      "ui_patcher_error_13": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "运行中，不可重复操作"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Running, repeated action"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "進行中、重複して操作できません"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "運行中，不可重複操作"
+          }
+        ]
+      },
+      "ui_patcher_error_14": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "客户端版本不匹配"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Version Mismatch"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "クライアントのバージョンが正しくありません"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "遊戲版本不匹配"
+          }
+        ]
+      },
+      "ui_patcher_error_15": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "资源更新失败"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Resource update failed"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "リソースの更新に失敗しました"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "資源更新失敗"
+          }
+        ]
+      },
+      "ui_patcher_error_16": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "资源验证检查失败"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Resource verification failed"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "リソースの検証に失敗しました"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "資源驗證檢查失敗"
+          }
+        ]
+      },
+      "ui_patcher_error_17": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "解压失败"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Uncompressing failed"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "解凍失敗しました"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "解壓失敗"
+          }
+        ]
+      },
+      "ui_patcher_error_18": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "更新失败"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Update failed"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "更新失敗しました"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "更新失敗"
+          }
+        ]
+      },
+      "ui_patcher_error_19": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "资源错误"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Resource error"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "リソースエラー"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "資源錯誤"
+          }
+        ]
+      },
+      "ui_patcher_error_20": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "空间不足"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Insufficient Storage"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "ストレージが足りません"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "空間不足"
+          }
+        ]
+      },
+      "ui_patcher_error_21": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "更新失败"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Update failed"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "更新失敗しました"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "更新失敗"
+          }
+        ]
+      },
+      "ui_patcher_error_22": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "更新失败"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Update failed"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "更新失敗しました"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "更新失敗"
+          }
+        ]
+      },
+      "ui_patcher_error_23": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "更新文件错误"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Update file error"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "更新ファイルエラー"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "更新檔錯誤"
+          }
+        ]
+      },
+      "ui_patcher_error_24": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "文件丢失"
+          },
+          {
+            "Language": "en",
+            "TextValue": "File lost"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "ファイルが見つかりません"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "檔案丟失"
+          }
+        ]
+      },
+      "ui_patcher_error_25": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "更新失败"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Update failed"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "更新失敗しました"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "更新失敗"
+          }
+        ]
+      },
+      "ui_patcher_pso_precompiles": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "着色器编译中"
+          },
+          {
+            "Language": "en",
+            "TextValue": "Compiling Shaders"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "シェーダーのコンパイル中"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": "著色器編譯中"
+          }
+        ]
+      },
+      "ui_patcher_needrestart": {
+        "TextForLanguage": [
+          {
+            "Language": "zh-CN",
+            "TextValue": "更新成功，需要重启游戏。"
+          },
+          {
+            "Language": "en",
+            "TextValue": "更新成功，需要重启游戏。"
+          },
+          {
+            "Language": "ja",
+            "TextValue": "更新成功，需要重启游戏。"
+          },
+          {
+            "Language": "zh-Hant",
+            "TextValue": ""
+          }
+        ]
+      }
+    }
+  }
+]

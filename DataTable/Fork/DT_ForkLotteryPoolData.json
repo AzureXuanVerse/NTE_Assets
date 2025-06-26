@@ -1,0 +1,115 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ForkLotteryPoolData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'StaticForkLotteryPoolData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1": {
+        "Name": {
+          "Namespace": "",
+          "Key": "B0E18C3C4323F4F6A55E80B9508CFF03",
+          "SourceString": "奇迹盒盒",
+          "LocalizedString": "奇迹盒盒"
+        },
+        "duration": 240,
+        "ShowText1": {
+          "Namespace": "",
+          "Key": "C9F887CE4B896C3B61AAE08E867FEB92",
+          "SourceString": "猛虎特刊",
+          "LocalizedString": "猛虎特刊"
+        },
+        "ShowText2": {
+          "Namespace": "",
+          "Key": "9021E9E34B9583E930564F802C5D7B7E",
+          "SourceString": "限定弧盘概率提升",
+          "LocalizedString": "限定弧盘概率提升"
+        },
+        "Bg": {
+          "AssetPathName": "/Game/UI/UI/ForkShop/YH_HPSC_SP01.YH_HPSC_SP01",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/ForkShop/YH_HPSC_Box01.YH_HPSC_Box01",
+          "SubPathString": ""
+        },
+        "CurrencyID": "WeaponGacha",
+        "CurrencyCnt": 10,
+        "OnceLotteryCnt": 10,
+        "ShowRewards": [
+          {
+            "ItemID": "Fork_TigerTally",
+            "IsUp": true
+          },
+          {
+            "ItemID": "fork_mofeikesi",
+            "IsUp": false
+          },
+          {
+            "ItemID": "fork_jingmotingyuan",
+            "IsUp": false
+          },
+          {
+            "ItemID": "fork_wushoutieyu",
+            "IsUp": false
+          },
+          {
+            "ItemID": "fork_BitGame",
+            "IsUp": false
+          },
+          {
+            "ItemID": "fork_Arachne",
+            "IsUp": false
+          }
+        ],
+        "ExtraRewards": [
+          {
+            "Key": "ITEM_QUALITY_ORANGE",
+            "Value": {
+              "ItemList": [
+                {
+                  "ItemID": "Dice_ticket_01",
+                  "Amount": 40
+                }
+              ]
+            }
+          },
+          {
+            "Key": "ITEM_QUALITY_PURPLE",
+            "Value": {
+              "ItemList": [
+                {
+                  "ItemID": "Dice_ticket_01",
+                  "Amount": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "ITEM_QUALITY_BLUE",
+            "Value": {
+              "ItemList": [
+                {
+                  "ItemID": "Dice_ticket_02",
+                  "Amount": 20
+                }
+              ]
+            }
+          }
+        ],
+        "BaseDropID": "drop_ForkPull",
+        "UpList": [
+          "Fork_TigerTally"
+        ],
+        "UpGuaranteeCnt": 80,
+        "MailID": "None"
+      }
+    }
+  }
+]

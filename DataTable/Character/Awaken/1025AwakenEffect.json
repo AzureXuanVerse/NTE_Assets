@@ -1,0 +1,258 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "1025AwakenEffect",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'CharacterAwakenEffectData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1025": {
+        "AwakenEffectStructList": [
+          {
+            "EffectID": "Effect1",
+            "AwakenUnlockQuest": "None",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_star1_name",
+              "SourceString": "精英快递员",
+              "LocalizedString": "精英快递员"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1025_1.1025_1",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              {
+                "Buff": {
+                  "ObjectName": "BlueprintGeneratedClass'Buff_Hathor025_Level1_C'",
+                  "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_025_Hathor/Upgrade/Buff_Hathor025_Level1.0"
+                }
+              }
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_star1_des",
+              "SourceString": "当「闪送之力」叠加至<NumGreen>6</>层时，立即为技能「铁骑速递」完成蓄质。",
+              "LocalizedString": "当「闪送之力」叠加至<NumGreen>6</>层时，立即为技能「铁骑速递」完成蓄质。"
+            }
+          },
+          {
+            "EffectID": "Effect2",
+            "AwakenUnlockQuest": "None",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_star2_name",
+              "SourceString": "荆棘支配",
+              "LocalizedString": "荆棘支配"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1025_2.1025_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              {
+                "Buff": {
+                  "ObjectName": "BlueprintGeneratedClass'Buff_Hathor025_Level2_C'",
+                  "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_025_Hathor/Upgrade/Buff_Hathor025_Level2.0"
+                }
+              }
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_star2_des",
+              "SourceString": "「优评锁定」和「满星追踪」自然结束时，哈索尔同样可获得「闪送之力」。入战后首次长按「变轨攻击」，将直接获得<NumGreen>6</>层「闪送之力」。",
+              "LocalizedString": "「优评锁定」和「满星追踪」自然结束时，哈索尔同样可获得「闪送之力」。入战后首次长按「变轨攻击」，将直接获得<NumGreen>6</>层「闪送之力」。"
+            }
+          },
+          {
+            "EffectID": "Effect3",
+            "AwakenUnlockQuest": "None",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_star3_name",
+              "SourceString": "一翼失衡",
+              "LocalizedString": "一翼失衡"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1025_3.1025_3",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              {
+                "Buff": {
+                  "ObjectName": "BlueprintGeneratedClass'Buff_Hathor025_Level3_C'",
+                  "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_025_Hathor/Upgrade/Buff_Hathor025_Level3.0"
+                }
+              }
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_star3_des",
+              "SourceString": "哈索尔对非Boss目标造成的伤害提升<NumGreen>15%</>。",
+              "LocalizedString": "哈索尔对非Boss目标造成的伤害提升<NumGreen>15%</>。"
+            }
+          },
+          {
+            "EffectID": "Effect4",
+            "AwakenUnlockQuest": "None",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_star4_name",
+              "SourceString": "引擎共鸣",
+              "LocalizedString": "引擎共鸣"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1025_4.1025_4",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              {
+                "Buff": {
+                  "ObjectName": "BlueprintGeneratedClass'Buff_Hathor025_Level4_C'",
+                  "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_025_Hathor/Upgrade/Buff_Hathor025_Level4.0"
+                }
+              }
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_star4_des",
+              "SourceString": "处于「紧急派送」状态时，哈索尔每次成功释放「轮转打击」，都会使下一次「轮转打击」的暴击率提升<NumGreen>40%</>，该效果将在本次「紧急派送」状态结束后清除。",
+              "LocalizedString": "处于「紧急派送」状态时，哈索尔每次成功释放「轮转打击」，都会使下一次「轮转打击」的暴击率提升<NumGreen>40%</>，该效果将在本次「紧急派送」状态结束后清除。"
+            }
+          },
+          {
+            "EffectID": "Effect5",
+            "AwakenUnlockQuest": "None",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_star5_name",
+              "SourceString": "例行三明治",
+              "LocalizedString": "例行三明治"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1025_5.1025_5",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              {
+                "Buff": {
+                  "ObjectName": "BlueprintGeneratedClass'Buff_Hathor025_Level5_C'",
+                  "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_025_Hathor/Upgrade/Buff_Hathor025_Level5.0"
+                }
+              }
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_star5_des",
+              "SourceString": "每获得<NumGreen>1</>层「闪送之力」，哈索尔对目标造成的伤害提升<NumGreen>1%</>，该效果可叠加，最多提升至<NumGreen>15%</>，脱离战斗状态后效果会被移除。",
+              "LocalizedString": "每获得<NumGreen>1</>层「闪送之力」，哈索尔对目标造成的伤害提升<NumGreen>1%</>，该效果可叠加，最多提升至<NumGreen>15%</>，脱离战斗状态后效果会被移除。"
+            }
+          },
+          {
+            "EffectID": "Effect6",
+            "AwakenUnlockQuest": "None",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_star6_name",
+              "SourceString": "日常生活攻略中",
+              "LocalizedString": "日常生活攻略中"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1025_6.1025_6",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              {
+                "Buff": {
+                  "ObjectName": "BlueprintGeneratedClass'Buff_Hathor025_Level6_C'",
+                  "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_025_Hathor/Upgrade/Buff_Hathor025_Level6.0"
+                }
+              }
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Effect",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_star6_des",
+              "SourceString": "处于「紧急派送」状态时，哈索尔的暴击伤害提升<NumGreen>60%</>。",
+              "LocalizedString": "处于「紧急派送」状态时，哈索尔的暴击伤害提升<NumGreen>60%</>。"
+            }
+          },
+          {
+            "EffectID": "resonance_3",
+            "AwakenUnlockQuest": "None",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_starExtra1_name",
+              "SourceString": "运力加倍",
+              "LocalizedString": "运力加倍"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              {
+                "SkillName": "GA_Hathor_Skill",
+                "SkillLevel": 1
+              },
+              {
+                "SkillName": "GA_Hathor_UltraSkill",
+                "SkillLevel": 1
+              },
+              {
+                "SkillName": "GA_Hathor_Melee",
+                "SkillLevel": 1
+              }
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_starExtra1_des",
+              "SourceString": "「高频送达」、「空中指令」和「铁骑速递」的技能等级提升1级。",
+              "LocalizedString": "「高频送达」、「空中指令」和「铁骑速递」的技能等级提升1级。"
+            }
+          },
+          {
+            "EffectID": "resonance_6",
+            "AwakenUnlockQuest": "None",
+            "Title": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_starExtra2_name",
+              "SourceString": "无阻通行",
+              "LocalizedString": "无阻通行"
+            },
+            "AwakenIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1009_2.1009_2",
+              "SubPathString": ""
+            },
+            "ModifyDataList": [
+              {
+                "Buff": {
+                  "ObjectName": "BlueprintGeneratedClass'Buff_Hathor025_Level6_extra_C'",
+                  "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_025_Hathor/Upgrade/Buff_Hathor025_Level6_extra.0"
+                }
+              }
+            ],
+            "AwakenType": "EAwakenEffect::Awaken_Resonance",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_starExtra2_des",
+              "SourceString": "处于「紧急派送」状态下，哈索尔造成的伤害无视目标<NumGreen>10%</>的防御力。",
+              "LocalizedString": "处于「紧急派送」状态下，哈索尔造成的伤害无视目标<NumGreen>10%</>的防御力。"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

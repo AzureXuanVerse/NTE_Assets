@@ -1,0 +1,5799 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_UIClass",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'HTUIClassData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "UI_Login": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Login/BPUI_Login.BPUI_Login_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Game"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "UI_CreateRole": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Login/BPUI_CreateRole.BPUI_CreateRole_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Game"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Dialogue": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_Dialogue.BPUI_Dialogue_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Interaction": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_Interation.BPUI_Interation_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "None"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "MainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_MainForm.BPUI_MainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Game"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ServerList": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Login/BPUI_ServerList.BPUI_ServerList_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "SKillController": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Skill/BPUI_SkillController.BPUI_SkillController_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "None"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FightMessage": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Message/BPUI_Message.BPUI_Message_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Message"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GMPlayerState": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_ShowPlayerState.BPUI_ShowPlayerState_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GMConsole": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Gm/BPUI_GMConsole.BPUI_GMConsole_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterInfo": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterInfo.BPUI_CharacterInfo_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AzimuthController": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Track/UI_AzimuthController_BP.UI_AzimuthController_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Azimuth"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Cinematic": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Cinematic/UI_Cinema_BP.UI_Cinema_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "IntroduceVoiceMsg": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Cinematic/UW_IntroduceVoiceMsg_BP.UW_IntroduceVoiceMsg_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "None"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Bag": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Bag/BPUI_Bag.BPUI_Bag_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": true
+      },
+      "FadeAnimation": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Cinematic/UI_FadeAnimation_BP.UI_FadeAnimation_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Message"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Naming": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Login/BPUI_Naming.BPUI_Naming_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "BossHPBar": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/HeadUp/BPUI_BossHPBar.BPUI_BossHPBar_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.BossHP"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "IntroduceUI": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Cinematic/UI_SimpleDialogue.UI_SimpleDialogue_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Introduce"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GMFightData": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Gm/GM_Fight/BPUI_GMFightData.BPUI_GMFightData_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.VedioSequence"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AdjustTime": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/AdjustTime/BPUI_AdjustTime.BPUI_AdjustTime_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [
+          "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
+          "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL"
+        ],
+        "bIgnoreInput": true
+      },
+      "Loading": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Loading/BPUI_Loading.BPUI_Loading_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterDetail": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterDetail.BPUI_CharacterDetail_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DamageFloatiesForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Fight/BPUI_DamageFloatiesForm.BPUI_DamageFloatiesForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Damage"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "PropHighQualityCenterMsg": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Message/BPUI_PropHighQualityCenterMsg.BPUI_PropHighQualityCenterMsg_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "None"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "MessageBox": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/MessageBox/BPUI_MessageBox.BPUI_MessageBox_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "QuestPanel": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Quest/UI_QuestPanel_BP.UI_QuestPanel_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": true
+      },
+      "EasterEgg": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_Quit_Easter_Egg.BPUI_Quit_Easter_Egg_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Setting": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Setting/BPUI_Setting.BPUI_Setting_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": true
+      },
+      "ItemSlot": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/UW_ItemSlot_BP.UW_ItemSlot_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "None"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterUpgrade": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterUpgrade.BPUI_CharacterUpgrade_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FFMpegUI": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Fight/BPUI_SkillVedio.BPUI_SkillVedio_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.VedioSequence"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ChangeKey": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Setting/BPUI_Setting_ChangeKey.BPUI_Setting_ChangeKey_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GuideMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Guide/UI_GuideMain_BP.UI_GuideMain_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Menu": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Menu/BPUI_Menu.BPUI_Menu_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GainExp": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_GainExp.BPUI_GainExp_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": true,
+        "LayerName": {
+          "TagName": "Layer.OverTips"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterFormation": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterFormation.BPUI_CharacterFormation_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterFormationName": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterFormationName.BPUI_CharacterFormationName_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterMainform": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterMainForm.BPUI_CharacterMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": true
+      },
+      "CharacterList": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterList.BPUI_CharacterList_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FakeLoading": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Loading/BPUI_FakeLoading.BPUI_FakeLoading_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Loading"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GoodsDetail": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Shop/BPUI_GoodsDetail.BPUI_GoodsDetail_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "NPCShop": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Shop/BPUI_NPCShop.BPUI_NPCShop_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DlgInteraction": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_SideDialogue.BPUI_SideDialogue_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ForkTips": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Fork/BPUI_ForkTips.BPUI_ForkTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Tips"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "BigMap": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/BPUI_BigMapContainer.BPUI_BigMapContainer_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [
+          "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
+          "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL"
+        ],
+        "bIgnoreInput": true
+      },
+      "ForkList": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Fork/BPUI_ForkList.BPUI_ForkList_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ItemTipsBase": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Tips/BP_UIItemTipsBase.BP_UIItemTipsBase_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Tips"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ItemTips": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Tips/BP_UIItemTips.BP_UIItemTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Tips"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ReviewQuestMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Quest/UI_ReviewQuestMainForm.UI_ReviewQuestMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RoleReviewQuestItem": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Quest/UI_RoleReviewQuestItem.UI_RoleReviewQuestItem_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "TeachGuideMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/TeachGuide/UI_TeachGuideMainForm.UI_TeachGuideMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": true
+      },
+      "TeachGuideUnLockTips": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/TeachGuide/UI_TeachGuideUnLockTips.UI_TeachGuideUnLockTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "TeachGuideUnLockTipsPanel": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/TeachGuide/UI_TeachGuideUnLockTipsPanel.UI_TeachGuideUnLockTipsPanel_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LikeabilityMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/LikeabilitySystem/BPUI_LikeabilityMain.BPUI_LikeabilityMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": true
+      },
+      "CommonAwardsPopUpWindows": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Awards/UI_CommonAwardsPopUpWindows.UI_CommonAwardsPopUpWindows_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "IllustratedMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Illustrated/UI_IllustratedMainForm.UI_IllustratedMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": true
+      },
+      "FFMpegUISkill": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Fight/BPUI_SkillVedioForSkill.BPUI_SkillVedioForSkill_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Guide"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ForkTipsBase": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Tips/BP_UIForkTipsBase.BP_UIForkTipsBase_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Tips"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CityShopVipLevelMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Shop/UI_CityShopVipLevelMainForm.UI_CityShopVipLevelMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ConsumableUse": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_ConsumableUse.BPUI_ConsumableUse_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LikeabilityActivePopup": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/LikeabilitySystem/BPUI_LikeabilityActivePopUp.BPUI_LikeabilityActivePopUp_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": true,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "SupplyShortcutSlot": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Bag/BPUI_SupplyShortcutSlot.BPUI_SupplyShortcutSlot_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CloneSystemStaminaTips": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneSystemStaminaTips.UI_CloneSystemStaminaTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CloneSystemEnterCloneTips": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneSystemEnterCloneTips.UI_CloneSystemEnterCloneTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Description": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Description/BPUI_Description.BPUI_Description_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Description_Black": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Description/BPUI_Description_Black.BPUI_Description_Black_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Description_Photo": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Description/BPUI_Description_Photo.BPUI_Description_Photo_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Description_Right": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Description/BPUI_Description_Right.BPUI_Description_Right_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterRelive": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterRelive.BPUI_CharacterRelive_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Relive"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ForkDevelop": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Fork/BPUI_ForkDevelop.BPUI_ForkDevelop_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "MailMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Mail/UI_MailMainForm.UI_MailMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ForkStrengthen": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Fork/BPUI_ForkStrengthen.BPUI_ForkStrengthen_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ForkUpgrade": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Fork/BPUI_ForkUpgrade.BPUI_ForkUpgrade_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LikeabilityChatMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/LikeabilitySystem/BPUI_LikeabilityChatMain.BPUI_LikeabilityChatMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": true
+      },
+      "ForkStory": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Fork/BPUI_ForkStory.BPUI_ForkStory_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Selfie": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Selfie/BPUI_Selfie.BPUI_Selfie_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LikeabilityAwardShow": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/LikeabilitySystem/BPUI_LikeabilityAwardShow.BPUI_LikeabilityAwardShow_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ActorClue": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/World/UI_ActorClue_BP.UI_ActorClue_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "None"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AchievementMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Achievement/BPUI_AchievementMainForm.BPUI_AchievementMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": true
+      },
+      "CharacterUpgradeSuccess": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterUpgradeSuccess.BPUI_CharacterUpgradeSuccess_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "VisionDesc": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vision/BPUI_VisionDesc.BPUI_VisionDesc_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "NPF_TeleportUI": {
+        "UIClass": {
+          "AssetPathName": "/Game/Blueprints/Level/Quest/SLY/NPF/NPF_TeleportUI_SLY.NPF_TeleportUI_SLY_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterAwaken": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterAwaken.BPUI_CharacterAwaken_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "SideDialogue": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_SideDialogue.BPUI_SideDialogue_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "WorldLevel": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/WorldLevel/BPUI_WorldLevel.BPUI_WorldLevel_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "WorldLevelAjust": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/WorldLevel/BPUI_WorldLevelAjust.BPUI_WorldLevelAjust_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Letter": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Description/BPUI_Letter.BPUI_Letter_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LevelSequencePlayer": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Cinematic/LevelSequence/WB_LevelSequencePlayer.WB_LevelSequencePlayer_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CookSystemMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CookSystem/BPUI_CookSystemMain.BPUI_CookSystemMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Letter_Black": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Description/BPUI_Letter_Black.BPUI_Letter_Black_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "VisionList": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vision/BPUI_VisionList.BPUI_VisionList_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "VisionAward": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vision/BPUI_VisionAward.BPUI_VisionAward_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Loading"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CloneSystemMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneSystemMainForm.UI_CloneSystemMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CloneSystemExit": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneSystemExit.UI_CloneSystemExit_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CloneSystemChallengeResult": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneSystemChallengeResult.UI_CloneSystemChallengeResult_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CloneSystemChallengeFailed": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneSystemChallengeFailed.UI_CloneSystemChallengeFailed_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Mall": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Shop/BPUI_Mall.BPUI_Mall_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": true
+      },
+      "PatcherView": {
+        "UIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AdventureManual": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/AdventureManual/WB_AdventureManual.WB_AdventureManual_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": true
+      },
+      "TestUIVedio": {
+        "UIClass": {
+          "AssetPathName": "/Game/TestMaps/Shaly/Player/UI_BZCS_Vedio.UI_BZCS_Vedio_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Tips"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DialogueMsg": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_DialogueMsg.BPUI_DialogueMsg_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DialogueMsg_q110054": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_DialogueMsg_q110054.BPUI_DialogueMsg_q110054_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterFileDetail": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterFileDetail.BPUI_CharacterFileDetail_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterFileAudio": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterFileAudio.BPUI_CharacterFileAudio_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "HTCharacterInfoMenu": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/World/BPUI_InterTarget_inf.BPUI_InterTarget_inf_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "SystematicGameFeatureActivatedTips": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Menu/WB_SystematicGameFeatureActivatedTips.WB_SystematicGameFeatureActivatedTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": true,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "UI_CloneSystemAwards": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneSystemAwards.UI_CloneSystemAwards_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "VisionAwardsList": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vision/BPUI_VisionAwardsList.BPUI_VisionAwardsList_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "UI_InterTarget_inf": {
+        "UIClass": {
+          "AssetPathName": "/Game/Blueprints/Level/World/Interact/InterTarget/BPUI_InterTarget.BPUI_InterTarget_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "SingleLevelMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/SingleLevel/UI_SingleLevelMainForm.UI_SingleLevelMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterEquipDevelop": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterEquipDevelop.BPUI_CharacterEquipDevelop_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/UI_LotteryMain_BP.UI_LotteryMain_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": true
+      },
+      "Notice": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Notice/BPUI_Notice.BPUI_Notice_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ConsumableUseTreasureBox": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/ConsumableUse/UI_ConsumableUseTreasureBox.UI_ConsumableUseTreasureBox_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "EquipTipsBase": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Tips/BP_UIEquipTips.BP_UIEquipTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Tips"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "TransferLoading": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Loading/UI_TransferLoading.UI_TransferLoading_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.VedioSequence"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FadeUI": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/UI_Fade.UI_Fade_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.VedioSequence"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryCardMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/UI_LotteryCardMainForm.UI_LotteryCardMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Message"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryMessageBox": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/UI_LotteryMessageBox.UI_LotteryMessageBox_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FadeInOutEffect": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/UI_FadeInOutEffect_BP.UI_FadeInOutEffect_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "EditPlayerInfo": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/PlayerInformation/BPUI_CommonPlayerInfo.BPUI_CommonPlayerInfo_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ReName": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Menu/BPUI_ReName.BPUI_ReName_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ChangeAvatar": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Menu/BPUI_ChangeAvatar.BPUI_ChangeAvatar_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "EditBirthday": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Menu/BPUI_EditBirthdayBar.BPUI_EditBirthdayBar_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ChangeSign": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Menu/BPUI_EditSign.BPUI_EditSign_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "PlayerInfoShowSelect": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Menu/BPUI_PlayerInfoShowSelect.BPUI_PlayerInfoShowSelect_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "HTCharacterInfoMenu_L": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/World/BPUI_InterTarget_inf_L.BPUI_InterTarget_inf_L_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "MediaPlayer": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_MediaPlayer.BPUI_MediaPlayer_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.VedioSequence"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterElement": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterElement.BPUI_CharacterElement_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DivinationMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Divination/UI_DivinationMainForm.UI_DivinationMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DivinationResult": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Divination/UI_DivinationResult.UI_DivinationResult_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "TalentMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Divination/UI_DivinationTalentMainForm.UI_DivinationTalentMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ItemsOverview": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Gamepad/ItemsOverview/WB_ItemsOverview.WB_ItemsOverview_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.ItemsOverview"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CloneSystemStaminaTipsUI": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneSystemStaminaTips.UI_CloneSystemStaminaTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryDetails": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/UI_Lottery_GachaDetails.UI_Lottery_GachaDetails_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryCurrencyConvert": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/UI_LotteryCurrencyConvert.UI_LotteryCurrencyConvert_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "EquipmentStrengthen": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Equipment/BPUI_EquipmentStrengthen.BPUI_EquipmentStrengthen_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "EditInfoMessageBox": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Menu/BPUI_EditInfoMessageBox.BPUI_EditInfoMessageBox_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterTryUseReliveItem": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterTryUseReliveItem.BPUI_CharacterTryUseReliveItem_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CityShopQuestMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Shop/UI_CityShopQuestMainForm.UI_CityShopQuestMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "MiniMapMarkIcon": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/BPUI_MiniMap_MarkIcon.BPUI_MiniMap_MarkIcon_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CityShopVipInformation": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Shop/UI_CityShopVipInformation.UI_CityShopVipInformation_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CityShopVipObtain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Shop/UI_CityShopVipObtain.UI_CityShopVipObtain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "QuestFailed": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Quest/UI_QuestFailed_BP.UI_QuestFailed_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "WoodenMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Wooden/BPUI_WoodenMainForm.BPUI_WoodenMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GMAIData": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Gm/BPUI_GMAIData.BPUI_GMAIData_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.VedioSequence"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "SingleLevel_QuitConfirm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/SingleLevel/UI_SingleLevel_QuitConfirm.UI_SingleLevel_QuitConfirm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Transition": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Shop/BP_Transition.BP_Transition_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RealEstateMapContainer": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/RealEstate/BPUI_RealEstateMapContainer.BPUI_RealEstateMapContainer_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "MyVehicle": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vehicle/BP_MyVehicle.BP_MyVehicle_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "WorldLevelNotifAjust": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/WorldLevel/BPUI_WorldLevelUpNotify.BPUI_WorldLevelUpNotify_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": true,
+        "LayerName": {
+          "TagName": "Layer.OverTips"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "HandmadeShelf": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Room/BPUI_HandmadeShelf.BPUI_HandmadeShelf_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "BigmapUnlock": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/BPUI_BigmapUnlockAnim.BPUI_BigmapUnlockAnim_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Loading"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RealEstateDetails": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/RealEstate/BPUI_RealEstateDetails.BPUI_RealEstateDetails_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "VehicleModifyMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vehicle/BPUI_VehicleModificationMain.BPUI_VehicleModificationMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "VehicleModifyDetails": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vehicle/BPUI_VehicleModification.BPUI_VehicleModification_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "VehicleModifyOrder": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vehicle/BPUI_VehicleModifyOrder.BPUI_VehicleModifyOrder_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ChapterStart": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/UI_ChapterStart_BP.UI_ChapterStart_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GMCameraState": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Camera/BPUI_GMShowCameraState.BPUI_GMShowCameraState_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Sleep": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Sleep/BPUI_SleepCharacterList.BPUI_SleepCharacterList_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "WorldLevelReward": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/WorldLevel/BPUI_WorldLevelReward.BPUI_WorldLevelReward_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "WorldLevelUpNotify": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/WorldLevel/BPUI_WorldLevelUpNotify.BPUI_WorldLevelUpNotify_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": true,
+        "LayerName": {
+          "TagName": "Layer.OverTips"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "WorldLeveQuestNotify": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/WorldLevel/BPUI_WorldLevelNotifyQuest.BPUI_WorldLevelNotifyQuest_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": true,
+        "LayerName": {
+          "TagName": "Layer.OverTips"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "WorldLevelDownNotify": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/WorldLevel/BPUI_WorldLevelDownNotify.BPUI_WorldLevelDownNotify_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": true,
+        "LayerName": {
+          "TagName": "Layer.OverTips"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "WorldLevelNotifyBroken": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/WorldLevel/BPUI_WorldLevelNotifyBroken.BPUI_WorldLevelNotifyBroken_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": true,
+        "LayerName": {
+          "TagName": "Layer.OverTips"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "TrialSuccess": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Trial/BPUI_TrialSuccess.BPUI_TrialSuccess_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "OfferProp": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/OfferProp/BPUI_OfferProp.BPUI_OfferProp_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ScrollMessage": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Message/BPUI_ScrollMessage.BPUI_ScrollMessage_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.SystemMessage"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "QuestCompletedMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Quest/UI_QuestCompleted_BP.UI_QuestCompleted_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "PokemonMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Pokemon/WB_PokemonMainForm.WB_PokemonMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GashaponMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Gashapon/BPUI_GashaponMain.BPUI_GashaponMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GashaponMachine": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Gashapon/BPUI_GashaponMachine.BPUI_GashaponMachine_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GashaponRecord": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Gashapon/BPUI_GashaponRecord.BPUI_GashaponRecord_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GashaponBook": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Gashapon/BPUI_GashaponHandbook.BPUI_GashaponHandbook_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GashaponResult": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Gashapon/BPUI_GashaponResult.BPUI_GashaponResult_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "TestLocalization": {
+        "UIClass": {
+          "AssetPathName": "/Game/TestMaps/shanjm/BP_UITestLocalization.BP_UITestLocalization_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CloneSystemCommonTips": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneSystemCommonTips.UI_CloneSystemCommonTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FPItemInteract": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_FPItemInteract.BPUI_FPItemInteract_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "WB_CityLive": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Menu/WB_CityLive.WB_CityLive_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": true
+      },
+      "DelegateMissionMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/DelegateMission/BPUI_DelegateMissionMainForm.BPUI_DelegateMissionMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DelegateMissionQuestDetails": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/DelegateMission/BPUI_DelegateMissionDetailsMain.BPUI_DelegateMissionDetailsMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DelegateMissionReportMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/DelegateMission/BPUI_DelegateMissionReportMain.BPUI_DelegateMissionReportMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DelegateMissionReportSlot": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/DelegateMission/BPUI_DelegateMissionReportSlot.BPUI_DelegateMissionReportSlot_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ForkTypeDesction": {
+        "UIClass": {
+          "AssetPathName": "/Game/BPUI_ForkTypeDesction.BPUI_ForkTypeDesction_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ReactionDetailMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/TeamReaction/BPUI_ReactionDetailMainForm.BPUI_ReactionDetailMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ReactionDetailSlot": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/TeamReaction/BPUI_ReactionDetailSlot.BPUI_ReactionDetailSlot_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "OfferPropAutoSelect": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/OfferProp/BPUI_OfferPropAutoSelect.BPUI_OfferPropAutoSelect_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Friend": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Friend/BPUI_Friend.BPUI_Friend_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FriendInvite": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Friend/BPUI_FriendInvite.BPUI_FriendInvite_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FriendSearch": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Friend/BPUI_FriendSearch.BPUI_FriendSearch_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FriendNickName": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Friend/BPUI_FriendNickName.BPUI_FriendNickName_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ArcaneStone": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Divination/BPUI_DivinationArcaneStone.BPUI_DivinationArcaneStone_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DMCharacterShowForReport": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/DelegateMission/BPUI_DelegateMissionShowForReport.BPUI_DelegateMissionShowForReport_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DMCityRadioBox": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/DelegateMission/WB_DelegateTab.WB_DelegateTab_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "None"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LockedByController": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/LockedByIndicator/BPUI_LockedByController.BPUI_LockedByController_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.LockedBy"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DrumEditor": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Drum/UI_DrumEditor_BP.UI_DrumEditor_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LikeabilityGift": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/LikeabilitySystem/BPUI_LikeabilityGiftPanel.BPUI_LikeabilityGiftPanel_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LikeabilityUpgrade": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/LikeabilitySystem/BPUI_LikeabilityUpgrade.BPUI_LikeabilityUpgrade_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RealEstateList": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/RealEstate/BPUI_RealEstatesList.BPUI_RealEstatesList_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ATTDropItem": {
+        "UIClass": {
+          "AssetPathName": "/Game/AutoTestTool/AutoTestToolNewBlueprint.AutoTestToolNewBlueprint_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "EquipmentLottery": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Equipment/BPUI_EquipmentLottery.BPUI_EquipmentLottery_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Shout": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_Shout.BPUI_Shout_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.LowDialogue"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RoleID": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Common/BPUI_RoleID.BPUI_RoleID_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.RoleID"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AbyssMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Abyss/BPUI_AbyssCloneEntrance.BPUI_AbyssCloneEntrance_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "EquipmentLotteryCustom": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Equipment/BPUI_EquipmentLotteryCustom.BPUI_EquipmentLotteryCustom_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterEquipSuitSlot": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterEquipDevFilterSuitSlot.BPUI_CharacterEquipDevFilterSuitSlot_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterMemberTagSlot": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterMemberTagSlot.BPUI_CharacterMemberTagSlot_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CinematicIntroduction": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_CinematicIntroduction.BPUI_CinematicIntroduction_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LegendaryQuestEffect": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Quest/BPUI_LegendaryQuestEffect.BPUI_LegendaryQuestEffect_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": true,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "PurchaseBox": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/PlayStation/Purchase/WB_PSPurchaseBox.WB_PSPurchaseBox_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Playstation"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GashaponCycle": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Gashapon/BPUI_GashaponCycle.BPUI_GashaponCycle_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GalDialogue": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_GalDialogue.BPUI_GalDialogue_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ActivityMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Activity/BPUI_ActivityMainform.BPUI_ActivityMainform_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ActivitySlot": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Activity/BPUI_ActivitySlot.BPUI_ActivitySlot_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ActivitySignInMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Activity/SignIn/BPUI_SignInMainForm.BPUI_SignInMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "VehicleShopMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vehicle/BPUI_VehicleShopMain.BPUI_VehicleShopMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Vehicle_success": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vehicle/BPUI_Vehicle_PurchaseSuccess.BPUI_Vehicle_PurchaseSuccess_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterEquipFilterSlot": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterEquipDevFilterSlot.BPUI_CharacterEquipDevFilterSlot_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RecordPlayer": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Room/BPUI_RecordPlayer.BPUI_RecordPlayer_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RoomMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Room/BPUI_RoomMainForm.BPUI_RoomMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "MainUIShortcutItemList": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/QuickBar/BPUI_MainUIShortcutItemList.BPUI_MainUIShortcutItemList_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DecorationPlanIcon": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Room/BPUI_DecorationPlanIcon.BPUI_DecorationPlanIcon_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LoginQueue": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Login/BPUI_LoginQueue.BPUI_LoginQueue_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [
+          "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
+          "ELevelSceneType::LEVEL_TYPE_CREATE_ROLE",
+          "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
+          "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL"
+        ],
+        "bIgnoreInput": false
+      },
+      "RoomBuyDecorationPlan": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Room/BPUI_RoomBuyDecorationPlan.BPUI_RoomBuyDecorationPlan_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "NoticeSlot": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Notice/BPUI_NoticeSlot.BPUI_NoticeSlot_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "SocialSetting": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/PlayerInformation/BPUI_SocialSetting.BPUI_SocialSetting_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Medal": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/PlayerInformation/BPUI_Medal.BPUI_Medal_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "BusinessCard": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/PlayerInformation/BPUI_BusinessCard.BPUI_BusinessCard_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "EditPlayerInfoBar": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Menu/BPUI_EditPlayerInfoBar.BPUI_EditPlayerInfoBar_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreSiteTesting": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreSiteTesting.UI_StoreSiteTesting_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ItemTipsSlot": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Tips/TipsTag/BPUI_ItemTipsTagSlot.BPUI_ItemTipsTagSlot_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FishTank": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Room/BPUI_FishTank.BPUI_FishTank_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreBrandManager": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreBrandManager.UI_StoreBrandManager_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DrumPlayMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Drum/BPUI_DrumPlayMain.BPUI_DrumPlayMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DrumPlayOver": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Drum/BPUI_DrumPlayOver.BPUI_DrumPlayOver_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "PassPermitMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/PassPermit/BPUI_PassPermitMain.BPUI_PassPermitMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreIllustratedMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreIllustratedMainForm.UI_StoreIllustratedMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "MonsterDropBoxAward": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/MonsterDropBox/UI_MonsterDropBoxAward.UI_MonsterDropBoxAward_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Message": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Message/BPUI_MessageEx.BPUI_MessageEx_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Message"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "SingleReactionSlot": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/TeamReaction/ReactionSingle/BPUI_SingleReactionSlot.BPUI_SingleReactionSlot_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ReactionCharacterSlot": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/TeamReaction/BPUI_ReactionCharacterDetailSlot.BPUI_ReactionCharacterDetailSlot_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "SingleReactionMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/TeamReaction/ReactionSingle/BPUI_SingleReactionMainform.BPUI_SingleReactionMainform_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DogB1": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_Shout_dogB1.BPUI_Shout_dogB1_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.LowDialogue"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DogB2": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_Shout_dogB2.BPUI_Shout_dogB2_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.LowDialogue"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DogB3": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_Shout_dogB3.BPUI_Shout_dogB3_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.LowDialogue"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DogG1": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_Shout_dogG1.BPUI_Shout_dogG1_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.LowDialogue"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DogG2": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_Shout_dogG2.BPUI_Shout_dogG2_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.LowDialogue"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DogY1": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_Shout_dogY1.BPUI_Shout_dogY1_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.LowDialogue"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DogY2": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_Shout_dogY2.BPUI_Shout_dogY2_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.LowDialogue"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DogY3": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_Shout_dogY3.BPUI_Shout_dogY3_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.LowDialogue"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreBrandDetailsMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreBrandDetailsMainForm.UI_StoreBrandDetailsMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RentalVehicleMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vehicle/BPUI_VehicleRentalMain.BPUI_VehicleRentalMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FlowerPot": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Room/BPUI_FlowerPot.BPUI_FlowerPot_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreItemRepertoryMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreItemRepertoryMainForm.UI_StoreItemRepertoryMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "EditMenuBar": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Menu/BPUI_EditMenuBar.BPUI_EditMenuBar_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "OpActSignInMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/ActivityOp/SignIn/BPUI_OpActSignInMainForm.BPUI_OpActSignInMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "OpActSignInPreview": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/ActivityOp/SignIn/BPUI_OpActSignInPreview.BPUI_OpActSignInPreview_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DrumDetailMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Drum/BPUI_DrumDetailMain.BPUI_DrumDetailMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DrumEditDetail": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Drum/BPUI_DrumEditDetail.BPUI_DrumEditDetail_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreBrandOpenSucessDetails": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreBrandOpenSucessDetails.UI_StoreBrandOpenSucessDetails_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreBrandIncomeDetails": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreBrandIncomeDetails.UI_StoreBrandIncomeDetails_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GashaponConfirm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Gashapon/UI_GashaponConfirm.UI_GashaponConfirm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FlowerAnim": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Description/BPUI_FlowerAnim.BPUI_FlowerAnim_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreIllustratedPropPreview": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreIllustratedPropPreview.UI_StoreIllustratedPropPreview_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FurnitureTipsBase": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Tips/BP_UIFurnitureTipsBase.BP_UIFurnitureTipsBase_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Tips"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FurnitureCollect": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/RealEstate/BPUI_RealEstateCollect.BPUI_RealEstateCollect_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AreaNotification": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Message/UI_AreaNortify_BP.UI_AreaNortify_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": true,
+        "LayerName": {
+          "TagName": "Layer.AreaNotify"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RoomPosterBoard": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Room/PosterBoard/BPUI_RoomPosterBoardMainForm.BPUI_RoomPosterBoardMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RoomDecorationPlan": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Room/BPUI_RoomDecorationPlan.BPUI_RoomDecorationPlan_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RoomCtrl": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Room/BPUI_RoomCtrl.BPUI_RoomCtrl_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "VisionSoulAward": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vision/BPUI_VisionSoulAward.BPUI_VisionSoulAward_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LittleAnimInteractUI": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/UI_LittleAnimInteract.UI_LittleAnimInteract_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Monster-tuyaAnim": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Anim/BP_Monster-tuyaAnim.BP_Monster-tuyaAnim_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AwardsPreviewPopUp": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_AwardsPreviewPopUp.BPUI_AwardsPreviewPopUp_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.AwardsPreview"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FurnitureAttribute": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/RealEstate/BPUI_RealEstateAttribute.BPUI_RealEstateAttribute_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "shaly": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/World/BPUI_shaly_test.BPUI_shaly_test_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ComposeForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Compose/BPUI_Compose.BPUI_Compose_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CloneWeeklyUnlockTips": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneWeeklyUnlockTips.UI_CloneWeeklyUnlockTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": true,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreBrandUpgradeTips": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreBrandUpgradeTips.UI_StoreBrandUpgradeTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "niudanShop": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Shop/BPUI_niudanshop.BPUI_niudanshop_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreBrandEventLogs": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreBrandEventLogs.UI_StoreBrandEventLogs_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GMVehicleState": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vehicle/BPUI_GMVehicleState.BPUI_GMVehicleState_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Peekaboo": {
+        "UIClass": {
+          "AssetPathName": "/Game/Blueprints/Level/World/WorldAnomaly/Peekaboo/BPUI_PeekabooTVExit.BPUI_PeekabooTVExit_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DialogueMsg_q110151": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_DialogueMsg_q110150.BPUI_DialogueMsg_q110150_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreBrandResearchTips": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreBrandResearchTips.UI_StoreBrandResearchTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "NewGuideDesc": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Guide/UI_NewGuideDesc.UI_NewGuideDesc_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.WeakGuide"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "TakeOrders": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/TakeOrders/BPUI_TakeOrdersMainForm.BPUI_TakeOrdersMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "SettingBrightness": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Setting/BPUI_SettingBrightness.BPUI_SettingBrightness_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ManualNoun": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Manual/BPUI_ManualNoun.BPUI_ManualNoun_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RacingMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_RacingMainForm.BPUI_RacingMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RacingBattlePVE": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_RacingBattle_PVE.BPUI_RacingBattle_PVE_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreBrandUpgradeSucess": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreBrandUpgradeSucess.UI_StoreBrandUpgradeSucess_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreBrandLevelPropPreview": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreBrandLevelPropPreview.UI_StoreBrandLevelPropPreview_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RacingStartPVE": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_Racing_Start_PVE.BPUI_Racing_Start_PVE_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AchievementDetail": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Achievement/BPUI_AchievementDetail.BPUI_AchievementDetail_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RoomFurniturePreview": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Room/BPUI_RoomFurniturePreviewMainForm.BPUI_RoomFurniturePreviewMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryResult": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/BPUI_LotteryResult.BPUI_LotteryResult_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryCardDetail": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/BPUI_LotteryCardDetails.BPUI_LotteryCardDetails_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RacingResult": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_Racing_Result.BPUI_Racing_Result_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Chat": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Chat/BPUI_ChatPanel.BPUI_ChatPanel_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GMStoreBrand": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/StoreBrandGMUI/GM_StoreBrand.GM_StoreBrand_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreBrandDetail": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreBrandDetail.UI_StoreBrandDetail_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ChatQuickMessage": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Chat/QuickMessage/BPUI_ChatQuickMessagePanel.BPUI_ChatQuickMessagePanel_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "TakeOrderSettleMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/TakeOrders/BPUI_TakeOrdersSettleMainForm.BPUI_TakeOrdersSettleMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DialogueMsg_S110805": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_DialogueMsg_S110805.BPUI_DialogueMsg_S110805_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ChatEmoji": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Chat/ChatEmoji/BPUI_ChatEmojiPanel.BPUI_ChatEmojiPanel_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreBrandOnlineEnter": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreBrandOnlineEnter.UI_StoreBrandOnlineEnter_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreBrandOnlineMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreBrandOnlineMainForm.UI_StoreBrandOnlineMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "SystemMessageSpec": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Message/BPUI_MessageSpec.BPUI_MessageSpec_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Message"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RacingRank": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_Racing_Rank.BPUI_Racing_Rank_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CityAbilityOverview": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/Abilityies/BPUI_CityAbilityOverview.BPUI_CityAbilityOverview_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterAbilityUpgrade": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/Abilityies/WB_CharacterAbilityUpgrade.WB_CharacterAbilityUpgrade_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreBrandOnlineSettlement": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreBrandOnlineSettlement.UI_StoreBrandOnlineSettlement_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "PawnTicket": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Description/BPUI_PawnTicket.BPUI_PawnTicket_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RacingMatching": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_Racing_Matching.BPUI_Racing_Matching_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "TakeOrderGetOffVehicleConfirm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/TakeOrders/BPUI_GetOffVehicleConfirm.BPUI_GetOffVehicleConfirm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ChatEditMenu": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Chat/BPUI_ChatEditMenu.BPUI_ChatEditMenu_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ChatEmojiCollection": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Chat/ChatEmoji/BPUI_ChatEmojiCollection.BPUI_ChatEmojiCollection_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ChatFriendInvite": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Chat/BPUI_ChatFriendInvite.BPUI_ChatFriendInvite_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FurnitureDetailForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Room/BP_FurnitureDetailForm.BP_FurnitureDetailForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "TakeOrdersPreviewAwardSlot": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/TakeOrders/BPUI_TakeOrdersPreviewAwardSlot.BPUI_TakeOrdersPreviewAwardSlot_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FurnitureTips": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Room/BPUI_SpFurnitureTips.BPUI_SpFurnitureTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ChooseDriveMode": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vehicle/UHTUI_ChooseVehicleDriveMode.UHTUI_ChooseVehicleDriveMode_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "OnlineLobby": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Online/BPUI_OnlineLobby.BPUI_OnlineLobby_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "VehicleEditNumberPlate": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vehicle/BPUI_VehicleEditNumberPlate.BPUI_VehicleEditNumberPlate_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "OnlineRequestNotify": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Online/BPUI_OnlineRequestNotify.BPUI_OnlineRequestNotify_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Message"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "OnlineTeam": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Online/BPUI_OnlineTeam.BPUI_OnlineTeam_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "BagelLive": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Bagel/BPUI_BagelLive.BPUI_BagelLive_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "TakeOrderEmergency": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/TakeOrders/BPUI_TakeOrdersEmergencyMain.BPUI_TakeOrdersEmergencyMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "BagelLiveLeft": {
+        "UIClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AuctionShopMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/AuctionShop/BPUI_AuctionShopMain.BPUI_AuctionShopMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AuctionDetial": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/AuctionShop/BPUI_AuctionDetial.BPUI_AuctionDetial_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "BagelChat": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Bagel/BPUI_BagelChat.BPUI_BagelChat_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "SinDecrease": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Room/BPUI_SinDecreaseWidget.BPUI_SinDecreaseWidget_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Message"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "BagelPost": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Bagel/BPUI_BagelPost.BPUI_BagelPost_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreOnlineEmployee": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreOnlineEmployee.UI_StoreOnlineEmployee_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "WeakGuideMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Guide/BPUI_WeakGuideMain.BPUI_WeakGuideMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.WeakGuide"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "EquipmentLotteryTips": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Equipment/BPUI_EquipmentLotteryTips.BPUI_EquipmentLotteryTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Tips"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Description_PhotoEx": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Description/BPUI_Description_PhotoEx.BPUI_Description_PhotoEx_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "EquipmentAwards": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Equipment/BPUI_EquipmentAwards.BPUI_EquipmentAwards_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CommonStaminaBuy": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StaminaSystem/BPUI_CommonStaminaBuy.BPUI_CommonStaminaBuy_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ClawMachine": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/ClawMachine/BPUI_ClawMachine.BPUI_ClawMachine_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreBrandShoppingList": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreBrandShoppingList.UI_StoreBrandShoppingList_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "StoreBrandRepertoryList": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_StoreBrandRepertoryList.UI_StoreBrandRepertoryList_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryEntrance": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/BPUI_LotteryModuleEntrance.BPUI_LotteryModuleEntrance_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FriendMenu": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Friend/BPUI_FriendMenu.BPUI_FriendMenu_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "PokemonTip": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Pokemon/BPUI_PokemonMainTip.BPUI_PokemonMainTip_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RacingInviteModeInvite": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_Racing_InviteMode_Invite.BPUI_Racing_InviteMode_Invite_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AbyssPrepare": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Abyss/BPUI_AbyssClonePrepare.BPUI_AbyssClonePrepare_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ClawMachineMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/ClawMachine/BPUI_ClawMachineMain.BPUI_ClawMachineMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "BicycleVehicleShopMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vehicle/BPUI_BicycleVehicleShopMain.BPUI_BicycleVehicleShopMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ClawMachineRecord": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/ClawMachine/BPUI_ClawMachineRecord.BPUI_ClawMachineRecord_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ClawMachineBook": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/ClawMachine/BPUI_ClawMachineBook.BPUI_ClawMachineBook_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CloneSystemGoldMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneSystemGoldMainForm.UI_CloneSystemGoldMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CloneSystemFriend": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneSystemFriend.UI_CloneSystemFriend_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "BagelDeletePost": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Bagel/BPUI_BagelDeletePost.BPUI_BagelDeletePost_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RacingChooseVehicle": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_Racing_ChooseVehicle.BPUI_Racing_ChooseVehicle_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ComposeExchange": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Compose/BPUI_ComposeExchange.BPUI_ComposeExchange_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryController": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/BPUI_LotteryModuleControll.BPUI_LotteryModuleControll_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RacingChooseMode": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_RacingChooseMode.BPUI_RacingChooseMode_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "SignAwardItems": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Activity/SignIn/BPUI_SignInPreviewItem.BPUI_SignInPreviewItem_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Description_CommonMask": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Description/BPUI_Description_CommonMask.BPUI_Description_CommonMask_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GuideInteriorDecorationMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Guide/InteriorDecoration/BPUI_GuideInteriorDecorationMain.BPUI_GuideInteriorDecorationMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GuideStoreBrandMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Guide/StoreBrand/BPUI_GuideStoreBrandMain.BPUI_GuideStoreBrandMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ForkLottery": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Fork/BPUI_ForkLottery.BPUI_ForkLottery_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ItemTipsLocker": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Tips/BP_UIItemTipsLocker.BP_UIItemTipsLocker_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Tips"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ForkLotteryResult": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Fork/BPUI_ForkLotteryResult.BPUI_ForkLotteryResult_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RacingBattleQuest": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_RacingBattle_Quest.BPUI_RacingBattle_Quest_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AbyssShop": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Abyss/BPUI_AbyssCloneShop.BPUI_AbyssCloneShop_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ForkLotteryDetails": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Fork/BPUI_ForkLotteryDetails.BPUI_ForkLotteryDetails_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RealEstateBuySucess": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/RealEstate/BPUW_RealEstate_PurchaseSuccess.BPUW_RealEstate_PurchaseSuccess_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RealEstateFurnitureDetail": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/RealEstate/BPUI_RealEstateFurnitureDetailAll.BPUI_RealEstateFurnitureDetailAll_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AbyssPause": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Abyss/AbyssFightUI/BPUI_AbyssClonePause.BPUI_AbyssClonePause_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RacingInviteModeChooseTrack": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_RacingInviteMode_ChooseTrack.BPUI_RacingInviteMode_ChooseTrack_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ManualMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Manual/BPUI_ManualMain.BPUI_ManualMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AchievementPopup": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Achievement/BPUI_AchievementPopup.BPUI_AchievementPopup_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": true,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AbyssTransition": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Abyss/AbyssFightUI/BPUI_AbyssCloneTransition.BPUI_AbyssCloneTransition_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RacingInviteModePrepare": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_Racing_InviteMode_Prepare.BPUI_Racing_InviteMode_Prepare_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryChaseMessage": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/BPUI_LotteryChaseMessageBox.BPUI_LotteryChaseMessageBox_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ManualVision": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Manual/BPUI_ManualVision.BPUI_ManualVision_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AbyssCloneReward": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Abyss/BPUI_AbyssCloneReward.BPUI_AbyssCloneReward_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AbyssTransferLoading": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Abyss/BPUI_AbyssTransferLoading.BPUI_AbyssTransferLoading_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.VedioSequence"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FonsLimitShopDetail": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Shop/LimitTime/BPUI_FonsLimitShopDetail.BPUI_FonsLimitShopDetail_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "VehicleSkinList": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vehicle/BPUI_VehicleSkinList.BPUI_VehicleSkinList_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AbyssMonsterInfo": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Abyss/BPUI_AbyssMonsterDetail.BPUI_AbyssMonsterDetail_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "BPUI_BagelMainform_Fake_01": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Bagel/BPUI_BagelMainform_Fake_01.BPUI_BagelMainform_Fake_01_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "BPUI_BagelMainform_Fake_02": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Bagel/BPUI_BagelMainform_Fake_02.BPUI_BagelMainform_Fake_02_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ClawMachineResult": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/ClawMachine/BPUI_ClawMachineResult.BPUI_ClawMachineResult_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FurnitrueActivatedSuccessTips": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Room/BPUI_FurnitureActivateSuccessTips.BPUI_FurnitureActivateSuccessTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "UI_CloneSystemSkipMainForm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneSystemSkipMainForm.UI_CloneSystemSkipMainForm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CloneSystemSkipSelect": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneSystemSkipSelect.UI_CloneSystemSkipSelect_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ManualCity": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Manual/BPUI_ManualCity.BPUI_ManualCity_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "MusicDollPiano": {
+        "UIClass": {
+          "AssetPathName": "/Game/Blueprints/Level/World/WorldAnomaly/SchoolMyth/MusicClass3F/BPUI_School_MusicQuest.BPUI_School_MusicQuest_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CloneSystemSkipSettlement": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneSystemSkipSettlement.UI_CloneSystemSkipSettlement_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CarPlacement": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Room/BPUI_CarPlacement.BPUI_CarPlacement_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FriendOnline": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Friend/BPUI_FriendOnline.BPUI_FriendOnline_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryMapDescription": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/BPUI_LotteryMapDescriptionMain.BPUI_LotteryMapDescriptionMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryGuideMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/BPUI_LotteryGuideMain.BPUI_LotteryGuideMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "None"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LikeabilityGiftLevelUp": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/LikeabilitySystem/BPUI_LikeabilityGiftLevelUp.BPUI_LikeabilityGiftLevelUp_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LikeabilityLevelUpNotify": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/LikeabilitySystem/BPUI_LikeabilityLevelUpNotify.BPUI_LikeabilityLevelUpNotify_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": true,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DivinationAwards": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Divination/UI_DivinationAwards.UI_DivinationAwards_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "DoubleShot": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/UI_DoubleShot.UI_DoubleShot_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Bust": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Bust/UI_Bust.UI_Bust_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.LowDialogue"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "SubmitItemMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/SubmitItem/BP_SubmitItemMain.BP_SubmitItemMain_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.LowDialogue"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CloneLoadingUI": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneLoadingUI.UI_CloneLoadingUI_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Loading"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "SubmitItemConfirm": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/SubmitItem/BPUI_SubmitItemConfirm.BPUI_SubmitItemConfirm_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "TransferLoading_arrest": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Loading/UI_TransferLoading_arrest.UI_TransferLoading_arrest_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.VedioSequence"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FadeInOutEffect_Arrest_End": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/UI_FadeInOutEffect_Arrest_End_BP.UI_FadeInOutEffect_Arrest_End_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "FadeInOutEffect_Arrest": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/UI_FadeInOutEffect_Arrest_BP.UI_FadeInOutEffect_Arrest_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "WaterMarkOS": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Oversea/BPUI_Watermark.BPUI_Watermark_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.WaterMark"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "PlayerHeadUpRacing": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/HeadUp/BPUW_PlayerHeadUpRacing.BPUW_PlayerHeadUpRacing_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "None"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ChapterTip": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Oversea/BPUI_ChapterTip.BPUI_ChapterTip_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Introduce"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": true
+      },
+      "SelfieCaptureNotify": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Selfie/BPUI_SelfieCaptureNotify.BPUI_SelfieCaptureNotify_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Message"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "shushuSkill": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Skill/MediaPlayerSkill/shushuSkill.shushuSkill_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "RacingResetVehicle": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/UI_RacingResetVehicle_BP.UI_RacingResetVehicle_BP_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.VedioIntroduce"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Video_test": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Video/Video_test.Video_test_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.VedioIntroduce"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AbyssNext": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Abyss/AbyssFightUI/BPUI_AbyssNext.BPUI_AbyssNext_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AbyssBackFirst": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Abyss/AbyssFightUI/BPUI_AbyssBackFirst.BPUI_AbyssBackFirst_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CharacterEquipFilter": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterEquipDevFilter.BPUI_CharacterEquipDevFilter_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Video_anhunqu": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Video/Video_anhunqu.Video_anhunqu_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.VedioIntroduce"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Video_fadiya": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Video/Video_fadiya.Video_fadiya_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.VedioIntroduce"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Video_yi": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Video/Video_yi.Video_yi_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.VedioIntroduce"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ForkLotteryList": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Fork/BPUI_ForkLotteryList.BPUI_ForkLotteryList_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ForkLotteryRule": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Fork/BPUI_ForkLotteryRule.BPUI_ForkLotteryRule_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "ForkLotteryRecord": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Fork/BPUI_ForkLotteryRecord.BPUI_ForkLotteryRecord_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Setting_Login": {
+        "UIClass": {
+          "AssetPathName": "/Game/LoginAndCreate/UI/Blueprints/BPUI_Setting.BPUI_Setting_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": true
+      },
+      "LotteryCardDetailTen": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/BPUI_LotteryCardDetailsTen.BPUI_LotteryCardDetailsTen_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryChaseDetails": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/BPUI_LotteryChaseDetails.BPUI_LotteryChaseDetails_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "GuideSelectSlot": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Guide/BPUI_WeakGuideSelectSlot.BPUI_WeakGuideSelectSlot_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "OnlineRequestList": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Online/BPUI_OnlineRequestList.BPUI_OnlineRequestList_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.MessageBox"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "EquipDetail": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_EquipDetail.BPUI_EquipDetail_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Video_5hours": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Video/Video_5hours.Video_5hours_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.VedioIntroduce"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "AbyssChallengeSuccess": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Abyss/AbyssFightUI/BPUI_AbyssChallengeResult.BPUI_AbyssChallengeResult_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryDiceRecord": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/BPUI_LotteryDiceRecord.BPUI_LotteryDiceRecord_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryRule": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/BPUI_LotteryRule.BPUI_LotteryRule_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryPoolList": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/BPUI_LotteryPoolList.BPUI_LotteryPoolList_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "LotteryChooseCharacter": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/BPUI_LotteryChooseSSR.BPUI_LotteryChooseSSR_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CommonDescription": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/StoreManagement/UI_CommonDescription.UI_CommonDescription_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "CloneLoadingUIReset": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneLoadingUIRe.UI_CloneLoadingUIRe_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.Loading"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "EquipmentLotteryCustomNew": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Equipment/BPUI_EquipmentLotteryCustomNew.BPUI_EquipmentLotteryCustomNew_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "OnlineTips": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Online/BPUI_OnlineTips.BPUI_OnlineTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "QuestAcceptTips": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Message/BPUI_QuestAcceptTips.BPUI_QuestAcceptTips_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": true,
+        "LayerName": {
+          "TagName": "Layer.AreaNotify"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      },
+      "Video_weeks": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Video/Video_weeks.Video_weeks_C",
+          "SubPathString": ""
+        },
+        "bShowBySequence": false,
+        "LayerName": {
+          "TagName": "Layer.VedioIntroduce"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "ForbidOpenUISceneTypes": [],
+        "bIgnoreInput": false
+      }
+    }
+  }
+]

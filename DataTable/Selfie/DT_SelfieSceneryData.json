@@ -1,0 +1,156 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SelfieSceneryData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SelfieCaptureSceneryData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "WQ100107": {
+        "LevelName": "XL_map_bigworld_test",
+        "SceneryLocation": {
+          "X": -94823.0,
+          "Y": 165376.0,
+          "Z": 4128.0
+        },
+        "SceneryRadius": 6000.0,
+        "CaptureID": "WQ100107",
+        "SelfieConditionEntry": {
+          "CaptureID": "None",
+          "ConditionArr": [
+            {
+              "PositionArray": [
+                {
+                  "X": -94801.0,
+                  "Y": 165382.05,
+                  "Z": 6723.589
+                },
+                {
+                  "X": -94823.0,
+                  "Y": 165376.0,
+                  "Z": 4128.0
+                }
+              ],
+              "ConditionOperation": "ESelfieConditionOperation::And"
+            }
+          ]
+        }
+      },
+      "WQ100201": {
+        "LevelName": "XL_map_bigworld_test",
+        "SceneryLocation": {
+          "X": -137473.19,
+          "Y": 202497.75,
+          "Z": 10196.412
+        },
+        "SceneryRadius": 5000.0,
+        "CaptureID": "WQ100201",
+        "SelfieConditionEntry": {
+          "CaptureID": "None",
+          "ConditionArr": [
+            {
+              "PositionArray": [
+                {
+                  "X": -135095.94,
+                  "Y": 200557.3,
+                  "Z": 11394.998
+                },
+                {
+                  "X": -135274.08,
+                  "Y": 200714.06,
+                  "Z": 14591.024
+                },
+                {
+                  "X": -94528.945,
+                  "Y": 208129.0,
+                  "Z": 17960.854
+                }
+              ],
+              "ConditionOperation": "ESelfieConditionOperation::And"
+            },
+            {
+              "MinTime": 0.6875,
+              "MaxTime": 0.77,
+              "ConditionOperation": "ESelfieConditionOperation::And"
+            }
+          ]
+        }
+      },
+      "WQ100207": {
+        "LevelName": "XL_map_bigworld_test",
+        "SceneryLocation": {
+          "X": -143431.12,
+          "Y": 249816.34,
+          "Z": 2223.8188
+        },
+        "SceneryRadius": 12000.0,
+        "CaptureID": "WQ100207",
+        "SelfieConditionEntry": {
+          "CaptureID": "None",
+          "ConditionArr": [
+            {
+              "PositionArray": [
+                {
+                  "X": -145148.08,
+                  "Y": 250736.52,
+                  "Z": 2352.9292
+                },
+                {
+                  "X": -145148.08,
+                  "Y": 250736.52,
+                  "Z": 4224.4736
+                },
+                {
+                  "X": -141935.17,
+                  "Y": 249243.4,
+                  "Z": 2402.9294
+                }
+              ],
+              "ConditionOperation": "ESelfieConditionOperation::And"
+            }
+          ]
+        }
+      },
+      "WQ100307": {
+        "LevelName": "XL_map_bigworld_test",
+        "SceneryLocation": {
+          "X": -153248.08,
+          "Y": 105337.37,
+          "Z": 7109.027
+        },
+        "SceneryRadius": 2500.0,
+        "CaptureID": "WQ100307",
+        "SelfieConditionEntry": {
+          "CaptureID": "None",
+          "ConditionArr": [
+            {
+              "PositionArray": [
+                {
+                  "X": -153087.5,
+                  "Y": 104792.68,
+                  "Z": 7108.6606
+                },
+                {
+                  "X": -152694.25,
+                  "Y": 105606.84,
+                  "Z": 7108.6606
+                }
+              ],
+              "ConditionOperation": "ESelfieConditionOperation::And"
+            },
+            {
+              "MinTime": 0.3125,
+              "MaxTime": 0.3333,
+              "ConditionOperation": "ESelfieConditionOperation::And"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

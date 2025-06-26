@@ -1,0 +1,421 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "GameplayEffectTipsDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'GameplayEffectTips'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Buff_PlayerEleReaction": {
+        "Name": {
+          "Namespace": "",
+          "Key": "D7BB0C0F40C22C8CF322B6AD3F550879",
+          "SourceString": "测试-玩家常驻buff",
+          "LocalizedString": "测试-玩家常驻buff"
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "Namespace": "",
+          "Key": "4BCC7129419A76F9FAC0A683D38B2135",
+          "SourceString": "这是玩家常驻的 Buff",
+          "LocalizedString": "这是玩家常驻的 Buff"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "IsShowInBuffMaganger": false,
+        "IsShowInHeadUpBattleMark": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Mint019_Passive1": {
+        "Name": {
+          "Namespace": "",
+          "Key": "3FBF26A94B6A75BD4F2ACEB7FDFA0AC2",
+          "SourceString": "测试-薄荷被动1",
+          "LocalizedString": "测试-薄荷被动1"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/2.2",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "Namespace": "",
+          "Key": "FE4B9B9C4B1355F78D2BDEBB5079F05B",
+          "SourceString": "薄荷触发光灵反应后，攻击力提高20%，持续10秒",
+          "LocalizedString": "薄荷触发光灵反应后，攻击力提高20%，持续10秒"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "IsShowInBuffMaganger": false,
+        "IsShowInHeadUpBattleMark": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Mint019_Passive2": {
+        "Name": {
+          "Namespace": "",
+          "Key": "5E03A9484AE66E6D51E44FAD68AB4E2C",
+          "SourceString": "测试-薄荷被动2",
+          "LocalizedString": "测试-薄荷被动2"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips11_12/UI_YH_Tips_S.UI_YH_Tips_S",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "Namespace": "",
+          "Key": "B7A42AC44145394EB4B1308667AA6DF5",
+          "SourceString": "对落单的敌人造成的伤害（目标附近X米内无其他敌人），暴击率提高15%",
+          "LocalizedString": "对落单的敌人造成的伤害（目标附近X米内无其他敌人），暴击率提高15%"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "IsShowInBuffMaganger": false,
+        "IsShowInHeadUpBattleMark": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_WishWell_Destruction": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_WishWell_Destruction_name",
+          "SourceString": "意外之财",
+          "LocalizedString": "意外之财"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/YH_UI_XYC_Buff006.YH_UI_XYC_Buff006",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_WishWell_Destruction_des",
+          "SourceString": "当日破坏场景中物件，必定额外获得随机数量方斯，该效果至多触发30次。",
+          "LocalizedString": "当日破坏场景中物件，必定额外获得随机数量方斯，该效果至多触发30次。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "IsShowInBuffMaganger": true,
+        "IsShowInHeadUpBattleMark": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_WishWell_Vehicle": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_WishWell_Vehicle_name",
+          "SourceString": "坚如磐石",
+          "LocalizedString": "坚如磐石"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/YH_UI_XYC_Buff003.YH_UI_XYC_Buff003",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_WishWell_Vehicle_des",
+          "SourceString": "车辆的强度提升「车辆受到的损坏降低50%」，次日失效。",
+          "LocalizedString": "车辆的强度提升「车辆受到的损坏降低50%」，次日失效。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "IsShowInBuffMaganger": true,
+        "IsShowInHeadUpBattleMark": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_WishWell_gacha_purple": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_WishWell_gacha_purple_name",
+          "SourceString": "惊喜连连",
+          "LocalizedString": "惊喜连连"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/YH_UI_XYC_Buff005.YH_UI_XYC_Buff005",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_WishWell_gacha_purple_des",
+          "SourceString": "当日再次抽取扭蛋机，必定额外获得1个紫色扭蛋。",
+          "LocalizedString": "当日再次抽取扭蛋机，必定额外获得1个紫色扭蛋。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "IsShowInBuffMaganger": true,
+        "IsShowInHeadUpBattleMark": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_WishWell_gacha_orange": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_WishWell_gacha_orange_name",
+          "SourceString": "「金」喜连连",
+          "LocalizedString": "「金」喜连连"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/YH_UI_XYC_Buff008.YH_UI_XYC_Buff008",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_WishWell_gacha_orange_des",
+          "SourceString": "当日再次抽取扭蛋机，必定额外获得1个金色扭蛋。",
+          "LocalizedString": "当日再次抽取扭蛋机，必定额外获得1个金色扭蛋。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "IsShowInBuffMaganger": true,
+        "IsShowInHeadUpBattleMark": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_WishWell_Vending": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_WishWell_Vending_name",
+          "SourceString": "再来一份",
+          "LocalizedString": "再来一份"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/YH_UI_XYC_Buff002.YH_UI_XYC_Buff002",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_WishWell_Vending_des",
+          "SourceString": "在获得此祝福后，当日首次购买售货机内任意道具时，可额外再获得1份相同道具。",
+          "LocalizedString": "在获得此祝福后，当日首次购买售货机内任意道具时，可额外再获得1份相同道具。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "IsShowInBuffMaganger": true,
+        "IsShowInHeadUpBattleMark": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_WishWell_DroppingItem": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_WishWell_DroppingItem_name",
+          "SourceString": "温故知新",
+          "LocalizedString": "温故知新"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/YH_UI_XYC_Buff007.YH_UI_XYC_Buff007",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_WishWell_DroppingItem_des",
+          "SourceString": "当日击败大世界中的怪物时，有一定概率额外获得「素材道具」，该效果至多触发3次。",
+          "LocalizedString": "当日击败大世界中的怪物时，有一定概率额外获得「素材道具」，该效果至多触发3次。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "IsShowInBuffMaganger": true,
+        "IsShowInHeadUpBattleMark": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_WishWell_DroppingCoin": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_WishWell_DroppingCoin_name",
+          "SourceString": "富「甲」一方",
+          "LocalizedString": "富「甲」一方"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/YH_UI_XYC_Buff004.YH_UI_XYC_Buff004",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_WishWell_DroppingCoin_des",
+          "SourceString": "当日击败大世界中的怪物时，有一定概率额外获得随机数量甲硬币，该效果至多触发10次。",
+          "LocalizedString": "当日击败大世界中的怪物时，有一定概率额外获得随机数量甲硬币，该效果至多触发10次。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "IsShowInBuffMaganger": true,
+        "IsShowInHeadUpBattleMark": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_WishWell_Anomaly_032": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_WishWell_name",
+          "SourceString": "纳库佩达的眷顾",
+          "LocalizedString": "纳库佩达的眷顾"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/YH_UI_XYC_Buff001.YH_UI_XYC_Buff001",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_WishWell_des",
+          "SourceString": "抵御1次致命伤害，并将生命值回复到受伤之前，同时获得少量弧盘碎片。该祝福仅限当日生效，触发后消失。",
+          "LocalizedString": "抵御1次致命伤害，并将生命值回复到受伤之前，同时获得少量弧盘碎片。该祝福仅限当日生效，触发后消失。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "IsShowInBuffMaganger": true,
+        "IsShowInHeadUpBattleMark": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_CantDrive_crime": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_CantDrive_crime_name",
+          "SourceString": "治安惩罚",
+          "LocalizedString": "治安惩罚"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/YH_UI_XYC_Icon.YH_UI_XYC_Icon",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_CantDrive_crime_des",
+          "SourceString": "禁止驾驶车辆",
+          "LocalizedString": "禁止驾驶车辆"
+        },
+        "BuffType": "BuffInfoType::NegativeBuff",
+        "IsShowInBuffMaganger": true,
+        "IsShowInHeadUpBattleMark": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_HathorAnger_Gaze_Menu": {
+        "Name": {
+          "Namespace": "",
+          "Key": "2893CDE5429E14B48FF69A8922566542",
+          "SourceString": "优评锁定",
+          "LocalizedString": "优评锁定"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/YH_UI_XYC_Icon.YH_UI_XYC_Icon",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "Namespace": "",
+          "Key": "7A7A486D404FBC44FB4BD8A2A2F25F8B",
+          "SourceString": "哈索尔普通对怪debuff",
+          "LocalizedString": "哈索尔普通对怪debuff"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "IsShowInBuffMaganger": true,
+        "IsShowInHeadUpBattleMark": true,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_HathorAnger_GazeEx": {
+        "Name": {
+          "Namespace": "",
+          "Key": "9824AFE24CC82594F8095F86972954B4",
+          "SourceString": "满星追踪",
+          "LocalizedString": "满星追踪"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/YH_UI_XYC_Icon.YH_UI_XYC_Icon",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "Namespace": "",
+          "Key": "FB47DB0B418BE9EE948F1D89ED372206",
+          "SourceString": "哈索尔强化对怪debuff",
+          "LocalizedString": "哈索尔强化对怪debuff"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "IsShowInBuffMaganger": true,
+        "IsShowInHeadUpBattleMark": true,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "BuffAdd_GA_mon_40_BP_wudi": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "BuffAdd_GA_mon_40_currency_name",
+          "SourceString": "蚊吸不动",
+          "LocalizedString": "蚊吸不动"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/YH_UI_XYC_Icon.YH_UI_XYC_Icon",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "BuffAdd_GA_mon_40_currency_des",
+          "SourceString": "「包包蚊从未遇到过像你这样富裕又慷慨的人——它已经在你身上饱餐了整整10顿，方斯填满了肚子，短时间内再也吃不下一点儿。」\r\n15分钟内，「包包蚊」将不会吸取方斯。",
+          "LocalizedString": "「包包蚊从未遇到过像你这样富裕又慷慨的人——它已经在你身上饱餐了整整10顿，方斯填满了肚子，短时间内再也吃不下一点儿。」\r\n15分钟内，「包包蚊」将不会吸取方斯。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "IsShowInBuffMaganger": true,
+        "IsShowInHeadUpBattleMark": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      }
+    }
+  }
+]

@@ -1,0 +1,447 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_QuestSystem",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'QuestData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Sy100001": {
+        "QuestId": "Sy100001",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_QuestSystem_Quest1Name",
+          "SourceString": "猎人等级上限突破·其一",
+          "LocalizedString": "猎人等级上限突破·其一"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "桥间地",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "CloneIDArray": [
+              "DLC_levelbreakthrough_001"
+            ],
+            "ObjectiveID": "1",
+            "ObjectiveName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "DT_QuestSystem_Quest1OBJName",
+              "SourceString": "完成指定异象界域",
+              "LocalizedString": "完成指定异象界域"
+            },
+            "ObjectiveType": "EObjectiveType::EOT_CLONE_COMPLETED",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "DT_QuestSystem_Quest2Des",
+              "SourceString": "完成「鉴定突破Ⅱ」异象界域",
+              "LocalizedString": "完成「鉴定突破Ⅱ」异象界域"
+            },
+            "CompletedDescription": {
+              "Namespace": "",
+              "Key": "0778D95E424ECE49E9416196659497D7",
+              "SourceString": "通关DLC_levelbreakthrough_001详细描述",
+              "LocalizedString": "通关DLC_levelbreakthrough_001详细描述"
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -90430.35,
+                "Y": 131876.3,
+                "Z": 9457.465
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bNavigationPath": false
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_BREAKTHROUGH",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_QuestSystem_Quest1PanelDes",
+          "SourceString": "完成指定异象界域挑战以提高猎人等级上限",
+          "LocalizedString": "完成指定异象界域挑战以提高猎人等级上限"
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "Sy100002"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "Sy100002": {
+        "QuestId": "Sy100002",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_QuestSystem_Quest2Name",
+          "SourceString": "猎人等级上限突破·其二",
+          "LocalizedString": "猎人等级上限突破·其二"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "桥间地",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "CloneIDArray": [
+              "DLC_levelbreakthrough_002"
+            ],
+            "ObjectiveID": "1",
+            "ObjectiveName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "DT_QuestSystem_Quest1OBJName",
+              "SourceString": "完成指定异象界域",
+              "LocalizedString": "完成指定异象界域"
+            },
+            "ObjectiveType": "EObjectiveType::EOT_CLONE_COMPLETED",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "DT_QuestSystem_Quest2Des",
+              "SourceString": "完成「鉴定突破Ⅱ」异象界域",
+              "LocalizedString": "完成「鉴定突破Ⅱ」异象界域"
+            },
+            "CompletedDescription": {
+              "Namespace": "",
+              "Key": "0778D95E424ECE49E9416196659497D7",
+              "SourceString": "通关DLC_levelbreakthrough_001详细描述",
+              "LocalizedString": "通关DLC_levelbreakthrough_001详细描述"
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -90430.35,
+                "Y": 131876.3,
+                "Z": 9457.465
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bNavigationPath": false
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_BREAKTHROUGH",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_QuestSystem_Quest1PanelDes",
+          "SourceString": "完成指定异象界域挑战以提高猎人等级上限",
+          "LocalizedString": "完成指定异象界域挑战以提高猎人等级上限"
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "Sy100001",
+            "ObjectiveID": "None"
+          }
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 45,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "Sy100003"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "Sy100003": {
+        "QuestId": "Sy100003",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_QuestSystem_Quest3Name",
+          "SourceString": "猎人等级上限突破·其三",
+          "LocalizedString": "猎人等级上限突破·其三"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "桥间地",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "CloneIDArray": [
+              "DLC_levelbreakthrough_003"
+            ],
+            "ObjectiveID": "1",
+            "ObjectiveName": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "DT_QuestSystem_Quest1OBJName",
+              "SourceString": "完成指定异象界域",
+              "LocalizedString": "完成指定异象界域"
+            },
+            "ObjectiveType": "EObjectiveType::EOT_CLONE_COMPLETED",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_Ui.ST_Ui",
+              "Key": "DT_QuestSystem_Quest3Des",
+              "SourceString": "完成「鉴定突破Ⅲ」异象界域",
+              "LocalizedString": "完成「鉴定突破Ⅲ」异象界域"
+            },
+            "CompletedDescription": {
+              "Namespace": "",
+              "Key": "0778D95E424ECE49E9416196659497D7",
+              "SourceString": "通关DLC_levelbreakthrough_001详细描述",
+              "LocalizedString": "通关DLC_levelbreakthrough_001详细描述"
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -90430.35,
+                "Y": 131876.3,
+                "Z": 9457.465
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bNavigationPath": false
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_BREAKTHROUGH",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_QuestSystem_Quest1PanelDes",
+          "SourceString": "完成指定异象界域挑战以提高猎人等级上限",
+          "LocalizedString": "完成指定异象界域挑战以提高猎人等级上限"
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "Sy100002",
+            "ObjectiveID": "None"
+          }
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 55,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      }
+    }
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_NoticeChannel",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'NoticeChannelConfig'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "default": {
+        "Description": "默认",
+        "URLPostfix": "/Notice/default/Notice.json"
+      },
+      "9_1": {
+        "Description": "Android ",
+        "URLPostfix": "/Notice/9_1/Notice.json"
+      },
+      "9_2": {
+        "Description": " iOS  ",
+        "URLPostfix": "/Notice/9_2/Notice.json"
+      },
+      "9_4": {
+        "Description": "Mac ",
+        "URLPostfix": "/Notice/9_4/Notice.json"
+      },
+      "9_7": {
+        "Description": "华为PC端",
+        "URLPostfix": "/Notice/9_7/Notice.json"
+      },
+      "9_9": {
+        "Description": "PGP模拟器和官网PC端",
+        "URLPostfix": "/Notice/9_9/Notice.json"
+      },
+      "9_12345": {
+        "Description": "PC版署服",
+        "URLPostfix": "/Notice/9_12345/Notice.json"
+      },
+      "9_23456": {
+        "Description": "PC版署2服",
+        "URLPostfix": "/Notice/9_23456/Notice.json"
+      },
+      "9_1317": {
+        "Description": "仿PC端",
+        "URLPostfix": "/Notice/9_1317/Notice.json"
+      },
+      "9_5567": {
+        "Description": "官方云iOS",
+        "URLPostfix": "/Notice/9_5567/Notice.json"
+      },
+      "9_5568": {
+        "Description": "官方云Android",
+        "URLPostfix": "/Notice/9_5568/Notice.json"
+      },
+      "9_6334": {
+        "Description": "官方鸿蒙",
+        "URLPostfix": "/Notice/9_6334/Notice.json"
+      },
+      "9_415": {
+        "Description": "今日头条1（抖音SDK1）",
+        "URLPostfix": "/Notice/9_415/Notice.json"
+      },
+      "9_416": {
+        "Description": "今日头条2（抖音SDK2）",
+        "URLPostfix": "/Notice/9_416/Notice.json"
+      },
+      "9_68": {
+        "Description": "爱奇艺",
+        "URLPostfix": "/Notice/9_68/Notice.json"
+      },
+      "9_410": {
+        "Description": "TapTap",
+        "URLPostfix": "/Notice/9_410/Notice.json"
+      },
+      "9_661": {
+        "Description": "好游快爆",
+        "URLPostfix": "/Notice/9_661/Notice.json"
+      },
+      "123_6372": {
+        "Description": "哔哩哔哩",
+        "URLPostfix": "/Notice/123_6372/Notice.json"
+      }
+    }
+  }
+]

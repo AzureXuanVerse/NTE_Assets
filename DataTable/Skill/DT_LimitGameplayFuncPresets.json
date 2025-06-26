@@ -1,0 +1,44 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LimitGameplayFuncPresets",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'LimitEffectPreset'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "TrainState": {
+        "LimitGamePlayFun": 114686,
+        "LimitSpecialAbilities": 0
+      },
+      "BusState": {
+        "LimitGamePlayFun": 73726,
+        "LimitSpecialAbilities": 0
+      },
+      "SpecialBanState": {
+        "LimitGamePlayFun": 4096,
+        "LimitSpecialAbilities": 6
+      },
+      "ClimbBanState": {
+        "LimitGamePlayFun": 131078,
+        "LimitSpecialAbilities": 4
+      },
+      "OnlyGroundMoveState": {
+        "LimitGamePlayFun": 215550,
+        "LimitSpecialAbilities": 4
+      },
+      "GroundMoveBattleState": {
+        "LimitGamePlayFun": 133318,
+        "LimitSpecialAbilities": 4
+      },
+      "Default": {
+        "LimitGamePlayFun": 122302,
+        "LimitSpecialAbilities": 0
+      }
+    }
+  }
+]

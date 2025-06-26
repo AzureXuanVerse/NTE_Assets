@@ -1,0 +1,93 @@
+[
+  {
+    "Type": "HT_CloneSystemDataAsset",
+    "Name": "CloneSystemDataAsset",
+    "Class": "UScriptClass'HT_CloneSystemDataAsset'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DT_CloneSystemData": {
+        "ObjectName": "DataTable'CloneSystemDataTable'",
+        "ObjectPath": "/Game/DataTable/CloneSystem/CloneSystemDataTable.0"
+      },
+      "DT_CloneOverview": {
+        "ObjectName": "DataTable'DT_CloneOverviewRow'",
+        "ObjectPath": "/Game/DataTable/CloneSystem/DT_CloneOverviewRow.0"
+      },
+      "DT_CloneEnter": {
+        "ObjectName": "DataTable'DT_CloneEnter'",
+        "ObjectPath": "/Game/DataTable/CloneSystem/DT_CloneEnter.0"
+      },
+      "ExitGameCoolDownTime": 999,
+      "CloneReliveHPPer": 1.0,
+      "ReceiveAwardDatas": [
+        {
+          "CloneType": "ECloneType::Weekly_Clone",
+          "ReceiveCount": 3
+        }
+      ],
+      "ClonePopupUIDataArray": [
+        {
+          "CloneIDs": [
+            "Trailclone_gold",
+            "Trailclone_exp",
+            "Trailclone_Wpexp",
+            "DLC_levelbreakthrough_001",
+            "DLC_levelbreakthrough_002",
+            "DLC_levelbreakthrough_003",
+            "DLC_talent_001",
+            "DLC_talent_002",
+            "DLC_talent_003",
+            "DLC_talent_004",
+            "DLC_talent_005",
+            "DLC_forkbreakthrough_001",
+            "DLC_forkbreakthrough_002",
+            "DLC_forkbreakthrough_003",
+            "DLC_forkbreakthrough_004",
+            "DLC_forkbreakthrough_005",
+            "DLC_equipment_001",
+            "DLC_equipment_002",
+            "DLC_equipment_003",
+            "DLC_equipment_004",
+            "DLC_equipment_005",
+            "DLC_equipment_006",
+            "Trailclone_exp_test",
+            "WeeklyClone_Boss05",
+            "WeeklyClone_Boss10",
+            "DLC_dynamic_Boss017"
+          ],
+          "CloneType": "ECloneType::Default",
+          "CloneUIxtensionData": {
+            "CloneMainFormSlot": "CloneMainForm",
+            "EnterCloneTipsUI": "",
+            "CloneChallengeResultUI": "CloneSystemChallengeResult",
+            "CloneChallengeResultFailedUI": "CloneSystemChallengeFailed",
+            "CloneAwardUI": "UI_CloneSystemAwards"
+          }
+        },
+        {
+          "CloneIDs": [],
+          "CloneType": "ECloneType::Abyss",
+          "CloneUIxtensionData": {
+            "CloneMainFormSlot": "AbyssCloneFight",
+            "EnterCloneTipsUI": "",
+            "CloneChallengeResultUI": "AbyssChallengeSuccess",
+            "CloneChallengeResultFailedUI": "CloneSystemChallengeFailed",
+            "CloneAwardUI": ""
+          }
+        }
+      ],
+      "CloneAISpawnManagerGuid": "9E423CD748219FDF1E25398FEA31D0DA",
+      "GoldCloneLevelInstanceDiffVector": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": -30000.0
+      },
+      "GoldClonePlayerTransferDiffVector": {
+        "X": -1850.0,
+        "Y": 0.0,
+        "Z": -30000.0
+      },
+      "GoldCloneTransferID": "MammonClone"
+    }
+  }
+]

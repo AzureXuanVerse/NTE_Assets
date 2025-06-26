@@ -1,0 +1,462 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ReactionExtendDataTable",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'ReactionExtendData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1009": {
+        "Name": {
+          "Namespace": "",
+          "Key": "B94195D94CB222F4F9BF89804EF97964",
+          "SourceString": "女主",
+          "LocalizedString": "女主"
+        },
+        "ReactionDataArray": [
+          {
+            "SourceGEClass": {
+              "ObjectName": "BlueprintGeneratedClass'GE_Reaction_GuangLingXiang_1009_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/element/Reaction/ReactionEffect/Reaction7/GE_Reaction_GuangLingXiang_1009.1"
+            },
+            "ReactionAbilityID": "GA_Female_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Female009_Passive2_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_009_Female/PassiveEffect/Buff_Female009_Passive2.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "9853E4B74514E5A1794BF0A968E3C0F5",
+          "SourceString": "前台角色每次获得充能时，额外获得x点生命值的回复",
+          "LocalizedString": "前台角色每次获得充能时，额外获得x点生命值的回复"
+        }
+      },
+      "1004": {
+        "Name": {
+          "Namespace": "",
+          "Key": "1D81B83F46591B6AC8DC0DB3B3EE2434",
+          "SourceString": "安魂曲",
+          "LocalizedString": "安魂曲"
+        },
+        "ReactionDataArray": [
+          {
+            "TargetGEClass": {
+              "ObjectName": "BlueprintGeneratedClass'GE_Reaction_AnHunZhou_1004_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/element/Reaction/ReactionEffect/Reaction8/GE_Reaction_AnHunZhou_1004.1"
+            },
+            "ReactionAbilityID": "GA_Lacrimosa_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Lacrimosa004_Passive2_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_004_Lacrimosa/PassiveEffect/Buff_Lacrimosa004_Passive2.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "7B3C41944EEB852F1E1CF88B8A3BE03B",
+          "SourceString": "触发时，额外削减目标的失衡上限。削减失衡上限效果属于debuff，目标脱战清除，多次施加效果可叠加，累计不能超过目标初始失衡上限的x%。",
+          "LocalizedString": "触发时，额外削减目标的失衡上限。削减失衡上限效果属于debuff，目标脱战清除，多次施加效果可叠加，累计不能超过目标初始失衡上限的x%。"
+        }
+      },
+      "1008": {
+        "Name": {
+          "Namespace": "",
+          "Key": "9C6B675C4A7250FDC2C82CAFBD1717DF",
+          "SourceString": "翳",
+          "LocalizedString": "翳"
+        },
+        "ReactionDataArray": [
+          {
+            "DamageTargetGEClass": {
+              "ObjectName": "BlueprintGeneratedClass'GE_Player_Skia_GuangXiangFive_Damage_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_008_Skia/Damage/GE_Player_Skia_GuangXiangFive_Damage.1"
+            },
+            "ReactionAbilityID": "GA_Skia_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Skia_Passivity1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_008_Skia/Passivity/Buff_Skia_Passivity1.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "8FFBD8264495FEE41F0DC6B028D99BF6",
+          "SourceString": "解除迟缓时目标受到高额伤害（相当于翳的额外倍率）（迟缓结束的目标）",
+          "LocalizedString": "解除迟缓时目标受到高额伤害（相当于翳的额外倍率）（迟缓结束的目标）"
+        }
+      },
+      "1039": {
+        "Name": {
+          "Namespace": "",
+          "Key": "BBCECD70494A2529E3136394EA867C1E",
+          "SourceString": "法蒂娅",
+          "LocalizedString": "法蒂娅"
+        },
+        "ReactionDataArray": [
+          {
+            "AnHunReactionData": {
+              "SourceGEClass": null,
+              "TargetGEClass": {
+                "ObjectName": "BlueprintGeneratedClass'Buff_Reaction_4_new_1039_Passive1_C'",
+                "ObjectPath": "/Game/Blueprints/Abilities/Buff/element/Reaction/ReactionEffect/Reaction4/New/Buff_Reaction_4_new_1039_Passive1.1"
+              }
+            },
+            "ReactionAbilityID": "GA_Fadia_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Fadia039_Passive1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_039_Fadia/PassiveEffect/Buff_Fadia039_Passive1.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "68BA5422497B05DE638F4CA6883B4D83",
+          "SourceString": "灵魂震荡状态下，全队每秒按一定比例汲取单目标x点生命上限（不属于持续伤害）",
+          "LocalizedString": "灵魂震荡状态下，全队每秒按一定比例汲取单目标x点生命上限（不属于持续伤害）"
+        }
+      },
+      "1003": {
+        "Name": {
+          "Namespace": "",
+          "Key": "FCADD38E4EF30A628B89D69F0B77041E",
+          "SourceString": "早雾",
+          "LocalizedString": "早雾"
+        },
+        "ReactionDataArray": [
+          {
+            "TargetGEClass": null,
+            "ReactionAbilityID": "GA_Sagiri_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Sagiri003_Passive2_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_003_Sagiri/PassiveEffect/Buff_Sagiri003_Passive2.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "C6E46E594F8B9DDAD97DA1A00BA07F16",
+          "SourceString": "每次为目标施加厄运缠身时，附带随机负面效果（攻击力降低、元素抗性降低、元素失衡效率提高）",
+          "LocalizedString": "每次为目标施加厄运缠身时，附带随机负面效果（攻击力降低、元素抗性降低、元素失衡效率提高）"
+        }
+      },
+      "1019": {
+        "Name": {
+          "Namespace": "",
+          "Key": "776D82BB4925AED47E02F794A9E5EEE4",
+          "SourceString": "薄荷",
+          "LocalizedString": "薄荷"
+        },
+        "ReactionDataArray": [
+          {
+            "AdditionalFireCount": 0,
+            "AdditionalSpiltCount": 1,
+            "ReactionAbilityID": "GA_Mint_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Mint019_Passive1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_019_Mint/PassiveEffect/Buff_Mint019_Passive1.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "5818991E4EFF57681EB5ABAFF4A53A3B",
+          "SourceString": "蒲公英每次发射多柄小伞",
+          "LocalizedString": "蒲公英每次发射多柄小伞"
+        }
+      },
+      "1010": {
+        "Name": {
+          "Namespace": "",
+          "Key": "6EC4C0E245A5520317BB4CAF1D9B3A73",
+          "SourceString": "娜娜莉",
+          "LocalizedString": "娜娜莉"
+        },
+        "ReactionDataArray": [
+          {
+            "AdditionalManagerCanExistNum": 3,
+            "ReactionAbilityID": "GA_Nanally_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Nanally010_Passive1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_010_Nanally/PassiveEffect/Buff_Nanally010_Passive1.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "9E0FC3FB4950F67998F8889390DE078F",
+          "SourceString": "额外生成多个蒲公英，场上能存在的蒲公英上限增加",
+          "LocalizedString": "额外生成多个蒲公英，场上能存在的蒲公英上限增加"
+        }
+      },
+      "1023": {
+        "Name": {
+          "Namespace": "",
+          "Key": "857434F24923934E1344E3BA508656DD",
+          "SourceString": "白藏",
+          "LocalizedString": "白藏"
+        },
+        "ReactionDataArray": [
+          {
+            "TargetGEClass": null,
+            "ReactionAbilityID": "GA_Cang_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Cang023_Passive1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_023_Cang/PassiveEffect/Buff_Cang023_Passive1.1"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "0CA604A641880C1B812236B5FF2101E2",
+          "SourceString": "厄运缠身状态下的目标被施加特定持续伤害时，对目标再施加一次与已有效果相同的厄运缠身",
+          "LocalizedString": "厄运缠身状态下的目标被施加特定持续伤害时，对目标再施加一次与已有效果相同的厄运缠身"
+        }
+      },
+      "1033": {
+        "Name": {
+          "Namespace": "",
+          "Key": "D9B7DCA544372BE4497C17AB5DB6BC79",
+          "SourceString": "阿德勒",
+          "LocalizedString": "阿德勒"
+        },
+        "ReactionDataArray": [
+          {
+            "SearchDis": 15.0,
+            "ReactionAbilityID": "GA_Adler_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Adler033_Passive1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_033_Adler/PassiveEffect/Buff_Adler033_Passive1.1"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "3DB6BC654B3929A388B3B48B2647D5A7",
+          "SourceString": "厄运缠身状态下的目标死亡时，将自身的厄运缠身效果（伤害、元素类型、层数）转移至一定距离的随机目标，并刷新持续时间。",
+          "LocalizedString": "厄运缠身状态下的目标死亡时，将自身的厄运缠身效果（伤害、元素类型、层数）转移至一定距离的随机目标，并刷新持续时间。"
+        }
+      },
+      "1017": {
+        "Name": {
+          "Namespace": "",
+          "Key": "B921F9C74BF8AC9956C0BBBFF6AECF8F",
+          "SourceString": "哈妮娅",
+          "LocalizedString": "哈妮娅"
+        },
+        "ReactionDataArray": [
+          {
+            "AnHunReactionData": {
+              "SourceGEClass": null,
+              "TargetGEClass": {
+                "ObjectName": "BlueprintGeneratedClass'Buff_Reaction_4_new_1039_Passive2_C'",
+                "ObjectPath": "/Game/Blueprints/Abilities/Buff/element/Reaction/ReactionEffect/Reaction4/New/Buff_Reaction_4_new_1039_Passive2.1"
+              }
+            },
+            "ReactionAbilityID": "None",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Haniel020_Passive1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_020_haniel/PassiveEffect/Buff_Haniel020_Passive1.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "03D61E444F75EBC46FD2CB9C36856661",
+          "SourceString": "灵魂震荡状态下，全队每秒按一定比例汲取单目标x点攻击力，脱战结束汲取，并还原双方属性。",
+          "LocalizedString": "灵魂震荡状态下，全队每秒按一定比例汲取单目标x点攻击力，脱战结束汲取，并还原双方属性。"
+        }
+      },
+      "1025": {
+        "Name": {
+          "Namespace": "",
+          "Key": "BEB0147B4F95E81C390F4C90B245FFFC",
+          "SourceString": "哈索尔",
+          "LocalizedString": "哈索尔"
+        },
+        "ReactionDataArray": [
+          {
+            "ReactionAbilityID": "GA_Hathor_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Hathor025_Passive1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_025_Hathor/PassiveEffect/Buff_Hathor025_Passive1.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "2CF0DF74406104DDB092FEB07014451B",
+          "SourceString": "对迟缓目标施加【拉的凝视】，拉的凝视期间视为迟缓",
+          "LocalizedString": "对迟缓目标施加【拉的凝视】，拉的凝视期间视为迟缓"
+        }
+      },
+      "1052": {
+        "Name": {
+          "Namespace": "",
+          "Key": "CC737E8D4A76223A9EC537B6FA6BA977",
+          "SourceString": "浔",
+          "LocalizedString": "浔"
+        },
+        "ReactionDataArray": [
+          {
+            "ReactionAbilityID": "GA_Jin_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Jin052_Passive1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_052_Jin/PassiveEffect/Buff_Jin052_Passive1.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "4F4D7C194C6105CBCCE5A8A164586F10",
+          "SourceString": "时停期间光灵花攻击不会被暂停，且攻击不消耗光灵球。",
+          "LocalizedString": "时停期间光灵花攻击不会被暂停，且攻击不消耗光灵球。"
+        }
+      },
+      "1051": {
+        "Name": {
+          "Namespace": "",
+          "Key": "43F852B941529328DB8AEDB53D255EEF",
+          "SourceString": "真女主",
+          "LocalizedString": "真女主"
+        },
+        "ReactionDataArray": [
+          {
+            "SourceGEClass": {
+              "ObjectName": "BlueprintGeneratedClass'GE_Reaction_GuangLingXiang_1009_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/element/Reaction/ReactionEffect/Reaction7/GE_Reaction_GuangLingXiang_1009.1"
+            },
+            "ReactionAbilityID": "GA_Female_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Female009_Passive2_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_009_Female/PassiveEffect/Buff_Female009_Passive2.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "9853E4B74514E5A1794BF0A968E3C0F5",
+          "SourceString": "前台角色每次获得充能时，额外获得x点生命值的回复",
+          "LocalizedString": "前台角色每次获得充能时，额外获得x点生命值的回复"
+        }
+      },
+      "1046": {
+        "Name": {
+          "Namespace": "",
+          "Key": "D87576BC446251A35C664AAE16EDC4DC",
+          "SourceString": "男主",
+          "LocalizedString": "男主"
+        },
+        "ReactionDataArray": [
+          {
+            "SourceGEClass": {
+              "ObjectName": "BlueprintGeneratedClass'GE_Reaction_GuangLingXiang_1009_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/element/Reaction/ReactionEffect/Reaction7/GE_Reaction_GuangLingXiang_1009.1"
+            },
+            "ReactionAbilityID": "GA_Female_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Female009_Passive2_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_009_Female/PassiveEffect/Buff_Female009_Passive2.0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "Namespace": "",
+          "Key": "9853E4B74514E5A1794BF0A968E3C0F5",
+          "SourceString": "前台角色每次获得充能时，额外获得x点生命值的回复",
+          "LocalizedString": "前台角色每次获得充能时，额外获得x点生命值的回复"
+        }
+      }
+    }
+  }
+]

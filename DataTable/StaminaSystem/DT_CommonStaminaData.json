@@ -1,0 +1,64 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CommonStaminaData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'CommonStaminaData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "CityStamina": {
+        "StaminaName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "CityStamina_name",
+          "SourceString": "都市活力",
+          "LocalizedString": "都市活力"
+        },
+        "CapitalRecoveryValue": 60,
+        "MaxCaptitalRecoveryTimes": 0,
+        "CaptitalItemID": "None",
+        "PotionItemID": "CityStamina_addpotion",
+        "CapitalPriceDatas": [],
+        "RecoveryData": {
+          "InitValue": 180,
+          "MaxValue": 180,
+          "RecoveryInterval": 1440,
+          "RecoveryValue": 1,
+          "ShowItemID": "CityStamina"
+        },
+        "BakRecoveryData": null,
+        "FurnitureType": "ESpecialFurnitureType::DreamWeaver",
+        "IntervalFurnitureType": "ESpecialFurnitureType::KoiFlagPainting",
+        "AddProgressFurnitureType": "ESpecialFurnitureType::None"
+      },
+      "Stamina": {
+        "StaminaName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "item_energy",
+          "SourceString": "本性像素",
+          "LocalizedString": "本性像素"
+        },
+        "CapitalRecoveryValue": 60,
+        "MaxCaptitalRecoveryTimes": 7,
+        "CaptitalItemID": "None",
+        "PotionItemID": "Stamina_addpotion",
+        "CapitalPriceDatas": [],
+        "RecoveryData": {
+          "InitValue": 180,
+          "MaxValue": 180,
+          "RecoveryInterval": 360,
+          "RecoveryValue": 1,
+          "ShowItemID": "Stamina"
+        },
+        "BakRecoveryData": null,
+        "FurnitureType": "ESpecialFurnitureType::BangBangFlower",
+        "IntervalFurnitureType": "ESpecialFurnitureType::None",
+        "AddProgressFurnitureType": "ESpecialFurnitureType::BangBangFlower"
+      }
+    }
+  }
+]

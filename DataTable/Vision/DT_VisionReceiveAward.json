@@ -1,0 +1,94 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_VisionReceiveAward",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'VisionReceiveAwardData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "AwardConditionText": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "VisionReceiveAward_city1_1",
+          "SourceString": "完成<Orange>1</>个异象委托",
+          "LocalizedString": "完成<Orange>1</>个异象委托"
+        },
+        "AreaId": "001",
+        "CompleteCondition": {
+          "CompleteVisionAmount": 1
+        },
+        "AwardDropID": "drop_VisionReceiveAwardRegion1"
+      },
+      "NewRow_0": {
+        "AwardConditionText": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "VisionReceiveAward_city1_2",
+          "SourceString": "完成<Orange>3</>个异象委托",
+          "LocalizedString": "完成<Orange>3</>个异象委托"
+        },
+        "AreaId": "001",
+        "CompleteCondition": {
+          "CompleteVisionAmount": 3
+        },
+        "AwardDropID": "drop_VisionReceiveAwardRegion2"
+      },
+      "NewRow_3": {
+        "AwardConditionText": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "VisionReceiveAward_city1_3",
+          "SourceString": "完成<Orange>6</>个异象委托",
+          "LocalizedString": "完成<Orange>6</>个异象委托"
+        },
+        "AreaId": "001",
+        "CompleteCondition": {
+          "CompleteVisionAmount": 6
+        },
+        "AwardDropID": "drop_VisionReceiveAwardRegion3"
+      },
+      "NewRow_4": {
+        "AwardConditionText": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "VisionReceiveAward_city1_4",
+          "SourceString": "完成<Orange>10</>个异象委托",
+          "LocalizedString": "完成<Orange>10</>个异象委托"
+        },
+        "AreaId": "001",
+        "CompleteCondition": {
+          "CompleteVisionAmount": 10
+        },
+        "AwardDropID": "drop_VisionReceiveAwardRegion4"
+      },
+      "NewRow_1": {
+        "AwardConditionText": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "VisionReceiveAward_city1_5",
+          "SourceString": "完成<Orange>15</>个异象委托",
+          "LocalizedString": "完成<Orange>15</>个异象委托"
+        },
+        "AreaId": "001",
+        "CompleteCondition": {
+          "CompleteVisionAmount": 15
+        },
+        "AwardDropID": "drop_VisionReceiveAwardRegion5"
+      },
+      "NewRow_2": {
+        "AwardConditionText": {
+          "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+          "Key": "VisionReceiveAward_city1_6",
+          "SourceString": "完成<Orange>20</>个异象委托",
+          "LocalizedString": "完成<Orange>20</>个异象委托"
+        },
+        "AreaId": "001",
+        "CompleteCondition": {
+          "CompleteVisionAmount": 20
+        },
+        "AwardDropID": "drop_VisionReceiveAwardRegion6"
+      }
+    }
+  }
+]
