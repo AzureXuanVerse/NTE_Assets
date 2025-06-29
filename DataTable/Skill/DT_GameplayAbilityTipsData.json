@@ -9491,10 +9491,10 @@
               "CultureInvariantString": null
             },
             "Description": {
-              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
-              "Key": "GA_Adler_Passive_1_background",
-              "SourceString": "<Italic>熨烫整齐的服装，就算是战斗中，头发也丝毫不乱。外形整洁是管家的第一门必修课。</>",
-              "LocalizedString": "<Italic>熨烫整齐的服装，就算是战斗中，头发也丝毫不乱。外形整洁是管家的第一门必修课。</>"
+              "TableId": "/Game/Text/PlayerSkillDes/Cang_SkillDes.Cang_SkillDes",
+              "Key": "GA_Cang_Passive_1_background",
+              "SourceString": "<Italic>唉……摸鱼时间又结束了。接下来，还请速战速决好吗？</>",
+              "LocalizedString": "<Italic>唉……摸鱼时间又结束了。接下来，还请速战速决好吗？</>"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -9547,10 +9547,10 @@
               "CultureInvariantString": null
             },
             "Description": {
-              "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
-              "Key": "GA_Adler_Passive_2_background",
-              "SourceString": "<Italic>「有些时候比起冗长的交涉，强硬的作战战略也是选择之一。」</>",
-              "LocalizedString": "<Italic>「有些时候比起冗长的交涉，强硬的作战战略也是选择之一。」</>"
+              "TableId": "/Game/Text/PlayerSkillDes/Cang_SkillDes.Cang_SkillDes",
+              "Key": "GA_Cang_Passive_2_background",
+              "SourceString": "<Italic>虽说都是一群我行我素的怪人，但也有合作默契的时刻。相处久了，身体也会记住对方的习性和动作。刚刚那算什么？当然是禁制机动队四队「热血的组合技」！</>",
+              "LocalizedString": "<Italic>虽说都是一群我行我素的怪人，但也有合作默契的时刻。相处久了，身体也会记住对方的习性和动作。刚刚那算什么？当然是禁制机动队四队「热血的组合技」！</>"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -9856,6 +9856,25 @@
             }
           },
           {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_PerfectEvade_name",
+              "SourceString": "<Title>零误差行动</>",
+              "LocalizedString": "<Title>零误差行动</>"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_PerfectEvade_des",
+              "SourceString": "触发极限闪避后使用「高频送达」触发。哈索尔向敌人发起极速反击，造成<NumGreen>1</>次范围性的相系伤害，命中后获得「闪送之力」，<NumGreen>5</>秒内最多获取<NumGreen>1</>次。",
+              "LocalizedString": "触发极限闪避后使用「高频送达」触发。哈索尔向敌人发起极速反击，造成<NumGreen>1</>次范围性的相系伤害，命中后获得「闪送之力」，<NumGreen>5</>秒内最多获取<NumGreen>1</>次。"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
             "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
             "DescriptionTitle": {
               "CultureInvariantString": null
@@ -10070,8 +10089,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
               "Key": "GA_Hathor_Skill2_des",
-              "SourceString": "在进入高效派送状态下，消耗「闪送之力」可释放此技能。哈索尔召唤由荆棘构成的摩托车，对目标发动高速连段攻击。",
-              "LocalizedString": "在进入高效派送状态下，消耗「闪送之力」可释放此技能。哈索尔召唤由荆棘构成的摩托车，对目标发动高速连段攻击。"
+              "SourceString": "在进入「紧急派送」状态下，消耗「闪送之力」可释放此技能。哈索尔召唤由荆棘构成的摩托车，对目标发动高速连段攻击。",
+              "LocalizedString": "在进入「紧急派送」状态下，消耗「闪送之力」可释放此技能。哈索尔召唤由荆棘构成的摩托车，对目标发动高速连段攻击。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -10341,8 +10360,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
               "Key": "GA_Hathor_Skill2_des",
-              "SourceString": "在进入高效派送状态下，消耗「闪送之力」可释放此技能。哈索尔召唤由荆棘构成的摩托车，对目标发动高速连段攻击。",
-              "LocalizedString": "在进入高效派送状态下，消耗「闪送之力」可释放此技能。哈索尔召唤由荆棘构成的摩托车，对目标发动高速连段攻击。"
+              "SourceString": "在进入「紧急派送」状态下，消耗「闪送之力」可释放此技能。哈索尔召唤由荆棘构成的摩托车，对目标发动高速连段攻击。",
+              "LocalizedString": "在进入「紧急派送」状态下，消耗「闪送之力」可释放此技能。哈索尔召唤由荆棘构成的摩托车，对目标发动高速连段攻击。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -12296,6 +12315,66 @@
             "CLGlobalCommonDataCurveID": "None"
           }
         ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Bat_UltraSkill": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "AbilityDescription": [],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Lacrimosa_Skill1.Lacrimosa_Skill1",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Boss06_ChangeSkill_FemalePlayer": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "AbilityDescription": [],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/YH_UI_Abyss_skil.YH_UI_Abyss_skil",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Boss06_ChangeSkill_MalePlayer": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "AbilityDescription": [],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/YH_UI_Abyss_skil.YH_UI_Abyss_skil",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
         "bStolenAbility": false,
         "GameplayAbility": {
           "AssetPathName": "",

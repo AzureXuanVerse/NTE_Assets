@@ -413,21 +413,23 @@
         },
         "UnLoadCondition": null
       },
-      "Vision_OceanChaseBoss_OutSideManager": {
+      "Vision_OceanChaseBoss_OutSideManageManual": {
         "DataLayerAssets": [
           {
             "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_Boss_019_OutsideManager.W_Unload_Boss_019_OutsideManager",
             "SubPathString": ""
           }
         ],
-        "AutoActive": true,
-        "OnlyInHybridMode": false,
-        "AreaIds": [],
-        "ActiveCondition": null,
-        "UnLoadCondition": {
-          "VisionID": "Vision_OceanChase",
+        "AutoActive": false,
+        "OnlyInHybridMode": true,
+        "AreaIds": [
+          "001"
+        ],
+        "ActiveCondition": {
+          "YahahaId": "OceanChaseBoss_OutsideManager_Load",
           "bNeedComplete": true
-        }
+        },
+        "UnLoadCondition": null
       },
       "Vision_OceanChaseBoss_BattleField": {
         "DataLayerAssets": [
@@ -716,22 +718,6 @@
         "ActiveCondition": {
           "YahahaId": "Vision_BoomBox",
           "bNeedComplete": true
-        },
-        "UnLoadCondition": null
-      },
-      "Vision_BuildingDrawing_01": {
-        "DataLayerAssets": [
-          {
-            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/WorldAnomaly/BuildingDrawing/W_Unload_WorldAnomaly_BuildingDrawing_01.W_Unload_WorldAnomaly_BuildingDrawing_01",
-            "SubPathString": ""
-          }
-        ],
-        "AutoActive": false,
-        "OnlyInHybridMode": true,
-        "AreaIds": [],
-        "ActiveCondition": {
-          "VisionID": "Vision_BuildingDrawing_01",
-          "bNeedComplete": false
         },
         "UnLoadCondition": null
       },

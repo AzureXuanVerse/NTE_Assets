@@ -1,0 +1,2872 @@
+{
+  "1003": {
+    "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+    "ItemTags": [],
+    "ItemIcon": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_003.player_003",
+      "SubPathString": ""
+    },
+    "ItemIconSmall": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_003x100.player_003x100",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_003",
+      "SourceString": "早雾",
+      "LocalizedString": "早雾"
+    },
+    "MaxAmount": 1,
+    "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+    "ItemCD": 0.0,
+    "TimeLimit": null,
+    "ItemEffectType": "EItemEffectType::NoEffect",
+    "UseContext": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_003_des",
+      "SourceString": "伊波恩古董店成员",
+      "LocalizedString": "伊波恩古董店成员"
+    },
+    "Description": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_003_des",
+      "SourceString": "伊波恩古董店成员",
+      "LocalizedString": "伊波恩古董店成员"
+    },
+    "ToolDatas": [
+      {
+        "AvatarID": "1003"
+      }
+    ],
+    "ItemUseCount": 1,
+    "bAutoUseWhenAdd": true,
+    "bDisplayedWhenObtain": false,
+    "bUndisplayFirstAddMessageTips": false,
+    "bUndisplayCommonAddMessageTips": true,
+    "bUseAddMessageTips": true,
+    "BagFunctions": 0,
+    "CanDestory": false,
+    "MeltPackID": "melt_Sagiri",
+    "ActiveBoxItemID": "None",
+    "OutputSourceID": "None",
+    "ExpandableAttributes": {
+      "ExpandedAttributes": []
+    },
+    "ExtensionData": null,
+    "ElementData": {
+      "CharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/Player/Player_003_Sagiri.Player_003_Sagiri_C",
+        "SubPathString": ""
+      },
+      "UISimpleCharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_003.PlayerUIShow_003_C",
+        "SubPathString": ""
+      },
+      "PropModifyID": "Sagiri_base",
+      "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_INCANTATION",
+      "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_FOUR",
+      "UpgradePackId": "character_Upgrade",
+      "UpgradeModifyPackId": "Sagiri_lv",
+      "BreakthroughPackId": "Sagiri_Breakthrough",
+      "AwakenCostItem": "Characterawaken_Sagiri:1",
+      "MaxAwakenLevel": 6,
+      "AwakenIconList": [
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_003_1.Awaken_Player_003_1",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_003_1D.Awaken_Player_003_1D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_003_2.Awaken_Player_003_2",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_003_2D.Awaken_Player_003_2D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_003_3.Awaken_Player_003_3",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_003_3D.Awaken_Player_003_3D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_003_4.Awaken_Player_003_4",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_003_4D.Awaken_Player_003_4D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_003_5.Awaken_Player_003_5",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_003_5D.Awaken_Player_003_5D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_003_6.Awaken_Player_003_6",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_003_6D.Awaken_Player_003_6D",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ForkID": "None",
+      "EquipmentSlotID": "EquipmentSlots_Sagiri",
+      "EquipBaseplateStaticMesh": {
+        "AssetPathName": "/Game/Environment/NPCprops/Items/Handhelds/SM_Handhelds_Tetris_044.SM_Handhelds_Tetris_044",
+        "SubPathString": ""
+      },
+      "EquipInnerReactionLayerStaticMesh": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "EquipmentHandleBaseLockedEffectIndex": 3,
+      "UIScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "CameraUpHeight": -16.0,
+      "CameraOffsets": -30.0,
+      "ForkMeshOffsets": -22.0,
+      "EquipmentHandMeshOffsets": -30.0,
+      "bIsAutoEquip": true,
+      "AbyssAssistBuff": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "AbilityUIIcon": {
+        "AssetPathName": "/Game/UI/UI/YINeng/YH_yineng_zhaopian01.YH_yineng_zhaopian01",
+        "SubPathString": ""
+      },
+      "AbilityUIColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "UIStackStyleTemplet": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "bIsHoldWeapon": false
+    },
+    "SubstituteData": null,
+    "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+    "bIsShowAmount": true,
+    "PlayerViewTagArray": [
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Sagiri_tag_0",
+          "SourceString": "<Mainwhite>辅助</>",
+          "LocalizedString": "<Mainwhite>辅助</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_fuzhu01.YH_UI_icon_Tag_fuzhu01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Sagiri_tag_1",
+          "SourceString": "<white>控制</>",
+          "LocalizedString": "<white>控制</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_kongzhi.YH_UI_icon_Tag_kongzhi",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bIsLimitAmount": false,
+    "bIsManual": true
+  },
+  "1004": {
+    "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+    "ItemTags": [],
+    "ItemIcon": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_004.player_004",
+      "SubPathString": ""
+    },
+    "ItemIconSmall": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_004x100.player_004x100",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_004",
+      "SourceString": "安魂曲",
+      "LocalizedString": "安魂曲"
+    },
+    "MaxAmount": 1,
+    "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+    "ItemCD": 0.0,
+    "TimeLimit": null,
+    "ItemEffectType": "EItemEffectType::NoEffect",
+    "UseContext": {
+      "CultureInvariantString": null
+    },
+    "Description": {
+      "Namespace": "",
+      "Key": "F2A2360C4769BE04A37FEF8294F979D0",
+      "SourceString": "性格天然，语言组织能力很差，看起来傻乎乎的且有点迟钝，缺乏常识，生活自理能力很差，经常出现走路碰到玻璃门、被自己的鞋带绊倒等小问题，有着令周围的人不知不觉的就照顾她的天赋，应变能力为零。缺乏干劲，对于出任务完全提不起兴趣，偷懒放水的时候经常被队友抓个正着。被队友吐槽后本着尽快结束尽快休息的原则，下手总是会突然变重，有时候会影响到市民的正常生活，因此是异象管理局接到投诉最多的成员之一。不擅长与人争执，当周围人关系紧张，虽然想要靠自己来让气氛缓和下来，但因为不擅长观察他人的心情，基本上难以收到好的效果。",
+      "LocalizedString": "性格天然，语言组织能力很差，看起来傻乎乎的且有点迟钝，缺乏常识，生活自理能力很差，经常出现走路碰到玻璃门、被自己的鞋带绊倒等小问题，有着令周围的人不知不觉的就照顾她的天赋，应变能力为零。缺乏干劲，对于出任务完全提不起兴趣，偷懒放水的时候经常被队友抓个正着。被队友吐槽后本着尽快结束尽快休息的原则，下手总是会突然变重，有时候会影响到市民的正常生活，因此是异象管理局接到投诉最多的成员之一。不擅长与人争执，当周围人关系紧张，虽然想要靠自己来让气氛缓和下来，但因为不擅长观察他人的心情，基本上难以收到好的效果。"
+    },
+    "ToolDatas": [
+      {
+        "AvatarID": "1004"
+      }
+    ],
+    "ItemUseCount": 1,
+    "bAutoUseWhenAdd": true,
+    "bDisplayedWhenObtain": false,
+    "bUndisplayFirstAddMessageTips": false,
+    "bUndisplayCommonAddMessageTips": true,
+    "bUseAddMessageTips": true,
+    "BagFunctions": 0,
+    "CanDestory": false,
+    "MeltPackID": "melt_lacrimosa",
+    "ActiveBoxItemID": "None",
+    "OutputSourceID": "None",
+    "ExpandableAttributes": {
+      "ExpandedAttributes": []
+    },
+    "ExtensionData": null,
+    "ElementData": {
+      "CharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/Player/Player_004_Lacrimosa.Player_004_Lacrimosa_C",
+        "SubPathString": ""
+      },
+      "UISimpleCharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_004.PlayerUIShow_004_C",
+        "SubPathString": ""
+      },
+      "PropModifyID": "lacrimosa_base",
+      "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
+      "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_TWO",
+      "UpgradePackId": "character_Upgrade",
+      "UpgradeModifyPackId": "lacrimosa_lv",
+      "BreakthroughPackId": "lacrimosa_Breakthrough",
+      "AwakenCostItem": "Characterawaken_lacrimosa:1",
+      "MaxAwakenLevel": 6,
+      "AwakenIconList": [
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_004_1.Awaken_Player_004_1",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_004_1D.Awaken_Player_004_1D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_004_2.Awaken_Player_004_2",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_004_2D.Awaken_Player_004_2D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_004_3.Awaken_Player_004_3",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_004_3D.Awaken_Player_004_3D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_004_4.Awaken_Player_004_4",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_004_4D.Awaken_Player_004_4D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_004_5.Awaken_Player_004_5",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_004_5D.Awaken_Player_004_5D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_004_6.Awaken_Player_004_6",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_004_6D.Awaken_Player_004_6D",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ForkID": "None",
+      "EquipmentSlotID": "EquipmentSlots_lacrimosa",
+      "EquipBaseplateStaticMesh": {
+        "AssetPathName": "/Game/Environment/NPCprops/Items/Handhelds/SM_Handhelds_Tetris_011.SM_Handhelds_Tetris_011",
+        "SubPathString": ""
+      },
+      "EquipInnerReactionLayerStaticMesh": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "EquipmentHandleBaseLockedEffectIndex": 0,
+      "UIScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "CameraUpHeight": 9.0,
+      "CameraOffsets": -10.0,
+      "ForkMeshOffsets": 2.0,
+      "EquipmentHandMeshOffsets": 0.0,
+      "bIsAutoEquip": false,
+      "AbyssAssistBuff": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "AbilityUIIcon": {
+        "AssetPathName": "/Game/UI/UI/YINeng/YH_yineng_zhaopian01.YH_yineng_zhaopian01",
+        "SubPathString": ""
+      },
+      "AbilityUIColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "UIStackStyleTemplet": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "bIsHoldWeapon": false
+    },
+    "SubstituteData": null,
+    "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+    "bIsShowAmount": true,
+    "PlayerViewTagArray": [
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "lacrimosa_tag_0",
+          "SourceString": "<Mainwhite>攻击</>",
+          "LocalizedString": "<Mainwhite>攻击</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "lacrimosa_tag_1",
+          "SourceString": "<white>主力输出</>",
+          "LocalizedString": "<white>主力输出</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_zhuli.YH_UI_icon_Tag_zhuli",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "lacrimosa_tag_2",
+          "SourceString": "<white>持续伤害</>",
+          "LocalizedString": "<white>持续伤害</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_chixu.YH_UI_icon_Tag_chixu",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bIsLimitAmount": false,
+    "bIsManual": true
+  },
+  "1008": {
+    "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+    "ItemTags": [],
+    "ItemIcon": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_008.player_008",
+      "SubPathString": ""
+    },
+    "ItemIconSmall": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_008x100.player_008x100",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_008",
+      "SourceString": "翳",
+      "LocalizedString": "翳"
+    },
+    "MaxAmount": 1,
+    "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+    "ItemCD": 0.0,
+    "TimeLimit": null,
+    "ItemEffectType": "EItemEffectType::NoEffect",
+    "UseContext": {
+      "CultureInvariantString": null
+    },
+    "Description": {
+      "CultureInvariantString": null
+    },
+    "ToolDatas": [
+      {
+        "AvatarID": "1008"
+      }
+    ],
+    "ItemUseCount": 1,
+    "bAutoUseWhenAdd": true,
+    "bDisplayedWhenObtain": false,
+    "bUndisplayFirstAddMessageTips": false,
+    "bUndisplayCommonAddMessageTips": true,
+    "bUseAddMessageTips": true,
+    "BagFunctions": 0,
+    "CanDestory": false,
+    "MeltPackID": "melt_skia",
+    "ActiveBoxItemID": "None",
+    "OutputSourceID": "None",
+    "ExpandableAttributes": {
+      "ExpandedAttributes": []
+    },
+    "ExtensionData": null,
+    "ElementData": {
+      "CharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/Player/player_008_Skia.player_008_Skia_C",
+        "SubPathString": ""
+      },
+      "UISimpleCharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_008.PlayerUIShow_008_C",
+        "SubPathString": ""
+      },
+      "PropModifyID": "skia_base",
+      "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_LAKSHANA",
+      "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_FOUR",
+      "UpgradePackId": "character_Upgrade",
+      "UpgradeModifyPackId": "skia_lv",
+      "BreakthroughPackId": "skia_Breakthrough",
+      "AwakenCostItem": "Characterawaken_skia:1",
+      "MaxAwakenLevel": 6,
+      "AwakenIconList": [
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_008_1.Awaken_Player_008_1",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_008_1D.Awaken_Player_008_1D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_008_2.Awaken_Player_008_2",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_008_2D.Awaken_Player_008_2D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_008_3.Awaken_Player_008_3",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_008_3D.Awaken_Player_008_3D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_008_4.Awaken_Player_008_4",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_008_4D.Awaken_Player_008_4D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_008_5.Awaken_Player_008_5",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_008_5D.Awaken_Player_008_5D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_008_6.Awaken_Player_008_6",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_008_6D.Awaken_Player_008_6D",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ForkID": "None",
+      "EquipmentSlotID": "EquipmentSlots_skia",
+      "EquipBaseplateStaticMesh": {
+        "AssetPathName": "/Game/Environment/NPCprops/Items/Handhelds/SM_Handhelds_Tetris_033.SM_Handhelds_Tetris_033",
+        "SubPathString": ""
+      },
+      "EquipInnerReactionLayerStaticMesh": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "EquipmentHandleBaseLockedEffectIndex": 2,
+      "UIScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "CameraUpHeight": 55.0,
+      "CameraOffsets": 38.0,
+      "ForkMeshOffsets": 46.0,
+      "EquipmentHandMeshOffsets": 38.0,
+      "bIsAutoEquip": true,
+      "AbyssAssistBuff": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "AbilityUIIcon": {
+        "AssetPathName": "/Game/UI/UI/YINeng/YH_yineng_zhaopian01.YH_yineng_zhaopian01",
+        "SubPathString": ""
+      },
+      "AbilityUIColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "UIStackStyleTemplet": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "bIsHoldWeapon": false
+    },
+    "SubstituteData": null,
+    "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+    "bIsShowAmount": true,
+    "PlayerViewTagArray": [
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "lacrimosa_tag_0",
+          "SourceString": "<Mainwhite>攻击</>",
+          "LocalizedString": "<Mainwhite>攻击</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "lacrimosa_tag_1",
+          "SourceString": "<white>主力输出</>",
+          "LocalizedString": "<white>主力输出</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_zhuli.YH_UI_icon_Tag_zhuli",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bIsLimitAmount": false,
+    "bIsManual": true
+  },
+  "1010": {
+    "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+    "ItemTags": [],
+    "ItemIcon": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_010.player_010",
+      "SubPathString": ""
+    },
+    "ItemIconSmall": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_010x100.player_010x100",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_010",
+      "SourceString": "娜娜莉",
+      "LocalizedString": "娜娜莉"
+    },
+    "MaxAmount": 1,
+    "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+    "ItemCD": 0.0,
+    "TimeLimit": null,
+    "ItemEffectType": "EItemEffectType::NoEffect",
+    "UseContext": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_010_des",
+      "SourceString": "伊波恩古董店成员",
+      "LocalizedString": "伊波恩古董店成员"
+    },
+    "Description": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_010_des",
+      "SourceString": "伊波恩古董店成员",
+      "LocalizedString": "伊波恩古董店成员"
+    },
+    "ToolDatas": [
+      {
+        "AvatarID": "1010"
+      }
+    ],
+    "ItemUseCount": 1,
+    "bAutoUseWhenAdd": true,
+    "bDisplayedWhenObtain": false,
+    "bUndisplayFirstAddMessageTips": false,
+    "bUndisplayCommonAddMessageTips": true,
+    "bUseAddMessageTips": true,
+    "BagFunctions": 0,
+    "CanDestory": false,
+    "MeltPackID": "melt_nanally",
+    "ActiveBoxItemID": "None",
+    "OutputSourceID": "None",
+    "ExpandableAttributes": {
+      "ExpandedAttributes": []
+    },
+    "ExtensionData": null,
+    "ElementData": {
+      "CharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/Player/player_010_nanally.player_010_nanally_C",
+        "SubPathString": ""
+      },
+      "UISimpleCharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_010.PlayerUIShow_010_C",
+        "SubPathString": ""
+      },
+      "PropModifyID": "Nanally_base",
+      "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
+      "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_THREE",
+      "UpgradePackId": "character_Upgrade",
+      "UpgradeModifyPackId": "Nanally_lv",
+      "BreakthroughPackId": "Nanally_Breakthrough",
+      "AwakenCostItem": "Characterawaken_Nanally:1",
+      "MaxAwakenLevel": 6,
+      "AwakenIconList": [
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_010_1.Awaken_Player_010_1",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_010_1D.Awaken_Player_010_1D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_010_2.Awaken_Player_010_2",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_010_2D.Awaken_Player_010_2D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_010_3.Awaken_Player_010_3",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_010_3D.Awaken_Player_010_3D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_010_4.Awaken_Player_010_4",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_010_4D.Awaken_Player_010_4D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_010_5.Awaken_Player_010_5",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_010_5D.Awaken_Player_010_5D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_010_6.Awaken_Player_010_6",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_010_6D.Awaken_Player_010_6D",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ForkID": "None",
+      "EquipmentSlotID": "EquipmentSlots_Nanally",
+      "EquipBaseplateStaticMesh": {
+        "AssetPathName": "/Game/Environment/NPCprops/Items/Handhelds/SM_Handhelds_Tetris_011.SM_Handhelds_Tetris_011",
+        "SubPathString": ""
+      },
+      "EquipInnerReactionLayerStaticMesh": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "EquipmentHandleBaseLockedEffectIndex": 0,
+      "UIScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "CameraUpHeight": 9.0,
+      "CameraOffsets": -10.0,
+      "ForkMeshOffsets": -2.0,
+      "EquipmentHandMeshOffsets": -10.0,
+      "bIsAutoEquip": true,
+      "AbyssAssistBuff": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "AbilityUIIcon": {
+        "AssetPathName": "/Game/UI/UI/YINeng/YH_yineng_zhaopian01.YH_yineng_zhaopian01",
+        "SubPathString": ""
+      },
+      "AbilityUIColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "UIStackStyleTemplet": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "bIsHoldWeapon": false
+    },
+    "SubstituteData": null,
+    "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+    "bIsShowAmount": true,
+    "PlayerViewTagArray": [
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "lacrimosa_tag_0",
+          "SourceString": "<Mainwhite>攻击</>",
+          "LocalizedString": "<Mainwhite>攻击</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "lacrimosa_tag_1",
+          "SourceString": "<white>主力输出</>",
+          "LocalizedString": "<white>主力输出</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_zhuli.YH_UI_icon_Tag_zhuli",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Nanally_tag_2",
+          "SourceString": "<white>联袂邀击</>",
+          "LocalizedString": "<white>联袂邀击</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_yaoji.YH_UI_icon_Tag_yaoji",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bIsLimitAmount": false,
+    "bIsManual": true
+  },
+  "1019": {
+    "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+    "ItemTags": [],
+    "ItemIcon": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019.player_019",
+      "SubPathString": ""
+    },
+    "ItemIconSmall": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_019x100.player_019x100",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_019",
+      "SourceString": "薄荷",
+      "LocalizedString": "薄荷"
+    },
+    "MaxAmount": 1,
+    "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+    "ItemCD": 0.0,
+    "TimeLimit": null,
+    "ItemEffectType": "EItemEffectType::NoEffect",
+    "UseContext": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_019_des",
+      "SourceString": "异象管理局-收容二组组员",
+      "LocalizedString": "异象管理局-收容二组组员"
+    },
+    "Description": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_019_des",
+      "SourceString": "异象管理局-收容二组组员",
+      "LocalizedString": "异象管理局-收容二组组员"
+    },
+    "ToolDatas": [
+      {
+        "AvatarID": "1019"
+      }
+    ],
+    "ItemUseCount": 1,
+    "bAutoUseWhenAdd": true,
+    "bDisplayedWhenObtain": false,
+    "bUndisplayFirstAddMessageTips": false,
+    "bUndisplayCommonAddMessageTips": true,
+    "bUseAddMessageTips": true,
+    "BagFunctions": 0,
+    "CanDestory": false,
+    "MeltPackID": "melt_Mint",
+    "ActiveBoxItemID": "None",
+    "OutputSourceID": "None",
+    "ExpandableAttributes": {
+      "ExpandedAttributes": []
+    },
+    "ExtensionData": null,
+    "ElementData": {
+      "CharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/Player/Player_019_Mint.Player_019_Mint_C",
+        "SubPathString": ""
+      },
+      "UISimpleCharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_019.PlayerUIShow_019_C",
+        "SubPathString": ""
+      },
+      "PropModifyID": "Mint_base",
+      "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
+      "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_TWO",
+      "UpgradePackId": "character_Upgrade",
+      "UpgradeModifyPackId": "mint_lv",
+      "BreakthroughPackId": "Mint_Breakthrough",
+      "AwakenCostItem": "Characterawaken_Mint:1",
+      "MaxAwakenLevel": 6,
+      "AwakenIconList": [
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_019_1.Awaken_Player_019_1",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_019_1D.Awaken_Player_019_1D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_019_2.Awaken_Player_019_2",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_019_2D.Awaken_Player_019_2D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_019_3.Awaken_Player_019_3",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_019_3D.Awaken_Player_019_3D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_019_4.Awaken_Player_019_4",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_019_4D.Awaken_Player_019_4D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_019_5.Awaken_Player_019_5",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_019_5D.Awaken_Player_019_5D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_019_6.Awaken_Player_019_6",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_019_6D.Awaken_Player_019_6D",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ForkID": "None",
+      "EquipmentSlotID": "EquipmentSlots_Mint",
+      "EquipBaseplateStaticMesh": {
+        "AssetPathName": "/Game/Environment/NPCprops/Items/Handhelds/SM_Handhelds_Tetris_033.SM_Handhelds_Tetris_033",
+        "SubPathString": ""
+      },
+      "EquipInnerReactionLayerStaticMesh": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "EquipmentHandleBaseLockedEffectIndex": 2,
+      "UIScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "CameraUpHeight": 20.0,
+      "CameraOffsets": 0.0,
+      "ForkMeshOffsets": 8.0,
+      "EquipmentHandMeshOffsets": 0.0,
+      "bIsAutoEquip": true,
+      "AbyssAssistBuff": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "AbilityUIIcon": {
+        "AssetPathName": "/Game/UI/UI/YINeng/YH_yineng_zhaopian01.YH_yineng_zhaopian01",
+        "SubPathString": ""
+      },
+      "AbilityUIColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "UIStackStyleTemplet": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "bIsHoldWeapon": false
+    },
+    "SubstituteData": null,
+    "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+    "bIsShowAmount": true,
+    "PlayerViewTagArray": [
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "lacrimosa_tag_0",
+          "SourceString": "<Mainwhite>攻击</>",
+          "LocalizedString": "<Mainwhite>攻击</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "lacrimosa_tag_1",
+          "SourceString": "<white>主力输出</>",
+          "LocalizedString": "<white>主力输出</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_zhuli.YH_UI_icon_Tag_zhuli",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bIsLimitAmount": false,
+    "bIsManual": true
+  },
+  "1023": {
+    "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+    "ItemTags": [],
+    "ItemIcon": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_028.player_028",
+      "SubPathString": ""
+    },
+    "ItemIconSmall": {
+      "AssetPathName": "",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_023",
+      "SourceString": "白藏",
+      "LocalizedString": "白藏"
+    },
+    "MaxAmount": 1,
+    "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+    "ItemCD": 0.0,
+    "TimeLimit": null,
+    "ItemEffectType": "EItemEffectType::NoEffect",
+    "UseContext": {
+      "CultureInvariantString": null
+    },
+    "Description": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_003_des",
+      "SourceString": "伊波恩古董店成员",
+      "LocalizedString": "伊波恩古董店成员"
+    },
+    "ToolDatas": [
+      {
+        "AvatarID": "1023"
+      }
+    ],
+    "ItemUseCount": 1,
+    "bAutoUseWhenAdd": true,
+    "bDisplayedWhenObtain": false,
+    "bUndisplayFirstAddMessageTips": false,
+    "bUndisplayCommonAddMessageTips": true,
+    "bUseAddMessageTips": true,
+    "BagFunctions": 0,
+    "CanDestory": false,
+    "MeltPackID": "melt_Cang",
+    "ActiveBoxItemID": "None",
+    "OutputSourceID": "None",
+    "ExpandableAttributes": {
+      "ExpandedAttributes": []
+    },
+    "ExtensionData": null,
+    "ElementData": {
+      "CharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/Player/player_023_Cang.player_023_Cang_C",
+        "SubPathString": ""
+      },
+      "UISimpleCharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_023.PlayerUIShow_023_C",
+        "SubPathString": ""
+      },
+      "PropModifyID": "Cang_base",
+      "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_INCANTATION",
+      "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_FIVE",
+      "UpgradePackId": "character_Upgrade",
+      "UpgradeModifyPackId": "Cang_lv",
+      "BreakthroughPackId": "Cang_Breakthrough",
+      "AwakenCostItem": "Characterawaken_Cang:1",
+      "MaxAwakenLevel": 6,
+      "AwakenIconList": [
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_028_1.Awaken_Player_028_1",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_028_1D.Awaken_Player_028_1D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_028_2.Awaken_Player_028_2",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_028_2D.Awaken_Player_028_2D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_028_3.Awaken_Player_028_3",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_028_3D.Awaken_Player_028_3D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_028_4.Awaken_Player_028_4",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_028_4D.Awaken_Player_028_4D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_028_5.Awaken_Player_028_5",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_028_5D.Awaken_Player_028_5D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_028_6.Awaken_Player_028_6",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_028_6D.Awaken_Player_028_6D",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ForkID": "None",
+      "EquipmentSlotID": "EquipmentSlots_Cang",
+      "EquipBaseplateStaticMesh": {
+        "AssetPathName": "/Game/Environment/NPCprops/Items/Handhelds/SM_Handhelds_Tetris_033.SM_Handhelds_Tetris_033",
+        "SubPathString": ""
+      },
+      "EquipInnerReactionLayerStaticMesh": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "EquipmentHandleBaseLockedEffectIndex": 2,
+      "UIScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "CameraUpHeight": -16.0,
+      "CameraOffsets": 20.0,
+      "ForkMeshOffsets": 28.0,
+      "EquipmentHandMeshOffsets": 20.0,
+      "bIsAutoEquip": true,
+      "AbyssAssistBuff": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "AbilityUIIcon": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "AbilityUIColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "UIStackStyleTemplet": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "bIsHoldWeapon": false
+    },
+    "SubstituteData": null,
+    "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+    "bIsShowAmount": true,
+    "PlayerViewTagArray": [
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "lacrimosa_tag_0",
+          "SourceString": "<Mainwhite>攻击</>",
+          "LocalizedString": "<Mainwhite>攻击</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "lacrimosa_tag_1",
+          "SourceString": "<white>主力输出</>",
+          "LocalizedString": "<white>主力输出</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_zhuli.YH_UI_icon_Tag_zhuli",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "lacrimosa_tag_2",
+          "SourceString": "<white>持续伤害</>",
+          "LocalizedString": "<white>持续伤害</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_chixu.YH_UI_icon_Tag_chixu",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bIsLimitAmount": false,
+    "bIsManual": false
+  },
+  "1025": {
+    "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+    "ItemTags": [],
+    "ItemIcon": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_012.player_012",
+      "SubPathString": ""
+    },
+    "ItemIconSmall": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_012x100.player_012x100",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_025",
+      "SourceString": "哈索尔",
+      "LocalizedString": "哈索尔"
+    },
+    "MaxAmount": 1,
+    "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+    "ItemCD": 0.0,
+    "TimeLimit": null,
+    "ItemEffectType": "EItemEffectType::NoEffect",
+    "UseContext": {
+      "CultureInvariantString": null
+    },
+    "Description": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_003_des",
+      "SourceString": "伊波恩古董店成员",
+      "LocalizedString": "伊波恩古董店成员"
+    },
+    "ToolDatas": [
+      {
+        "AvatarID": "1025"
+      }
+    ],
+    "ItemUseCount": 1,
+    "bAutoUseWhenAdd": true,
+    "bDisplayedWhenObtain": false,
+    "bUndisplayFirstAddMessageTips": false,
+    "bUndisplayCommonAddMessageTips": true,
+    "bUseAddMessageTips": true,
+    "BagFunctions": 0,
+    "CanDestory": false,
+    "MeltPackID": "melt_hathor",
+    "ActiveBoxItemID": "None",
+    "OutputSourceID": "None",
+    "ExpandableAttributes": {
+      "ExpandedAttributes": []
+    },
+    "ExtensionData": null,
+    "ElementData": {
+      "CharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/Player/player_025_hathor.player_025_hathor_C",
+        "SubPathString": ""
+      },
+      "UISimpleCharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_025.PlayerUIShow_025_C",
+        "SubPathString": ""
+      },
+      "PropModifyID": "Hathor_base",
+      "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_LAKSHANA",
+      "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_ONE",
+      "UpgradePackId": "character_Upgrade",
+      "UpgradeModifyPackId": "Hathor_lv",
+      "BreakthroughPackId": "Hathor_Breakthrough",
+      "AwakenCostItem": "Characterawaken_hathor:1",
+      "MaxAwakenLevel": 6,
+      "AwakenIconList": [
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_012_1.Awaken_Player_012_1",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_012_1D.Awaken_Player_012_1D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_012_2.Awaken_Player_012_2",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_012_2D.Awaken_Player_012_2D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_012_3.Awaken_Player_012_3",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_012_3D.Awaken_Player_012_3D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_012_4.Awaken_Player_012_4",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_012_4D.Awaken_Player_012_4D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_012_5.Awaken_Player_012_5",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_012_5D.Awaken_Player_012_5D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_012_6.Awaken_Player_012_6",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_012_6D.Awaken_Player_012_6D",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ForkID": "None",
+      "EquipmentSlotID": "EquipmentSlots_Hathor",
+      "EquipBaseplateStaticMesh": {
+        "AssetPathName": "/Game/Environment/NPCprops/Items/Handhelds/SM_Handhelds_Tetris_022.SM_Handhelds_Tetris_022",
+        "SubPathString": ""
+      },
+      "EquipInnerReactionLayerStaticMesh": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "EquipmentHandleBaseLockedEffectIndex": 1,
+      "UIScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "CameraUpHeight": 22.0,
+      "CameraOffsets": 10.0,
+      "ForkMeshOffsets": 18.0,
+      "EquipmentHandMeshOffsets": 10.0,
+      "bIsAutoEquip": true,
+      "AbyssAssistBuff": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "AbilityUIIcon": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "AbilityUIColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "UIStackStyleTemplet": {
+        "AssetPathName": "/Game/UI/Blueprints/Skill/BufferStack/BPUI_BlockBufferStack_hathor.BPUI_BlockBufferStack_hathor_C",
+        "SubPathString": ""
+      },
+      "bIsHoldWeapon": false
+    },
+    "SubstituteData": null,
+    "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+    "bIsShowAmount": true,
+    "PlayerViewTagArray": [
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "lacrimosa_tag_0",
+          "SourceString": "<Mainwhite>攻击</>",
+          "LocalizedString": "<Mainwhite>攻击</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Female_tag_1",
+          "SourceString": "<white>爆发输出</>",
+          "LocalizedString": "<white>爆发输出</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_zhuli.YH_UI_icon_Tag_zhuli",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bIsLimitAmount": false,
+    "bIsManual": false
+  },
+  "1033": {
+    "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+    "ItemTags": [],
+    "ItemIcon": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_015.player_015",
+      "SubPathString": ""
+    },
+    "ItemIconSmall": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_015x100.player_015x100",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_033",
+      "SourceString": "阿德勒",
+      "LocalizedString": "阿德勒"
+    },
+    "MaxAmount": 1,
+    "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+    "ItemCD": 0.0,
+    "TimeLimit": null,
+    "ItemEffectType": "EItemEffectType::NoEffect",
+    "UseContext": {
+      "CultureInvariantString": null
+    },
+    "Description": {
+      "CultureInvariantString": null
+    },
+    "ToolDatas": [
+      {
+        "AvatarID": "1033"
+      }
+    ],
+    "ItemUseCount": 1,
+    "bAutoUseWhenAdd": true,
+    "bDisplayedWhenObtain": false,
+    "bUndisplayFirstAddMessageTips": false,
+    "bUndisplayCommonAddMessageTips": true,
+    "bUseAddMessageTips": true,
+    "BagFunctions": 0,
+    "CanDestory": false,
+    "MeltPackID": "melt_Adler",
+    "ActiveBoxItemID": "None",
+    "OutputSourceID": "None",
+    "ExpandableAttributes": {
+      "ExpandedAttributes": []
+    },
+    "ExtensionData": null,
+    "ElementData": {
+      "CharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/Player/player_033_adler.player_033_adler_C",
+        "SubPathString": ""
+      },
+      "UISimpleCharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_033.PlayerUIShow_033_C",
+        "SubPathString": ""
+      },
+      "PropModifyID": "Adler_base",
+      "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_INCANTATION",
+      "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_FIVE",
+      "UpgradePackId": "character_Upgrade",
+      "UpgradeModifyPackId": "Adler_lv",
+      "BreakthroughPackId": "Adler_Breakthrough",
+      "AwakenCostItem": "Characterawaken_Adler:1",
+      "MaxAwakenLevel": 6,
+      "AwakenIconList": [
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_033_1.Awaken_Player_033_1",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_033_1D.Awaken_Player_033_1D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_033_2.Awaken_Player_033_2",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_033_2D.Awaken_Player_033_2D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_033_3.Awaken_Player_033_3",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_033_3D.Awaken_Player_033_3D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_033_4.Awaken_Player_033_4",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_033_4D.Awaken_Player_033_4D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_033_5.Awaken_Player_033_5",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_033_5D.Awaken_Player_033_5D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_033_6.Awaken_Player_033_6",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_033_6D.Awaken_Player_033_6D",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ForkID": "None",
+      "EquipmentSlotID": "EquipmentSlots_Adler",
+      "EquipBaseplateStaticMesh": {
+        "AssetPathName": "/Game/Environment/NPCprops/Items/Handhelds/SM_Handhelds_Tetris_044.SM_Handhelds_Tetris_044",
+        "SubPathString": ""
+      },
+      "EquipInnerReactionLayerStaticMesh": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "EquipmentHandleBaseLockedEffectIndex": 3,
+      "UIScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "CameraUpHeight": 35.0,
+      "CameraOffsets": 15.0,
+      "ForkMeshOffsets": 18.0,
+      "EquipmentHandMeshOffsets": 20.0,
+      "bIsAutoEquip": true,
+      "AbyssAssistBuff": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "AbilityUIIcon": {
+        "AssetPathName": "/Game/UI/UI/YINeng/YH_yineng_zhaopian01.YH_yineng_zhaopian01",
+        "SubPathString": ""
+      },
+      "AbilityUIColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "UIStackStyleTemplet": {
+        "AssetPathName": "/Game/UI/Blueprints/Skill/BufferStack/BPUI_BufferStack_Adler.BPUI_BufferStack_Adler_C",
+        "SubPathString": ""
+      },
+      "bIsHoldWeapon": false
+    },
+    "SubstituteData": null,
+    "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+    "bIsShowAmount": true,
+    "PlayerViewTagArray": [
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Adler_tag_0",
+          "SourceString": "<Mainwhite>生存</>",
+          "LocalizedString": "<Mainwhite>生存</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag02.YH_UI_icon_MainTag02",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Adler_tag_1",
+          "SourceString": "<white>护盾</>",
+          "LocalizedString": "<white>护盾</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_hudun.YH_UI_icon_Tag_hudun",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Adler_tag_2",
+          "SourceString": "<white>持续伤害</>",
+          "LocalizedString": "<white>持续伤害</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_chixu.YH_UI_icon_Tag_chixu",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bIsLimitAmount": false,
+    "bIsManual": false
+  },
+  "1039": {
+    "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+    "ItemTags": [],
+    "ItemIcon": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_027.player_027",
+      "SubPathString": ""
+    },
+    "ItemIconSmall": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_027x100.player_027x100",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_039",
+      "SourceString": "法帝娅",
+      "LocalizedString": "法帝娅"
+    },
+    "MaxAmount": 1,
+    "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+    "ItemCD": 0.0,
+    "TimeLimit": null,
+    "ItemEffectType": "EItemEffectType::NoEffect",
+    "UseContext": {
+      "CultureInvariantString": null
+    },
+    "Description": {
+      "CultureInvariantString": null
+    },
+    "ToolDatas": [
+      {
+        "AvatarID": "1039"
+      }
+    ],
+    "ItemUseCount": 1,
+    "bAutoUseWhenAdd": true,
+    "bDisplayedWhenObtain": false,
+    "bUndisplayFirstAddMessageTips": false,
+    "bUndisplayCommonAddMessageTips": true,
+    "bUseAddMessageTips": true,
+    "BagFunctions": 0,
+    "CanDestory": false,
+    "MeltPackID": "melt_fadia",
+    "ActiveBoxItemID": "None",
+    "OutputSourceID": "None",
+    "ExpandableAttributes": {
+      "ExpandedAttributes": []
+    },
+    "ExtensionData": null,
+    "ElementData": {
+      "CharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/Player/Player_039_Fadia.Player_039_Fadia_C",
+        "SubPathString": ""
+      },
+      "UISimpleCharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_039.PlayerUIShow_039_C",
+        "SubPathString": ""
+      },
+      "PropModifyID": "fadia_base",
+      "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_PSYCHE",
+      "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_FIVE",
+      "UpgradePackId": "character_Upgrade",
+      "UpgradeModifyPackId": "fadia_lv",
+      "BreakthroughPackId": "fadia_Breakthrough",
+      "AwakenCostItem": "Characterawaken_fadia:1",
+      "MaxAwakenLevel": 6,
+      "AwakenIconList": [
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_1.Awaken_Player_039_1",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_1D.Awaken_Player_039_1D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_2.Awaken_Player_039_2",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_2D.Awaken_Player_039_2D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_3.Awaken_Player_039_3",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_3D.Awaken_Player_039_3D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_4.Awaken_Player_039_4",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_4D.Awaken_Player_039_4D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_5.Awaken_Player_039_5",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_5D.Awaken_Player_039_5D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_6.Awaken_Player_039_6",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_6D.Awaken_Player_039_6D",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ForkID": "None",
+      "EquipmentSlotID": "EquipmentSlots_Fadia",
+      "EquipBaseplateStaticMesh": {
+        "AssetPathName": "/Game/Environment/NPCprops/Items/Handhelds/SM_Handhelds_Tetris_022.SM_Handhelds_Tetris_022",
+        "SubPathString": ""
+      },
+      "EquipInnerReactionLayerStaticMesh": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "EquipmentHandleBaseLockedEffectIndex": 1,
+      "UIScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "CameraUpHeight": 28.0,
+      "CameraOffsets": 10.0,
+      "ForkMeshOffsets": 18.0,
+      "EquipmentHandMeshOffsets": 0.0,
+      "bIsAutoEquip": false,
+      "AbyssAssistBuff": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "AbilityUIIcon": {
+        "AssetPathName": "/Game/UI/UI/YINeng/YH_yineng_zhaopian01.YH_yineng_zhaopian01",
+        "SubPathString": ""
+      },
+      "AbilityUIColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "UIStackStyleTemplet": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "bIsHoldWeapon": false
+    },
+    "SubstituteData": null,
+    "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+    "bIsShowAmount": true,
+    "PlayerViewTagArray": [
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Adler_tag_0",
+          "SourceString": "<Mainwhite>生存</>",
+          "LocalizedString": "<Mainwhite>生存</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag02.YH_UI_icon_MainTag02",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Fadia_tag_1",
+          "SourceString": "<white>伤害分摊</>",
+          "LocalizedString": "<white>伤害分摊</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_fentan.YH_UI_icon_Tag_fentan",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Fadia_tag_2",
+          "SourceString": "<white>即瞬环合</>",
+          "LocalizedString": "<white>即瞬环合</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_huanhe.YH_UI_icon_Tag_huanhe",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bIsLimitAmount": false,
+    "bIsManual": false
+  },
+  "1046": {
+    "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+    "ItemTags": [],
+    "ItemIcon": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_046.player_046",
+      "SubPathString": ""
+    },
+    "ItemIconSmall": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_046x100.player_046x100",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_009",
+      "SourceString": "「零」",
+      "LocalizedString": "「零」"
+    },
+    "MaxAmount": 1,
+    "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+    "ItemCD": 0.0,
+    "TimeLimit": null,
+    "ItemEffectType": "EItemEffectType::NoEffect",
+    "UseContext": {
+      "CultureInvariantString": null
+    },
+    "Description": {
+      "CultureInvariantString": null
+    },
+    "ToolDatas": [],
+    "ItemUseCount": 1,
+    "bAutoUseWhenAdd": true,
+    "bDisplayedWhenObtain": false,
+    "bUndisplayFirstAddMessageTips": false,
+    "bUndisplayCommonAddMessageTips": true,
+    "bUseAddMessageTips": true,
+    "BagFunctions": 0,
+    "CanDestory": false,
+    "MeltPackID": "melt_player",
+    "ActiveBoxItemID": "None",
+    "OutputSourceID": "None",
+    "ExpandableAttributes": {
+      "ExpandedAttributes": []
+    },
+    "ExtensionData": null,
+    "ElementData": {
+      "CharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/Player/player_046_male.player_046_male_C",
+        "SubPathString": ""
+      },
+      "UISimpleCharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_046.PlayerUIShow_046_C",
+        "SubPathString": ""
+      },
+      "PropModifyID": "Female_base",
+      "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
+      "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_ONE",
+      "UpgradePackId": "character_Upgrade",
+      "UpgradeModifyPackId": "Female_lv",
+      "BreakthroughPackId": "Female_Breakthrough",
+      "AwakenCostItem": "Characterawaken_player:1",
+      "MaxAwakenLevel": 6,
+      "AwakenIconList": [
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1046_1.Awaken_Player_1046_1",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1046_1D.Awaken_Player_1046_1D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1046_2.Awaken_Player_1046_2",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1046_2D.Awaken_Player_1046_2D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1046_3.Awaken_Player_1046_3",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1046_3D.Awaken_Player_1046_3D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1046_4.Awaken_Player_1046_4",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1046_4D.Awaken_Player_1046_4D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1046_5.Awaken_Player_1046_5",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1046_5D.Awaken_Player_1046_5D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1046_6.Awaken_Player_1046_6",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1046_6D.Awaken_Player_1046_6D",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ForkID": "None",
+      "EquipmentSlotID": "EquipmentSlots_Female",
+      "EquipBaseplateStaticMesh": {
+        "AssetPathName": "/Game/Environment/NPCprops/Items/Handhelds/SM_Handhelds_Tetris_022.SM_Handhelds_Tetris_022",
+        "SubPathString": ""
+      },
+      "EquipInnerReactionLayerStaticMesh": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "EquipmentHandleBaseLockedEffectIndex": 1,
+      "UIScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "CameraUpHeight": 22.0,
+      "CameraOffsets": 12.0,
+      "ForkMeshOffsets": 20.0,
+      "EquipmentHandMeshOffsets": 12.0,
+      "bIsAutoEquip": false,
+      "AbyssAssistBuff": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "AbilityUIIcon": {
+        "AssetPathName": "/Game/UI/UI/YINeng/YH_yineng_zhaopian01.YH_yineng_zhaopian01",
+        "SubPathString": ""
+      },
+      "AbilityUIColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "UIStackStyleTemplet": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "bIsHoldWeapon": false
+    },
+    "SubstituteData": null,
+    "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+    "bIsShowAmount": true,
+    "PlayerViewTagArray": [],
+    "bIsLimitAmount": false,
+    "bIsManual": false
+  },
+  "1051": {
+    "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+    "ItemTags": [],
+    "ItemIcon": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_009.player_009",
+      "SubPathString": ""
+    },
+    "ItemIconSmall": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_009x100.player_009x100",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_009",
+      "SourceString": "「零」",
+      "LocalizedString": "「零」"
+    },
+    "MaxAmount": 1,
+    "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+    "ItemCD": 0.0,
+    "TimeLimit": null,
+    "ItemEffectType": "EItemEffectType::NoEffect",
+    "UseContext": {
+      "CultureInvariantString": null
+    },
+    "Description": {
+      "CultureInvariantString": null
+    },
+    "ToolDatas": [],
+    "ItemUseCount": 1,
+    "bAutoUseWhenAdd": true,
+    "bDisplayedWhenObtain": false,
+    "bUndisplayFirstAddMessageTips": false,
+    "bUndisplayCommonAddMessageTips": true,
+    "bUseAddMessageTips": true,
+    "BagFunctions": 0,
+    "CanDestory": false,
+    "MeltPackID": "melt_Female",
+    "ActiveBoxItemID": "None",
+    "OutputSourceID": "None",
+    "ExpandableAttributes": {
+      "ExpandedAttributes": []
+    },
+    "ExtensionData": null,
+    "ElementData": {
+      "CharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/Player/Player_051_Female.Player_051_Female_C",
+        "SubPathString": ""
+      },
+      "UISimpleCharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_051.PlayerUIShow_051_C",
+        "SubPathString": ""
+      },
+      "PropModifyID": "Female_base",
+      "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
+      "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_ONE",
+      "UpgradePackId": "character_Upgrade",
+      "UpgradeModifyPackId": "Female_lv",
+      "BreakthroughPackId": "Female_Breakthrough",
+      "AwakenCostItem": "Characterawaken_player:1",
+      "MaxAwakenLevel": 6,
+      "AwakenIconList": [
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1051_1.Awaken_Player_1051_1",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1051_1D.Awaken_Player_1051_1D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1051_2.Awaken_Player_1051_2",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1051_2D.Awaken_Player_1051_2D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1051_3.Awaken_Player_1051_3",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1051_3D.Awaken_Player_1051_3D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1051_4.Awaken_Player_1051_4",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1051_4D.Awaken_Player_1051_4D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1051_5.Awaken_Player_1051_5",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1051_5D.Awaken_Player_1051_5D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1051_6.Awaken_Player_1051_6",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_1051_6D.Awaken_Player_1051_6D",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ForkID": "None",
+      "EquipmentSlotID": "EquipmentSlots_Female",
+      "EquipBaseplateStaticMesh": {
+        "AssetPathName": "/Game/Environment/NPCprops/Items/Handhelds/SM_Handhelds_Tetris_022.SM_Handhelds_Tetris_022",
+        "SubPathString": ""
+      },
+      "EquipInnerReactionLayerStaticMesh": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "EquipmentHandleBaseLockedEffectIndex": 1,
+      "UIScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "CameraUpHeight": 22.0,
+      "CameraOffsets": 0.0,
+      "ForkMeshOffsets": 8.0,
+      "EquipmentHandMeshOffsets": 0.0,
+      "bIsAutoEquip": false,
+      "AbyssAssistBuff": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "AbilityUIIcon": {
+        "AssetPathName": "/Game/UI/UI/YINeng/YH_yineng_zhaopian01.YH_yineng_zhaopian01",
+        "SubPathString": ""
+      },
+      "AbilityUIColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "UIStackStyleTemplet": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "bIsHoldWeapon": false
+    },
+    "SubstituteData": null,
+    "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+    "bIsShowAmount": true,
+    "PlayerViewTagArray": [
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "lacrimosa_tag_0",
+          "SourceString": "<Mainwhite>攻击</>",
+          "LocalizedString": "<Mainwhite>攻击</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Female_tag_1",
+          "SourceString": "<white>爆发输出</>",
+          "LocalizedString": "<white>爆发输出</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_baofa.YH_UI_icon_Tag_baofa",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Female_tag_2",
+          "SourceString": "<white>即瞬环合</>",
+          "LocalizedString": "<white>即瞬环合</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_huanhe.YH_UI_icon_Tag_huanhe",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bIsLimitAmount": false,
+    "bIsManual": false
+  },
+  "1052": {
+    "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+    "ItemTags": [],
+    "ItemIcon": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_013.player_013",
+      "SubPathString": ""
+    },
+    "ItemIconSmall": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_013x100.player_013x100",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_052",
+      "SourceString": "浔",
+      "LocalizedString": "浔"
+    },
+    "MaxAmount": 1,
+    "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+    "ItemCD": 0.0,
+    "TimeLimit": null,
+    "ItemEffectType": "EItemEffectType::NoEffect",
+    "UseContext": {
+      "CultureInvariantString": null
+    },
+    "Description": {
+      "CultureInvariantString": null
+    },
+    "ToolDatas": [
+      {
+        "AvatarID": "1052"
+      }
+    ],
+    "ItemUseCount": 1,
+    "bAutoUseWhenAdd": true,
+    "bDisplayedWhenObtain": false,
+    "bUndisplayFirstAddMessageTips": false,
+    "bUndisplayCommonAddMessageTips": true,
+    "bUseAddMessageTips": true,
+    "BagFunctions": 0,
+    "CanDestory": false,
+    "MeltPackID": "melt_jin",
+    "ActiveBoxItemID": "None",
+    "OutputSourceID": "None",
+    "ExpandableAttributes": {
+      "ExpandedAttributes": []
+    },
+    "ExtensionData": null,
+    "ElementData": {
+      "CharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/Player/player_052_Jin.player_052_Jin_C",
+        "SubPathString": ""
+      },
+      "UISimpleCharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_052.PlayerUIShow_052_C",
+        "SubPathString": ""
+      },
+      "PropModifyID": "Jin_base",
+      "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
+      "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_THREE",
+      "UpgradePackId": "character_Upgrade",
+      "UpgradeModifyPackId": "Jin_lv",
+      "BreakthroughPackId": "Jin_Breakthrough",
+      "AwakenCostItem": "Characterawaken_jin:1",
+      "MaxAwakenLevel": 6,
+      "AwakenIconList": [
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_052_1.Awaken_Player_052_1",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_052_1D.Awaken_Player_052_1D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_052_2.Awaken_Player_052_2",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_052_2D.Awaken_Player_052_2D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_052_3.Awaken_Player_052_3",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_052_3D.Awaken_Player_052_3D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_052_4.Awaken_Player_052_4",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_052_4D.Awaken_Player_052_4D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_052_5.Awaken_Player_052_5",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_052_5D.Awaken_Player_052_5D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_052_6.Awaken_Player_052_6",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_052_6D.Awaken_Player_052_6D",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ForkID": "None",
+      "EquipmentSlotID": "EquipmentSlots_Jin",
+      "EquipBaseplateStaticMesh": {
+        "AssetPathName": "/Game/Environment/NPCprops/Items/Handhelds/SM_Handhelds_Tetris_044.SM_Handhelds_Tetris_044",
+        "SubPathString": ""
+      },
+      "EquipInnerReactionLayerStaticMesh": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "EquipmentHandleBaseLockedEffectIndex": 3,
+      "UIScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "CameraUpHeight": 28.0,
+      "CameraOffsets": 15.0,
+      "ForkMeshOffsets": 23.0,
+      "EquipmentHandMeshOffsets": 15.0,
+      "bIsAutoEquip": false,
+      "AbyssAssistBuff": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "AbilityUIIcon": {
+        "AssetPathName": "/Game/UI/UI/YINeng/YH_yineng_zhaopian01.YH_yineng_zhaopian01",
+        "SubPathString": ""
+      },
+      "AbilityUIColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "UIStackStyleTemplet": {
+        "AssetPathName": "/Game/UI/Blueprints/Skill/BufferStack/BPUI_BlockBufferStack_Xun.BPUI_BlockBufferStack_Xun_C",
+        "SubPathString": ""
+      },
+      "bIsHoldWeapon": false
+    },
+    "SubstituteData": null,
+    "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+    "bIsShowAmount": true,
+    "PlayerViewTagArray": [
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Sagiri_tag_0",
+          "SourceString": "<Mainwhite>辅助</>",
+          "LocalizedString": "<Mainwhite>辅助</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_fuzhu01.YH_UI_icon_Tag_fuzhu01",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Jin_tag_1",
+          "SourceString": "<white>治疗</>",
+          "LocalizedString": "<white>治疗</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_zhiliao.YH_UI_icon_Tag_zhiliao",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Haniel_tag_2",
+          "SourceString": "<white>输出增益</>",
+          "LocalizedString": "<white>输出增益</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_zengyi.YH_UI_icon_Tag_zengyi",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bIsLimitAmount": false,
+    "bIsManual": false
+  },
+  "1056": {
+    "ItemType": "EItemType::ITEM_TYPE_CHARACTER",
+    "ItemTags": [],
+    "ItemIcon": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_004.player_004",
+      "SubPathString": ""
+    },
+    "ItemIconSmall": {
+      "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/player_004x100.player_004x100",
+      "SubPathString": ""
+    },
+    "ItemName": {
+      "TableId": "/Game/Text/ST_Player.ST_Player",
+      "Key": "Role_Name_004",
+      "SourceString": "安魂曲",
+      "LocalizedString": "安魂曲"
+    },
+    "MaxAmount": 1,
+    "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+    "ItemCD": 0.0,
+    "TimeLimit": null,
+    "ItemEffectType": "EItemEffectType::NoEffect",
+    "UseContext": {
+      "CultureInvariantString": null
+    },
+    "Description": {
+      "CultureInvariantString": null
+    },
+    "ToolDatas": [
+      {
+        "AvatarID": "1052"
+      }
+    ],
+    "ItemUseCount": 1,
+    "bAutoUseWhenAdd": true,
+    "bDisplayedWhenObtain": false,
+    "bUndisplayFirstAddMessageTips": false,
+    "bUndisplayCommonAddMessageTips": true,
+    "bUseAddMessageTips": true,
+    "BagFunctions": 0,
+    "CanDestory": false,
+    "MeltPackID": "melt_fadia",
+    "ActiveBoxItemID": "None",
+    "OutputSourceID": "None",
+    "ExpandableAttributes": {
+      "ExpandedAttributes": []
+    },
+    "ExtensionData": null,
+    "ElementData": {
+      "CharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/Player/Player_056_bat.Player_056_bat_C",
+        "SubPathString": ""
+      },
+      "UISimpleCharacterActorClass": {
+        "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_052.PlayerUIShow_052_C",
+        "SubPathString": ""
+      },
+      "PropModifyID": "fadia_base",
+      "CharacterElementType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
+      "CharacterGroupType": "ECharacterGroupType::CHARACTER_GROUP_TYPE_TWO",
+      "UpgradePackId": "character_Upgrade",
+      "UpgradeModifyPackId": "fadia_lv",
+      "BreakthroughPackId": "fadia_Breakthrough",
+      "AwakenCostItem": "Characterawaken_fadia:1",
+      "MaxAwakenLevel": 6,
+      "AwakenIconList": [
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_1.Awaken_Player_039_1",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_1D.Awaken_Player_039_1D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_2.Awaken_Player_039_2",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_2D.Awaken_Player_039_2D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_3.Awaken_Player_039_3",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_3D.Awaken_Player_039_3D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_4.Awaken_Player_039_4",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_4D.Awaken_Player_039_4D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_5.Awaken_Player_039_5",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_5D.Awaken_Player_039_5D",
+            "SubPathString": ""
+          }
+        },
+        {
+          "HeadIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_6.Awaken_Player_039_6",
+            "SubPathString": ""
+          },
+          "MaskIcon": {
+            "AssetPathName": "/Game/UI/UI_Icon/Awaken/Awaken_Player_039_6D.Awaken_Player_039_6D",
+            "SubPathString": ""
+          }
+        }
+      ],
+      "ForkID": "None",
+      "EquipmentSlotID": "EquipmentSlots_lacrimosa",
+      "EquipBaseplateStaticMesh": {
+        "AssetPathName": "/Game/Environment/NPCprops/Items/Handhelds/SM_Handhelds_Tetris_011.SM_Handhelds_Tetris_011",
+        "SubPathString": ""
+      },
+      "EquipInnerReactionLayerStaticMesh": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "EquipmentHandleBaseLockedEffectIndex": 0,
+      "UIScale": {
+        "X": 1.0,
+        "Y": 1.0,
+        "Z": 1.0
+      },
+      "CameraUpHeight": 28.0,
+      "CameraOffsets": 10.0,
+      "ForkMeshOffsets": 18.0,
+      "EquipmentHandMeshOffsets": 0.0,
+      "bIsAutoEquip": false,
+      "AbyssAssistBuff": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "AbilityUIIcon": {
+        "AssetPathName": "/Game/UI/UI/YINeng/YH_yineng_zhaopian01.YH_yineng_zhaopian01",
+        "SubPathString": ""
+      },
+      "AbilityUIColor": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FF00FF"
+        },
+        "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+      },
+      "UIStackStyleTemplet": {
+        "AssetPathName": "",
+        "SubPathString": ""
+      },
+      "bIsHoldWeapon": false
+    },
+    "SubstituteData": null,
+    "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+    "bIsShowAmount": true,
+    "PlayerViewTagArray": [
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Adler_tag_0",
+          "SourceString": "<Mainwhite>生存</>",
+          "LocalizedString": "<Mainwhite>生存</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag02.YH_UI_icon_MainTag02",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Fadia_tag_1",
+          "SourceString": "<white>伤害分摊</>",
+          "LocalizedString": "<white>伤害分摊</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_fentan.YH_UI_icon_Tag_fentan",
+          "SubPathString": ""
+        }
+      },
+      {
+        "TagText": {
+          "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+          "Key": "Fadia_tag_2",
+          "SourceString": "<white>即瞬环合</>",
+          "LocalizedString": "<white>即瞬环合</>"
+        },
+        "TagBgIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TagIcon": {
+          "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_huanhe.YH_UI_icon_Tag_huanhe",
+          "SubPathString": ""
+        }
+      }
+    ],
+    "bIsLimitAmount": false,
+    "bIsManual": false
+  }
+}

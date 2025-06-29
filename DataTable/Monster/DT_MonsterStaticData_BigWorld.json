@@ -3055,6 +3055,61 @@
         "BalanceBeDamageBase": 100.0,
         "BalanceDamageBasePercent": 0.0095
       },
+      "mon_Lacrimosa_Boss": {
+        "Comment": "番茄酱恶魔木桩",
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarType": "EUnbalBarType::UNBAL_BAR_NORMAL",
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 1,
+        "PropModifyID": "BP_Eibon_Mace_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 8,
+            "MonsterWorldLevelPropModifyID": "mon_21_BP_Vision_Boxing_BackStreet_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 28,
+            "MonsterWorldLevelPropModifyID": "mon_21_BP_Vision_Boxing_BackStreet_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 38,
+            "MonsterWorldLevelPropModifyID": "mon_21_BP_Vision_Boxing_BackStreet_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 48,
+            "MonsterWorldLevelPropModifyID": "mon_21_BP_Vision_Boxing_BackStreet_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 53,
+            "MonsterWorldLevelPropModifyID": "mon_21_BP_Vision_Boxing_BackStreet_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 58,
+            "MonsterWorldLevelPropModifyID": "mon_21_BP_Vision_Boxing_BackStreet_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 63,
+            "MonsterWorldLevelPropModifyID": "mon_21_BP_Vision_Boxing_BackStreet_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 68,
+            "MonsterWorldLevelPropModifyID": "mon_21_BP_Vision_Boxing_BackStreet_DataPack7"
+          }
+        ],
+        "OnlineRatioID": "normal",
+        "bIsCloneDifficultyLevel": false,
+        "CloneDifficultyLevelArray": [],
+        "IsTestMonster": false,
+        "IsStoryBalance": false,
+        "BalanceBeDamageBase": 0.0,
+        "BalanceDamageBasePercent": 0.0
+      },
       "Boss_07_BP_WorldBoss": {
         "Comment": "世界Boss-花房",
         "DropRadius": 75.0,
@@ -3323,7 +3378,7 @@
         "IsTestMonster": false,
         "IsStoryBalance": true,
         "BalanceBeDamageBase": 100.0,
-        "BalanceDamageBasePercent": 0.0667
+        "BalanceDamageBasePercent": 0.3077
       },
       "mon_01_BP_World": {
         "Comment": "据点-低语种",

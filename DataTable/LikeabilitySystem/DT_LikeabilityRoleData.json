@@ -1307,7 +1307,6 @@
             "MaxValue": 2000,
             "AwardID": "drop_Likeability_1029_lv5",
             "Conditions": [
-              "K111217",
               "q110394"
             ],
             "ChatItemID": "None"
@@ -1321,15 +1320,15 @@
           {
             "MaxValue": 5000,
             "AwardID": "drop_Likeability_1029_lv7",
-            "Conditions": [],
+            "Conditions": [
+              "S999999"
+            ],
             "ChatItemID": "None"
           },
           {
             "MaxValue": 8000,
             "AwardID": "drop_Likeability_1029_lv8",
-            "Conditions": [
-              "S999999"
-            ],
+            "Conditions": [],
             "ChatItemID": "None"
           },
           {
@@ -1345,7 +1344,13 @@
             "ChatItemID": "None"
           }
         ],
-        "LevelChatInfos": [],
+        "LevelChatInfos": [
+          {
+            "LikeabilityLevel": 2,
+            "LikeabilityValue": 500,
+            "ChatItemID": "1029_b_1"
+          }
+        ],
         "LikeabilityMapData": null,
         "UnlockAvatarID": "None",
         "InitLikeabilityLevel": 1,
@@ -3608,17 +3613,13 @@
           {
             "MaxValue": 1000,
             "AwardID": "drop_Likeability_H_NPC_01902_lv4",
-            "Conditions": [
-              "None"
-            ],
+            "Conditions": [],
             "ChatItemID": "None"
           },
           {
             "MaxValue": 2000,
             "AwardID": "drop_Likeability_H_NPC_01902_lv5",
-            "Conditions": [
-              "None"
-            ],
+            "Conditions": [],
             "ChatItemID": "None"
           }
         ],
@@ -3635,7 +3636,7 @@
           },
           {
             "LikeabilityLevel": 2,
-            "LikeabilityValue": 2000,
+            "LikeabilityValue": 500,
             "ChatItemID": "H_NPC_01902_c_1"
           }
         ],

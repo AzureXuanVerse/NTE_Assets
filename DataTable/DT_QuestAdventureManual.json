@@ -8972,8 +8972,8 @@
         "QuestName": {
           "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
           "Key": "AD50003",
-          "SourceString": "完成车辆赛事-在线对战1次",
-          "LocalizedString": "完成车辆赛事-在线对战1次"
+          "SourceString": "魔女之家告谕等级达到4级",
+          "LocalizedString": "魔女之家告谕等级达到4级"
         },
         "ChapterID": "None",
         "ChapterProgress": -1.0,
@@ -8983,12 +8983,12 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "RacingGameMode": "ERacingGameMode::PVP_1V1",
+            "DivinationLevel": 4,
             "ObjectiveID": "None",
             "ObjectiveName": {
               "CultureInvariantString": null
             },
-            "ObjectiveType": "EObjectiveType::EOT_RACING_RESULT",
+            "ObjectiveType": "EObjectiveType::EOT_DIVINATION_LEVEL",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -9048,9 +9048,7 @@
         "LimitMapName": "None",
         "QuestResetTime": null,
         "FailedData": null,
-        "NextQuests": [
-          "None"
-        ],
+        "NextQuests": [],
         "bAutoNext": true,
         "NeedSubmit": true,
         "QuestSubmitDescription": {
@@ -9069,20 +9067,12 @@
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
-        "AdventureManual": {
-          "QuestIcon": {
-            "AssetPathName": "/Game/UI/Gamepad/Navigation/Ui_Tips_003.Ui_Tips_003",
-            "SubPathString": ""
-          },
-          "QuestDisplayName": {
-            "CultureInvariantString": null
-          },
-          "Acceptable_Random": true
-        },
+        "AdventureManual": null,
         "JumpToUIData": {
-          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
           "UIParaming": [
-            "WB_CityLive"
+            "BigMap",
+            "Shop_Core_4"
           ],
           "UnlockFunctionID": "None"
         },
@@ -9449,8 +9439,8 @@
         "QuestName": {
           "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
           "Key": "AD60001",
-          "SourceString": "完成正篇「成交？成交！」（猎人等级21解锁）",
-          "LocalizedString": "完成正篇「成交？成交！」（猎人等级21解锁）"
+          "SourceString": "完成正篇「成交？成交！」",
+          "LocalizedString": "完成正篇「成交？成交！」"
         },
         "ChapterID": "None",
         "ChapterProgress": -1.0,
@@ -10037,8 +10027,8 @@
         "QuestName": {
           "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
           "Key": "AD60006",
-          "SourceString": "通关轨外之境第1站（猎人等级20解锁）",
-          "LocalizedString": "通关轨外之境第1站（猎人等级20解锁）"
+          "SourceString": "通关轨外之境第1站（猎人等级21解锁）",
+          "LocalizedString": "通关轨外之境第1站（猎人等级21解锁）"
         },
         "ChapterID": "None",
         "ChapterProgress": -1.0,
@@ -10146,9 +10136,8 @@
           "Acceptable_Random": true
         },
         "JumpToUIData": {
-          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "QuestUIType": "EQuestUIType::QUT_CloneEnter",
           "UIParaming": [
-            "BigMap",
             "Abyss"
           ],
           "UnlockFunctionID": "None"
@@ -10159,9 +10148,9 @@
         "QuestId": "AD70001",
         "QuestName": {
           "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
-          "Key": "AD70001",
-          "SourceString": "完成番外「某传奇乐队（吗？）的第一页」（猎人等级25解锁）",
-          "LocalizedString": "完成番外「某传奇乐队（吗？）的第一页」（猎人等级25解锁）"
+          "Key": "AD60002",
+          "SourceString": "魔女之家告谕等级达到5级",
+          "LocalizedString": "魔女之家告谕等级达到5级"
         },
         "ChapterID": "None",
         "ChapterProgress": -1.0,
@@ -10171,14 +10160,12 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "SubQuests": [
-              "q110394"
-            ],
+            "DivinationLevel": 6,
             "ObjectiveID": "None",
             "ObjectiveName": {
               "CultureInvariantString": null
             },
-            "ObjectiveType": "EObjectiveType::EOT_SUB_QUEST",
+            "ObjectiveType": "EObjectiveType::EOT_DIVINATION_LEVEL",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -10238,9 +10225,7 @@
         "LimitMapName": "None",
         "QuestResetTime": null,
         "FailedData": null,
-        "NextQuests": [
-          "None"
-        ],
+        "NextQuests": [],
         "bAutoNext": true,
         "NeedSubmit": true,
         "QuestSubmitDescription": {
@@ -10259,20 +10244,12 @@
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
-        "AdventureManual": {
-          "QuestIcon": {
-            "AssetPathName": "/Game/UI/Gamepad/Navigation/Ui_Tips_003.Ui_Tips_003",
-            "SubPathString": ""
-          },
-          "QuestDisplayName": {
-            "CultureInvariantString": null
-          },
-          "Acceptable_Random": true
-        },
+        "AdventureManual": null,
         "JumpToUIData": {
-          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
           "UIParaming": [
-            "QuestPanel"
+            "BigMap",
+            "Shop_Core_4"
           ],
           "UnlockFunctionID": "None"
         },
@@ -11201,7 +11178,7 @@
           "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
           "UIParaming": [
             "BigMap",
-            "Heterotopia"
+            "Place_13"
           ],
           "UnlockFunctionID": "None"
         },
@@ -11662,9 +11639,8 @@
           "Acceptable_Random": true
         },
         "JumpToUIData": {
-          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "QuestUIType": "EQuestUIType::QUT_CloneEnter",
           "UIParaming": [
-            "BigMap",
             "Abyss"
           ],
           "UnlockFunctionID": "None"
@@ -13080,9 +13056,8 @@
           "Acceptable_Random": true
         },
         "JumpToUIData": {
-          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "QuestUIType": "EQuestUIType::QUT_CloneEnter",
           "UIParaming": [
-            "BigMap",
             "Abyss"
           ],
           "UnlockFunctionID": "None"

@@ -51,7 +51,7 @@
           }
         ],
         "ItemUseCount": 1,
-        "bAutoUseWhenAdd": true,
+        "bAutoUseWhenAdd": false,
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
         "bUndisplayCommonAddMessageTips": true,
@@ -164,7 +164,7 @@
           "CameraOffsets": -30.0,
           "ForkMeshOffsets": -22.0,
           "EquipmentHandMeshOffsets": -30.0,
-          "bIsAutoEquip": true,
+          "bIsAutoEquip": false,
           "AbyssAssistBuff": {
             "AssetPathName": "",
             "SubPathString": ""
@@ -266,7 +266,7 @@
           }
         ],
         "ItemUseCount": 1,
-        "bAutoUseWhenAdd": true,
+        "bAutoUseWhenAdd": false,
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
         "bUndisplayCommonAddMessageTips": true,
@@ -494,7 +494,7 @@
           }
         ],
         "ItemUseCount": 1,
-        "bAutoUseWhenAdd": true,
+        "bAutoUseWhenAdd": false,
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
         "bUndisplayCommonAddMessageTips": true,
@@ -607,7 +607,7 @@
           "CameraOffsets": 38.0,
           "ForkMeshOffsets": 46.0,
           "EquipmentHandMeshOffsets": 38.0,
-          "bIsAutoEquip": true,
+          "bIsAutoEquip": false,
           "AbyssAssistBuff": {
             "AssetPathName": "",
             "SubPathString": ""
@@ -712,7 +712,7 @@
           }
         ],
         "ItemUseCount": 1,
-        "bAutoUseWhenAdd": true,
+        "bAutoUseWhenAdd": false,
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
         "bUndisplayCommonAddMessageTips": true,
@@ -825,7 +825,7 @@
           "CameraOffsets": -10.0,
           "ForkMeshOffsets": -2.0,
           "EquipmentHandMeshOffsets": -10.0,
-          "bIsAutoEquip": true,
+          "bIsAutoEquip": false,
           "AbyssAssistBuff": {
             "AssetPathName": "",
             "SubPathString": ""
@@ -1161,7 +1161,7 @@
           }
         ],
         "ItemUseCount": 1,
-        "bAutoUseWhenAdd": true,
+        "bAutoUseWhenAdd": false,
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
         "bUndisplayCommonAddMessageTips": true,
@@ -1274,7 +1274,7 @@
           "CameraOffsets": 20.0,
           "ForkMeshOffsets": 28.0,
           "EquipmentHandMeshOffsets": 20.0,
-          "bIsAutoEquip": true,
+          "bIsAutoEquip": false,
           "AbyssAssistBuff": {
             "AssetPathName": "",
             "SubPathString": ""
@@ -1392,7 +1392,7 @@
           }
         ],
         "ItemUseCount": 1,
-        "bAutoUseWhenAdd": true,
+        "bAutoUseWhenAdd": false,
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
         "bUndisplayCommonAddMessageTips": true,
@@ -1505,7 +1505,7 @@
           "CameraOffsets": 10.0,
           "ForkMeshOffsets": 18.0,
           "EquipmentHandMeshOffsets": 10.0,
-          "bIsAutoEquip": true,
+          "bIsAutoEquip": false,
           "AbyssAssistBuff": {
             "AssetPathName": "",
             "SubPathString": ""
@@ -1604,7 +1604,7 @@
           }
         ],
         "ItemUseCount": 1,
-        "bAutoUseWhenAdd": true,
+        "bAutoUseWhenAdd": false,
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
         "bUndisplayCommonAddMessageTips": true,
@@ -1832,7 +1832,7 @@
           }
         ],
         "ItemUseCount": 1,
-        "bAutoUseWhenAdd": true,
+        "bAutoUseWhenAdd": false,
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
         "bUndisplayCommonAddMessageTips": true,
@@ -2197,7 +2197,56 @@
         "SubstituteData": null,
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
-        "PlayerViewTagArray": [],
+        "PlayerViewTagArray": [
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "lacrimosa_tag_0",
+              "SourceString": "<Mainwhite>攻击</>",
+              "LocalizedString": "<Mainwhite>攻击</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_MainTag01.YH_UI_icon_MainTag01",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Female_tag_1",
+              "SourceString": "<white>爆发输出</>",
+              "LocalizedString": "<white>爆发输出</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_baofa.YH_UI_icon_Tag_baofa",
+              "SubPathString": ""
+            }
+          },
+          {
+            "TagText": {
+              "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
+              "Key": "Female_tag_2",
+              "SourceString": "<white>即瞬环合</>",
+              "LocalizedString": "<white>即瞬环合</>"
+            },
+            "TagBgIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TagIcon": {
+              "AssetPathName": "/Game/UI/UI/player/TAG_Icon/YH_UI_icon_Tag_huanhe.YH_UI_icon_Tag_huanhe",
+              "SubPathString": ""
+            }
+          }
+        ],
         "bIsLimitAmount": false,
         "bIsManual": false
       },
@@ -2459,7 +2508,7 @@
           }
         ],
         "ItemUseCount": 1,
-        "bAutoUseWhenAdd": true,
+        "bAutoUseWhenAdd": false,
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
         "bUndisplayCommonAddMessageTips": true,

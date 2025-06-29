@@ -8856,34 +8856,21 @@
       "interest_18": {
         "Amout": 1,
         "AchievementMainType": "AchievementMainType::MainTypeInterest",
-        "Type": "EAchievementTask::249",
-        "ConditionData": [],
+        "Type": "EAchievementTask::ShieldHealth",
+        "ConditionData": [
+          {
+            "Tag": "W103309",
+            "Type": "EHTAchievement::TAG"
+          }
+        ],
         "ConditionGroups": [
           {
-            "Type": "EAchievementTask::ShieldHealth",
-            "ConditionData": [
-              {
-                "Tag": "W103309",
-                "Type": "EHTAchievement::TAG"
-              }
-            ],
-            "Amout": 1,
+            "Type": "EAchievementTask::250",
+            "ConditionData": [],
+            "Amout": 0,
             "bIsUseValueUpdate": false,
             "bRecordHistoryProgress": false,
-            "UpdateType": "EAchievementProgressUpdate::SUM"
-          },
-          {
-            "Type": "EAchievementTask::ShieldHealth",
-            "ConditionData": [
-              {
-                "Tag": "W103402",
-                "Type": "EHTAchievement::TAG"
-              }
-            ],
-            "Amout": 1,
-            "bIsUseValueUpdate": false,
-            "bRecordHistoryProgress": false,
-            "UpdateType": "EAchievementProgressUpdate::SUM"
+            "UpdateType": "EAchievementProgressUpdate::REP"
           }
         ],
         "UpdateType": "EAchievementProgressUpdate::SUM",
@@ -9588,19 +9575,6 @@
             "ConditionData": [
               {
                 "Tag": "W107101",
-                "Type": "EHTAchievement::TAG"
-              }
-            ],
-            "Amout": 1,
-            "bIsUseValueUpdate": false,
-            "bRecordHistoryProgress": false,
-            "UpdateType": "EAchievementProgressUpdate::SUM"
-          },
-          {
-            "Type": "EAchievementTask::ShieldHealth",
-            "ConditionData": [
-              {
-                "Tag": "W107201",
                 "Type": "EHTAchievement::TAG"
               }
             ],
@@ -13468,7 +13442,7 @@
         "ProgressDigitsCount": 0
       },
       "Life_71": {
-        "Amout": 2,
+        "Amout": 50,
         "AchievementMainType": "AchievementMainType::MainTypeCity",
         "Type": "EAchievementTask::DivinationHouseCount",
         "ConditionData": [
@@ -13520,7 +13494,7 @@
         "ProgressDigitsCount": 0
       },
       "Life_72": {
-        "Amout": 4,
+        "Amout": 100,
         "AchievementMainType": "AchievementMainType::MainTypeCity",
         "Type": "EAchievementTask::DivinationHouseCount",
         "ConditionData": [

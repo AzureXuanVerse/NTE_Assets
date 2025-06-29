@@ -2155,7 +2155,7 @@
               "bShowBulletScreen": true,
               "bPauseGameSound": false,
               "bBestViewDistanceQuality": true,
-              "CantSkipTime": 2.0,
+              "CantSkipTime": -1.0,
               "bSkipNeedConfirm": true,
               "bIsSequenceFadeIn": false,
               "bIsSequenceFadeOut": true,
@@ -2273,7 +2273,7 @@
               "bShowBulletScreen": true,
               "bPauseGameSound": false,
               "bBestViewDistanceQuality": true,
-              "CantSkipTime": 2.0,
+              "CantSkipTime": -1.0,
               "bSkipNeedConfirm": true,
               "bIsSequenceFadeIn": false,
               "bIsSequenceFadeOut": true,
@@ -2436,7 +2436,7 @@
         "SequenceInfo": [
           {
             "SequenceTemple": {
-              "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Hotel/1F/LS_Hotel_1F.LS_Hotel_1F",
+              "AssetPathName": "/Game/Blueprints/Level/SingleLevel/Hotel/1F/LS_Hotel_1F_test.LS_Hotel_1F_test",
               "SubPathString": ""
             },
             "SoundSource": {
@@ -2476,12 +2476,12 @@
                 "bTickWhenPaused": false,
                 "bAllowRounding": true
               },
-              "PlayRate": 1.5,
+              "PlayRate": 1.0,
               "StartTime": 0.0,
               "bRandomStartTime": false,
               "bDisableMovementInput": false,
               "bDisableLookAtInput": false,
-              "bHidePlayer": false,
+              "bHidePlayer": true,
               "bHideHud": false,
               "bDisableCameraCuts": false,
               "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
@@ -3304,7 +3304,7 @@
               "SubPathString": ""
             },
             "SoundStopSource": {
-              "AssetPathName": "/Game/WwiseAudio/Events/CG/Lacrimosa/HM_AHQ01_001/Stop_Sfx_Music_CG_HM_AHQ01_001.Stop_Sfx_Music_CG_HM_AHQ01_001",
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
               "SubPathString": ""
             },
             "VoiceSource": {
@@ -3312,7 +3312,7 @@
               "SubPathString": ""
             },
             "VoiceStopSource": {
-              "AssetPathName": "/Game/WwiseAudio/Events/CG/Lacrimosa/HM_AHQ01_001/Stop_Vo_CG_HM_AHQ01_001.Stop_Vo_CG_HM_AHQ01_001",
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
               "SubPathString": ""
             },
             "bUnlockManualPostAtEnd": false,
@@ -3422,7 +3422,7 @@
               "SubPathString": ""
             },
             "SoundStopSource": {
-              "AssetPathName": "/Game/WwiseAudio/Events/CG/Lacrimosa/HM_AHQ01_002/Stop_Sfx_Music_CG_HM_AHQ01_002.Stop_Sfx_Music_CG_HM_AHQ01_002",
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
               "SubPathString": ""
             },
             "VoiceSource": {
@@ -3430,7 +3430,7 @@
               "SubPathString": ""
             },
             "VoiceStopSource": {
-              "AssetPathName": "/Game/WwiseAudio/Events/CG/Lacrimosa/HM_AHQ01_002/Stop_Vo_CG_HM_AHQ01_002.Stop_Vo_CG_HM_AHQ01_002",
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
               "SubPathString": ""
             },
             "bUnlockManualPostAtEnd": false,
@@ -3441,7 +3441,7 @@
             "IntMusicStateValue": null,
             "IntMusicStateGroup": "None",
             "IntMusicState": "None",
-            "CaptionsID": "L110109",
+            "CaptionsID": "L110115",
             "FeedBackEffectID": "None",
             "Settings": {
               "bAutoPlay": false,
@@ -3575,11 +3575,11 @@
               "bDontSendClientSideCameraUpdatesToServer": true,
               "bShowBulletScreen": true,
               "bPauseGameSound": true,
-              "bBestViewDistanceQuality": false,
+              "bBestViewDistanceQuality": true,
               "CantSkipTime": 2.0,
               "bSkipNeedConfirm": true,
-              "bIsSequenceFadeIn": false,
-              "bIsSequenceFadeOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
               "FadeOutSequenceTime": 0.8,
               "bUseTransformOrigin": false,
               "TransformOriginActor": null,
@@ -3608,7 +3608,7 @@
               "bActuallyStopBeforeAnim": false,
               "bResetCamera": true,
               "bForceAddToNewSpawnedTickGroup": true,
-              "ShowSimpleActorNum": 60,
+              "ShowSimpleActorNum": 50,
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false
@@ -3620,7 +3620,7 @@
         "Desc": "明音番外-seq1：录像",
         "SequenceInfo": [
           {
-            "MediaId": "None",
+            "MediaId": "L110222",
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -3664,11 +3664,11 @@
               "bDontSendClientSideCameraUpdatesToServer": true,
               "bShowBulletScreen": true,
               "bPauseGameSound": true,
-              "bBestViewDistanceQuality": false,
+              "bBestViewDistanceQuality": true,
               "CantSkipTime": 2.0,
               "bSkipNeedConfirm": true,
-              "bIsSequenceFadeIn": false,
-              "bIsSequenceFadeOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
               "FadeOutSequenceTime": 0.8,
               "bUseTransformOrigin": false,
               "TransformOriginActor": null,
@@ -3697,7 +3697,7 @@
               "bActuallyStopBeforeAnim": false,
               "bResetCamera": true,
               "bForceAddToNewSpawnedTickGroup": true,
-              "ShowSimpleActorNum": 60,
+              "ShowSimpleActorNum": 50,
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false
@@ -3718,7 +3718,7 @@
               "SubPathString": ""
             },
             "SoundStopSource": {
-              "AssetPathName": "/Game/WwiseAudio/Events/CG/Livehouse/Livehouse_01_001/Stop_Sfx_Music_CG_HM_Livehouse_01_001.Stop_Sfx_Music_CG_HM_Livehouse_01_001",
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
               "SubPathString": ""
             },
             "VoiceSource": {
@@ -3726,7 +3726,7 @@
               "SubPathString": ""
             },
             "VoiceStopSource": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
               "SubPathString": ""
             },
             "bUnlockManualPostAtEnd": false,
@@ -3737,7 +3737,7 @@
             "IntMusicStateValue": null,
             "IntMusicStateGroup": "None",
             "IntMusicState": "None",
-            "CaptionsID": "L110109",
+            "CaptionsID": "L110235",
             "FeedBackEffectID": "None",
             "Settings": {
               "bAutoPlay": false,
@@ -3827,7 +3827,7 @@
         "Desc": "明音番外-seq3：照片",
         "SequenceInfo": [
           {
-            "MediaId": "None",
+            "MediaId": "L110254",
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -3871,11 +3871,11 @@
               "bDontSendClientSideCameraUpdatesToServer": true,
               "bShowBulletScreen": true,
               "bPauseGameSound": true,
-              "bBestViewDistanceQuality": false,
+              "bBestViewDistanceQuality": true,
               "CantSkipTime": 2.0,
               "bSkipNeedConfirm": true,
-              "bIsSequenceFadeIn": false,
-              "bIsSequenceFadeOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
               "FadeOutSequenceTime": 0.8,
               "bUseTransformOrigin": false,
               "TransformOriginActor": null,
@@ -3904,7 +3904,7 @@
               "bActuallyStopBeforeAnim": false,
               "bResetCamera": true,
               "bForceAddToNewSpawnedTickGroup": true,
-              "ShowSimpleActorNum": 60,
+              "ShowSimpleActorNum": 50,
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false
@@ -3916,7 +3916,7 @@
         "Desc": "明音番外-seq4：MV",
         "SequenceInfo": [
           {
-            "MediaId": "None",
+            "MediaId": "L110264",
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -3960,11 +3960,11 @@
               "bDontSendClientSideCameraUpdatesToServer": true,
               "bShowBulletScreen": true,
               "bPauseGameSound": true,
-              "bBestViewDistanceQuality": false,
+              "bBestViewDistanceQuality": true,
               "CantSkipTime": 2.0,
               "bSkipNeedConfirm": true,
-              "bIsSequenceFadeIn": false,
-              "bIsSequenceFadeOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
               "FadeOutSequenceTime": 0.8,
               "bUseTransformOrigin": false,
               "TransformOriginActor": null,
@@ -3993,7 +3993,7 @@
               "bActuallyStopBeforeAnim": false,
               "bResetCamera": true,
               "bForceAddToNewSpawnedTickGroup": true,
-              "ShowSimpleActorNum": 60,
+              "ShowSimpleActorNum": 50,
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false
@@ -5672,7 +5672,7 @@
         ]
       },
       "World_BlackBird": {
-        "Desc": "大世界占卜屋-黑羽亮相",
+        "Desc": "【大世界】占卜屋-黑羽",
         "SequenceInfo": [
           {
             "MediaId": "World_BlackBird",
@@ -5761,7 +5761,7 @@
         ]
       },
       "World_BlackBook_Into": {
-        "Desc": "大世界黑之书进入表演",
+        "Desc": "【大世界】黑之书进入",
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -5773,7 +5773,7 @@
               "SubPathString": ""
             },
             "SoundStopSource": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
               "SubPathString": ""
             },
             "VoiceSource": {
@@ -5826,7 +5826,7 @@
               "bHideHeadUpInfo": true,
               "bPauseCameraSwitch": true,
               "bHideSpawnedNpc": true,
-              "bStopBehaviorTree": true,
+              "bStopBehaviorTree": false,
               "bHideVehicle": true,
               "SpawnedNpcHideDistance": 3000.0,
               "bHideSpawnedVisualActor": false,
@@ -5887,11 +5887,11 @@
               "SubPathString": ""
             },
             "SoundSource": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/Lacrimosa/Boss_18_stage2_ChaseEnd_SEQ_Normal/Play_Sfx_CG_Boss_18_stage2_ChaseEnd_SEQ_Normal.Play_Sfx_CG_Boss_18_stage2_ChaseEnd_SEQ_Normal",
               "SubPathString": ""
             },
             "SoundStopSource": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/Lacrimosa/Boss_18_stage2_ChaseEnd_SEQ_Normal/Stop_Sfx_CG_Boss_18_stage2_ChaseEnd_SEQ_Normal.Stop_Sfx_CG_Boss_18_stage2_ChaseEnd_SEQ_Normal",
               "SubPathString": ""
             },
             "VoiceSource": {
@@ -6225,6 +6225,242 @@
               "bResetCamera": true,
               "bForceAddToNewSpawnedTickGroup": true,
               "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false
+            }
+          }
+        ]
+      },
+      "SE_World_WishWell_01_all": {
+        "Desc": "【大世界】许愿池-奖励",
+        "SequenceInfo": [
+          {
+            "SequenceTemple": {
+              "AssetPathName": "/Game/sequence_pack/cutscenes/SE_World_WishWell/SE_World_WishWell_01_all.SE_World_WishWell_01_all",
+              "SubPathString": ""
+            },
+            "SoundSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/World/SE_World_WishWell_01_all/Play_Sfx_Music_CG_SE_World_WishWell_01_all.Play_Sfx_Music_CG_SE_World_WishWell_01_all",
+              "SubPathString": ""
+            },
+            "SoundStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/World/SE_World_WishWell_01_all/Stop_Sfx_Music_CG_SE_World_WishWell_01_all.Stop_Sfx_Music_CG_SE_World_WishWell_01_all",
+              "SubPathString": ""
+            },
+            "VoiceSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VoiceStopSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "bUnlockManualPostAtEnd": false,
+            "InteractiveMusicEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IntMusicStateValue": null,
+            "IntMusicStateGroup": "None",
+            "IntMusicState": "None",
+            "CaptionsID": "None",
+            "FeedBackEffectID": "None",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": true,
+              "bDisableLookAtInput": true,
+              "bHidePlayer": true,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": true,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 30000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 30000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": true,
+              "CantSkipTime": -1.0,
+              "bSkipNeedConfirm": true,
+              "bIsSequenceFadeIn": false,
+              "bIsSequenceFadeOut": false,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": true,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": -0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": -151936.9,
+                  "Y": 150944.08,
+                  "Z": 6623.148
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 50,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false
+            }
+          }
+        ]
+      },
+      "SE_World_WishWell_02_all": {
+        "Desc": "【大世界】许愿池-惩罚",
+        "SequenceInfo": [
+          {
+            "SequenceTemple": {
+              "AssetPathName": "/Game/sequence_pack/cutscenes/SE_World_WishWell/SE_World_WishWell_02_all.SE_World_WishWell_02_all",
+              "SubPathString": ""
+            },
+            "SoundSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/World/SE_World_WishWell_02_all/Play_Sfx_Music_CG_SE_World_WishWell_02_all.Play_Sfx_Music_CG_SE_World_WishWell_02_all",
+              "SubPathString": ""
+            },
+            "SoundStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/World/SE_World_WishWell_02_all/Stop_Sfx_Music_CG_SE_World_WishWell_02_all.Stop_Sfx_Music_CG_SE_World_WishWell_02_all",
+              "SubPathString": ""
+            },
+            "VoiceSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VoiceStopSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "bUnlockManualPostAtEnd": false,
+            "InteractiveMusicEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IntMusicStateValue": null,
+            "IntMusicStateGroup": "None",
+            "IntMusicState": "None",
+            "CaptionsID": "None",
+            "FeedBackEffectID": "None",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": true,
+              "bDisableLookAtInput": true,
+              "bHidePlayer": true,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": true,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 30000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 30000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": true,
+              "CantSkipTime": -1.0,
+              "bSkipNeedConfirm": true,
+              "bIsSequenceFadeIn": false,
+              "bIsSequenceFadeOut": false,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": true,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": -0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": -151936.9,
+                  "Y": 150944.08,
+                  "Z": 6623.148
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 50,
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false

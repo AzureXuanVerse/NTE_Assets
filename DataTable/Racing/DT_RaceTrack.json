@@ -1917,7 +1917,7 @@
       },
       "DLC_RT_C1": {
         "TrackThumbnailImage": {
-          "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_YH_Racing_Map_004B.UI_YH_Racing_Map_004B",
+          "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_YH_Racing_Map_PVP.UI_YH_Racing_Map_PVP",
           "SubPathString": ""
         },
         "PlayersCount": 0,
@@ -5844,7 +5844,9 @@
           "SourceString": "昼",
           "LocalizedString": "昼"
         },
-        "LockWeathers": [],
+        "LockWeathers": [
+          "EWeatherIndex::Weather_Rain"
+        ],
         "ExtraInfo": {
           "CultureInvariantString": null
         },
@@ -5864,9 +5866,7 @@
             "SubPathString": ""
           }
         ],
-        "LockVehicles": [
-          "Weather_Rain"
-        ],
+        "LockVehicles": [],
         "StartSequence": {
           "AssetPathName": "/Game/sequence_pack/CarRacing/Seq_Race03b_01.Seq_Race03b_01",
           "SubPathString": ""

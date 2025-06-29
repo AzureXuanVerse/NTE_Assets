@@ -316,7 +316,7 @@
           "LocalizedString": "治安惩罚"
         },
         "Icon": {
-          "AssetPathName": "/Game/UI/UI/WishingFountain/YH_UI_XYC_Icon.YH_UI_XYC_Icon",
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/YH_UI_zuiezhi_Buff_0086.YH_UI_zuiezhi_Buff_0086",
           "SubPathString": ""
         },
         "Desc": {
@@ -407,6 +407,60 @@
           "LocalizedString": "「包包蚊从未遇到过像你这样富裕又慷慨的人——它已经在你身上饱餐了整整10顿，方斯填满了肚子，短时间内再也吃不下一点儿。」\r\n15分钟内，「包包蚊」将不会吸取方斯。"
         },
         "BuffType": "BuffInfoType::StateBuff",
+        "IsShowInBuffMaganger": true,
+        "IsShowInHeadUpBattleMark": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_CantDrive_crime_840s": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_CantDrive_crime_name",
+          "SourceString": "治安惩罚",
+          "LocalizedString": "治安惩罚"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/YH_UI_zuiezhi_Buff_0086.YH_UI_zuiezhi_Buff_0086",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_CantDrive_crime_des",
+          "SourceString": "禁止驾驶车辆",
+          "LocalizedString": "禁止驾驶车辆"
+        },
+        "BuffType": "BuffInfoType::NegativeBuff",
+        "IsShowInBuffMaganger": true,
+        "IsShowInHeadUpBattleMark": false,
+        "Hierarchy": -1,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_CantDrive_crime_870s": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_CantDrive_crime_name",
+          "SourceString": "治安惩罚",
+          "LocalizedString": "治安惩罚"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/YH_UI_zuiezhi_Buff_0086.YH_UI_zuiezhi_Buff_0086",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_CantDrive_crime_des",
+          "SourceString": "禁止驾驶车辆",
+          "LocalizedString": "禁止驾驶车辆"
+        },
+        "BuffType": "BuffInfoType::NegativeBuff",
         "IsShowInBuffMaganger": true,
         "IsShowInHeadUpBattleMark": false,
         "Hierarchy": -1,

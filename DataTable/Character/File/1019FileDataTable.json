@@ -805,7 +805,13 @@
               "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_ug_001.Play_Vo_Char_NPC001_ug_001",
               "SubPathString": ""
             },
-            "Conditions": []
+            "Conditions": [
+              {
+                "Firendly": 0,
+                "QuestId": "None",
+                "CharacterFileBreakLevel": 1
+              }
+            ]
           },
           {
             "ID": "Daily33",
@@ -825,7 +831,13 @@
               "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_ug_002.Play_Vo_Char_NPC001_ug_002",
               "SubPathString": ""
             },
-            "Conditions": []
+            "Conditions": [
+              {
+                "Firendly": 0,
+                "QuestId": "None",
+                "CharacterFileBreakLevel": 3
+              }
+            ]
           },
           {
             "ID": "Daily34",
@@ -845,7 +857,13 @@
               "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_ug_003.Play_Vo_Char_NPC001_ug_003",
               "SubPathString": ""
             },
-            "Conditions": []
+            "Conditions": [
+              {
+                "Firendly": 0,
+                "QuestId": "None",
+                "CharacterFileBreakLevel": 5
+              }
+            ]
           }
         ],
         "BattleContent": [
@@ -924,7 +942,7 @@
               "LocalizedString": "注意，别眨眼哦！"
             },
             "AudioEvent": {
-              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_aoe_001.Play_Vo_Char_NPC001_aoe_001",
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_aoe_UI_001.Play_Vo_Char_NPC001_aoe_UI_001",
               "SubPathString": ""
             },
             "Conditions": []
@@ -944,7 +962,7 @@
               "LocalizedString": "嘿，狂风过境咯！"
             },
             "AudioEvent": {
-              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_aoe_002.Play_Vo_Char_NPC001_aoe_002",
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_aoe_UI_002.Play_Vo_Char_NPC001_aoe_UI_002",
               "SubPathString": ""
             },
             "Conditions": []
@@ -964,7 +982,7 @@
               "LocalizedString": "终极薄荷奥义之霹雳无敌托马斯回旋疾风斩！"
             },
             "AudioEvent": {
-              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_aoe_003.Play_Vo_Char_NPC001_aoe_003",
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_aoe_UI_003.Play_Vo_Char_NPC001_aoe_UI_003",
               "SubPathString": ""
             },
             "Conditions": []
@@ -984,7 +1002,7 @@
               "LocalizedString": "你，跟得上风吗？"
             },
             "AudioEvent": {
-              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_aoe_004.Play_Vo_Char_NPC001_aoe_004",
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_aoe_UI_004.Play_Vo_Char_NPC001_aoe_UI_004",
               "SubPathString": ""
             },
             "Conditions": []
@@ -1013,9 +1031,9 @@
             "ID": "Battle35",
             "Title": {
               "TableId": "/Game/Text/ST_File.ST_File",
-              "Key": "anomaly_001",
-              "SourceString": "收容异象·Ⅰ",
-              "LocalizedString": "收容异象·Ⅰ"
+              "Key": "anomaly_002",
+              "SourceString": "收容异象·Ⅱ",
+              "LocalizedString": "收容异象·Ⅱ"
             },
             "Content": {
               "TableId": "/Game/Text/ST_File.ST_File",
@@ -1053,9 +1071,9 @@
             "ID": "Battle37",
             "Title": {
               "TableId": "/Game/Text/ST_File.ST_File",
-              "Key": "anomaly_003",
-              "SourceString": "泯除异象·Ⅰ ",
-              "LocalizedString": "泯除异象·Ⅰ "
+              "Key": "anomaly_004",
+              "SourceString": "泯除异象·Ⅱ",
+              "LocalizedString": "泯除异象·Ⅱ"
             },
             "Content": {
               "TableId": "/Game/Text/ST_File.ST_File",

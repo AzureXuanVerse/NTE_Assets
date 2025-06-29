@@ -10,6 +10,1319 @@
         "ObjectPath": "/Script/HTGame"
       }
     },
-    "Rows": {}
+    "Rows": {
+      "Suit1": {
+        "SuitStructList": [
+          {
+            "SuitCondition": 2,
+            "SuitBuff": null,
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "Chaos_2",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_3",
+              "SourceString": "史诗！[2]：",
+              "LocalizedString": "史诗！[2]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Chaos_2",
+              "SourceString": "史诗！[2]：暗系伤害提升10%",
+              "LocalizedString": "史诗！[2]：暗系伤害提升10%"
+            }
+          },
+          {
+            "SuitCondition": 4,
+            "SuitBuff": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Equipment_Chaos_4_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/Equipment/Equipment_004/Buff_Equipment_Chaos_4.0"
+            },
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "None",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_6",
+              "SourceString": "传说！[4]：",
+              "LocalizedString": "传说！[4]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Chaos_4",
+              "SourceString": "传说！[4]：无视敌方12%防御力，攻击倾陷单位的时候追加无视12%防御力。",
+              "LocalizedString": "传说！[4]：无视敌方12%防御力，攻击倾陷单位的时候追加无视12%防御力。"
+            }
+          }
+        ],
+        "SuitGeometryCondition": [
+          "EquipmentGeometry_Shu2",
+          "EquipmentGeometry_ZhiJiao2",
+          "EquipmentGeometry_ZhiJiao4",
+          "EquipmentGeometry_Hen4"
+        ],
+        "SuitIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/suit_white/UI_YH_kongmuicon4__07.UI_YH_kongmuicon4__07",
+          "SubPathString": ""
+        },
+        "SuitLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon3__17.UI_YH_kongmuicon3__17",
+          "SubPathString": ""
+        },
+        "SuitTipsLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/TipsIcon_new/UI_YH_kongmuicon3__17.UI_YH_kongmuicon3__17",
+          "SubPathString": ""
+        },
+        "CoreMiniIconMap": [
+          {
+            "Key": "EquipmentGeometry_Core",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon3__05.UI_YH_kongmuicon3__05",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SuitTitle": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "Suit_Chaos",
+          "SourceString": "「迪亚波罗斯」",
+          "LocalizedString": "「迪亚波罗斯」"
+        },
+        "SuitDescription": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "des_Chaos",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      "Suit2": {
+        "SuitStructList": [
+          {
+            "SuitCondition": 2,
+            "SuitBuff": null,
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "Nature_2",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_3",
+              "SourceString": "史诗！[2]：",
+              "LocalizedString": "史诗！[2]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Nature_2",
+              "SourceString": "史诗！[2]：灵系伤害提升10%",
+              "LocalizedString": "史诗！[2]：灵系伤害提升10%"
+            }
+          },
+          {
+            "SuitCondition": 4,
+            "SuitBuff": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Equipment_Nature2_4_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/Equipment/Equipment_013/Buff_Equipment_Nature2_4.0"
+            },
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "None",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_6",
+              "SourceString": "传说！[4]：",
+              "LocalizedString": "传说！[4]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Nature_4",
+              "SourceString": "传说！[4]：每有敌人受到一次灵系伤害，都将使得装备者暴击伤害提升8%，最多叠加7层，每层持续10秒，该效果角色位于后台依旧生效。",
+              "LocalizedString": "传说！[4]：每有敌人受到一次灵系伤害，都将使得装备者暴击伤害提升8%，最多叠加7层，每层持续10秒，该效果角色位于后台依旧生效。"
+            }
+          }
+        ],
+        "SuitGeometryCondition": [
+          "EquipmentGeometry_Hen2",
+          "EquipmentGeometry_Shu3",
+          "EquipmentGeometry_ZhiJiao1",
+          "EquipmentGeometry_Z4"
+        ],
+        "SuitIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/suit_white/UI_YH_kongmuicon4__08.UI_YH_kongmuicon4__08",
+          "SubPathString": ""
+        },
+        "SuitLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon3__03.UI_YH_kongmuicon3__03",
+          "SubPathString": ""
+        },
+        "SuitTipsLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/TipsIcon_new/UI_YH_Tips_KongMu_Icon01_01.UI_YH_Tips_KongMu_Icon01_01",
+          "SubPathString": ""
+        },
+        "CoreMiniIconMap": [
+          {
+            "Key": "EquipmentGeometry_Core",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon3__01.UI_YH_kongmuicon3__01",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SuitTitle": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "Suit_Nature",
+          "SourceString": "「森林萤火之心」",
+          "LocalizedString": "「森林萤火之心」"
+        },
+        "SuitDescription": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "des_Nature",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      "Suit3": {
+        "SuitStructList": [
+          {
+            "SuitCondition": 2,
+            "SuitBuff": null,
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "Psyche_2",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_3",
+              "SourceString": "史诗！[2]：",
+              "LocalizedString": "史诗！[2]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Psyche_2",
+              "SourceString": "史诗！[2]：魂系伤害提升10%",
+              "LocalizedString": "史诗！[2]：魂系伤害提升10%"
+            }
+          },
+          {
+            "SuitCondition": 4,
+            "SuitBuff": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Equipment_Psyche_4_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/Equipment/Equipment_005/Buff_Equipment_Psyche_4.0"
+            },
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "None",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_6",
+              "SourceString": "传说！[4]：",
+              "LocalizedString": "传说！[4]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Psyche_4",
+              "SourceString": "传说！[4]：装备者造成的伤害提升18%。\n攻击处于“回慑”或“沓刻”影响的单位，伤害提升效果变为36%。",
+              "LocalizedString": "传说！[4]：装备者造成的伤害提升18%。\n攻击处于“回慑”或“沓刻”影响的单位，伤害提升效果变为36%。"
+            }
+          }
+        ],
+        "SuitGeometryCondition": [
+          "EquipmentGeometry_Shu2",
+          "EquipmentGeometry_Shu3",
+          "EquipmentGeometry_ZhiJiao2",
+          "EquipmentGeometry_Z4"
+        ],
+        "SuitIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/suit_white/UI_YH_kongmuicon4__09.UI_YH_kongmuicon4__09",
+          "SubPathString": ""
+        },
+        "SuitLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon3__15.UI_YH_kongmuicon3__15",
+          "SubPathString": ""
+        },
+        "SuitTipsLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/TipsIcon_new/UI_YH_kongmuicon3__15.UI_YH_kongmuicon3__15",
+          "SubPathString": ""
+        },
+        "CoreMiniIconMap": [
+          {
+            "Key": "EquipmentGeometry_Core",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon3__13.UI_YH_kongmuicon3__13",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SuitTitle": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "Suit_Psyche",
+          "SourceString": "「恶魔之血：诅咒」",
+          "LocalizedString": "「恶魔之血：诅咒」"
+        },
+        "SuitDescription": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "des_Psyche",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      "Suit4": {
+        "SuitStructList": [
+          {
+            "SuitCondition": 2,
+            "SuitBuff": null,
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "Incantation_2",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_3",
+              "SourceString": "史诗！[2]：",
+              "LocalizedString": "史诗！[2]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Incantation_2",
+              "SourceString": "史诗！[2]：咒系伤害提升10%",
+              "LocalizedString": "史诗！[2]：咒系伤害提升10%"
+            }
+          },
+          {
+            "SuitCondition": 4,
+            "SuitBuff": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Equipment_Incantation_4_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/Equipment/Equipment_006/Buff_Equipment_Incantation_4.0"
+            },
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "None",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_6",
+              "SourceString": "传说！[4]：",
+              "LocalizedString": "传说！[4]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Incantation_4",
+              "SourceString": "传说！[4]：附近每有敌人受到一次咒系伤害，都将使得装备者攻击力提升6%，最多叠加6层，每层持续10秒，该效果角色位于后台依旧生效。",
+              "LocalizedString": "传说！[4]：附近每有敌人受到一次咒系伤害，都将使得装备者攻击力提升6%，最多叠加6层，每层持续10秒，该效果角色位于后台依旧生效。"
+            }
+          }
+        ],
+        "SuitGeometryCondition": [
+          "EquipmentGeometry_Shu2",
+          "EquipmentGeometry_Hen3",
+          "EquipmentGeometry_ZhiJiao4",
+          "EquipmentGeometry_Z3"
+        ],
+        "SuitIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/suit_white/UI_YH_kongmuicon4__10.UI_YH_kongmuicon4__10",
+          "SubPathString": ""
+        },
+        "SuitLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon3__23.UI_YH_kongmuicon3__23",
+          "SubPathString": ""
+        },
+        "SuitTipsLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/TipsIcon_new/UI_YH_kongmuicon3__23.UI_YH_kongmuicon3__23",
+          "SubPathString": ""
+        },
+        "CoreMiniIconMap": [
+          {
+            "Key": "EquipmentGeometry_Core",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon3__11.UI_YH_kongmuicon3__11",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SuitTitle": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "Suit_Incantation",
+          "SourceString": "「真红：双生蝶」",
+          "LocalizedString": "「真红：双生蝶」"
+        },
+        "SuitDescription": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "des_Incantation",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      "Suit5": {
+        "SuitStructList": [
+          {
+            "SuitCondition": 2,
+            "SuitBuff": null,
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "Lakshana_2",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_3",
+              "SourceString": "史诗！[2]：",
+              "LocalizedString": "史诗！[2]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Lakshana_2",
+              "SourceString": "史诗！[2]：相系伤害提升10%",
+              "LocalizedString": "史诗！[2]：相系伤害提升10%"
+            }
+          },
+          {
+            "SuitCondition": 4,
+            "SuitBuff": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Equipment_Lakshana2_4_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/Equipment/Equipment_014/Buff_Equipment_Lakshana2_4.0"
+            },
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "None",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_6",
+              "SourceString": "传说！[4]：",
+              "LocalizedString": "传说！[4]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Lakshana_4",
+              "SourceString": "传说！[4]：装备者增加暴击率14%。\r\n队伍中触发了\"延滞\"或\"沓刻\"以后，改为增加装备者暴击率28%，持续15秒。",
+              "LocalizedString": "传说！[4]：装备者增加暴击率14%。\r\n队伍中触发了\"延滞\"或\"沓刻\"以后，改为增加装备者暴击率28%，持续15秒。"
+            }
+          }
+        ],
+        "SuitGeometryCondition": [
+          "EquipmentGeometry_Hen2",
+          "EquipmentGeometry_Hen3",
+          "EquipmentGeometry_ZhiJiao3",
+          "EquipmentGeometry_Z3"
+        ],
+        "SuitIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/suit_white/UI_YH_kongmuicon4__11.UI_YH_kongmuicon4__11",
+          "SubPathString": ""
+        },
+        "SuitLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon3__21.UI_YH_kongmuicon3__21",
+          "SubPathString": ""
+        },
+        "SuitTipsLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/TipsIcon_new/UI_YH_kongmuicon3__21.UI_YH_kongmuicon3__21",
+          "SubPathString": ""
+        },
+        "CoreMiniIconMap": [
+          {
+            "Key": "EquipmentGeometry_Core",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon3__09.UI_YH_kongmuicon3__09",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SuitTitle": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "Suit_Lakshana",
+          "SourceString": "「街头拳王」",
+          "LocalizedString": "「街头拳王」"
+        },
+        "SuitDescription": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "des_Lakshana",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      "Suit6": {
+        "SuitStructList": [
+          {
+            "SuitCondition": 2,
+            "SuitBuff": null,
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "Cosmos_2",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_3",
+              "SourceString": "史诗！[2]：",
+              "LocalizedString": "史诗！[2]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Cosmos_2",
+              "SourceString": "史诗！[2]：光系伤害提升10%",
+              "LocalizedString": "史诗！[2]：光系伤害提升10%"
+            }
+          },
+          {
+            "SuitCondition": 4,
+            "SuitBuff": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Equipment_Cosmos_4_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/Equipment/Equipment_001/Buff_Equipment_Cosmos_4.0"
+            },
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "None",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_6",
+              "SourceString": "传说！[4]：",
+              "LocalizedString": "传说！[4]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Cosmos_4",
+              "SourceString": "传说！[4]：携带者释放极轨攻击以后的15s内，造成的伤害将无视20%光系抗性。该效果不可叠加。",
+              "LocalizedString": "传说！[4]：携带者释放极轨攻击以后的15s内，造成的伤害将无视20%光系抗性。该效果不可叠加。"
+            }
+          }
+        ],
+        "SuitGeometryCondition": [
+          "EquipmentGeometry_Hen2",
+          "EquipmentGeometry_ZhiJiao1",
+          "EquipmentGeometry_ZhiJiao3",
+          "EquipmentGeometry_Shu4"
+        ],
+        "SuitIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/suit_white/UI_YH_kongmuicon4__12.UI_YH_kongmuicon4__12",
+          "SubPathString": ""
+        },
+        "SuitLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon3__19.UI_YH_kongmuicon3__19",
+          "SubPathString": ""
+        },
+        "SuitTipsLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/TipsIcon_new/UI_YH_kongmuicon3__19.UI_YH_kongmuicon3__19",
+          "SubPathString": ""
+        },
+        "CoreMiniIconMap": [
+          {
+            "Key": "EquipmentGeometry_Core",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon3__07.UI_YH_kongmuicon3__07",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SuitTitle": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "Suit_Cosmos",
+          "SourceString": "「失落光芒」",
+          "LocalizedString": "「失落光芒」"
+        },
+        "SuitDescription": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "des_Cosmos",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      "Suit7": {
+        "SuitStructList": [
+          {
+            "SuitCondition": 2,
+            "SuitBuff": null,
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "Shield_2",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_3",
+              "SourceString": "史诗！[2]：",
+              "LocalizedString": "史诗！[2]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Shield_2",
+              "SourceString": "史诗！[2]：护盾效果提高15%",
+              "LocalizedString": "史诗！[2]：护盾效果提高15%"
+            }
+          },
+          {
+            "SuitCondition": 4,
+            "SuitBuff": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Equipment_Shield_4_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/Equipment/Equipment_012/Buff_Equipment_Shield_4.0"
+            },
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "None",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_6",
+              "SourceString": "传说！[4]：",
+              "LocalizedString": "传说！[4]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Shield_4",
+              "SourceString": "传说！[4]：具有装备者提供的护盾的我方角色攻击力提升15%。(该效果不可叠加。)",
+              "LocalizedString": "传说！[4]：具有装备者提供的护盾的我方角色攻击力提升15%。(该效果不可叠加。)"
+            }
+          }
+        ],
+        "SuitGeometryCondition": [
+          "EquipmentGeometry_Hen3",
+          "EquipmentGeometry_Shu3",
+          "EquipmentGeometry_ZhiJiao3",
+          "EquipmentGeometry_ZhiJiao4"
+        ],
+        "SuitIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/suit_white/UI_YH_kongmuicon4__13.UI_YH_kongmuicon4__13",
+          "SubPathString": ""
+        },
+        "SuitLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon4__13.UI_YH_kongmuicon4__13",
+          "SubPathString": ""
+        },
+        "SuitTipsLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/TipsIcon_new/UI_YH_kongmuicon4__13.UI_YH_kongmuicon4__13",
+          "SubPathString": ""
+        },
+        "CoreMiniIconMap": [
+          {
+            "Key": "EquipmentGeometry_Core",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon4__01.UI_YH_kongmuicon4__01",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SuitTitle": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "Suit_Shield",
+          "SourceString": "「守卫王国」",
+          "LocalizedString": "「守卫王国」"
+        },
+        "SuitDescription": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "des_Shield",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      "Suit8": {
+        "SuitStructList": [
+          {
+            "SuitCondition": 2,
+            "SuitBuff": null,
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "Attack_2",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_3",
+              "SourceString": "史诗！[2]：",
+              "LocalizedString": "史诗！[2]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Attack_2",
+              "SourceString": "史诗！[2]：攻击力提高10%",
+              "LocalizedString": "史诗！[2]：攻击力提高10%"
+            }
+          },
+          {
+            "SuitCondition": 4,
+            "SuitBuff": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Equipment_Attack_4_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/Equipment/Equipment_007/Buff_Equipment_Attack_4.0"
+            },
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "None",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_6",
+              "SourceString": "传说！[4]：",
+              "LocalizedString": "传说！[4]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Attack_4",
+              "SourceString": "传说！[4]：装备者释放变轨攻击以后，常轨攻击造成的伤害提升35%(该效果不可叠加)，持续10秒。",
+              "LocalizedString": "传说！[4]：装备者释放变轨攻击以后，常轨攻击造成的伤害提升35%(该效果不可叠加)，持续10秒。"
+            }
+          }
+        ],
+        "SuitGeometryCondition": [
+          "EquipmentGeometry_Hen2",
+          "EquipmentGeometry_Shu2",
+          "EquipmentGeometry_Hen4",
+          "EquipmentGeometry_Z4"
+        ],
+        "SuitIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/suit_white/UI_YH_kongmuicon4__16.UI_YH_kongmuicon4__16",
+          "SubPathString": ""
+        },
+        "SuitLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon4__21.UI_YH_kongmuicon4__21",
+          "SubPathString": ""
+        },
+        "SuitTipsLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/TipsIcon_new/UI_YH_kongmuicon4__21.UI_YH_kongmuicon4__21",
+          "SubPathString": ""
+        },
+        "CoreMiniIconMap": [
+          {
+            "Key": "EquipmentGeometry_Core",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon4__09.UI_YH_kongmuicon4__09",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SuitTitle": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "Suit_Attack",
+          "SourceString": "「影之信条」",
+          "LocalizedString": "「影之信条」"
+        },
+        "SuitDescription": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "des_Attack",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      "Suit9": {
+        "SuitStructList": [
+          {
+            "SuitCondition": 2,
+            "SuitBuff": null,
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "Heal_2",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_3",
+              "SourceString": "史诗！[2]：",
+              "LocalizedString": "史诗！[2]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Heal_2",
+              "SourceString": "史诗！[2]：治疗效率提高10%",
+              "LocalizedString": "史诗！[2]：治疗效率提高10%"
+            }
+          },
+          {
+            "SuitCondition": 4,
+            "SuitBuff": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Equipment_Heal_4_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/Equipment/Equipment_008/Buff_Equipment_Heal_4.0"
+            },
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "None",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_6",
+              "SourceString": "传说！[4]：",
+              "LocalizedString": "传说！[4]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Heal_4",
+              "SourceString": "传说！[4]：我方角色受到来自装备者的治疗以后，获得15%攻击力提升(该效果不可叠加)，持续10秒。",
+              "LocalizedString": "传说！[4]：我方角色受到来自装备者的治疗以后，获得15%攻击力提升(该效果不可叠加)，持续10秒。"
+            }
+          }
+        ],
+        "SuitGeometryCondition": [
+          "EquipmentGeometry_Hen3",
+          "EquipmentGeometry_Shu3",
+          "EquipmentGeometry_ZhiJiao1",
+          "EquipmentGeometry_ZhiJiao2"
+        ],
+        "SuitIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/suit_white/UI_YH_kongmuicon4__18.UI_YH_kongmuicon4__18",
+          "SubPathString": ""
+        },
+        "SuitLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon4__23.UI_YH_kongmuicon4__23",
+          "SubPathString": ""
+        },
+        "SuitTipsLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/TipsIcon_new/UI_YH_kongmuicon4__23.UI_YH_kongmuicon4__23",
+          "SubPathString": ""
+        },
+        "CoreMiniIconMap": [
+          {
+            "Key": "EquipmentGeometry_Core",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon4__11.UI_YH_kongmuicon4__11",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SuitTitle": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "Suit_Heal",
+          "SourceString": "「缇娅的夜间酒馆」",
+          "LocalizedString": "「缇娅的夜间酒馆」"
+        },
+        "SuitDescription": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "des_Heal",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      "Suit10": {
+        "SuitStructList": [
+          {
+            "SuitCondition": 2,
+            "SuitBuff": null,
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "Mag_2",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_3",
+              "SourceString": "史诗！[2]：",
+              "LocalizedString": "史诗！[2]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Mag_2",
+              "SourceString": "史诗！[2]：原质驱力增加48",
+              "LocalizedString": "史诗！[2]：原质驱力增加48"
+            }
+          },
+          {
+            "SuitCondition": 4,
+            "SuitBuff": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Equipment_Mag_4_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/Equipment/Equipment_009/Buff_Equipment_Mag_4.0"
+            },
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "None",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_6",
+              "SourceString": "传说！[4]：",
+              "LocalizedString": "传说！[4]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Mag_4",
+              "SourceString": "传说！[4]：装备者触发异能环合以后，队伍中角色均增加原质驱力150，持续10秒。",
+              "LocalizedString": "传说！[4]：装备者触发异能环合以后，队伍中角色均增加原质驱力150，持续10秒。"
+            }
+          }
+        ],
+        "SuitGeometryCondition": [
+          "EquipmentGeometry_Hen2",
+          "EquipmentGeometry_Shu2",
+          "EquipmentGeometry_Hen4",
+          "EquipmentGeometry_Z3"
+        ],
+        "SuitIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/suit_white/UI_YH_kongmuicon4__15.UI_YH_kongmuicon4__15",
+          "SubPathString": ""
+        },
+        "SuitLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon4__19.UI_YH_kongmuicon4__19",
+          "SubPathString": ""
+        },
+        "SuitTipsLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/TipsIcon_new/UI_YH_kongmuicon4__19.UI_YH_kongmuicon4__19",
+          "SubPathString": ""
+        },
+        "CoreMiniIconMap": [
+          {
+            "Key": "EquipmentGeometry_Core",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon4__07.UI_YH_kongmuicon4__07",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SuitTitle": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "Suit_Mag",
+          "SourceString": "「小小大冒险」",
+          "LocalizedString": "「小小大冒险」"
+        },
+        "SuitDescription": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "des_Mag",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      "Suit11": {
+        "SuitStructList": [
+          {
+            "SuitCondition": 2,
+            "SuitBuff": null,
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "GetEfficiency_2",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_3",
+              "SourceString": "史诗！[2]：",
+              "LocalizedString": "史诗！[2]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "GetEfficiency_2",
+              "SourceString": "史诗！[2]：蓄质速率提高12%",
+              "LocalizedString": "史诗！[2]：蓄质速率提高12%"
+            }
+          },
+          {
+            "SuitCondition": 4,
+            "SuitBuff": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Equipment_GetEfficiency2_4_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/Equipment/Equipment_015/Buff_Equipment_GetEfficiency2_4.0"
+            },
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "None",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_6",
+              "SourceString": "传说！[4]：",
+              "LocalizedString": "传说！[4]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "GetEfficiency_4",
+              "SourceString": "传说！[4]：装备者释放极轨攻击以后，全队角色获得15%攻击力提升(该效果不可叠加)，持续10秒。",
+              "LocalizedString": "传说！[4]：装备者释放极轨攻击以后，全队角色获得15%攻击力提升(该效果不可叠加)，持续10秒。"
+            }
+          }
+        ],
+        "SuitGeometryCondition": [
+          "EquipmentGeometry_ZhiJiao1",
+          "EquipmentGeometry_ZhiJiao2",
+          "EquipmentGeometry_ZhiJiao3",
+          "EquipmentGeometry_ZhiJiao4"
+        ],
+        "SuitIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/suit_white/UI_YH_kongmuicon4__14.UI_YH_kongmuicon4__14",
+          "SubPathString": ""
+        },
+        "SuitLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon4__15.UI_YH_kongmuicon4__15",
+          "SubPathString": ""
+        },
+        "SuitTipsLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/TipsIcon_new/UI_YH_kongmuicon4__15.UI_YH_kongmuicon4__15",
+          "SubPathString": ""
+        },
+        "CoreMiniIconMap": [
+          {
+            "Key": "EquipmentGeometry_Core",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon4__03.UI_YH_kongmuicon4__03",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SuitTitle": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "Suit_GetEfficiency",
+          "SourceString": "「音速蓝刺猬」",
+          "LocalizedString": "「音速蓝刺猬」"
+        },
+        "SuitDescription": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "des_GetEfficiency",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      "Suit12": {
+        "SuitStructList": [
+          {
+            "SuitCondition": 2,
+            "SuitBuff": null,
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "Psychically_2",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_3",
+              "SourceString": "史诗！[2]：",
+              "LocalizedString": "史诗！[2]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Psychically_2",
+              "SourceString": "史诗！[2]：潜意伤害提高10%",
+              "LocalizedString": "史诗！[2]：潜意伤害提高10%"
+            }
+          },
+          {
+            "SuitCondition": 4,
+            "SuitBuff": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Equipment_Psychically_4_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/Equipment/Equipment_011/Buff_Equipment_Psychically_4.0"
+            },
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "None",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_6",
+              "SourceString": "传说！[4]：",
+              "LocalizedString": "传说！[4]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "Psychically_4",
+              "SourceString": "传说！[4]：装备者普通攻击后，获得潜意伤害加成12%，最多叠加3层，每层持续6秒。",
+              "LocalizedString": "传说！[4]：装备者普通攻击后，获得潜意伤害加成12%，最多叠加3层，每层持续6秒。"
+            }
+          }
+        ],
+        "SuitGeometryCondition": [
+          "EquipmentGeometry_Hen2",
+          "EquipmentGeometry_Shu2",
+          "EquipmentGeometry_Shu4",
+          "EquipmentGeometry_Z4"
+        ],
+        "SuitIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/suit_white/UI_YH_kongmuicon4__17.UI_YH_kongmuicon4__17",
+          "SubPathString": ""
+        },
+        "SuitLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon4__17.UI_YH_kongmuicon4__17",
+          "SubPathString": ""
+        },
+        "SuitTipsLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/TipsIcon_new/UI_YH_kongmuicon4__17.UI_YH_kongmuicon4__17",
+          "SubPathString": ""
+        },
+        "CoreMiniIconMap": [
+          {
+            "Key": "EquipmentGeometry_Core",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon4__05.UI_YH_kongmuicon4__05",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SuitTitle": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "Suit_Psychically",
+          "SourceString": "「静谧山庄」",
+          "LocalizedString": "「静谧山庄」"
+        },
+        "SuitDescription": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "des_Psychically",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      "Suit13": {
+        "SuitStructList": [
+          {
+            "SuitCondition": 2,
+            "SuitBuff": null,
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "rookie_Atk_2",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_3",
+              "SourceString": "史诗！[2]：",
+              "LocalizedString": "史诗！[2]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "rookie_Atk_2",
+              "SourceString": "史诗！[2]：攻击力提高10%",
+              "LocalizedString": "史诗！[2]：攻击力提高10%"
+            }
+          },
+          {
+            "SuitCondition": 4,
+            "SuitBuff": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Equipment_beginner1_4_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/Equipment/Equipment_016/Buff_Equipment_beginner1_4.0"
+            },
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "None",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_6",
+              "SourceString": "传说！[4]：",
+              "LocalizedString": "传说！[4]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "rookie_Atk_4",
+              "SourceString": "传说！[4]：装备者触发异能环合的时候攻击力提升20%，持续10秒，冷却时间20秒。",
+              "LocalizedString": "传说！[4]：装备者触发异能环合的时候攻击力提升20%，持续10秒，冷却时间20秒。"
+            }
+          }
+        ],
+        "SuitGeometryCondition": [
+          "EquipmentGeometry_Hen2",
+          "EquipmentGeometry_Shu2",
+          "EquipmentGeometry_Hen3",
+          "EquipmentGeometry_ZhiJiao4"
+        ],
+        "SuitIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/suit_white/UI_YH_kongmuicon4__19.UI_YH_kongmuicon4__19",
+          "SubPathString": ""
+        },
+        "SuitLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon5_06.UI_YH_kongmuicon5_06",
+          "SubPathString": ""
+        },
+        "SuitTipsLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon5_06.UI_YH_kongmuicon5_06",
+          "SubPathString": ""
+        },
+        "CoreMiniIconMap": [
+          {
+            "Key": "EquipmentGeometry_Core",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon5_05.UI_YH_kongmuicon5_05",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SuitTitle": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "suit_rookie_Atk",
+          "SourceString": "「时光之音」",
+          "LocalizedString": "「时光之音」"
+        },
+        "SuitDescription": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "des_Psychically",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      "Suit14": {
+        "SuitStructList": [
+          {
+            "SuitCondition": 2,
+            "SuitBuff": null,
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "rookie_Def_2",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_3",
+              "SourceString": "史诗！[2]：",
+              "LocalizedString": "史诗！[2]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "rookie_Def_2",
+              "SourceString": "史诗！[2]：防御力提高15%",
+              "LocalizedString": "史诗！[2]：防御力提高15%"
+            }
+          },
+          {
+            "SuitCondition": 4,
+            "SuitBuff": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Equipment_beginner2_4_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/Equipment/Equipment_017/Buff_Equipment_beginner2_4.0"
+            },
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "None",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_6",
+              "SourceString": "传说！[4]：",
+              "LocalizedString": "传说！[4]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "rookie_Def_4",
+              "SourceString": "传说！[4]：装备者受到攻击以后，获得30%防御力加成，持续10秒，冷却时间20秒。",
+              "LocalizedString": "传说！[4]：装备者受到攻击以后，获得30%防御力加成，持续10秒，冷却时间20秒。"
+            }
+          }
+        ],
+        "SuitGeometryCondition": [
+          "EquipmentGeometry_Hen2",
+          "EquipmentGeometry_Shu2",
+          "EquipmentGeometry_Shu3",
+          "EquipmentGeometry_ZhiJiao3"
+        ],
+        "SuitIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/suit_white/UI_YH_kongmuicon4__20.UI_YH_kongmuicon4__20",
+          "SubPathString": ""
+        },
+        "SuitLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon5_08.UI_YH_kongmuicon5_08",
+          "SubPathString": ""
+        },
+        "SuitTipsLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon5_08.UI_YH_kongmuicon5_08",
+          "SubPathString": ""
+        },
+        "CoreMiniIconMap": [
+          {
+            "Key": "EquipmentGeometry_Core",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon4__01.UI_YH_kongmuicon4__01",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SuitTitle": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "suit_rookie_Def",
+          "SourceString": "「蓝鳞」",
+          "LocalizedString": "「蓝鳞」"
+        },
+        "SuitDescription": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "des_Psychically",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      "Suit15": {
+        "SuitStructList": [
+          {
+            "SuitCondition": 2,
+            "SuitBuff": null,
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "rookie_HP_2",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_3",
+              "SourceString": "史诗！[2]：",
+              "LocalizedString": "史诗！[2]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "rookie_Hp_2",
+              "SourceString": "史诗！[2]：生命值提高10%",
+              "LocalizedString": "史诗！[2]：生命值提高10%"
+            }
+          },
+          {
+            "SuitCondition": 4,
+            "SuitBuff": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Equipment_beginner3_4_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/Equipment/Equipment_018/Buff_Equipment_beginner3_4.0"
+            },
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "None",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_6",
+              "SourceString": "传说！[4]：",
+              "LocalizedString": "传说！[4]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "rookie_Hp_4",
+              "SourceString": "传说！[4]：装备者释放终结技回复自身20%最大生命值，冷却时间20秒。",
+              "LocalizedString": "传说！[4]：装备者释放终结技回复自身20%最大生命值，冷却时间20秒。"
+            }
+          }
+        ],
+        "SuitGeometryCondition": [
+          "EquipmentGeometry_Hen2",
+          "EquipmentGeometry_Shu2",
+          "EquipmentGeometry_ZhiJiao2",
+          "EquipmentGeometry_ZhiJiao3"
+        ],
+        "SuitIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/suit_white/UI_YH_kongmuicon4__21.UI_YH_kongmuicon4__21",
+          "SubPathString": ""
+        },
+        "SuitLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon5_02.UI_YH_kongmuicon5_02",
+          "SubPathString": ""
+        },
+        "SuitTipsLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon5_02.UI_YH_kongmuicon5_02",
+          "SubPathString": ""
+        },
+        "CoreMiniIconMap": [
+          {
+            "Key": "EquipmentGeometry_Core",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon5_01.UI_YH_kongmuicon5_01",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SuitTitle": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "suit_rookie_Hp",
+          "SourceString": "「极限狂热」",
+          "LocalizedString": "「极限狂热」"
+        },
+        "SuitDescription": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "des_Psychically",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      },
+      "Suit16": {
+        "SuitStructList": [
+          {
+            "SuitCondition": 2,
+            "SuitBuff": null,
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "rookie_Dmg_2",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_3",
+              "SourceString": "史诗！[2]：",
+              "LocalizedString": "史诗！[2]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "rookie_Dmg_2",
+              "SourceString": "史诗！[2]：伤害提高8%",
+              "LocalizedString": "史诗！[2]：伤害提高8%"
+            }
+          },
+          {
+            "SuitCondition": 4,
+            "SuitBuff": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Equipment_beginner4_4_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/Equipment/Equipment_019/Buff_Equipment_beginner4_4.0"
+            },
+            "bReliveNeedAddAgain": false,
+            "SuitModifyPackID": "None",
+            "SuitCountDesc": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "suit_6",
+              "SourceString": "传说！[4]：",
+              "LocalizedString": "传说！[4]："
+            },
+            "SuitBuffDescription": {
+              "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+              "Key": "rookie_Dmg_4",
+              "SourceString": "传说！[4]：装备者极限闪避成功后，伤害增加15%，持续时间10秒，冷却时间20秒。",
+              "LocalizedString": "传说！[4]：装备者极限闪避成功后，伤害增加15%，持续时间10秒，冷却时间20秒。"
+            }
+          }
+        ],
+        "SuitGeometryCondition": [
+          "EquipmentGeometry_Hen2",
+          "EquipmentGeometry_Shu2",
+          "EquipmentGeometry_ZhiJiao1",
+          "EquipmentGeometry_ZhiJiao2"
+        ],
+        "SuitIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/suit_white/UI_YH_kongmuicon4__22.UI_YH_kongmuicon4__22",
+          "SubPathString": ""
+        },
+        "SuitLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon5_04.UI_YH_kongmuicon5_04",
+          "SubPathString": ""
+        },
+        "SuitTipsLGrayIcon": {
+          "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon5_04.UI_YH_kongmuicon5_04",
+          "SubPathString": ""
+        },
+        "CoreMiniIconMap": [
+          {
+            "Key": "EquipmentGeometry_Core",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/Equip/tipsicon2/UI_YH_kongmuicon5_03.UI_YH_kongmuicon5_03",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "SuitTitle": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "suit_rookie_Dmg",
+          "SourceString": "「次元之刃」",
+          "LocalizedString": "「次元之刃」"
+        },
+        "SuitDescription": {
+          "TableId": "/Game/Text/ST_Equipment.ST_Equipment",
+          "Key": "des_Psychically",
+          "SourceString": null,
+          "LocalizedString": null
+        }
+      }
+    }
   }
 ]

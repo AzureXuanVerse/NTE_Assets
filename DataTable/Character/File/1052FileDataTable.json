@@ -725,7 +725,13 @@
               "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC009/Play_Vo_Char_NPC009_ug_001.Play_Vo_Char_NPC009_ug_001",
               "SubPathString": ""
             },
-            "Conditions": []
+            "Conditions": [
+              {
+                "Firendly": 0,
+                "QuestId": "None",
+                "CharacterFileBreakLevel": 1
+              }
+            ]
           },
           {
             "ID": "Daily30",
@@ -745,7 +751,13 @@
               "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC009/Play_Vo_Char_NPC009_ug_002.Play_Vo_Char_NPC009_ug_002",
               "SubPathString": ""
             },
-            "Conditions": []
+            "Conditions": [
+              {
+                "Firendly": 0,
+                "QuestId": "None",
+                "CharacterFileBreakLevel": 3
+              }
+            ]
           },
           {
             "ID": "Daily31",
@@ -765,7 +777,13 @@
               "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC009/Play_Vo_Char_NPC009_ug_003.Play_Vo_Char_NPC009_ug_003",
               "SubPathString": ""
             },
-            "Conditions": []
+            "Conditions": [
+              {
+                "Firendly": 0,
+                "QuestId": "None",
+                "CharacterFileBreakLevel": 5
+              }
+            ]
           }
         ],
         "BattleContent": [
@@ -844,7 +862,7 @@
               "LocalizedString": "只消须臾。"
             },
             "AudioEvent": {
-              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC009/Play_Vo_Char_NPC009_aoe_001.Play_Vo_Char_NPC009_aoe_001",
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC009/Play_Vo_Char_NPC009_aoe_UI_001.Play_Vo_Char_NPC009_aoe_UI_001",
               "SubPathString": ""
             },
             "Conditions": []
@@ -864,7 +882,7 @@
               "LocalizedString": "浮世来潮，凝汇于此。"
             },
             "AudioEvent": {
-              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC009/Play_Vo_Char_NPC009_aoe_002.Play_Vo_Char_NPC009_aoe_002",
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC009/Play_Vo_Char_NPC009_aoe_UI_002.Play_Vo_Char_NPC009_aoe_UI_002",
               "SubPathString": ""
             },
             "Conditions": []
@@ -884,7 +902,7 @@
               "LocalizedString": "尔后，光阴流转。"
             },
             "AudioEvent": {
-              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC009/Play_Vo_Char_NPC009_aoe_003.Play_Vo_Char_NPC009_aoe_003",
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC009/Play_Vo_Char_NPC009_aoe_UI_003.Play_Vo_Char_NPC009_aoe_UI_003",
               "SubPathString": ""
             },
             "Conditions": []
@@ -913,9 +931,9 @@
             "ID": "Battle08",
             "Title": {
               "TableId": "/Game/Text/ST_File.ST_File",
-              "Key": "anomaly_001",
-              "SourceString": "收容异象·Ⅰ",
-              "LocalizedString": "收容异象·Ⅰ"
+              "Key": "anomaly_002",
+              "SourceString": "收容异象·Ⅱ",
+              "LocalizedString": "收容异象·Ⅱ"
             },
             "Content": {
               "TableId": "/Game/Text/ST_File.ST_File",

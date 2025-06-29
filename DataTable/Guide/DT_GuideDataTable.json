@@ -113,7 +113,7 @@
                     "Y": 0.0
                   },
                   "ResponseTime": 0.0,
-                  "WidgetID": "UI_SkillEvadeBean",
+                  "WidgetID": "ButtonJump",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
                     "Key": "Guide10001_1_2",
@@ -134,7 +134,7 @@
                     }
                   ],
                   "GuideTriggerEvents": [
-                    "UI_SkillEvadeBean"
+                    "ButtonJump"
                   ],
                   "GuardTime": 10.0,
                   "CustomKey": {
@@ -661,9 +661,7 @@
               "ExWidgetID": "None"
             }
           ],
-          "TeachGuideIDs": [
-            "UltraSkill"
-          ]
+          "TeachGuideIDs": []
         },
         "PlatformGuideInfo": [
           {
@@ -708,9 +706,7 @@
                   "ExWidgetID": "None"
                 }
               ],
-              "TeachGuideIDs": [
-                "UltraSkill"
-              ]
+              "TeachGuideIDs": []
             }
           },
           {
@@ -746,9 +742,7 @@
                   "ExWidgetID": "None"
                 }
               ],
-              "TeachGuideIDs": [
-                "UltraSkill"
-              ]
+              "TeachGuideIDs": []
             }
           }
         ],
@@ -3009,14 +3003,23 @@
                   "WidgetID": "CheckBox_Explore",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide10012",
-                    "SourceString": "按下打开<Yellow>「维特海默塔档案」</>界面",
-                    "LocalizedString": "按下打开<Yellow>「维特海默塔档案」</>界面"
+                    "Key": "Guide10012_1",
+                    "SourceString": "按下<img id=\"1001\"/>打开<Yellow>「维特海默塔档案」</>界面",
+                    "LocalizedString": "按下<img id=\"1001\"/>打开<Yellow>「维特海默塔档案」</>界面"
                   },
                   "Context": {
                     "CultureInvariantString": null
                   },
-                  "CurUIActions": [],
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_Zoom_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_Zoom_Gamepad.0"
+                      },
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+                    }
+                  ],
                   "GuideTriggerEvents": [
                     "CheckBox_Explore"
                   ],
@@ -3709,6 +3712,33 @@
                 "Y": 0.0
               },
               "ResponseTime": 0.0,
+              "WidgetID": "BtnCancel",
+              "Desc": {
+                "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                "Key": "Guide10014_5",
+                "SourceString": "关闭赠送礼物界面",
+                "LocalizedString": "关闭赠送礼物界面"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "BtnCancel"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            },
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
               "WidgetID": "OperateLevelAward",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -3862,6 +3892,33 @@
                     "Y": 0.0
                   },
                   "ResponseTime": 0.0,
+                  "WidgetID": "BtnCancel",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10014_5",
+                    "SourceString": "关闭赠送礼物界面",
+                    "LocalizedString": "关闭赠送礼物界面"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "BtnCancel"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": true,
+                  "ExWidgetID": "None"
+                },
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
                   "WidgetID": "OperateLevelAward",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
@@ -3992,6 +4049,33 @@
                   "CurUIActions": [],
                   "GuideTriggerEvents": [
                     "BtnGift"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                },
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "BtnCancel",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10014_5",
+                    "SourceString": "关闭赠送礼物界面",
+                    "LocalizedString": "关闭赠送礼物界面"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "BtnCancel"
                   ],
                   "GuardTime": 10.0,
                   "CustomKey": {
@@ -5490,13 +5574,75 @@
         ],
         "GuideEffectArray": []
       },
-      "---Guide10020": {
-        "GuideAnnottation": "咖啡店-经营",
+      "Guide1002001": {
+        "GuideAnnottation": "咖啡店-雇员",
         "bForceGuide": false,
         "GuideFunctionID": "None",
         "DefaultGuide": {
           "MutualExclusionGuideIDs": [],
-          "GuideStepDatas": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "TileView_EmployeeMain",
+              "Desc": {
+                "CultureInvariantString": null
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "TileView_EmployeeMain"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [],
+        "GuideEffectArray": []
+      },
+      "Guide1002002": {
+        "GuideAnnottation": "咖啡店-雇员列表",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "GuideEmployee",
+              "Desc": {
+                "CultureInvariantString": null
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "GuideEmployee"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            }
+          ],
           "TeachGuideIDs": []
         },
         "PlatformGuideInfo": [],
@@ -5516,19 +5662,23 @@
       },
       "Guide100202": {
         "GuideAnnottation": "咖啡店-在线经营-冷咖啡",
-        "bForceGuide": true,
+        "bForceGuide": false,
         "GuideFunctionID": "None",
         "DefaultGuide": {
           "MutualExclusionGuideIDs": [],
           "GuideStepDatas": [
             {
-              "bGuard": true,
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
               "WidgetID": "W_HTButton_3",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide1000202_1",
-                "SourceString": null,
-                "LocalizedString": null
+                "Key": "Guide100202_1",
+                "SourceString": "观察<Yellow>顾客头顶的气泡</>得知，我们需要制作一杯<Yellow>冷咖啡</>；首先从<Yellow>煮咖啡</>开始",
+                "LocalizedString": "观察<Yellow>顾客头顶的气泡</>得知，我们需要制作一杯<Yellow>冷咖啡</>；首先从<Yellow>煮咖啡</>开始"
               },
               "Context": {
                 "CultureInvariantString": null
@@ -5545,36 +5695,17 @@
               "ExWidgetID": "None"
             },
             {
-              "bGuard": true,
-              "WidgetID": "W_HTButton_7",
-              "Desc": {
-                "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide1000202_2",
-                "SourceString": null,
-                "LocalizedString": null
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
               },
-              "Context": {
-                "CultureInvariantString": null
-              },
-              "CurUIActions": [],
-              "GuideTriggerEvents": [
-                "W_HTButton_7"
-              ],
-              "GuardTime": 10.0,
-              "CustomKey": {
-                "KeyName": "Gamepad_FaceButton_Bottom"
-              },
-              "bUseFastNextStep": false,
-              "ExWidgetID": "None"
-            },
-            {
-              "bGuard": true,
+              "ResponseTime": 0.0,
               "WidgetID": "W_HTButton_8",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide1000202_3",
-                "SourceString": null,
-                "LocalizedString": null
+                "Key": "Guide100202_2",
+                "SourceString": "第二步，需要选择<Yellow>正确的容器</>，这里我们选择<Yellow>玻璃杯</>",
+                "LocalizedString": "第二步，需要选择<Yellow>正确的容器</>，这里我们选择<Yellow>玻璃杯</>"
               },
               "Context": {
                 "CultureInvariantString": null
@@ -5591,13 +5722,44 @@
               "ExWidgetID": "None"
             },
             {
-              "bGuard": true,
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "W_HTButton_7",
+              "Desc": {
+                "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                "Key": "Guide100202_3",
+                "SourceString": "然后，<Yellow>将煮好的咖啡加入玻璃杯</>中",
+                "LocalizedString": "然后，<Yellow>将煮好的咖啡加入玻璃杯</>中"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "W_HTButton_7"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            },
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
               "WidgetID": "UI_StoreBrandPL_5",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide1000202_4",
-                "SourceString": null,
-                "LocalizedString": null
+                "Key": "Guide100202_4",
+                "SourceString": "最后，为咖啡<Yellow>添加顾客需求的配料</>，即可完成制作",
+                "LocalizedString": "最后，为咖啡<Yellow>添加顾客需求的配料</>，即可完成制作"
               },
               "Context": {
                 "CultureInvariantString": null
@@ -5623,13 +5785,17 @@
               "MutualExclusionGuideIDs": [],
               "GuideStepDatas": [
                 {
-                  "bGuard": true,
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
                   "WidgetID": "W_HTButton_3",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000202_1",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100202_1",
+                    "SourceString": "观察<Yellow>顾客头顶的气泡</>得知，我们需要制作一杯<Yellow>冷咖啡</>；首先从<Yellow>煮咖啡</>开始",
+                    "LocalizedString": "观察<Yellow>顾客头顶的气泡</>得知，我们需要制作一杯<Yellow>冷咖啡</>；首先从<Yellow>煮咖啡</>开始"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -5642,40 +5808,21 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 },
                 {
-                  "bGuard": true,
-                  "WidgetID": "W_HTButton_7",
-                  "Desc": {
-                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000202_2",
-                    "SourceString": null,
-                    "LocalizedString": null
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
                   },
-                  "Context": {
-                    "CultureInvariantString": null
-                  },
-                  "CurUIActions": [],
-                  "GuideTriggerEvents": [
-                    "W_HTButton_7"
-                  ],
-                  "GuardTime": 10.0,
-                  "CustomKey": {
-                    "KeyName": "Gamepad_FaceButton_Bottom"
-                  },
-                  "bUseFastNextStep": true,
-                  "ExWidgetID": "None"
-                },
-                {
-                  "bGuard": true,
+                  "ResponseTime": 0.0,
                   "WidgetID": "W_HTButton_8",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000202_3",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100202_2",
+                    "SourceString": "第二步，需要选择<Yellow>正确的容器</>，这里我们选择<Yellow>玻璃杯</>",
+                    "LocalizedString": "第二步，需要选择<Yellow>正确的容器</>，这里我们选择<Yellow>玻璃杯</>"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -5688,17 +5835,48 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 },
                 {
-                  "bGuard": true,
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "W_HTButton_7",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100202_3",
+                    "SourceString": "然后，<Yellow>将煮好的咖啡加入玻璃杯</>中",
+                    "LocalizedString": "然后，<Yellow>将煮好的咖啡加入玻璃杯</>中"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "W_HTButton_7"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                },
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
                   "WidgetID": "UI_StoreBrandPL_5",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000202_4",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100202_4",
+                    "SourceString": "最后，为咖啡<Yellow>添加顾客需求的配料</>，即可完成制作",
+                    "LocalizedString": "最后，为咖啡<Yellow>添加顾客需求的配料</>，即可完成制作"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -5711,7 +5889,7 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 }
               ],
@@ -5724,13 +5902,17 @@
               "MutualExclusionGuideIDs": [],
               "GuideStepDatas": [
                 {
-                  "bGuard": true,
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
                   "WidgetID": "W_HTButton_3",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000202_1",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100202_1",
+                    "SourceString": "观察<Yellow>顾客头顶的气泡</>得知，我们需要制作一杯<Yellow>冷咖啡</>；首先从<Yellow>煮咖啡</>开始",
+                    "LocalizedString": "观察<Yellow>顾客头顶的气泡</>得知，我们需要制作一杯<Yellow>冷咖啡</>；首先从<Yellow>煮咖啡</>开始"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -5743,40 +5925,21 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 },
                 {
-                  "bGuard": true,
-                  "WidgetID": "W_HTButton_7",
-                  "Desc": {
-                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000202_2",
-                    "SourceString": null,
-                    "LocalizedString": null
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
                   },
-                  "Context": {
-                    "CultureInvariantString": null
-                  },
-                  "CurUIActions": [],
-                  "GuideTriggerEvents": [
-                    "W_HTButton_7"
-                  ],
-                  "GuardTime": 10.0,
-                  "CustomKey": {
-                    "KeyName": "Gamepad_FaceButton_Bottom"
-                  },
-                  "bUseFastNextStep": true,
-                  "ExWidgetID": "None"
-                },
-                {
-                  "bGuard": true,
+                  "ResponseTime": 0.0,
                   "WidgetID": "W_HTButton_8",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000202_3",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100202_2",
+                    "SourceString": "第二步，需要选择<Yellow>正确的容器</>，这里我们选择<Yellow>玻璃杯</>",
+                    "LocalizedString": "第二步，需要选择<Yellow>正确的容器</>，这里我们选择<Yellow>玻璃杯</>"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -5789,17 +5952,48 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 },
                 {
-                  "bGuard": true,
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "W_HTButton_7",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100202_3",
+                    "SourceString": "然后，<Yellow>将煮好的咖啡加入玻璃杯</>中",
+                    "LocalizedString": "然后，<Yellow>将煮好的咖啡加入玻璃杯</>中"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "W_HTButton_7"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                },
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
                   "WidgetID": "UI_StoreBrandPL_5",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000202_4",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100202_4",
+                    "SourceString": "最后，为咖啡<Yellow>添加顾客需求的配料</>，即可完成制作",
+                    "LocalizedString": "最后，为咖啡<Yellow>添加顾客需求的配料</>，即可完成制作"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -5812,7 +6006,7 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 }
               ],
@@ -5824,42 +6018,23 @@
       },
       "Guide100203": {
         "GuideAnnottation": "咖啡店-在线经营-热咖啡",
-        "bForceGuide": true,
+        "bForceGuide": false,
         "GuideFunctionID": "None",
         "DefaultGuide": {
           "MutualExclusionGuideIDs": [],
           "GuideStepDatas": [
             {
-              "bGuard": true,
-              "WidgetID": "W_HTButton_6",
-              "Desc": {
-                "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide1000203_1",
-                "SourceString": null,
-                "LocalizedString": null
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
               },
-              "Context": {
-                "CultureInvariantString": null
-              },
-              "CurUIActions": [],
-              "GuideTriggerEvents": [
-                "W_HTButton_6"
-              ],
-              "GuardTime": 10.0,
-              "CustomKey": {
-                "KeyName": "Gamepad_FaceButton_Bottom"
-              },
-              "bUseFastNextStep": false,
-              "ExWidgetID": "None"
-            },
-            {
-              "bGuard": true,
+              "ResponseTime": 0.0,
               "WidgetID": "W_HTButton_9",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide1000203_2",
-                "SourceString": null,
-                "LocalizedString": null
+                "Key": "Guide100203_1",
+                "SourceString": "这位客人需要的似乎是一杯<Yellow>热咖啡</>，这次我们可以直接选择对应的容器",
+                "LocalizedString": "这位客人需要的似乎是一杯<Yellow>热咖啡</>，这次我们可以直接选择对应的容器"
               },
               "Context": {
                 "CultureInvariantString": null
@@ -5876,13 +6051,44 @@
               "ExWidgetID": "None"
             },
             {
-              "bGuard": true,
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "W_HTButton_6",
+              "Desc": {
+                "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                "Key": "Guide100203_2",
+                "SourceString": "然后，同样<Yellow>将煮好的咖啡加入杯</>中",
+                "LocalizedString": "然后，同样<Yellow>将煮好的咖啡加入杯</>中"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "W_HTButton_6"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            },
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
               "WidgetID": "UI_StoreBrandPL_4",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide1000203_3",
-                "SourceString": null,
-                "LocalizedString": null
+                "Key": "Guide100203_3",
+                "SourceString": "最后，为热咖啡<Yellow>添加顾客需求的配料</>，即可完成制作",
+                "LocalizedString": "最后，为热咖啡<Yellow>添加顾客需求的配料</>，即可完成制作"
               },
               "Context": {
                 "CultureInvariantString": null
@@ -5908,36 +6114,17 @@
               "MutualExclusionGuideIDs": [],
               "GuideStepDatas": [
                 {
-                  "bGuard": true,
-                  "WidgetID": "W_HTButton_6",
-                  "Desc": {
-                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000203_1",
-                    "SourceString": null,
-                    "LocalizedString": null
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
                   },
-                  "Context": {
-                    "CultureInvariantString": null
-                  },
-                  "CurUIActions": [],
-                  "GuideTriggerEvents": [
-                    "W_HTButton_6"
-                  ],
-                  "GuardTime": 10.0,
-                  "CustomKey": {
-                    "KeyName": "Gamepad_FaceButton_Bottom"
-                  },
-                  "bUseFastNextStep": true,
-                  "ExWidgetID": "None"
-                },
-                {
-                  "bGuard": true,
+                  "ResponseTime": 0.0,
                   "WidgetID": "W_HTButton_9",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000203_2",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100203_1",
+                    "SourceString": "这位客人需要的似乎是一杯<Yellow>热咖啡</>，这次我们可以直接选择对应的容器",
+                    "LocalizedString": "这位客人需要的似乎是一杯<Yellow>热咖啡</>，这次我们可以直接选择对应的容器"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -5950,17 +6137,48 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 },
                 {
-                  "bGuard": true,
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "W_HTButton_6",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100203_2",
+                    "SourceString": "然后，同样<Yellow>将煮好的咖啡加入杯</>中",
+                    "LocalizedString": "然后，同样<Yellow>将煮好的咖啡加入杯</>中"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "W_HTButton_6"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                },
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
                   "WidgetID": "UI_StoreBrandPL_4",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000203_3",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100203_3",
+                    "SourceString": "最后，为热咖啡<Yellow>添加顾客需求的配料</>，即可完成制作",
+                    "LocalizedString": "最后，为热咖啡<Yellow>添加顾客需求的配料</>，即可完成制作"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -5973,7 +6191,7 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 }
               ],
@@ -5986,36 +6204,17 @@
               "MutualExclusionGuideIDs": [],
               "GuideStepDatas": [
                 {
-                  "bGuard": true,
-                  "WidgetID": "W_HTButton_6",
-                  "Desc": {
-                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000203_1",
-                    "SourceString": null,
-                    "LocalizedString": null
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
                   },
-                  "Context": {
-                    "CultureInvariantString": null
-                  },
-                  "CurUIActions": [],
-                  "GuideTriggerEvents": [
-                    "W_HTButton_6"
-                  ],
-                  "GuardTime": 10.0,
-                  "CustomKey": {
-                    "KeyName": "Gamepad_FaceButton_Bottom"
-                  },
-                  "bUseFastNextStep": false,
-                  "ExWidgetID": "None"
-                },
-                {
-                  "bGuard": true,
+                  "ResponseTime": 0.0,
                   "WidgetID": "W_HTButton_9",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000203_2",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100203_1",
+                    "SourceString": "这位客人需要的似乎是一杯<Yellow>热咖啡</>，这次我们可以直接选择对应的容器",
+                    "LocalizedString": "这位客人需要的似乎是一杯<Yellow>热咖啡</>，这次我们可以直接选择对应的容器"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -6032,13 +6231,44 @@
                   "ExWidgetID": "None"
                 },
                 {
-                  "bGuard": true,
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "W_HTButton_6",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100203_2",
+                    "SourceString": "然后，同样<Yellow>将煮好的咖啡加入杯</>中",
+                    "LocalizedString": "然后，同样<Yellow>将煮好的咖啡加入杯</>中"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "W_HTButton_6"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                },
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
                   "WidgetID": "UI_StoreBrandPL_4",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000203_3",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100203_3",
+                    "SourceString": "最后，为热咖啡<Yellow>添加顾客需求的配料</>，即可完成制作",
+                    "LocalizedString": "最后，为热咖啡<Yellow>添加顾客需求的配料</>，即可完成制作"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -6063,19 +6293,23 @@
       },
       "Guide100204": {
         "GuideAnnottation": "咖啡店-在线经营-可颂",
-        "bForceGuide": true,
+        "bForceGuide": false,
         "GuideFunctionID": "None",
         "DefaultGuide": {
           "MutualExclusionGuideIDs": [],
           "GuideStepDatas": [
             {
-              "bGuard": true,
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
               "WidgetID": "W_HTButton_16",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide1000204_1",
-                "SourceString": null,
-                "LocalizedString": null
+                "Key": "Guide100204_1",
+                "SourceString": "这次有不一样的需求啦，<Yellow>制作可颂</>的第一步，是将它切开",
+                "LocalizedString": "这次有不一样的需求啦，<Yellow>制作可颂</>的第一步，是将它切开"
               },
               "Context": {
                 "CultureInvariantString": null
@@ -6092,13 +6326,17 @@
               "ExWidgetID": "None"
             },
             {
-              "bGuard": true,
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
               "WidgetID": "W_HTButton_19",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide1000204_2",
-                "SourceString": null,
-                "LocalizedString": null
+                "Key": "Guide100204_2",
+                "SourceString": "第二步，<Yellow>选择切好的可颂</>来容纳美味料理",
+                "LocalizedString": "第二步，<Yellow>选择切好的可颂</>来容纳美味料理"
               },
               "Context": {
                 "CultureInvariantString": null
@@ -6115,20 +6353,24 @@
               "ExWidgetID": "None"
             },
             {
-              "bGuard": true,
-              "WidgetID": "UI_StoreBrandPL_1",
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "UI_StoreBrandPL",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide1000204_3",
-                "SourceString": null,
-                "LocalizedString": null
+                "Key": "Guide100204_3",
+                "SourceString": "最后，根据<Yellow>顾客需求的图示</>，选择<Yellow>对应的食材</>填充即可",
+                "LocalizedString": "最后，根据<Yellow>顾客需求的图示</>，选择<Yellow>对应的食材</>填充即可"
               },
               "Context": {
                 "CultureInvariantString": null
               },
               "CurUIActions": [],
               "GuideTriggerEvents": [
-                "UI_StoreBrandPL_1"
+                "UI_StoreBrandPL"
               ],
               "GuardTime": 10.0,
               "CustomKey": {
@@ -6136,8 +6378,7 @@
               },
               "bUseFastNextStep": false,
               "ExWidgetID": "None"
-            },
-            null
+            }
           ],
           "TeachGuideIDs": []
         },
@@ -6148,13 +6389,17 @@
               "MutualExclusionGuideIDs": [],
               "GuideStepDatas": [
                 {
-                  "bGuard": true,
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
                   "WidgetID": "W_HTButton_16",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000204_1",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100204_1",
+                    "SourceString": "这次有不一样的需求啦，<Yellow>制作可颂</>的第一步，是将它切开",
+                    "LocalizedString": "这次有不一样的需求啦，<Yellow>制作可颂</>的第一步，是将它切开"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -6167,17 +6412,21 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 },
                 {
-                  "bGuard": true,
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
                   "WidgetID": "W_HTButton_19",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000204_2",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100204_2",
+                    "SourceString": "第二步，<Yellow>选择切好的可颂</>来容纳美味料理",
+                    "LocalizedString": "第二步，<Yellow>选择切好的可颂</>来容纳美味料理"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -6190,30 +6439,34 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 },
                 {
-                  "bGuard": true,
-                  "WidgetID": "UI_StoreBrandPL_1",
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "UI_StoreBrandPL",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000204_3",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100204_3",
+                    "SourceString": "最后，根据<Yellow>顾客需求的图示</>，选择<Yellow>对应的食材</>填充即可",
+                    "LocalizedString": "最后，根据<Yellow>顾客需求的图示</>，选择<Yellow>对应的食材</>填充即可"
                   },
                   "Context": {
                     "CultureInvariantString": null
                   },
                   "CurUIActions": [],
                   "GuideTriggerEvents": [
-                    "UI_StoreBrandPL_1"
+                    "UI_StoreBrandPL"
                   ],
                   "GuardTime": 10.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 }
               ],
@@ -6226,13 +6479,17 @@
               "MutualExclusionGuideIDs": [],
               "GuideStepDatas": [
                 {
-                  "bGuard": true,
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
                   "WidgetID": "W_HTButton_16",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000204_1",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100204_1",
+                    "SourceString": "这次有不一样的需求啦，<Yellow>制作可颂</>的第一步，是将它切开",
+                    "LocalizedString": "这次有不一样的需求啦，<Yellow>制作可颂</>的第一步，是将它切开"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -6245,17 +6502,21 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 },
                 {
-                  "bGuard": true,
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
                   "WidgetID": "W_HTButton_19",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000204_2",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100204_2",
+                    "SourceString": "第二步，<Yellow>选择切好的可颂</>来容纳美味料理",
+                    "LocalizedString": "第二步，<Yellow>选择切好的可颂</>来容纳美味料理"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -6268,30 +6529,34 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 },
                 {
-                  "bGuard": true,
-                  "WidgetID": "UI_StoreBrandPL_1",
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "UI_StoreBrandPL",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000204_3",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100204_3",
+                    "SourceString": "最后，根据<Yellow>顾客需求的图示</>，选择<Yellow>对应的食材</>填充即可",
+                    "LocalizedString": "最后，根据<Yellow>顾客需求的图示</>，选择<Yellow>对应的食材</>填充即可"
                   },
                   "Context": {
                     "CultureInvariantString": null
                   },
                   "CurUIActions": [],
                   "GuideTriggerEvents": [
-                    "UI_StoreBrandPL_1"
+                    "UI_StoreBrandPL"
                   ],
                   "GuardTime": 10.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 }
               ],
@@ -6303,19 +6568,23 @@
       },
       "Guide100205": {
         "GuideAnnottation": "咖啡店-在线经营-蛋糕",
-        "bForceGuide": true,
+        "bForceGuide": false,
         "GuideFunctionID": "None",
         "DefaultGuide": {
           "MutualExclusionGuideIDs": [],
           "GuideStepDatas": [
             {
-              "bGuard": true,
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
               "WidgetID": "W_HTButton_10",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide1000205_1",
-                "SourceString": null,
-                "LocalizedString": null
+                "Key": "Guide100205_1",
+                "SourceString": "来进行<Yellow>蛋糕烘焙</>吧~首先<Yellow>选择底料</>进行蛋糕胚的制作",
+                "LocalizedString": "来进行<Yellow>蛋糕烘焙</>吧~首先<Yellow>选择底料</>进行蛋糕胚的制作"
               },
               "Context": {
                 "CultureInvariantString": null
@@ -6328,17 +6597,21 @@
               "CustomKey": {
                 "KeyName": "Gamepad_FaceButton_Bottom"
               },
-              "bUseFastNextStep": true,
+              "bUseFastNextStep": false,
               "ExWidgetID": "None"
             },
             {
-              "bGuard": true,
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
               "WidgetID": "W_HTButton_26",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide1000205_2",
-                "SourceString": null,
-                "LocalizedString": null
+                "Key": "Guide100205_2",
+                "SourceString": "然后，选择<Yellow>消耗蛋糕胚</>进行蛋糕制作",
+                "LocalizedString": "然后，选择<Yellow>消耗蛋糕胚</>进行蛋糕制作"
               },
               "Context": {
                 "CultureInvariantString": null
@@ -6351,30 +6624,34 @@
               "CustomKey": {
                 "KeyName": "Gamepad_FaceButton_Bottom"
               },
-              "bUseFastNextStep": true,
+              "bUseFastNextStep": false,
               "ExWidgetID": "None"
             },
             {
-              "bGuard": true,
-              "WidgetID": "UI_StoreBrandPL_12",
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "UI_StoreBrandPL_10",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide1000205_3",
-                "SourceString": null,
-                "LocalizedString": null
+                "Key": "Guide100205_3",
+                "SourceString": "最后一步，根据<Yellow>顾客需求为蛋糕添加美味</>的点缀即可完成",
+                "LocalizedString": "最后一步，根据<Yellow>顾客需求为蛋糕添加美味</>的点缀即可完成"
               },
               "Context": {
                 "CultureInvariantString": null
               },
               "CurUIActions": [],
               "GuideTriggerEvents": [
-                "UI_StoreBrandPL_12"
+                "UI_StoreBrandPL_10"
               ],
               "GuardTime": 10.0,
               "CustomKey": {
                 "KeyName": "Gamepad_FaceButton_Bottom"
               },
-              "bUseFastNextStep": true,
+              "bUseFastNextStep": false,
               "ExWidgetID": "None"
             }
           ],
@@ -6387,13 +6664,17 @@
               "MutualExclusionGuideIDs": [],
               "GuideStepDatas": [
                 {
-                  "bGuard": true,
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
                   "WidgetID": "W_HTButton_10",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000205_1",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100205_1",
+                    "SourceString": "来进行<Yellow>蛋糕烘焙</>吧~首先<Yellow>选择底料</>进行蛋糕胚的制作",
+                    "LocalizedString": "来进行<Yellow>蛋糕烘焙</>吧~首先<Yellow>选择底料</>进行蛋糕胚的制作"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -6406,17 +6687,21 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 },
                 {
-                  "bGuard": true,
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
                   "WidgetID": "W_HTButton_26",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000205_2",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100205_2",
+                    "SourceString": "然后，选择<Yellow>消耗蛋糕胚</>进行蛋糕制作",
+                    "LocalizedString": "然后，选择<Yellow>消耗蛋糕胚</>进行蛋糕制作"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -6429,30 +6714,34 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 },
                 {
-                  "bGuard": true,
-                  "WidgetID": "UI_StoreBrandPL_12",
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "UI_StoreBrandPL_10",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000205_3",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100205_3",
+                    "SourceString": "最后一步，根据<Yellow>顾客需求为蛋糕添加美味</>的点缀即可完成",
+                    "LocalizedString": "最后一步，根据<Yellow>顾客需求为蛋糕添加美味</>的点缀即可完成"
                   },
                   "Context": {
                     "CultureInvariantString": null
                   },
                   "CurUIActions": [],
                   "GuideTriggerEvents": [
-                    "UI_StoreBrandPL_12"
+                    "UI_StoreBrandPL_10"
                   ],
                   "GuardTime": 10.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 }
               ],
@@ -6465,13 +6754,17 @@
               "MutualExclusionGuideIDs": [],
               "GuideStepDatas": [
                 {
-                  "bGuard": true,
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
                   "WidgetID": "W_HTButton_10",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000205_1",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100205_1",
+                    "SourceString": "来进行<Yellow>蛋糕烘焙</>吧~首先<Yellow>选择底料</>进行蛋糕胚的制作",
+                    "LocalizedString": "来进行<Yellow>蛋糕烘焙</>吧~首先<Yellow>选择底料</>进行蛋糕胚的制作"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -6484,17 +6777,21 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 },
                 {
-                  "bGuard": true,
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
                   "WidgetID": "W_HTButton_26",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000205_2",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100205_2",
+                    "SourceString": "然后，选择<Yellow>消耗蛋糕胚</>进行蛋糕制作",
+                    "LocalizedString": "然后，选择<Yellow>消耗蛋糕胚</>进行蛋糕制作"
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -6507,30 +6804,34 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 },
                 {
-                  "bGuard": true,
-                  "WidgetID": "UI_StoreBrandPL_12",
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "UI_StoreBrandPL_10",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide1000205_3",
-                    "SourceString": null,
-                    "LocalizedString": null
+                    "Key": "Guide100205_3",
+                    "SourceString": "最后一步，根据<Yellow>顾客需求为蛋糕添加美味</>的点缀即可完成",
+                    "LocalizedString": "最后一步，根据<Yellow>顾客需求为蛋糕添加美味</>的点缀即可完成"
                   },
                   "Context": {
                     "CultureInvariantString": null
                   },
                   "CurUIActions": [],
                   "GuideTriggerEvents": [
-                    "UI_StoreBrandPL_12"
+                    "UI_StoreBrandPL_10"
                   ],
                   "GuardTime": 10.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 }
               ],
@@ -6548,13 +6849,17 @@
           "MutualExclusionGuideIDs": [],
           "GuideStepDatas": [
             {
-              "bGuard": true,
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
               "WidgetID": "W_HTButton_12",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide1000206_1",
-                "SourceString": null,
-                "LocalizedString": null
+                "Key": "Guide100206_1",
+                "SourceString": "<Yellow>三明治</>制作的第一步，是同样<Yellow>将面包进行切片</>处理",
+                "LocalizedString": "<Yellow>三明治</>制作的第一步，是同样<Yellow>将面包进行切片</>处理"
               },
               "Context": {
                 "CultureInvariantString": null
@@ -6567,17 +6872,21 @@
               "CustomKey": {
                 "KeyName": "Gamepad_FaceButton_Bottom"
               },
-              "bUseFastNextStep": true,
+              "bUseFastNextStep": false,
               "ExWidgetID": "None"
             },
             {
-              "bGuard": true,
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
               "WidgetID": "W_HTButton_15",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide1000206_2",
-                "SourceString": null,
-                "LocalizedString": null
+                "Key": "Guide100206_2",
+                "SourceString": "选择<Yellow>消耗已经切好的面包片</>",
+                "LocalizedString": "选择<Yellow>消耗已经切好的面包片</>"
               },
               "Context": {
                 "CultureInvariantString": null
@@ -6590,36 +6899,528 @@
               "CustomKey": {
                 "KeyName": "Gamepad_FaceButton_Bottom"
               },
-              "bUseFastNextStep": true,
+              "bUseFastNextStep": false,
               "ExWidgetID": "None"
             },
             {
-              "bGuard": true,
-              "WidgetID": "UI_StoreBrandPL_3",
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "UI_StoreBrandPL_1",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                "Key": "Guide1000206_3",
-                "SourceString": null,
-                "LocalizedString": null
+                "Key": "Guide100206_3",
+                "SourceString": "将<Yellow>顾客需要的食材</>，添加入面包片中，即可大功告成",
+                "LocalizedString": "将<Yellow>顾客需要的食材</>，添加入面包片中，即可大功告成"
               },
               "Context": {
                 "CultureInvariantString": null
               },
               "CurUIActions": [],
               "GuideTriggerEvents": [
-                "UI_StoreBrandPL_3"
+                "UI_StoreBrandPL_1"
               ],
               "GuardTime": 10.0,
               "CustomKey": {
                 "KeyName": "Gamepad_FaceButton_Bottom"
               },
-              "bUseFastNextStep": true,
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            },
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "GuideCP",
+              "Desc": {
+                "CultureInvariantString": null
+              },
+              "Context": {
+                "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                "Key": "Guide100206_4",
+                "SourceString": "接下来，就请自己加油来满足顾客的需求吧！",
+                "LocalizedString": "接下来，就请自己加油来满足顾客的需求吧！"
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "GuideCP"
+              ],
+              "GuardTime": 6.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
               "ExWidgetID": "None"
             }
           ],
           "TeachGuideIDs": []
         },
-        "PlatformGuideInfo": [],
+        "PlatformGuideInfo": [
+          {
+            "Key": "ECommonInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "W_HTButton_12",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100206_1",
+                    "SourceString": "<Yellow>三明治</>制作的第一步，是同样<Yellow>将面包进行切片</>处理",
+                    "LocalizedString": "<Yellow>三明治</>制作的第一步，是同样<Yellow>将面包进行切片</>处理"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "W_HTButton_12"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                },
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "W_HTButton_15",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100206_2",
+                    "SourceString": "选择<Yellow>消耗已经切好的面包片</>",
+                    "LocalizedString": "选择<Yellow>消耗已经切好的面包片</>"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "W_HTButton_15"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                },
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "UI_StoreBrandPL_1",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100206_3",
+                    "SourceString": "将<Yellow>顾客需要的食材</>，添加入面包片中，即可大功告成",
+                    "LocalizedString": "将<Yellow>顾客需要的食材</>，添加入面包片中，即可大功告成"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "UI_StoreBrandPL_1"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                },
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "GuideCP",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100206_4",
+                    "SourceString": "接下来，就请自己加油来满足顾客的需求吧！",
+                    "LocalizedString": "接下来，就请自己加油来满足顾客的需求吧！"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCP"
+                  ],
+                  "GuardTime": 6.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "ECommonInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "W_HTButton_12",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100206_1",
+                    "SourceString": "<Yellow>三明治</>制作的第一步，是同样<Yellow>将面包进行切片</>处理",
+                    "LocalizedString": "<Yellow>三明治</>制作的第一步，是同样<Yellow>将面包进行切片</>处理"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "W_HTButton_12"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                },
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "W_HTButton_15",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100206_2",
+                    "SourceString": "选择<Yellow>消耗已经切好的面包片</>",
+                    "LocalizedString": "选择<Yellow>消耗已经切好的面包片</>"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "W_HTButton_15"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                },
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "UI_StoreBrandPL_1",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100206_3",
+                    "SourceString": "将<Yellow>顾客需要的食材</>，添加入面包片中，即可大功告成",
+                    "LocalizedString": "将<Yellow>顾客需要的食材</>，添加入面包片中，即可大功告成"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "UI_StoreBrandPL_1"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                },
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "GuideCP",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100206_4",
+                    "SourceString": "接下来，就请自己加油来满足顾客的需求吧！",
+                    "LocalizedString": "接下来，就请自己加油来满足顾客的需求吧！"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCP"
+                  ],
+                  "GuardTime": 6.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": []
+      },
+      "Guide100207": {
+        "GuideAnnottation": "咖啡店-团三郎",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "W_HTButton_23",
+              "Desc": {
+                "CultureInvariantString": null
+              },
+              "Context": {
+                "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                "Key": "Guide100207_1",
+                "SourceString": "<Yellow>佩戴红色领巾</>的顾客是<Yellow>团三郎</>的伪装！快<Yellow>按下大锤驱赶他</>",
+                "LocalizedString": "<Yellow>佩戴红色领巾</>的顾客是<Yellow>团三郎</>的伪装！快<Yellow>按下大锤驱赶他</>"
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "W_HTButton_23"
+              ],
+              "GuardTime": 6.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "ECommonInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "W_HTButton_23",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100207_1",
+                    "SourceString": "<Yellow>佩戴红色领巾</>的顾客是<Yellow>团三郎</>的伪装！快<Yellow>按下大锤驱赶他</>",
+                    "LocalizedString": "<Yellow>佩戴红色领巾</>的顾客是<Yellow>团三郎</>的伪装！快<Yellow>按下大锤驱赶他</>"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "W_HTButton_23"
+                  ],
+                  "GuardTime": 6.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "ECommonInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "W_HTButton_23",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100207_1",
+                    "SourceString": "<Yellow>佩戴红色领巾</>的顾客是<Yellow>团三郎</>的伪装！快<Yellow>按下大锤驱赶他</>",
+                    "LocalizedString": "<Yellow>佩戴红色领巾</>的顾客是<Yellow>团三郎</>的伪装！快<Yellow>按下大锤驱赶他</>"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "W_HTButton_23"
+                  ],
+                  "GuardTime": 6.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": []
+      },
+      "Guide100208": {
+        "GuideAnnottation": "咖啡店-经营指南",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "GuideStoreBrandButton",
+              "Desc": {
+                "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                "Key": "Guide100208_1",
+                "SourceString": "按下打开<Yellow>商铺经营指南</>，完成内置目标可<Yellow>领取奖励</>",
+                "LocalizedString": "按下打开<Yellow>商铺经营指南</>，完成内置目标可<Yellow>领取奖励</>"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "GuideStoreBrandButton"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "ECommonInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "GuideStoreBrandButton",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100208_1",
+                    "SourceString": "按下打开<Yellow>商铺经营指南</>，完成内置目标可<Yellow>领取奖励</>",
+                    "LocalizedString": "按下打开<Yellow>商铺经营指南</>，完成内置目标可<Yellow>领取奖励</>"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideStoreBrandButton"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "ECommonInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "GuideStoreBrandButton",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100208_1",
+                    "SourceString": "按下打开<Yellow>商铺经营指南</>，完成内置目标可<Yellow>领取奖励</>",
+                    "LocalizedString": "按下打开<Yellow>商铺经营指南</>，完成内置目标可<Yellow>领取奖励</>"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideStoreBrandButton"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
         "GuideEffectArray": []
       },
       "Guide10021": {
@@ -6919,7 +7720,7 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 },
                 {
@@ -7144,7 +7945,43 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": false,
+                  "bUseFastNextStep": true,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "ECommonInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "Button_Track",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10023",
+                    "SourceString": "你当前没有房子，按下此处去购买房子",
+                    "LocalizedString": "你当前没有房子，按下此处去购买房子"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "Button_Track"
+                  ],
+                  "GuardTime": 8.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": true,
                   "ExWidgetID": "None"
                 }
               ],
@@ -7167,7 +8004,7 @@
                 "Y": 0.0
               },
               "ResponseTime": 0.0,
-              "WidgetID": "None",
+              "WidgetID": "GuideCP",
               "Desc": {
                 "CultureInvariantString": null
               },
@@ -7179,7 +8016,7 @@
               },
               "CurUIActions": [],
               "GuideTriggerEvents": [
-                "Button_Click"
+                "GuideCP"
               ],
               "GuardTime": 8.0,
               "CustomKey": {
@@ -7191,19 +8028,306 @@
           ],
           "TeachGuideIDs": []
         },
-        "PlatformGuideInfo": [],
+        "PlatformGuideInfo": [
+          {
+            "Key": "ECommonInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "GuideCP",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10024",
+                    "SourceString": "购买的<Yellow>房产已在小地图标记</>，可以前往查看",
+                    "LocalizedString": "购买的<Yellow>房产已在小地图标记</>，可以前往查看"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCP"
+                  ],
+                  "GuardTime": 8.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "ECommonInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "GuideCP",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10024",
+                    "SourceString": "购买的<Yellow>房产已在小地图标记</>，可以前往查看",
+                    "LocalizedString": "购买的<Yellow>房产已在小地图标记</>，可以前往查看"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCP"
+                  ],
+                  "GuardTime": 8.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
         "GuideEffectArray": []
       },
-      "---Guide10025": {
+      "Guide100241": {
         "GuideAnnottation": "房产-装修",
         "bForceGuide": false,
         "GuideFunctionID": "None",
         "DefaultGuide": {
           "MutualExclusionGuideIDs": [],
-          "GuideStepDatas": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "CPGuide",
+              "Desc": {
+                "CultureInvariantString": null
+              },
+              "Context": {
+                "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                "Key": "Guide100241",
+                "SourceString": "<Yellow>点击</>或<Yellow>长按拖动</>下方家具图标，进行<Yellow>放置</>",
+                "LocalizedString": "<Yellow>点击</>或<Yellow>长按拖动</>下方家具图标，进行<Yellow>放置</>"
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "CPGuide"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            }
+          ],
           "TeachGuideIDs": []
         },
-        "PlatformGuideInfo": [],
+        "PlatformGuideInfo": [
+          {
+            "Key": "ECommonInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "CPGuide",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100241",
+                    "SourceString": "<Yellow>点击</>或<Yellow>长按拖动</>下方家具图标，进行<Yellow>放置</>",
+                    "LocalizedString": "<Yellow>点击</>或<Yellow>长按拖动</>下方家具图标，进行<Yellow>放置</>"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "CPGuide"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "ECommonInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "CPGuide",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100241",
+                    "SourceString": "<Yellow>点击</>或<Yellow>长按拖动</>下方家具图标，进行<Yellow>放置</>",
+                    "LocalizedString": "<Yellow>点击</>或<Yellow>长按拖动</>下方家具图标，进行<Yellow>放置</>"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "CPGuide"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": []
+      },
+      "Guide100242": {
+        "GuideAnnottation": "房产-装修指南",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "InteriorDecorationButton",
+              "Desc": {
+                "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                "Key": "Guide100242_1",
+                "SourceString": "按下打开<Yellow>房屋装修指南</>，完成内置目标可<Yellow>领取奖励</>",
+                "LocalizedString": "按下打开<Yellow>房屋装修指南</>，完成内置目标可<Yellow>领取奖励</>"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "InteriorDecorationButton"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "ECommonInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "InteriorDecorationButton",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100242_1",
+                    "SourceString": "按下打开<Yellow>房屋装修指南</>，完成内置目标可<Yellow>领取奖励</>",
+                    "LocalizedString": "按下打开<Yellow>房屋装修指南</>，完成内置目标可<Yellow>领取奖励</>"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "InteriorDecorationButton"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "ECommonInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "InteriorDecorationButton",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide100242_1",
+                    "SourceString": "按下打开<Yellow>房屋装修指南</>，完成内置目标可<Yellow>领取奖励</>",
+                    "LocalizedString": "按下打开<Yellow>房屋装修指南</>，完成内置目标可<Yellow>领取奖励</>"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "InteriorDecorationButton"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
         "GuideEffectArray": []
       },
       "Guide10025": {
@@ -7270,7 +8394,7 @@
             },
             {
               "bGuard": true,
-              "WidgetID": "BtnEntrance",
+              "WidgetID": "Btn_Normal",
               "Desc": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
                 "Key": "Guide10025_2",
@@ -7282,7 +8406,7 @@
               },
               "CurUIActions": [],
               "GuideTriggerEvents": [
-                "BtnEntrance"
+                "Btn_Normal"
               ],
               "GuardTime": 10.0,
               "CustomKey": {
@@ -7307,14 +8431,23 @@
                   "WidgetID": "MenuBtn",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
-                    "Key": "Guide10025_0",
-                    "SourceString": "按下菜单查看<Yellow>斯卡布罗集市</>功能",
-                    "LocalizedString": "按下菜单查看<Yellow>斯卡布罗集市</>功能"
+                    "Key": "GuideCom_10001",
+                    "SourceString": "按下<img id=\"1001\"/>打开<Yellow>菜单</>界面",
+                    "LocalizedString": "按下<img id=\"1001\"/>打开<Yellow>菜单</>界面"
                   },
                   "Context": {
                     "CultureInvariantString": null
                   },
-                  "CurUIActions": [],
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_Menu_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_Menu_Gamepad.0"
+                      },
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+                    }
+                  ],
                   "GuideTriggerEvents": [
                     "MenuBtn"
                   ],
@@ -7322,7 +8455,7 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": true,
+                  "bUseFastNextStep": false,
                   "ExWidgetID": "None"
                 },
                 {
@@ -7368,12 +8501,12 @@
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },
-                  "bUseFastNextStep": false,
+                  "bUseFastNextStep": true,
                   "ExWidgetID": "None"
                 },
                 {
                   "bGuard": true,
-                  "WidgetID": "BtnEntrance",
+                  "WidgetID": "Btn_Normal",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
                     "Key": "Guide10025_2",
@@ -7385,7 +8518,7 @@
                   },
                   "CurUIActions": [],
                   "GuideTriggerEvents": [
-                    "BtnEntrance"
+                    "Btn_Normal"
                   ],
                   "GuardTime": 10.0,
                   "CustomKey": {
@@ -7451,7 +8584,7 @@
                 },
                 {
                   "bGuard": true,
-                  "WidgetID": "BtnEntrance",
+                  "WidgetID": "Btn_Normal",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
                     "Key": "Guide10025_2",
@@ -7463,7 +8596,7 @@
                   },
                   "CurUIActions": [],
                   "GuideTriggerEvents": [
-                    "BtnEntrance"
+                    "Btn_Normal"
                   ],
                   "GuardTime": 10.0,
                   "CustomKey": {
@@ -7580,7 +8713,7 @@
         ],
         "GuideEffectArray": []
       },
-      "Guide10026": {
+      "---Guide10026": {
         "GuideAnnottation": "探索指南",
         "bForceGuide": true,
         "GuideFunctionID": "None",
@@ -7723,6 +8856,733 @@
                   "CurUIActions": [],
                   "GuideTriggerEvents": [
                     "Button_Friend"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": []
+      },
+      "Guide10028": {
+        "GuideAnnottation": "采购清单",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "W_HTButton_C_0",
+              "Desc": {
+                "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                "Key": "Guide10028",
+                "SourceString": "<Yellow>采购清单</>已创建在主界面，按下可查看详情",
+                "LocalizedString": "<Yellow>采购清单</>已创建在主界面，按下可查看详情"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "W_HTButton_C_0"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "ECommonInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "W_HTButton_C_0",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10028_1",
+                    "SourceString": "<Yellow>采购清单</>已创建在主界面，<Yellow>打开轮盘</>可查看详情",
+                    "LocalizedString": "<Yellow>采购清单</>已创建在主界面，<Yellow>打开轮盘</>可查看详情"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "W_HTButton_C_0"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "ECommonInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "W_HTButton_C_0",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10028",
+                    "SourceString": "<Yellow>采购清单</>已创建在主界面，按下可查看详情",
+                    "LocalizedString": "<Yellow>采购清单</>已创建在主界面，按下可查看详情"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "W_HTButton_C_0"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": []
+      },
+      "Guide10029": {
+        "GuideAnnottation": "深渊",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "UI_AbyssCloneLevelSlot",
+              "Desc": {
+                "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                "Key": "Guide10029_0",
+                "SourceString": "选择将要<Yellow>挑战的关卡</>",
+                "LocalizedString": "选择将要<Yellow>挑战的关卡</>"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "UI_AbyssCloneLevelSlot"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "ECommonInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "UI_AbyssCloneLevelSlot",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10029_0",
+                    "SourceString": "选择将要<Yellow>挑战的关卡</>",
+                    "LocalizedString": "选择将要<Yellow>挑战的关卡</>"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "UI_AbyssCloneLevelSlot"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "ECommonInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "UI_AbyssCloneLevelSlot",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10029_0",
+                    "SourceString": "选择将要<Yellow>挑战的关卡</>",
+                    "LocalizedString": "选择将要<Yellow>挑战的关卡</>"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "UI_AbyssCloneLevelSlot"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": []
+      },
+      "Guide10029_1": {
+        "GuideAnnottation": "深渊",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "AbyssCharacterPositionItemCommander",
+              "Desc": {
+                "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                "Key": "Guide10029_1",
+                "SourceString": "打开角色列表，设置<Yellow>1</>位<Yellow>同乘旅伴</>，为战斗队伍提供<Yellow>增益效果</>",
+                "LocalizedString": "打开角色列表，设置<Yellow>1</>位<Yellow>同乘旅伴</>，为战斗队伍提供<Yellow>增益效果</>"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "AbyssCharacterPositionItemCommander"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            },
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "GuideCharacterList",
+              "Desc": {
+                "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                "Key": "Guide10029_1_1",
+                "SourceString": "选择即将设置为<Yellow>同乘旅伴</>的角色",
+                "LocalizedString": "选择即将设置为<Yellow>同乘旅伴</>的角色"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "GuideCharacterList"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "ECommonInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "AbyssCharacterPositionItemCommander",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10029_1",
+                    "SourceString": "打开角色列表，设置<Yellow>1</>位<Yellow>同乘旅伴</>，为战斗队伍提供<Yellow>增益效果</>",
+                    "LocalizedString": "打开角色列表，设置<Yellow>1</>位<Yellow>同乘旅伴</>，为战斗队伍提供<Yellow>增益效果</>"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "AbyssCharacterPositionItemCommander"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                },
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "GuideCharacterList",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10029_1_1",
+                    "SourceString": "选择即将设置为<Yellow>同乘旅伴</>的角色",
+                    "LocalizedString": "选择即将设置为<Yellow>同乘旅伴</>的角色"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCharacterList"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "ECommonInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "AbyssCharacterPositionItemCommander",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10029_1",
+                    "SourceString": "打开角色列表，设置<Yellow>1</>位<Yellow>同乘旅伴</>，为战斗队伍提供<Yellow>增益效果</>",
+                    "LocalizedString": "打开角色列表，设置<Yellow>1</>位<Yellow>同乘旅伴</>，为战斗队伍提供<Yellow>增益效果</>"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "AbyssCharacterPositionItemCommander"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                },
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "GuideCharacterList",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10029_1_1",
+                    "SourceString": "选择即将设置为<Yellow>同乘旅伴</>的角色",
+                    "LocalizedString": "选择即将设置为<Yellow>同乘旅伴</>的角色"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCharacterList"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": []
+      },
+      "Guide10029_2": {
+        "GuideAnnottation": "深渊",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "AbyssCharacterPositionItemFirst",
+              "Desc": {
+                "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                "Key": "Guide10029_2",
+                "SourceString": "选择<Yellow>参与战斗的4位伙伴</>",
+                "LocalizedString": "选择<Yellow>参与战斗的4位伙伴</>"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "AbyssCharacterPositionItemFirst"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            },
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "GuideCharacterList",
+              "Desc": {
+                "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                "Key": "Guide10029_2_1",
+                "SourceString": "选择即将<Yellow>进行战斗的</>角色",
+                "LocalizedString": "选择即将<Yellow>进行战斗的</>角色"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "GuideCharacterList"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "ECommonInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "AbyssCharacterPositionItemFirst",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10029_2",
+                    "SourceString": "选择<Yellow>参与战斗的4位伙伴</>",
+                    "LocalizedString": "选择<Yellow>参与战斗的4位伙伴</>"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "AbyssCharacterPositionItemFirst"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                },
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "GuideCharacterList",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10029_2_1",
+                    "SourceString": "选择即将<Yellow>进行战斗的</>角色",
+                    "LocalizedString": "选择即将<Yellow>进行战斗的</>角色"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCharacterList"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "ECommonInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "AbyssCharacterPositionItemFirst",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10029_2",
+                    "SourceString": "选择<Yellow>参与战斗的4位伙伴</>",
+                    "LocalizedString": "选择<Yellow>参与战斗的4位伙伴</>"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "AbyssCharacterPositionItemFirst"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                },
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "GuideCharacterList",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10029_2_1",
+                    "SourceString": "选择即将<Yellow>进行战斗的</>角色",
+                    "LocalizedString": "选择即将<Yellow>进行战斗的</>角色"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCharacterList"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": []
+      },
+      "Guide10029_3": {
+        "GuideAnnottation": "深渊",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "AbyssSupportSlotFirst",
+              "Desc": {
+                "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                "Key": "Guide10029_3",
+                "SourceString": "前往兑换浮游小姐的赠礼，<Yellow>装备后</>可为战斗提供各种效果，<Yellow>每个赠礼只可使用一次</>。",
+                "LocalizedString": "前往兑换浮游小姐的赠礼，<Yellow>装备后</>可为战斗提供各种效果，<Yellow>每个赠礼只可使用一次</>。"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "AbyssSupportSlotFirst"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "ExWidgetID": "None"
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "ECommonInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "AbyssSupportSlotFirst",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10029_3",
+                    "SourceString": "前往兑换浮游小姐的赠礼，<Yellow>装备后</>可为战斗提供各种效果，<Yellow>每个赠礼只可使用一次</>。",
+                    "LocalizedString": "前往兑换浮游小姐的赠礼，<Yellow>装备后</>可为战斗提供各种效果，<Yellow>每个赠礼只可使用一次</>。"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "AbyssSupportSlotFirst"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "ExWidgetID": "None"
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "ECommonInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "AbyssSupportSlotFirst",
+                  "Desc": {
+                    "TableId": "/Game/Text/ST_Guide.ST_Guide",
+                    "Key": "Guide10029_3",
+                    "SourceString": "前往兑换浮游小姐的赠礼，<Yellow>装备后</>可为战斗提供各种效果，<Yellow>每个赠礼只可使用一次</>。",
+                    "LocalizedString": "前往兑换浮游小姐的赠礼，<Yellow>装备后</>可为战斗提供各种效果，<Yellow>每个赠礼只可使用一次</>。"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "AbyssSupportSlotFirst"
                   ],
                   "GuardTime": 10.0,
                   "CustomKey": {

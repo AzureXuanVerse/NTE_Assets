@@ -1122,8 +1122,8 @@
           "CultureInvariantString": null
         },
         "MixAmount": 1,
-        "MaxAmount": 4,
-        "LimitAmount": 4,
+        "MaxAmount": 5,
+        "LimitAmount": 5,
         "LimitsFunctionAmount": [],
         "RefreshType": "EShopRefresh::Monthly",
         "CurrencyID": "Dice_ticket_02",
@@ -1154,8 +1154,8 @@
           "CultureInvariantString": null
         },
         "MixAmount": 1,
-        "MaxAmount": 4,
-        "LimitAmount": 4,
+        "MaxAmount": 5,
+        "LimitAmount": 5,
         "LimitsFunctionAmount": [],
         "RefreshType": "EShopRefresh::Monthly",
         "CurrencyID": "Dice_ticket_02",
@@ -1186,8 +1186,8 @@
           "CultureInvariantString": null
         },
         "MixAmount": 1,
-        "MaxAmount": 18,
-        "LimitAmount": 18,
+        "MaxAmount": 20,
+        "LimitAmount": 20,
         "LimitsFunctionAmount": [],
         "RefreshType": "EShopRefresh::Monthly",
         "CurrencyID": "Dice_ticket_02",
@@ -2485,7 +2485,7 @@
         "OffText": {
           "CultureInvariantString": null
         },
-        "UnLockID": "day2",
+        "UnLockID": "None",
         "lockHide": false,
         "NeedTrackQuestList": [],
         "SellOutHide": false,
@@ -2517,7 +2517,7 @@
         "OffText": {
           "CultureInvariantString": null
         },
-        "UnLockID": "day2",
+        "UnLockID": "None",
         "lockHide": false,
         "NeedTrackQuestList": [],
         "SellOutHide": false,
@@ -2549,7 +2549,7 @@
         "OffText": {
           "CultureInvariantString": null
         },
-        "UnLockID": "day2",
+        "UnLockID": "None",
         "lockHide": false,
         "NeedTrackQuestList": [],
         "SellOutHide": false,
@@ -2581,7 +2581,7 @@
         "OffText": {
           "CultureInvariantString": null
         },
-        "UnLockID": "day2",
+        "UnLockID": "None",
         "lockHide": false,
         "NeedTrackQuestList": [],
         "SellOutHide": false,
@@ -2613,7 +2613,7 @@
         "OffText": {
           "CultureInvariantString": null
         },
-        "UnLockID": "day2",
+        "UnLockID": "None",
         "lockHide": false,
         "NeedTrackQuestList": [],
         "SellOutHide": false,
@@ -2645,7 +2645,7 @@
         "OffText": {
           "CultureInvariantString": null
         },
-        "UnLockID": "day2",
+        "UnLockID": "None",
         "lockHide": false,
         "NeedTrackQuestList": [],
         "SellOutHide": false,
@@ -2677,7 +2677,7 @@
         "OffText": {
           "CultureInvariantString": null
         },
-        "UnLockID": "day3",
+        "UnLockID": "None",
         "lockHide": false,
         "NeedTrackQuestList": [],
         "SellOutHide": false,
@@ -2709,7 +2709,7 @@
         "OffText": {
           "CultureInvariantString": null
         },
-        "UnLockID": "day3",
+        "UnLockID": "None",
         "lockHide": false,
         "NeedTrackQuestList": [],
         "SellOutHide": false,
@@ -4683,23 +4683,23 @@
           },
           {
             "UnlockFunctionID": "FonsShop_lv4",
-            "AddAmount": 100
+            "AddAmount": 60
           },
           {
             "UnlockFunctionID": "FonsShop_lv9",
-            "AddAmount": 120
+            "AddAmount": 60
           },
           {
             "UnlockFunctionID": "FonsShop_lv10",
-            "AddAmount": 150
+            "AddAmount": 60
           },
           {
             "UnlockFunctionID": "FonsShop_lv11",
-            "AddAmount": 180
+            "AddAmount": 60
           },
           {
             "UnlockFunctionID": "FonsShop_lv12",
-            "AddAmount": 200
+            "AddAmount": 60
           }
         ],
         "RefreshType": "EShopRefresh::None",
@@ -13426,6 +13426,102 @@
         "NeedTrackQuestList": [
           "K110358"
         ],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_007_001": {
+        "OwnerShopID": "Shop_007_01_01",
+        "ItemID": "food_material_0024",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 60,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_007_002": {
+        "OwnerShopID": "Shop_007_01_01",
+        "ItemID": "food_material_0027",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 140,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_007_003": {
+        "OwnerShopID": "Shop_007_01_01",
+        "ItemID": "food_material_0032",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 60,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
         "SellOutHide": false,
         "CityShopExtensionData": null
       },
@@ -28894,7 +28990,7 @@
         "CityShopExtensionData": null
       },
       "Shop_015_01": {
-        "OwnerShopID": "Shop_015_04_01",
+        "OwnerShopID": "Shop_015_01_01",
         "ItemID": "Food_059",
         "ItemName": {
           "CultureInvariantString": null
@@ -28926,7 +29022,7 @@
         "CityShopExtensionData": null
       },
       "Shop_015_02": {
-        "OwnerShopID": "Shop_015_04_01",
+        "OwnerShopID": "Shop_015_01_01",
         "ItemID": "Food_060",
         "ItemName": {
           "CultureInvariantString": null
@@ -28958,7 +29054,7 @@
         "CityShopExtensionData": null
       },
       "Shop_015_03": {
-        "OwnerShopID": "Shop_015_04_01",
+        "OwnerShopID": "Shop_015_01_01",
         "ItemID": "Food_061",
         "ItemName": {
           "CultureInvariantString": null
@@ -28990,7 +29086,7 @@
         "CityShopExtensionData": null
       },
       "Shop_015_04": {
-        "OwnerShopID": "Shop_015_04_01",
+        "OwnerShopID": "Shop_015_01_01",
         "ItemID": "Food_062",
         "ItemName": {
           "CultureInvariantString": null
@@ -29022,7 +29118,7 @@
         "CityShopExtensionData": null
       },
       "Shop_015_05": {
-        "OwnerShopID": "Shop_015_05_01",
+        "OwnerShopID": "Shop_015_04_01",
         "ItemID": "Food_059",
         "ItemName": {
           "CultureInvariantString": null
@@ -29054,7 +29150,7 @@
         "CityShopExtensionData": null
       },
       "Shop_015_06": {
-        "OwnerShopID": "Shop_015_05_01",
+        "OwnerShopID": "Shop_015_04_01",
         "ItemID": "Food_060",
         "ItemName": {
           "CultureInvariantString": null
@@ -29086,7 +29182,7 @@
         "CityShopExtensionData": null
       },
       "Shop_015_07": {
-        "OwnerShopID": "Shop_015_05_01",
+        "OwnerShopID": "Shop_015_04_01",
         "ItemID": "Food_061",
         "ItemName": {
           "CultureInvariantString": null
@@ -29118,6 +29214,134 @@
         "CityShopExtensionData": null
       },
       "Shop_015_08": {
+        "OwnerShopID": "Shop_015_04_01",
+        "ItemID": "Food_062",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 900,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_015_09": {
+        "OwnerShopID": "Shop_015_05_01",
+        "ItemID": "Food_059",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 600,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_015_10": {
+        "OwnerShopID": "Shop_015_05_01",
+        "ItemID": "Food_060",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 900,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_015_11": {
+        "OwnerShopID": "Shop_015_05_01",
+        "ItemID": "Food_061",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 720,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_015_12": {
         "OwnerShopID": "Shop_015_05_01",
         "ItemID": "Food_062",
         "ItemName": {
@@ -29917,7 +30141,7 @@
         "SellOutHide": false,
         "CityShopExtensionData": null
       },
-      "Shop_017_02": {
+      "Shop_017_01": {
         "OwnerShopID": "Shop_017_01_01",
         "ItemID": "Food_067",
         "ItemName": {
@@ -29949,7 +30173,7 @@
         "SellOutHide": false,
         "CityShopExtensionData": null
       },
-      "Shop_017_04": {
+      "Shop_017_02": {
         "OwnerShopID": "Shop_017_01_01",
         "ItemID": "Food_069",
         "ItemName": {
@@ -29981,7 +30205,7 @@
         "SellOutHide": false,
         "CityShopExtensionData": null
       },
-      "Shop_017_05": {
+      "Shop_017_03": {
         "OwnerShopID": "Shop_017_01_01",
         "ItemID": "Food_070",
         "ItemName": {
@@ -30013,7 +30237,7 @@
         "SellOutHide": false,
         "CityShopExtensionData": null
       },
-      "Shop_017_06": {
+      "Shop_017_04": {
         "OwnerShopID": "Shop_017_01_01",
         "ItemID": "Food_071",
         "ItemName": {
@@ -30045,7 +30269,7 @@
         "SellOutHide": false,
         "CityShopExtensionData": null
       },
-      "Shop_017_06_01": {
+      "Shop_017_05": {
         "OwnerShopID": "Shop_017_03_01",
         "ItemID": "food_sp_003",
         "ItemName": {
@@ -30079,7 +30303,7 @@
         "SellOutHide": false,
         "CityShopExtensionData": null
       },
-      "Shop_017_08": {
+      "Shop_017_06": {
         "OwnerShopID": "Shop_017_03_01",
         "ItemID": "Food_068",
         "ItemName": {
@@ -30111,7 +30335,7 @@
         "SellOutHide": false,
         "CityShopExtensionData": null
       },
-      "Shop_017_12": {
+      "Shop_017_07": {
         "OwnerShopID": "Shop_017_04_01",
         "ItemID": "Food_067",
         "ItemName": {
@@ -30143,7 +30367,7 @@
         "SellOutHide": false,
         "CityShopExtensionData": null
       },
-      "Shop_017_14": {
+      "Shop_017_08": {
         "OwnerShopID": "Shop_017_04_01",
         "ItemID": "Food_069",
         "ItemName": {
@@ -30175,7 +30399,7 @@
         "SellOutHide": false,
         "CityShopExtensionData": null
       },
-      "Shop_017_15": {
+      "Shop_017_09": {
         "OwnerShopID": "Shop_017_04_01",
         "ItemID": "Food_070",
         "ItemName": {
@@ -30207,9 +30431,201 @@
         "SellOutHide": false,
         "CityShopExtensionData": null
       },
-      "Shop_017_16": {
+      "Shop_017_10": {
         "OwnerShopID": "Shop_017_04_01",
         "ItemID": "Food_071",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 480,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_017_11": {
+        "OwnerShopID": "Shop_017_04_02",
+        "ItemID": "Food_067",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 480,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_017_12": {
+        "OwnerShopID": "Shop_017_04_02",
+        "ItemID": "Food_069",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 480,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_017_13": {
+        "OwnerShopID": "Shop_017_04_02",
+        "ItemID": "Food_070",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 480,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_017_14": {
+        "OwnerShopID": "Shop_017_04_02",
+        "ItemID": "Food_071",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 480,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_017_15": {
+        "OwnerShopID": "Shop_017_05_01",
+        "ItemID": "Food_067",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 480,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_017_16": {
+        "OwnerShopID": "Shop_017_05_01",
+        "ItemID": "Food_069",
         "ItemName": {
           "CultureInvariantString": null
         },
@@ -30241,70 +30657,6 @@
       },
       "Shop_017_17": {
         "OwnerShopID": "Shop_017_05_01",
-        "ItemID": "Food_067",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 999,
-        "LimitAmount": 999,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 480,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": null
-      },
-      "Shop_017_19": {
-        "OwnerShopID": "Shop_017_05_01",
-        "ItemID": "Food_069",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 999,
-        "LimitAmount": 999,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 480,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": null
-      },
-      "Shop_017_20": {
-        "OwnerShopID": "Shop_017_05_01",
         "ItemID": "Food_070",
         "ItemName": {
           "CultureInvariantString": null
@@ -30335,7 +30687,7 @@
         "SellOutHide": false,
         "CityShopExtensionData": null
       },
-      "Shop_017_21": {
+      "Shop_017_18": {
         "OwnerShopID": "Shop_017_05_01",
         "ItemID": "Food_071",
         "ItemName": {
@@ -30367,7 +30719,7 @@
         "SellOutHide": false,
         "CityShopExtensionData": null
       },
-      "Shop_017_22": {
+      "Shop_017_19": {
         "OwnerShopID": "Shop_017_05_02",
         "ItemID": "Food_067",
         "ItemName": {
@@ -30399,7 +30751,7 @@
         "SellOutHide": false,
         "CityShopExtensionData": null
       },
-      "Shop_017_24": {
+      "Shop_017_20": {
         "OwnerShopID": "Shop_017_05_02",
         "ItemID": "Food_069",
         "ItemName": {
@@ -30431,7 +30783,7 @@
         "SellOutHide": false,
         "CityShopExtensionData": null
       },
-      "Shop_017_25": {
+      "Shop_017_21": {
         "OwnerShopID": "Shop_017_05_02",
         "ItemID": "Food_070",
         "ItemName": {
@@ -30463,7 +30815,7 @@
         "SellOutHide": false,
         "CityShopExtensionData": null
       },
-      "Shop_017_26": {
+      "Shop_017_22": {
         "OwnerShopID": "Shop_017_05_02",
         "ItemID": "Food_071",
         "ItemName": {
@@ -32128,7 +32480,7 @@
         "CityShopExtensionData": null
       },
       "Shop_020_21": {
-        "OwnerShopID": "Shop_020_05_01",
+        "OwnerShopID": "Shop_020_04_03",
         "ItemID": "Food_081",
         "ItemName": {
           "CultureInvariantString": null
@@ -32160,7 +32512,7 @@
         "CityShopExtensionData": null
       },
       "Shop_020_22": {
-        "OwnerShopID": "Shop_020_05_01",
+        "OwnerShopID": "Shop_020_04_03",
         "ItemID": "Food_082",
         "ItemName": {
           "CultureInvariantString": null
@@ -32192,7 +32544,7 @@
         "CityShopExtensionData": null
       },
       "Shop_020_23": {
-        "OwnerShopID": "Shop_020_05_01",
+        "OwnerShopID": "Shop_020_04_03",
         "ItemID": "Food_083",
         "ItemName": {
           "CultureInvariantString": null
@@ -32224,7 +32576,7 @@
         "CityShopExtensionData": null
       },
       "Shop_020_24": {
-        "OwnerShopID": "Shop_020_05_01",
+        "OwnerShopID": "Shop_020_04_03",
         "ItemID": "Food_084",
         "ItemName": {
           "CultureInvariantString": null
@@ -32256,7 +32608,7 @@
         "CityShopExtensionData": null
       },
       "Shop_020_25": {
-        "OwnerShopID": "Shop_020_05_02",
+        "OwnerShopID": "Shop_020_05_01",
         "ItemID": "Food_081",
         "ItemName": {
           "CultureInvariantString": null
@@ -32288,7 +32640,7 @@
         "CityShopExtensionData": null
       },
       "Shop_020_26": {
-        "OwnerShopID": "Shop_020_05_02",
+        "OwnerShopID": "Shop_020_05_01",
         "ItemID": "Food_082",
         "ItemName": {
           "CultureInvariantString": null
@@ -32320,7 +32672,7 @@
         "CityShopExtensionData": null
       },
       "Shop_020_27": {
-        "OwnerShopID": "Shop_020_05_02",
+        "OwnerShopID": "Shop_020_05_01",
         "ItemID": "Food_083",
         "ItemName": {
           "CultureInvariantString": null
@@ -32352,6 +32704,134 @@
         "CityShopExtensionData": null
       },
       "Shop_020_28": {
+        "OwnerShopID": "Shop_020_05_01",
+        "ItemID": "Food_084",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 600,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_020_29": {
+        "OwnerShopID": "Shop_020_05_02",
+        "ItemID": "Food_081",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 480,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_020_30": {
+        "OwnerShopID": "Shop_020_05_02",
+        "ItemID": "Food_082",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 480,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_020_31": {
+        "OwnerShopID": "Shop_020_05_02",
+        "ItemID": "Food_083",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 999,
+        "LimitAmount": 999,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 600,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": null
+      },
+      "Shop_020_32": {
         "OwnerShopID": "Shop_020_05_02",
         "ItemID": "Food_084",
         "ItemName": {
@@ -34473,126 +34953,6 @@
       },
       "Shop_023_03": {
         "OwnerShopID": "Shop_023_01_01",
-        "ItemID": "Figure_maskerrider_01_001",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 14400,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 144,
-          "CityShopExp": 144,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_04": {
-        "OwnerShopID": "Shop_023_01_01",
-        "ItemID": "Figure_maskerrider_02_001",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 14400,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 144,
-          "CityShopExp": 144,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_05": {
-        "OwnerShopID": "Shop_023_01_01",
-        "ItemID": "Figure_maskerrider_03_001",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 14400,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 144,
-          "CityShopExp": 144,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_06": {
-        "OwnerShopID": "Shop_023_01_01",
         "ItemID": "Furniture_Figues_005",
         "ItemName": {
           "CultureInvariantString": null
@@ -34631,7 +34991,7 @@
           "LikeabilityLevelCityShop": 0
         }
       },
-      "Shop_023_07": {
+      "Shop_023_04": {
         "OwnerShopID": "Shop_023_01_01",
         "ItemID": "Furniture_Figues_006",
         "ItemName": {
@@ -34671,7 +35031,7 @@
           "LikeabilityLevelCityShop": 0
         }
       },
-      "Shop_023_08": {
+      "Shop_023_05": {
         "OwnerShopID": "Shop_023_01_01",
         "ItemID": "Furniture_Figues_007",
         "ItemName": {
@@ -34711,7 +35071,167 @@
           "LikeabilityLevelCityShop": 0
         }
       },
+      "Shop_023_06": {
+        "OwnerShopID": "Shop_023_01_01",
+        "ItemID": "Furniture_Figues_003",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 30000,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 300,
+          "CityShopExp": 300,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
+      "Shop_023_07": {
+        "OwnerShopID": "Shop_023_01_01",
+        "ItemID": "Figure_maskerrider_01_001",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 14400,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 144,
+          "CityShopExp": 144,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
+      "Shop_023_08": {
+        "OwnerShopID": "Shop_023_01_01",
+        "ItemID": "Figure_maskerrider_02_001",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 14400,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 144,
+          "CityShopExp": 144,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
       "Shop_023_09": {
+        "OwnerShopID": "Shop_023_01_01",
+        "ItemID": "Figure_maskerrider_03_001",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 14400,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 144,
+          "CityShopExp": 144,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
+      "Shop_023_10": {
         "OwnerShopID": "Shop_023_01_01",
         "ItemID": "Figure_miniblack_01_001",
         "ItemName": {
@@ -34751,7 +35271,7 @@
           "LikeabilityLevelCityShop": 0
         }
       },
-      "Shop_023_10": {
+      "Shop_023_11": {
         "OwnerShopID": "Shop_023_01_01",
         "ItemID": "Figure_miniblack_01_002",
         "ItemName": {
@@ -34788,46 +35308,6 @@
           "BuyVipLevel": 0,
           "CityShopIntegral": 120,
           "CityShopExp": 120,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_11": {
-        "OwnerShopID": "Shop_023_01_01",
-        "ItemID": "Furniture_Figues_003",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 30000,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 300,
-          "CityShopExp": 300,
           "LikeabilityLevelCityShop": 0
         }
       },
@@ -34947,126 +35427,6 @@
       },
       "Shop_023_15": {
         "OwnerShopID": "Shop_023_01_02",
-        "ItemID": "Figure_maskerrider_01_001",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 14400,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 144,
-          "CityShopExp": 144,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_16": {
-        "OwnerShopID": "Shop_023_01_02",
-        "ItemID": "Figure_maskerrider_02_001",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 14400,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 144,
-          "CityShopExp": 144,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_17": {
-        "OwnerShopID": "Shop_023_01_02",
-        "ItemID": "Figure_maskerrider_03_001",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 14400,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 144,
-          "CityShopExp": 144,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_18": {
-        "OwnerShopID": "Shop_023_01_02",
         "ItemID": "Furniture_Figues_005",
         "ItemName": {
           "CultureInvariantString": null
@@ -35105,7 +35465,7 @@
           "LikeabilityLevelCityShop": 0
         }
       },
-      "Shop_023_19": {
+      "Shop_023_16": {
         "OwnerShopID": "Shop_023_01_02",
         "ItemID": "Furniture_Figues_006",
         "ItemName": {
@@ -35145,7 +35505,7 @@
           "LikeabilityLevelCityShop": 0
         }
       },
-      "Shop_023_20": {
+      "Shop_023_17": {
         "OwnerShopID": "Shop_023_01_02",
         "ItemID": "Furniture_Figues_007",
         "ItemName": {
@@ -35185,7 +35545,167 @@
           "LikeabilityLevelCityShop": 0
         }
       },
+      "Shop_023_18": {
+        "OwnerShopID": "Shop_023_01_02",
+        "ItemID": "Furniture_Figues_003",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 30000,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 300,
+          "CityShopExp": 300,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
+      "Shop_023_19": {
+        "OwnerShopID": "Shop_023_01_02",
+        "ItemID": "Figure_maskerrider_01_001",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 14400,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 144,
+          "CityShopExp": 144,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
+      "Shop_023_20": {
+        "OwnerShopID": "Shop_023_01_02",
+        "ItemID": "Figure_maskerrider_02_001",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 14400,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 144,
+          "CityShopExp": 144,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
       "Shop_023_21": {
+        "OwnerShopID": "Shop_023_01_02",
+        "ItemID": "Figure_maskerrider_03_001",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 14400,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 144,
+          "CityShopExp": 144,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
+      "Shop_023_22": {
         "OwnerShopID": "Shop_023_01_02",
         "ItemID": "Figure_miniblack_01_001",
         "ItemName": {
@@ -35225,7 +35745,7 @@
           "LikeabilityLevelCityShop": 0
         }
       },
-      "Shop_023_22": {
+      "Shop_023_23": {
         "OwnerShopID": "Shop_023_01_02",
         "ItemID": "Figure_miniblack_01_002",
         "ItemName": {
@@ -35262,46 +35782,6 @@
           "BuyVipLevel": 0,
           "CityShopIntegral": 120,
           "CityShopExp": 120,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_23": {
-        "OwnerShopID": "Shop_023_01_02",
-        "ItemID": "Furniture_Figues_003",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 30000,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 300,
-          "CityShopExp": 300,
           "LikeabilityLevelCityShop": 0
         }
       },
@@ -35379,126 +35859,6 @@
       },
       "Shop_023_26": {
         "OwnerShopID": "Shop_023_03_01",
-        "ItemID": "Figure_maskerrider_01_002",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 14400,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 144,
-          "CityShopExp": 144,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_27": {
-        "OwnerShopID": "Shop_023_03_01",
-        "ItemID": "Figure_maskerrider_02_002",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 14400,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 144,
-          "CityShopExp": 144,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_28": {
-        "OwnerShopID": "Shop_023_03_01",
-        "ItemID": "Figure_maskerrider_03_002",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 14400,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 144,
-          "CityShopExp": 144,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_29": {
-        "OwnerShopID": "Shop_023_03_01",
         "ItemID": "Furniture_Figues_005",
         "ItemName": {
           "CultureInvariantString": null
@@ -35537,7 +35897,7 @@
           "LikeabilityLevelCityShop": 0
         }
       },
-      "Shop_023_30": {
+      "Shop_023_27": {
         "OwnerShopID": "Shop_023_03_01",
         "ItemID": "Furniture_Figues_006",
         "ItemName": {
@@ -35577,7 +35937,7 @@
           "LikeabilityLevelCityShop": 0
         }
       },
-      "Shop_023_31": {
+      "Shop_023_28": {
         "OwnerShopID": "Shop_023_03_01",
         "ItemID": "Furniture_Figues_007",
         "ItemName": {
@@ -35617,7 +35977,167 @@
           "LikeabilityLevelCityShop": 0
         }
       },
+      "Shop_023_29": {
+        "OwnerShopID": "Shop_023_03_01",
+        "ItemID": "Furniture_Figues_004",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 30000,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 300,
+          "CityShopExp": 300,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
+      "Shop_023_30": {
+        "OwnerShopID": "Shop_023_03_01",
+        "ItemID": "Figure_maskerrider_01_002",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 14400,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 144,
+          "CityShopExp": 144,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
+      "Shop_023_31": {
+        "OwnerShopID": "Shop_023_03_01",
+        "ItemID": "Figure_maskerrider_02_002",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 14400,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 144,
+          "CityShopExp": 144,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
       "Shop_023_32": {
+        "OwnerShopID": "Shop_023_03_01",
+        "ItemID": "Figure_maskerrider_03_002",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 14400,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 144,
+          "CityShopExp": 144,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
+      "Shop_023_33": {
         "OwnerShopID": "Shop_023_03_01",
         "ItemID": "Figure_eri_01_001",
         "ItemName": {
@@ -35657,7 +36177,7 @@
           "LikeabilityLevelCityShop": 0
         }
       },
-      "Shop_023_33": {
+      "Shop_023_34": {
         "OwnerShopID": "Shop_023_03_01",
         "ItemID": "Figure_eri_01_002",
         "ItemName": {
@@ -35694,46 +36214,6 @@
           "BuyVipLevel": 0,
           "CityShopIntegral": 180,
           "CityShopExp": 180,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_34": {
-        "OwnerShopID": "Shop_023_03_01",
-        "ItemID": "Furniture_Figues_004",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 30000,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 300,
-          "CityShopExp": 300,
           "LikeabilityLevelCityShop": 0
         }
       },
@@ -35811,126 +36291,6 @@
       },
       "Shop_023_37": {
         "OwnerShopID": "Shop_023_04_01",
-        "ItemID": "Figure_maskerrider_01_001",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 14400,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 144,
-          "CityShopExp": 144,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_38": {
-        "OwnerShopID": "Shop_023_04_01",
-        "ItemID": "Figure_maskerrider_02_001",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 14400,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 144,
-          "CityShopExp": 144,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_39": {
-        "OwnerShopID": "Shop_023_04_01",
-        "ItemID": "Figure_maskerrider_03_001",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 14400,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 144,
-          "CityShopExp": 144,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_40": {
-        "OwnerShopID": "Shop_023_04_01",
         "ItemID": "Furniture_Figues_005",
         "ItemName": {
           "CultureInvariantString": null
@@ -35969,7 +36329,7 @@
           "LikeabilityLevelCityShop": 0
         }
       },
-      "Shop_023_41": {
+      "Shop_023_38": {
         "OwnerShopID": "Shop_023_04_01",
         "ItemID": "Furniture_Figues_006",
         "ItemName": {
@@ -36009,7 +36369,7 @@
           "LikeabilityLevelCityShop": 0
         }
       },
-      "Shop_023_42": {
+      "Shop_023_39": {
         "OwnerShopID": "Shop_023_04_01",
         "ItemID": "Furniture_Figues_007",
         "ItemName": {
@@ -36049,7 +36409,167 @@
           "LikeabilityLevelCityShop": 0
         }
       },
+      "Shop_023_40": {
+        "OwnerShopID": "Shop_023_04_01",
+        "ItemID": "Furniture_Figues_001",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 45000,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 450,
+          "CityShopExp": 450,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
+      "Shop_023_41": {
+        "OwnerShopID": "Shop_023_04_01",
+        "ItemID": "Figure_maskerrider_01_001",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 14400,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 144,
+          "CityShopExp": 144,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
+      "Shop_023_42": {
+        "OwnerShopID": "Shop_023_04_01",
+        "ItemID": "Figure_maskerrider_02_001",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 14400,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 144,
+          "CityShopExp": 144,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
       "Shop_023_43": {
+        "OwnerShopID": "Shop_023_04_01",
+        "ItemID": "Figure_maskerrider_03_001",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 14400,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 144,
+          "CityShopExp": 144,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
+      "Shop_023_44": {
         "OwnerShopID": "Shop_023_04_01",
         "ItemID": "Figure_miniblack_01_001",
         "ItemName": {
@@ -36089,7 +36609,7 @@
           "LikeabilityLevelCityShop": 0
         }
       },
-      "Shop_023_44": {
+      "Shop_023_45": {
         "OwnerShopID": "Shop_023_04_01",
         "ItemID": "Figure_miniblack_01_002",
         "ItemName": {
@@ -36126,46 +36646,6 @@
           "BuyVipLevel": 0,
           "CityShopIntegral": 120,
           "CityShopExp": 120,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_45": {
-        "OwnerShopID": "Shop_023_04_01",
-        "ItemID": "Furniture_Figues_001",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 45000,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 450,
-          "CityShopExp": 450,
           "LikeabilityLevelCityShop": 0
         }
       },
@@ -36243,126 +36723,6 @@
       },
       "Shop_023_48": {
         "OwnerShopID": "Shop_023_05_01",
-        "ItemID": "Figure_maskerrider_01_002",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 14400,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 144,
-          "CityShopExp": 144,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_49": {
-        "OwnerShopID": "Shop_023_05_01",
-        "ItemID": "Figure_maskerrider_02_002",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 14400,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 144,
-          "CityShopExp": 144,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_50": {
-        "OwnerShopID": "Shop_023_05_01",
-        "ItemID": "Figure_maskerrider_03_002",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 14400,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 144,
-          "CityShopExp": 144,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_51": {
-        "OwnerShopID": "Shop_023_05_01",
         "ItemID": "Furniture_Figues_005",
         "ItemName": {
           "CultureInvariantString": null
@@ -36401,7 +36761,7 @@
           "LikeabilityLevelCityShop": 0
         }
       },
-      "Shop_023_52": {
+      "Shop_023_49": {
         "OwnerShopID": "Shop_023_05_01",
         "ItemID": "Furniture_Figues_006",
         "ItemName": {
@@ -36441,7 +36801,7 @@
           "LikeabilityLevelCityShop": 0
         }
       },
-      "Shop_023_53": {
+      "Shop_023_50": {
         "OwnerShopID": "Shop_023_05_01",
         "ItemID": "Furniture_Figues_007",
         "ItemName": {
@@ -36481,7 +36841,167 @@
           "LikeabilityLevelCityShop": 0
         }
       },
+      "Shop_023_51": {
+        "OwnerShopID": "Shop_023_05_01",
+        "ItemID": "Furniture_Figues_004",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 30000,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 300,
+          "CityShopExp": 300,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
+      "Shop_023_52": {
+        "OwnerShopID": "Shop_023_05_01",
+        "ItemID": "Figure_maskerrider_01_002",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 14400,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 144,
+          "CityShopExp": 144,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
+      "Shop_023_53": {
+        "OwnerShopID": "Shop_023_05_01",
+        "ItemID": "Figure_maskerrider_02_002",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 14400,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 144,
+          "CityShopExp": 144,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
       "Shop_023_54": {
+        "OwnerShopID": "Shop_023_05_01",
+        "ItemID": "Figure_maskerrider_03_002",
+        "ItemName": {
+          "CultureInvariantString": null
+        },
+        "MixAmount": 1,
+        "MaxAmount": 10,
+        "LimitAmount": 10,
+        "LimitsFunctionAmount": [],
+        "RefreshType": "EShopRefresh::Weekly",
+        "CurrencyID": "Fons",
+        "Price": 14400,
+        "PriceType": "PriceShowType::Cost",
+        "LimitText": {
+          "CultureInvariantString": null
+        },
+        "bShowOff": false,
+        "PreOffPrice": 1,
+        "OffTagBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "OffText": {
+          "CultureInvariantString": null
+        },
+        "UnLockID": "None",
+        "lockHide": false,
+        "NeedTrackQuestList": [],
+        "SellOutHide": false,
+        "CityShopExtensionData": {
+          "CityName": {
+            "CultureInvariantString": null
+          },
+          "BuyVipLevel": 0,
+          "CityShopIntegral": 144,
+          "CityShopExp": 144,
+          "LikeabilityLevelCityShop": 0
+        }
+      },
+      "Shop_023_55": {
         "OwnerShopID": "Shop_023_05_01",
         "ItemID": "Figure_eri_01_001",
         "ItemName": {
@@ -36521,7 +37041,7 @@
           "LikeabilityLevelCityShop": 0
         }
       },
-      "Shop_023_55": {
+      "Shop_023_56": {
         "OwnerShopID": "Shop_023_05_01",
         "ItemID": "Figure_eri_01_002",
         "ItemName": {
@@ -36558,46 +37078,6 @@
           "BuyVipLevel": 0,
           "CityShopIntegral": 180,
           "CityShopExp": 180,
-          "LikeabilityLevelCityShop": 0
-        }
-      },
-      "Shop_023_56": {
-        "OwnerShopID": "Shop_023_05_01",
-        "ItemID": "Furniture_Figues_004",
-        "ItemName": {
-          "CultureInvariantString": null
-        },
-        "MixAmount": 1,
-        "MaxAmount": 10,
-        "LimitAmount": 10,
-        "LimitsFunctionAmount": [],
-        "RefreshType": "EShopRefresh::Weekly",
-        "CurrencyID": "Fons",
-        "Price": 30000,
-        "PriceType": "PriceShowType::Cost",
-        "LimitText": {
-          "CultureInvariantString": null
-        },
-        "bShowOff": false,
-        "PreOffPrice": 1,
-        "OffTagBg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "OffText": {
-          "CultureInvariantString": null
-        },
-        "UnLockID": "None",
-        "lockHide": false,
-        "NeedTrackQuestList": [],
-        "SellOutHide": false,
-        "CityShopExtensionData": {
-          "CityName": {
-            "CultureInvariantString": null
-          },
-          "BuyVipLevel": 0,
-          "CityShopIntegral": 300,
-          "CityShopExp": 300,
           "LikeabilityLevelCityShop": 0
         }
       },

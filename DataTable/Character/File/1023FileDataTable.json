@@ -146,26 +146,6 @@
             "Conditions": []
           },
           {
-            "ID": "detail06",
-            "Title": {
-              "TableId": "/Game/Text/ST_File.ST_File",
-              "Key": "file_NPC006_005",
-              "SourceString": null,
-              "LocalizedString": null
-            },
-            "Content": {
-              "TableId": "/Game/Text/ST_File.ST_File",
-              "Key": "F_NPC006_016",
-              "SourceString": null,
-              "LocalizedString": null
-            },
-            "AudioEvent": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "Conditions": []
-          },
-          {
             "ID": "detail07",
             "Title": {
               "TableId": "/Game/Text/ST_File.ST_File",
@@ -765,7 +745,13 @@
               "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC006/Play_Vo_Char_NPC006_ug_001.Play_Vo_Char_NPC006_ug_001",
               "SubPathString": ""
             },
-            "Conditions": []
+            "Conditions": [
+              {
+                "Firendly": 0,
+                "QuestId": "None",
+                "CharacterFileBreakLevel": 1
+              }
+            ]
           },
           {
             "ID": "Daily30",
@@ -785,7 +771,13 @@
               "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC006/Play_Vo_Char_NPC006_ug_002.Play_Vo_Char_NPC006_ug_002",
               "SubPathString": ""
             },
-            "Conditions": []
+            "Conditions": [
+              {
+                "Firendly": 0,
+                "QuestId": "None",
+                "CharacterFileBreakLevel": 3
+              }
+            ]
           }
         ],
         "BattleContent": [
@@ -864,7 +856,7 @@
               "LocalizedString": "斯言之玷，不可为也。"
             },
             "AudioEvent": {
-              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC006/Play_Vo_Char_NPC006_aoe_001.Play_Vo_Char_NPC006_aoe_001",
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC006/Play_Vo_Char_NPC006_aoe_UI_001.Play_Vo_Char_NPC006_aoe_UI_001",
               "SubPathString": ""
             },
             "Conditions": []
@@ -884,7 +876,7 @@
               "LocalizedString": "口之宣言，谨此敬之。"
             },
             "AudioEvent": {
-              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC006/Play_Vo_Char_NPC006_aoe_002.Play_Vo_Char_NPC006_aoe_002",
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC006/Play_Vo_Char_NPC006_aoe_UI_002.Play_Vo_Char_NPC006_aoe_UI_002",
               "SubPathString": ""
             },
             "Conditions": []
@@ -904,7 +896,7 @@
               "LocalizedString": "来确认一下吧？是祝祷还是……诅咒。"
             },
             "AudioEvent": {
-              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC006/Play_Vo_Char_NPC006_aoe_003.Play_Vo_Char_NPC006_aoe_003",
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC006/Play_Vo_Char_NPC006_aoe_UI_003.Play_Vo_Char_NPC006_aoe_UI_003",
               "SubPathString": ""
             },
             "Conditions": []

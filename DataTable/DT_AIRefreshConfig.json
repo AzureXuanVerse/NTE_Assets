@@ -251,10 +251,7 @@
       "School_MorningTeacher": {
         "RefreshOperation": "ESpawnResultsOperation::AND",
         "AIRefreshConditionEntriesOverride": [
-          {
-            "ObjectName": "BlueprintGeneratedClass'AIRC_Time_07300800_C'",
-            "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Time/AIRC_Time_07300800.1"
-          },
+          null,
           {
             "ObjectName": "BlueprintGeneratedClass'AIRC_Wea_Default_C'",
             "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Weather/AIRC_Wea_Default.1"
@@ -394,8 +391,12 @@
         ]
       },
       "WorldBoss_007_Unlock": {
-        "RefreshOperation": "ESpawnResultsOperation::AND",
+        "RefreshOperation": "ESpawnResultsOperation::OR",
         "AIRefreshConditionEntriesOverride": [
+          {
+            "ObjectName": "BlueprintGeneratedClass'AIRC_Yahaha_WorldBoss_07_C'",
+            "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Yahaha/AIRC_Yahaha_WorldBoss_07.1"
+          },
           {
             "ObjectName": "BlueprintGeneratedClass'L110052_C'",
             "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Quest/L110052.0"
