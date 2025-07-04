@@ -174,8 +174,8 @@
         "SongTypeText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "DT_DrumSongDataTable_Story",
-          "SourceString": "[剧情]",
-          "LocalizedString": "[剧情]"
+          "SourceString": "<Pink>[剧情]</>",
+          "LocalizedString": "<Pink>[剧情]</>"
         },
         "SequenceDatas": [
           {
@@ -211,24 +211,24 @@
                 "PlayProgress": {
                   "LowerBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
-                    "Value": 0.0
+                    "Value": 0.01
                   },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
-                    "Value": 1.0
+                    "Value": 0.05
                   }
                 },
                 "RateRange": {
                   "LowerBound": {
-                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Type": "ERangeBoundTypes::Open",
                     "Value": 0.0
                   },
                   "UpperBound": {
-                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Type": "ERangeBoundTypes::Open",
                     "Value": 1.0
                   }
                 },
-                "EventName": "Playing"
+                "EventName": "HNY"
               }
             ]
           }
@@ -397,8 +397,8 @@
         "SongTypeText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "DT_DrumSongDataTable_Story",
-          "SourceString": "[剧情]",
-          "LocalizedString": "[剧情]"
+          "SourceString": "<Pink>[剧情]</>",
+          "LocalizedString": "<Pink>[剧情]</>"
         },
         "SequenceDatas": [],
         "QuestId": "L110212",
@@ -411,33 +411,33 @@
         "NPCActions": [
           {
             "TargetType": {
-              "AssetPathName": "/Game/Blueprints/Level/Quest/LX/QuestLegend/L110001/Manor/A3_Flower_Guide.A3_Flower_Guide_C",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_014/BP_NPC_014_g_L110201.BP_NPC_014_g_L110201_C",
               "SubPathString": ""
             },
-            "TargetTag": "story1",
+            "TargetTag": "BP_NPC_014_g_L110201",
             "ObjDatas": [
               {
                 "PlayProgress": {
                   "LowerBound": {
-                    "Type": "ERangeBoundTypes::Inclusive",
-                    "Value": 0.5
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 0.01
                   },
                   "UpperBound": {
-                    "Type": "ERangeBoundTypes::Inclusive",
-                    "Value": 0.55
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 0.05
                   }
                 },
                 "RateRange": {
                   "LowerBound": {
-                    "Type": "ERangeBoundTypes::Inclusive",
-                    "Value": 0.6
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
                   },
                   "UpperBound": {
-                    "Type": "ERangeBoundTypes::Inclusive",
-                    "Value": 0.65
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 1.0
                   }
                 },
-                "EventName": "laugh"
+                "EventName": "HNY"
               }
             ]
           }
@@ -606,8 +606,8 @@
         "SongTypeText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "DT_DrumSongDataTable_Story",
-          "SourceString": "[剧情]",
-          "LocalizedString": "[剧情]"
+          "SourceString": "<Pink>[剧情]</>",
+          "LocalizedString": "<Pink>[剧情]</>"
         },
         "SequenceDatas": [],
         "QuestId": "L110220",
@@ -617,7 +617,72 @@
           "SourceString": "在「某传奇乐队（吗？）的第一页」剧情中解锁",
           "LocalizedString": "在「某传奇乐队（吗？）的第一页」剧情中解锁"
         },
-        "NPCActions": []
+        "NPCActions": [
+          {
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_011/BP_NPC_011_b_L110201.BP_NPC_011_b_L110201_C",
+              "SubPathString": ""
+            },
+            "TargetTag": "BP_NPC_011_b_L110201",
+            "ObjDatas": [
+              {
+                "PlayProgress": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 1.0
+                  }
+                },
+                "RateRange": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
+                  }
+                },
+                "EventName": "HNY"
+              }
+            ]
+          },
+          {
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_014/BP_NPC_014_g_L110201.BP_NPC_014_g_L110201_C",
+              "SubPathString": ""
+            },
+            "TargetTag": "BP_NPC_014_g_L110201",
+            "ObjDatas": [
+              {
+                "PlayProgress": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 1.0
+                  }
+                },
+                "RateRange": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 1.0
+                  }
+                },
+                "EventName": "NNL"
+              }
+            ]
+          }
+        ]
       },
       "StorySong4": {
         "SongID": "StorySong4",
@@ -782,8 +847,8 @@
         "SongTypeText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "DT_DrumSongDataTable_Story",
-          "SourceString": "[剧情]",
-          "LocalizedString": "[剧情]"
+          "SourceString": "<Pink>[剧情]</>",
+          "LocalizedString": "<Pink>[剧情]</>"
         },
         "SequenceDatas": [],
         "QuestId": "L110232",
@@ -793,13 +858,78 @@
           "SourceString": "在「某传奇乐队（吗？）的第一页」剧情中解锁",
           "LocalizedString": "在「某传奇乐队（吗？）的第一页」剧情中解锁"
         },
-        "NPCActions": []
+        "NPCActions": [
+          {
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_011/BP_NPC_011_b_L110201.BP_NPC_011_b_L110201_C",
+              "SubPathString": ""
+            },
+            "TargetTag": "BP_NPC_011_b_L110201",
+            "ObjDatas": [
+              {
+                "PlayProgress": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 1.0
+                  }
+                },
+                "RateRange": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
+                  }
+                },
+                "EventName": "HNY"
+              }
+            ]
+          },
+          {
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_014/BP_NPC_014_g_L110201.BP_NPC_014_g_L110201_C",
+              "SubPathString": ""
+            },
+            "TargetTag": "BP_NPC_014_g_L110201",
+            "ObjDatas": [
+              {
+                "PlayProgress": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Exclusive",
+                    "Value": 1.0
+                  }
+                },
+                "RateRange": {
+                  "LowerBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 0.0
+                  },
+                  "UpperBound": {
+                    "Type": "ERangeBoundTypes::Open",
+                    "Value": 1.0
+                  }
+                },
+                "EventName": "NNL"
+              }
+            ]
+          }
+        ]
       },
       "FreeSong1": {
         "SongID": "FreeSong1",
         "BPM": 190,
         "OffsetOneOfSixteenBeat": 0,
-        "EndTime": 140.0,
+        "EndTime": 138.0,
         "BeatOffsetTime": 0.05,
         "BeatDistance": 25.0,
         "ThumbnailIcon": {
@@ -961,8 +1091,8 @@
         "SongTypeText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "DT_DrumSongDataTable_Daily",
-          "SourceString": "[日常]",
-          "LocalizedString": "[日常]"
+          "SourceString": "<Purple2>[日常]</>",
+          "LocalizedString": "<Purple2>[日常]</>"
         },
         "SequenceDatas": [],
         "QuestId": "None",

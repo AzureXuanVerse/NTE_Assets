@@ -9026,8 +9026,8 @@
         "Desc": {
           "TableId": "/Game/Text/Sequence/ST_Sequence.ST_Sequence",
           "Key": "HM_U00C00_00_SNPC_020",
-          "SourceString": "收到，二次封锁即将启动，请根据最新安全路线迅速撤离。最新安全路线为@^%",
-          "LocalizedString": "收到，二次封锁即将启动，请根据最新安全路线迅速撤离。最新安全路线为@^%"
+          "SourceString": "收到，二次封锁即将启动，请根据最新安全路线迅速撤离。最新安全路线为……",
+          "LocalizedString": "收到，二次封锁即将启动，请根据最新安全路线迅速撤离。最新安全路线为……"
         },
         "SpeakerName": {
           "CultureInvariantString": null
@@ -10140,7 +10140,244 @@
         "RTPCConfigs": [],
         "AuxBus": []
       },
-      "NewRow_5": {
+      "HM_Akane01_SNPC_001": {
+        "Desc": {
+          "TableId": "/Game/Text/Sequence/ST_Sequence_Legend.ST_Sequence_Legend",
+          "Key": "HM_Akane01_SNPC_001",
+          "SourceString": "要开始了！",
+          "LocalizedString": "要开始了！"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 2.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "HM_Akane01_SNPC_002": {
+        "Desc": {
+          "TableId": "/Game/Text/Sequence/ST_Sequence_Legend.ST_Sequence_Legend",
+          "Key": "HM_Akane01_SNPC_002",
+          "SourceString": "新人吗？",
+          "LocalizedString": "新人吗？"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 2.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "HM_Akane01_SNPC_003": {
+        "Desc": {
+          "TableId": "/Game/Text/Sequence/ST_Sequence_Legend.ST_Sequence_Legend",
+          "Key": "HM_Akane01_SNPC_003",
+          "SourceString": "第一次见啊。",
+          "LocalizedString": "第一次见啊。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 2.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "HM_Akane01_SNPC_004": {
+        "Desc": {
+          "TableId": "/Game/Text/Sequence/ST_Sequence_Legend.ST_Sequence_Legend",
+          "Key": "HM_Akane01_SNPC_004",
+          "SourceString": "怎么回事？",
+          "LocalizedString": "怎么回事？"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 2.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "HM_Akane01_SNPC_005": {
+        "Desc": {
+          "TableId": "/Game/Text/Sequence/ST_Sequence_Legend.ST_Sequence_Legend",
+          "Key": "HM_Akane01_SNPC_005",
+          "SourceString": "失误了？",
+          "LocalizedString": "失误了？"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 2.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "HM_Akane01_NPC014_001": {
+        "Desc": {
+          "TableId": "/Game/Text/Sequence/ST_Sequence_Legend.ST_Sequence_Legend",
+          "Key": "HM_Akane01_NPC014_001",
+          "SourceString": "完了——",
+          "LocalizedString": "完了——"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_014_Name",
+          "SourceString": "哈尼娅",
+          "LocalizedString": "哈尼娅"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 2.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "HM_Akane01_SNPC_006": {
+        "Desc": {
+          "TableId": "/Game/Text/Sequence/ST_Sequence_Legend.ST_Sequence_Legend",
+          "Key": "HM_Akane01_SNPC_006",
+          "SourceString": "果然是新手啊。",
+          "LocalizedString": "果然是新手啊。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 2.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "HM_Akane01_SNPC_007": {
+        "Desc": {
+          "TableId": "/Game/Text/Sequence/ST_Sequence_Legend.ST_Sequence_Legend",
+          "Key": "HM_Akane01_SNPC_007",
+          "SourceString": "诶？",
+          "LocalizedString": "诶？"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 2.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "HM_Akane01_SNPC_008": {
+        "Desc": {
+          "TableId": "/Game/Text/Sequence/ST_Sequence_Legend.ST_Sequence_Legend",
+          "Key": "HM_Akane01_SNPC_008",
+          "SourceString": "那是……？",
+          "LocalizedString": "那是……？"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 2.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "NewRow_3": {
         "Desc": {
           "CultureInvariantString": null
         },
@@ -10163,76 +10400,7 @@
         "RTPCConfigs": [],
         "AuxBus": []
       },
-      "NewRow_6": {
-        "Desc": {
-          "CultureInvariantString": null
-        },
-        "SpeakerName": {
-          "CultureInvariantString": null
-        },
-        "DialogSoundEvent": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "IsSelf": false,
-        "duration": 2.0,
-        "Delay": 0.5,
-        "EndByVoice": true,
-        "NeedTyping": true,
-        "ClearNeedQuestID": "None",
-        "MontageInfos": [],
-        "LockTargetInfo": null,
-        "VoiceInfo": null,
-        "RTPCConfigs": [],
-        "AuxBus": []
-      },
-      "NewRow": {
-        "Desc": {
-          "CultureInvariantString": null
-        },
-        "SpeakerName": {
-          "CultureInvariantString": null
-        },
-        "DialogSoundEvent": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "IsSelf": false,
-        "duration": 2.0,
-        "Delay": 0.5,
-        "EndByVoice": true,
-        "NeedTyping": true,
-        "ClearNeedQuestID": "None",
-        "MontageInfos": [],
-        "LockTargetInfo": null,
-        "VoiceInfo": null,
-        "RTPCConfigs": [],
-        "AuxBus": []
-      },
-      "NewRow_0": {
-        "Desc": {
-          "CultureInvariantString": null
-        },
-        "SpeakerName": {
-          "CultureInvariantString": null
-        },
-        "DialogSoundEvent": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "IsSelf": false,
-        "duration": 2.0,
-        "Delay": 0.5,
-        "EndByVoice": true,
-        "NeedTyping": true,
-        "ClearNeedQuestID": "None",
-        "MontageInfos": [],
-        "LockTargetInfo": null,
-        "VoiceInfo": null,
-        "RTPCConfigs": [],
-        "AuxBus": []
-      },
-      "NewRow_1": {
+      "NewRow_4": {
         "Desc": {
           "CultureInvariantString": null
         },

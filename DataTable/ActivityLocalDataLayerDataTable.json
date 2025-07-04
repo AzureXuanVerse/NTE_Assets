@@ -469,42 +469,6 @@
           "bNeedComplete": true
         }
       },
-      "Vision_MagicBox_Tower_01_Gameplay": {
-        "DataLayerAssets": [
-          {
-            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_WorldAnomaly_MagicBox_Tower_01_Gameplay.W_Unload_WorldAnomaly_MagicBox_Tower_01_Gameplay",
-            "SubPathString": ""
-          }
-        ],
-        "AutoActive": false,
-        "OnlyInHybridMode": true,
-        "AreaIds": [
-          "001"
-        ],
-        "ActiveCondition": {
-          "YahahaId": "Vision_MagicBox_Tower_01_Gameplay",
-          "bNeedComplete": true
-        },
-        "UnLoadCondition": null
-      },
-      "Vision_MagicBox_Cube_01_Gameplay": {
-        "DataLayerAssets": [
-          {
-            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_WorldAnomaly_MagicBox_Cube_01_Gameplay.W_Unload_WorldAnomaly_MagicBox_Cube_01_Gameplay",
-            "SubPathString": ""
-          }
-        ],
-        "AutoActive": false,
-        "OnlyInHybridMode": true,
-        "AreaIds": [
-          "002"
-        ],
-        "ActiveCondition": {
-          "YahahaId": "Vision_MagicBox_Cube_01_Gameplay",
-          "bNeedComplete": true
-        },
-        "UnLoadCondition": null
-      },
       "Vision_SchoolMyth_Ambient": {
         "DataLayerAssets": [
           {
@@ -677,7 +641,7 @@
         "AutoActive": false,
         "OnlyInHybridMode": true,
         "AreaIds": [
-          "004"
+          "005"
         ],
         "ActiveCondition": {
           "YahahaId": "Vision_Boxing_03",
@@ -695,7 +659,7 @@
         "AutoActive": false,
         "OnlyInHybridMode": true,
         "AreaIds": [
-          "005"
+          "004"
         ],
         "ActiveCondition": {
           "YahahaId": "Vision_Boxing_04",
@@ -756,6 +720,99 @@
         "ActiveCondition": {
           "YahahaId": "Yahaha_Mu_Lamp_01_LevelUnderGround",
           "bNeedComplete": true
+        },
+        "UnLoadCondition": null
+      },
+      "Mu_Lamp_01_Inner": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/Museum/W_Art_load_Museum_InNer.W_Art_load_Museum_InNer",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/Museum/W_load_Museum_Story01_InNer.W_load_Museum_Story01_InNer",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/Museum/W_Level_Center.W_Level_Center",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": true,
+        "OnlyInHybridMode": false,
+        "AreaIds": [],
+        "ActiveCondition": null,
+        "UnLoadCondition": null
+      },
+      "Yahaha_Mu_Lamp_01_Store": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/Museum/W_Level_Center_Store.W_Level_Center_Store",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "OnlyInHybridMode": false,
+        "AreaIds": [],
+        "ActiveCondition": {
+          "YahahaId": "Yahaha_Mu_Lamp_01_Store",
+          "bNeedComplete": true
+        },
+        "UnLoadCondition": {
+          "YahahaId": "Yahaha_Mu_Lamp_01_Park",
+          "bNeedComplete": true
+        }
+      },
+      "Yahaha_Mu_Lamp_01_Park": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/Museum/W_Level_Center_Park.W_Level_Center_Park",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "OnlyInHybridMode": false,
+        "AreaIds": [],
+        "ActiveCondition": {
+          "YahahaId": "Yahaha_Mu_Lamp_01_Park",
+          "bNeedComplete": true
+        },
+        "UnLoadCondition": {
+          "YahahaId": "Yahaha_Mu_Lamp_01_Store",
+          "bNeedComplete": true
+        }
+      },
+      "Vision_OceanChaseBoss_OutsideManager": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_Boss_019_OutsideManager.W_Unload_Boss_019_OutsideManager",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": true,
+        "OnlyInHybridMode": false,
+        "AreaIds": [],
+        "ActiveCondition": null,
+        "UnLoadCondition": {
+          "VisionID": "Vision_OceanChase",
+          "bNeedComplete": true
+        }
+      },
+      "Vision_BuildingDrawing_01": {
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/WorldAnomaly/BuildingDrawing/W_Unload_WorldAnomaly_BuildingDrawing_01.W_Unload_WorldAnomaly_BuildingDrawing_01",
+            "SubPathString": ""
+          }
+        ],
+        "AutoActive": false,
+        "OnlyInHybridMode": true,
+        "AreaIds": [
+          "004"
+        ],
+        "ActiveCondition": {
+          "VisionID": "Vision_BuildingDrawing_01",
+          "bNeedComplete": false
         },
         "UnLoadCondition": null
       }

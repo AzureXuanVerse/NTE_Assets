@@ -251,7 +251,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 1.0
+            "Value": 0.5
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -396,6 +396,18 @@
           {
             "Time": 1.0,
             "Value": 5.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "LingZhouCopyCoef": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Linear",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.5
           }
         ],
         "DefaultValue": 3.4028235E+38,

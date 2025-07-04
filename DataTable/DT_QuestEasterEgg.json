@@ -106,12 +106,7 @@
         "UIParamString": "",
         "bFreezeSinPoint": false,
         "LikeabilityData": null,
-        "QuestAward": {
-          "AwardGroupID": "None",
-          "SimpleAwards": [],
-          "bShowAwardWindow": false,
-          "bShowInPanel": true
-        },
+        "QuestAward": null,
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -223,12 +218,7 @@
         "UIParamString": "",
         "bFreezeSinPoint": false,
         "LikeabilityData": null,
-        "QuestAward": {
-          "AwardGroupID": "None",
-          "SimpleAwards": [],
-          "bShowAwardWindow": false,
-          "bShowInPanel": true
-        },
+        "QuestAward": null,
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -448,6 +438,454 @@
         "bFreezeSinPoint": false,
         "LikeabilityData": null,
         "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "W101001": {
+        "QuestId": "W101001",
+        "QuestName": {
+          "Namespace": "",
+          "Key": "7C5CC9A447BC1DF4F825EA80E70E50EA",
+          "SourceString": "倔强的钓鱼大叔",
+          "LocalizedString": "倔强的钓鱼大叔"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          },
+          {
+            "BeginTime": 0.0,
+            "EndTime": 24.0,
+            "WaittingDays": 1,
+            "ObjectiveID": "2",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_CHANGE_TIME",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "W101002"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "W101002": {
+        "QuestId": "W101002",
+        "QuestName": {
+          "Namespace": "",
+          "Key": "7C5CC9A447BC1DF4F825EA80E70E50EA",
+          "SourceString": "倔强的钓鱼大叔",
+          "LocalizedString": "倔强的钓鱼大叔"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          },
+          {
+            "BeginTime": 0.0,
+            "EndTime": 24.0,
+            "WaittingDays": 1,
+            "ObjectiveID": "2",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_CHANGE_TIME",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "W101001",
+            "ObjectiveID": "1"
+          }
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "W101003"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "W101003": {
+        "QuestId": "W101003",
+        "QuestName": {
+          "Namespace": "",
+          "Key": "7C5CC9A447BC1DF4F825EA80E70E50EA",
+          "SourceString": "倔强的钓鱼大叔",
+          "LocalizedString": "倔强的钓鱼大叔"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          },
+          {
+            "BeginTime": 0.0,
+            "EndTime": 24.0,
+            "WaittingDays": 1,
+            "ObjectiveID": "2",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_CHANGE_TIME",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "W101002",
+            "ObjectiveID": "1"
+          }
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": {
+          "AwardGroupID": "drop_item_quest_011",
+          "SimpleAwards": [],
+          "bShowAwardWindow": true,
+          "bShowInPanel": true
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -2455,7 +2893,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/CNPC/CNPC_010/CNPC_010005/BP_CNPC_010005_W101601.BP_CNPC_010005_W101601_C",
+              "AssetPathName": "",
               "SubPathString": ""
             },
             "MonsterTrackIcon": {
@@ -2512,8 +2950,10 @@
         "LimitMapName": "None",
         "QuestResetTime": null,
         "FailedData": null,
-        "NextQuests": [],
-        "bAutoNext": false,
+        "NextQuests": [
+          "W101602"
+        ],
+        "bAutoNext": true,
         "NeedSubmit": false,
         "QuestSubmitDescription": {
           "CultureInvariantString": null
@@ -2538,9 +2978,9 @@
         "QuestId": "W101602",
         "QuestName": {
           "Namespace": "",
-          "Key": "64F4D8A2417B129CA948C58DCD39A726",
-          "SourceString": "苦恼的汽车设计师（跑车）",
-          "LocalizedString": "苦恼的汽车设计师（跑车）"
+          "Key": "52B69972470EC36ECF38A9884407BA4D",
+          "SourceString": "苦恼的汽车设计师",
+          "LocalizedString": "苦恼的汽车设计师"
         },
         "ChapterID": "None",
         "ChapterProgress": -1.0,
@@ -2562,7 +3002,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/CNPC/CNPC_010/CNPC_010005/BP_CNPC_010005_W101601.BP_CNPC_010005_W101601_C",
+              "AssetPathName": "",
               "SubPathString": ""
             },
             "MonsterTrackIcon": {
@@ -2607,7 +3047,12 @@
         "UnlockTeleportID": "None",
         "TrackQuestConditionRange": null,
         "TrackConditionList": [],
-        "PreQuests": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "W101601",
+            "ObjectiveID": "1"
+          }
+        ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
         "NeedYahahaID": "None",
@@ -2645,9 +3090,9 @@
         "QuestId": "W101603",
         "QuestName": {
           "Namespace": "",
-          "Key": "B0C470754684F67A73A2149E7CDA6662",
-          "SourceString": "苦恼的汽车设计师（越野车）",
-          "LocalizedString": "苦恼的汽车设计师（越野车）"
+          "Key": "52B69972470EC36ECF38A9884407BA4D",
+          "SourceString": "苦恼的汽车设计师",
+          "LocalizedString": "苦恼的汽车设计师"
         },
         "ChapterID": "None",
         "ChapterProgress": -1.0,
@@ -2669,7 +3114,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/CNPC/CNPC_010/CNPC_010005/BP_CNPC_010005_W101601.BP_CNPC_010005_W101601_C",
+              "AssetPathName": "",
               "SubPathString": ""
             },
             "MonsterTrackIcon": {
@@ -2752,9 +3197,9 @@
         "QuestId": "W101604",
         "QuestName": {
           "Namespace": "",
-          "Key": "7EF958AC4B23B0E0C4EA6AB84FB8F1C9",
-          "SourceString": "苦恼的汽车设计师（轿车）",
-          "LocalizedString": "苦恼的汽车设计师（轿车）"
+          "Key": "52B69972470EC36ECF38A9884407BA4D",
+          "SourceString": "苦恼的汽车设计师",
+          "LocalizedString": "苦恼的汽车设计师"
         },
         "ChapterID": "None",
         "ChapterProgress": -1.0,
@@ -2776,7 +3221,114 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/CNPC/CNPC_010/CNPC_010005/BP_CNPC_010005_W101601.BP_CNPC_010005_W101601_C",
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "W101605": {
+        "QuestId": "W101605",
+        "QuestName": {
+          "Namespace": "",
+          "Key": "52B69972470EC36ECF38A9884407BA4D",
+          "SourceString": "苦恼的汽车设计师",
+          "LocalizedString": "苦恼的汽车设计师"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
               "SubPathString": ""
             },
             "MonsterTrackIcon": {
@@ -4950,6 +5502,82 @@
             "CompleteCameraRotation": null,
             "BuffInfo": null,
             "CompleteDistance": null
+          },
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "2",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          },
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "3",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
           }
         ],
         "QuestType": "EQuestType::EQT_EASTER_EGG",
@@ -4983,7 +5611,9 @@
         "LimitMapName": "None",
         "QuestResetTime": null,
         "FailedData": null,
-        "NextQuests": [],
+        "NextQuests": [
+          "W103602"
+        ],
         "bAutoNext": true,
         "NeedSubmit": false,
         "QuestSubmitDescription": {
@@ -4993,7 +5623,12 @@
         "UIParamString": "",
         "bFreezeSinPoint": false,
         "LikeabilityData": null,
-        "QuestAward": null,
+        "QuestAward": {
+          "AwardGroupID": "drop_worldquest_103601",
+          "SimpleAwards": [],
+          "bShowAwardWindow": true,
+          "bShowInPanel": true
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -6156,12 +6791,7 @@
         "UIParamString": "",
         "bFreezeSinPoint": false,
         "LikeabilityData": null,
-        "QuestAward": {
-          "AwardGroupID": "drop_linkquest_K110237",
-          "SimpleAwards": [],
-          "bShowAwardWindow": false,
-          "bShowInPanel": true
-        },
+        "QuestAward": null,
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -6624,7 +7254,7 @@
             "BeginTime": 0.0,
             "EndTime": 24.0,
             "WaittingDays": 1,
-            "ObjectiveID": "1",
+            "ObjectiveID": "3",
             "ObjectiveName": {
               "CultureInvariantString": null
             },
@@ -7848,7 +8478,12 @@
         "UIParamString": "",
         "bFreezeSinPoint": false,
         "LikeabilityData": null,
-        "QuestAward": null,
+        "QuestAward": {
+          "AwardGroupID": "drop_item_quest_010",
+          "SimpleAwards": [],
+          "bShowAwardWindow": true,
+          "bShowInPanel": true
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -11403,6 +12038,564 @@
         "TrackQuestConditionRange": null,
         "TrackConditionList": [],
         "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "W10340201": {
+        "QuestId": "W10340201",
+        "QuestName": {
+          "Namespace": "",
+          "Key": "22C0245642A1BE882F7C0089178FFD34",
+          "SourceString": "唠叨的老人奖励",
+          "LocalizedString": "唠叨的老人奖励"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": 1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/CNPC/CNPC_086/CNPC_086002_DW3401/CNPC_086002_DW103401.CNPC_086002_DW103401_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": {
+          "AwardGroupID": "drop_worldquest_1034",
+          "SimpleAwards": [],
+          "bShowAwardWindow": true,
+          "bShowInPanel": true
+        },
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "W10330301": {
+        "QuestId": "W10330301",
+        "QuestName": {
+          "Namespace": "",
+          "Key": "FEF1F30B4439AFEC86C16F8262AA8DCB",
+          "SourceString": "胆小的异象摄影师奖励1",
+          "LocalizedString": "胆小的异象摄影师奖励1"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": 1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/CNPC/CNPC_097/CNPC_097002/01/CNPC_097002_W103301_01.CNPC_097002_W103301_01_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": {
+          "AwardGroupID": "drop_worldquest_1033",
+          "SimpleAwards": [],
+          "bShowAwardWindow": true,
+          "bShowInPanel": true
+        },
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "W10330601": {
+        "QuestId": "W10330601",
+        "QuestName": {
+          "Namespace": "",
+          "Key": "512A86C5420C27A0A6DA3593F22BFC3E",
+          "SourceString": "胆小的异象摄影师奖励1",
+          "LocalizedString": "胆小的异象摄影师奖励1"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": 1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/CNPC/CNPC_097/CNPC_097002/02/CNPC_097002_W103301_002.CNPC_097002_W103301_002_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": {
+          "AwardGroupID": "drop_worldquest_1033",
+          "SimpleAwards": [],
+          "bShowAwardWindow": true,
+          "bShowInPanel": true
+        },
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "W10330901": {
+        "QuestId": "W10330901",
+        "QuestName": {
+          "Namespace": "",
+          "Key": "BC0C436149B0EFDF29671FB95D470FAC",
+          "SourceString": "胆小的异象摄影师奖励3",
+          "LocalizedString": "胆小的异象摄影师奖励3"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": 1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/CNPC/CNPC_097/CNPC_097002/02/CNPC_097002_W103301_002.CNPC_097002_W103301_002_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": {
+          "AwardGroupID": "drop_worldquest_1035",
+          "SimpleAwards": [],
+          "bShowAwardWindow": true,
+          "bShowInPanel": true
+        },
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "W103602": {
+        "QuestId": "W103602",
+        "QuestName": {
+          "Namespace": "",
+          "Key": "917E94E8490ECC903DC7A58120014084",
+          "SourceString": "影子怪物",
+          "LocalizedString": "影子怪物"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": 1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "BeginTime": 0.0,
+            "EndTime": 24.0,
+            "WaittingDays": 1,
+            "ObjectiveID": "1",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_CHANGE_TIME",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "W103601",
+            "ObjectiveID": "3"
+          }
+        ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
         "NeedYahahaID": "None",

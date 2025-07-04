@@ -11,6 +11,129 @@
       }
     },
     "Rows": {
+      "L110001_F": {
+        "QuestId": "L110001_F",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
+          "Key": "L110001_F_QuestName",
+          "SourceString": "委托分配",
+          "LocalizedString": "委托分配"
+        },
+        "ChapterID": "LC01",
+        "ChapterProgress": 1.0,
+        "DisplayMapName": "BanJiaoJie",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "ChatItemIDArray": [
+              "1033_a_2"
+            ],
+            "ObjectiveID": "1",
+            "ObjectiveName": {
+              "Namespace": "",
+              "Key": "2A4A6C2F425645B038CA98A7B9D856F0",
+              "SourceString": "【短信】查看消息",
+              "LocalizedString": "【短信】查看消息"
+            },
+            "ObjectiveType": "EObjectiveType::EOT_CHAT_END",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
+              "Key": "L110001_F_ObjDes_1",
+              "SourceString": "查看<blue>阿德勒</>的来信",
+              "LocalizedString": "查看<blue>阿德勒</>的来信"
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_LEGEND",
+        "bNeedRedpoint": true,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
+          "Key": "L110001_F_QuestPanel",
+          "SourceString": "新的委托……",
+          "LocalizedString": "新的委托……"
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "L110001"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "LikeabilityChatMain",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": {
+          "ActiveChatItemID": "None",
+          "AcceptChatItemID": "1033_a_1",
+          "PushChatItemIDs": []
+        },
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
+          "ProtectTimeSeconds": 600.0
+        },
+        "ReloadLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
       "L110001": {
         "QuestId": "L110001",
         "QuestName": {
@@ -20,7 +143,7 @@
           "LocalizedString": "委托分配"
         },
         "ChapterID": "LC01",
-        "ChapterProgress": 1.0,
+        "ChapterProgress": 1.1,
         "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
@@ -115,7 +238,12 @@
         "UnlockTeleportID": "None",
         "TrackQuestConditionRange": null,
         "TrackConditionList": [],
-        "PreQuests": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "L110001_F",
+            "ObjectiveID": "1"
+          }
+        ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
         "NeedYahahaID": "None",
@@ -242,7 +370,7 @@
         "HideOrShowMainFormWidgets": null,
         "bHideQuestMark": false,
         "bHideTrackMark": false,
-        "ShowAcceptMsg": true,
+        "ShowAcceptMsg": false,
         "ShowSubmitMsg": false,
         "bNeedPlayAnimation": true,
         "bUseSpecialQuestSettleUI": false,
@@ -262,7 +390,7 @@
           }
         ],
         "PreQuestConditionType": "EQuestConditionType::And",
-        "NeedLevel": 10,
+        "NeedLevel": 0,
         "NeedYahahaID": "None",
         "NeedVisionID": "None",
         "AcceptQuestConditionRange": null,
@@ -1525,50 +1653,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "L110011",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": false,
-            "bNeedInTargetMap": true,
-            "TargetMap": "XL_map_bigworld_test",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "Namespace": "",
-              "Key": "0D1DDD2C43C19D41B84F7486F227BC47",
-              "SourceString": "【黑幕】白藏招呼",
-              "LocalizedString": "【黑幕】白藏招呼"
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-              "Key": "L110011_ObjDes_1",
-              "SourceString": "偶遇<blue>白藏</>",
-              "LocalizedString": "偶遇<blue>白藏</>"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": true,
-            "TrackInfo": null,
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_LEGEND",
         "bNeedRedpoint": false,
@@ -1631,7 +1716,19 @@
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
         },
-        "ReloadLocation": null,
+        "ReloadLocation": {
+          "LevelName": "XL_map_bigworld_test",
+          "Location": {
+            "X": -143027.06,
+            "Y": 163632.47,
+            "Z": 6922.299
+          },
+          "Rotator": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
         "AdventureManual": null,
         "JumpToUIData": {
           "QuestUIType": "EQuestUIType::QUT_None",
@@ -5283,7 +5380,7 @@
                 "Yaw": -140.10341,
                 "Roll": 0.0
               },
-              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer",
               "CameraRotation": {
                 "Pitch": 0.0,
                 "Yaw": -140.10341,
@@ -7225,8 +7322,8 @@
         "QuestResetTime": null,
         "FailedData": {
           "QuestFailedDescription": {
-            "Namespace": "",
-            "Key": "B02305F04840BE6D18E2A4A2E1D74D65",
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "QuestFailed_01",
             "SourceString": "任务失败",
             "LocalizedString": "任务失败"
           },
@@ -7410,8 +7507,8 @@
         "QuestResetTime": null,
         "FailedData": {
           "QuestFailedDescription": {
-            "Namespace": "",
-            "Key": "3A33D88B42E97D37F19CC380550EE88C",
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "QuestFailed_01",
             "SourceString": "任务失败",
             "LocalizedString": "任务失败"
           },
@@ -7971,10 +8068,10 @@
         "QuestResetTime": null,
         "FailedData": {
           "QuestFailedDescription": {
-            "Namespace": "",
-            "Key": "E511607C4B9DC3353A296AA7A4E22684",
-            "SourceString": "任务失败了",
-            "LocalizedString": "任务失败了"
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "QuestFailed_01",
+            "SourceString": "任务失败",
+            "LocalizedString": "任务失败"
           },
           "RollbackQuestID": "q310037",
           "FailRollbackLocation": {
@@ -9610,69 +9707,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "L110046",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": true,
-            "TargetMap": "XL_map_bigworld_test",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "CultureInvariantString": null
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE_AFTER_DIALOGUE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-              "Key": "L110046_ObjDes_1",
-              "SourceString": "由你来说",
-              "LocalizedString": "由你来说"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": {
-              "bForceTrackLocation": true,
-              "TrackLocation": {
-                "X": -161019.78,
-                "Y": 174592.73,
-                "Z": 8490.0
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "XL_map_bigworld_test",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_LEGEND",
         "bNeedRedpoint": false,
@@ -9899,7 +9934,7 @@
           "UIParaming": [],
           "UnlockFunctionID": "None"
         },
-        "TrialCharacterID": "Trial02_Boss07"
+        "TrialCharacterID": "None"
       },
       "L110048": {
         "QuestId": "L110048",
@@ -9916,47 +9951,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "L110048",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": false,
-            "bNeedInTargetMap": true,
-            "TargetMap": "XL_map_bigworld_test",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "CultureInvariantString": null
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-              "Key": "L110048_ObjDes_1",
-              "SourceString": "一瞬间，花木尽数枯萎……",
-              "LocalizedString": "一瞬间，花木尽数枯萎……"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": null,
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_LEGEND",
         "bNeedRedpoint": false,
@@ -10019,7 +10014,19 @@
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
         },
-        "ReloadLocation": null,
+        "ReloadLocation": {
+          "LevelName": "XL_map_bigworld_test",
+          "Location": {
+            "X": -161253.03,
+            "Y": 174633.52,
+            "Z": 8513.213
+          },
+          "Rotator": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
         "AdventureManual": null,
         "JumpToUIData": {
           "QuestUIType": "EQuestUIType::QUT_None",
@@ -11954,7 +11961,7 @@
         "QuestAward": null,
         "QuestTimeLock": {
           "LockTime": 1500.0,
-          "TransitionSpeed": 0.1,
+          "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
         "QuestWeatherLock": {
@@ -11985,69 +11992,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "L110109",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": false,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "CultureInvariantString": null
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-              "Key": "L110109_ObjDes_1",
-              "SourceString": "偶遇<blue>安魂曲</>",
-              "LocalizedString": "偶遇<blue>安魂曲</>"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": {
-              "bForceTrackLocation": true,
-              "TrackLocation": {
-                "X": -135044.14,
-                "Y": 167619.73,
-                "Z": 6711.0
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "XL_map_bigworld_test",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_LEGEND",
         "bNeedRedpoint": false,
@@ -12110,7 +12055,19 @@
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
         },
-        "ReloadLocation": null,
+        "ReloadLocation": {
+          "LevelName": "XL_map_bigworld_test",
+          "Location": {
+            "X": -135044.14,
+            "Y": 167619.73,
+            "Z": 6711.0
+          },
+          "Rotator": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
         "AdventureManual": null,
         "JumpToUIData": {
           "QuestUIType": "EQuestUIType::QUT_None",
@@ -12135,19 +12092,17 @@
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": true,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
+            "ConvoyProtectTime": 2.0,
+            "ConvoyLocation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
             },
             "ObjectiveID": "1",
             "ObjectiveName": {
-              "Namespace": "",
-              "Key": "C72689FA4162799C69D858B785FE6427",
-              "SourceString": "跟薄荷对话",
-              "LocalizedString": "跟薄荷对话"
+              "CultureInvariantString": null
             },
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -12891,7 +12846,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1600.0,
+          "LockTime": 1800.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -12923,65 +12878,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "L110115",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "CultureInvariantString": null
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-              "Key": "L110115_ObjDes_1",
-              "SourceString": "异象现身",
-              "LocalizedString": "异象现身"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": null,
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": {
-              "CompletedTeleportPosition": {
-                "X": -133748.47,
-                "Y": 168681.1,
-                "Z": 6653.9976
-              },
-              "CompletedRotation": {
-                "Pitch": 0.0,
-                "Yaw": -126.80623,
-                "Roll": 0.0
-              },
-              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
-              "CameraRotation": {
-                "Pitch": 0.0,
-                "Yaw": -126.80623,
-                "Roll": 0.0
-              },
-              "bKeepPlayerRotation": true
-            },
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_LEGEND",
         "bNeedRedpoint": false,
@@ -13036,7 +12933,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1600.0,
+          "LockTime": 1800.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -13136,7 +13033,29 @@
               ]
             },
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -135167.0,
+                "Y": 167017.0,
+                "Z": 6921.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "XL_map_bigworld_test",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bNavigationPath": false
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -13163,7 +13082,7 @@
           "SourceString": "日常工作受阻后的番茄酱恶魔变得生气了起来，看来只能与之一战了。",
           "LocalizedString": "日常工作受阻后的番茄酱恶魔变得生气了起来，看来只能与之一战了。"
         },
-        "UnlockTeleportID": "Trial03_Boss18",
+        "UnlockTeleportID": "None",
         "TrackQuestConditionRange": null,
         "TrackConditionList": [],
         "PreQuests": [
@@ -13197,7 +13116,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1600.0,
+          "LockTime": 1800.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -13212,7 +13131,7 @@
           "UIParaming": [],
           "UnlockFunctionID": "None"
         },
-        "TrialCharacterID": "Trial03_Boss18"
+        "TrialCharacterID": "None"
       },
       "L110117": {
         "QuestId": "L110117",
@@ -13281,7 +13200,7 @@
                 "Y": 0.0,
                 "Z": 0.0
               },
-              "TrackMapName": "",
+              "TrackMapName": "XL_map_bigworld_test",
               "bNeedCrossBox": false,
               "bTrackGoalEnable": true,
               "bNeedPassParking": false,
@@ -13349,7 +13268,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1600.0,
+          "LockTime": 1800.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -15442,7 +15361,25 @@
               "bNavigationPath": false
             },
             "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": -132313.08,
+                "Y": 140573.36,
+                "Z": 6709.8726
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": 37.4605,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": 37.4605,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": false
+            },
             "CompleteCameraRotation": null,
             "BuffInfo": null,
             "CompleteDistance": null
@@ -15677,7 +15614,7 @@
           "UIParaming": [],
           "UnlockFunctionID": "None"
         },
-        "TrialCharacterID": "Trial03_Boss18"
+        "TrialCharacterID": "None"
       },
       "L110133": {
         "QuestId": "L110133",
@@ -15923,7 +15860,38 @@
         "SatisfyData": null,
         "LimitMapName": "None",
         "QuestResetTime": null,
-        "FailedData": null,
+        "FailedData": {
+          "QuestFailedDescription": {
+            "TableId": "/Game/Text/ST_Ui.ST_Ui",
+            "Key": "QuestFailed_01",
+            "SourceString": "任务失败",
+            "LocalizedString": "任务失败"
+          },
+          "RollbackQuestID": "L110133",
+          "FailRollbackLocation": {
+            "X": -137962.34,
+            "Y": 141382.64,
+            "Z": 6759.0317
+          },
+          "FailRollbackRotation": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "FailRollbackMap": "XL_map_bigworld_test",
+          "AutoRollback": true,
+          "AutoTeleport": true,
+          "NeedShowFailUI": true,
+          "FailedTrackLocation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "FailedTrackTarget": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          }
+        },
         "NextQuests": [
           "L110134_H"
         ],
@@ -15970,65 +15938,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "Boss_18_endchase",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "CultureInvariantString": null
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-              "Key": "L110134_H_ObjDes_1",
-              "SourceString": "追踪<blue>番茄酱恶魔</>",
-              "LocalizedString": "追踪<blue>番茄酱恶魔</>"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": null,
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": {
-              "CompletedTeleportPosition": {
-                "X": -6044.6543,
-                "Y": 111129.84,
-                "Z": 9194.694
-              },
-              "CompletedRotation": {
-                "Pitch": 0.0,
-                "Yaw": 171.60919,
-                "Roll": 0.0
-              },
-              "LoadingUIType": "ETransferLoadingUIType::AutoWaitLoading",
-              "CameraRotation": {
-                "Pitch": 0.0,
-                "Yaw": 171.60919,
-                "Roll": 0.0
-              },
-              "bKeepPlayerRotation": true
-            },
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_LEGEND",
         "bNeedRedpoint": false,
@@ -16259,7 +16169,7 @@
           "UIParaming": [],
           "UnlockFunctionID": "None"
         },
-        "TrialCharacterID": "Trial03_Boss18"
+        "TrialCharacterID": "None"
       },
       "L110136": {
         "QuestId": "L110136",
@@ -16276,47 +16186,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "L110136",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "CultureInvariantString": null
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-              "Key": "L110136_ObjDes_1",
-              "SourceString": "舆论的逆转……",
-              "LocalizedString": "舆论的逆转……"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": null,
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_LEGEND",
         "bNeedRedpoint": false,
@@ -16379,7 +16249,19 @@
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
         },
-        "ReloadLocation": null,
+        "ReloadLocation": {
+          "LevelName": "XL_map_bigworld_test",
+          "Location": {
+            "X": -6786.613,
+            "Y": 111396.695,
+            "Z": 9349.779
+          },
+          "Rotator": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
         "AdventureManual": null,
         "JumpToUIData": {
           "QuestUIType": "EQuestUIType::QUT_None",
@@ -16404,19 +16286,17 @@
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": true,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
+            "ConvoyProtectTime": 2.0,
+            "ConvoyLocation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
             },
             "ObjectiveID": "1",
             "ObjectiveName": {
-              "Namespace": "",
-              "Key": "74766EAC4F3D52E9AC0883A94125F2FD",
-              "SourceString": "战斗总结",
-              "LocalizedString": "战斗总结"
+              "CultureInvariantString": null
             },
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -16438,9 +16318,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": {
+            "IntroduceInfo": {
               "bForceTrackLocation": true,
               "TrackLocation": {
                 "X": -6786.613,
@@ -16463,6 +16341,8 @@
               "AzimuthIndicatorable": true,
               "bNavigationPath": false
             },
+            "bOnlyInClient": false,
+            "TrackInfo": null,
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -16978,7 +16858,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "",
@@ -17073,11 +16953,8 @@
         "NeedVisionID": "None",
         "AcceptQuestConditionRange": null,
         "NeedConditionType": "EQuestConditionType::And",
-        "bNotSatisfyCanNotAccept": true,
-        "SatisfyData": {
-          "BeginTime": 19.0,
-          "EndTime": 20.0
-        },
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
         "LimitMapName": "None",
         "QuestResetTime": null,
         "FailedData": null,
@@ -17094,8 +16971,15 @@
         "bFreezeSinPoint": false,
         "LikeabilityData": null,
         "QuestAward": null,
-        "QuestTimeLock": null,
-        "QuestWeatherLock": null,
+        "QuestTimeLock": {
+          "LockTime": 2100.0,
+          "TransitionSpeed": -1.0,
+          "ProtectTimeSeconds": 600.0
+        },
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
+          "ProtectTimeSeconds": 600.0
+        },
         "ReloadLocation": null,
         "AdventureManual": null,
         "JumpToUIData": {
@@ -17118,7 +17002,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -17170,9 +17054,9 @@
             "TrackInfo": {
               "bForceTrackLocation": false,
               "TrackLocation": {
-                "X": -148969.05,
-                "Y": 120916.445,
-                "Z": 6457.133
+                "X": -142689.78,
+                "Y": 111141.6,
+                "Z": 7234.8057
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -17280,7 +17164,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -17472,7 +17356,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -17626,7 +17510,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -17679,7 +17563,7 @@
                 "Y": 120117.68,
                 "Z": 6391.566
               },
-              "fRange": 3000.0,
+              "fRange": 2000.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
               "TrackOffLocation": {
@@ -17742,6 +17626,144 @@
         "QuestResetTime": null,
         "FailedData": null,
         "NextQuests": [
+          "L110203_1"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": {
+          "LockTime": 330.0,
+          "TransitionSpeed": -1.0,
+          "ProtectTimeSeconds": 600.0
+        },
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
+          "ProtectTimeSeconds": 600.0
+        },
+        "ReloadLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "L110203_1": {
+        "QuestId": "L110203_1",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
+          "Key": "L110204_QuestName",
+          "SourceString": "意料之中？",
+          "LocalizedString": "意料之中？"
+        },
+        "ChapterID": "LC03",
+        "ChapterProgress": 3.5,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": true,
+        "ObjectivesInfo": [
+          {
+            "ConvoyProtectTime": 1.5,
+            "ConvoyLocation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "ObjectiveID": "1",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
+              "Key": "L110204_ObjDes_1",
+              "SourceString": "去舞台附近看看发生了什么",
+              "LocalizedString": "去舞台附近看看发生了什么"
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": {
+              "bNeedBeginIntroduce": true,
+              "BeginIntroduceArray": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Legend.ST_IntroduceMsg_Legend",
+                  "Key": "TAkane01_NPC014_009",
+                  "SourceString": "呜哇！",
+                  "LocalizedString": "呜哇！"
+                }
+              ]
+            },
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_LEGEND",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
+          "Key": "L110204_QuestPanel",
+          "SourceString": "哈尼娅似乎闹出了什么麻烦……",
+          "LocalizedString": "哈尼娅似乎闹出了什么麻烦……"
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "L110203",
+            "ObjectiveID": "1"
+          }
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
           "L110204"
         ],
         "bAutoNext": true,
@@ -17785,7 +17807,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -17819,17 +17841,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
-            "IntroduceInfo": {
-              "bNeedBeginIntroduce": true,
-              "BeginIntroduceArray": [
-                {
-                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Legend.ST_IntroduceMsg_Legend",
-                  "Key": "TAkane01_NPC014_009",
-                  "SourceString": "呜哇！",
-                  "LocalizedString": "呜哇！"
-                }
-              ]
-            },
+            "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
               "bForceTrackLocation": true,
@@ -17885,7 +17897,7 @@
         "TrackConditionList": [],
         "PreQuests": [
           {
-            "PreQuestName": "L110203",
+            "PreQuestName": "L110203_1",
             "ObjectiveID": "1"
           }
         ],
@@ -17948,7 +17960,7 @@
         "ObjectivesInfo": [
           {
             "SongID": "StorySong1",
-            "Rate": 0.4,
+            "Rate": 0.5,
             "ObjectiveID": "1",
             "ObjectiveName": {
               "CultureInvariantString": null
@@ -18090,7 +18102,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -18150,7 +18162,25 @@
               "bNavigationPath": false
             },
             "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": -150393.28,
+                "Y": 122148.53,
+                "Z": 7099.6865
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": 153.59105,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": 153.59105,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": false
+            },
             "CompleteCameraRotation": null,
             "BuffInfo": null,
             "CompleteDistance": null
@@ -18239,7 +18269,7 @@
         "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "",
@@ -18355,7 +18385,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 350.0,
+          "LockTime": 330.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -18385,7 +18415,7 @@
         "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "ObjectiveID": "1",
@@ -18529,7 +18559,7 @@
         "ObjectivesInfo": [
           {
             "ChatItemIDArray": [
-              "1020_b_18"
+              "1020_b_1"
             ],
             "ObjectiveID": "1",
             "ObjectiveName": {
@@ -18654,7 +18684,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -18807,7 +18837,7 @@
         "ObjectivesInfo": [
           {
             "SongID": "StorySong2",
-            "Rate": 0.8,
+            "Rate": 0.5,
             "ObjectiveID": "1",
             "ObjectiveName": {
               "CultureInvariantString": null
@@ -18949,7 +18979,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -19227,7 +19257,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -19376,7 +19406,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 13.0,
@@ -19626,7 +19656,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -19775,7 +19805,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "",
@@ -19921,7 +19951,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -20074,7 +20104,7 @@
         "ObjectivesInfo": [
           {
             "SongID": "StorySong3",
-            "Rate": 0.8,
+            "Rate": 0.5,
             "ObjectiveID": "1",
             "ObjectiveName": {
               "CultureInvariantString": null
@@ -20216,71 +20246,9 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "bMainQuestAutoSpeak": true,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "CultureInvariantString": null
-            },
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-              "Key": "L110221_ObjDes_1",
-              "SourceString": "跟大家聊聊",
-              "LocalizedString": "跟大家聊聊"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": {
-              "bForceTrackLocation": true,
-              "TrackLocation": {
-                "X": -148646.2,
-                "Y": 120089.46,
-                "Z": 6399.133
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "XL_map_bigworld_test",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_LEGEND",
         "bNeedRedpoint": false,
@@ -20307,133 +20275,6 @@
         "PreQuests": [
           {
             "PreQuestName": "L110220",
-            "ObjectiveID": "1"
-          }
-        ],
-        "PreQuestConditionType": "EQuestConditionType::And",
-        "NeedLevel": 0,
-        "NeedYahahaID": "None",
-        "NeedVisionID": "None",
-        "AcceptQuestConditionRange": null,
-        "NeedConditionType": "EQuestConditionType::And",
-        "bNotSatisfyCanNotAccept": false,
-        "SatisfyData": null,
-        "LimitMapName": "None",
-        "QuestResetTime": null,
-        "FailedData": null,
-        "NextQuests": [
-          "L110222"
-        ],
-        "bAutoNext": true,
-        "NeedSubmit": false,
-        "QuestSubmitDescription": {
-          "CultureInvariantString": null
-        },
-        "SubmitConsume": null,
-        "UIParamString": "",
-        "bFreezeSinPoint": false,
-        "LikeabilityData": null,
-        "QuestAward": null,
-        "QuestTimeLock": {
-          "LockTime": 1450.0,
-          "TransitionSpeed": -1.0,
-          "ProtectTimeSeconds": 600.0
-        },
-        "QuestWeatherLock": {
-          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
-          "ProtectTimeSeconds": 600.0
-        },
-        "ReloadLocation": null,
-        "AdventureManual": null,
-        "JumpToUIData": {
-          "QuestUIType": "EQuestUIType::QUT_None",
-          "UIParaming": [],
-          "UnlockFunctionID": "None"
-        },
-        "TrialCharacterID": "None"
-      },
-      "L110222": {
-        "QuestId": "L110222",
-        "QuestName": {
-          "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-          "Key": "L110222_QuestName",
-          "SourceString": "练习的日子",
-          "LocalizedString": "练习的日子"
-        },
-        "ChapterID": "LC03",
-        "ChapterProgress": 22.0,
-        "DisplayMapName": "None",
-        "TrackMapName": "XL_map_bigworld_test",
-        "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
-        "ObjectivesInfo": [
-          {
-            "StorySequenceID": "TempVedio",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": false,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "CultureInvariantString": null
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-              "Key": "L110222_ObjDes_1",
-              "SourceString": "与同伴们继续练习",
-              "LocalizedString": "与同伴们继续练习"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": null,
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
-        ],
-        "QuestType": "EQuestType::EQT_LEGEND",
-        "bNeedRedpoint": false,
-        "bLoop": false,
-        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
-        "bMainQuestAutoSpeak": true,
-        "bShowQuestAcceptTips": false,
-        "HideOrShowMainFormWidgets": null,
-        "bHideQuestMark": false,
-        "bHideTrackMark": false,
-        "ShowAcceptMsg": false,
-        "ShowSubmitMsg": false,
-        "bNeedPlayAnimation": true,
-        "bUseSpecialQuestSettleUI": false,
-        "PanelDescription": {
-          "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-          "Key": "L110222_QuestPanel",
-          "SourceString": "以「月亮狗之夜」为目标，继续练习吧！",
-          "LocalizedString": "以「月亮狗之夜」为目标，继续练习吧！"
-        },
-        "UnlockTeleportID": "None",
-        "TrackQuestConditionRange": null,
-        "TrackConditionList": [],
-        "PreQuests": [
-          {
-            "PreQuestName": "L110221",
             "ObjectiveID": "1"
           }
         ],
@@ -20492,7 +20333,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -20582,7 +20423,7 @@
         "TrackConditionList": [],
         "PreQuests": [
           {
-            "PreQuestName": "L110222",
+            "PreQuestName": "L110221",
             "ObjectiveID": "1"
           }
         ],
@@ -20646,7 +20487,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 9.0,
@@ -20896,7 +20737,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -21045,7 +20886,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": false,
@@ -21194,7 +21035,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -21472,7 +21313,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 13.0,
@@ -21593,7 +21434,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -21746,7 +21587,7 @@
         "ObjectivesInfo": [
           {
             "SongID": "StorySong4",
-            "Rate": 0.8,
+            "Rate": 0.5,
             "ObjectiveID": "1",
             "ObjectiveName": {
               "CultureInvariantString": null
@@ -21888,7 +21729,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -22037,7 +21878,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "",
@@ -22183,49 +22024,9 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "L110235",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": false,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "CultureInvariantString": null
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-              "Key": "L110235_ObjDes_1",
-              "SourceString": "完成初次登台表演",
-              "LocalizedString": "完成初次登台表演"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": null,
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_LEGEND",
         "bNeedRedpoint": false,
@@ -22267,173 +22068,6 @@
         "QuestResetTime": null,
         "FailedData": null,
         "NextQuests": [
-          "L110236"
-        ],
-        "bAutoNext": true,
-        "NeedSubmit": false,
-        "QuestSubmitDescription": {
-          "CultureInvariantString": null
-        },
-        "SubmitConsume": null,
-        "UIParamString": "",
-        "bFreezeSinPoint": false,
-        "LikeabilityData": null,
-        "QuestAward": null,
-        "QuestTimeLock": {
-          "LockTime": 330.0,
-          "TransitionSpeed": -1.0,
-          "ProtectTimeSeconds": 600.0
-        },
-        "QuestWeatherLock": {
-          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
-          "ProtectTimeSeconds": 600.0
-        },
-        "ReloadLocation": null,
-        "AdventureManual": null,
-        "JumpToUIData": {
-          "QuestUIType": "EQuestUIType::QUT_None",
-          "UIParaming": [],
-          "UnlockFunctionID": "None"
-        },
-        "TrialCharacterID": "None"
-      },
-      "L110236": {
-        "QuestId": "L110236",
-        "QuestName": {
-          "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-          "Key": "L110236_QuestName",
-          "SourceString": "还……算成功？",
-          "LocalizedString": "还……算成功？"
-        },
-        "ChapterID": "LC03",
-        "ChapterProgress": 36.0,
-        "DisplayMapName": "None",
-        "TrackMapName": "XL_map_bigworld_test",
-        "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
-        "ObjectivesInfo": [
-          {
-            "bMainQuestAutoSpeak": true,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "CultureInvariantString": null
-            },
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-              "Key": "L110236_ObjDes_1",
-              "SourceString": "与同伴们交流",
-              "LocalizedString": "与同伴们交流"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": {
-              "bForceTrackLocation": true,
-              "TrackLocation": {
-                "X": -148646.2,
-                "Y": 120089.46,
-                "Z": 6399.133
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "XL_map_bigworld_test",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": {
-              "CompletedTeleportPosition": {
-                "X": -149064.47,
-                "Y": 121464.62,
-                "Z": 6739.038
-              },
-              "CompletedRotation": {
-                "Pitch": 0.0,
-                "Yaw": 152.85661,
-                "Roll": 0.0
-              },
-              "LoadingUIType": "ETransferLoadingUIType::AutoWaitLoading",
-              "CameraRotation": {
-                "Pitch": 0.0,
-                "Yaw": 0.0,
-                "Roll": 0.0
-              },
-              "bKeepPlayerRotation": true
-            },
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
-        ],
-        "QuestType": "EQuestType::EQT_LEGEND",
-        "bNeedRedpoint": false,
-        "bLoop": false,
-        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
-        "bMainQuestAutoSpeak": true,
-        "bShowQuestAcceptTips": false,
-        "HideOrShowMainFormWidgets": null,
-        "bHideQuestMark": false,
-        "bHideTrackMark": false,
-        "ShowAcceptMsg": false,
-        "ShowSubmitMsg": false,
-        "bNeedPlayAnimation": true,
-        "bUseSpecialQuestSettleUI": false,
-        "PanelDescription": {
-          "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-          "Key": "L110236_QuestPanel",
-          "SourceString": "无论如何，演出还算成功，跟大家交流一下感受吧。",
-          "LocalizedString": "无论如何，演出还算成功，跟大家交流一下感受吧。"
-        },
-        "UnlockTeleportID": "None",
-        "TrackQuestConditionRange": null,
-        "TrackConditionList": [],
-        "PreQuests": [
-          {
-            "PreQuestName": "L110235",
-            "ObjectiveID": "1"
-          }
-        ],
-        "PreQuestConditionType": "EQuestConditionType::And",
-        "NeedLevel": 0,
-        "NeedYahahaID": "None",
-        "NeedVisionID": "None",
-        "AcceptQuestConditionRange": null,
-        "NeedConditionType": "EQuestConditionType::And",
-        "bNotSatisfyCanNotAccept": false,
-        "SatisfyData": null,
-        "LimitMapName": "None",
-        "QuestResetTime": null,
-        "FailedData": null,
-        "NextQuests": [
           "L110237"
         ],
         "bAutoNext": true,
@@ -22455,7 +22089,19 @@
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
         },
-        "ReloadLocation": null,
+        "ReloadLocation": {
+          "LevelName": "XL_map_bigworld_test",
+          "Location": {
+            "X": -148646.2,
+            "Y": 120089.46,
+            "Z": 6399.133
+          },
+          "Rotator": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
         "AdventureManual": null,
         "JumpToUIData": {
           "QuestUIType": "EQuestUIType::QUT_None",
@@ -22477,7 +22123,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -22567,7 +22213,7 @@
         "TrackConditionList": [],
         "PreQuests": [
           {
-            "PreQuestName": "L110236",
+            "PreQuestName": "L110235",
             "ObjectiveID": "1"
           }
         ],
@@ -22626,7 +22272,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "",
@@ -22772,7 +22418,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -22926,7 +22572,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 12.0,
@@ -23047,7 +22693,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -23196,7 +22842,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "",
@@ -23467,7 +23113,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "ObjectiveID": "1",
@@ -23607,7 +23253,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -23756,7 +23402,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "",
@@ -23902,7 +23548,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "MonsterTagList": [
@@ -24102,7 +23748,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -24251,7 +23897,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -24529,7 +24175,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 14.0,
@@ -24650,71 +24296,9 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "bMainQuestAutoSpeak": true,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "CultureInvariantString": null
-            },
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-              "Key": "L110253_ObjDes_1",
-              "SourceString": "前往海角广场",
-              "LocalizedString": "前往海角广场"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": {
-              "bForceTrackLocation": true,
-              "TrackLocation": {
-                "X": 16299.191,
-                "Y": 149752.19,
-                "Z": 4574.066
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "XL_map_bigworld_test",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_LEGEND",
         "bNeedRedpoint": false,
@@ -24741,133 +24325,6 @@
         "PreQuests": [
           {
             "PreQuestName": "L110252",
-            "ObjectiveID": "1"
-          }
-        ],
-        "PreQuestConditionType": "EQuestConditionType::And",
-        "NeedLevel": 0,
-        "NeedYahahaID": "None",
-        "NeedVisionID": "None",
-        "AcceptQuestConditionRange": null,
-        "NeedConditionType": "EQuestConditionType::And",
-        "bNotSatisfyCanNotAccept": false,
-        "SatisfyData": null,
-        "LimitMapName": "None",
-        "QuestResetTime": null,
-        "FailedData": null,
-        "NextQuests": [
-          "L110254"
-        ],
-        "bAutoNext": true,
-        "NeedSubmit": false,
-        "QuestSubmitDescription": {
-          "CultureInvariantString": null
-        },
-        "SubmitConsume": null,
-        "UIParamString": "",
-        "bFreezeSinPoint": false,
-        "LikeabilityData": null,
-        "QuestAward": null,
-        "QuestTimeLock": {
-          "LockTime": 1500.0,
-          "TransitionSpeed": -1.0,
-          "ProtectTimeSeconds": 600.0
-        },
-        "QuestWeatherLock": {
-          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
-          "ProtectTimeSeconds": 600.0
-        },
-        "ReloadLocation": null,
-        "AdventureManual": null,
-        "JumpToUIData": {
-          "QuestUIType": "EQuestUIType::QUT_None",
-          "UIParaming": [],
-          "UnlockFunctionID": "None"
-        },
-        "TrialCharacterID": "None"
-      },
-      "L110254": {
-        "QuestId": "L110254",
-        "QuestName": {
-          "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-          "Key": "L110254_QuestName",
-          "SourceString": "露天特训",
-          "LocalizedString": "露天特训"
-        },
-        "ChapterID": "LC03",
-        "ChapterProgress": 54.0,
-        "DisplayMapName": "None",
-        "TrackMapName": "XL_map_bigworld_test",
-        "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
-        "ObjectivesInfo": [
-          {
-            "StorySequenceID": "TempVedio",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": false,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "CultureInvariantString": null
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-              "Key": "L110254_ObjDes_1",
-              "SourceString": "完成明音安排的露天特训",
-              "LocalizedString": "完成明音安排的露天特训"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": null,
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
-        ],
-        "QuestType": "EQuestType::EQT_LEGEND",
-        "bNeedRedpoint": false,
-        "bLoop": false,
-        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
-        "bMainQuestAutoSpeak": true,
-        "bShowQuestAcceptTips": false,
-        "HideOrShowMainFormWidgets": null,
-        "bHideQuestMark": false,
-        "bHideTrackMark": false,
-        "ShowAcceptMsg": false,
-        "ShowSubmitMsg": false,
-        "bNeedPlayAnimation": true,
-        "bUseSpecialQuestSettleUI": false,
-        "PanelDescription": {
-          "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-          "Key": "L110254_QuestPanel",
-          "SourceString": "作为「月亮狗之夜」前的最后冲刺，一起努力吧！",
-          "LocalizedString": "作为「月亮狗之夜」前的最后冲刺，一起努力吧！"
-        },
-        "UnlockTeleportID": "None",
-        "TrackQuestConditionRange": null,
-        "TrackConditionList": [],
-        "PreQuests": [
-          {
-            "PreQuestName": "L110253",
             "ObjectiveID": "1"
           }
         ],
@@ -24926,7 +24383,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -25016,7 +24473,7 @@
         "TrackConditionList": [],
         "PreQuests": [
           {
-            "PreQuestName": "L110254",
+            "PreQuestName": "L110253",
             "ObjectiveID": "1"
           }
         ],
@@ -25080,7 +24537,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "",
@@ -25355,7 +24812,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 20.0,
@@ -25476,7 +24933,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -25625,7 +25082,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -25774,7 +25231,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "NeedArriveMapName": "DLC_MoonDog",
@@ -25920,7 +25377,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -26069,7 +25526,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -26236,49 +25693,9 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "TempVedio",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": false,
-            "bNeedInTargetMap": true,
-            "TargetMap": "DLC_MoonDog",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "CultureInvariantString": null
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-              "Key": "L110264_ObjDes_1",
-              "SourceString": "展现<blue>「猫头音！！！！」</>的实力",
-              "LocalizedString": "展现<blue>「猫头音！！！！」</>的实力"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": null,
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_LEGEND",
         "bNeedRedpoint": false,
@@ -26305,167 +25722,6 @@
         "PreQuests": [
           {
             "PreQuestName": "L110263",
-            "ObjectiveID": "1"
-          }
-        ],
-        "PreQuestConditionType": "EQuestConditionType::And",
-        "NeedLevel": 0,
-        "NeedYahahaID": "None",
-        "NeedVisionID": "None",
-        "AcceptQuestConditionRange": null,
-        "NeedConditionType": "EQuestConditionType::And",
-        "bNotSatisfyCanNotAccept": false,
-        "SatisfyData": null,
-        "LimitMapName": "None",
-        "QuestResetTime": null,
-        "FailedData": null,
-        "NextQuests": [
-          "L110265"
-        ],
-        "bAutoNext": true,
-        "NeedSubmit": false,
-        "QuestSubmitDescription": {
-          "CultureInvariantString": null
-        },
-        "SubmitConsume": null,
-        "UIParamString": "",
-        "bFreezeSinPoint": false,
-        "LikeabilityData": null,
-        "QuestAward": null,
-        "QuestTimeLock": {
-          "LockTime": 2200.0,
-          "TransitionSpeed": -1.0,
-          "ProtectTimeSeconds": 600.0
-        },
-        "QuestWeatherLock": {
-          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
-          "ProtectTimeSeconds": 600.0
-        },
-        "ReloadLocation": {
-          "LevelName": "DLC_MoonDog",
-          "Location": {
-            "X": 0.562057,
-            "Y": -431.46805,
-            "Z": 50.0
-          },
-          "Rotator": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          }
-        },
-        "AdventureManual": null,
-        "JumpToUIData": {
-          "QuestUIType": "EQuestUIType::QUT_None",
-          "UIParaming": [],
-          "UnlockFunctionID": "None"
-        },
-        "TrialCharacterID": "None"
-      },
-      "L110265": {
-        "QuestId": "L110265",
-        "QuestName": {
-          "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-          "Key": "L110265_QuestName",
-          "SourceString": "星与月",
-          "LocalizedString": "星与月"
-        },
-        "ChapterID": "LC03",
-        "ChapterProgress": 65.0,
-        "DisplayMapName": "None",
-        "TrackMapName": "XL_map_bigworld_test",
-        "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
-        "ObjectivesInfo": [
-          {
-            "bMainQuestAutoSpeak": true,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "CultureInvariantString": null
-            },
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-              "Key": "L110265_ObjDes_1",
-              "SourceString": "星与月",
-              "LocalizedString": "星与月"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": {
-              "bForceTrackLocation": true,
-              "TrackLocation": {
-                "X": 604.7258,
-                "Y": -64.90717,
-                "Z": -0.796331
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "DLC_MoonDog",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "L110265",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
-        ],
-        "QuestType": "EQuestType::EQT_LEGEND",
-        "bNeedRedpoint": false,
-        "bLoop": false,
-        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
-        "bMainQuestAutoSpeak": true,
-        "bShowQuestAcceptTips": false,
-        "HideOrShowMainFormWidgets": null,
-        "bHideQuestMark": false,
-        "bHideTrackMark": false,
-        "ShowAcceptMsg": false,
-        "ShowSubmitMsg": false,
-        "bNeedPlayAnimation": true,
-        "bUseSpecialQuestSettleUI": false,
-        "PanelDescription": {
-          "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
-          "Key": "L110265_QuestPanel",
-          "SourceString": "今夜漫长",
-          "LocalizedString": "今夜漫长"
-        },
-        "UnlockTeleportID": "None",
-        "TrackQuestConditionRange": null,
-        "TrackConditionList": [],
-        "PreQuests": [
-          {
-            "PreQuestName": "L110264",
             "ObjectiveID": "1"
           }
         ],
@@ -26536,7 +25792,7 @@
         "DisplayMapName": "None",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": false,
+        "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -26626,7 +25882,7 @@
         "TrackConditionList": [],
         "PreQuests": [
           {
-            "PreQuestName": "L110265",
+            "PreQuestName": "L110264",
             "ObjectiveID": "1"
           }
         ],

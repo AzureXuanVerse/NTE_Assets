@@ -10148,9 +10148,9 @@
         "QuestId": "AD70001",
         "QuestName": {
           "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
-          "Key": "AD60002",
-          "SourceString": "魔女之家告谕等级达到5级",
-          "LocalizedString": "魔女之家告谕等级达到5级"
+          "Key": "AD70001",
+          "SourceString": "魔女之家告谕等级达到6级",
+          "LocalizedString": "魔女之家告谕等级达到6级"
         },
         "ChapterID": "None",
         "ChapterProgress": -1.0,
@@ -11068,8 +11068,8 @@
         "QuestName": {
           "TableId": "/Game/Text/ST_AdventureManual.ST_AdventureManual",
           "Key": "AD80002",
-          "SourceString": "拍卖会中获得1件拍品",
-          "LocalizedString": "拍卖会中获得1件拍品"
+          "SourceString": "提升2个角色的羁遇等级至3级",
+          "LocalizedString": "提升2个角色的羁遇等级至3级"
         },
         "ChapterID": "None",
         "ChapterProgress": -1.0,
@@ -11079,12 +11079,13 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
+            "Level": 3,
             "ObjectiveID": "None",
             "ObjectiveName": {
               "CultureInvariantString": null
             },
-            "ObjectiveType": "EObjectiveType::EOT_AUCTION_SUCCESS",
-            "Amount": 1,
+            "ObjectiveType": "EObjectiveType::EOT_LIKEABILITY_LEVEL",
+            "Amount": 2,
             "TargetType": {
               "AssetPathName": "",
               "SubPathString": ""
@@ -11175,10 +11176,9 @@
           "Acceptable_Random": true
         },
         "JumpToUIData": {
-          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
           "UIParaming": [
-            "BigMap",
-            "Place_13"
+            "LikeabilityMain"
           ],
           "UnlockFunctionID": "None"
         },

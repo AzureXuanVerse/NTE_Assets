@@ -89,7 +89,7 @@
         "DisplayMapName": "QiaoJianDi",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": true,
+        "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
             "ChatItemIDArray": [
@@ -179,7 +179,11 @@
         "SubmitConsume": null,
         "UIParamString": "LikeabilityChatMain",
         "bFreezeSinPoint": false,
-        "LikeabilityData": null,
+        "LikeabilityData": {
+          "ActiveChatItemID": "None",
+          "AcceptChatItemID": "Tajiduo_b_1",
+          "PushChatItemIDs": []
+        },
         "QuestAward": null,
         "QuestTimeLock": null,
         "QuestWeatherLock": {
@@ -3347,9 +3351,9 @@
             "ObjectiveID": "2",
             "ObjectiveName": {
               "TableId": "/Game/Text/ST_Mainquest_wxy.ST_Mainquest_wxy",
-              "Key": "q110165_ObjDes",
-              "SourceString": "返回<blue>伊波恩</>",
-              "LocalizedString": "返回<blue>伊波恩</>"
+              "Key": "q110165_ObjDes_01",
+              "SourceString": "离开<blue>DSD</>",
+              "LocalizedString": "离开<blue>DSD</>"
             },
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
@@ -3365,9 +3369,9 @@
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Mainquest_wxy.ST_Mainquest_wxy",
-              "Key": "q110165_ObjDes",
-              "SourceString": "返回<blue>伊波恩</>",
-              "LocalizedString": "返回<blue>伊波恩</>"
+              "Key": "q110165_ObjDes_01",
+              "SourceString": "离开<blue>DSD</>",
+              "LocalizedString": "离开<blue>DSD</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -5118,72 +5122,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "q1101711",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "TableId": "/Game/Text/ST_Mainquest_wxy.ST_Mainquest_wxy",
-              "Key": "q1101711_ObjDes",
-              "SourceString": "与<blue>塔可</>汇合",
-              "LocalizedString": "与<blue>塔可</>汇合"
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_Mainquest_wxy.ST_Mainquest_wxy",
-              "Key": "q1101711_ObjDes",
-              "SourceString": "与<blue>塔可</>汇合",
-              "LocalizedString": "与<blue>塔可</>汇合"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": true,
-            "TrackInfo": {
-              "bForceTrackLocation": false,
-              "TrackLocation": {
-                "X": -114296.84,
-                "Y": 161322.64,
-                "Z": 5974.669
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "XL_map_bigworld_test",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_MAIN",
         "bNeedRedpoint": false,
@@ -6026,7 +5965,7 @@
         "UIParamString": "",
         "bFreezeSinPoint": false,
         "LikeabilityData": {
-          "ActiveChatItemID": "1033_b_1",
+          "ActiveChatItemID": "None",
           "AcceptChatItemID": "None",
           "PushChatItemIDs": []
         },
@@ -6224,7 +6163,11 @@
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
-        "LikeabilityData": null,
+        "LikeabilityData": {
+          "ActiveChatItemID": "None",
+          "AcceptChatItemID": "1033_b_1",
+          "PushChatItemIDs": []
+        },
         "QuestAward": null,
         "QuestTimeLock": {
           "LockTime": 2100.0,
@@ -7258,72 +7201,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "q1101801",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "TableId": "/Game/Text/ST_Mainquest_wxy.ST_Mainquest_wxy",
-              "Key": "q1101801_ObjDes",
-              "SourceString": "来自<blue>柯林斯家族</>的挑衅",
-              "LocalizedString": "来自<blue>柯林斯家族</>的挑衅"
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_Mainquest_wxy.ST_Mainquest_wxy",
-              "Key": "q1101801_ObjDes",
-              "SourceString": "来自<blue>柯林斯家族</>的挑衅",
-              "LocalizedString": "来自<blue>柯林斯家族</>的挑衅"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": true,
-            "TrackInfo": {
-              "bForceTrackLocation": false,
-              "TrackLocation": {
-                "X": -114296.84,
-                "Y": 161322.64,
-                "Z": 5974.669
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "XL_map_bigworld_test",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_MAIN",
         "bNeedRedpoint": false,
@@ -7619,72 +7497,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "q1101811",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "TableId": "/Game/Text/ST_Mainquest_wxy.ST_Mainquest_wxy",
-              "Key": "q110182_ObjDes",
-              "SourceString": "<blue>柯林斯家族</>大败北",
-              "LocalizedString": "<blue>柯林斯家族</>大败北"
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_Mainquest_wxy.ST_Mainquest_wxy",
-              "Key": "q110182_ObjDes",
-              "SourceString": "<blue>柯林斯家族</>大败北",
-              "LocalizedString": "<blue>柯林斯家族</>大败北"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": true,
-            "TrackInfo": {
-              "bForceTrackLocation": false,
-              "TrackLocation": {
-                "X": -114296.84,
-                "Y": 161322.64,
-                "Z": 5974.669
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "XL_map_bigworld_test",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_MAIN",
         "bNeedRedpoint": false,
@@ -8789,50 +8602,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "q110189",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "TableId": "/Game/Text/ST_Mainquest_wxy.ST_Mainquest_wxy",
-              "Key": "q110189_ObjDes",
-              "SourceString": "表演开始了",
-              "LocalizedString": "表演开始了"
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_Mainquest_wxy.ST_Mainquest_wxy",
-              "Key": "q110189_ObjDes",
-              "SourceString": "表演开始了",
-              "LocalizedString": "表演开始了"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": true,
-            "TrackInfo": null,
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_MAIN",
         "bNeedRedpoint": false,
@@ -18755,18 +18525,6 @@
                   "Key": "ST029_Player_026",
                   "SourceString": "这些展品都很有意思。比如这枚金币……",
                   "LocalizedString": "这些展品都很有意思。比如这枚金币……"
-                },
-                {
-                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
-                  "Key": "ST029_Anomaly064_048",
-                  "SourceString": "（是100斤纯金打造的巨型方斯硬币啊帕噜！虽然见过的市民无不觉得阔气！震惊！）",
-                  "LocalizedString": "（是100斤纯金打造的巨型方斯硬币啊帕噜！虽然见过的市民无不觉得阔气！震惊！）"
-                },
-                {
-                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
-                  "Key": "ST029_Anomaly064_049",
-                  "SourceString": "（但长子本人只是用它来练习举重呢！帕噜！）",
-                  "LocalizedString": "（但长子本人只是用它来练习举重呢！帕噜！）"
                 }
               ]
             },
@@ -18840,21 +18598,21 @@
               "BeginIntroduceArray": [
                 {
                   "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+                  "Key": "ST029_Anomaly064_048",
+                  "SourceString": "（是100斤纯金打造的巨型方斯硬币啊帕噜！虽然见过的市民无不觉得阔气！震惊！）",
+                  "LocalizedString": "（是100斤纯金打造的巨型方斯硬币啊帕噜！虽然见过的市民无不觉得阔气！震惊！）"
+                },
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+                  "Key": "ST029_Anomaly064_049",
+                  "SourceString": "（但长子本人只是用它来练习举重呢！帕噜！）",
+                  "LocalizedString": "（但长子本人只是用它来练习举重呢！帕噜！）"
+                },
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
                   "Key": "ST029_Player_027",
                   "SourceString": "那这把菜刀……谁会把菜刀放在展馆里啊。",
                   "LocalizedString": "那这把菜刀……谁会把菜刀放在展馆里啊。"
-                },
-                {
-                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
-                  "Key": "ST029_Anomaly064_050",
-                  "SourceString": "（这是家族初代厨师长的专用厨刀，出自这把刀下的美味，养育了德沃夏克三代家主呢！）",
-                  "LocalizedString": "（这是家族初代厨师长的专用厨刀，出自这把刀下的美味，养育了德沃夏克三代家主呢！）"
-                },
-                {
-                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
-                  "Key": "ST029_Anomaly064_051",
-                  "SourceString": "（听说长子能举起100斤巨型方斯的背后，就离不开厨师长精心烹饪食材的功劳呢！可以说，这把刀就是头号功臣！）",
-                  "LocalizedString": "（听说长子能举起100斤巨型方斯的背后，就离不开厨师长精心烹饪食材的功劳呢！可以说，这把刀就是头号功臣！）"
                 }
               ]
             },
@@ -19005,6 +18763,18 @@
             "IntroduceInfo": {
               "bNeedBeginIntroduce": true,
               "BeginIntroduceArray": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+                  "Key": "ST029_Anomaly064_050",
+                  "SourceString": "（这是家族初代厨师长的专用厨刀，出自这把刀下的美味，养育了德沃夏克三代家主呢！）",
+                  "LocalizedString": "（这是家族初代厨师长的专用厨刀，出自这把刀下的美味，养育了德沃夏克三代家主呢！）"
+                },
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+                  "Key": "ST029_Anomaly064_051",
+                  "SourceString": "（听说长子能举起100斤巨型方斯的背后，就离不开厨师长精心烹饪食材的功劳呢！可以说，这把刀就是头号功臣！）",
+                  "LocalizedString": "（听说长子能举起100斤巨型方斯的背后，就离不开厨师长精心烹饪食材的功劳呢！可以说，这把刀就是头号功臣！）"
+                },
                 {
                   "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
                   "Key": "ST029_Player_028",
@@ -20593,7 +20363,7 @@
         "UIParamString": "",
         "bFreezeSinPoint": false,
         "LikeabilityData": {
-          "ActiveChatItemID": "1019_d_1",
+          "ActiveChatItemID": "None",
           "AcceptChatItemID": "None",
           "PushChatItemIDs": []
         },
@@ -20625,7 +20395,7 @@
         "DisplayMapName": "YouLinLangDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": true,
+        "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
             "ChatItemIDArray": [
@@ -20720,7 +20490,11 @@
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
-        "LikeabilityData": null,
+        "LikeabilityData": {
+          "ActiveChatItemID": "None",
+          "AcceptChatItemID": "1019_d_1",
+          "PushChatItemIDs": []
+        },
         "QuestAward": null,
         "QuestTimeLock": null,
         "QuestWeatherLock": {
@@ -20976,12 +20750,6 @@
                   "Key": "ST029_Anomaly064_058",
                   "SourceString": "若命运是个圆  我会在终点倒着奔跑     用一生的雪  为你缝件月光袍",
                   "LocalizedString": "若命运是个圆  我会在终点倒着奔跑     用一生的雪  为你缝件月光袍"
-                },
-                {
-                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
-                  "Key": "ST029_Anomaly064_059",
-                  "SourceString": "嘿，夏刑草，今年我也没有辜负每一天哦。",
-                  "LocalizedString": "嘿，夏刑草，今年我也没有辜负每一天哦。"
                 }
               ]
             },
@@ -21097,72 +20865,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "S111134_Sequence",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "TableId": "/Game/Text/ST_SideQuest_wxy.ST_SideQuest_wxy",
-              "Key": "s111134_QuestName",
-              "SourceString": "「重生」与「离别」",
-              "LocalizedString": "「重生」与「离别」"
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_SideQuest_wxy.ST_SideQuest_wxy",
-              "Key": "s111134_ObjDes",
-              "SourceString": "在<blue>湖边</>调查小帕的踪迹",
-              "LocalizedString": "在<blue>湖边</>调查小帕的踪迹"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": {
-              "bForceTrackLocation": false,
-              "TrackLocation": {
-                "X": -79708.67,
-                "Y": 1482.2039,
-                "Z": 7637.7485
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_SIDE",
         "bNeedRedpoint": false,
@@ -21371,7 +21074,7 @@
         },
         "QuestTimeLock": null,
         "QuestWeatherLock": {
-          "LockWeatherIndex": "EWeatherIndex::Weather_Snow",
+          "LockWeatherIndex": "EWeatherIndex::Weather_Defulat",
           "ProtectTimeSeconds": 600.0
         },
         "ReloadLocation": null,
@@ -21396,7 +21099,7 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "ConvoyProtectTime": 6.0,
+            "ConvoyProtectTime": 12.0,
             "ConvoyLocation": {
               "X": 0.0,
               "Y": 0.0,
@@ -21428,6 +21131,12 @@
             "IntroduceInfo": {
               "bNeedBeginIntroduce": true,
               "BeginIntroduceArray": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
+                  "Key": "ST029_Anomaly064_059",
+                  "SourceString": "嘿，夏刑草，今年我也没有辜负每一天哦。",
+                  "LocalizedString": "嘿，夏刑草，今年我也没有辜负每一天哦。"
+                },
                 {
                   "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Side.ST_IntroduceMsg_Side",
                   "Key": "ST029_Player_036",
@@ -26016,50 +25725,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "K110428_Sequence",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "TableId": "/Game/Text/ST_SideQuest_wxy.ST_SideQuest_wxy",
-              "Key": "K110427_01_QuestName",
-              "SourceString": "再见，再见",
-              "LocalizedString": "再见，再见"
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_SideQuest_wxy.ST_SideQuest_wxy",
-              "Key": "K110427_01_Object",
-              "SourceString": "与<blue>长歌</>交谈",
-              "LocalizedString": "与<blue>长歌</>交谈"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": null,
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_LIKING",
         "bNeedRedpoint": false,
@@ -26587,11 +26253,7 @@
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
-        "LikeabilityData": {
-          "ActiveChatItemID": "H_NPC_00411_a_16",
-          "AcceptChatItemID": "None",
-          "PushChatItemIDs": []
-        },
+        "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
@@ -26617,7 +26279,7 @@
         "DisplayMapName": "YouLinLangDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": true,
+        "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
             "ChatItemIDArray": [
@@ -26712,7 +26374,11 @@
         "SubmitConsume": null,
         "UIParamString": "",
         "bFreezeSinPoint": false,
-        "LikeabilityData": null,
+        "LikeabilityData": {
+          "ActiveChatItemID": "None",
+          "AcceptChatItemID": "H_NPC_00411_a_16",
+          "PushChatItemIDs": []
+        },
         "QuestAward": null,
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
@@ -28361,9 +28027,9 @@
             "TrackInfo": {
               "bForceTrackLocation": false,
               "TrackLocation": {
-                "X": 29.81032,
-                "Y": -1257.7961,
-                "Z": 393.0065
+                "X": -2043.3164,
+                "Y": 1315.1499,
+                "Z": 78.66275
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -30151,13 +29817,13 @@
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
-              "bForceTrackLocation": true,
+              "bForceTrackLocation": false,
               "TrackLocation": {
-                "X": -2705.1099,
-                "Y": 2086.9927,
-                "Z": -25531.662
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
               },
-              "fRange": 100000.0,
+              "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
               "TrackOffLocation": {
@@ -30265,8 +29931,8 @@
               }
             }
           ],
-          "bShowAwardWindow": false,
-          "bShowInPanel": true
+          "bShowAwardWindow": true,
+          "bShowInPanel": false
         },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
@@ -30335,13 +30001,13 @@
             },
             "bOnlyInClient": false,
             "TrackInfo": {
-              "bForceTrackLocation": true,
+              "bForceTrackLocation": false,
               "TrackLocation": {
-                "X": -2705.1099,
-                "Y": 2086.9927,
-                "Z": -25531.662
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
               },
-              "fRange": 100000.0,
+              "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
               "TrackOffLocation": {
@@ -30483,13 +30149,13 @@
             },
             "bOnlyInClient": false,
             "TrackInfo": {
-              "bForceTrackLocation": true,
+              "bForceTrackLocation": false,
               "TrackLocation": {
-                "X": -2705.1099,
-                "Y": 2086.9927,
-                "Z": -25531.662
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
               },
-              "fRange": 100000.0,
+              "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
               "TrackOffLocation": {
@@ -30631,13 +30297,13 @@
             },
             "bOnlyInClient": false,
             "TrackInfo": {
-              "bForceTrackLocation": true,
+              "bForceTrackLocation": false,
               "TrackLocation": {
-                "X": -2705.1099,
-                "Y": 2086.9927,
-                "Z": -25531.662
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
               },
-              "fRange": 100000.0,
+              "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
               "TrackOffLocation": {
@@ -30779,13 +30445,13 @@
             },
             "bOnlyInClient": false,
             "TrackInfo": {
-              "bForceTrackLocation": true,
+              "bForceTrackLocation": false,
               "TrackLocation": {
-                "X": -2705.1099,
-                "Y": 2086.9927,
-                "Z": -25531.662
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
               },
-              "fRange": 100000.0,
+              "fRange": 0.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
               "TrackOffLocation": {
@@ -30859,7 +30525,23 @@
         "UIParamString": "",
         "bFreezeSinPoint": false,
         "LikeabilityData": null,
-        "QuestAward": null,
+        "QuestAward": {
+          "AwardGroupID": "None",
+          "SimpleAwards": [
+            {
+              "ItemID": "Yahaha_Mu_Lamp_01_LevelUnderGround",
+              "Amount": 1,
+              "bHiddenAmount": false,
+              "bIsReplaceItem": false,
+              "ExtraItemNetInfo": {
+                "RandomBaseModifyData": [],
+                "RandomModifyData": []
+              }
+            }
+          ],
+          "bShowAwardWindow": true,
+          "bShowInPanel": false
+        },
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -31690,7 +31372,7 @@
         "QuestResetTime": null,
         "FailedData": null,
         "NextQuests": [
-          "s111235"
+          "s111236"
         ],
         "bAutoNext": true,
         "NeedSubmit": false,
@@ -31722,7 +31404,7 @@
           "LocalizedString": "那些还未说出口的……"
         },
         "ChapterID": "SU020",
-        "ChapterProgress": 31.0,
+        "ChapterProgress": -1.0,
         "DisplayMapName": "None",
         "TrackMapName": "DLC_Museum_Lamp",
         "bNeedCrossBox": true,
@@ -31744,7 +31426,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Level/Quest/WXY/WusiXS_Sidequest/BP_s111201/WSZX_LETTER.WSZX_LETTER_C",
               "SubPathString": ""
             },
             "MonsterTrackIcon": {
@@ -31867,7 +31549,7 @@
           "LocalizedString": "结局竟然是？！"
         },
         "ChapterID": "SU020",
-        "ChapterProgress": 32.0,
+        "ChapterProgress": 31.0,
         "DisplayMapName": "None",
         "TrackMapName": "DLC_Museum_Lamp",
         "bNeedCrossBox": true,
@@ -31964,7 +31646,7 @@
         "TrackConditionList": [],
         "PreQuests": [
           {
-            "PreQuestName": "s111235",
+            "PreQuestName": "s111234",
             "ObjectiveID": "1"
           }
         ],

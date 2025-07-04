@@ -104,8 +104,7 @@
               "EItemType::ITEM_TYPE_CONSUMABLE"
             ],
             "TriggerTypeArray": [
-              "ERedPointTriggerType::TT_Item_Add",
-              "ERedPointTriggerType::TT_Item_Remove"
+              "ERedPointTriggerType::TT_AwaitItem_Change"
             ]
           },
           {
@@ -196,7 +195,7 @@
         },
         "SaveType": "ERedPointSaveType::ST_Server",
         "IsNotRemove": false,
-        "IsOnlyOneMessage": true,
+        "IsOnlyOneMessage": false,
         "IsCombinationType": false,
         "IsOnLineRefresh": false,
         "IsCanReset": false,
@@ -784,34 +783,6 @@
         "IsCanReset": false,
         "ConfigIDAsMessageID": true
       },
-      "Redpoint.ActivityAwardMain": {
-        "RedpointTag": {
-          "TagName": "Redpoint.ActivityAwardMain"
-        },
-        "TriggerTypeArray": [
-          {
-            "TriggerTypeArray": [
-              "ERedPointTriggerType::TT_ActivityAward"
-            ]
-          }
-        ],
-        "RedPointCondition": {
-          "IDSelector": null,
-          "OnLineSelector": null,
-          "Condition": {
-            "SubConditions": [
-              {}
-            ]
-          }
-        },
-        "SaveType": "ERedPointSaveType::ST_Server",
-        "IsNotRemove": false,
-        "IsOnlyOneMessage": false,
-        "IsCombinationType": false,
-        "IsOnLineRefresh": false,
-        "IsCanReset": false,
-        "ConfigIDAsMessageID": true
-      },
       "Redpoint.ActivityAwardMain.ConfigActivity.Signup": {
         "RedpointTag": {
           "TagName": "Redpoint.ActivityAwardMain.ConfigActivity.Signup"
@@ -827,34 +798,6 @@
           "IDSelector": null,
           "OnLineSelector": null,
           "Condition": {}
-        },
-        "SaveType": "ERedPointSaveType::ST_Server",
-        "IsNotRemove": false,
-        "IsOnlyOneMessage": false,
-        "IsCombinationType": false,
-        "IsOnLineRefresh": false,
-        "IsCanReset": false,
-        "ConfigIDAsMessageID": true
-      },
-      "Redpoint.ActivityAwardMain.ConfigActivity": {
-        "RedpointTag": {
-          "TagName": "Redpoint.ActivityAwardMain.ConfigActivity"
-        },
-        "TriggerTypeArray": [
-          {
-            "TriggerTypeArray": [
-              "ERedPointTriggerType::TT_ActivityAward"
-            ]
-          }
-        ],
-        "RedPointCondition": {
-          "IDSelector": null,
-          "OnLineSelector": null,
-          "Condition": {
-            "SubConditions": [
-              {}
-            ]
-          }
         },
         "SaveType": "ERedPointSaveType::ST_Server",
         "IsNotRemove": false,
@@ -888,6 +831,30 @@
         "IsOnLineRefresh": false,
         "IsCanReset": false,
         "ConfigIDAsMessageID": false
+      },
+      "Redpoint.ActivityAwardMain.OpActivity.SignIn": {
+        "RedpointTag": {
+          "TagName": "Redpoint.ActivityAwardMain.OpActivity.SignIn"
+        },
+        "TriggerTypeArray": [
+          {
+            "TriggerTypeArray": [
+              "ERedPointTriggerType::TT_ActivityAward"
+            ]
+          }
+        ],
+        "RedPointCondition": {
+          "IDSelector": null,
+          "OnLineSelector": null,
+          "Condition": {}
+        },
+        "SaveType": "ERedPointSaveType::ST_Server",
+        "IsNotRemove": false,
+        "IsOnlyOneMessage": false,
+        "IsCombinationType": false,
+        "IsOnLineRefresh": false,
+        "IsCanReset": false,
+        "ConfigIDAsMessageID": true
       }
     }
   }

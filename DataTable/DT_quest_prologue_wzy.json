@@ -2688,72 +2688,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "q110048",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110048_ObjDes_1",
-              "SourceString": "找到<blue>「叮叮叮」</>",
-              "LocalizedString": "找到<blue>「叮叮叮」</>"
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110048_ObjDes_1",
-              "SourceString": "找到<blue>「叮叮叮」</>",
-              "LocalizedString": "找到<blue>「叮叮叮」</>"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": true,
-            "TrackInfo": {
-              "bForceTrackLocation": false,
-              "TrackLocation": {
-                "X": -90760.125,
-                "Y": 150129.1,
-                "Z": 4231.0
-              },
-              "fRange": 1000.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "XL_map_bigworld_test",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_MAIN",
         "bNeedRedpoint": false,
@@ -3328,50 +3263,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "q110053",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110053_ObjDes_1",
-              "SourceString": "成为伊波恩的一员",
-              "LocalizedString": "成为伊波恩的一员"
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110053_ObjDes_1",
-              "SourceString": "成为伊波恩的一员",
-              "LocalizedString": "成为伊波恩的一员"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": true,
-            "TrackInfo": null,
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_MAIN",
         "bNeedRedpoint": false,
@@ -3434,7 +3326,19 @@
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
         },
-        "ReloadLocation": null,
+        "ReloadLocation": {
+          "LevelName": "XL_map_bigworld_test",
+          "Location": {
+            "X": -91950.54,
+            "Y": 150896.72,
+            "Z": 13228.044
+          },
+          "Rotator": {
+            "Pitch": 0.0,
+            "Yaw": -64.0,
+            "Roll": 0.0
+          }
+        },
         "AdventureManual": null,
         "JumpToUIData": {
           "QuestUIType": "EQuestUIType::QUT_None",
@@ -4872,7 +4776,12 @@
           "ActiveChatItemID": "None",
           "AcceptChatItemID": "None",
           "PushChatItemIDs": [
-            "1033_2_1"
+            "1033_2_1",
+            "1021_2_1",
+            "1023_2_1",
+            "1019_2_1",
+            "1039_2_1",
+            "Tajiduo_2_1"
           ]
         },
         "QuestAward": {
@@ -16034,90 +15943,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "q110082",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": true,
-            "TargetMap": "DLC_FilmOrbit_map_WP",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110082_ObjDes_1",
-              "SourceString": "观测「胶卷异象」",
-              "LocalizedString": "观测「胶卷异象」"
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110082_ObjDes_1",
-              "SourceString": "观测「胶卷异象」",
-              "LocalizedString": "观测「胶卷异象」"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": true,
-            "TrackInfo": {
-              "bForceTrackLocation": false,
-              "TrackLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "DLC_FilmOrbit_map_WP",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": {
-              "CompletedTeleportPosition": {
-                "X": 38214.812,
-                "Y": -2666.186,
-                "Z": 13059.983
-              },
-              "CompletedRotation": {
-                "Pitch": 0.0,
-                "Yaw": 1.0,
-                "Roll": 0.0
-              },
-              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
-              "CameraRotation": {
-                "Pitch": 0.0,
-                "Yaw": 1.0,
-                "Roll": 0.0
-              },
-              "bKeepPlayerRotation": false
-            },
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_MAIN",
         "bNeedRedpoint": false,
@@ -16403,72 +16229,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "q110084",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": true,
-            "TargetMap": "DLC_FilmOrbit_map_WP",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110084_ObjDes_1",
-              "SourceString": "成功泯除异象",
-              "LocalizedString": "成功泯除异象"
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110084_ObjDes_1",
-              "SourceString": "成功泯除异象",
-              "LocalizedString": "成功泯除异象"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": true,
-            "TrackInfo": {
-              "bForceTrackLocation": false,
-              "TrackLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "DLC_FilmOrbit_map_WP",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_MAIN",
         "bNeedRedpoint": false,
@@ -21669,7 +21430,7 @@
               "AzimuthIndicatorable": true,
               "bNavigationPath": false
             },
-            "CompleteTeleportID": "q110328_failed_Transfer",
+            "CompleteTeleportID": "q110327_heimu_Transfer",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "BuffInfo": null,
@@ -21868,7 +21629,8 @@
         "QuestResetTime": null,
         "FailedData": null,
         "NextQuests": [
-          "q110328"
+          "q110328",
+          "q110328_failedCount"
         ],
         "bAutoNext": true,
         "NeedSubmit": false,
@@ -21915,7 +21677,7 @@
         "ObjectivesInfo": [
           {
             "bClearChaseProgress": false,
-            "IncreasingInterval": 0.05,
+            "IncreasingInterval": 0.025,
             "IncreasingValue": 1,
             "ObjectiveID": "1",
             "ObjectiveName": {
@@ -22067,6 +21829,115 @@
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
         },
+        "ReloadLocation": null,
+        "AdventureManual": null,
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "UnlockFunctionID": "None"
+        },
+        "TrialCharacterID": "None"
+      },
+      "q110328_failedCount": {
+        "QuestId": "q110328_failedCount",
+        "QuestName": {
+          "CultureInvariantString": "#隐藏任务#追逐失败计数"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveName": {
+              "CultureInvariantString": null
+            },
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 10,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "q1103271",
+            "ObjectiveID": "1"
+          }
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
         "ReloadLocation": null,
         "AdventureManual": null,
         "JumpToUIData": {
@@ -24574,7 +24445,7 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "ConvoyProtectTime": 15.0,
+            "ConvoyProtectTime": 90.0,
             "ConvoyLocation": {
               "X": 0.0,
               "Y": 0.0,
@@ -25509,7 +25380,7 @@
                 "Yaw": 80.0,
                 "Roll": 0.0
               },
-              "LoadingUIType": "ETransferLoadingUIType::AutoWaitLoading_NoUI",
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
               "CameraRotation": {
                 "Pitch": -10.0,
                 "Yaw": 90.0,
@@ -29575,72 +29446,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "q1103501",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": true,
-            "TargetMap": "DLC_Hotel",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q1103501_ObjDes_1",
-              "SourceString": "击败对手，拿下拍品",
-              "LocalizedString": "击败对手，拿下拍品"
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q1103501_ObjDes_1",
-              "SourceString": "击败对手，拿下拍品",
-              "LocalizedString": "击败对手，拿下拍品"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": {
-              "bForceTrackLocation": false,
-              "TrackLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "DLC_Hotel",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_MAIN",
         "bNeedRedpoint": false,
@@ -29811,7 +29617,7 @@
                 "Yaw": 149.0625,
                 "Roll": 0.0
               },
-              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer",
               "CameraRotation": {
                 "Pitch": 0.0,
                 "Yaw": 149.0625,
@@ -30647,7 +30453,7 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "ConvoyProtectTime": 5.0,
+            "ConvoyProtectTime": 1.0,
             "ConvoyLocation": {
               "X": 0.0,
               "Y": 0.0,
@@ -31282,7 +31088,7 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "ConvoyProtectTime": 60.0,
+            "ConvoyProtectTime": 80.0,
             "ConvoyLocation": {
               "X": 0.0,
               "Y": 0.0,
@@ -31616,7 +31422,7 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "ConvoyProtectTime": 30.0,
+            "ConvoyProtectTime": 20.0,
             "ConvoyLocation": {
               "X": 0.0,
               "Y": 0.0,
@@ -33123,72 +32929,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "q1103541",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": true,
-            "TargetMap": "DLC_Hotel",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q1103541_ObjDes_1",
-              "SourceString": "击败对手，拿下拍品",
-              "LocalizedString": "击败对手，拿下拍品"
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q1103541_ObjDes_1",
-              "SourceString": "击败对手，拿下拍品",
-              "LocalizedString": "击败对手，拿下拍品"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": {
-              "bForceTrackLocation": false,
-              "TrackLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "DLC_Hotel",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_MAIN",
         "bNeedRedpoint": false,
@@ -33516,72 +33257,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "q110360",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": true,
-            "TargetMap": "DLC_Hotel",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110360_ObjDes_1",
-              "SourceString": "神秘来客……？",
-              "LocalizedString": "神秘来客……？"
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110360_ObjDes_1",
-              "SourceString": "神秘来客……？",
-              "LocalizedString": "神秘来客……？"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": {
-              "bForceTrackLocation": false,
-              "TrackLocation": {
-                "X": 524.74,
-                "Y": 5295.9575,
-                "Z": -5636.4243
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "DLC_Hotel",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_MAIN",
         "bNeedRedpoint": false,
@@ -34251,7 +33927,7 @@
                 "Yaw": 106.0,
                 "Roll": 0.0
               },
-              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer",
               "CameraRotation": {
                 "Pitch": 0.0,
                 "Yaw": 106.0,
@@ -36804,7 +36480,7 @@
             },
             "NeedShowProgress": false,
             "IntroduceInfo": {
-              "bNeedBeginIntroduce": true,
+              "bNeedBeginIntroduce": false,
               "BeginIntroduceArray": [
                 {
                   "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_maintask.ST_IntroduceMsg_maintask",
@@ -38814,10 +38490,11 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": true,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
+            "ConvoyProtectTime": 30.0,
+            "ConvoyLocation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
             },
             "ObjectiveID": "1",
             "ObjectiveName": {
@@ -38826,7 +38503,7 @@
               "SourceString": "静等空间反转",
               "LocalizedString": "静等空间反转"
             },
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -39253,9 +38930,9 @@
             "TrackInfo": {
               "bForceTrackLocation": false,
               "TrackLocation": {
-                "X": 2762.0186,
-                "Y": -495.6515,
-                "Z": -178.92844
+                "X": 4884.01,
+                "Y": -3690.2388,
+                "Z": 3330.4001
               },
               "fRange": 1000.0,
               "ShowCenter": false,
@@ -39542,19 +39219,20 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": true,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
+            "ConvoyProtectTime": 30.0,
+            "ConvoyLocation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
             },
             "ObjectiveID": "1",
             "ObjectiveName": {
               "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110380_p2_w2_ObjDes_1",
+              "Key": "q110380_p1_w2_ObjDes_1",
               "SourceString": "静等空间反转",
               "LocalizedString": "静等空间反转"
             },
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -39568,7 +39246,7 @@
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110380_p2_w2_ObjDes_1",
+              "Key": "q110380_p1_w2_ObjDes_1",
               "SourceString": "静等空间反转",
               "LocalizedString": "静等空间反转"
             },
@@ -41294,19 +40972,20 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": true,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
+            "ConvoyProtectTime": 30.0,
+            "ConvoyLocation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
             },
             "ObjectiveID": "1",
             "ObjectiveName": {
               "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110380_p3_w2_ObjDes_1",
+              "Key": "q110380_p1_w2_ObjDes_1",
               "SourceString": "静等空间反转",
               "LocalizedString": "静等空间反转"
             },
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -41320,7 +40999,7 @@
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110380_p3_w2_ObjDes_1",
+              "Key": "q110380_p1_w2_ObjDes_1",
               "SourceString": "静等空间反转",
               "LocalizedString": "静等空间反转"
             },
@@ -41950,19 +41629,20 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": true,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
+            "ConvoyProtectTime": 30.0,
+            "ConvoyLocation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
             },
             "ObjectiveID": "1",
             "ObjectiveName": {
               "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110380_p4_w2_ObjDes_1",
+              "Key": "q110380_p1_w2_ObjDes_1",
               "SourceString": "静等空间反转",
               "LocalizedString": "静等空间反转"
             },
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -41976,7 +41656,7 @@
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110380_p4_w2_ObjDes_1",
+              "Key": "q110380_p1_w2_ObjDes_1",
               "SourceString": "静等空间反转",
               "LocalizedString": "静等空间反转"
             },
@@ -42606,19 +42286,20 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": true,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
+            "ConvoyProtectTime": 30.0,
+            "ConvoyLocation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
             },
             "ObjectiveID": "1",
             "ObjectiveName": {
               "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110380_p5_w2_ObjDes_1",
+              "Key": "q110380_p1_w2_ObjDes_1",
               "SourceString": "静等空间反转",
               "LocalizedString": "静等空间反转"
             },
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -42632,7 +42313,7 @@
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110380_p5_w2_ObjDes_1",
+              "Key": "q110380_p1_w2_ObjDes_1",
               "SourceString": "静等空间反转",
               "LocalizedString": "静等空间反转"
             },
@@ -43262,19 +42943,20 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": true,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
+            "ConvoyProtectTime": 30.0,
+            "ConvoyLocation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
             },
             "ObjectiveID": "1",
             "ObjectiveName": {
               "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110380_p6_w2_ObjDes_1",
+              "Key": "q110380_p1_w2_ObjDes_1",
               "SourceString": "静等空间反转",
               "LocalizedString": "静等空间反转"
             },
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -43288,7 +42970,7 @@
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110380_p6_w2_ObjDes_1",
+              "Key": "q110380_p1_w2_ObjDes_1",
               "SourceString": "静等空间反转",
               "LocalizedString": "静等空间反转"
             },
@@ -43413,50 +43095,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "q1103801",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q1103801_ObjDes_1",
-              "SourceString": "收容异象<blue>「回转们外」</>",
-              "LocalizedString": "收容异象<blue>「回转们外」</>"
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q1103801_ObjDes_1",
-              "SourceString": "收容异象<blue>「回转们外」</>",
-              "LocalizedString": "收容异象<blue>「回转们外」</>"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": null,
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_MAIN",
         "bNeedRedpoint": false,
@@ -43519,7 +43158,19 @@
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
         },
-        "ReloadLocation": null,
+        "ReloadLocation": {
+          "LevelName": "DLC_Hotel",
+          "Location": {
+            "X": -870.0,
+            "Y": -50.0,
+            "Z": 40.0
+          },
+          "Rotator": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          }
+        },
         "AdventureManual": null,
         "JumpToUIData": {
           "QuestUIType": "EQuestUIType::QUT_None",
@@ -45452,90 +45103,7 @@
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
-          {
-            "StorySequenceID": "q110388",
-            "bNeedPlaySequenceEnd": true,
-            "bCanAddProgress": true,
-            "bNeedInTargetMap": false,
-            "TargetMap": "",
-            "ObjectiveID": "1",
-            "ObjectiveName": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110388_ObjDes_1",
-              "SourceString": "大厅的神秘氛围……",
-              "LocalizedString": "大厅的神秘氛围……"
-            },
-            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
-            "Amount": 1,
-            "TargetType": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "MonsterTrackIcon": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
-            "TargetTag": "None",
-            "Optional": false,
-            "Description": {
-              "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-              "Key": "q110388_ObjDes_1",
-              "SourceString": "大厅的神秘氛围……",
-              "LocalizedString": "大厅的神秘氛围……"
-            },
-            "CompletedDescription": {
-              "CultureInvariantString": null
-            },
-            "NeedShowProgress": false,
-            "IntroduceInfo": null,
-            "bOnlyInClient": false,
-            "TrackInfo": {
-              "bForceTrackLocation": false,
-              "TrackLocation": {
-                "X": 2281.1682,
-                "Y": -2194.0337,
-                "Z": 12150.303
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "DLC_Hotel",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bNavigationPath": false
-            },
-            "CompleteTeleportID": "None",
-            "CompleteTeleport": {
-              "CompletedTeleportPosition": {
-                "X": 1134.1682,
-                "Y": -2194.0337,
-                "Z": 12088.456
-              },
-              "CompletedRotation": {
-                "Pitch": 0.0,
-                "Yaw": 0.0,
-                "Roll": 0.0
-              },
-              "LoadingUIType": "ETransferLoadingUIType::AutoWaitLoading_FadeOut",
-              "CameraRotation": {
-                "Pitch": -5.0,
-                "Yaw": 1.0,
-                "Roll": 0.0
-              },
-              "bKeepPlayerRotation": false
-            },
-            "CompleteCameraRotation": null,
-            "BuffInfo": null,
-            "CompleteDistance": null
-          }
+          null
         ],
         "QuestType": "EQuestType::EQT_MAIN",
         "bNeedRedpoint": false,
@@ -50707,11 +50275,11 @@
             "TrackInfo": {
               "bForceTrackLocation": false,
               "TrackLocation": {
-                "X": -150901.11,
-                "Y": 166716.7,
-                "Z": 7974.818
+                "X": -151491.69,
+                "Y": 165320.14,
+                "Z": 7874.927
               },
-              "fRange": 1000.0,
+              "fRange": 1500.0,
               "ShowCenter": false,
               "MulTrackLocationArray": [],
               "TrackOffLocation": {
@@ -54972,7 +54540,7 @@
                 "Yaw": -125.0,
                 "Roll": 0.0
               },
-              "LoadingUIType": "ETransferLoadingUIType::AutoWaitLoading_NoUI",
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
               "CameraRotation": {
                 "Pitch": -10.0,
                 "Yaw": -125.0,
@@ -55280,7 +54848,7 @@
                 "Yaw": -125.0,
                 "Roll": 0.0
               },
-              "LoadingUIType": "ETransferLoadingUIType::AutoWaitLoading_NoUI",
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
               "CameraRotation": {
                 "Pitch": -10.0,
                 "Yaw": -125.0,
@@ -56806,7 +56374,7 @@
                 "Yaw": -40.0,
                 "Roll": 0.0
               },
-              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer",
               "CameraRotation": {
                 "Pitch": -5.0,
                 "Yaw": -20.0,
@@ -57420,7 +56988,7 @@
                 "Yaw": 171.0,
                 "Roll": 0.0
               },
-              "LoadingUIType": "ETransferLoadingUIType::AutoWaitLoading_NoUI",
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
               "CameraRotation": {
                 "Pitch": -5.0,
                 "Yaw": 200.0,
@@ -57583,7 +57151,7 @@
                 "Yaw": 180.0,
                 "Roll": 0.0
               },
-              "LoadingUIType": "ETransferLoadingUIType::AutoWaitLoading_NoUI",
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
               "CameraRotation": {
                 "Pitch": -5.0,
                 "Yaw": 180.0,
