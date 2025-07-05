@@ -16855,7 +16855,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 1.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -16999,7 +16999,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 1.1,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -17161,25 +17161,19 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 1.2,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": true,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
-            },
+            "NeedArriveMapName": "",
+            "bNeedTrack": true,
             "ObjectiveID": "1",
             "ObjectiveName": {
-              "Namespace": "",
-              "Key": "C4B651BB496559868A01CDB6FD327474",
-              "SourceString": "【对话】",
-              "LocalizedString": "【对话】"
+              "CultureInvariantString": null
             },
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "ObjectiveType": "EObjectiveType::EOT_ARRIVE_AREA",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -17242,6 +17236,72 @@
                 }
               ]
             },
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": -150193.03,
+                "Y": 122023.375,
+                "Z": 7153.6797
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "XL_map_bigworld_test",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bNavigationPath": false
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null
+          },
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "2",
+            "ObjectiveName": {
+              "Namespace": "",
+              "Key": "C4B651BB496559868A01CDB6FD327474",
+              "SourceString": "【对话】",
+              "LocalizedString": "【对话】"
+            },
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
+              "Key": "L110201_ObjDes_1",
+              "SourceString": "进入<blue>StarSign</>",
+              "LocalizedString": "进入<blue>StarSign</>"
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
               "bForceTrackLocation": true,
@@ -17353,7 +17413,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 2.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -17507,7 +17567,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 3.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -17666,7 +17726,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 3.5,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -17804,7 +17864,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 4.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -17953,7 +18013,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 5.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
@@ -17980,8 +18040,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
               "Key": "L110205_ObjDes_1",
-              "SourceString": "跟<blue>哈尼娅</>一同演奏吧",
-              "LocalizedString": "跟<blue>哈尼娅</>一同演奏吧"
+              "SourceString": "跟<blue>哈尼娅</>一同演奏（通过曲目<blue>Heroic Appearance</>）",
+              "LocalizedString": "跟<blue>哈尼娅</>一同演奏（通过曲目<blue>Heroic Appearance</>）"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -18099,7 +18159,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 6.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -18162,25 +18222,7 @@
               "bNavigationPath": false
             },
             "CompleteTeleportID": "None",
-            "CompleteTeleport": {
-              "CompletedTeleportPosition": {
-                "X": -150393.28,
-                "Y": 122148.53,
-                "Z": 7099.6865
-              },
-              "CompletedRotation": {
-                "Pitch": 0.0,
-                "Yaw": 153.59105,
-                "Roll": 0.0
-              },
-              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer",
-              "CameraRotation": {
-                "Pitch": 0.0,
-                "Yaw": 153.59105,
-                "Roll": 0.0
-              },
-              "bKeepPlayerRotation": false
-            },
+            "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "BuffInfo": null,
             "CompleteDistance": null
@@ -18681,7 +18723,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 10.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -18830,7 +18872,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 12.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
@@ -18857,8 +18899,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
               "Key": "L110212_ObjDes_1",
-              "SourceString": "跟<blue>哈尼娅</>一起练习",
-              "LocalizedString": "跟<blue>哈尼娅</>一起练习"
+              "SourceString": "跟<blue>哈尼娅</>一起练习（通过曲目<blue>Everlasting Dazing Summer（Short Ver.)</>）",
+              "LocalizedString": "跟<blue>哈尼娅</>一起练习（通过曲目<blue>Everlasting Dazing Summer（Short Ver.)</>）"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -18976,7 +19018,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 13.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -19125,7 +19167,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 13.1,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
@@ -19254,7 +19296,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 14.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -19403,7 +19445,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 15.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -19524,7 +19566,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 16.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
@@ -19653,7 +19695,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 17.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -19802,7 +19844,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 18.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -19948,7 +19990,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 19.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -20097,7 +20139,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 20.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
@@ -20124,8 +20166,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
               "Key": "L110220_ObjDes_1",
-              "SourceString": "跟哈尼娅和娜娜莉一起练习",
-              "LocalizedString": "跟哈尼娅和娜娜莉一起练习"
+              "SourceString": "跟哈尼娅和娜娜莉一起练习（通过曲目<blue>Everlasting Dazing Summer</>）",
+              "LocalizedString": "跟哈尼娅和娜娜莉一起练习（通过曲目<blue>Everlasting Dazing Summer</>）"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -20243,7 +20285,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 21.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -20330,7 +20372,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 23.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -20392,7 +20434,7 @@
               "AzimuthIndicatorable": true,
               "bNavigationPath": false
             },
-            "CompleteTeleportID": "L110201_OUTLIVEHOUSE",
+            "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "BuffInfo": null,
@@ -20484,10 +20526,10 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 24.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": true,
+        "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
             "BeginTime": 9.0,
@@ -20605,7 +20647,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 25.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
@@ -20734,7 +20776,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 26.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XiaoYeRongLu",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -20883,13 +20925,13 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 27.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "YuBingJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": false,
+            "bMainQuestAutoSpeak": true,
             "SpecialDialog": {
               "AssetPathName": "",
               "SubPathString": ""
@@ -21032,7 +21074,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 28.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "YuBingJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -21181,7 +21223,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 29.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "YuBingJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
@@ -21310,10 +21352,10 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 30.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": true,
+        "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
             "BeginTime": 13.0,
@@ -21431,7 +21473,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 31.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -21580,7 +21622,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 32.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
@@ -21607,8 +21649,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
               "Key": "L110232_ObjDes_1",
-              "SourceString": "跟哈尼娅和娜娜莉一起练习",
-              "LocalizedString": "跟哈尼娅和娜娜莉一起练习"
+              "SourceString": "跟哈尼娅和娜娜莉一起练习（通过曲目<blue>Destiny</>）",
+              "LocalizedString": "跟哈尼娅和娜娜莉一起练习（通过曲目<blue>Destiny</>）"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -21726,7 +21768,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 33.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -21875,7 +21917,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 34.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -22021,7 +22063,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 35.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -22120,7 +22162,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 37.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -22269,7 +22311,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 38.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XiaoYeRongLu",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -22415,7 +22457,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 40.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XiaoYeRongLu",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -22569,10 +22611,10 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 41.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": true,
+        "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
             "BeginTime": 12.0,
@@ -22690,7 +22732,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 42.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -22839,7 +22881,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 43.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -22985,7 +23027,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 44.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
@@ -23110,7 +23152,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 45.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -23250,7 +23292,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 46.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -23399,7 +23441,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 47.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "KaMeiLuo",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -23433,14 +23475,30 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
-            "IntroduceInfo": null,
+            "IntroduceInfo": {
+              "bNeedBeginIntroduce": true,
+              "BeginIntroduceArray": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Legend.ST_IntroduceMsg_Legend",
+                  "Key": "TAkane01_NPC023_001",
+                  "SourceString": "那俩笨蛋……",
+                  "LocalizedString": "那俩笨蛋……"
+                },
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_Legend.ST_IntroduceMsg_Legend",
+                  "Key": "TAkane01_NPC023_002",
+                  "SourceString": "别出事啊！",
+                  "LocalizedString": "别出事啊！"
+                }
+              ]
+            },
             "bOnlyInClient": false,
             "TrackInfo": {
               "bForceTrackLocation": true,
               "TrackLocation": {
-                "X": -613.1242,
-                "Y": 122618.45,
-                "Z": 6700.0
+                "X": -918.1567,
+                "Y": 122676.52,
+                "Z": 6400.0
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -23518,7 +23576,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1450.0,
+          "LockTime": 1700.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -23545,7 +23603,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 48.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "KaMeiLuo",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -23718,7 +23776,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1450.0,
+          "LockTime": 1700.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -23745,7 +23803,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 49.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "KaMeiLuo",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -23867,7 +23925,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1450.0,
+          "LockTime": 1700.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -23894,7 +23952,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 50.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -24016,7 +24074,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1450.0,
+          "LockTime": 1700.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -24043,7 +24101,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 51.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
@@ -24145,7 +24203,7 @@
         },
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1450.0,
+          "LockTime": 1700.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -24172,10 +24230,10 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 52.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShuiLiZiDaDao",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": true,
+        "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
             "BeginTime": 14.0,
@@ -24293,7 +24351,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 53.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "HaiJiaoJuDan",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -24380,7 +24438,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 55.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "HaiJiaoJuDan",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -24534,7 +24592,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 56.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -24680,7 +24738,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 57.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
@@ -24809,10 +24867,10 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 58.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
-        "bProgressNeedTrack": true,
+        "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
             "BeginTime": 20.0,
@@ -24930,7 +24988,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 59.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "BanJiaoJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -24948,14 +25006,14 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_011/BP_NPC_011_L110201.BP_NPC_011_L110201_C",
               "SubPathString": ""
             },
             "MonsterTrackIcon": {
               "AssetPathName": "",
               "SubPathString": ""
             },
-            "TargetTag": "None",
+            "TargetTag": "BP_NPC_011_L110201",
             "Optional": false,
             "Description": {
               "TableId": "/Game/Text/ST_LegendQuest.ST_LegendQuest",
@@ -24972,9 +25030,9 @@
             "TrackInfo": {
               "bForceTrackLocation": true,
               "TrackLocation": {
-                "X": -90642.64,
-                "Y": 151617.2,
-                "Z": 4125.9033
+                "X": -90551.79,
+                "Y": 151911.38,
+                "Z": 4150.0
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -25079,7 +25137,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 60.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "KuLeNieBuXinJie",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
@@ -25229,7 +25287,7 @@
         "ChapterID": "LC03",
         "ChapterProgress": 61.0,
         "DisplayMapName": "None",
-        "TrackMapName": "XL_map_bigworld_test",
+        "TrackMapName": "DLC_MoonDog",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
@@ -25375,7 +25433,7 @@
         "ChapterID": "LC03",
         "ChapterProgress": 62.0,
         "DisplayMapName": "None",
-        "TrackMapName": "XL_map_bigworld_test",
+        "TrackMapName": "DLC_MoonDog",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
@@ -25524,7 +25582,7 @@
         "ChapterID": "LC03",
         "ChapterProgress": 63.0,
         "DisplayMapName": "None",
-        "TrackMapName": "XL_map_bigworld_test",
+        "TrackMapName": "DLC_MoonDog",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
@@ -25590,7 +25648,7 @@
               "CompletedTeleportPosition": {
                 "X": 0.562057,
                 "Y": -431.46805,
-                "Z": 50.0
+                "Z": -0.796331
               },
               "CompletedRotation": {
                 "Pitch": 0.0,
@@ -25691,7 +25749,7 @@
         "ChapterID": "LC03",
         "ChapterProgress": 64.0,
         "DisplayMapName": "None",
-        "TrackMapName": "XL_map_bigworld_test",
+        "TrackMapName": "DLC_MoonDog",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
@@ -25789,7 +25847,7 @@
         },
         "ChapterID": "LC03",
         "ChapterProgress": 66.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "XiaoYeRongLu",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": true,

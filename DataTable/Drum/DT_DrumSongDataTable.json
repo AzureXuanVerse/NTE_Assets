@@ -483,11 +483,11 @@
         "Requires": [],
         "SpecialTimespan": {
           "LowerBound": {
-            "Type": "ERangeBoundTypes::Inclusive",
+            "Type": "ERangeBoundTypes::Open",
             "Value": 0.0
           },
           "UpperBound": {
-            "Type": "ERangeBoundTypes::Exclusive",
+            "Type": "ERangeBoundTypes::Open",
             "Value": 0.0
           }
         },
@@ -633,7 +633,7 @@
                   },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
-                    "Value": 1.0
+                    "Value": 0.05
                   }
                 },
                 "RateRange": {
@@ -646,7 +646,7 @@
                     "Value": 0.0
                   }
                 },
-                "EventName": "HNY"
+                "EventName": "NNL"
               }
             ]
           },
@@ -661,11 +661,11 @@
                 "PlayProgress": {
                   "LowerBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
-                    "Value": 0.0
+                    "Value": 0.01
                   },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
-                    "Value": 1.0
+                    "Value": 0.05
                   }
                 },
                 "RateRange": {
@@ -678,7 +678,7 @@
                     "Value": 1.0
                   }
                 },
-                "EventName": "NNL"
+                "EventName": "HNY"
               }
             ]
           }
@@ -874,7 +874,7 @@
                   },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
-                    "Value": 1.0
+                    "Value": 0.05
                   }
                 },
                 "RateRange": {
@@ -887,7 +887,7 @@
                     "Value": 0.0
                   }
                 },
-                "EventName": "HNY"
+                "EventName": "NNL"
               }
             ]
           },
@@ -902,11 +902,11 @@
                 "PlayProgress": {
                   "LowerBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
-                    "Value": 0.0
+                    "Value": 0.01
                   },
                   "UpperBound": {
                     "Type": "ERangeBoundTypes::Exclusive",
-                    "Value": 1.0
+                    "Value": 0.05
                   }
                 },
                 "RateRange": {
@@ -919,7 +919,7 @@
                     "Value": 1.0
                   }
                 },
-                "EventName": "NNL"
+                "EventName": "HNY"
               }
             ]
           }
@@ -939,8 +939,8 @@
         "MusicTitle": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Wiku_SongName5",
-          "SourceString": "神必的第五首歌占位",
-          "LocalizedString": "神必的第五首歌占位"
+          "SourceString": "迷星叫",
+          "LocalizedString": "迷星叫"
         },
         "MusicCover": {
           "AssetPathName": "/Game/UI/UI/Wiku/YU_UI_img_music_moondog.YU_UI_img_music_moondog",
