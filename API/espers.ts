@@ -7069,7 +7069,6 @@ export const EsperData = [
             voice_korean: '',
             voice_english: ''
         },
-,
         stars: [],
         equip_slots: {
             desc: 'ST_Equipment.SlotsEffect_3_per',
