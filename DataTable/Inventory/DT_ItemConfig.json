@@ -16693,7 +16693,7 @@
         }
       },
       "Furniture_GachaBox_Blue": {
-        "ItemType": "EItemType::ITEM_TYPE_GACHA_BOX",
+        "ItemType": "EItemType::ITEM_TYPE_SHOWCASE",
         "ItemClassOverride": null,
         "ItemTags": [
           "FIGURES"
@@ -16722,10 +16722,16 @@
         "TimeLimit": null,
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Gacha_Blue_001_usedesc",
+          "SourceString": "心猎铁骑L1系列手办，可以摆放在家里的手办柜中并增加舒适度，收录后增加收藏值。",
+          "LocalizedString": "心猎铁骑L1系列手办，可以摆放在家里的手办柜中并增加舒适度，收录后增加收藏值。"
         },
         "Description": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Gacha_Blue_001_desc",
+          "SourceString": "所谓的英雄，就是要战胜一切邪恶！心猎铁骑L1系列手办，绝赞售卖中！",
+          "LocalizedString": "所谓的英雄，就是要战胜一切邪恶！心猎铁骑L1系列手办，绝赞售卖中！"
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -16747,11 +16753,17 @@
         },
         "ExtensionData": {
           "HandmadeActorClass": {
-            "AssetPathName": "/Game/Blueprints/Level/World/Home/Collection/BP_Collection_Base_Niudan_Blue.BP_Collection_Base_Niudan_Blue_C",
+            "AssetPathName": "",
             "SubPathString": ""
           }
         },
-        "ElementData": null,
+        "ElementData": {
+          "HandmadeActorClass": {
+            "AssetPathName": "/Game/Blueprints/Level/World/Home/Collection/BP_Collection_Base_Niudan_Blue.BP_Collection_Base_Niudan_Blue_C",
+            "SubPathString": ""
+          },
+          "SeriesID": 0
+        },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [],
@@ -16765,7 +16777,7 @@
         }
       },
       "Furniture_GachaBox_Red": {
-        "ItemType": "EItemType::ITEM_TYPE_GACHA_BOX",
+        "ItemType": "EItemType::ITEM_TYPE_SHOWCASE",
         "ItemClassOverride": null,
         "ItemTags": [
           "FIGURES"
@@ -16794,10 +16806,16 @@
         "TimeLimit": null,
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Gacha_Red_001_usedesc",
+          "SourceString": "心猎铁骑L2系列手办，可以摆放在家里的手办柜中并增加舒适度，收录后增加收藏值。",
+          "LocalizedString": "心猎铁骑L2系列手办，可以摆放在家里的手办柜中并增加舒适度，收录后增加收藏值。"
         },
         "Description": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Gacha_Red_001_desc",
+          "SourceString": "所谓的英雄，就是要肩负一切责任！心猎铁骑L2系列手办，绝赞售卖中！",
+          "LocalizedString": "所谓的英雄，就是要肩负一切责任！心猎铁骑L2系列手办，绝赞售卖中！"
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -16819,11 +16837,17 @@
         },
         "ExtensionData": {
           "HandmadeActorClass": {
-            "AssetPathName": "/Game/Blueprints/Level/World/Home/Collection/BP_Collection_Base_Niudan_Red.BP_Collection_Base_Niudan_Red_C",
+            "AssetPathName": "",
             "SubPathString": ""
           }
         },
-        "ElementData": null,
+        "ElementData": {
+          "HandmadeActorClass": {
+            "AssetPathName": "/Game/Blueprints/Level/World/Home/Collection/BP_Collection_Base_Niudan_Red.BP_Collection_Base_Niudan_Red_C",
+            "SubPathString": ""
+          },
+          "SeriesID": 0
+        },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [],
@@ -16837,7 +16861,7 @@
         }
       },
       "Furniture_GachaBox_Pink": {
-        "ItemType": "EItemType::ITEM_TYPE_GACHA_BOX",
+        "ItemType": "EItemType::ITEM_TYPE_SHOWCASE",
         "ItemClassOverride": null,
         "ItemTags": [
           "FIGURES"
@@ -16866,10 +16890,16 @@
         "TimeLimit": null,
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Gacha_Pink_001_usedesc",
+          "SourceString": "心猎铁骑L3系列手办，可以摆放在家里的手办柜中并增加舒适度，收录后增加收藏值。",
+          "LocalizedString": "心猎铁骑L3系列手办，可以摆放在家里的手办柜中并增加舒适度，收录后增加收藏值。"
         },
         "Description": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Gacha_Pink_001_desc",
+          "SourceString": "所谓的英雄，就是要守护一切梦想！心猎铁骑L3系列手办，绝赞售卖中！",
+          "LocalizedString": "所谓的英雄，就是要守护一切梦想！心猎铁骑L3系列手办，绝赞售卖中！"
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -16891,11 +16921,17 @@
         },
         "ExtensionData": {
           "HandmadeActorClass": {
-            "AssetPathName": "/Game/Blueprints/Level/World/Home/Collection/BP_Collection_Base_Niudan_Pink.BP_Collection_Base_Niudan_Pink_C",
+            "AssetPathName": "",
             "SubPathString": ""
           }
         },
-        "ElementData": null,
+        "ElementData": {
+          "HandmadeActorClass": {
+            "AssetPathName": "/Game/Blueprints/Level/World/Home/Collection/BP_Collection_Base_Niudan_Pink.BP_Collection_Base_Niudan_Pink_C",
+            "SubPathString": ""
+          },
+          "SeriesID": 0
+        },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [],
@@ -16909,7 +16945,7 @@
         }
       },
       "Furniture_GachaBox_eri": {
-        "ItemType": "EItemType::ITEM_TYPE_GACHA_BOX",
+        "ItemType": "EItemType::ITEM_TYPE_SHOWCASE",
         "ItemClassOverride": null,
         "ItemTags": [
           "FIGURES"
@@ -16938,10 +16974,16 @@
         "TimeLimit": null,
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Gacha_eri_001_usedesc",
+          "SourceString": "「邂逅~银月圆舞会」系列手办，可以摆放在家里的手办柜中，收录后增加收藏值，摆放在家中可增加舒适度。",
+          "LocalizedString": "「邂逅~银月圆舞会」系列手办，可以摆放在家里的手办柜中，收录后增加收藏值，摆放在家中可增加舒适度。"
         },
         "Description": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Gacha_eri_001_desc",
+          "SourceString": "以「邂逅~银月圆舞会」中的高人气角色浅绯祈为原型设计的玩偶，做工细腻，布料考究，渐变色的涂装宛若月光下轻盈的圆舞曲，让人一见倾心。",
+          "LocalizedString": "以「邂逅~银月圆舞会」中的高人气角色浅绯祈为原型设计的玩偶，做工细腻，布料考究，渐变色的涂装宛若月光下轻盈的圆舞曲，让人一见倾心。"
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -16963,11 +17005,17 @@
         },
         "ExtensionData": {
           "HandmadeActorClass": {
-            "AssetPathName": "/Game/Blueprints/Level/World/Home/Collection/BP_Collection_Base_Niudan_eri.BP_Collection_Base_Niudan_eri_C",
+            "AssetPathName": "",
             "SubPathString": ""
           }
         },
-        "ElementData": null,
+        "ElementData": {
+          "HandmadeActorClass": {
+            "AssetPathName": "/Game/Blueprints/Level/World/Home/Collection/BP_Collection_Base_Niudan_eri.BP_Collection_Base_Niudan_eri_C",
+            "SubPathString": ""
+          },
+          "SeriesID": 0
+        },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [],
@@ -16981,7 +17029,7 @@
         }
       },
       "Furniture_GachaBox_MiniBlack": {
-        "ItemType": "EItemType::ITEM_TYPE_GACHA_BOX",
+        "ItemType": "EItemType::ITEM_TYPE_SHOWCASE",
         "ItemClassOverride": null,
         "ItemTags": [
           "FIGURES"
@@ -17010,10 +17058,16 @@
         "TimeLimit": null,
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Gacha_MiniBlack_001_usedesc",
+          "SourceString": "暴走棉绒绒系列手办，可以摆放在家里的手办柜中并增加舒适度，收录后增加收藏值。",
+          "LocalizedString": "暴走棉绒绒系列手办，可以摆放在家里的手办柜中并增加舒适度，收录后增加收藏值。"
         },
         "Description": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Gacha_MiniBlack_001_desc",
+          "SourceString": "摆出奇怪造型的暴走棉绒绒。外观狂放不羁，但手感很好。DSD潮玩店温馨提示：虽然异象联名系列潮玩并不会二次变身，保存时还请远离火源。",
+          "LocalizedString": "摆出奇怪造型的暴走棉绒绒。外观狂放不羁，但手感很好。DSD潮玩店温馨提示：虽然异象联名系列潮玩并不会二次变身，保存时还请远离火源。"
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -17035,11 +17089,17 @@
         },
         "ExtensionData": {
           "HandmadeActorClass": {
-            "AssetPathName": "/Game/Blueprints/Level/World/Home/Collection/BP_Collection_Base_Niudan_Miniblack.BP_Collection_Base_Niudan_Miniblack_C",
+            "AssetPathName": "",
             "SubPathString": ""
           }
         },
-        "ElementData": null,
+        "ElementData": {
+          "HandmadeActorClass": {
+            "AssetPathName": "/Game/Blueprints/Level/World/Home/Collection/BP_Collection_Base_Niudan_Miniblack.BP_Collection_Base_Niudan_Miniblack_C",
+            "SubPathString": ""
+          },
+          "SeriesID": 0
+        },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [],
@@ -44354,8 +44414,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "SmallPoster006_usedesc",
-          "SourceString": "装饰家里墙壁的画，收录后增加收藏值，摆放在家中可增加舒适度。也可以摆放在咖啡厅中，增加该店所有菜品0.1方斯售价。",
-          "LocalizedString": "装饰家里墙壁的画，收录后增加收藏值，摆放在家中可增加舒适度。也可以摆放在咖啡厅中，增加该店所有菜品0.1方斯售价。"
+          "SourceString": "装饰家里墙壁的画，收录后增加收藏值，摆放在家中可增加舒适度。也可以摆放在咖啡厅中，增加该店50人气值。",
+          "LocalizedString": "装饰家里墙壁的画，收录后增加收藏值，摆放在家中可增加舒适度。也可以摆放在咖啡厅中，增加该店50人气值。"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
