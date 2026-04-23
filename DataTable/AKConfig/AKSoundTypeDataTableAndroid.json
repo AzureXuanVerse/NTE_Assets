@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "AKSoundTypeDataTableAndroid",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/AKConfig/AKSoundTypeDataTableAndroid",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'AKSoundLimitCountRow'",
@@ -53,7 +54,7 @@
       },
       "NewRow_2": {
         "SoundObjectName": "Vehicle",
-        "MaxLimitCount": 8,
+        "MaxLimitCount": 16,
         "Commont": "玩家载具"
       },
       "NewRow_3": {

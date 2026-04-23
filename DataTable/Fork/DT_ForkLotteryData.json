@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_ForkLotteryData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Fork/DT_ForkLotteryData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'StaticForkLotteryData'",
@@ -14,8 +15,12 @@
       "1": {
         "PoolIDMap": [
           {
-            "Key": "1",
-            "Value": "1"
+            "Key": "ForkLottery_Nanali",
+            "Value": "ForkLottery_Nanali"
+          },
+          {
+            "Key": "ForkLottery_Xun",
+            "Value": "ForkLottery_Xun"
           }
         ],
         "LevelInstance": {

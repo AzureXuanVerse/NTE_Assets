@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_quest_prologue_wzy",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_quest_prologue_wzy",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'QuestData'",
@@ -442,6 +443,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -2588,6 +2590,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -3156,7 +3159,7 @@
           "AwardGroupID": "drop_mainquest_q110050",
           "SimpleAwards": [],
           "bShowAwardWindow": false,
-          "bShowInPanel": true
+          "bShowInPanel": false
         },
         "QuestTimeLock": {
           "LockTime": 900.0,
@@ -3236,6 +3239,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -3335,7 +3339,7 @@
           "AwardGroupID": "drop_mainquest_q110052",
           "SimpleAwards": [],
           "bShowAwardWindow": false,
-          "bShowInPanel": true
+          "bShowInPanel": false
         },
         "QuestTimeLock": {
           "LockTime": 1000.0,
@@ -3548,7 +3552,29 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -90680.0,
+                "Y": 151057.0,
+                "Z": 4136.1777
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "XL_map_bigworld_test",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -3657,6 +3683,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -4178,7 +4205,7 @@
           "AwardGroupID": "drop_mainquest_q110057",
           "SimpleAwards": [],
           "bShowAwardWindow": false,
-          "bShowInPanel": true
+          "bShowInPanel": false
         },
         "QuestTimeLock": null,
         "QuestWeatherLock": {
@@ -5894,7 +5921,7 @@
           "AwardGroupID": "drop_mainquest_q110066",
           "SimpleAwards": [],
           "bShowAwardWindow": false,
-          "bShowInPanel": true
+          "bShowInPanel": false
         },
         "QuestTimeLock": {
           "LockTime": 1700.0,
@@ -5935,6 +5962,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -8431,6 +8459,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "3",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -8643,6 +8672,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -8855,6 +8885,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -9066,6 +9097,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -9306,6 +9338,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -9729,6 +9762,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "3",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -10919,6 +10953,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -10960,6 +10995,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "3",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -11028,12 +11064,6 @@
                   "Key": "MT_P00_NPC011_018",
                   "SourceString": "可恶啊，线索又中断了！",
                   "LocalizedString": "可恶啊，线索又中断了！"
-                },
-                {
-                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg.ST_IntroduceMsg",
-                  "Key": "MT_P00_NPC010_014",
-                  "SourceString": "去三楼再看看吧。",
-                  "LocalizedString": "去三楼再看看吧。"
                 }
               ]
             },
@@ -11185,7 +11215,17 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
-            "IntroduceInfo": null,
+            "IntroduceInfo": {
+              "bNeedBeginIntroduce": true,
+              "BeginIntroduceArray": [
+                {
+                  "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg.ST_IntroduceMsg",
+                  "Key": "MT_P00_NPC010_014",
+                  "SourceString": "去三楼再看看吧。",
+                  "LocalizedString": "去三楼再看看吧。"
+                }
+              ]
+            },
             "bOnlyInClient": false,
             "TrackInfo": {
               "bForceTrackLocation": true,
@@ -12306,6 +12346,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -12664,6 +12705,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -14511,6 +14553,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -14897,6 +14940,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "5",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -15397,11 +15441,11 @@
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
-              "bForceTrackLocation": false,
+              "bForceTrackLocation": true,
               "TrackLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
+                "X": 10032.43,
+                "Y": -21691.072,
+                "Z": 19.147926
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -15433,6 +15477,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -16071,6 +16116,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -16120,7 +16166,7 @@
               "AzimuthIndicatorable": true,
               "bShowNavigationPath": true
             },
-            "CompleteTeleportID": "None",
+            "CompleteTeleportID": "HMLoading_q110081",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "BuffInfo": null,
@@ -16172,7 +16218,7 @@
         "QuestResetTime": null,
         "FailedData": null,
         "NextQuests": [
-          "q110082"
+          "q110083"
         ],
         "bAutoNext": true,
         "NeedSubmit": false,
@@ -16214,13 +16260,10 @@
       "q110082": {
         "QuestId": "q110082",
         "QuestName": {
-          "TableId": "/Game/Text/ST_Mainquest_prologue.ST_Mainquest_prologue",
-          "Key": "q110082_QuestName",
-          "SourceString": "真凶现身",
-          "LocalizedString": "真凶现身"
+          "CultureInvariantString": "【删】黑幕改成loading界面了在q110081"
         },
-        "ChapterID": "MP02",
-        "ChapterProgress": 87.0,
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
         "DisplayMapName": "ZhaoXiangGuan",
         "TrackMapName": "DLC_FilmOrbit_map_WP",
         "bNeedCrossBox": false,
@@ -16234,7 +16277,7 @@
             "bNeedInTargetMap": true,
             "TargetMap": "DLC_FilmOrbit_map_WP",
             "ObjectiveID": "1",
-            "ObjectiveTips": "",
+            "ObjectiveTips": "删除2026.2.9",
             "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
             "Amount": 1,
             "TargetType": {
@@ -16259,49 +16302,9 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": true,
-            "TrackInfo": {
-              "bForceTrackLocation": false,
-              "TrackLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "fRange": 0.0,
-              "ShowCenter": false,
-              "MulTrackLocationArray": [],
-              "TrackOffLocation": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "TrackMapName": "DLC_FilmOrbit_map_WP",
-              "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
-              "bNeedPassParking": false,
-              "VehicleParkingArray": [],
-              "AzimuthIndicatorable": true,
-              "bShowNavigationPath": true
-            },
+            "TrackInfo": null,
             "CompleteTeleportID": "None",
-            "CompleteTeleport": {
-              "CompletedTeleportPosition": {
-                "X": 38214.812,
-                "Y": -2666.186,
-                "Z": 13059.983
-              },
-              "CompletedRotation": {
-                "Pitch": 0.0,
-                "Yaw": 1.0,
-                "Roll": 0.0
-              },
-              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer",
-              "CameraRotation": {
-                "Pitch": 0.0,
-                "Yaw": 1.0,
-                "Roll": 0.0
-              },
-              "bKeepPlayerRotation": false
-            },
+            "CompleteTeleport": null,
             "CompleteCameraRotation": null,
             "BuffInfo": null,
             "CompleteDistance": null,
@@ -16462,6 +16465,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -16524,7 +16528,7 @@
         "TrackConditionList": [],
         "PreQuests": [
           {
-            "PreQuestName": "q110082",
+            "PreQuestName": "q110081",
             "ObjectiveID": "1"
           }
         ],
@@ -17034,7 +17038,7 @@
           "AwardGroupID": "drop_mainquest_q110085",
           "SimpleAwards": [],
           "bShowAwardWindow": false,
-          "bShowInPanel": true
+          "bShowInPanel": false
         },
         "QuestTimeLock": {
           "LockTime": 2400.0,
@@ -18217,6 +18221,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -18770,6 +18775,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -18927,6 +18933,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -19984,6 +19991,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -21496,6 +21504,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -22005,6 +22014,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -23913,6 +23923,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -23949,8 +23960,8 @@
                 {
                   "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_maintask.ST_IntroduceMsg_maintask",
                   "Key": "MT01_03_NPC017_002",
-                  "SourceString": "现代艺术大师<blue>拉赫曼</>参与设计，商船从世界各地运输珍惜物料，不计资金和人力投入，让酒店得以在一年内完工。",
-                  "LocalizedString": "现代艺术大师<blue>拉赫曼</>参与设计，商船从世界各地运输珍惜物料，不计资金和人力投入，让酒店得以在一年内完工。"
+                  "SourceString": "现代艺术大师<blue>拉赫曼</>参与设计，商船从世界各地运输珍稀物料，不计资金和人力投入，让酒店得以在一年内完工。",
+                  "LocalizedString": "现代艺术大师<blue>拉赫曼</>参与设计，商船从世界各地运输珍稀物料，不计资金和人力投入，让酒店得以在一年内完工。"
                 },
                 {
                   "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_maintask.ST_IntroduceMsg_maintask",
@@ -24729,6 +24740,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -25017,6 +25029,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -25186,6 +25199,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -28215,14 +28229,16 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "bMainQuestAutoSpeak": true,
-            "SpecialDialog": {
-              "AssetPathName": "",
-              "SubPathString": ""
+            "ConvoyProtectTime": 15.0,
+            "ConvoyLocation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
-            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "ObjectiveType": "EObjectiveType::EOT_CONVOY",
             "Amount": 1,
             "TargetType": {
               "AssetPathName": "",
@@ -28914,12 +28930,13 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "ConvoyProtectTime": 2.0,
+            "ConvoyProtectTime": 1.0,
             "ConvoyLocation": {
               "X": 0.0,
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -29297,12 +29314,13 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "ConvoyProtectTime": 2.0,
+            "ConvoyProtectTime": 1.0,
             "ConvoyLocation": {
               "X": 0.0,
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -29680,12 +29698,13 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "ConvoyProtectTime": 2.0,
+            "ConvoyProtectTime": 1.0,
             "ConvoyLocation": {
               "X": 0.0,
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -29868,6 +29887,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -30728,6 +30748,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -31466,6 +31487,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -32014,6 +32036,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -32134,6 +32157,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -32253,6 +32277,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -32490,6 +32515,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -32729,12 +32755,13 @@
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "ConvoyProtectTime": 10.0,
+            "ConvoyProtectTime": 3.0,
             "ConvoyLocation": {
               "X": 0.0,
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -33342,6 +33369,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -33771,6 +33799,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -35528,7 +35557,7 @@
             },
             "bOnlyInClient": false,
             "TrackInfo": {
-              "bForceTrackLocation": true,
+              "bForceTrackLocation": false,
               "TrackLocation": {
                 "X": -255.59755,
                 "Y": 6895.233,
@@ -37057,6 +37086,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -37562,6 +37592,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -37948,6 +37979,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -38268,9 +38300,9 @@
         "ReloadLocation": {
           "LevelName": "DLC_Hotel",
           "Location": {
-            "X": -635.9637,
-            "Y": 6217.0806,
-            "Z": -5701.9463
+            "X": -3731.5483,
+            "Y": -2213.7063,
+            "Z": -5546.485
           },
           "Rotator": {
             "Pitch": 0.0,
@@ -38307,6 +38339,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -38644,6 +38677,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -40034,6 +40068,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -40775,6 +40810,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -41659,6 +41695,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -42552,6 +42589,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -43225,6 +43263,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -43898,6 +43937,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -44571,6 +44611,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -45913,6 +45954,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -46268,6 +46310,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -48137,7 +48180,8 @@
         "QuestResetTime": null,
         "FailedData": null,
         "NextQuests": [
-          "L110201_F"
+          "L110201_F",
+          "q110400"
         ],
         "bAutoNext": true,
         "NeedSubmit": false,
@@ -48491,6 +48535,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -50621,6 +50666,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -50933,6 +50979,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -51592,6 +51639,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -51898,6 +51946,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -52042,12 +52091,13 @@
         "bProgressNeedTrack": true,
         "ObjectivesInfo": [
           {
-            "ConvoyProtectTime": 3.0,
+            "ConvoyProtectTime": 1.0,
             "ConvoyLocation": {
               "X": 0.0,
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -52356,6 +52406,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -52991,6 +53042,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "3",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -53430,6 +53482,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "3",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -53807,6 +53860,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -54022,6 +54076,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -54327,6 +54382,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -54480,6 +54536,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -55729,6 +55786,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -55940,6 +55998,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "2",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -59688,7 +59747,11 @@
         "bCanMainQuestChangeTrack": false,
         "LikeabilityData": null,
         "QuestAward": null,
-        "QuestTimeLock": null,
+        "QuestTimeLock": {
+          "LockTime": 1000.0,
+          "TransitionSpeed": 2.0,
+          "ProtectTimeSeconds": 600.0
+        },
         "QuestWeatherLock": {
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
@@ -59840,7 +59903,11 @@
         "bCanMainQuestChangeTrack": false,
         "LikeabilityData": null,
         "QuestAward": null,
-        "QuestTimeLock": null,
+        "QuestTimeLock": {
+          "LockTime": 1000.0,
+          "TransitionSpeed": 2.0,
+          "ProtectTimeSeconds": 600.0
+        },
         "QuestWeatherLock": {
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
@@ -59992,7 +60059,11 @@
         "bCanMainQuestChangeTrack": false,
         "LikeabilityData": null,
         "QuestAward": null,
-        "QuestTimeLock": null,
+        "QuestTimeLock": {
+          "LockTime": 1000.0,
+          "TransitionSpeed": 2.0,
+          "ProtectTimeSeconds": 600.0
+        },
         "QuestWeatherLock": {
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
@@ -60154,7 +60225,11 @@
         "bCanMainQuestChangeTrack": false,
         "LikeabilityData": null,
         "QuestAward": null,
-        "QuestTimeLock": null,
+        "QuestTimeLock": {
+          "LockTime": 1000.0,
+          "TransitionSpeed": 2.0,
+          "ProtectTimeSeconds": 600.0
+        },
         "QuestWeatherLock": {
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
@@ -60309,7 +60384,11 @@
           "bShowAwardWindow": false,
           "bShowInPanel": true
         },
-        "QuestTimeLock": null,
+        "QuestTimeLock": {
+          "LockTime": 1000.0,
+          "TransitionSpeed": 2.0,
+          "ProtectTimeSeconds": 600.0
+        },
         "QuestWeatherLock": {
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
@@ -60400,8 +60479,8 @@
         "QuestName": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111201_QuestName",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "千载难逢的投资机会？",
+          "LocalizedString": "千载难逢的投资机会？"
         },
         "ChapterID": "SU037_01",
         "ChapterProgress": 1.0,
@@ -60433,8 +60512,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
               "Key": "K111201_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": null
+              "SourceString": "前往<blue>纳库佩达公园</>",
+              "LocalizedString": "前往<blue>纳库佩达公园</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -60491,8 +60570,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111201_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "店长说纳库佩达公园里有「千载难逢的投资机会」，过去看看情况吧。",
+          "LocalizedString": "店长说纳库佩达公园里有「千载难逢的投资机会」，过去看看情况吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -60547,8 +60626,8 @@
         "QuestName": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111202_QuestName",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "低成本、高收益！",
+          "LocalizedString": "低成本、高收益！"
         },
         "ChapterID": "SU037_01",
         "ChapterProgress": 2.0,
@@ -60580,8 +60659,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
               "Key": "K111202_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": null
+              "SourceString": "和<blue>浔</>交谈",
+              "LocalizedString": "和<blue>浔</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -60638,8 +60717,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111202_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "所谓的投资机会，究竟是……",
+          "LocalizedString": "所谓的投资机会，究竟是……"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -60781,8 +60860,8 @@
         "QuestName": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111211_QuestName",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "走丢的店长",
+          "LocalizedString": "走丢的店长"
         },
         "ChapterID": "SU037_02",
         "ChapterProgress": 1.0,
@@ -60814,8 +60893,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
               "Key": "K111211_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": null
+              "SourceString": "前往<blue>未闻浦车站站台</>",
+              "LocalizedString": "前往<blue>未闻浦车站站台</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -60872,8 +60951,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111211_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "浔在未闻浦站台，据路人说她有些神志不清……去那里接她回来吧。",
+          "LocalizedString": "浔在未闻浦站台，据路人说她有些神志不清……去那里接她回来吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -60932,8 +61011,8 @@
         "QuestName": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111212_QuestName",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "询问情况",
+          "LocalizedString": "询问情况"
         },
         "ChapterID": "SU037_02",
         "ChapterProgress": 2.0,
@@ -60965,8 +61044,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
               "Key": "K111212_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": null
+              "SourceString": "和<blue>路人</>交谈",
+              "LocalizedString": "和<blue>路人</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -61023,8 +61102,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111212_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "向好心路人询问一下店长的情况……",
+          "LocalizedString": "向好心路人询问一下店长的情况……"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -61088,8 +61167,8 @@
         "QuestName": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111213_QuestName",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "醉倒的店长",
+          "LocalizedString": "醉倒的店长"
         },
         "ChapterID": "SU037_02",
         "ChapterProgress": 3.0,
@@ -61121,8 +61200,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
               "Key": "K111213_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": null
+              "SourceString": "查看<blue>浔</>的情况",
+              "LocalizedString": "查看<blue>浔</>的情况"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -61179,8 +61258,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111213_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "不知道店长现在的状况如何……",
+          "LocalizedString": "不知道店长现在的状况如何……"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -61244,8 +61323,8 @@
         "QuestName": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111214_QuestName",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "等待日出……",
+          "LocalizedString": "等待日出……"
         },
         "ChapterID": "SU037_02",
         "ChapterProgress": 4.0,
@@ -61277,8 +61356,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
               "Key": "K111214_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": null
+              "SourceString": "在站台上等待<blue>日出</>",
+              "LocalizedString": "在站台上等待<blue>日出</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -61335,8 +61414,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111214_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "已经快到日出时间了，不如看完日出再走吧。",
+          "LocalizedString": "已经快到日出时间了，不如看完日出再走吧。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -61400,8 +61479,8 @@
         "QuestName": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111215_QuestName",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "意外事件",
+          "LocalizedString": "意外事件"
         },
         "ChapterID": "SU037_02",
         "ChapterProgress": 5.0,
@@ -61433,8 +61512,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
               "Key": "K111215_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": null
+              "SourceString": "与<blue>达芙蒂尔</>交谈",
+              "LocalizedString": "与<blue>达芙蒂尔</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -61491,8 +61570,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111215_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "达芙蒂尔急匆匆地赶到……",
+          "LocalizedString": "达芙蒂尔急匆匆地赶到……"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -61556,8 +61635,8 @@
         "QuestName": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111216_QuestName",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "日出时刻",
+          "LocalizedString": "日出时刻"
         },
         "ChapterID": "SU037_02",
         "ChapterProgress": 6.0,
@@ -61590,8 +61669,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
               "Key": "K111216_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": null
+              "SourceString": "日出时刻",
+              "LocalizedString": "日出时刻"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -61673,8 +61752,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111216_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "太阳升起，新的一天开始了。",
+          "LocalizedString": "太阳升起，新的一天开始了。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -61738,8 +61817,8 @@
         "QuestName": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111217_QuestName",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "日出之后……",
+          "LocalizedString": "日出之后……"
         },
         "ChapterID": "SU037_02",
         "ChapterProgress": 7.0,
@@ -61771,8 +61850,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
               "Key": "K111217_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": null
+              "SourceString": "与<blue>浔</>交谈",
+              "LocalizedString": "与<blue>浔</>交谈"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -61829,8 +61908,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111217_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "是时候面对新的一天了。",
+          "LocalizedString": "是时候面对新的一天了。"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -61976,8 +62055,8 @@
         "QuestName": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111221_QuestName",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "藏宝密函",
+          "LocalizedString": "藏宝密函"
         },
         "ChapterID": "SU037_03",
         "ChapterProgress": 1.0,
@@ -62006,8 +62085,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
               "Key": "K111221_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": null
+              "SourceString": "去往<blue>伊波恩后院</>看看",
+              "LocalizedString": "去往<blue>伊波恩后院</>看看"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -62064,8 +62143,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111221_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "浔需要鉴定师来「搭把手」？",
+          "LocalizedString": "浔需要鉴定师来「搭把手」？"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -62120,8 +62199,8 @@
         "QuestName": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111222_QuestName",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "准备挖宝吧！",
+          "LocalizedString": "准备挖宝吧！"
         },
         "ChapterID": "SU037_03",
         "ChapterProgress": 2.0,
@@ -62153,8 +62232,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
               "Key": "K111222_ObjDes_1",
-              "SourceString": null,
-              "LocalizedString": null
+              "SourceString": "给<blue>浔</>「搭把手」",
+              "LocalizedString": "给<blue>浔</>「搭把手」"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -62211,8 +62290,8 @@
         "PanelDescription": {
           "TableId": "/Game/Text/ST_SideQuest_wzy.ST_SideQuest_wzy",
           "Key": "K111222_QuestPanel",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "「宝物」竟然是……",
+          "LocalizedString": "「宝物」竟然是……"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,

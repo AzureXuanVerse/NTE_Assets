@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "1055AwakenEffect",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/Awaken/1055AwakenEffect",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CharacterAwakenEffectData'",
@@ -69,8 +70,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
               "Key": "GA_Kuhara_star2_des",
-              "SourceString": "<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的伤害倍率提升 <NumGreen>100%</>。每当触发<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaBudBoom\">「致约清算」</>，会按该玫约已累积的总伤害的<NumGreen>20%</>，为全队回复生命值。",
-              "LocalizedString": "<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的伤害倍率提升 <NumGreen>100%</>。每当触发<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaBudBoom\">「致约清算」</>，会按该玫约已累积的总伤害的<NumGreen>20%</>，为全队回复生命值。"
+              "SourceString": "<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的伤害倍率提升 <NumGreen>100%</>。释放「极轨终结：终局清账」触发<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaBudBoom\">「致约清算」</>，会按该玫约已累积的总伤害的<NumGreen>5%</>，为全队回复生命值。",
+              "LocalizedString": "<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的伤害倍率提升 <NumGreen>100%</>。释放「极轨终结：终局清账」触发<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaBudBoom\">「致约清算」</>，会按该玫约已累积的总伤害的<NumGreen>5%</>，为全队回复生命值。"
             }
           },
           {
@@ -99,8 +100,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
               "Key": "GA_Kuhara_star3_des",
-              "SourceString": "主动触发<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaBudBoom\">「致约清算」</>时，对清算目标额外扣除<NumGreen>4</>点倾陷值。",
-              "LocalizedString": "主动触发<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaBudBoom\">「致约清算」</>时，对清算目标额外扣除<NumGreen>4</>点倾陷值。"
+              "SourceString": "释放「极轨终结：终局清账」触发<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaBudBoom\">「致约清算」</>时，对清算目标额外扣除<NumGreen>4</>点倾陷值。",
+              "LocalizedString": "释放「极轨终结：终局清账」触发<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaBudBoom\">「致约清算」</>时，对清算目标额外扣除<NumGreen>4</>点倾陷值。"
             }
           },
           {
@@ -254,8 +255,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
               "Key": "GA_Kuhara_starExtra2_des",
-              "SourceString": "缔结<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的目标，灵属性异能抗性降低 <NumGreen>12%</>。",
-              "LocalizedString": "缔结<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的目标，灵属性异能抗性降低 <NumGreen>12%</>。"
+              "SourceString": "缔结<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的目标，灵属性异能抗性降低 <NumGreen>10%</>。",
+              "LocalizedString": "缔结<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的目标，灵属性异能抗性降低 <NumGreen>10%</>。"
             }
           }
         ]

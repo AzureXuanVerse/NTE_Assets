@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_LevelConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_LevelConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'LevelConfigData'",
@@ -30,6 +31,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -57,6 +59,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -70,7 +73,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "XL_map_bigworld_test": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -91,6 +95,7 @@
           "bEnableTrackTeammate": true,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -122,6 +127,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -135,7 +141,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Castle_Demo": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -156,6 +163,7 @@
           "bEnableTrackTeammate": true,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": {
@@ -195,6 +203,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -208,7 +217,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "TestMap_yaoql": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -229,6 +239,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -256,6 +267,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -269,7 +281,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_FilmOrbit_map_WP": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -296,6 +309,7 @@
           "bEnableTrackTeammate": true,
           "LimitTrackChapterID": "MP02"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": false,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": {
@@ -337,6 +351,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -350,7 +365,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_hotel": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -377,6 +393,7 @@
           "bEnableTrackTeammate": true,
           "LimitTrackChapterID": "MU01_03"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": false,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": {
@@ -418,6 +435,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -431,7 +449,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_SpiralDreams": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -458,7 +477,8 @@
           "bEnableTrackTeammate": true,
           "LimitTrackChapterID": "MU01_05"
         },
-        "bCanVines": false,
+        "bShowTeammateTrack": false,
+        "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": {
           "ExitMapName": "",
@@ -497,6 +517,7 @@
         "bLimitCanJinEffect": true,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -510,7 +531,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "testwyan": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -531,6 +553,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -561,6 +584,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -574,7 +598,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Hockshop": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -601,6 +626,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "MU01_01"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": {
@@ -642,6 +668,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -655,7 +682,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_MoonDog": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -682,6 +710,7 @@
           "bEnableTrackTeammate": true,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": false,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": {
@@ -723,6 +752,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -736,7 +766,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "Zhuqing_level_WP": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -757,6 +788,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -784,6 +816,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -797,7 +830,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "Testmap_liuyang": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -818,6 +852,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -845,6 +880,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -858,7 +894,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Battle_WP": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -879,6 +916,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": false,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -906,6 +944,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -919,7 +958,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Battle_WP1": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -940,6 +980,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": false,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -967,6 +1008,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -980,7 +1022,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Battle_WP2": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -1001,6 +1044,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": false,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -1028,6 +1072,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -1041,7 +1086,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Battle_WP3": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -1062,6 +1108,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": false,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -1089,6 +1136,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -1102,7 +1150,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "Updater_P": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_UPDATER",
@@ -1123,6 +1172,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -1150,6 +1200,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -1163,7 +1214,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "MassAI_wtao": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -1184,6 +1236,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -1211,6 +1264,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -1224,7 +1278,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "Testmap_cc2": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -1245,6 +1300,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -1272,6 +1328,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -1285,10 +1342,11 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "FilmOrbit_map_WP_World": {
-        "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
         "Title": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_FilmOrbit_map_Title",
@@ -1312,6 +1370,7 @@
           "bEnableTrackTeammate": true,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": false,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": {
@@ -1330,8 +1389,8 @@
         "MapEntranceList": [
           "BigWorld_To_FilmOrbit_World"
         ],
-        "ShieldUIFlags": 0,
-        "ShieldFunctionID": "None",
+        "ShieldUIFlags": 1,
+        "ShieldFunctionID": "StoryClone",
         "bLimitCloneEffect": true,
         "bLimitCanVault": false,
         "bLimitCanVines": true,
@@ -1353,6 +1412,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -1366,7 +1426,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Hockshop_week": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -1387,6 +1448,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -1414,6 +1476,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -1427,15 +1490,22 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_RT_C1": {
-        "SceneType": "ELevelSceneType::LEVEL_TYPE_RACING_1V1",
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_RACING_PVP",
         "Title": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_RT_C1",
+          "SourceString": "城际巡回",
+          "LocalizedString": "城际巡回"
         },
         "Description": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_RT_C1",
+          "SourceString": "城际巡回",
+          "LocalizedString": "城际巡回"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -1448,12 +1518,13 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
         "MapEntranceList": [],
-        "ShieldUIFlags": 0,
-        "ShieldFunctionID": "None",
+        "ShieldUIFlags": 1,
+        "ShieldFunctionID": "RacingPVP",
         "bLimitCloneEffect": false,
         "bLimitCanVault": false,
         "bLimitCanVines": false,
@@ -1475,6 +1546,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -1488,7 +1560,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Hotel_Week": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -1509,6 +1582,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -1536,6 +1610,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -1549,7 +1624,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Magic_TrialCharacte": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -1570,6 +1646,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -1597,6 +1674,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -1610,7 +1688,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Museum_Lamp": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -1637,6 +1716,7 @@
           "bEnableTrackTeammate": true,
           "LimitTrackChapterID": "SU020"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": false,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -1666,6 +1746,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -1679,7 +1760,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Museum_Lamp_Story2": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -1706,6 +1788,7 @@
           "bEnableTrackTeammate": true,
           "LimitTrackChapterID": "SU020_01"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": false,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -1735,6 +1818,7 @@
         "bLimitCanJinEffect": true,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": true,
         "bShowSoundMuteButton": false,
@@ -1748,7 +1832,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "TestMap_Racing_WP": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -1769,6 +1854,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -1796,6 +1882,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -1809,7 +1896,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "hz_level_wp": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -1830,6 +1918,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -1857,6 +1946,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -1870,10 +1960,11 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "TestMap_Racing_PVP": {
-        "SceneType": "ELevelSceneType::LEVEL_TYPE_RACING_1V1",
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_RACING_PVP",
         "Title": {
           "CultureInvariantString": null
         },
@@ -1891,6 +1982,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -1918,6 +2010,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -1931,7 +2024,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "TeachCloneTest": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_MAX",
@@ -1952,6 +2046,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -1979,6 +2074,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -1992,7 +2088,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_TrialCharacter_Rabbit": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -2013,6 +2110,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -2040,6 +2138,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -2053,7 +2152,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_DunnerHouse": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -2074,6 +2174,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "MU01_04"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": {
@@ -2115,6 +2216,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -2128,7 +2230,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "MassAI_WUJINGJING": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -2149,6 +2252,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -2176,6 +2280,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -2189,7 +2294,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "TestMap_zhanghao": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -2210,6 +2316,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -2237,6 +2344,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -2250,7 +2358,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Bank_Safety": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -2271,6 +2380,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": true,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -2298,6 +2408,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": true,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -2311,7 +2422,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": false
       },
       "DLC_Hospital_FB": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -2332,6 +2444,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": false,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -2359,6 +2472,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": true,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": true,
@@ -2372,7 +2486,8 @@
           "Yaw": -100.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": true
+        "bUseEmptyQuickBar": true,
+        "bCanUIOpenPauseTime": true
       },
       "Map_Tetris_Connected": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -2393,6 +2508,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": false,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -2420,6 +2536,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -2433,7 +2550,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "Map_MaruiTest": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -2454,6 +2572,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -2481,6 +2600,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -2494,7 +2614,8 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       },
       "TestMap_Mahjong": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -2515,6 +2636,7 @@
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
+        "bShowTeammateTrack": false,
         "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
@@ -2542,6 +2664,7 @@
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bShowSoundMuteButton": false,
@@ -2555,7 +2678,276 @@
           "Yaw": 0.0,
           "Roll": 0.0
         },
-        "bUseEmptyQuickBar": false
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
+      },
+      "Trinity_AcceptLayer_None": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bDisableSwitchTrack": false,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false,
+          "LimitTrackChapterID": "None"
+        },
+        "bShowTeammateTrack": false,
+        "bCanVines": false,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [],
+        "ShieldUIFlags": 0,
+        "ShieldFunctionID": "None",
+        "bLimitCloneEffect": false,
+        "bLimitCanVault": false,
+        "bLimitCanVines": false,
+        "bLimitCanMelee": false,
+        "bLimitCanAbility": false,
+        "bLimitCanEvade": false,
+        "bLimitCanJump": false,
+        "bLimitCanSecondJump": false,
+        "bLimitCanUltSkill": false,
+        "bLimitCanRun": false,
+        "bLimitCanSprint": false,
+        "bLimitCanGliding": false,
+        "bLimitCanDynamicGravity": false,
+        "bLimitCanCantChangePlayer": false,
+        "bLimitCanAnim": false,
+        "bLimitCanDriving": true,
+        "bLimitCanForkAbility": false,
+        "bLimitCanSneak": false,
+        "bLimitCanJinEffect": false,
+        "bLimitCanCloseMainUI": false,
+        "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
+        "bLimitCanCloseChase": true,
+        "bLimitLevelClock": false,
+        "bShowSoundMuteButton": false,
+        "ResetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ResetRotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
+      },
+      "zhahonb_level": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bDisableSwitchTrack": false,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false,
+          "LimitTrackChapterID": "None"
+        },
+        "bShowTeammateTrack": false,
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [],
+        "ShieldUIFlags": 0,
+        "ShieldFunctionID": "None",
+        "bLimitCloneEffect": false,
+        "bLimitCanVault": false,
+        "bLimitCanVines": false,
+        "bLimitCanMelee": false,
+        "bLimitCanAbility": false,
+        "bLimitCanEvade": false,
+        "bLimitCanJump": false,
+        "bLimitCanSecondJump": false,
+        "bLimitCanUltSkill": false,
+        "bLimitCanRun": false,
+        "bLimitCanSprint": false,
+        "bLimitCanGliding": false,
+        "bLimitCanDynamicGravity": false,
+        "bLimitCanCantChangePlayer": false,
+        "bLimitCanAnim": false,
+        "bLimitCanDriving": true,
+        "bLimitCanForkAbility": false,
+        "bLimitCanSneak": false,
+        "bLimitCanJinEffect": false,
+        "bLimitCanCloseMainUI": false,
+        "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
+        "bLimitCanCloseChase": true,
+        "bLimitLevelClock": false,
+        "bShowSoundMuteButton": false,
+        "ResetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ResetRotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
+      },
+      "DLC_RT_C2": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_RACING_PVP",
+        "Title": {
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_RT_C2",
+          "SourceString": "日落霓虹",
+          "LocalizedString": "日落霓虹"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_RT_C2",
+          "SourceString": "日落霓虹",
+          "LocalizedString": "日落霓虹"
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bDisableSwitchTrack": false,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false,
+          "LimitTrackChapterID": "None"
+        },
+        "bShowTeammateTrack": false,
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [],
+        "ShieldUIFlags": 1,
+        "ShieldFunctionID": "RacingPVP",
+        "bLimitCloneEffect": false,
+        "bLimitCanVault": false,
+        "bLimitCanVines": false,
+        "bLimitCanMelee": false,
+        "bLimitCanAbility": false,
+        "bLimitCanEvade": false,
+        "bLimitCanJump": false,
+        "bLimitCanSecondJump": false,
+        "bLimitCanUltSkill": false,
+        "bLimitCanRun": false,
+        "bLimitCanSprint": false,
+        "bLimitCanGliding": false,
+        "bLimitCanDynamicGravity": false,
+        "bLimitCanCantChangePlayer": false,
+        "bLimitCanAnim": false,
+        "bLimitCanDriving": true,
+        "bLimitCanForkAbility": false,
+        "bLimitCanSneak": false,
+        "bLimitCanJinEffect": false,
+        "bLimitCanCloseMainUI": false,
+        "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
+        "bLimitCanCloseChase": true,
+        "bLimitLevelClock": false,
+        "bShowSoundMuteButton": false,
+        "ResetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ResetRotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
+      },
+      "DLC_RT_C1_clone": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
+        "Title": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_RT_C1_clone_name",
+          "SourceString": "试驾中心",
+          "LocalizedString": "试驾中心"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_RT_C1_clone_name",
+          "SourceString": "试驾中心",
+          "LocalizedString": "试驾中心"
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bDisableSwitchTrack": false,
+          "bUseNavPathEffect": false,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false,
+          "LimitTrackChapterID": "None"
+        },
+        "bShowTeammateTrack": false,
+        "bCanVines": false,
+        "bGuideNPCEnabled": false,
+        "SingleExtensionData": null,
+        "MapEntranceList": [],
+        "ShieldUIFlags": 1,
+        "ShieldFunctionID": "NormalClone",
+        "bLimitCloneEffect": false,
+        "bLimitCanVault": false,
+        "bLimitCanVines": false,
+        "bLimitCanMelee": false,
+        "bLimitCanAbility": false,
+        "bLimitCanEvade": false,
+        "bLimitCanJump": false,
+        "bLimitCanSecondJump": false,
+        "bLimitCanUltSkill": false,
+        "bLimitCanRun": false,
+        "bLimitCanSprint": false,
+        "bLimitCanGliding": false,
+        "bLimitCanDynamicGravity": false,
+        "bLimitCanCantChangePlayer": false,
+        "bLimitCanAnim": false,
+        "bLimitCanDriving": true,
+        "bLimitCanForkAbility": false,
+        "bLimitCanSneak": false,
+        "bLimitCanJinEffect": false,
+        "bLimitCanCloseMainUI": false,
+        "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
+        "bLimitCanCloseChase": true,
+        "bLimitLevelClock": false,
+        "bShowSoundMuteButton": false,
+        "ResetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ResetRotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
       }
     }
   }

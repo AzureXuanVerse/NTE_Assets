@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_GameplayEntrance",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_GameplayEntrance",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'GamePlayEntranceData'",
@@ -33,7 +34,7 @@
       "WorldBoss_Boss13": {
         "DataLayerAssets": [
           {
-            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/ArtDataLayer/Wonder_MotoBoss.Wonder_MotoBoss",
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_Boss_013_WorldBoss_Battle.W_Unload_Boss_013_WorldBoss_Battle",
             "SubPathString": ""
           }
         ],
@@ -352,7 +353,7 @@
       "WorldBoss_Boss19": {
         "DataLayerAssets": [
           {
-            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/ArtDataLayer/Wonder_OceanChaseBoss.Wonder_OceanChaseBoss",
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_Boss_019_WorldBoss_Battle.W_Unload_Boss_019_WorldBoss_Battle",
             "SubPathString": ""
           }
         ],
@@ -366,24 +367,6 @@
             "bNeedComplete": true
           }
         ],
-        "bCanLottery": false
-      },
-      "AcceptLayer": {
-        "DataLayerAssets": [
-          {
-            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/AcceptLayer.AcceptLayer",
-            "SubPathString": ""
-          },
-          {
-            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/Wonder_AcceptLayer_Art.Wonder_AcceptLayer_Art",
-            "SubPathString": ""
-          }
-        ],
-        "EntryTeleportID": "None",
-        "RelateAdvVisionID": "None",
-        "ReloadTeleportID": "None",
-        "bOnlyHybridMode": false,
-        "ActiveCondition": [],
         "bCanLottery": false
       },
       "WorldBoss_Boss33": {

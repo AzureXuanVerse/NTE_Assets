@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "1054AwakenEffect",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/Awaken/1054AwakenEffect",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CharacterAwakenEffectData'",
@@ -69,8 +70,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Daffodill_SkillDes.Daffodill_SkillDes",
               "Key": "GA_daffodill_star2_des",
-              "SourceString": "如果未能使用<hot textstyle=\"TextEXPL\" param=\"nouns&DaffodillQTE\">「幻影移行」</>成功弹反目标，最后一段攻击可对目标造成高额伤害，产生倾陷值，并为「极轨终结：见此终幕」蓄满充能。",
-              "LocalizedString": "如果未能使用<hot textstyle=\"TextEXPL\" param=\"nouns&DaffodillQTE\">「幻影移行」</>成功弹反目标，最后一段攻击可对目标造成高额伤害，产生倾陷值，并为「极轨终结：见此终幕」蓄满充能。"
+              "SourceString": "如果未能使用<hot textstyle=\"TextEXPL\" param=\"nouns&DaffodillQTE\">「幻影移行」</>成功承轨反击目标，最后一段攻击可对目标造成高额伤害，产生倾陷值，并为「极轨终结：见此终幕」蓄满充能。",
+              "LocalizedString": "如果未能使用<hot textstyle=\"TextEXPL\" param=\"nouns&DaffodillQTE\">「幻影移行」</>成功承轨反击目标，最后一段攻击可对目标造成高额伤害，产生倾陷值，并为「极轨终结：见此终幕」蓄满充能。"
             }
           },
           {
@@ -99,8 +100,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Daffodill_SkillDes.Daffodill_SkillDes",
               "Key": "GA_daffodill_star3_des",
-              "SourceString": "目标被施加<hot textstyle=\"TextEXPL\" param=\"nouns&DaffodillInsight\">「洞察」</>后不再移除（目标死亡/脱战除外），重复施加可叠层，上限3层。",
-              "LocalizedString": "目标被施加<hot textstyle=\"TextEXPL\" param=\"nouns&DaffodillInsight\">「洞察」</>后不再移除（目标死亡/脱战除外），重复施加可叠层，上限3层。"
+              "SourceString": "目标被施加<hot textstyle=\"TextEXPL\" param=\"nouns&DaffodillInsight\">「洞察」</>后不再移除（目标死亡/脱战除外），重复施加可叠层，上限2层。",
+              "LocalizedString": "目标被施加<hot textstyle=\"TextEXPL\" param=\"nouns&DaffodillInsight\">「洞察」</>后不再移除（目标死亡/脱战除外），重复施加可叠层，上限2层。"
             }
           },
           {
@@ -189,8 +190,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Daffodill_SkillDes.Daffodill_SkillDes",
               "Key": "GA_daffodill_star6_des",
-              "SourceString": "达芙蒂尔造成的所有伤害提升15%。",
-              "LocalizedString": "达芙蒂尔造成的所有伤害提升15%。"
+              "SourceString": "达芙蒂尔造成的所有伤害无视目标15%的防御力。",
+              "LocalizedString": "达芙蒂尔造成的所有伤害无视目标15%的防御力。"
             }
           },
           {
@@ -254,8 +255,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Daffodill_SkillDes.Daffodill_SkillDes",
               "Key": "GA_daffodill_starExtra2_des",
-              "SourceString": "目标进入倾陷时，目标的暗属性抗性降低20%。",
-              "LocalizedString": "目标进入倾陷时，目标的暗属性抗性降低20%。"
+              "SourceString": "目标处于倾陷时，目标的暗属性抗性降低15%。",
+              "LocalizedString": "目标处于倾陷时，目标的暗属性抗性降低15%。"
             }
           }
         ]

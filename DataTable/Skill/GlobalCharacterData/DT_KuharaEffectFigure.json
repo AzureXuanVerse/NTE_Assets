@@ -2,8 +2,9 @@
   {
     "Type": "CurveTable",
     "Name": "DT_KuharaEffectFigure",
-    "Class": "UScriptClass'CurveTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
+    "Package": "/Game/DataTable/Skill/GlobalCharacterData/DT_KuharaEffectFigure",
     "CurveTableMode": "SimpleCurves",
     "Rows": {
       "Buff_Kuhara_Seed_Duration": {
@@ -83,7 +84,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": -0.12
+            "Value": -0.1
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -119,7 +120,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 0.2
+            "Value": 0.05
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -131,7 +132,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 54.0
+            "Value": 27.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -175,6 +176,18 @@
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
       "Kuhara_BudBoom_CoefAddUltraSkill": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 4.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Kuhara_BudBoom_EnergyCoefAddUltraSkill": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
         "Keys": [
           {

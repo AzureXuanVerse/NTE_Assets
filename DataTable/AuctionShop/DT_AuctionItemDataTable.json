@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_AuctionItemDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/AuctionShop/DT_AuctionItemDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'AuctionItemConfig'",
@@ -24,7 +25,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_2": {
         "StaticItemID": "Visions_furniture_03_UpMaterial",
@@ -39,7 +41,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_3": {
         "StaticItemID": "Visions_furniture_03_UpMaterial",
@@ -54,7 +57,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_4": {
         "StaticItemID": "Visions_furniture_03_UpMaterial",
@@ -69,7 +73,8 @@
           500,
           1000,
           2000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_5": {
         "StaticItemID": "Visions_furniture_03_UpMaterial",
@@ -84,7 +89,8 @@
           500,
           1000,
           2000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_6": {
         "StaticItemID": "Worldboss_material_01",
@@ -99,7 +105,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_7": {
         "StaticItemID": "Worldboss_material_02",
@@ -114,7 +121,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_8": {
         "StaticItemID": "Worldboss_material_03",
@@ -129,7 +137,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_9": {
         "StaticItemID": "Worldboss_material_04",
@@ -144,7 +153,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_9_1": {
         "StaticItemID": "Worldboss_material_05",
@@ -159,7 +169,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_9_2": {
         "StaticItemID": "Worldboss_material_06",
@@ -174,7 +185,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_9_3": {
         "StaticItemID": "Worldboss_material_07",
@@ -189,7 +201,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_10": {
         "StaticItemID": "weeklycloneboss_a01_01",
@@ -204,7 +217,8 @@
           500,
           1000,
           2000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_11": {
         "StaticItemID": "weeklycloneboss_a01_02",
@@ -219,7 +233,8 @@
           500,
           1000,
           2000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_12": {
         "StaticItemID": "weeklycloneboss_a01_03",
@@ -234,67 +249,8 @@
           500,
           1000,
           2000
-        ]
-      },
-      "AuctionID_13": {
-        "StaticItemID": "Visions_furniture_09_UpMaterial",
-        "ItemCount": 6,
-        "BasePrice": 1800,
-        "ExpectationPrice": 6000,
-        "LimitCount": 10,
-        "RandomWeight": 100,
-        "WeightIncrease": 0,
-        "MaxWeight": 0,
-        "BiddingAdd": [
-          200,
-          500,
-          1000
-        ]
-      },
-      "AuctionID_14": {
-        "StaticItemID": "Visions_furniture_09_UpMaterial",
-        "ItemCount": 10,
-        "BasePrice": 3000,
-        "ExpectationPrice": 10000,
-        "LimitCount": 6,
-        "RandomWeight": 75,
-        "WeightIncrease": 10,
-        "MaxWeight": 1000,
-        "BiddingAdd": [
-          200,
-          500,
-          1000
-        ]
-      },
-      "AuctionID_15": {
-        "StaticItemID": "Visions_furniture_09_UpMaterial",
-        "ItemCount": 30,
-        "BasePrice": 9000,
-        "ExpectationPrice": 30000,
-        "LimitCount": 2,
-        "RandomWeight": 30,
-        "WeightIncrease": 5,
-        "MaxWeight": 1000,
-        "BiddingAdd": [
-          500,
-          1000,
-          2000
-        ]
-      },
-      "AuctionID_16": {
-        "StaticItemID": "Visions_furniture_09_UpMaterial",
-        "ItemCount": 50,
-        "BasePrice": 15000,
-        "ExpectationPrice": 50000,
-        "LimitCount": 1,
-        "RandomWeight": 5,
-        "WeightIncrease": 0,
-        "MaxWeight": 0,
-        "BiddingAdd": [
-          500,
-          1000,
-          2000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_17": {
         "StaticItemID": "WeaponBreakMaterial_01_lv2",
@@ -309,7 +265,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_18": {
         "StaticItemID": "WeaponBreakMaterial_02_lv2",
@@ -324,7 +281,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_19": {
         "StaticItemID": "WeaponBreakMaterial_03_lv2",
@@ -339,7 +297,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_20": {
         "StaticItemID": "WeaponBreakMaterial_04_lv2",
@@ -354,7 +313,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_21": {
         "StaticItemID": "WeaponBreakMaterial_05_lv2",
@@ -369,7 +329,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_22": {
         "StaticItemID": "SkillUpMaterial_01_lv2",
@@ -384,7 +345,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_23": {
         "StaticItemID": "SkillUpMaterial_02_lv2",
@@ -399,7 +361,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_24": {
         "StaticItemID": "SkillUpMaterial_03_lv2",
@@ -414,7 +377,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_25": {
         "StaticItemID": "SkillUpMaterial_04_lv2",
@@ -429,7 +393,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_26": {
         "StaticItemID": "SkillUpMaterial_05_lv2",
@@ -444,7 +409,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_27": {
         "StaticItemID": "Furniture_draw_0013",
@@ -459,7 +425,8 @@
           10000,
           20000,
           50000
-        ]
+        ],
+        "bSpecialFlag": true
       },
       "AuctionID_28": {
         "StaticItemID": "Furniture_draw_0014",
@@ -474,7 +441,8 @@
           10000,
           20000,
           50000
-        ]
+        ],
+        "bSpecialFlag": true
       },
       "AuctionID_29": {
         "StaticItemID": "Furniture_draw_0015",
@@ -489,7 +457,8 @@
           10000,
           20000,
           50000
-        ]
+        ],
+        "bSpecialFlag": true
       },
       "AuctionID_30": {
         "StaticItemID": "Furniture_Ornament_004",
@@ -504,7 +473,8 @@
           10000,
           20000,
           50000
-        ]
+        ],
+        "bSpecialFlag": true
       },
       "AuctionID_31": {
         "StaticItemID": "Furniture_Ornament_005",
@@ -519,7 +489,8 @@
           10000,
           20000,
           50000
-        ]
+        ],
+        "bSpecialFlag": true
       },
       "AuctionID_32": {
         "StaticItemID": "Furniture_Ornament_006",
@@ -534,7 +505,8 @@
           10000,
           20000,
           50000
-        ]
+        ],
+        "bSpecialFlag": true
       },
       "AuctionID_33": {
         "StaticItemID": "WeaponBreakMaterial_01_lv2",
@@ -549,7 +521,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_34": {
         "StaticItemID": "WeaponBreakMaterial_02_lv2",
@@ -564,7 +537,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_35": {
         "StaticItemID": "WeaponBreakMaterial_03_lv2",
@@ -579,7 +553,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_36": {
         "StaticItemID": "WeaponBreakMaterial_04_lv2",
@@ -594,7 +569,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_37": {
         "StaticItemID": "WeaponBreakMaterial_05_lv2",
@@ -609,7 +585,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_38": {
         "StaticItemID": "SkillUpMaterial_01_lv2",
@@ -624,7 +601,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_39": {
         "StaticItemID": "SkillUpMaterial_02_lv2",
@@ -639,7 +617,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_40": {
         "StaticItemID": "SkillUpMaterial_03_lv2",
@@ -654,7 +633,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_41": {
         "StaticItemID": "SkillUpMaterial_04_lv2",
@@ -669,7 +649,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_42": {
         "StaticItemID": "SkillUpMaterial_05_lv2",
@@ -684,7 +665,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_43": {
         "StaticItemID": "WeaponBreakMaterial_01_lv2",
@@ -699,7 +681,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_44": {
         "StaticItemID": "WeaponBreakMaterial_02_lv2",
@@ -714,7 +697,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_45": {
         "StaticItemID": "WeaponBreakMaterial_03_lv2",
@@ -729,7 +713,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_46": {
         "StaticItemID": "WeaponBreakMaterial_04_lv2",
@@ -744,7 +729,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_47": {
         "StaticItemID": "WeaponBreakMaterial_05_lv2",
@@ -759,7 +745,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_48": {
         "StaticItemID": "SkillUpMaterial_01_lv2",
@@ -774,7 +761,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_49": {
         "StaticItemID": "SkillUpMaterial_02_lv2",
@@ -789,7 +777,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_50": {
         "StaticItemID": "SkillUpMaterial_03_lv2",
@@ -804,7 +793,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_51": {
         "StaticItemID": "SkillUpMaterial_04_lv2",
@@ -819,7 +809,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       },
       "AuctionID_52": {
         "StaticItemID": "SkillUpMaterial_05_lv2",
@@ -834,7 +825,8 @@
           200,
           500,
           1000
-        ]
+        ],
+        "bSpecialFlag": false
       }
     }
   }

@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_RaceTrack",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Racing/DT_RaceTrack",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'RaceTrackData'",
@@ -16,6 +17,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_004_A_F.UI_Racing_Map_004_A_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 1,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -332,6 +334,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_004_B_F.UI_Racing_Map_004_B_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 1,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -651,6 +654,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_004_A_F.UI_Racing_Map_004_A_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 1,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -968,6 +972,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_004_B_F.UI_Racing_Map_004_B_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 1,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -1285,6 +1290,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_001_A_F.UI_Racing_Map_001_A_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 1,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -1601,6 +1607,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_001_1_F.UI_Racing_Map_001_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 1,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -1910,25 +1917,48 @@
         },
         "SuccessSequenceTime": 30.0
       },
-      "DLC_RT_C1": {
+      "DLC_RT_C1_F": {
         "TrackThumbnailImage": {
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_YH_Racing_Map_PVP.UI_YH_Racing_Map_PVP",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [
+          {
+            "Key": "EWeatherIndex::Weather_Sunny",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/RaceCar/PVP/UI_YH_Racing_Rank_Match_Map_002.UI_YH_Racing_Rank_Match_Map_002",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeatherIndex::Weather_Rain",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/RaceCar/PVP/UI_YH_Racing_Rank_Match_Map_003.UI_YH_Racing_Rank_Match_Map_003",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeatherIndex::Weather_Snow",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/RaceCar/PVP/UI_YH_Racing_Rank_Match_Map_004.UI_YH_Racing_Rank_Match_Map_004",
+              "SubPathString": ""
+            }
+          }
+        ],
         "PlayersCount": 0,
         "TrackName": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "UI_Race_02",
-          "SourceString": "在线对战",
-          "LocalizedString": "在线对战"
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_RT_C1",
+          "SourceString": "城际巡回",
+          "LocalizedString": "城际巡回"
         },
         "Direction": "ERaceTrackDirection::Forward",
         "bIsLoopLine": true,
-        "LapCount": 1,
-        "TrackStartLength": 3.3,
+        "LapCount": 2,
+        "TrackStartLength": 0.0,
         "TrackEndLength": 0.0,
-        "TrackLapLength": 0.0,
-        "TrackLastLapLength": 0.0,
+        "TrackLapLength": 3.4,
+        "TrackLastLapLength": 3.4,
         "WeatherName": {
           "CultureInvariantString": null
         },
@@ -1975,7 +2005,7 @@
           "bBestViewDistanceQuality": true,
           "CantSkipTime": -1.0,
           "bSkipNeedConfirm": false,
-          "bCanFinishWhenFadeInOut": false,
+          "bCanFinishWhenFadeInOut": true,
           "bIsSequenceFadeIn": false,
           "bIsSequenceFadeOut": false,
           "FadeOutSequenceTime": 0.8,
@@ -2215,25 +2245,48 @@
         },
         "SuccessSequenceTime": 30.0
       },
-      "DLC_RT_C2": {
+      "DLC_RT_C1_R": {
         "TrackThumbnailImage": {
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_YH_Racing_Map_PVP.UI_YH_Racing_Map_PVP",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [
+          {
+            "Key": "EWeatherIndex::Weather_Sunny",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/RaceCar/PVP/UI_YH_Racing_Rank_Match_Map_002.UI_YH_Racing_Rank_Match_Map_002",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeatherIndex::Weather_Rain",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/RaceCar/PVP/UI_YH_Racing_Rank_Match_Map_003.UI_YH_Racing_Rank_Match_Map_003",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Key": "EWeatherIndex::Weather_Snow",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/RaceCar/PVP/UI_YH_Racing_Rank_Match_Map_004.UI_YH_Racing_Rank_Match_Map_004",
+              "SubPathString": ""
+            }
+          }
+        ],
         "PlayersCount": 0,
         "TrackName": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "UI_Race_02",
-          "SourceString": "在线对战",
-          "LocalizedString": "在线对战"
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_RT_C1",
+          "SourceString": "城际巡回",
+          "LocalizedString": "城际巡回"
         },
         "Direction": "ERaceTrackDirection::Reverse",
         "bIsLoopLine": true,
-        "LapCount": 1,
-        "TrackStartLength": 3.3,
+        "LapCount": 2,
+        "TrackStartLength": 0.0,
         "TrackEndLength": 0.0,
-        "TrackLapLength": 0.0,
-        "TrackLastLapLength": 0.0,
+        "TrackLapLength": 3.4,
+        "TrackLastLapLength": 3.4,
         "WeatherName": {
           "CultureInvariantString": null
         },
@@ -2280,7 +2333,319 @@
           "bBestViewDistanceQuality": true,
           "CantSkipTime": -1.0,
           "bSkipNeedConfirm": false,
-          "bCanFinishWhenFadeInOut": false,
+          "bCanFinishWhenFadeInOut": true,
+          "bIsSequenceFadeIn": false,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 60,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true
+        },
+        "ReadyMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+          },
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+          },
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+        },
+        "StartSequence": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "StartSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": true,
+          "bHideVehicle": false,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": false,
+          "bBestViewDistanceQuality": true,
+          "CantSkipTime": -1.0,
+          "bSkipNeedConfirm": true,
+          "bCanFinishWhenFadeInOut": true,
+          "bIsSequenceFadeIn": false,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 60,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true
+        },
+        "StartMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+          },
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+          },
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+        },
+        "SuccessSequence": {
+          "AssetPathName": "/Game/sequence_pack/CarRacing/Seq_Race_End.Seq_Race_End",
+          "SubPathString": ""
+        },
+        "SuccessSequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": false,
+          "bHideCursor": false,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": true,
+          "bHideVehicle": false,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": false,
+          "bBestViewDistanceQuality": true,
+          "CantSkipTime": -1.0,
+          "bSkipNeedConfirm": true,
+          "bCanFinishWhenFadeInOut": true,
+          "bIsSequenceFadeIn": false,
+          "bIsSequenceFadeOut": false,
+          "FadeOutSequenceTime": 0.8,
+          "bUseTransformOrigin": false,
+          "TransformOriginActor": null,
+          "TransformOrigin": {
+            "Rotation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          },
+          "bBreakAllSkillMontange": true,
+          "bActuallyStopBeforeAnim": false,
+          "bResetCamera": true,
+          "bSyncCameraYaw": false,
+          "bForceAddToNewSpawnedTickGroup": true,
+          "ShowSimpleActorNum": 60,
+          "bIgnoreWeatherInRoom": false,
+          "bNeverSilent": true,
+          "bHandlePause": false,
+          "bInvitedNpcHidden": true
+        },
+        "SuccessMovieSceneSettings": {
+          "bAutoPlay": false,
+          "LoopCount": {
+            "Value": 0
+          },
+          "TickInterval": {
+            "TickIntervalSeconds": 0.0,
+            "EvaluationBudgetMicroseconds": 0.0,
+            "bTickWhenPaused": false,
+            "bAllowRounding": true
+          },
+          "PlayRate": 1.0,
+          "StartTime": 0.0,
+          "bRandomStartTime": false,
+          "bDisableMovementInput": false,
+          "bDisableLookAtInput": false,
+          "bHidePlayer": false,
+          "bHideHud": false,
+          "bDisableCameraCuts": false,
+          "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+          "bPauseAtEnd": false,
+          "bInheritTickIntervalFromOwner": true,
+          "bDynamicWeighting": false
+        },
+        "SuccessSequenceTime": 30.0
+      },
+      "DLC_RT_C2_F": {
+        "TrackThumbnailImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_YH_Racing_Map_PVP2.UI_YH_Racing_Map_PVP2",
+          "SubPathString": ""
+        },
+        "TrackThumbnailImageWithWeather": [
+          {
+            "Key": "EWeatherIndex::Weather_Sunny",
+            "Value": {
+              "AssetPathName": "/Game/UI/UI/RaceCar/PVP/UI_YH_Racing_Rank_Match_Map_001.UI_YH_Racing_Rank_Match_Map_001",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "PlayersCount": 0,
+        "TrackName": {
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_RT_C2",
+          "SourceString": "日落霓虹",
+          "LocalizedString": "日落霓虹"
+        },
+        "Direction": "ERaceTrackDirection::Forward",
+        "bIsLoopLine": true,
+        "LapCount": 2,
+        "TrackStartLength": 0.0,
+        "TrackEndLength": 0.0,
+        "TrackLapLength": 3.3,
+        "TrackLastLapLength": 3.3,
+        "WeatherName": {
+          "CultureInvariantString": null
+        },
+        "LockWeathers": [
+          "EWeatherIndex::Weather_Sunny"
+        ],
+        "ExtraInfo": {
+          "CultureInvariantString": null
+        },
+        "LeastCompleteTime": 0.0,
+        "LayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/DLC_RT_C2_F.DLC_RT_C2_F",
+            "SubPathString": ""
+          }
+        ],
+        "TransferedLoadLayerAssets": [],
+        "LockVehicles": [],
+        "ReadySequence": {
+          "AssetPathName": "/Game/sequence_pack/CarRacing/Seq_Race_PVPReady.Seq_Race_PVPReady",
+          "SubPathString": ""
+        },
+        "ReadySequenceSettings": {
+          "bDisableKeyboardInput": true,
+          "bHideUI": true,
+          "bHideCursor": true,
+          "bRecoverAllUIWhenEnd": true,
+          "bHideHeadUpInfo": true,
+          "bPauseCameraSwitch": true,
+          "bHideSpawnedNpc": true,
+          "bStopBehaviorTree": true,
+          "bHideVehicle": false,
+          "SpawnedNpcHideDistance": 3000.0,
+          "bHideSpawnedVisualActor": false,
+          "SpawnedVisualActorHideDistance": 3000.0,
+          "bStopToEnd": true,
+          "BackwardFrameStopTo": 6,
+          "bCheckSafeDistanceToPlayer": true,
+          "bDontSendClientSideCameraUpdatesToServer": true,
+          "bShowBulletScreen": true,
+          "bPauseGameSound": false,
+          "bBestViewDistanceQuality": true,
+          "CantSkipTime": -1.0,
+          "bSkipNeedConfirm": false,
+          "bCanFinishWhenFadeInOut": true,
           "bIsSequenceFadeIn": false,
           "bIsSequenceFadeOut": false,
           "FadeOutSequenceTime": 0.8,
@@ -2525,6 +2890,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_001_1_F.UI_Racing_Map_001_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 1,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -2839,6 +3205,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_001_1_R.UI_Racing_Map_001_1_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -3153,6 +3520,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_001_A_F.UI_Racing_Map_001_A_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 3,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -3467,6 +3835,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_001_A_R.UI_Racing_Map_001_A_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -3786,6 +4155,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_001_1_F.UI_Racing_Map_001_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 3,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -4100,6 +4470,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_001_A_R.UI_Racing_Map_001_A_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -4414,6 +4785,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_002_1_F.UI_Racing_Map_002_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 1,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -4728,6 +5100,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_002_A_F.UI_Racing_Map_002_A_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 1,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -5042,6 +5415,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_002_B_F.UI_Racing_Map_002_B_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -5361,6 +5735,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_002_1_R.UI_Racing_Map_002_1_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -5680,6 +6055,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_002_A_R.UI_Racing_Map_002_A_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -5994,6 +6370,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_002_B_R.UI_Racing_Map_002_B_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 3,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -6308,6 +6685,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_003_1_F.UI_Racing_Map_003_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 1,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -6622,6 +7000,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_003_B_F.UI_Racing_Map_003_B_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -6941,6 +7320,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_003_1_R.UI_Racing_Map_003_1_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 3,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -7255,6 +7635,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_003_1_F.UI_Racing_Map_003_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 3,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -7574,6 +7955,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_003_B_F.UI_Racing_Map_003_B_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 3,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -7893,6 +8275,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_003_B_F.UI_Racing_Map_003_B_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 3,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -8207,6 +8590,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_004_1_F.UI_Racing_Map_004_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -8521,6 +8905,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_004_1_F.UI_Racing_Map_004_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -8840,6 +9225,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_004_A_F.UI_Racing_Map_004_A_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -9154,6 +9540,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_004_A_F.UI_Racing_Map_004_A_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 1,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -9473,6 +9860,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_004_A_F.UI_Racing_Map_004_A_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -9787,6 +10175,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_004_A_F.UI_Racing_Map_004_A_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -10101,6 +10490,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_005_1_F.UI_Racing_Map_005_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 1,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -10415,6 +10805,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_005_1_F.UI_Racing_Map_005_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -10734,6 +11125,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_005_1_F.UI_Racing_Map_005_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 3,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -11048,6 +11440,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_005_1_R.UI_Racing_Map_005_1_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 3,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -11362,6 +11755,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_005_1_R.UI_Racing_Map_005_1_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 3,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -11681,6 +12075,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_005_1_R.UI_Racing_Map_005_1_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 3,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -11995,6 +12390,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_006_1_F.UI_Racing_Map_006_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -12309,6 +12705,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_006_1_F.UI_Racing_Map_006_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -12623,6 +13020,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_006_1_R.UI_Racing_Map_006_1_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -12942,6 +13340,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_006_1_R.UI_Racing_Map_006_1_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -13261,6 +13660,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_006_1_R.UI_Racing_Map_006_1_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -13575,6 +13975,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_006_1_F.UI_Racing_Map_006_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 2,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -13889,6 +14290,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_001_1_F.UI_Racing_Map_001_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -14202,6 +14604,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_001_1_R.UI_Racing_Map_001_1_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -14515,6 +14918,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_001_A_F.UI_Racing_Map_001_A_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -14828,6 +15232,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_001_A_R.UI_Racing_Map_001_A_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -15141,6 +15546,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_002_1_F.UI_Racing_Map_002_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -15454,6 +15860,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_002_1_R.UI_Racing_Map_002_1_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -15767,6 +16174,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_002_A_F.UI_Racing_Map_002_A_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -16080,6 +16488,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_002_A_R.UI_Racing_Map_002_A_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -16393,6 +16802,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_002_B_F.UI_Racing_Map_002_B_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -16706,6 +17116,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_002_B_R.UI_Racing_Map_002_B_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -17019,6 +17430,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_003_1_F.UI_Racing_Map_003_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -17332,6 +17744,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_003_1_R.UI_Racing_Map_003_1_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -17645,6 +18058,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_003_B_F.UI_Racing_Map_003_B_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -17958,6 +18372,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_004_1_F.UI_Racing_Map_004_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -18271,6 +18686,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_004_1_R.UI_Racing_Map_004_1_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -18584,6 +19000,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_004_A_F.UI_Racing_Map_004_A_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -18897,6 +19314,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_004_A_R.UI_Racing_Map_004_A_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -19210,6 +19628,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_004_B_F.UI_Racing_Map_004_B_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -19523,6 +19942,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_004_B_R.UI_Racing_Map_004_B_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -19836,6 +20256,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_005_1_F.UI_Racing_Map_005_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -20149,6 +20570,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_005_1_R.UI_Racing_Map_005_1_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -20462,6 +20884,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_006_1_F.UI_Racing_Map_006_1_F",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -20775,6 +21198,7 @@
           "AssetPathName": "/Game/UI/UI/RaceCar/map/UI_Racing_Map_006_1_R.UI_Racing_Map_006_1_R",
           "SubPathString": ""
         },
+        "TrackThumbnailImageWithWeather": [],
         "PlayersCount": 0,
         "TrackName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",

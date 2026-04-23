@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_AreaDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_AreaDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'AreaData'",
@@ -147,6 +148,23 @@
           "Y": 0.0
         }
       },
+      "City01_009": {
+        "AreaTitle": {
+          "TableId": "/Game/Text/Minimap/ST_MapAreaDetails.ST_MapAreaDetails",
+          "Key": "Map_Area009",
+          "SourceString": "向阳岛",
+          "LocalizedString": "向阳岛"
+        },
+        "AreaPriority": 0,
+        "AreaParticleAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "FieldOfViewSize": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
       "City01_coffee_200": {
         "AreaTitle": {
           "TableId": "/Game/Text/ST_QuestDisplayMapNameDetail.ST_QuestDisplayMapNameDetail",
@@ -221,6 +239,91 @@
           "Key": "SubArea00205",
           "SourceString": "一咖舍",
           "LocalizedString": "一咖舍"
+        },
+        "AreaPriority": 0,
+        "AreaParticleAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "FieldOfViewSize": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Robbank_001": {
+        "AreaTitle": {
+          "TableId": "/Game/Text/Minimap/ST_MapAreaDetails.ST_MapAreaDetails",
+          "Key": "Map_Robbank_Area_001",
+          "SourceString": "G-接待大厅",
+          "LocalizedString": "G-接待大厅"
+        },
+        "AreaPriority": 0,
+        "AreaParticleAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "FieldOfViewSize": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Robbank_002": {
+        "AreaTitle": {
+          "TableId": "/Game/Text/Minimap/ST_MapAreaDetails.ST_MapAreaDetails",
+          "Key": "Map_Robbank_Area_002",
+          "SourceString": "LG1-办公层",
+          "LocalizedString": "LG1-办公层"
+        },
+        "AreaPriority": 0,
+        "AreaParticleAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "FieldOfViewSize": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Robbank_003": {
+        "AreaTitle": {
+          "TableId": "/Game/Text/Minimap/ST_MapAreaDetails.ST_MapAreaDetails",
+          "Key": "Map_Robbank_Area_003",
+          "SourceString": "LG2-藏品层",
+          "LocalizedString": "LG2-藏品层"
+        },
+        "AreaPriority": 0,
+        "AreaParticleAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "FieldOfViewSize": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Robbank_004": {
+        "AreaTitle": {
+          "TableId": "/Game/Text/Minimap/ST_MapAreaDetails.ST_MapAreaDetails",
+          "Key": "Map_Robbank_Area_004",
+          "SourceString": "LG3-金库层",
+          "LocalizedString": "LG3-金库层"
+        },
+        "AreaPriority": 0,
+        "AreaParticleAsset": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "FieldOfViewSize": {
+          "X": 0.0,
+          "Y": 0.0
+        }
+      },
+      "Robbank_005": {
+        "AreaTitle": {
+          "TableId": "/Game/Text/Minimap/ST_MapAreaDetails.ST_MapAreaDetails",
+          "Key": "Map_Robbank_Area_005",
+          "SourceString": "核心金库",
+          "LocalizedString": "核心金库"
         },
         "AreaPriority": 0,
         "AreaParticleAsset": {

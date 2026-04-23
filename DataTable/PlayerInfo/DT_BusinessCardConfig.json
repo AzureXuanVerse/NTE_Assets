@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_BusinessCardConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/PlayerInfo/DT_BusinessCardConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'HTBusinessConfig'",
@@ -48,7 +49,10 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "1023": {
         "Name": {
@@ -62,8 +66,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_card_1023",
-          "SourceString": "白藏好感等级10级奖励",
-          "LocalizedString": "白藏好感等级10级奖励"
+          "SourceString": "白藏羁遇等级10级奖励",
+          "LocalizedString": "白藏羁遇等级10级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -87,7 +91,10 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1023"
       },
       "1019": {
         "Name": {
@@ -101,8 +108,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_card_1019",
-          "SourceString": "薄荷好感等级10级奖励",
-          "LocalizedString": "薄荷好感等级10级奖励"
+          "SourceString": "薄荷羁遇等级10级奖励",
+          "LocalizedString": "薄荷羁遇等级10级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -126,7 +133,10 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1019"
       },
       "1039": {
         "Name": {
@@ -140,8 +150,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_card_1039",
-          "SourceString": "法帝娅好感等级10级奖励",
-          "LocalizedString": "法帝娅好感等级10级奖励"
+          "SourceString": "法帝娅羁遇等级10级奖励",
+          "LocalizedString": "法帝娅羁遇等级10级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -165,7 +175,10 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1039"
       },
       "1014": {
         "Name": {
@@ -179,8 +192,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_card_1055",
-          "SourceString": "九原好感等级10级奖励",
-          "LocalizedString": "九原好感等级10级奖励"
+          "SourceString": "九原羁遇等级10级奖励",
+          "LocalizedString": "九原羁遇等级10级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -204,7 +217,10 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1055"
       },
       "1010": {
         "Name": {
@@ -218,8 +234,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_card_1010",
-          "SourceString": "娜娜莉好感等级10级奖励",
-          "LocalizedString": "娜娜莉好感等级10级奖励"
+          "SourceString": "娜娜莉羁遇等级10级奖励",
+          "LocalizedString": "娜娜莉羁遇等级10级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -243,7 +259,10 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1010"
       },
       "1003": {
         "Name": {
@@ -257,8 +276,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_card_1003",
-          "SourceString": "早雾好感等级10级奖励",
-          "LocalizedString": "早雾好感等级10级奖励"
+          "SourceString": "早雾羁遇等级10级奖励",
+          "LocalizedString": "早雾羁遇等级10级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -267,7 +286,7 @@
           "LocalizedString": "「伊波恩古董店」店员早雾的名片。\n「什么叫你还没有名片？柯林斯家族的成员怎么能没有名片，快做一张去！」因为这种原因诞生的名片，不知道早雾对这张名片到底是什么态度，至少娜娜莉很满意。"
         },
         "IconSource": {
-          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_05.YH_UI_bg_card_show_strip_05",
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_05_s.YH_UI_bg_card_show_strip_05_s",
           "SubPathString": ""
         },
         "IconSourceBig": {
@@ -282,7 +301,10 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1003"
       },
       "1033": {
         "Name": {
@@ -296,8 +318,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_card_1033",
-          "SourceString": "阿德勒好感等级10级奖励",
-          "LocalizedString": "阿德勒好感等级10级奖励"
+          "SourceString": "阿德勒羁遇等级10级奖励",
+          "LocalizedString": "阿德勒羁遇等级10级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -321,7 +343,10 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1033"
       },
       "1025": {
         "Name": {
@@ -335,8 +360,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_card_1025",
-          "SourceString": "哈索尔好感等级10级奖励",
-          "LocalizedString": "哈索尔好感等级10级奖励"
+          "SourceString": "哈索尔羁遇等级10级奖励",
+          "LocalizedString": "哈索尔羁遇等级10级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -360,7 +385,10 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1025"
       },
       "1020": {
         "Name": {
@@ -374,8 +402,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_card_1020",
-          "SourceString": "哈尼娅好感等级10级奖励",
-          "LocalizedString": "哈尼娅好感等级10级奖励"
+          "SourceString": "哈尼娅羁遇等级10级奖励",
+          "LocalizedString": "哈尼娅羁遇等级10级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -399,7 +427,10 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1020"
       },
       "1005": {
         "Name": {
@@ -413,8 +444,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_card_1054",
-          "SourceString": "达芙蒂尔好感等级10级奖励",
-          "LocalizedString": "达芙蒂尔好感等级10级奖励"
+          "SourceString": "达芙蒂尔羁遇等级10级奖励",
+          "LocalizedString": "达芙蒂尔羁遇等级10级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -438,7 +469,10 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1054"
       },
       "1021": {
         "Name": {
@@ -452,8 +486,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_card_1021",
-          "SourceString": "埃德嘉好感等级10级奖励",
-          "LocalizedString": "埃德嘉好感等级10级奖励"
+          "SourceString": "埃德嘉羁遇等级10级奖励",
+          "LocalizedString": "埃德嘉羁遇等级10级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -477,7 +511,10 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1033"
       },
       "1073": {
         "Name": {
@@ -491,8 +528,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_card_1073",
-          "SourceString": "小吱好感等级10级奖励",
-          "LocalizedString": "小吱好感等级10级奖励"
+          "SourceString": "小吱羁遇等级10级奖励",
+          "LocalizedString": "小吱羁遇等级10级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -516,7 +553,10 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1073"
       },
       "1008": {
         "Name": {
@@ -530,8 +570,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_card_1008",
-          "SourceString": "翳好感等级10级奖励",
-          "LocalizedString": "翳好感等级10级奖励"
+          "SourceString": "翳羁遇等级10级奖励",
+          "LocalizedString": "翳羁遇等级10级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -555,7 +595,10 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1008"
       },
       "1029": {
         "Name": {
@@ -569,8 +612,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_card_1052",
-          "SourceString": "浔好感等级10级奖励",
-          "LocalizedString": "浔好感等级10级奖励"
+          "SourceString": "浔羁遇等级10级奖励",
+          "LocalizedString": "浔羁遇等级10级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -594,7 +637,10 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1052"
       },
       "1004": {
         "Name": {
@@ -608,8 +654,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_card_1004",
-          "SourceString": "安魂曲好感等级10级奖励",
-          "LocalizedString": "安魂曲好感等级10级奖励"
+          "SourceString": "安魂曲羁遇等级10级奖励",
+          "LocalizedString": "安魂曲羁遇等级10级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -633,7 +679,52 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": true,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1004"
+      },
+      "1070": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_BusinessCard_1070_name",
+          "SourceString": "见字不如面",
+          "LocalizedString": "见字不如面"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_card_1070",
+          "SourceString": "海月羁遇等级10级奖励",
+          "LocalizedString": "海月羁遇等级10级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_BusinessCard_1070_desc",
+          "SourceString": "「玉饼街居民协会」街道管理员海月的名片。\n整条街上，人人都认识这位勤恳尽责的管理员；新人初来乍到，也往往先被拉着认遍了各家店铺，才来得及问一声她的名字。于是，上岗时印的一整盒名片，至今原封不动地放在海月桌上。",
+          "LocalizedString": "「玉饼街居民协会」街道管理员海月的名片。\n整条街上，人人都认识这位勤恳尽责的管理员；新人初来乍到，也往往先被拉着认遍了各家店铺，才来得及问一声她的名字。于是，上岗时印的一整盒名片，至今原封不动地放在海月桌上。"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_36_s.YH_UI_bg_card_show_strip_36_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_36.YH_UI_bg_card_show_strip_36",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_36.YH_UI_bg_information_card_show_strip_36",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1070"
       },
       "Combat_BussinessCard_01": {
         "Name": {
@@ -672,7 +763,724 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
+      },
+      "1023_Q": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_cang_name",
+          "SourceString": "闲暇之外的闲暇",
+          "LocalizedString": "闲暇之外的闲暇"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1023",
+          "SourceString": "白藏觉醒等级6级奖励",
+          "LocalizedString": "白藏觉醒等级6级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_cang_desc",
+          "SourceString": "白藏被抓拍到的一张照片。「难得」的休息时光，当然要好好享受啦！",
+          "LocalizedString": "白藏被抓拍到的一张照片。「难得」的休息时光，当然要好好享受啦！"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_23_s.YH_UI_bg_card_show_strip_23_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_23.YH_UI_bg_card_show_strip_23",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_23.YH_UI_bg_information_card_show_strip_23",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1023"
+      },
+      "1019_Q": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_Mint_name",
+          "SourceString": "清凉百分百",
+          "LocalizedString": "清凉百分百"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1019",
+          "SourceString": "薄荷觉醒等级6级奖励",
+          "LocalizedString": "薄荷觉醒等级6级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_Mint_desc",
+          "SourceString": "薄荷被抓拍到的一张照片。这是什么？薄荷味的冰淇淋！咬一口！",
+          "LocalizedString": "薄荷被抓拍到的一张照片。这是什么？薄荷味的冰淇淋！咬一口！"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_24_s.YH_UI_bg_card_show_strip_24_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_24.YH_UI_bg_card_show_strip_24",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_24.YH_UI_bg_information_card_show_strip_24",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1019"
+      },
+      "1039_Q": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_fadia_name",
+          "SourceString": "危险游戏",
+          "LocalizedString": "危险游戏"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1039",
+          "SourceString": "法帝娅觉醒等级6级奖励",
+          "LocalizedString": "法帝娅觉醒等级6级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_fadia_desc",
+          "SourceString": "法帝娅被抓拍到的一张照片。熟悉她的人都知道，每当她露出这个表情时，意味着游戏才刚刚开始。",
+          "LocalizedString": "法帝娅被抓拍到的一张照片。熟悉她的人都知道，每当她露出这个表情时，意味着游戏才刚刚开始。"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_26_s.YH_UI_bg_card_show_strip_26_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_26.YH_UI_bg_card_show_strip_26",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_26.YH_UI_bg_information_card_show_strip_26",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1039"
+      },
+      "1014_Q": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_Kuhara_name",
+          "SourceString": "玫瑰的邀约",
+          "LocalizedString": "玫瑰的邀约"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1055",
+          "SourceString": "九原觉醒等级6级奖励",
+          "LocalizedString": "九原觉醒等级6级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_Kuhara_desc",
+          "SourceString": "九原被抓拍到的一张照片。玫瑰的芳香指引你来此地，趁着夜色未阑，与她共饮一杯吧。",
+          "LocalizedString": "九原被抓拍到的一张照片。玫瑰的芳香指引你来此地，趁着夜色未阑，与她共饮一杯吧。"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_29_s.YH_UI_bg_card_show_strip_29_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_29.YH_UI_bg_card_show_strip_29",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_29.YH_UI_bg_information_card_show_strip_29",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1055"
+      },
+      "1010_Q": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_Nanally_name",
+          "SourceString": "无重力漫游",
+          "LocalizedString": "无重力漫游"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1010",
+          "SourceString": "娜娜莉觉醒等级6级奖励",
+          "LocalizedString": "娜娜莉觉醒等级6级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_Nanally_desc",
+          "SourceString": "娜娜莉被抓拍到的一张照片。挣开重力的枷锁，少女跳跃在颠倒的世界之间。",
+          "LocalizedString": "娜娜莉被抓拍到的一张照片。挣开重力的枷锁，少女跳跃在颠倒的世界之间。"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_20_s.YH_UI_bg_card_show_strip_20_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_20.YH_UI_bg_card_show_strip_20",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_20.YH_UI_bg_information_card_show_strip_20",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1010"
+      },
+      "1003_Q": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_Sagiri_name",
+          "SourceString": "别扭的心意",
+          "LocalizedString": "别扭的心意"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1003",
+          "SourceString": "早雾觉醒等级6级奖励",
+          "LocalizedString": "早雾觉醒等级6级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_Sagiri_desc",
+          "SourceString": "早雾被抓拍到的一张照片。喏，这个给你——什么？才……才不是特意给你留的！",
+          "LocalizedString": "早雾被抓拍到的一张照片。喏，这个给你——什么？才……才不是特意给你留的！"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_32_s.YH_UI_bg_card_show_strip_32_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_32.YH_UI_bg_card_show_strip_32",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_32.YH_UI_bg_information_card_show_strip_32",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1003"
+      },
+      "1033_Q": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_Adler_name",
+          "SourceString": "万能管家",
+          "LocalizedString": "万能管家"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1033",
+          "SourceString": "阿德勒觉醒等级6级奖励",
+          "LocalizedString": "阿德勒觉醒等级6级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_Adler_desc",
+          "SourceString": "阿德勒被抓拍到的一张照片。对于阿德勒先生这样的管家来说，完美不过是日常。",
+          "LocalizedString": "阿德勒被抓拍到的一张照片。对于阿德勒先生这样的管家来说，完美不过是日常。"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_21_s.YH_UI_bg_card_show_strip_21_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_21.YH_UI_bg_card_show_strip_21",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_21.YH_UI_bg_information_card_show_strip_21",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1033"
+      },
+      "1025_Q": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_Hathor_name",
+          "SourceString": "在路上",
+          "LocalizedString": "在路上"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1025",
+          "SourceString": "哈索尔觉醒等级6级奖励",
+          "LocalizedString": "哈索尔觉醒等级6级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_Hathor_desc",
+          "SourceString": "哈索尔被抓拍到的一张照片。不知从何时起，她渐渐发觉，沿途的风景原来这般美好。",
+          "LocalizedString": "哈索尔被抓拍到的一张照片。不知从何时起，她渐渐发觉，沿途的风景原来这般美好。"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_28_s.YH_UI_bg_card_show_strip_28_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_28.YH_UI_bg_card_show_strip_28",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_28.YH_UI_bg_information_card_show_strip_28",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1025"
+      },
+      "1020_Q": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_Haniel_name",
+          "SourceString": "世界即舞台",
+          "LocalizedString": "世界即舞台"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1020",
+          "SourceString": "哈尼娅觉醒等级6级奖励",
+          "LocalizedString": "哈尼娅觉醒等级6级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_Haniel_desc",
+          "SourceString": "哈尼娅被抓拍到的一张照片。总有一天，全海特洛都会认可她的歌声，毕竟，这可是无敌的哈尼娅！",
+          "LocalizedString": "哈尼娅被抓拍到的一张照片。总有一天，全海特洛都会认可她的歌声，毕竟，这可是无敌的哈尼娅！"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_27_s.YH_UI_bg_card_show_strip_27_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_27.YH_UI_bg_card_show_strip_27",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_27.YH_UI_bg_information_card_show_strip_27",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1020"
+      },
+      "1005_Q": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_daffodill_name",
+          "SourceString": "王牌保镖",
+          "LocalizedString": "王牌保镖"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1054",
+          "SourceString": "达芙蒂尔觉醒等级6级奖励",
+          "LocalizedString": "达芙蒂尔觉醒等级6级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_daffodill_desc",
+          "SourceString": "达芙蒂尔被抓拍到的一张照片。除了原本的职责外，达芙蒂尔还负责看着挑食的孩子把蔬菜全都咽下去。",
+          "LocalizedString": "达芙蒂尔被抓拍到的一张照片。除了原本的职责外，达芙蒂尔还负责看着挑食的孩子把蔬菜全都咽下去。"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_25_s.YH_UI_bg_card_show_strip_25_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_25.YH_UI_bg_card_show_strip_25",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_25.YH_UI_bg_information_card_show_strip_25",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1054"
+      },
+      "1021_Q": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_edgar_name",
+          "SourceString": "下一块拼图",
+          "LocalizedString": "下一块拼图"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1021",
+          "SourceString": "埃德嘉觉醒等级6级奖励",
+          "LocalizedString": "埃德嘉觉醒等级6级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_edgar_desc",
+          "SourceString": "埃德嘉被抓拍到的一张照片。Tayge! Tayge Tayge!（埃德嘉！全伊波恩！拼拼图最快！塔吉多！亲自认证！）",
+          "LocalizedString": "埃德嘉被抓拍到的一张照片。Tayge! Tayge Tayge!（埃德嘉！全伊波恩！拼拼图最快！塔吉多！亲自认证！）"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_22_s.YH_UI_bg_card_show_strip_22_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_22.YH_UI_bg_card_show_strip_22",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_22.YH_UI_bg_information_card_show_strip_22",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1033"
+      },
+      "1073_Q": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_chiichan_name",
+          "SourceString": "业务之星",
+          "LocalizedString": "业务之星"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1073",
+          "SourceString": "小吱觉醒等级6级奖励",
+          "LocalizedString": "小吱觉醒等级6级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_chiichan_desc",
+          "SourceString": "小吱被抓拍到的一张照片。不要被外表迷惑哦，超强的业务能力才是小吱真正的「杀手锏」。",
+          "LocalizedString": "小吱被抓拍到的一张照片。不要被外表迷惑哦，超强的业务能力才是小吱真正的「杀手锏」。"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_30_s.YH_UI_bg_card_show_strip_30_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_30.YH_UI_bg_card_show_strip_30",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_30.YH_UI_bg_information_card_show_strip_30",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1073"
+      },
+      "1008_Q": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_skia_name",
+          "SourceString": "你今生的故事",
+          "LocalizedString": "你今生的故事"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1008",
+          "SourceString": "翳觉醒等级6级奖励",
+          "LocalizedString": "翳觉醒等级6级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_skia_desc",
+          "SourceString": "翳被抓拍到的一张照片。偶尔放松的时候，他也会允许自己陷入回忆的漩涡中。",
+          "LocalizedString": "翳被抓拍到的一张照片。偶尔放松的时候，他也会允许自己陷入回忆的漩涡中。"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_31_s.YH_UI_bg_card_show_strip_31_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_31.YH_UI_bg_card_show_strip_31",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_31.YH_UI_bg_information_card_show_strip_31",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1008"
+      },
+      "1029_Q": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_Jin_name",
+          "SourceString": "从不出错的眼光",
+          "LocalizedString": "从不出错的眼光"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1052",
+          "SourceString": "浔觉醒等级6级奖励",
+          "LocalizedString": "浔觉醒等级6级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_Jin_desc",
+          "SourceString": "浔被抓拍到的一张照片。遇到稀罕宝贝，不论价值几何，该出手时就出手，这是浔一贯的作风。",
+          "LocalizedString": "浔被抓拍到的一张照片。遇到稀罕宝贝，不论价值几何，该出手时就出手，这是浔一贯的作风。"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_34_s.YH_UI_bg_card_show_strip_34_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_34.YH_UI_bg_card_show_strip_34",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_34.YH_UI_bg_information_card_show_strip_34",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1052"
+      },
+      "1004_Q": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_lacrimosa_name",
+          "SourceString": "番茄新发现",
+          "LocalizedString": "番茄新发现"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1004",
+          "SourceString": "安魂曲觉醒等级6级奖励",
+          "LocalizedString": "安魂曲觉醒等级6级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_lacrimosa_desc",
+          "SourceString": "安魂曲被抓拍到的一张照片。如果天上那个圆圆的东西是番茄的话，想必能做出好多好多番茄酱吧……",
+          "LocalizedString": "安魂曲被抓拍到的一张照片。如果天上那个圆圆的东西是番茄的话，想必能做出好多好多番茄酱吧……"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_06_s.YH_UI_bg_card_show_strip_06_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_06.YH_UI_bg_card_show_strip_06",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_06.YH_UI_bg_information_card_show_strip_06",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": true,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1004"
+      },
+      "1070_Q": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_haiyue_name",
+          "SourceString": "往日的回声",
+          "LocalizedString": "往日的回声"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1070",
+          "SourceString": "海月觉醒等级6级奖励",
+          "LocalizedString": "海月觉醒等级6级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_haiyue_desc",
+          "SourceString": "海月被抓拍到的一张照片。有时候，海月仍会思念她最好的朋友们：就像踏上旅程的人，偶尔也会回望故乡。",
+          "LocalizedString": "海月被抓拍到的一张照片。有时候，海月仍会思念她最好的朋友们：就像踏上旅程的人，偶尔也会回望故乡。"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_35_s.YH_UI_bg_card_show_strip_35_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_35.YH_UI_bg_card_show_strip_35",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_35.YH_UI_bg_information_card_show_strip_35",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1070"
+      },
+      "Businesscard_SNv10_Taygedo": {
+        "Name": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Businesscard_SNv10_Taygedo_Name",
+          "SourceString": "Taygedo.",
+          "LocalizedString": "Taygedo."
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Businesscard_SNv10_Taygedo_Obtain",
+          "SourceString": "塔吉多APP-兑换中心内获得",
+          "LocalizedString": "塔吉多APP-兑换中心内获得"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Businesscard_SNv10_Taygedo_Desc",
+          "SourceString": "一样的词语是怎么翻译出那么多种意思的呢？",
+          "LocalizedString": "一样的词语是怎么翻译出那么多种意思的呢？"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_37_s.YH_UI_bg_card_show_strip_37_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_37.YH_UI_bg_card_show_strip_37",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_37.YH_UI_bg_information_card_show_strip_37",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": true,
+        "ShowLinkCharacterID": "None"
       }
     }
   }

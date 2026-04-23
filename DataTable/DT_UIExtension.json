@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_UIExtension",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_UIExtension",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'UIExtensionData'",
@@ -51,7 +52,7 @@
           "SubPathString": ""
         },
         "UITemplate_Mobile": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/Blueprints/Quest/UI_QuestTrackItemDetail_Mobile.UI_QuestTrackItemDetail_Mobile_C",
           "SubPathString": ""
         },
         "UITemplate_PlayStation": {
@@ -301,7 +302,7 @@
           "SubPathString": ""
         },
         "UITemplate_Mobile": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/BPUI_MiniMapContainer_Mobile.BPUI_MiniMapContainer_Mobile_C",
           "SubPathString": ""
         },
         "UITemplate_PlayStation": {
@@ -1351,7 +1352,7 @@
           "SubPathString": ""
         },
         "UITemplate_Mobile": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/Blueprints/LikeabilitySystem/BPUI_LikeabilityChatTips_Mobile.BPUI_LikeabilityChatTips_Mobile_C",
           "SubPathString": ""
         },
         "UITemplate_PlayStation": {
@@ -1626,7 +1627,7 @@
           "SubPathString": ""
         },
         "UITemplate_Mobile": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/Blueprints/UI_SinPoint_BP_Mobile.UI_SinPoint_BP_Mobile_C",
           "SubPathString": ""
         },
         "UITemplate_PlayStation": {
@@ -2451,7 +2452,7 @@
           "SubPathString": ""
         },
         "UITemplate_Mobile": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_OnlineTeamBtn_Mobile.BPUI_OnlineTeamBtn_Mobile_C",
           "SubPathString": ""
         },
         "UITemplate_PlayStation": {
@@ -3926,7 +3927,7 @@
           "SubPathString": ""
         },
         "UITemplate_Mobile": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/Blueprints/Menu/BPUI_SoundMuteButton_Mobile.BPUI_SoundMuteButton_Mobile_C",
           "SubPathString": ""
         },
         "UITemplate_PlayStation": {
@@ -4242,7 +4243,7 @@
         },
         "ExtraData": null,
         "UITemplet": {
-          "AssetPathName": "/Game/UI/Blueprints/Skill/MediaPlayerSkill/shushuSkill.shushuSkill_C",
+          "AssetPathName": "/Game/UI/Blueprints/Skill/MediaPlayerSkill/shushuSkill_pc.shushuSkill_pc_C",
           "SubPathString": ""
         },
         "bChangedExtensionOnInputTypeChanged": false,
@@ -4251,11 +4252,11 @@
           "SubPathString": ""
         },
         "UITemplate_Mobile": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/Blueprints/Skill/MediaPlayerSkill/shushuSkill.shushuSkill_C",
           "SubPathString": ""
         },
         "UITemplate_PlayStation": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/Blueprints/Skill/MediaPlayerSkill/shushuSkill.shushuSkill_C",
           "SubPathString": ""
         },
         "AutoAdd": false,
@@ -4293,6 +4294,456 @@
         "ExtraData": null,
         "UITemplet": {
           "AssetPathName": "/Game/UI/Blueprints/Setting/BPUI_OtherSetting.BPUI_OtherSetting_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "CharacterAbility": {
+        "Slot": {
+          "TagName": "HUD.Slot.CharacterAbility"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/Abilityies/WB_CharacterAbility.WB_CharacterAbility_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "RacingEntryNewSeason": {
+        "Slot": {
+          "TagName": "HUD.Slot.RacingEntryNewSeason"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_Racing_EntrySeason.BPUI_Racing_EntrySeason_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "RacingChooseVehiclePVPTier": {
+        "Slot": {
+          "TagName": "HUD.Slot.RacingChooseVehiclePVPTier"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_Racing_ChooseVehicle_PVPTier.BPUI_Racing_ChooseVehicle_PVPTier_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "RacingSeasonScoreChange": {
+        "Slot": {
+          "TagName": "HUD.Slot.RacingSeasonScoreChange"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_Racing_SeasonScoreChange.BPUI_Racing_SeasonScoreChange_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "RacingSeasonAwards": {
+        "Slot": {
+          "TagName": "HUD.Slot.RacingSeasonAwards"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_Racing_SeasonAwards.BPUI_Racing_SeasonAwards_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "RacingPVPRank": {
+        "Slot": {
+          "TagName": "HUD.Slot.RacingPVPRank"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_Racing_PVPRank.BPUI_Racing_PVPRank_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "MenuExtension": {
+        "Slot": {
+          "TagName": "HUD.Slot.MenuExtension"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/Menu/BPUI_MenuExtension.BPUI_MenuExtension_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "/Game/UI/Blueprints/Menu/BPUI_MenuExtension_Mobile.BPUI_MenuExtension_Mobile_C",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "ActivityCollectingFork": {
+        "Slot": {
+          "TagName": "HUD.Slot.Activity"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/Activity/CollectingFork/BPUI_ActivityCollectingForkMainForm.BPUI_ActivityCollectingForkMainForm_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "DebtDescription": {
+        "Slot": {
+          "TagName": "HUD.Slot.Desc"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/Description/BPUI_Description_Photo_Big.BPUI_Description_Photo_Big_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "OpActMultiCityGameplay": {
+        "Slot": {
+          "TagName": "HUD.Slot.Activity"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/ActivityOp/ActMutipleAward/MultipleCityGameplay/BPUI_OpMultiCItyGameplayMainForm.BPUI_OpMultiCItyGameplayMainForm_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "OpActMultiClone": {
+        "Slot": {
+          "TagName": "HUD.Slot.Activity"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/ActivityOp/ActMutipleAward/MultipleClone/BPUI_OpMultiCloneMainForm.BPUI_OpMultiCloneMainForm_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "OpActMultiRobRank": {
+        "Slot": {
+          "TagName": "HUD.Slot.Activity"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/ActivityOp/ActMutipleAward/MultipleRobRank/BPUI_OpMultiRobRankMainForm.BPUI_OpMultiRobRankMainForm_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "MapIconDetails_Prison": {
+        "Slot": {
+          "TagName": "HUD.Slot.BigMapPopUpBoardRight"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/MiniMap/IconDetails/BPUI_MapIconDetails_Prison.BPUI_MapIconDetails_Prison_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "OpActLotteryGiftMain": {
+        "Slot": {
+          "TagName": "HUD.Slot.Activity"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/Activity/BPUI_ActivityGiftMain.BPUI_ActivityGiftMain_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "OpActBondResonance": {
+        "Slot": {
+          "TagName": "HUD.Slot.Activity"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/ActivityOp/BondResonance/BPUI_OpActBondResonanceMainForm.BPUI_OpActBondResonanceMainForm_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "OpActFriendlyCitizen": {
+        "Slot": {
+          "TagName": "HUD.Slot.Activity"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/ActivityOp/FriendlyCitizen/BPUI_OpActFriendlyCitizenMain.BPUI_OpActFriendlyCitizenMain_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "BigWorldMeeting": {
+        "Slot": {
+          "TagName": "HUD.Slot.Date"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/NewLikeability/BPUI_BigWorldMeeting.BPUI_BigWorldMeeting_C",
+          "SubPathString": ""
+        },
+        "bChangedExtensionOnInputTypeChanged": false,
+        "UITemplate_Gamepad": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_Mobile": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UITemplate_PlayStation": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AutoAdd": false,
+        "ForbidLevelSceneAdd": []
+      },
+      "DatingDinner": {
+        "Slot": {
+          "TagName": "HUD.Slot.Date"
+        },
+        "ExtraData": null,
+        "UITemplet": {
+          "AssetPathName": "/Game/UI/Blueprints/Dating/UI_CharacterNpcInteractEating.UI_CharacterNpcInteractEating_C",
           "SubPathString": ""
         },
         "bChangedExtensionOnInputTypeChanged": false,

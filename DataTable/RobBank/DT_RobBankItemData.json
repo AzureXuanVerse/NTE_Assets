@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_RobBankItemData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/RobBank/DT_RobBankItemData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'StaticItemData'",
@@ -12,7 +13,7 @@
     },
     "Rows": {
       "RobBankItem_001": {
-        "ItemType": "EItemType::ITEM_TYPE_ROB_BANK_IMPORTANT",
+        "ItemType": "EItemType::ITEM_TYPE_ROB_BANK",
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
@@ -30,8 +31,8 @@
         "ItemName": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_001_name",
-          "SourceString": "混沌谜核",
-          "LocalizedString": "混沌谜核"
+          "SourceString": "乔望尼金雕像",
+          "LocalizedString": "乔望尼金雕像"
         },
         "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
@@ -41,14 +42,14 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_001_usedesc",
-          "SourceString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，价值40000方斯。",
-          "LocalizedString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，价值40000方斯。"
+          "SourceString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，价值50000方斯。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，价值50000方斯。"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_001_desc",
-          "SourceString": "原本似乎是某种器物的核心，如今却失去了最初的辉光。孤独的秘藏被看守在收藏室的深处，期盼着终有一日能被安置到正确的地方。",
-          "LocalizedString": "原本似乎是某种器物的核心，如今却失去了最初的辉光。孤独的秘藏被看守在收藏室的深处，期盼着终有一日能被安置到正确的地方。"
+          "SourceString": "乔望尼先生根据自身形象打造的纯金小雕像，价值如同他的身价般高昂的同时，连那副自信张扬的神态都栩栩如生。",
+          "LocalizedString": "乔望尼先生根据自身形象打造的纯金小雕像，价值如同他的身价般高昂的同时，连那副自信张扬的神态都栩栩如生。"
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -69,7 +70,13 @@
           "ExpandedAttributes": []
         },
         "ExtensionData": null,
-        "ElementData": null,
+        "ElementData": {
+          "Value": 50000,
+          "coin": 120,
+          "DropID": "drop_RobBankItem_001_collect",
+          "BroadcastMsg": false,
+          "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
+        },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [],
@@ -142,6 +149,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 666666,
+          "coin": 400,
           "DropID": "drop_RobBankItem_002_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -218,6 +226,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 131400,
+          "coin": 200,
           "DropID": "drop_RobBankItem_003_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -294,6 +303,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 88888,
+          "coin": 150,
           "DropID": "drop_RobBankItem_004_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -370,6 +380,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 9999,
+          "coin": 40,
           "DropID": "drop_RobBankItem_005_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -446,6 +457,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 1000,
+          "coin": 0,
           "DropID": "drop_RobBankItem_006_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -522,6 +534,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 10000,
+          "coin": 0,
           "DropID": "drop_RobBankItem_007_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_NONE"
@@ -598,6 +611,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 15000,
+          "coin": 50,
           "DropID": "drop_RobBankItem_008_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -674,6 +688,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 2800,
+          "coin": 20,
           "DropID": "drop_RobBankItem_009_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -750,6 +765,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 1200,
+          "coin": 16,
           "DropID": "drop_RobBankItem_010_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -826,6 +842,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 6400,
+          "coin": 30,
           "DropID": "drop_RobBankItem_011_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -902,6 +919,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 5000,
+          "coin": 30,
           "DropID": "drop_RobBankItem_012_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -978,6 +996,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 7500,
+          "coin": 30,
           "DropID": "drop_RobBankItem_013_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -1054,6 +1073,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 6400,
+          "coin": 30,
           "DropID": "drop_RobBankItem_014_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -1130,6 +1150,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 5200,
+          "coin": 30,
           "DropID": "drop_RobBankItem_015_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -1206,6 +1227,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 4000,
+          "coin": 30,
           "DropID": "drop_RobBankItem_016_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -1282,6 +1304,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 500,
+          "coin": 0,
           "DropID": "drop_RobBankItem_017_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -1358,6 +1381,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 400,
+          "coin": 0,
           "DropID": "drop_RobBankItem_018_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -1434,6 +1458,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 300,
+          "coin": 0,
           "DropID": "drop_RobBankItem_019_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -1510,6 +1535,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 200,
+          "coin": 0,
           "DropID": "drop_RobBankItem_020_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -1586,6 +1612,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 5000,
+          "coin": 35,
           "DropID": "drop_RobBankItem_021_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -1607,11 +1634,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_023.RobBankItem_023",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_022.RobBankItem_022",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_023.RobBankItem_023",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_022.RobBankItem_022",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -1662,6 +1689,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 100,
+          "coin": 0,
           "DropID": "drop_RobBankItem_022_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -1738,6 +1766,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 1000,
+          "coin": 0,
           "DropID": "drop_RobBankItem_023_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_NONE"
@@ -1814,6 +1843,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 10,
+          "coin": 0,
           "DropID": "drop_RobBankItem_024_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -1890,6 +1920,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 200,
+          "coin": 0,
           "DropID": "drop_RobBankItem_025_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_NONE"
@@ -1966,6 +1997,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 2000,
+          "coin": 0,
           "DropID": "drop_RobBankItem_026_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_NONE"
@@ -2042,6 +2074,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 750,
+          "coin": 1,
           "DropID": "drop_RobBankItem_027_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -2118,6 +2151,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 600,
+          "coin": 1,
           "DropID": "drop_RobBankItem_028_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -2194,6 +2228,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 300,
+          "coin": 0,
           "DropID": "drop_RobBankItem_029_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -2270,6 +2305,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 400,
+          "coin": 0,
           "DropID": "drop_RobBankItem_030_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -2346,6 +2382,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 250,
+          "coin": 0,
           "DropID": "drop_RobBankItem_031_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -2422,6 +2459,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 180,
+          "coin": 0,
           "DropID": "drop_RobBankItem_032_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -2457,25 +2495,25 @@
         "ItemName": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_033_name",
-          "SourceString": "「左左兔·缤纷」摆件",
-          "LocalizedString": "「左左兔·缤纷」摆件"
+          "SourceString": "葡葡气泡水",
+          "LocalizedString": "葡葡气泡水"
         },
         "MaxAmount": 99999,
-        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_GREEN",
         "ItemCD": 0.0,
         "TimeLimit": null,
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_033_usedesc",
-          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值100方斯。",
-          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值100方斯。"
+          "SourceString": "「粉爪大劫案」玩法中可获得的基础品质道具，价值100方斯。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的基础品质道具，价值100方斯。"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_033_desc",
-          "SourceString": "「左左兔」系列瓷质摆件，因其造型多样，价格实惠广受好评，但娜娜莉始终坚称它们看起来更像熊。",
-          "LocalizedString": "「左左兔」系列瓷质摆件，因其造型多样，价格实惠广受好评，但娜娜莉始终坚称它们看起来更像熊。"
+          "SourceString": "粉爪银行为员工免费提供的饮品，清凉爽口，据称有相当不错的提神效果。",
+          "LocalizedString": "粉爪银行为员工免费提供的饮品，清凉爽口，据称有相当不错的提神效果。"
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -2498,9 +2536,10 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 100,
+          "coin": 0,
           "DropID": "drop_RobBankItem_033_collect",
           "BroadcastMsg": false,
-          "ItemType": "ERobBankItemType::ROB_BANK_ITEM_NONE"
+          "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -2533,8 +2572,8 @@
         "ItemName": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_034_name",
-          "SourceString": "「左左兔·浓淡」摆件",
-          "LocalizedString": "「左左兔·浓淡」摆件"
+          "SourceString": "莓莓酸奶昔",
+          "LocalizedString": "莓莓酸奶昔"
         },
         "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
@@ -2544,14 +2583,14 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_034_usedesc",
-          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值100方斯。",
-          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值100方斯。"
+          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值400方斯。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值400方斯。"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_034_desc",
-          "SourceString": "「左左兔」系列瓷质摆件，因其造型多样，价格实惠广受好评，但娜娜莉始终坚称它们看起来更像熊。",
-          "LocalizedString": "「左左兔」系列瓷质摆件，因其造型多样，价格实惠广受好评，但娜娜莉始终坚称它们看起来更像熊。"
+          "SourceString": "粉爪银行为员工免费提供的饮品，入口是浓郁的莓果香，颇受员工们的欢迎。",
+          "LocalizedString": "粉爪银行为员工免费提供的饮品，入口是浓郁的莓果香，颇受员工们的欢迎。"
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -2573,10 +2612,11 @@
         },
         "ExtensionData": null,
         "ElementData": {
-          "Value": 100,
+          "Value": 400,
+          "coin": 0,
           "DropID": "drop_RobBankItem_034_collect",
           "BroadcastMsg": false,
-          "ItemType": "ERobBankItemType::ROB_BANK_ITEM_NONE"
+          "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -2609,8 +2649,8 @@
         "ItemName": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_035_name",
-          "SourceString": "「左左兔·荧粉」摆件",
-          "LocalizedString": "「左左兔·荧粉」摆件"
+          "SourceString": "咕比奇原味薯片",
+          "LocalizedString": "咕比奇原味薯片"
         },
         "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
@@ -2620,14 +2660,14 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_035_usedesc",
-          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值100方斯。",
-          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值100方斯。"
+          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值600方斯。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值600方斯。"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_035_desc",
-          "SourceString": "「左左兔」系列瓷质摆件，因其造型多样，价格实惠广受好评，但娜娜莉始终坚称它们看起来更像熊。",
-          "LocalizedString": "「左左兔」系列瓷质摆件，因其造型多样，价格实惠广受好评，但娜娜莉始终坚称它们看起来更像熊。"
+          "SourceString": "粉爪银行为员工免费提供的零食，经典口味的薯片，是上班时解馋的首选，不过偶尔也会有人提议多来一些其他口味。",
+          "LocalizedString": "粉爪银行为员工免费提供的零食，经典口味的薯片，是上班时解馋的首选，不过偶尔也会有人提议多来一些其他口味。"
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -2649,10 +2689,11 @@
         },
         "ExtensionData": null,
         "ElementData": {
-          "Value": 100,
+          "Value": 600,
+          "coin": 1,
           "DropID": "drop_RobBankItem_035_collect",
           "BroadcastMsg": false,
-          "ItemType": "ERobBankItemType::ROB_BANK_ITEM_NONE"
+          "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -2685,28 +2726,39 @@
         "ItemName": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_036_name",
-          "SourceString": "「左左兔·曲折」摆件",
-          "LocalizedString": "「左左兔·曲折」摆件"
+          "SourceString": "橘橘鲜果饮",
+          "LocalizedString": "橘橘鲜果饮"
         },
         "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
         "ItemCD": 0.0,
         "TimeLimit": null,
-        "ItemEffectType": "EItemEffectType::NoEffect",
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_036_usedesc",
-          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值100方斯。",
-          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值100方斯。"
+          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，使用后可以恢复少量生命值，价值900方斯。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，使用后可以恢复少量生命值，价值900方斯。"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_036_desc",
-          "SourceString": "「左左兔」系列瓷质摆件，因其造型多样，价格实惠广受好评，但娜娜莉始终坚称它们看起来更像熊。",
-          "LocalizedString": "「左左兔」系列瓷质摆件，因其造型多样，价格实惠广受好评，但娜娜莉始终坚称它们看起来更像熊。"
+          "SourceString": "酸甜清爽的橘子味饮料，饮用前最好摇一摇。",
+          "LocalizedString": "酸甜清爽的橘子味饮料，饮用前最好摇一摇。"
         },
         "LimitScenes": [],
-        "ToolDatas": [],
+        "ToolDatas": [
+          {
+            "HPAdd": 0.0,
+            "HPMult": 0.2,
+            "bIsGlobal": false,
+            "bNeedShowConsumableUseUI": true
+          },
+          {
+            "SatietyAdd": 20.0
+          },
+          {}
+        ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
         "SellData": [],
@@ -2715,7 +2767,7 @@
         "bUndisplayCommonAddMessageTips": false,
         "bUseAddMessageTips": true,
         "AddMessageTipsIDs": [],
-        "BagFunctions": 0,
+        "BagFunctions": 1,
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
@@ -2725,12 +2777,13 @@
         },
         "ExtensionData": null,
         "ElementData": {
-          "Value": 100,
+          "Value": 900,
+          "coin": 1,
           "DropID": "drop_RobBankItem_036_collect",
           "BroadcastMsg": false,
-          "ItemType": "ERobBankItemType::ROB_BANK_ITEM_NONE"
+          "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
         },
-        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "QuickUseType": "EItemQuickUseType::QuickUse_Enable",
         "bIsShowAmount": true,
         "PlayerViewTagArray": [],
         "bIsLimitAmount": false,
@@ -2761,28 +2814,39 @@
         "ItemName": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_037_name",
-          "SourceString": "「左左兔·目眩」摆件",
-          "LocalizedString": "「左左兔·目眩」摆件"
+          "SourceString": "VC活力饮",
+          "LocalizedString": "VC活力饮"
         },
         "MaxAmount": 99999,
-        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
-        "ItemEffectType": "EItemEffectType::NoEffect",
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_037_usedesc",
-          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值100方斯。",
-          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值100方斯。"
+          "SourceString": "「粉爪大劫案」玩法中可获得的贵重品质道具，使用后可以恢复部分生命值，价值4000方斯。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的贵重品质道具，使用后可以恢复部分生命值，价值4000方斯。"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_037_desc",
-          "SourceString": "「左左兔」系列瓷质摆件，因其造型多样，价格实惠广受好评，但娜娜莉始终坚称它们看起来更像熊。",
-          "LocalizedString": "「左左兔」系列瓷质摆件，因其造型多样，价格实惠广受好评，但娜娜莉始终坚称它们看起来更像熊。"
+          "SourceString": "瞌睡不醒？身心疲惫？VC活力饮，使您的一天活力满满！",
+          "LocalizedString": "瞌睡不醒？身心疲惫？VC活力饮，使您的一天活力满满！"
         },
         "LimitScenes": [],
-        "ToolDatas": [],
+        "ToolDatas": [
+          {
+            "HPAdd": 0.0,
+            "HPMult": 0.4,
+            "bIsGlobal": false,
+            "bNeedShowConsumableUseUI": true
+          },
+          {
+            "SatietyAdd": 20.0
+          },
+          {}
+        ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
         "SellData": [],
@@ -2791,7 +2855,7 @@
         "bUndisplayCommonAddMessageTips": false,
         "bUseAddMessageTips": true,
         "AddMessageTipsIDs": [],
-        "BagFunctions": 0,
+        "BagFunctions": 1,
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
@@ -2801,10 +2865,11 @@
         },
         "ExtensionData": null,
         "ElementData": {
-          "Value": 100,
+          "Value": 4000,
+          "coin": 20,
           "DropID": "drop_RobBankItem_037_collect",
           "BroadcastMsg": false,
-          "ItemType": "ERobBankItemType::ROB_BANK_ITEM_NONE"
+          "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -2878,6 +2943,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 100,
+          "coin": 0,
           "DropID": "drop_RobBankItem_038_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -2913,28 +2979,39 @@
         "ItemName": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_039_name",
-          "SourceString": "小猪存钱罐",
-          "LocalizedString": "小猪存钱罐"
+          "SourceString": "清凉凉止痛药",
+          "LocalizedString": "清凉凉止痛药"
         },
         "MaxAmount": 99999,
-        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
-        "ItemEffectType": "EItemEffectType::NoEffect",
+        "ItemEffectType": "EItemEffectType::AddHPInstant",
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_039_usedesc",
-          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值100方斯。",
-          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值100方斯。"
+          "SourceString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，使用后可以恢复大量生命值，价值12000方斯。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，使用后可以恢复大量生命值，价值12000方斯。"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_039_desc",
-          "SourceString": "几乎每个孩子都会有的一个小猪存钱罐。沉甸甸的不止是硬币，还有最原初的梦想。",
-          "LocalizedString": "几乎每个孩子都会有的一个小猪存钱罐。沉甸甸的不止是硬币，还有最原初的梦想。"
+          "SourceString": "见效极快的止痛药，无论是头痛还是脚痛，只需一粒，药到病除。",
+          "LocalizedString": "见效极快的止痛药，无论是头痛还是脚痛，只需一粒，药到病除。"
         },
         "LimitScenes": [],
-        "ToolDatas": [],
+        "ToolDatas": [
+          {
+            "HPAdd": 0.0,
+            "HPMult": 0.6,
+            "bIsGlobal": false,
+            "bNeedShowConsumableUseUI": true
+          },
+          {
+            "SatietyAdd": 20.0
+          },
+          {}
+        ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
         "SellData": [],
@@ -2943,7 +3020,7 @@
         "bUndisplayCommonAddMessageTips": false,
         "bUseAddMessageTips": true,
         "AddMessageTipsIDs": [],
-        "BagFunctions": 0,
+        "BagFunctions": 1,
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
@@ -2953,10 +3030,11 @@
         },
         "ExtensionData": null,
         "ElementData": {
-          "Value": 100,
+          "Value": 12000,
+          "coin": 50,
           "DropID": "drop_RobBankItem_039_collect",
           "BroadcastMsg": false,
-          "ItemType": "ERobBankItemType::ROB_BANK_ITEM_NONE"
+          "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -3030,6 +3108,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 2500,
+          "coin": 20,
           "DropID": "drop_RobBankItem_040_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -3076,8 +3155,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_041_usedesc",
-          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值500方斯。",
-          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值500方斯。"
+          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值999方斯。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，价值999方斯。"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -3105,7 +3184,8 @@
         },
         "ExtensionData": null,
         "ElementData": {
-          "Value": 500,
+          "Value": 999,
+          "coin": 10,
           "DropID": "drop_RobBankItem_041_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -3182,6 +3262,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 30,
+          "coin": 0,
           "DropID": "drop_RobBankItem_042_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -3258,6 +3339,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 30,
+          "coin": 0,
           "DropID": "drop_RobBankItem_043_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_NONE"
@@ -3334,6 +3416,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 50,
+          "coin": 0,
           "DropID": "drop_RobBankItem_044_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -3410,6 +3493,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 20,
+          "coin": 0,
           "DropID": "drop_RobBankItem_045_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_NONE"
@@ -3486,6 +3570,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 20,
+          "coin": 0,
           "DropID": "drop_RobBankItem_046_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_NONE"
@@ -3562,6 +3647,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 20,
+          "coin": 0,
           "DropID": "drop_RobBankItem_047_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_NONE"
@@ -3638,6 +3724,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 640,
+          "coin": 1,
           "DropID": "drop_RobBankItem_048_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -3714,6 +3801,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 720,
+          "coin": 1,
           "DropID": "drop_RobBankItem_049_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -3766,8 +3854,8 @@
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_050_desc",
-          "SourceString": "似乎原本就是特意做旧的雕花碗，将它盛满米饭捧在手里的话，脸上一定会情不自禁地露出幸福的笑容。",
-          "LocalizedString": "似乎原本就是特意做旧的雕花碗，将它盛满米饭捧在手里的话，脸上一定会情不自禁地露出幸福的笑容。"
+          "SourceString": "古韵悠长的青花瓷碗，在遥远的过去曾作为不可缺少的日用品构建着人们热气腾腾的生活。",
+          "LocalizedString": "古韵悠长的青花瓷碗，在遥远的过去曾作为不可缺少的日用品构建着人们热气腾腾的生活。"
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -3790,6 +3878,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 560,
+          "coin": 1,
           "DropID": "drop_RobBankItem_050_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -3866,6 +3955,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 800,
+          "coin": 1,
           "DropID": "drop_RobBankItem_051_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -3942,6 +4032,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 80,
+          "coin": 0,
           "DropID": "drop_RobBankItem_052_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -4018,6 +4109,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 60,
+          "coin": 0,
           "DropID": "drop_RobBankItem_053_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -4094,6 +4186,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 40,
+          "coin": 0,
           "DropID": "drop_RobBankItem_054_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -4170,6 +4263,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 20,
+          "coin": 0,
           "DropID": "drop_RobBankItem_055_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_COMMON"
@@ -4246,6 +4340,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 2000,
+          "coin": 20,
           "DropID": "drop_RobBankItem_056_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -4322,6 +4417,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 3000,
+          "coin": 20,
           "DropID": "drop_RobBankItem_057_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -4368,8 +4464,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_058_usedesc",
-          "SourceString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，价值15000方斯。",
-          "LocalizedString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，价值15000方斯。"
+          "SourceString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，价值20000方斯。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，价值20000方斯。"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -4397,7 +4493,8 @@
         },
         "ExtensionData": null,
         "ElementData": {
-          "Value": 15000,
+          "Value": 20000,
+          "coin": 75,
           "DropID": "drop_RobBankItem_058_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -4433,8 +4530,8 @@
         "ItemName": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_059_name",
-          "SourceString": "万象仪",
-          "LocalizedString": "万象仪"
+          "SourceString": "万有星仪",
+          "LocalizedString": "万有星仪"
         },
         "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
@@ -4444,8 +4541,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_059_usedesc",
-          "SourceString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，价值24000方斯。",
-          "LocalizedString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，价值24000方斯。"
+          "SourceString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，价值27500方斯。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，价值27500方斯。"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -4473,7 +4570,8 @@
         },
         "ExtensionData": null,
         "ElementData": {
-          "Value": 24000,
+          "Value": 27500,
+          "coin": 75,
           "DropID": "drop_RobBankItem_059_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -4550,6 +4648,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 1500,
+          "coin": 16,
           "DropID": "drop_RobBankItem_060_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -4571,11 +4670,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_061.RobBankItem_061",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_063.RobBankItem_063",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_061.RobBankItem_061",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_063.RobBankItem_063",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -4626,6 +4725,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 1500,
+          "coin": 16,
           "DropID": "drop_RobBankItem_061_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -4647,11 +4747,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_062.RobBankItem_062",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_061.RobBankItem_061",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_062.RobBankItem_062",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_061.RobBankItem_061",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -4702,6 +4802,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 15000,
+          "coin": 50,
           "DropID": "drop_RobBankItem_062_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -4723,11 +4824,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_063.RobBankItem_063",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_062.RobBankItem_062",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_063.RobBankItem_063",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_062.RobBankItem_062",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -4778,6 +4879,7 @@
         "ExtensionData": null,
         "ElementData": {
           "Value": 40000,
+          "coin": 100,
           "DropID": "drop_RobBankItem_063_collect",
           "BroadcastMsg": false,
           "ItemType": "ERobBankItemType::ROB_BANK_ITEM_RARITY"
@@ -4826,14 +4928,14 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_G001_usedesc",
-          "SourceString": "「粉爪大劫案」玩法中可获得的基础品质道具，仅能使用一次，可以开启某些临时上锁的门。\n能够带出银行，最多同时拥有10个。",
-          "LocalizedString": "「粉爪大劫案」玩法中可获得的基础品质道具，仅能使用一次，可以开启某些临时上锁的门。\n能够带出银行，最多同时拥有10个。"
+          "SourceString": "「粉爪大劫案」玩法中可获得的基础品质道具，仅能使用一次，可以开启某些临时上锁的电梯门。\r\n能够带出银行，最多同时拥有10个。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的基础品质道具，仅能使用一次，可以开启某些临时上锁的电梯门。\r\n能够带出银行，最多同时拥有10个。"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_G001_desc",
-          "SourceString": "银行专门为外来访客提供的身份卡，可以凭此卡参观一些平常不对外开放的地方。",
-          "LocalizedString": "银行专门为外来访客提供的身份卡，可以凭此卡参观一些平常不对外开放的地方。"
+          "SourceString": "银行专门为外来访客提供的身份卡，可以凭此卡开启楼层间的电梯。",
+          "LocalizedString": "银行专门为外来访客提供的身份卡，可以凭此卡开启楼层间的电梯。"
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -4891,7 +4993,7 @@
           "SourceString": "配电箱钥匙",
           "LocalizedString": "配电箱钥匙"
         },
-        "MaxAmount": 999,
+        "MaxAmount": 10,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_GREEN",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -4899,8 +5001,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_G002_usedesc",
-          "SourceString": "「粉爪大劫案」玩法中可获得的基础品质道具，仅能使用一次，可以开启配电箱。\n能够带出银行，最多同时拥有10个。",
-          "LocalizedString": "「粉爪大劫案」玩法中可获得的基础品质道具，仅能使用一次，可以开启配电箱。\n能够带出银行，最多同时拥有10个。"
+          "SourceString": "「粉爪大劫案」玩法中可获得的基础品质道具，仅能使用一次，可以开启配电箱。\r\n能够带出银行，最多同时拥有10个。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的基础品质道具，仅能使用一次，可以开启配电箱。\r\n能够带出银行，最多同时拥有10个。"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -4964,7 +5066,7 @@
           "SourceString": "普通权限卡",
           "LocalizedString": "普通权限卡"
         },
-        "MaxAmount": 999,
+        "MaxAmount": 10,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -4972,14 +5074,14 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_G003_usedesc",
-          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，能够多次使用，可以开启前往下一层的电梯。\n能够带出银行，最多同时拥有10个。",
-          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，能够多次使用，可以开启前往下一层的电梯。\n能够带出银行，最多同时拥有10个。"
+          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，能够多次使用，可以开启副行长办公室的电梯。\r\n能够带出银行，最多同时拥有10个。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，能够多次使用，可以开启副行长办公室的电梯。\r\n能够带出银行，最多同时拥有10个。"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_G003_desc",
-          "SourceString": "普通的员工权限卡，可以用它乘坐银行员工专用电梯。",
-          "LocalizedString": "普通的员工权限卡，可以用它乘坐银行员工专用电梯。"
+          "SourceString": "副行长的权限卡，可以用它乘坐副行长专用电梯。",
+          "LocalizedString": "副行长的权限卡，可以用它乘坐副行长专用电梯。"
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -5037,7 +5139,7 @@
           "SourceString": "高级权限卡·一",
           "LocalizedString": "高级权限卡·一"
         },
-        "MaxAmount": 999,
+        "MaxAmount": 3,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -5045,14 +5147,14 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_G004_usedesc",
-          "SourceString": "「粉爪大劫案」玩法中可以开启办公楼层的管理员房间，仅可使用一次。",
-          "LocalizedString": "「粉爪大劫案」玩法中可以开启办公楼层的管理员房间，仅可使用一次。"
+          "SourceString": "「粉爪大劫案」玩法中与「混沌谜核」一起使用可以开启银行最为宏伟的金库大门，仅可使用一次。\r\n能够带出银行，最多同时拥有3个。 ",
+          "LocalizedString": "「粉爪大劫案」玩法中与「混沌谜核」一起使用可以开启银行最为宏伟的金库大门，仅可使用一次。\r\n能够带出银行，最多同时拥有3个。 "
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_G004_desc",
-          "SourceString": "管理员才能持有的高级权限卡，可以开启办公楼层的管理员房间。",
-          "LocalizedString": "管理员才能持有的高级权限卡，可以开启办公楼层的管理员房间。"
+          "SourceString": "管理员才能持有的高级权限卡，可以开启最大的金库大门。",
+          "LocalizedString": "管理员才能持有的高级权限卡，可以开启最大的金库大门。"
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -5110,7 +5212,7 @@
           "SourceString": "高级权限卡·二",
           "LocalizedString": "高级权限卡·二"
         },
-        "MaxAmount": 999,
+        "MaxAmount": 5,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -5124,8 +5226,8 @@
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_G005_desc",
-          "SourceString": "管理员才能持有的高级权限卡，可以开启收藏楼层的管理员房间。",
-          "LocalizedString": "管理员才能持有的高级权限卡，可以开启收藏楼层的管理员房间。"
+          "SourceString": "管理员才能持有的高级权限卡，是开启最大金库的钥匙之一",
+          "LocalizedString": "管理员才能持有的高级权限卡，是开启最大金库的钥匙之一"
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -5191,8 +5293,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_G006_usedesc",
-          "SourceString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，仅能使用一次，可以开启1号金库。\n能够带出银行，最多同时拥有5个。",
-          "LocalizedString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，仅能使用一次，可以开启1号金库。\n能够带出银行，最多同时拥有5个。"
+          "SourceString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，仅能使用一次，可以开启1号金库。\r\n能够带出银行，最多同时拥有5个。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，仅能使用一次，可以开启1号金库。\r\n能够带出银行，最多同时拥有5个。"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -5921,14 +6023,671 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_G016_usedesc",
-          "SourceString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，仅能使用一次，能用它开启银行最为宏伟的金库大门。\n能够带出银行，最多同时拥有2个。",
-          "LocalizedString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，仅能使用一次，能用它开启银行最为宏伟的金库大门。\n能够带出银行，最多同时拥有2个。"
+          "SourceString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，仅能使用一次，能与「高级权限卡.一」一起使用可以开启银行最为宏伟的金库大门。\r\n能够带出银行，最多同时拥有2个。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，仅能使用一次，能与「高级权限卡.一」一起使用可以开启银行最为宏伟的金库大门。\r\n能够带出银行，最多同时拥有2个。"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "RobBankItem_G016_desc",
           "SourceString": "原本似乎是某种器物的核心，如今却失去了最初的辉光。孤独的秘藏被看守在收藏室的深处，期盼着终有一日能被安置到正确的地方。",
           "LocalizedString": "原本似乎是某种器物的核心，如今却失去了最初的辉光。孤独的秘藏被看守在收藏室的深处，期盼着终有一日能被安置到正确的地方。"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "RobBankItem_G017": {
+        "ItemType": "EItemType::ITEM_TYPE_ROB_BANK_IMPORTANT",
+        "ItemClassOverride": null,
+        "ItemTags": [
+          "BankVault_Imp_04"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_G017.RobBankItem_G017",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_G017.RobBankItem_G017",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G017_name",
+          "SourceString": "娱乐室门禁卡",
+          "LocalizedString": "娱乐室门禁卡"
+        },
+        "MaxAmount": 5,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G017_usedesc",
+          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，仅能使用一次，可以开启办公层娱乐室的门。\n能够带出银行，最多同时拥有5个。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，仅能使用一次，可以开启办公层娱乐室的门。\n能够带出银行，最多同时拥有5个。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G017_desc",
+          "SourceString": "凭此卡可以进入银行员工经常使用的娱乐室，稍微留心的话会发现似乎总有人在里面遗落一些东西……",
+          "LocalizedString": "凭此卡可以进入银行员工经常使用的娱乐室，稍微留心的话会发现似乎总有人在里面遗落一些东西……"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "RobBankItem_G018": {
+        "ItemType": "EItemType::ITEM_TYPE_ROB_BANK_IMPORTANT",
+        "ItemClassOverride": null,
+        "ItemTags": [
+          "BankVault_Imp_05"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_G018.RobBankItem_G018",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_G018.RobBankItem_G018",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G018_name",
+          "SourceString": "会议室门禁卡",
+          "LocalizedString": "会议室门禁卡"
+        },
+        "MaxAmount": 5,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G018_usedesc",
+          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，仅能使用一次，可以开启收藏层会议室的门。\n能够带出银行，最多同时拥有5个。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，仅能使用一次，可以开启收藏层会议室的门。\n能够带出银行，最多同时拥有5个。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G018_desc",
+          "SourceString": "凭此卡可以进入收藏层角落的会议室，根据里面直通副行长办公室的电梯来看，这间会议室似乎是专属于某人的。",
+          "LocalizedString": "凭此卡可以进入收藏层角落的会议室，根据里面直通副行长办公室的电梯来看，这间会议室似乎是专属于某人的。"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "RobBankItem_G019": {
+        "ItemType": "EItemType::ITEM_TYPE_ROB_BANK_IMPORTANT",
+        "ItemClassOverride": null,
+        "ItemTags": [
+          "BankVault_Imp_06"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_G019.RobBankItem_G019",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_G019.RobBankItem_G019",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G019_name",
+          "SourceString": "副经理办公室门禁卡",
+          "LocalizedString": "副经理办公室门禁卡"
+        },
+        "MaxAmount": 3,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G019_usedesc",
+          "SourceString": "「粉爪大劫案」玩法中可获得的贵重品质道具，仅能使用一次，可以开启办公层副经理办公室的门。\n能够带出银行，最多同时拥有3个。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的贵重品质道具，仅能使用一次，可以开启办公层副经理办公室的门。\n能够带出银行，最多同时拥有3个。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G019_desc",
+          "SourceString": "凭此卡可以进入办公层副经理办公室，里面说不定会存放有一些保险箱之类的物件。",
+          "LocalizedString": "凭此卡可以进入办公层副经理办公室，里面说不定会存放有一些保险箱之类的物件。"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "RobBankItem_G020": {
+        "ItemType": "EItemType::ITEM_TYPE_ROB_BANK_IMPORTANT",
+        "ItemClassOverride": null,
+        "ItemTags": [
+          "BankVault_Imp_07"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_G020.RobBankItem_G020",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_G020.RobBankItem_G020",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G020_name",
+          "SourceString": "配电间门禁卡",
+          "LocalizedString": "配电间门禁卡"
+        },
+        "MaxAmount": 3,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G020_usedesc",
+          "SourceString": "「粉爪大劫案」玩法中可获得的贵重品质道具，仅能使用一次，可以开启收藏层配电间的门。\r\n能够带出银行，最多同时拥有3个。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的贵重品质道具，仅能使用一次，可以开启收藏层配电间的门。\r\n能够带出银行，最多同时拥有3个。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G020_desc",
+          "SourceString": "凭此卡可以进入收藏层配电间……等等，你去那里做什么？",
+          "LocalizedString": "凭此卡可以进入收藏层配电间……等等，你去那里做什么？"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "RobBankItem_G021": {
+        "ItemType": "EItemType::ITEM_TYPE_ROB_BANK_IMPORTANT",
+        "ItemClassOverride": null,
+        "ItemTags": [
+          "BankVault_Imp_08"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_G021.RobBankItem_G021",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_G021.RobBankItem_G021",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G021_name",
+          "SourceString": "监控室门禁卡",
+          "LocalizedString": "监控室门禁卡"
+        },
+        "MaxAmount": 3,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G021_usedesc",
+          "SourceString": "「粉爪大劫案」玩法中可获得的贵重品质道具，仅能使用一次，可以开启收藏层监控室的门。\n能够带出银行，最多同时拥有3个。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的贵重品质道具，仅能使用一次，可以开启收藏层监控室的门。\n能够带出银行，最多同时拥有3个。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G021_desc",
+          "SourceString": "凭此卡可以进入收藏层监控室，话说回来，监控室里有那么大一个保险箱是正常的吗……",
+          "LocalizedString": "凭此卡可以进入收藏层监控室，话说回来，监控室里有那么大一个保险箱是正常的吗……"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "RobBankItem_G022": {
+        "ItemType": "EItemType::ITEM_TYPE_ROB_BANK_IMPORTANT",
+        "ItemClassOverride": null,
+        "ItemTags": [
+          "BankVault_Imp_09"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_G022.RobBankItem_G022",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_G022.RobBankItem_G022",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G022_name",
+          "SourceString": "经理办公室门禁卡",
+          "LocalizedString": "经理办公室门禁卡"
+        },
+        "MaxAmount": 2,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G022_usedesc",
+          "SourceString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，仅能使用一次，可以开启办公层经理办公室的门。\n能够带出银行，最多同时拥有2个。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，仅能使用一次，可以开启办公层经理办公室的门。\n能够带出银行，最多同时拥有2个。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G022_desc",
+          "SourceString": "凭此卡可以进入办公层经理办公室，据说可以从那里直接通往总经理的私人休息室。",
+          "LocalizedString": "凭此卡可以进入办公层经理办公室，据说可以从那里直接通往总经理的私人休息室。"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "RobBankItem_G023": {
+        "ItemType": "EItemType::ITEM_TYPE_ROB_BANK_IMPORTANT",
+        "ItemClassOverride": null,
+        "ItemTags": [
+          "BankVault_Imp_10"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_G023.RobBankItem_G023",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_G023.RobBankItem_G023",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G023_name",
+          "SourceString": "经理储物间门禁卡",
+          "LocalizedString": "经理储物间门禁卡"
+        },
+        "MaxAmount": 2,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G023_usedesc",
+          "SourceString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，仅能使用一次，可以开启收藏层经理储物间的门。\r\n能够带出银行，最多同时拥有2个。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的珍稀品质道具，仅能使用一次，可以开启收藏层经理储物间的门。\r\n能够带出银行，最多同时拥有2个。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G023_desc",
+          "SourceString": "凭此卡可以进入办公层经理储物间，以及储物间里的另一个神秘空间……？",
+          "LocalizedString": "凭此卡可以进入办公层经理储物间，以及储物间里的另一个神秘空间……？"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "RobBankItem_G024": {
+        "ItemType": "EItemType::ITEM_TYPE_ROB_BANK_IMPORTANT",
+        "ItemClassOverride": null,
+        "ItemTags": [
+          "BankVault_Imp_11"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_G024.RobBankItem_G024",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_G024.RobBankItem_G024",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G024_name",
+          "SourceString": "收藏层直通卡",
+          "LocalizedString": "收藏层直通卡"
+        },
+        "MaxAmount": 5,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G024_usedesc",
+          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，仅能使用一次，可以开启前往收藏层的电梯。\r\n能够带出银行，最多同时拥有5个。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，仅能使用一次，可以开启前往收藏层的电梯。\r\n能够带出银行，最多同时拥有5个。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G024_desc",
+          "SourceString": "曾属于某个员工的办公直通卡，可以凭此卡直达收藏层。",
+          "LocalizedString": "曾属于某个员工的办公直通卡，可以凭此卡直达收藏层。"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "RobBankItem_G025": {
+        "ItemType": "EItemType::ITEM_TYPE_ROB_BANK_IMPORTANT",
+        "ItemClassOverride": null,
+        "ItemTags": [
+          "BankVault_Imp_12"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/RobBankItem_G025.RobBankItem_G025",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobBankItem_G025.RobBankItem_G025",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G025_name",
+          "SourceString": "金库直通卡",
+          "LocalizedString": "金库直通卡"
+        },
+        "MaxAmount": 5,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G025_usedesc",
+          "SourceString": "「粉爪大劫案」玩法中可获得的普通品质道具，仅能使用一次，可以开启前往金库的电梯。\r\n能够带出银行，最多同时拥有5个。",
+          "LocalizedString": "「粉爪大劫案」玩法中可获得的普通品质道具，仅能使用一次，可以开启前往金库的电梯。\r\n能够带出银行，最多同时拥有5个。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobBankItem_G025_desc",
+          "SourceString": "不知属于何人的金库直通卡，想要直达金库？就带上它吧。",
+          "LocalizedString": "不知属于何人的金库直通卡，想要直达金库？就带上它吧。"
         },
         "LimitScenes": [],
         "ToolDatas": [],

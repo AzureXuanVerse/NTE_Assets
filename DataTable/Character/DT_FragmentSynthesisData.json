@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_FragmentSynthesisData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/DT_FragmentSynthesisData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'FragmentSynthesisData'",
@@ -84,6 +85,11 @@
       "Characterawaken_chiichan": {
         "NeedNumber": 1,
         "SynthesisProductId": "1073",
+        "SynthesisProductNumber": 6
+      },
+      "Characterawaken_mitsuki": {
+        "NeedNumber": 1,
+        "SynthesisProductId": "1070",
         "SynthesisProductNumber": 6
       }
     }

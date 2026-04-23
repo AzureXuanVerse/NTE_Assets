@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "QuestSpawnPointOverrideTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/QuestSpawnPointOverrideTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'QuestSpawnPointRow'",
@@ -439,7 +440,7 @@
             "SpawnLocation": {
               "X": -4220.0,
               "Y": -2224.0,
-              "Z": -5519.0
+              "Z": -5461.0
             },
             "SpawnRot": {
               "Pitch": 0.0,
@@ -760,16 +761,30 @@
       "q110403_NPC002": {
         "QuestSpawnPointOverrides": [
           {
-            "BeginQuestID": "q110403",
-            "EndQuestID": "q110403",
+            "BeginQuestID": "q110404",
+            "EndQuestID": "q110405",
             "SpawnLocation": {
-              "X": 4078.6128,
-              "Y": 272142.28,
-              "Z": 7756.686
+              "X": 4168.0737,
+              "Y": 272168.47,
+              "Z": 7756.671
             },
             "SpawnRot": {
               "Pitch": 0.0,
               "Yaw": 90.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "BeginQuestID": "q110406",
+            "EndQuestID": "q110407",
+            "SpawnLocation": {
+              "X": 3976.7778,
+              "Y": 274746.22,
+              "Z": 27552.623
+            },
+            "SpawnRot": {
+              "Pitch": 0.0,
+              "Yaw": -273.17236,
               "Roll": 0.0
             }
           }
@@ -778,16 +793,62 @@
       "q110403_NPC009": {
         "QuestSpawnPointOverrides": [
           {
-            "BeginQuestID": "q110403",
-            "EndQuestID": "q110403",
+            "BeginQuestID": "q110404",
+            "EndQuestID": "q110405",
             "SpawnLocation": {
-              "X": 3912.0205,
-              "Y": 272064.97,
-              "Z": 7756.686
+              "X": 4009.3425,
+              "Y": 272220.16,
+              "Z": 7756.671
             },
             "SpawnRot": {
               "Pitch": 0.0,
               "Yaw": 90.0,
+              "Roll": 0.0
+            }
+          },
+          {
+            "BeginQuestID": "q110406",
+            "EndQuestID": "q110407",
+            "SpawnLocation": {
+              "X": 4012.398,
+              "Y": 272762.2,
+              "Z": 7122.6455
+            },
+            "SpawnRot": {
+              "Pitch": 0.0,
+              "Yaw": -273.17236,
+              "Roll": 0.0
+            }
+          }
+        ]
+      },
+      "q110403_NPC013": {
+        "QuestSpawnPointOverrides": [
+          {
+            "BeginQuestID": "q110404",
+            "EndQuestID": "q110405",
+            "SpawnLocation": {
+              "X": 3889.2869,
+              "Y": 272073.28,
+              "Z": 7756.671
+            },
+            "SpawnRot": {
+              "Pitch": 0.0,
+              "Yaw": 87.79156,
+              "Roll": 0.0
+            }
+          },
+          {
+            "BeginQuestID": "q110406",
+            "EndQuestID": "q110407",
+            "SpawnLocation": {
+              "X": 3906.9116,
+              "Y": 274603.75,
+              "Z": 27552.623
+            },
+            "SpawnRot": {
+              "Pitch": 0.0,
+              "Yaw": 89.9976,
               "Roll": 0.0
             }
           }
@@ -1112,6 +1173,60 @@
             "SpawnRot": {
               "Pitch": 0.0,
               "Yaw": -30.9375,
+              "Roll": 0.0
+            }
+          }
+        ]
+      },
+      "K111904": {
+        "QuestSpawnPointOverrides": [
+          {
+            "BeginQuestID": "K111904",
+            "EndQuestID": "K111904",
+            "SpawnLocation": {
+              "X": 25324.719,
+              "Y": 68924.85,
+              "Z": 6323.5527
+            },
+            "SpawnRot": {
+              "Pitch": 0.0,
+              "Yaw": -105.669655,
+              "Roll": 0.0
+            }
+          }
+        ]
+      },
+      "K111906": {
+        "QuestSpawnPointOverrides": [
+          {
+            "BeginQuestID": "K111906",
+            "EndQuestID": "K111906",
+            "SpawnLocation": {
+              "X": 22597.695,
+              "Y": 65422.68,
+              "Z": 6315.552
+            },
+            "SpawnRot": {
+              "Pitch": 0.0,
+              "Yaw": 74.140816,
+              "Roll": 0.0
+            }
+          }
+        ]
+      },
+      "K111909": {
+        "QuestSpawnPointOverrides": [
+          {
+            "BeginQuestID": "K111909",
+            "EndQuestID": "K111909",
+            "SpawnLocation": {
+              "X": 21726.352,
+              "Y": 58154.703,
+              "Z": 6314.205
+            },
+            "SpawnRot": {
+              "Pitch": 0.0,
+              "Yaw": -10.756434,
               "Roll": 0.0
             }
           }

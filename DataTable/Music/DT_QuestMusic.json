@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_QuestMusic",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Music/DT_QuestMusic",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'QuestMusicData'",
@@ -685,6 +686,111 @@
           "ObjectPath": "/Game/WwiseAudio/States/Default_Work_Unit/Music_States/Music_City_Quest/Music_City_Quest-L04.0"
         },
         "Desc": "支线雨人-大雨倾盆"
+      },
+      "q110417": {
+        "BeginQuestID": "q110417",
+        "EndQuestID": "q110417",
+        "bStopAtEnd": true,
+        "StopDelayTime": 0,
+        "MusicEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "MusicStateValue": {
+          "ObjectName": "AkStateValue'Music_Talk-Music_Talk_Tense_02'",
+          "ObjectPath": "/Game/WwiseAudio/States/Default_Work_Unit/Music_States/Music_Talk/Music_Talk-Music_Talk_Tense_02.0"
+        },
+        "Desc": "讨债人-前往停车场"
+      },
+      "q110420": {
+        "BeginQuestID": "q110420",
+        "EndQuestID": "q110420",
+        "bStopAtEnd": true,
+        "StopDelayTime": 5,
+        "MusicEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "MusicStateValue": {
+          "ObjectName": "AkStateValue'Music_Talk-Music_Talk_Tense_03'",
+          "ObjectPath": "/Game/WwiseAudio/States/Default_Work_Unit/Music_States/Music_Talk/Music_Talk-Music_Talk_Tense_03.0"
+        },
+        "Desc": "讨债人-与卡厄斯对话"
+      },
+      "q110425": {
+        "BeginQuestID": "q110425",
+        "EndQuestID": "q110425",
+        "bStopAtEnd": true,
+        "StopDelayTime": 0,
+        "MusicEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "MusicStateValue": {
+          "ObjectName": "AkStateValue'Music_Talk-Music_Talk_Serious_08'",
+          "ObjectPath": "/Game/WwiseAudio/States/Default_Work_Unit/Music_States/Music_Talk/Music_Talk-Music_Talk_Serious_08.0"
+        },
+        "Desc": "讨债人-进入对话"
+      },
+      "q110432": {
+        "BeginQuestID": "q110432",
+        "EndQuestID": "q110432",
+        "bStopAtEnd": true,
+        "StopDelayTime": 0,
+        "MusicEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "MusicStateValue": {
+          "ObjectName": "AkStateValue'Music_Talk-Music_Talk_Serious_09'",
+          "ObjectPath": "/Game/WwiseAudio/States/Default_Work_Unit/Music_States/Music_Talk/Music_Talk-Music_Talk_Serious_09.0"
+        },
+        "Desc": "讨债人-与蕾妮对话"
+      },
+      "q110468": {
+        "BeginQuestID": "q110468",
+        "EndQuestID": "q110482",
+        "bStopAtEnd": true,
+        "StopDelayTime": 0,
+        "MusicEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "MusicStateValue": {
+          "ObjectName": "AkStateValue'Music_Talk-Music_Talk_Serious_13'",
+          "ObjectPath": "/Game/WwiseAudio/States/Default_Work_Unit/Music_States/Music_Talk/Music_Talk-Music_Talk_Serious_13.0"
+        },
+        "Desc": "讨债人-捉迷藏"
+      },
+      "q110483": {
+        "BeginQuestID": "q110483",
+        "EndQuestID": "q110483",
+        "bStopAtEnd": true,
+        "StopDelayTime": 0,
+        "MusicEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "MusicStateValue": {
+          "ObjectName": "AkStateValue'Music_Talk-Music_Talk_Tense_03'",
+          "ObjectPath": "/Game/WwiseAudio/States/Default_Work_Unit/Music_States/Music_Talk/Music_Talk-Music_Talk_Tense_03.0"
+        },
+        "Desc": "讨债人-前往餐厅"
+      },
+      "q110484": {
+        "BeginQuestID": "q110484",
+        "EndQuestID": "q110484",
+        "bStopAtEnd": true,
+        "StopDelayTime": 0,
+        "MusicEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Music/Music_Talk/Play_Music_Talk.Play_Music_Talk",
+          "SubPathString": ""
+        },
+        "MusicStateValue": {
+          "ObjectName": "AkStateValue'Music_Talk-Music_Talk_Sentimental_05'",
+          "ObjectPath": "/Game/WwiseAudio/States/Default_Work_Unit/Music_States/Music_Talk/Music_Talk-Music_Talk_Sentimental_05.0"
+        },
+        "Desc": "讨债人-前往卧室"
       }
     }
   }

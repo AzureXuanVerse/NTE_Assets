@@ -2,8 +2,9 @@
   {
     "Type": "CurveTable",
     "Name": "CT_SuperArmorDataTable",
-    "Class": "UScriptClass'CurveTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
+    "Package": "/Game/DataTable/Skill/CT_SuperArmorDataTable",
     "CurveTableMode": "SimpleCurves",
     "Rows": {
       "SuperArmor1": {
@@ -35,7 +36,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 0.2
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -59,7 +60,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 0.2
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -71,7 +72,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 0.2
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -83,7 +84,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 0.2
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -95,7 +96,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 0.2
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -107,7 +108,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 0.2
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -119,7 +120,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 0.2
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -131,7 +132,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 0.2
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -143,7 +144,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 0.2
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -167,7 +168,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 0.2
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -179,7 +180,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 0.2
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -203,7 +204,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 0.2
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -347,7 +348,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 0.2
+            "Value": 0.0
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -371,7 +372,67 @@
         "Keys": [
           {
             "Time": 1.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Mitsuki_Skill": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Mitsuki_Branch": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.5
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Chaos_Branch1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.5
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Chaos_Melee": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
             "Value": 0.2
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Chaos_Skill1": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.5
           }
         ],
         "DefaultValue": 3.4028235E+38,

@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_OutputSourceRowData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_OutputSourceRowData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'ItemOutputSourceRow'",
@@ -314,6 +315,11 @@
         ]
       },
       "Food_114": {
+        "SourceArray": [
+          "QuestReward"
+        ]
+      },
+      "Food_100_sp": {
         "SourceArray": [
           "QuestReward"
         ]
@@ -649,7 +655,8 @@
       },
       "Flower0000": {
         "SourceArray": [
-          "Shop_010_01_01"
+          "Shop_010_01_01",
+          "Shop_010_03_01"
         ]
       },
       "Flower0001": {
@@ -1387,6 +1394,21 @@
           "Shop_030_04_01"
         ]
       },
+      "Furniture_cabinet_013": {
+        "SourceArray": [
+          "Shop_030_04_01"
+        ]
+      },
+      "Furniture_cabinet_014": {
+        "SourceArray": [
+          "Shop_030_04_01"
+        ]
+      },
+      "Furniture_cabinet_015": {
+        "SourceArray": [
+          "Shop_030_03_01"
+        ]
+      },
       "Figure_maskerrider_01_001": {
         "SourceArray": [
           "Shop_023_01_01",
@@ -1717,16 +1739,14 @@
         "SourceArray": [
           "Shop_029_01_01",
           "Shop_029_03_01",
-          "Shop_029_04_01",
-          "Shop_029_05_01"
+          "Shop_029_04_01"
         ]
       },
       "Furniture_Light_006": {
         "SourceArray": [
           "Shop_029_01_01",
           "Shop_029_03_01",
-          "Shop_029_04_01",
-          "Shop_029_05_01"
+          "Shop_029_04_01"
         ]
       },
       "Furniture_Light_007": {
@@ -1762,6 +1782,11 @@
       "Furniture_Light_013": {
         "SourceArray": [
           "Shop_029_01_01"
+        ]
+      },
+      "Furniture_Light_014": {
+        "SourceArray": [
+          "Shop_029_05_01"
         ]
       },
       "Furniture_Ornament_001": {
@@ -1840,6 +1865,86 @@
           "Shop_031_03_01"
         ]
       },
+      "Furniture_Ornament_017_handicraft": {
+        "SourceArray": [
+          "Shop_031_04_01"
+        ]
+      },
+      "Furniture_Ornament_018_handicraft": {
+        "SourceArray": [
+          "Shop_031_04_01"
+        ]
+      },
+      "Furniture_Ornament_019_handicraft": {
+        "SourceArray": [
+          "Shop_031_04_01"
+        ]
+      },
+      "Furniture_Ornament_019": {
+        "SourceArray": [
+          "Shop_031_04_01"
+        ]
+      },
+      "Furniture_Ornament_020": {
+        "SourceArray": [
+          "Shop_029_01_01"
+        ]
+      },
+      "Furniture_Ornament_020_handicraft": {
+        "SourceArray": [
+          "Shop_031_04_01"
+        ]
+      },
+      "Furniture_Ornament_021": {
+        "SourceArray": [
+          "Shop_029_03_01"
+        ]
+      },
+      "Furniture_Ornament_021_handicraft": {
+        "SourceArray": [
+          "Shop_031_04_01"
+        ]
+      },
+      "Furniture_Ornament_022": {
+        "SourceArray": [
+          "Shop_029_04_01"
+        ]
+      },
+      "Furniture_Ornament_027": {
+        "SourceArray": [
+          "Shop_031_01_01"
+        ]
+      },
+      "Furniture_Ornament_028": {
+        "SourceArray": [
+          "Shop_031_01_01"
+        ]
+      },
+      "Furniture_Ornament_029": {
+        "SourceArray": [
+          "Shop_031_01_01"
+        ]
+      },
+      "Furniture_Ornament_030": {
+        "SourceArray": [
+          "Shop_031_01_01"
+        ]
+      },
+      "Furniture_Ornament_031": {
+        "SourceArray": [
+          "Shop_029_05_01"
+        ]
+      },
+      "Furniture_Ornament_032": {
+        "SourceArray": [
+          "Shop_031_03_01"
+        ]
+      },
+      "Furniture_Ornament_033": {
+        "SourceArray": [
+          "Shop_031_03_01"
+        ]
+      },
       "Furniture_Ornament_039_book": {
         "SourceArray": [
           "Shop_025_01_01"
@@ -1896,6 +2001,21 @@
         ]
       },
       "Furniture_Ornament_050": {
+        "SourceArray": [
+          "Shop_030_04_01"
+        ]
+      },
+      "Furniture_Ornament_050_pinfeng": {
+        "SourceArray": [
+          "Shop_030_04_01"
+        ]
+      },
+      "Furniture_Ornament_051": {
+        "SourceArray": [
+          "Shop_029_05_01"
+        ]
+      },
+      "Furniture_Ornament_051_pinfeng": {
         "SourceArray": [
           "Shop_030_04_01"
         ]
@@ -2065,32 +2185,64 @@
           "Shop_030_03_01"
         ]
       },
+      "Furniture_Chair_0034": {
+        "SourceArray": [
+          "Shop_030_05_01"
+        ]
+      },
+      "Furniture_Chair_0035": {
+        "SourceArray": [
+          "Shop_030_05_01"
+        ]
+      },
+      "Furniture_Chair_0036": {
+        "SourceArray": [
+          "Shop_030_05_01"
+        ]
+      },
+      "Furniture_Chair_0037": {
+        "SourceArray": [
+          "Shop_030_05_01"
+        ]
+      },
+      "Furniture_Chair_0038": {
+        "SourceArray": [
+          "Shop_030_05_01"
+        ]
+      },
+      "Furniture_Chair_0039": {
+        "SourceArray": [
+          "Shop_030_05_01"
+        ]
+      },
+      "Furniture_Chair_0040": {
+        "SourceArray": [
+          "Shop_030_05_01"
+        ]
+      },
+      "Furniture_Chair_0041": {
+        "SourceArray": [
+          "Shop_030_04_01"
+        ]
+      },
       "Furniture_shelf_001": {
         "SourceArray": [
-          "Shop_030_03_01",
-          "Shop_030_04_01",
-          "Shop_030_05_01"
+          "Shop_030_03_01"
         ]
       },
       "Furniture_shelf_002": {
         "SourceArray": [
-          "Shop_030_03_01",
-          "Shop_030_04_01",
-          "Shop_030_05_01"
+          "Shop_030_03_01"
         ]
       },
       "Furniture_shelf_003": {
         "SourceArray": [
-          "Shop_030_03_01",
-          "Shop_030_04_01",
-          "Shop_030_05_01"
+          "Shop_030_03_01"
         ]
       },
       "Furniture_shelf_004": {
         "SourceArray": [
-          "Shop_030_03_01",
-          "Shop_030_04_01",
-          "Shop_030_05_01"
+          "Shop_030_03_01"
         ]
       },
       "Furniture_Bed_001": {
@@ -2105,8 +2257,7 @@
       },
       "Furniture_teapoy_001": {
         "SourceArray": [
-          "Shop_030_03_01",
-          "Shop_030_04_01"
+          "Shop_030_03_01"
         ]
       },
       "Furniture_teapoy_002": {
@@ -2189,6 +2340,32 @@
           "Shop_030_05_01"
         ]
       },
+      "Furniture_teapoy_018": {
+        "SourceArray": [
+          "Shop_030_04_01"
+        ]
+      },
+      "Furniture_teapoy_019": {
+        "SourceArray": [
+          "Shop_030_04_01"
+        ]
+      },
+      "Furniture_teapoy_020": {
+        "SourceArray": [
+          "Shop_030_04_01"
+        ]
+      },
+      "Furniture_teapoy_021": {
+        "SourceArray": [
+          "Shop_030_03_01",
+          "Shop_030_04_01"
+        ]
+      },
+      "Furniture_teapoy_023": {
+        "SourceArray": [
+          "Shop_030_03_01"
+        ]
+      },
       "Furniture_Bed_002": {
         "SourceArray": [
           "Shop_030_04_01"
@@ -2201,14 +2378,12 @@
       },
       "Furniture_draw_006": {
         "SourceArray": [
-          "Shop_031_01_01",
-          "Shop_031_04_01"
+          "Shop_031_01_01"
         ]
       },
       "Furniture_draw_004": {
         "SourceArray": [
-          "Shop_031_01_01",
-          "Shop_031_04_01"
+          "Shop_031_01_01"
         ]
       },
       "Furniture_draw_002": {
@@ -2226,8 +2401,7 @@
       },
       "Furniture_draw_009": {
         "SourceArray": [
-          "Shop_031_01_01",
-          "Shop_031_04_01"
+          "Shop_031_01_01"
         ]
       },
       "Furniture_draw_0010": {
@@ -3134,9 +3308,7 @@
       },
       "Store_Table2_02": {
         "SourceArray": [
-          "Shop_030_03_01",
-          "Shop_030_04_01",
-          "Shop_030_05_01"
+          "Shop_030_03_01"
         ]
       },
       "Store_Table2_03": {
@@ -3211,6 +3383,7 @@
       "CityAbility_UpMaterial": {
         "SourceArray": [
           "adventure_daily_ui",
+          "gachashop_JumpTo_2",
           "fonshop"
         ]
       },
@@ -3291,6 +3464,7 @@
       "Fons": {
         "SourceArray": [
           "UrbanGameplay",
+          "gachashop_JumpTo_2",
           "WorldExplored"
         ]
       },
@@ -3869,6 +4043,66 @@
           "FishingSpot_206_01"
         ]
       },
+      "FishingSpecial_001": {
+        "SourceArray": [
+          "FishingSpot_101_01"
+        ]
+      },
+      "FishingSpecial_002": {
+        "SourceArray": [
+          "FishingSpot_102_01"
+        ]
+      },
+      "FishingSpecial_003": {
+        "SourceArray": [
+          "FishingSpot_201_01"
+        ]
+      },
+      "FishingSpecial_004": {
+        "SourceArray": [
+          "FishingSpot_202_01"
+        ]
+      },
+      "FishingSpecial_005": {
+        "SourceArray": [
+          "FishingSpot_203_01"
+        ]
+      },
+      "FishingSpecial_006": {
+        "SourceArray": [
+          "FishingSpot_204_01"
+        ]
+      },
+      "FishingSpecial_007": {
+        "SourceArray": [
+          "FishingSpot_205_01"
+        ]
+      },
+      "FishingSpecial_008": {
+        "SourceArray": [
+          "FishingSpot_206_01"
+        ]
+      },
+      "FishingSpecial_101": {
+        "SourceArray": [
+          "Fishing"
+        ]
+      },
+      "FishingSpecial_102": {
+        "SourceArray": [
+          "Fishing"
+        ]
+      },
+      "FishingSpecial_201": {
+        "SourceArray": [
+          "Fishing"
+        ]
+      },
+      "FishingSpecial_202": {
+        "SourceArray": [
+          "Fishing"
+        ]
+      },
       "Cosmos_orange": {
         "SourceArray": [
           "Cosmos_orange_SelectionBox",
@@ -3918,6 +4152,97 @@
       "Furniture_Ornament_047_leisure": {
         "SourceArray": [
           "Shop_030_04_01"
+        ]
+      },
+      "MahjongCoin": {
+        "SourceArray": [
+          "MaJiang"
+        ]
+      },
+      "Likeability_Nanally": {
+        "SourceArray": [
+          "Likeability_Nanally"
+        ]
+      },
+      "Likeability_Mint": {
+        "SourceArray": [
+          "Likeability_Mint"
+        ]
+      },
+      "Likeability_Kuhara": {
+        "SourceArray": [
+          "Likeability_Kuhara"
+        ]
+      },
+      "Likeability_Fadia": {
+        "SourceArray": [
+          "Likeability_Fadia"
+        ]
+      },
+      "Likeability_Jin": {
+        "SourceArray": [
+          "Likeability_Jin"
+        ]
+      },
+      "Likeability_Lacrimosa": {
+        "SourceArray": [
+          "Likeability_Lacrimosa"
+        ]
+      },
+      "FishingShop": {
+        "SourceArray": [
+          "FishingShop"
+        ]
+      },
+      "Dicelimite_Special": {
+        "SourceArray": [
+          "Giftpackage_RMB"
+        ]
+      },
+      "RacingRank": {
+        "SourceArray": [
+          "RacingRank"
+        ]
+      },
+      "Shop_013": {
+        "SourceArray": [
+          "Shop_013_01_01",
+          "Shop_013_04_01",
+          "Shop_013_05_01"
+        ]
+      },
+      "BattlePass": {
+        "SourceArray": [
+          "BattlePass"
+        ]
+      },
+      "Worldboss_material_selectbox_01": {
+        "SourceArray": [
+          "fonshop"
+        ]
+      },
+      "SkillUpMaterial_Selectbox": {
+        "SourceArray": [
+          "BattlePass",
+          "fonshop"
+        ]
+      },
+      "WeaponBreakMaterial_Selectbox": {
+        "SourceArray": [
+          "BattlePass",
+          "fonshop"
+        ]
+      },
+      "OrdinaryMonMaterial_Selectbox": {
+        "SourceArray": [
+          "BattlePass",
+          "fonshop"
+        ]
+      },
+      "Visions_furniture_10_Output": {
+        "SourceArray": [
+          "gachashop2",
+          "SpecialFurniture_0010"
         ]
       }
     }

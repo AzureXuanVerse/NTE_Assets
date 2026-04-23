@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_TractionEffectData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Skill/DT_TractionEffectData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'TractionSpeedFormulaConfigParams'",
@@ -114,6 +115,18 @@
         "strength": 10.0,
         "duration": 0.1,
         "MaxSpeed": 10000.0,
+        "MassRange": {
+          "LimitMin": 0.0,
+          "LimitMax": 1000.0
+        }
+      },
+      "MitsukiUltraSkill": {
+        "OuterRadius": 600.0,
+        "InnerRadius": 70.0,
+        "DistanceAttenuationCoeff": 0.5,
+        "strength": 200.0,
+        "duration": 0.12,
+        "MaxSpeed": 1000.0,
         "MassRange": {
           "LimitMin": 0.0,
           "LimitMax": 1000.0

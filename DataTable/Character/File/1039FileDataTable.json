@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "1039FileDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/File/1039FileDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CharacterFileData'",
@@ -43,6 +44,12 @@
           "Key": "NPC003_birthday",
           "SourceString": "10月31日",
           "LocalizedString": "10月31日"
+        },
+        "BirthdaySkillName": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "skillname_001",
+          "SourceString": "异能：",
+          "LocalizedString": "异能："
         },
         "HomePlace": {
           "TableId": "/Game/Text/ST_File.ST_File",
@@ -782,6 +789,86 @@
                 "CharacterFileBreakLevel": 5
               }
             ]
+          },
+          {
+            "ID": "Daily30",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_001",
+              "SourceString": "收到赠礼·Ⅰ",
+              "LocalizedString": "收到赠礼·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC003_gift_001",
+              "SourceString": "其实，和礼物一样珍贵的……是你♥",
+              "LocalizedString": "其实，和礼物一样珍贵的……是你♥"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC003/Play_Vo_Char_NPC003_gift_001.Play_Vo_Char_NPC003_gift_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily31",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_002",
+              "SourceString": "收到赠礼·Ⅱ",
+              "LocalizedString": "收到赠礼·Ⅱ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC003_gift_002",
+              "SourceString": "是因为你也喜欢它，才想着送给我的吗？真可爱。",
+              "LocalizedString": "是因为你也喜欢它，才想着送给我的吗？真可爱。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC003/Play_Vo_Char_NPC003_gift_002.Play_Vo_Char_NPC003_gift_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily32",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_003",
+              "SourceString": "收到赠礼·Ⅲ",
+              "LocalizedString": "收到赠礼·Ⅲ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC003_gift_003",
+              "SourceString": "礼物是感情的具象化。所以你……？",
+              "LocalizedString": "礼物是感情的具象化。所以你……？"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC003/Play_Vo_Char_NPC003_gift_003.Play_Vo_Char_NPC003_gift_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily33",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_004",
+              "SourceString": "收到赠礼·IV",
+              "LocalizedString": "收到赠礼·IV"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC003_gift_004",
+              "SourceString": "我就收下了。你对我的——爱~",
+              "LocalizedString": "我就收下了。你对我的——爱~"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC003/Play_Vo_Char_NPC003_gift_004.Play_Vo_Char_NPC003_gift_004",
+              "SubPathString": ""
+            },
+            "Conditions": []
           }
         ],
         "BattleContent": [

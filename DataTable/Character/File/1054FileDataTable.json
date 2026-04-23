@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "1054FileDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/File/1054FileDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CharacterFileData'",
@@ -43,6 +44,12 @@
           "Key": "F_NPC013_002",
           "SourceString": "1月19日",
           "LocalizedString": "1月19日"
+        },
+        "BirthdaySkillName": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "skillname_001",
+          "SourceString": "异能：",
+          "LocalizedString": "异能："
         },
         "HomePlace": {
           "TableId": "/Game/Text/ST_File.ST_File",
@@ -148,6 +155,32 @@
               "SubPathString": ""
             },
             "Conditions": []
+          },
+          {
+            "ID": "detail05",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "file_NPC013_004",
+              "SourceString": "姊妹",
+              "LocalizedString": "姊妹"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "F_NPC013_015",
+              "SourceString": "她们会一同在T女士的双膝小憩，一左一右。\r\n临睡前互相为对方清洁当日试炼或任务留下的伤口，像两只互相舔舐的小兽。\r\n只是，她偶尔会想——自己与残虹一样吗？不抗拒试炼与任务，代表她在享受吗？\r\n不……她只是享受「被需要」的感觉，再从那被需要的余温中，幻想与父母的依存。",
+              "LocalizedString": "她们会一同在T女士的双膝小憩，一左一右。\r\n临睡前互相为对方清洁当日试炼或任务留下的伤口，像两只互相舔舐的小兽。\r\n只是，她偶尔会想——自己与残虹一样吗？不抗拒试炼与任务，代表她在享受吗？\r\n不……她只是享受「被需要」的感觉，再从那被需要的余温中，幻想与父母的依存。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "Conditions": [
+              {
+                "Firendly": 0,
+                "QuestId": "q110493",
+                "CharacterFileBreakLevel": 0
+              }
+            ]
           },
           {
             "ID": "detail06",
@@ -678,6 +711,32 @@
             "Conditions": []
           },
           {
+            "ID": "Daily24",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "about_NPC022",
+              "SourceString": "关于残虹",
+              "LocalizedString": "关于残虹"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC013_about_004",
+              "SourceString": "很危险，如非必要，不要和她有任何接触。",
+              "LocalizedString": "很危险，如非必要，不要和她有任何接触。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_about_004.Play_Vo_Char_NPC013_about_004",
+              "SubPathString": ""
+            },
+            "Conditions": [
+              {
+                "Firendly": 0,
+                "QuestId": "q110493",
+                "CharacterFileBreakLevel": 0
+              }
+            ]
+          },
+          {
             "ID": "Daily25",
             "Title": {
               "TableId": "/Game/Text/ST_File.ST_File",
@@ -794,6 +853,86 @@
                 "CharacterFileBreakLevel": 5
               }
             ]
+          },
+          {
+            "ID": "Daily30",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_001",
+              "SourceString": "收到赠礼·Ⅰ",
+              "LocalizedString": "收到赠礼·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC013_gift_001",
+              "SourceString": "我应该从未和你说过……我很喜欢，谢谢你。",
+              "LocalizedString": "我应该从未和你说过……我很喜欢，谢谢你。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_gift_001.Play_Vo_Char_NPC013_gift_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily31",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_002",
+              "SourceString": "收到赠礼·Ⅱ",
+              "LocalizedString": "收到赠礼·Ⅱ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC013_gift_002",
+              "SourceString": "这对我来说很珍贵。多谢。",
+              "LocalizedString": "这对我来说很珍贵。多谢。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_gift_002.Play_Vo_Char_NPC013_gift_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily32",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_003",
+              "SourceString": "收到赠礼·Ⅲ",
+              "LocalizedString": "收到赠礼·Ⅲ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC013_gift_003",
+              "SourceString": "有心了，多谢。",
+              "LocalizedString": "有心了，多谢。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_gift_003.Play_Vo_Char_NPC013_gift_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily33",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_004",
+              "SourceString": "收到赠礼·IV",
+              "LocalizedString": "收到赠礼·IV"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC013_gift_004",
+              "SourceString": "浔说，朋友的礼物大大方方地收下就好。那我就……不客气了。",
+              "LocalizedString": "浔说，朋友的礼物大大方方地收下就好。那我就……不客气了。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC013/Play_Vo_Char_NPC013_gift_004.Play_Vo_Char_NPC013_gift_004",
+              "SubPathString": ""
+            },
+            "Conditions": []
           }
         ],
         "BattleContent": [
@@ -1838,7 +1977,7 @@
             "Conditions": []
           },
           {
-            "ID": "Battle53",
+            "ID": "Battle54",
             "Title": {
               "TableId": "/Game/Text/ST_File.ST_File",
               "Key": "TeammateDown_ADJ",
@@ -1858,7 +1997,7 @@
             "Conditions": []
           },
           {
-            "ID": "Battle54",
+            "ID": "Battle55",
             "Title": {
               "TableId": "/Game/Text/ST_File.ST_File",
               "Key": "Parry_001",
@@ -1878,7 +2017,7 @@
             "Conditions": []
           },
           {
-            "ID": "Battle55",
+            "ID": "Battle56",
             "Title": {
               "TableId": "/Game/Text/ST_File.ST_File",
               "Key": "Parry_002",
@@ -1898,7 +2037,7 @@
             "Conditions": []
           },
           {
-            "ID": "Battle56",
+            "ID": "Battle57",
             "Title": {
               "TableId": "/Game/Text/ST_File.ST_File",
               "Key": "DodgeCombo_001",

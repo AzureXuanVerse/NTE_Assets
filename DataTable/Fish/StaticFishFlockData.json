@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "StaticFishFlockData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Fish/StaticFishFlockData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'StaticFishFlockData'",
@@ -12,7 +13,7 @@
     },
     "Rows": {
       "FishFlock01": {
-        "FishGlobalID": "FishingGlobal_101",
+        "FishGlobalID": "FishingGlobal_Test",
         "FishFlockName": {
           "CultureInvariantString": null
         },
@@ -34,6 +35,7 @@
         "XRadius": 200.0,
         "YRadius": 200.0,
         "CanFishingBaitIDArr": [
+          "FishBait01",
           "FreshwaterFishBait201"
         ]
       },
@@ -63,11 +65,23 @@
           "FishBait01",
           "FreshwaterFishBait201",
           "FreshwaterFishBait202",
+          "SeaFishBait201",
+          "SeaFishBait202",
+          "SeaFishBait203",
           "FreshwaterFishBait301",
           "FreshwaterFishBait302",
+          "SeaFishBait301",
+          "SeaFishBait302",
+          "SeaFishBait303",
           "FreshwaterFishBait401",
           "FreshwaterFishBait402",
-          "FreshwaterFishBait501"
+          "SeaFishBait401",
+          "SeaFishBait402",
+          "SeaFishBait403",
+          "FreshwaterFishBait501",
+          "SeaFishBait501",
+          "SeaFishBait502",
+          "SeaFishBait503"
         ]
       },
       "FishFlock_102_01": {
@@ -90,17 +104,29 @@
         "Weight": 0,
         "FishFlockType": "EFishFlockType::Flock_Random",
         "Level": 0,
-        "XRadius": 280.0,
-        "YRadius": 280.0,
+        "XRadius": 260.0,
+        "YRadius": 260.0,
         "CanFishingBaitIDArr": [
           "FishBait01",
           "FreshwaterFishBait201",
           "FreshwaterFishBait202",
+          "SeaFishBait201",
+          "SeaFishBait202",
+          "SeaFishBait203",
           "FreshwaterFishBait301",
           "FreshwaterFishBait302",
+          "SeaFishBait301",
+          "SeaFishBait302",
+          "SeaFishBait303",
           "FreshwaterFishBait401",
           "FreshwaterFishBait402",
-          "FreshwaterFishBait501"
+          "SeaFishBait401",
+          "SeaFishBait402",
+          "SeaFishBait403",
+          "FreshwaterFishBait501",
+          "SeaFishBait501",
+          "SeaFishBait502",
+          "SeaFishBait503"
         ]
       },
       "FishFlock_201_01": {
@@ -127,15 +153,25 @@
         "YRadius": 280.0,
         "CanFishingBaitIDArr": [
           "FishBait01",
+          "FreshwaterFishBait201",
+          "FreshwaterFishBait202",
           "SeaFishBait201",
           "SeaFishBait202",
           "SeaFishBait203",
+          "FreshwaterFishBait301",
+          "FreshwaterFishBait302",
           "SeaFishBait301",
           "SeaFishBait302",
           "SeaFishBait303",
+          "FreshwaterFishBait401",
+          "FreshwaterFishBait402",
           "SeaFishBait401",
+          "SeaFishBait402",
           "SeaFishBait403",
-          "SeaFishBait501"
+          "FreshwaterFishBait501",
+          "SeaFishBait501",
+          "SeaFishBait502",
+          "SeaFishBait503"
         ]
       },
       "FishFlock_202_01": {
@@ -162,15 +198,25 @@
         "YRadius": 280.0,
         "CanFishingBaitIDArr": [
           "FishBait01",
+          "FreshwaterFishBait201",
+          "FreshwaterFishBait202",
           "SeaFishBait201",
           "SeaFishBait202",
           "SeaFishBait203",
+          "FreshwaterFishBait301",
+          "FreshwaterFishBait302",
           "SeaFishBait301",
           "SeaFishBait302",
           "SeaFishBait303",
+          "FreshwaterFishBait401",
+          "FreshwaterFishBait402",
           "SeaFishBait401",
+          "SeaFishBait402",
           "SeaFishBait403",
-          "SeaFishBait501"
+          "FreshwaterFishBait501",
+          "SeaFishBait501",
+          "SeaFishBait502",
+          "SeaFishBait503"
         ]
       },
       "FishFlock_203_01": {
@@ -197,16 +243,25 @@
         "YRadius": 280.0,
         "CanFishingBaitIDArr": [
           "FishBait01",
+          "FreshwaterFishBait201",
+          "FreshwaterFishBait202",
           "SeaFishBait201",
           "SeaFishBait202",
           "SeaFishBait203",
+          "FreshwaterFishBait301",
+          "FreshwaterFishBait302",
           "SeaFishBait301",
           "SeaFishBait302",
           "SeaFishBait303",
+          "FreshwaterFishBait401",
+          "FreshwaterFishBait402",
           "SeaFishBait401",
           "SeaFishBait402",
           "SeaFishBait403",
-          "SeaFishBait502"
+          "FreshwaterFishBait501",
+          "SeaFishBait501",
+          "SeaFishBait502",
+          "SeaFishBait503"
         ]
       },
       "FishFlock_204_01": {
@@ -233,16 +288,25 @@
         "YRadius": 280.0,
         "CanFishingBaitIDArr": [
           "FishBait01",
+          "FreshwaterFishBait201",
+          "FreshwaterFishBait202",
           "SeaFishBait201",
           "SeaFishBait202",
           "SeaFishBait203",
+          "FreshwaterFishBait301",
+          "FreshwaterFishBait302",
           "SeaFishBait301",
           "SeaFishBait302",
           "SeaFishBait303",
+          "FreshwaterFishBait401",
+          "FreshwaterFishBait402",
           "SeaFishBait401",
           "SeaFishBait402",
           "SeaFishBait403",
-          "SeaFishBait502"
+          "FreshwaterFishBait501",
+          "SeaFishBait501",
+          "SeaFishBait502",
+          "SeaFishBait503"
         ]
       },
       "FishFlock_205_01": {
@@ -269,14 +333,24 @@
         "YRadius": 280.0,
         "CanFishingBaitIDArr": [
           "FishBait01",
+          "FreshwaterFishBait201",
+          "FreshwaterFishBait202",
           "SeaFishBait201",
           "SeaFishBait202",
           "SeaFishBait203",
+          "FreshwaterFishBait301",
+          "FreshwaterFishBait302",
           "SeaFishBait301",
           "SeaFishBait302",
           "SeaFishBait303",
+          "FreshwaterFishBait401",
+          "FreshwaterFishBait402",
+          "SeaFishBait401",
           "SeaFishBait402",
           "SeaFishBait403",
+          "FreshwaterFishBait501",
+          "SeaFishBait501",
+          "SeaFishBait502",
           "SeaFishBait503"
         ]
       },
@@ -304,14 +378,24 @@
         "YRadius": 280.0,
         "CanFishingBaitIDArr": [
           "FishBait01",
+          "FreshwaterFishBait201",
+          "FreshwaterFishBait202",
           "SeaFishBait201",
           "SeaFishBait202",
           "SeaFishBait203",
+          "FreshwaterFishBait301",
+          "FreshwaterFishBait302",
           "SeaFishBait301",
           "SeaFishBait302",
           "SeaFishBait303",
+          "FreshwaterFishBait401",
+          "FreshwaterFishBait402",
+          "SeaFishBait401",
           "SeaFishBait402",
           "SeaFishBait403",
+          "FreshwaterFishBait501",
+          "SeaFishBait501",
+          "SeaFishBait502",
           "SeaFishBait503"
         ]
       }

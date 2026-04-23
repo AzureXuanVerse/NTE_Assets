@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_HitMaterialEffect",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/BreakableActor/DT_HitMaterialEffect",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'HitMaterialEffectData'",
@@ -446,6 +447,32 @@
         },
         "BrokenItemHitAudio": {
           "AssetPathName": "/Game/WwiseAudio/Events/Items/Items/Items_Global_Drop/Play_Sfx_Items_Drop_Cmn_Steel.Play_Sfx_Items_Drop_Cmn_Steel",
+          "SubPathString": ""
+        },
+        "BulletHitParticleEffect": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "PM_Ice": {
+        "VehicleHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Monster/FX_Mon_030_Snow/NS_Impact_Ice_001.NS_Impact_Ice_001",
+          "SubPathString": ""
+        },
+        "PlayerHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Monster/FX_Mon_030_Snow/NS_Impact_Ice_001.NS_Impact_Ice_001",
+          "SubPathString": ""
+        },
+        "PlayerHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Imapct/Impact_Cmn/Play_Sfx_Player_Wpn_Cmn_Impact_Ice.Play_Sfx_Player_Wpn_Cmn_Impact_Ice",
+          "SubPathString": ""
+        },
+        "BrokenItemHitParticleEffect": {
+          "AssetPathName": "/Game/FX/Nia/Monster/FX_Mon_030_Snow/NS_Impact_Ice_001.NS_Impact_Ice_001",
+          "SubPathString": ""
+        },
+        "BrokenItemHitAudio": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Imapct/Impact_Cmn/Play_Sfx_Player_Wpn_Cmn_Impact_Ice.Play_Sfx_Player_Wpn_Cmn_Impact_Ice",
           "SubPathString": ""
         },
         "BulletHitParticleEffect": {

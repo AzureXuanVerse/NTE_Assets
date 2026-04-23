@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_Quest_World",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_Quest_World",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'QuestData'",
@@ -864,16 +865,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "Namespace": "",
-              "Key": "10332FBB42B2C3FD6CDFA59759DB15AD",
-              "SourceString": "6101-1",
-              "LocalizedString": "6101-1"
+              "CultureInvariantString": null
             },
             "CompletedDescription": {
-              "Namespace": "",
-              "Key": "4F42493D459D07452DDAB78FE392A0CD",
-              "SourceString": "F1",
-              "LocalizedString": "F1"
+              "CultureInvariantString": null
             },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
@@ -983,16 +978,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "Namespace": "",
-              "Key": "033608834BF1174E8F8E8D9B6488AD31",
-              "SourceString": "6102-1",
-              "LocalizedString": "6102-1"
+              "CultureInvariantString": null
             },
             "CompletedDescription": {
-              "Namespace": "",
-              "Key": "4F42493D459D07452DDAB78FE392A0CD",
-              "SourceString": "F1",
-              "LocalizedString": "F1"
+              "CultureInvariantString": null
             },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
@@ -1116,10 +1105,7 @@
               "LocalizedString": "5901-1"
             },
             "CompletedDescription": {
-              "Namespace": "",
-              "Key": "4F42493D459D07452DDAB78FE392A0CD",
-              "SourceString": "F1",
-              "LocalizedString": "F1"
+              "CultureInvariantString": "F1"
             },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
@@ -1240,10 +1226,7 @@
               "LocalizedString": "5902-1"
             },
             "CompletedDescription": {
-              "Namespace": "",
-              "Key": "4F42493D459D07452DDAB78FE392A0CD",
-              "SourceString": "F1",
-              "LocalizedString": "F1"
+              "CultureInvariantString": "F1"
             },
             "NeedShowProgress": false,
             "IntroduceInfo": null,
@@ -3592,8 +3575,8 @@
         "QuestName": {
           "CultureInvariantString": "<!>越狱1-1"
         },
-        "ChapterID": "None",
-        "ChapterProgress": -1.0,
+        "ChapterID": "W1077",
+        "ChapterProgress": 1.0,
         "DisplayMapName": "None",
         "TrackMapName": "None",
         "bNeedCrossBox": false,
@@ -3706,10 +3689,13 @@
       "W107702": {
         "QuestId": "W107702",
         "QuestName": {
-          "CultureInvariantString": "<!>越狱1-2"
+          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
+          "Key": "YHUI_Jailbreaking_004",
+          "SourceString": "别有「洞」天",
+          "LocalizedString": "别有「洞」天"
         },
-        "ChapterID": "None",
-        "ChapterProgress": -1.0,
+        "ChapterID": "W1077",
+        "ChapterProgress": 2.0,
         "DisplayMapName": "None",
         "TrackMapName": "None",
         "bNeedCrossBox": false,
@@ -3751,6 +3737,69 @@
             "BuffInfo": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
+          },
+          {
+            "StorySequenceID": "W107702",
+            "bNeedPlaySequenceEnd": true,
+            "bCanAddProgress": true,
+            "bReloadReplay": false,
+            "bNeedInTargetMap": false,
+            "TargetMap": "",
+            "ObjectiveID": "2",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": 228399.0,
+                "Y": 360108.0,
+                "Z": 2561.0
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": -128.47188,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": -128.47188,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
+            "CompleteCameraRotation": {
+              "CompletedCameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": -128.47188,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
           }
         ],
         "QuestType": "EQuestType::EQT_EASTER_EGG",
@@ -3778,7 +3827,12 @@
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
         "TrackConditionList": [],
-        "PreQuests": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "W107701",
+            "ObjectiveID": "1"
+          }
+        ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
         "NeedYahahaID": "None",
@@ -3806,12 +3860,7 @@
         "bForceTrackExceptMain": false,
         "bCanMainQuestChangeTrack": false,
         "LikeabilityData": null,
-        "QuestAward": {
-          "AwardGroupID": "drop_prisonquest1",
-          "SimpleAwards": [],
-          "bShowAwardWindow": false,
-          "bShowInPanel": true
-        },
+        "QuestAward": null,
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -3827,8 +3876,8 @@
         "QuestName": {
           "CultureInvariantString": "<!>越狱3-1"
         },
-        "ChapterID": "None",
-        "ChapterProgress": -1.0,
+        "ChapterID": "W1079",
+        "ChapterProgress": 1.0,
         "DisplayMapName": "None",
         "TrackMapName": "None",
         "bNeedCrossBox": false,
@@ -3980,8 +4029,8 @@
         "QuestName": {
           "CultureInvariantString": "<!>越狱3-2"
         },
-        "ChapterID": "None",
-        "ChapterProgress": -1.0,
+        "ChapterID": "W1079",
+        "ChapterProgress": 2.0,
         "DisplayMapName": "None",
         "TrackMapName": "None",
         "bNeedCrossBox": false,
@@ -4050,7 +4099,12 @@
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
         "TrackConditionList": [],
-        "PreQuests": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "W107901",
+            "ObjectiveID": "1"
+          }
+        ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
         "NeedYahahaID": "None",
@@ -4096,8 +4150,8 @@
         "QuestName": {
           "CultureInvariantString": "<!>越狱3-3"
         },
-        "ChapterID": "None",
-        "ChapterProgress": -1.0,
+        "ChapterID": "W1079",
+        "ChapterProgress": 3.0,
         "DisplayMapName": "None",
         "TrackMapName": "None",
         "bNeedCrossBox": false,
@@ -4166,7 +4220,12 @@
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
         "TrackConditionList": [],
-        "PreQuests": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "W107902",
+            "ObjectiveID": "1"
+          }
+        ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
         "NeedYahahaID": "None",
@@ -4212,8 +4271,8 @@
         "QuestName": {
           "CultureInvariantString": "<!>越狱3-4-获得麻痹药"
         },
-        "ChapterID": "None",
-        "ChapterProgress": -1.0,
+        "ChapterID": "W1079",
+        "ChapterProgress": 4.0,
         "DisplayMapName": "None",
         "TrackMapName": "None",
         "bNeedCrossBox": false,
@@ -4282,7 +4341,12 @@
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
         "TrackConditionList": [],
-        "PreQuests": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "W107903",
+            "ObjectiveID": "1"
+          }
+        ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
         "NeedYahahaID": "None",
@@ -4326,10 +4390,13 @@
       "W107905": {
         "QuestId": "W107905",
         "QuestName": {
-          "CultureInvariantString": "<!>越狱3-5-注射成功"
+          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
+          "Key": "YHUI_Jailbreaking_006",
+          "SourceString": "欺骗死神",
+          "LocalizedString": "欺骗死神"
         },
-        "ChapterID": "None",
-        "ChapterProgress": -1.0,
+        "ChapterID": "W1079",
+        "ChapterProgress": 5.0,
         "DisplayMapName": "None",
         "TrackMapName": "None",
         "bNeedCrossBox": false,
@@ -4367,8 +4434,33 @@
             "bOnlyInClient": false,
             "TrackInfo": null,
             "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": -36880.227,
+                "Y": 165377.42,
+                "Z": 2269.6274
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": -138.60005,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::AutoWaitLoading_FadeOut",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": -138.60005,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
+            "CompleteCameraRotation": {
+              "CompletedCameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": -138.60005,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
             "BuffInfo": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
@@ -4396,7 +4488,12 @@
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
         "TrackConditionList": [],
-        "PreQuests": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "W107904",
+            "ObjectiveID": "1"
+          }
+        ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
         "NeedYahahaID": "None",
@@ -4424,12 +4521,7 @@
         "bForceTrackExceptMain": false,
         "bCanMainQuestChangeTrack": false,
         "LikeabilityData": null,
-        "QuestAward": {
-          "AwardGroupID": "drop_prisonquest3",
-          "SimpleAwards": [],
-          "bShowAwardWindow": false,
-          "bShowInPanel": true
-        },
+        "QuestAward": null,
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -4445,8 +4537,8 @@
         "QuestName": {
           "CultureInvariantString": "<!>越狱4-1"
         },
-        "ChapterID": "None",
-        "ChapterProgress": -1.0,
+        "ChapterID": "W1080",
+        "ChapterProgress": 1.0,
         "DisplayMapName": "None",
         "TrackMapName": "None",
         "bNeedCrossBox": false,
@@ -4559,10 +4651,13 @@
       "W108002": {
         "QuestId": "W108002",
         "QuestName": {
-          "CultureInvariantString": "<!>越狱4-2-速降成功"
+          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
+          "Key": "YHUI_Jailbreaking_007",
+          "SourceString": "极限运动",
+          "LocalizedString": "极限运动"
         },
-        "ChapterID": "None",
-        "ChapterProgress": -1.0,
+        "ChapterID": "W1080",
+        "ChapterProgress": 2.0,
         "DisplayMapName": "None",
         "TrackMapName": "None",
         "bNeedCrossBox": false,
@@ -4600,8 +4695,33 @@
             "bOnlyInClient": false,
             "TrackInfo": null,
             "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
-            "CompleteCameraRotation": null,
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": 222300.83,
+                "Y": 363342.88,
+                "Z": 2396.0
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": -125.0,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::AutoWaitLoading_FadeOut",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": -125.0,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
+            "CompleteCameraRotation": {
+              "CompletedCameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": -125.0,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
             "BuffInfo": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
@@ -4632,7 +4752,12 @@
         "BuffInfo": null,
         "TrackQuestConditionRange": null,
         "TrackConditionList": [],
-        "PreQuests": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "W108001",
+            "ObjectiveID": "1"
+          }
+        ],
         "PreQuestConditionType": "EQuestConditionType::And",
         "NeedLevel": 0,
         "NeedYahahaID": "None",
@@ -4660,12 +4785,7 @@
         "bForceTrackExceptMain": false,
         "bCanMainQuestChangeTrack": false,
         "LikeabilityData": null,
-        "QuestAward": {
-          "AwardGroupID": "drop_prisonquest4",
-          "SimpleAwards": [],
-          "bShowAwardWindow": false,
-          "bShowInPanel": true
-        },
+        "QuestAward": null,
         "QuestTimeLock": null,
         "QuestWeatherLock": null,
         "ReloadLocation": null,
@@ -4681,8 +4801,8 @@
         "QuestName": {
           "CultureInvariantString": "<!>越狱2-1"
         },
-        "ChapterID": "None",
-        "ChapterProgress": -1.0,
+        "ChapterID": "W1078",
+        "ChapterProgress": 1.0,
         "DisplayMapName": "None",
         "TrackMapName": "None",
         "bNeedCrossBox": false,
@@ -4832,7 +4952,571 @@
       "W107802": {
         "QuestId": "W107802",
         "QuestName": {
-          "CultureInvariantString": "<!>越狱2-2"
+          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
+          "Key": "YHUI_Jailbreaking_005",
+          "SourceString": "与水同行",
+          "LocalizedString": "与水同行"
+        },
+        "ChapterID": "W1078",
+        "ChapterProgress": 2.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          },
+          {
+            "StorySequenceID": "W107802",
+            "bNeedPlaySequenceEnd": true,
+            "bCanAddProgress": true,
+            "bReloadReplay": false,
+            "bNeedInTargetMap": false,
+            "TargetMap": "",
+            "ObjectiveID": "2",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": 228399.0,
+                "Y": 360108.0,
+                "Z": 2561.0
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": -128.47188,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": -128.47188,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
+            "CompleteCameraRotation": {
+              "CompletedCameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": -128.47188,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "Namespace": "",
+          "Key": "DD7DE6FC44F4E384AB501899D34BD925",
+          "SourceString": "<!>越狱2-2",
+          "LocalizedString": "<!>越狱2-2"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "W107801",
+            "ObjectiveID": "1"
+          }
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "W108101": {
+        "QuestId": "W108101",
+        "QuestName": {
+          "CultureInvariantString": "<!>越狱5-1"
+        },
+        "ChapterID": "W1081",
+        "ChapterProgress": 1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "CultureInvariantString": "<!>越狱5-1"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "W108102"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "W108102": {
+        "QuestId": "W108102",
+        "QuestName": {
+          "CultureInvariantString": "<!>越狱5-2"
+        },
+        "ChapterID": "W1081",
+        "ChapterProgress": 2.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "CultureInvariantString": "<!>越狱5-2"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "W108101",
+            "ObjectiveID": "1"
+          }
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "W108103"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "W108103": {
+        "QuestId": "W108103",
+        "QuestName": {
+          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
+          "Key": "YHUI_Jailbreaking_008",
+          "SourceString": "融入黑暗",
+          "LocalizedString": "融入黑暗"
+        },
+        "ChapterID": "W1081",
+        "ChapterProgress": 3.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "StorySequenceID": "W108103",
+            "bNeedPlaySequenceEnd": true,
+            "bCanAddProgress": true,
+            "bReloadReplay": false,
+            "bNeedInTargetMap": false,
+            "TargetMap": "",
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": -36880.227,
+                "Y": 165377.42,
+                "Z": 2269.6274
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": -138.60005,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::AutoWaitLoading_FadeOut",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": -138.60005,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
+            "CompleteCameraRotation": {
+              "CompletedCameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": -138.60005,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "Namespace": "",
+          "Key": "2DA03C2F4F8047C362DDA7A8082593DB",
+          "SourceString": "<!>越狱5-3-逃离成功",
+          "LocalizedString": "<!>越狱5-3-逃离成功"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "W108102",
+            "ObjectiveID": "1"
+          }
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "W108301": {
+        "QuestId": "W108301",
+        "QuestName": {
+          "CultureInvariantString": "<!>哄大妈01"
         },
         "ChapterID": "None",
         "ChapterProgress": -1.0,
@@ -4895,10 +5579,120 @@
         "bUseSpecialQuestSettleUI": false,
         "bForceHybridQuest": false,
         "PanelDescription": {
-          "Namespace": "",
-          "Key": "DD7DE6FC44F4E384AB501899D34BD925",
-          "SourceString": "<!>越狱2-2",
-          "LocalizedString": "<!>越狱2-2"
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "W108302"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "W108302": {
+        "QuestId": "W108302",
+        "QuestName": {
+          "CultureInvariantString": "<!>哄大妈02"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -4933,7 +5727,236 @@
         "bCanMainQuestChangeTrack": false,
         "LikeabilityData": null,
         "QuestAward": {
-          "AwardGroupID": "drop_prisonquest1",
+          "AwardGroupID": "drop_Food_117",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false,
+          "bShowInPanel": true
+        },
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "W108401": {
+        "QuestId": "W108401",
+        "QuestName": {
+          "CultureInvariantString": "<!>弄坏收音机"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "W108402"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "W108402": {
+        "QuestId": "W108402",
+        "QuestName": {
+          "CultureInvariantString": "<!>弄坏收音机-奖励"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "None",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": {
+          "AwardGroupID": "drop_Fons_2000",
           "SimpleAwards": [],
           "bShowAwardWindow": false,
           "bShowInPanel": true

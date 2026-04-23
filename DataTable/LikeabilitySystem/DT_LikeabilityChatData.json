@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_LikeabilityChatData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/LikeabilitySystem/DT_LikeabilityChatData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'LikeabilityChatData'",
@@ -826,8 +827,8 @@
         "ChatTipsContent": {
           "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
           "Key": "1023_1",
-          "SourceString": "摸鱼大师的摸鱼涵养",
-          "LocalizedString": "摸鱼大师的摸鱼涵养"
+          "SourceString": "种花",
+          "LocalizedString": "种花"
         }
       },
       "1023_2": {
@@ -1104,9 +1105,9 @@
         "GroupId": "1023",
         "ChatTipsContent": {
           "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
-          "Key": "1023_1_1",
-          "SourceString": "（敬礼）（伸小指，向胸口点几下）",
-          "LocalizedString": "（敬礼）（伸小指，向胸口点几下）"
+          "Key": "1023_1",
+          "SourceString": "种花",
+          "LocalizedString": "种花"
         }
       },
       "1039_a": {
@@ -1242,6 +1243,60 @@
           "Key": "1073_3",
           "SourceString": "加班的原因",
           "LocalizedString": "加班的原因"
+        }
+      },
+      "NPC_059_a": {
+        "GroupId": "NPC_059",
+        "ChatTipsContent": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "NPC_059_a",
+          "SourceString": "新手摄影师",
+          "LocalizedString": "新手摄影师"
+        }
+      },
+      "NPC_08203_a": {
+        "GroupId": "NPC_08203",
+        "ChatTipsContent": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "NPC_08203_a",
+          "SourceString": "身边的风景",
+          "LocalizedString": "身边的风景"
+        }
+      },
+      "NPC_02109_a": {
+        "GroupId": "NPC_02109",
+        "ChatTipsContent": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "NPC_02109_a",
+          "SourceString": "城市的脉搏",
+          "LocalizedString": "城市的脉搏"
+        }
+      },
+      "1073_a": {
+        "GroupId": "1073",
+        "ChatTipsContent": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1073_a",
+          "SourceString": "献给某某的花束",
+          "LocalizedString": "献给某某的花束"
+        }
+      },
+      "1070_1": {
+        "GroupId": "1070",
+        "ChatTipsContent": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1070_1",
+          "SourceString": "漫无目的地",
+          "LocalizedString": "漫无目的地"
+        }
+      },
+      "1070_2": {
+        "GroupId": "1070",
+        "ChatTipsContent": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1070_2",
+          "SourceString": "你好，我是海月。",
+          "LocalizedString": "你好，我是海月。"
         }
       }
     }

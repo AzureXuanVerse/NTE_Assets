@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_SkillLimitPropData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Skill/DT_SkillLimitPropData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'LimitPropertyData'",
@@ -305,12 +306,6 @@
         },
         "LimitPropertyType": "ECharacterLimitProptiesType::CantForbidForkSkillSpecialUI"
       },
-      "NewRow_14": {
-        "LimitTag": {
-          "TagName": "State.Property.CantUseForkSkill.ForbidBlackBook"
-        },
-        "LimitPropertyType": "ECharacterLimitProptiesType::CantForbidForkSkillBlackBook"
-      },
       "NewRow_19": {
         "LimitTag": {
           "TagName": "State.Property.CantUseAbyssCardSkill"
@@ -406,6 +401,36 @@
           "TagName": "State.Property.CantUseDrone"
         },
         "LimitPropertyType": "ECharacterLimitProptiesType::CantUseDrone"
+      },
+      "NewRow_14": {
+        "LimitTag": {
+          "TagName": "State.Property.CantReduceHP"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantReduceHP"
+      },
+      "NewRow_34": {
+        "LimitTag": {
+          "TagName": "State.Property.CantSummonCompanionNPC"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantSummonCompanionNPC"
+      },
+      "NewRow_35": {
+        "LimitTag": {
+          "TagName": "State.Property.CantAddCrime"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantAddCrime"
+      },
+      "NewRow_36": {
+        "LimitTag": {
+          "TagName": "State.Property.OpenHalfHit"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::OpenHalfHit"
+      },
+      "CantEnterSelfie": {
+        "LimitTag": {
+          "TagName": "State.Property.CantEnterSelfie"
+        },
+        "LimitPropertyType": "ECharacterLimitProptiesType::CantEnterSelfie"
       }
     }
   }

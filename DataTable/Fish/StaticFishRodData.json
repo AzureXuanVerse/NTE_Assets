@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "StaticFishRodData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Fish/StaticFishRodData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'StaticItemData'",
@@ -41,8 +42,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
           "Key": "FishRod01_usedesc",
-          "SourceString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度较低。",
-          "LocalizedString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度较低。"
+          "SourceString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度较低。\r\n鱼线耐久度：12",
+          "LocalizedString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度较低。\r\n鱼线耐久度：12"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
@@ -70,8 +71,8 @@
         },
         "ExtensionData": null,
         "ElementData": {
-          "Endurance": 20,
-          "HitCoefficient": 1.0,
+          "Endurance": 12,
+          "FishRodAddFishWeightMap": [],
           "ItemActorClass_Female": {
             "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Female.WeaponRod_Fish_Female_C",
             "SubPathString": ""
@@ -123,8 +124,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
           "Key": "FishRod02_usedesc",
-          "SourceString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度中等。",
-          "LocalizedString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度中等。"
+          "SourceString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度中等。同时将略微提高上钩的鱼的重量。\r\n鱼线耐久度：18",
+          "LocalizedString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度中等。同时将略微提高上钩的鱼的重量。\r\n鱼线耐久度：18"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
@@ -152,14 +153,73 @@
         },
         "ExtensionData": null,
         "ElementData": {
-          "Endurance": 25,
-          "HitCoefficient": 1.0,
+          "Endurance": 18,
+          "FishRodAddFishWeightMap": [
+            {
+              "Key": "ITEM_QUALITY_GREEN",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 0.0,
+                    "MaxValue": 75.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_BLUE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 0.0,
+                    "MaxValue": 150.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_PURPLE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 0.0,
+                    "MaxValue": 280.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_ORANGE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 0.0,
+                    "MaxValue": 375.0
+                  }
+                ],
+                "FishKingRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 1000.0,
+                    "MaxValue": 5000.0
+                  }
+                ]
+              }
+            }
+          ],
           "ItemActorClass_Female": {
-            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Female.WeaponRod_Fish_Female_C",
+            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Female1.WeaponRod_Fish_Female1_C",
             "SubPathString": ""
           },
           "ItemActorClass_Male": {
-            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Male.WeaponRod_Fish_Male_C",
+            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Male1.WeaponRod_Fish_Male1_C",
             "SubPathString": ""
           }
         },
@@ -205,8 +265,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
           "Key": "FishRod03_usedesc",
-          "SourceString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度较高。",
-          "LocalizedString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度较高。"
+          "SourceString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度较高。同时将小幅提高上钩的鱼的重量。\r\n鱼线耐久度：28",
+          "LocalizedString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度较高。同时将小幅提高上钩的鱼的重量。\r\n鱼线耐久度：28"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
@@ -234,14 +294,73 @@
         },
         "ExtensionData": null,
         "ElementData": {
-          "Endurance": 35,
-          "HitCoefficient": 1.0,
+          "Endurance": 28,
+          "FishRodAddFishWeightMap": [
+            {
+              "Key": "ITEM_QUALITY_GREEN",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 0.0,
+                    "MaxValue": 400.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_BLUE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 0.0,
+                    "MaxValue": 960.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_PURPLE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 300.0,
+                    "MaxValue": 1325.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_ORANGE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 400.0,
+                    "MaxValue": 1850.0
+                  }
+                ],
+                "FishKingRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 5000.0,
+                    "MaxValue": 16000.0
+                  }
+                ]
+              }
+            }
+          ],
           "ItemActorClass_Female": {
-            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Female.WeaponRod_Fish_Female_C",
+            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Female2.WeaponRod_Fish_Female2_C",
             "SubPathString": ""
           },
           "ItemActorClass_Male": {
-            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Male.WeaponRod_Fish_Male_C",
+            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Male2.WeaponRod_Fish_Male2_C",
             "SubPathString": ""
           }
         },
@@ -287,8 +406,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
           "Key": "FishRod04_usedesc",
-          "SourceString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度极高。",
-          "LocalizedString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度极高。"
+          "SourceString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度极高。同时将较大提高上钩的鱼的重量。\r\n鱼线耐久度：40",
+          "LocalizedString": "可用于钓鱼的鱼竿，其配备的鱼线耐久度极高。同时将较大提高上钩的鱼的重量。\r\n鱼线耐久度：40"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
@@ -316,14 +435,73 @@
         },
         "ExtensionData": null,
         "ElementData": {
-          "Endurance": 50,
-          "HitCoefficient": 1.0,
+          "Endurance": 40,
+          "FishRodAddFishWeightMap": [
+            {
+              "Key": "ITEM_QUALITY_GREEN",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 201.0,
+                    "MaxValue": 800.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_BLUE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 401.0,
+                    "MaxValue": 2000.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_PURPLE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 490.0,
+                    "MaxValue": 2700.0
+                  }
+                ],
+                "FishKingRodAddWeigths": []
+              }
+            },
+            {
+              "Key": "ITEM_QUALITY_ORANGE",
+              "Value": {
+                "FishRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 725.0,
+                    "MaxValue": 4900.0
+                  }
+                ],
+                "FishKingRodAddWeigths": [
+                  {
+                    "Type": "EFishCityAttrType::FishCityAttr_Value",
+                    "MinValue": 13835.0,
+                    "MaxValue": 25000.0
+                  }
+                ]
+              }
+            }
+          ],
           "ItemActorClass_Female": {
-            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Female.WeaponRod_Fish_Female_C",
+            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Female3.WeaponRod_Fish_Female3_C",
             "SubPathString": ""
           },
           "ItemActorClass_Male": {
-            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Male.WeaponRod_Fish_Male_C",
+            "AssetPathName": "/Game/Blueprints/Weapon/Player/FishRod/WeaponRod_Fish_Male3.WeaponRod_Fish_Male3_C",
             "SubPathString": ""
           }
         },

@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_MallConfigDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Mail/DT_MallConfigDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'MallShopInfo'",
@@ -37,9 +38,9 @@
         "bIsCashShop": false,
         "TycoonID": "None"
       },
-      "FonsLimitTimeShop1": {
+      "FonsLimitTimeShop": {
         "ShopIDList": [
-          "FonsLimitTimeShop1"
+          "FonsLimitTimeShop"
         ],
         "RedpointType": "None",
         "ShopUIClass": {
@@ -79,8 +80,8 @@
       "Appearance": {
         "ShopIDList": [
           "FashionShop",
-          "GlideShop",
-          "VehicleSkinShop"
+          "VehicleSkinShop",
+          "GlideShop"
         ],
         "RedpointType": "Redpoint.Menu.Mall.Appearance",
         "ShopUIClass": {
@@ -144,6 +145,7 @@
       },
       "GiftShop": {
         "ShopIDList": [
+          "SpecialOfferGiftShop",
           "GameBackendGiftShop",
           "GiftShop"
         ],

@@ -2,8 +2,9 @@
   {
     "Type": "StringTable",
     "Name": "ST_MapAreaDetails",
-    "Class": "UScriptClass'StringTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/Game/Text/Minimap/ST_MapAreaDetails",
     "StringTable": {
       "TableNamespace": "ST_MapAreaDetails",
       "KeysToEntries": {
@@ -80,7 +81,12 @@
         "Map_Area006": "半港区",
         "Map_Area007": "噗咔乐园",
         "Map_Area008": "拘留所",
-        "Map_Area009": "向阳岛"
+        "Map_Area009": "向阳岛",
+        "Map_Robbank_Area_001": "G-接待大厅",
+        "Map_Robbank_Area_002": "LG1-办公层",
+        "Map_Robbank_Area_003": "LG2-藏品层",
+        "Map_Robbank_Area_004": "LG3-金库层",
+        "Map_Robbank_Area_005": "核心金库"
       },
       "KeysToMetaData": {}
     }

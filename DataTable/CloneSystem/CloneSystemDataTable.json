@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "CloneSystemDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/CloneSystem/CloneSystemDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CloneSystemData'",
@@ -11,798 +12,6 @@
       }
     },
     "Rows": {
-      "Trailclone_gold": {
-        "CloneID": "Trailclone_gold",
-        "bCrossScene": false,
-        "MatchCfgMapKey": "None",
-        "OnlineTeamCfgMapKey": "None",
-        "CloneOutPut": {
-          "CultureInvariantString": null
-        },
-        "CloneName": {
-          "TableId": "/Game/Text/ST_Clone.ST_Clone",
-          "Key": "Trailclone_gold_Name",
-          "SourceString": "硬币记",
-          "LocalizedString": "硬币记"
-        },
-        "CloneMode": "ECloneMode::SingleClone",
-        "CloneType": "ECloneType::Trial_Clone",
-        "StaminaID": "Stamina",
-        "IsDoubleAward": true,
-        "CloneSystemSubNodes": [
-          {
-            "MatchCfgMapKey": "None",
-            "CloneDesArray": [
-              {
-                "CloneDesTitle": {
-                  "TableId": "/Game/Text/ST_Ui.ST_Ui",
-                  "Key": "UI_Clone_01",
-                  "SourceString": "介绍",
-                  "LocalizedString": "介绍"
-                },
-                "SubCloneDesTitle": {
-                  "CultureInvariantString": null
-                },
-                "CloneDesBody": {
-                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
-                  "Key": "Trailclone_gold_Des",
-                  "SourceString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。",
-                  "LocalizedString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。"
-                },
-                "ReviewerArray": []
-              }
-            ],
-            "EnterCloneSceneData": {
-              "EnterSceneCloneDesArray": [],
-              "NewAttrIconArray": [
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1.UI_YH_FB_Icon_1",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1_Dark.UI_YH_FB_Icon_1_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5.UI_YH_FB_Icon_5",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5_Dark.UI_YH_FB_Icon_5_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_INCANTATION",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3.UI_YH_FB_Icon_3",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3_Dark.UI_YH_FB_Icon_3_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_PSYCHE",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4.UI_YH_FB_Icon_4",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4_Dark.UI_YH_FB_Icon_4_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_LAKSHANA",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2.UI_YH_FB_Icon_2",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2_Dark.UI_YH_FB_Icon_2_Dark",
-                    "SubPathString": ""
-                  }
-                }
-              ],
-              "SceneIcon": {
-                "AssetPathName": "",
-                "SubPathString": ""
-              }
-            },
-            "CloneStageDatas": [],
-            "StaminaCount": 40,
-            "DropID": "drop_GoldClone_lv1",
-            "DifficultyLevel": 1,
-            "TeamLevel": 5,
-            "KillMonsterTimeLimit": 99999,
-            "SpawnID": "GoldCloneMonster_001",
-            "ExtensionData": null
-          },
-          {
-            "MatchCfgMapKey": "None",
-            "CloneDesArray": [
-              {
-                "CloneDesTitle": {
-                  "TableId": "/Game/Text/ST_Ui.ST_Ui",
-                  "Key": "UI_Clone_01",
-                  "SourceString": "介绍",
-                  "LocalizedString": "介绍"
-                },
-                "SubCloneDesTitle": {
-                  "CultureInvariantString": null
-                },
-                "CloneDesBody": {
-                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
-                  "Key": "Trailclone_gold_Des",
-                  "SourceString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。",
-                  "LocalizedString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。"
-                },
-                "ReviewerArray": []
-              }
-            ],
-            "EnterCloneSceneData": {
-              "EnterSceneCloneDesArray": [],
-              "NewAttrIconArray": [
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1.UI_YH_FB_Icon_1",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1_Dark.UI_YH_FB_Icon_1_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5.UI_YH_FB_Icon_5",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5_Dark.UI_YH_FB_Icon_5_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_INCANTATION",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3.UI_YH_FB_Icon_3",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3_Dark.UI_YH_FB_Icon_3_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_PSYCHE",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4.UI_YH_FB_Icon_4",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4_Dark.UI_YH_FB_Icon_4_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_LAKSHANA",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2.UI_YH_FB_Icon_2",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2_Dark.UI_YH_FB_Icon_2_Dark",
-                    "SubPathString": ""
-                  }
-                }
-              ],
-              "SceneIcon": {
-                "AssetPathName": "",
-                "SubPathString": ""
-              }
-            },
-            "CloneStageDatas": [],
-            "StaminaCount": 40,
-            "DropID": "drop_GoldClone_lv2",
-            "DifficultyLevel": 2,
-            "TeamLevel": 10,
-            "KillMonsterTimeLimit": 99999,
-            "SpawnID": "GoldCloneMonster_001",
-            "ExtensionData": null
-          },
-          {
-            "MatchCfgMapKey": "None",
-            "CloneDesArray": [
-              {
-                "CloneDesTitle": {
-                  "TableId": "/Game/Text/ST_Ui.ST_Ui",
-                  "Key": "UI_Clone_01",
-                  "SourceString": "介绍",
-                  "LocalizedString": "介绍"
-                },
-                "SubCloneDesTitle": {
-                  "CultureInvariantString": null
-                },
-                "CloneDesBody": {
-                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
-                  "Key": "Trailclone_gold_Des",
-                  "SourceString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。",
-                  "LocalizedString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。"
-                },
-                "ReviewerArray": []
-              }
-            ],
-            "EnterCloneSceneData": {
-              "EnterSceneCloneDesArray": [],
-              "NewAttrIconArray": [
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1.UI_YH_FB_Icon_1",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1_Dark.UI_YH_FB_Icon_1_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5.UI_YH_FB_Icon_5",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5_Dark.UI_YH_FB_Icon_5_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_INCANTATION",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3.UI_YH_FB_Icon_3",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3_Dark.UI_YH_FB_Icon_3_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_PSYCHE",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4.UI_YH_FB_Icon_4",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4_Dark.UI_YH_FB_Icon_4_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_LAKSHANA",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2.UI_YH_FB_Icon_2",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2_Dark.UI_YH_FB_Icon_2_Dark",
-                    "SubPathString": ""
-                  }
-                }
-              ],
-              "SceneIcon": {
-                "AssetPathName": "",
-                "SubPathString": ""
-              }
-            },
-            "CloneStageDatas": [],
-            "StaminaCount": 40,
-            "DropID": "drop_GoldClone_lv3",
-            "DifficultyLevel": 3,
-            "TeamLevel": 20,
-            "KillMonsterTimeLimit": 99999,
-            "SpawnID": "GoldCloneMonster_001",
-            "ExtensionData": null
-          },
-          {
-            "MatchCfgMapKey": "None",
-            "CloneDesArray": [
-              {
-                "CloneDesTitle": {
-                  "TableId": "/Game/Text/ST_Ui.ST_Ui",
-                  "Key": "UI_Clone_01",
-                  "SourceString": "介绍",
-                  "LocalizedString": "介绍"
-                },
-                "SubCloneDesTitle": {
-                  "CultureInvariantString": null
-                },
-                "CloneDesBody": {
-                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
-                  "Key": "Trailclone_gold_Des",
-                  "SourceString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。",
-                  "LocalizedString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。"
-                },
-                "ReviewerArray": []
-              }
-            ],
-            "EnterCloneSceneData": {
-              "EnterSceneCloneDesArray": [],
-              "NewAttrIconArray": [
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1.UI_YH_FB_Icon_1",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1_Dark.UI_YH_FB_Icon_1_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5.UI_YH_FB_Icon_5",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5_Dark.UI_YH_FB_Icon_5_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_INCANTATION",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3.UI_YH_FB_Icon_3",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3_Dark.UI_YH_FB_Icon_3_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_PSYCHE",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4.UI_YH_FB_Icon_4",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4_Dark.UI_YH_FB_Icon_4_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_LAKSHANA",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2.UI_YH_FB_Icon_2",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2_Dark.UI_YH_FB_Icon_2_Dark",
-                    "SubPathString": ""
-                  }
-                }
-              ],
-              "SceneIcon": {
-                "AssetPathName": "",
-                "SubPathString": ""
-              }
-            },
-            "CloneStageDatas": [],
-            "StaminaCount": 40,
-            "DropID": "drop_GoldClone_lv4",
-            "DifficultyLevel": 4,
-            "TeamLevel": 30,
-            "KillMonsterTimeLimit": 99999,
-            "SpawnID": "GoldCloneMonster_001",
-            "ExtensionData": null
-          },
-          {
-            "MatchCfgMapKey": "None",
-            "CloneDesArray": [
-              {
-                "CloneDesTitle": {
-                  "TableId": "/Game/Text/ST_Ui.ST_Ui",
-                  "Key": "UI_Clone_01",
-                  "SourceString": "介绍",
-                  "LocalizedString": "介绍"
-                },
-                "SubCloneDesTitle": {
-                  "CultureInvariantString": null
-                },
-                "CloneDesBody": {
-                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
-                  "Key": "Trailclone_gold_Des",
-                  "SourceString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。",
-                  "LocalizedString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。"
-                },
-                "ReviewerArray": []
-              }
-            ],
-            "EnterCloneSceneData": {
-              "EnterSceneCloneDesArray": [],
-              "NewAttrIconArray": [
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1.UI_YH_FB_Icon_1",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1_Dark.UI_YH_FB_Icon_1_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5.UI_YH_FB_Icon_5",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5_Dark.UI_YH_FB_Icon_5_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_INCANTATION",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3.UI_YH_FB_Icon_3",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3_Dark.UI_YH_FB_Icon_3_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_PSYCHE",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4.UI_YH_FB_Icon_4",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4_Dark.UI_YH_FB_Icon_4_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_LAKSHANA",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2.UI_YH_FB_Icon_2",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2_Dark.UI_YH_FB_Icon_2_Dark",
-                    "SubPathString": ""
-                  }
-                }
-              ],
-              "SceneIcon": {
-                "AssetPathName": "",
-                "SubPathString": ""
-              }
-            },
-            "CloneStageDatas": [],
-            "StaminaCount": 40,
-            "DropID": "drop_GoldClone_lv5",
-            "DifficultyLevel": 5,
-            "TeamLevel": 40,
-            "KillMonsterTimeLimit": 99999,
-            "SpawnID": "GoldCloneMonster_001",
-            "ExtensionData": null
-          },
-          {
-            "MatchCfgMapKey": "None",
-            "CloneDesArray": [
-              {
-                "CloneDesTitle": {
-                  "TableId": "/Game/Text/ST_Ui.ST_Ui",
-                  "Key": "UI_Clone_01",
-                  "SourceString": "介绍",
-                  "LocalizedString": "介绍"
-                },
-                "SubCloneDesTitle": {
-                  "CultureInvariantString": null
-                },
-                "CloneDesBody": {
-                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
-                  "Key": "Trailclone_gold_Des",
-                  "SourceString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。",
-                  "LocalizedString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。"
-                },
-                "ReviewerArray": []
-              }
-            ],
-            "EnterCloneSceneData": {
-              "EnterSceneCloneDesArray": [],
-              "NewAttrIconArray": [
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1.UI_YH_FB_Icon_1",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1_Dark.UI_YH_FB_Icon_1_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5.UI_YH_FB_Icon_5",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5_Dark.UI_YH_FB_Icon_5_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_INCANTATION",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3.UI_YH_FB_Icon_3",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3_Dark.UI_YH_FB_Icon_3_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_PSYCHE",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4.UI_YH_FB_Icon_4",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4_Dark.UI_YH_FB_Icon_4_Dark",
-                    "SubPathString": ""
-                  }
-                },
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_LAKSHANA",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2.UI_YH_FB_Icon_2",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2_Dark.UI_YH_FB_Icon_2_Dark",
-                    "SubPathString": ""
-                  }
-                }
-              ],
-              "SceneIcon": {
-                "AssetPathName": "",
-                "SubPathString": ""
-              }
-            },
-            "CloneStageDatas": [],
-            "StaminaCount": 40,
-            "DropID": "drop_GoldClone_lv6",
-            "DifficultyLevel": 6,
-            "TeamLevel": 45,
-            "KillMonsterTimeLimit": 99999,
-            "SpawnID": "GoldCloneMonster_001",
-            "ExtensionData": null
-          }
-        ],
-        "CloneLevelInstance": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "bIsAutoSpawnMonster": true,
-        "AutoSpawnMonsterDelayTime": 0.5,
-        "KillMonsterLimitDes": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "CloneSystemDataTable_LimitCenterDes",
-          "SourceString": "击败所有敌人",
-          "LocalizedString": "击败所有敌人"
-        },
-        "LimitDes": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "CloneSystemDataTable_Entertip",
-          "SourceString": "剩余敌人数",
-          "LocalizedString": "剩余敌人数"
-        },
-        "BGIcon": {
-          "AssetPathName": "/Game/UI/UI/CloneSystem/Houdini/UI_YH_FB_Images01.UI_YH_FB_Images01",
-          "SubPathString": ""
-        },
-        "AdventureManualBGIcon": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "SpawnStart": {
-          "Rotation": {
-            "X": 0.0,
-            "Y": -0.0,
-            "Z": 0.0,
-            "W": 1.0,
-            "IsNormalized": true,
-            "Size": 1.0,
-            "SizeSquared": 1.0
-          },
-          "Translation": {
-            "X": -90466.414,
-            "Y": 131885.0,
-            "Z": -3265.4648
-          },
-          "Scale3D": {
-            "X": 1.0,
-            "Y": 1.0,
-            "Z": 1.0
-          }
-        },
-        "CloneAwardTemplate": {
-          "AssetPathName": "/Game/Blueprints/Actors/CloneSystem/BP_CloneChest_Talent.BP_CloneChest_Talent_C",
-          "SubPathString": ""
-        },
-        "bHasChallengeTime": false,
-        "CloneDataLayerAssets": [
-          {
-            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_CloneResource_01.W_Unload_CloneResource_01",
-            "SubPathString": ""
-          },
-          {
-            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_CloneResource_02.W_Unload_CloneResource_02",
-            "SubPathString": ""
-          }
-        ],
-        "ResetLayerAssets": [],
-        "ReliveOrChallengeTransforms": [
-          {
-            "Rotation": {
-              "X": -0.0,
-              "Y": 0.0,
-              "Z": -0.100188,
-              "W": 0.994969,
-              "IsNormalized": true,
-              "Size": 1.0000005,
-              "SizeSquared": 1.000001
-            },
-            "Translation": {
-              "X": -93873.0,
-              "Y": 132417.0,
-              "Z": -3470.0
-            },
-            "Scale3D": {
-              "X": 1.0,
-              "Y": 1.0,
-              "Z": 1.0
-            }
-          }
-        ],
-        "CloneBoxTransform": {
-          "Rotation": {
-            "X": 0.0,
-            "Y": -0.0,
-            "Z": 0.99496853,
-            "W": 0.10018806,
-            "IsNormalized": true,
-            "Size": 1.0,
-            "SizeSquared": 1.0
-          },
-          "Translation": {
-            "X": -90465.0,
-            "Y": 131885.0,
-            "Z": -3370.0
-          },
-          "Scale3D": {
-            "X": 1.0,
-            "Y": 1.0,
-            "Z": 1.0
-          }
-        },
-        "Distance": 100,
-        "Rotator": {
-          "Pitch": 0.0,
-          "Yaw": 0.0,
-          "Roll": 0.0
-        },
-        "QuestId": "None",
-        "EntryQuestDetailsArray": [],
-        "PreQuestDetails": {
-          "PreFinishedQuestID": "None",
-          "PreQuestFinishedText": {
-            "CultureInvariantString": null
-          }
-        },
-        "CloneFinishedQuestID": "None",
-        "bShowSkipUI": true,
-        "bShowInAdventure": true,
-        "bRepetitionChallenge": true,
-        "EnterCloneTransferLoadingUI": "",
-        "ExitTransferLoadingUI": "CloneLoadingUI",
-        "TransferLoadingUIReset": "CloneLoadingUIReset",
-        "EnterSpecialLoadingID": "",
-        "ExitCloneRewardedTips": {
-          "CultureInvariantString": null
-        },
-        "ExitCloneNotRewardTips": {
-          "CultureInvariantString": null
-        }
-      },
       "Trailclone_exp": {
         "CloneID": "Trailclone_exp",
         "bCrossScene": false,
@@ -1593,7 +802,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "Trailclone_Wpexp": {
         "CloneID": "Trailclone_Wpexp",
@@ -2385,7 +1595,801 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
+      },
+      "Trailclone_gold": {
+        "CloneID": "Trailclone_gold",
+        "bCrossScene": false,
+        "MatchCfgMapKey": "None",
+        "OnlineTeamCfgMapKey": "None",
+        "CloneOutPut": {
+          "CultureInvariantString": null
+        },
+        "CloneName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "Trailclone_gold_Name",
+          "SourceString": "硬币记",
+          "LocalizedString": "硬币记"
+        },
+        "CloneMode": "ECloneMode::SingleClone",
+        "CloneType": "ECloneType::Trial_Clone",
+        "StaminaID": "Stamina",
+        "IsDoubleAward": true,
+        "CloneSystemSubNodes": [
+          {
+            "MatchCfgMapKey": "None",
+            "CloneDesArray": [
+              {
+                "CloneDesTitle": {
+                  "TableId": "/Game/Text/ST_Ui.ST_Ui",
+                  "Key": "UI_Clone_01",
+                  "SourceString": "介绍",
+                  "LocalizedString": "介绍"
+                },
+                "SubCloneDesTitle": {
+                  "CultureInvariantString": null
+                },
+                "CloneDesBody": {
+                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                  "Key": "Trailclone_gold_Des",
+                  "SourceString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。",
+                  "LocalizedString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。"
+                },
+                "ReviewerArray": []
+              }
+            ],
+            "EnterCloneSceneData": {
+              "EnterSceneCloneDesArray": [],
+              "NewAttrIconArray": [
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1.UI_YH_FB_Icon_1",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1_Dark.UI_YH_FB_Icon_1_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5.UI_YH_FB_Icon_5",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5_Dark.UI_YH_FB_Icon_5_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_INCANTATION",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3.UI_YH_FB_Icon_3",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3_Dark.UI_YH_FB_Icon_3_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_PSYCHE",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4.UI_YH_FB_Icon_4",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4_Dark.UI_YH_FB_Icon_4_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_LAKSHANA",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2.UI_YH_FB_Icon_2",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2_Dark.UI_YH_FB_Icon_2_Dark",
+                    "SubPathString": ""
+                  }
+                }
+              ],
+              "SceneIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              }
+            },
+            "CloneStageDatas": [],
+            "StaminaCount": 40,
+            "DropID": "drop_GoldClone_lv1",
+            "DifficultyLevel": 1,
+            "TeamLevel": 5,
+            "KillMonsterTimeLimit": 99999,
+            "SpawnID": "GoldCloneMonster_001",
+            "ExtensionData": null
+          },
+          {
+            "MatchCfgMapKey": "None",
+            "CloneDesArray": [
+              {
+                "CloneDesTitle": {
+                  "TableId": "/Game/Text/ST_Ui.ST_Ui",
+                  "Key": "UI_Clone_01",
+                  "SourceString": "介绍",
+                  "LocalizedString": "介绍"
+                },
+                "SubCloneDesTitle": {
+                  "CultureInvariantString": null
+                },
+                "CloneDesBody": {
+                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                  "Key": "Trailclone_gold_Des",
+                  "SourceString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。",
+                  "LocalizedString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。"
+                },
+                "ReviewerArray": []
+              }
+            ],
+            "EnterCloneSceneData": {
+              "EnterSceneCloneDesArray": [],
+              "NewAttrIconArray": [
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1.UI_YH_FB_Icon_1",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1_Dark.UI_YH_FB_Icon_1_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5.UI_YH_FB_Icon_5",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5_Dark.UI_YH_FB_Icon_5_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_INCANTATION",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3.UI_YH_FB_Icon_3",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3_Dark.UI_YH_FB_Icon_3_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_PSYCHE",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4.UI_YH_FB_Icon_4",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4_Dark.UI_YH_FB_Icon_4_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_LAKSHANA",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2.UI_YH_FB_Icon_2",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2_Dark.UI_YH_FB_Icon_2_Dark",
+                    "SubPathString": ""
+                  }
+                }
+              ],
+              "SceneIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              }
+            },
+            "CloneStageDatas": [],
+            "StaminaCount": 40,
+            "DropID": "drop_GoldClone_lv2",
+            "DifficultyLevel": 2,
+            "TeamLevel": 10,
+            "KillMonsterTimeLimit": 99999,
+            "SpawnID": "GoldCloneMonster_001",
+            "ExtensionData": null
+          },
+          {
+            "MatchCfgMapKey": "None",
+            "CloneDesArray": [
+              {
+                "CloneDesTitle": {
+                  "TableId": "/Game/Text/ST_Ui.ST_Ui",
+                  "Key": "UI_Clone_01",
+                  "SourceString": "介绍",
+                  "LocalizedString": "介绍"
+                },
+                "SubCloneDesTitle": {
+                  "CultureInvariantString": null
+                },
+                "CloneDesBody": {
+                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                  "Key": "Trailclone_gold_Des",
+                  "SourceString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。",
+                  "LocalizedString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。"
+                },
+                "ReviewerArray": []
+              }
+            ],
+            "EnterCloneSceneData": {
+              "EnterSceneCloneDesArray": [],
+              "NewAttrIconArray": [
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1.UI_YH_FB_Icon_1",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1_Dark.UI_YH_FB_Icon_1_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5.UI_YH_FB_Icon_5",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5_Dark.UI_YH_FB_Icon_5_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_INCANTATION",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3.UI_YH_FB_Icon_3",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3_Dark.UI_YH_FB_Icon_3_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_PSYCHE",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4.UI_YH_FB_Icon_4",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4_Dark.UI_YH_FB_Icon_4_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_LAKSHANA",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2.UI_YH_FB_Icon_2",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2_Dark.UI_YH_FB_Icon_2_Dark",
+                    "SubPathString": ""
+                  }
+                }
+              ],
+              "SceneIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              }
+            },
+            "CloneStageDatas": [],
+            "StaminaCount": 40,
+            "DropID": "drop_GoldClone_lv3",
+            "DifficultyLevel": 3,
+            "TeamLevel": 20,
+            "KillMonsterTimeLimit": 99999,
+            "SpawnID": "GoldCloneMonster_001",
+            "ExtensionData": null
+          },
+          {
+            "MatchCfgMapKey": "None",
+            "CloneDesArray": [
+              {
+                "CloneDesTitle": {
+                  "TableId": "/Game/Text/ST_Ui.ST_Ui",
+                  "Key": "UI_Clone_01",
+                  "SourceString": "介绍",
+                  "LocalizedString": "介绍"
+                },
+                "SubCloneDesTitle": {
+                  "CultureInvariantString": null
+                },
+                "CloneDesBody": {
+                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                  "Key": "Trailclone_gold_Des",
+                  "SourceString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。",
+                  "LocalizedString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。"
+                },
+                "ReviewerArray": []
+              }
+            ],
+            "EnterCloneSceneData": {
+              "EnterSceneCloneDesArray": [],
+              "NewAttrIconArray": [
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1.UI_YH_FB_Icon_1",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1_Dark.UI_YH_FB_Icon_1_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5.UI_YH_FB_Icon_5",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5_Dark.UI_YH_FB_Icon_5_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_INCANTATION",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3.UI_YH_FB_Icon_3",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3_Dark.UI_YH_FB_Icon_3_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_PSYCHE",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4.UI_YH_FB_Icon_4",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4_Dark.UI_YH_FB_Icon_4_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_LAKSHANA",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2.UI_YH_FB_Icon_2",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2_Dark.UI_YH_FB_Icon_2_Dark",
+                    "SubPathString": ""
+                  }
+                }
+              ],
+              "SceneIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              }
+            },
+            "CloneStageDatas": [],
+            "StaminaCount": 40,
+            "DropID": "drop_GoldClone_lv4",
+            "DifficultyLevel": 4,
+            "TeamLevel": 30,
+            "KillMonsterTimeLimit": 99999,
+            "SpawnID": "GoldCloneMonster_001",
+            "ExtensionData": null
+          },
+          {
+            "MatchCfgMapKey": "None",
+            "CloneDesArray": [
+              {
+                "CloneDesTitle": {
+                  "TableId": "/Game/Text/ST_Ui.ST_Ui",
+                  "Key": "UI_Clone_01",
+                  "SourceString": "介绍",
+                  "LocalizedString": "介绍"
+                },
+                "SubCloneDesTitle": {
+                  "CultureInvariantString": null
+                },
+                "CloneDesBody": {
+                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                  "Key": "Trailclone_gold_Des",
+                  "SourceString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。",
+                  "LocalizedString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。"
+                },
+                "ReviewerArray": []
+              }
+            ],
+            "EnterCloneSceneData": {
+              "EnterSceneCloneDesArray": [],
+              "NewAttrIconArray": [
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1.UI_YH_FB_Icon_1",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1_Dark.UI_YH_FB_Icon_1_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5.UI_YH_FB_Icon_5",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5_Dark.UI_YH_FB_Icon_5_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_INCANTATION",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3.UI_YH_FB_Icon_3",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3_Dark.UI_YH_FB_Icon_3_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_PSYCHE",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4.UI_YH_FB_Icon_4",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4_Dark.UI_YH_FB_Icon_4_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_LAKSHANA",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2.UI_YH_FB_Icon_2",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2_Dark.UI_YH_FB_Icon_2_Dark",
+                    "SubPathString": ""
+                  }
+                }
+              ],
+              "SceneIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              }
+            },
+            "CloneStageDatas": [],
+            "StaminaCount": 40,
+            "DropID": "drop_GoldClone_lv5",
+            "DifficultyLevel": 5,
+            "TeamLevel": 40,
+            "KillMonsterTimeLimit": 99999,
+            "SpawnID": "GoldCloneMonster_001",
+            "ExtensionData": null
+          },
+          {
+            "MatchCfgMapKey": "None",
+            "CloneDesArray": [
+              {
+                "CloneDesTitle": {
+                  "TableId": "/Game/Text/ST_Ui.ST_Ui",
+                  "Key": "UI_Clone_01",
+                  "SourceString": "介绍",
+                  "LocalizedString": "介绍"
+                },
+                "SubCloneDesTitle": {
+                  "CultureInvariantString": null
+                },
+                "CloneDesBody": {
+                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                  "Key": "Trailclone_gold_Des",
+                  "SourceString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。",
+                  "LocalizedString": "就算是谎言的力量，也无法让「甲」硬币变成「真」硬币。"
+                },
+                "ReviewerArray": []
+              }
+            ],
+            "EnterCloneSceneData": {
+              "EnterSceneCloneDesArray": [],
+              "NewAttrIconArray": [
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_COSMOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1.UI_YH_FB_Icon_1",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_1_Dark.UI_YH_FB_Icon_1_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_NATURE",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5.UI_YH_FB_Icon_5",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_5_Dark.UI_YH_FB_Icon_5_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_INCANTATION",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3.UI_YH_FB_Icon_3",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_3_Dark.UI_YH_FB_Icon_3_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_PSYCHE",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4.UI_YH_FB_Icon_4",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_4_Dark.UI_YH_FB_Icon_4_Dark",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_LAKSHANA",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2.UI_YH_FB_Icon_2",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_2_Dark.UI_YH_FB_Icon_2_Dark",
+                    "SubPathString": ""
+                  }
+                }
+              ],
+              "SceneIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              }
+            },
+            "CloneStageDatas": [],
+            "StaminaCount": 40,
+            "DropID": "drop_GoldClone_lv6",
+            "DifficultyLevel": 6,
+            "TeamLevel": 45,
+            "KillMonsterTimeLimit": 99999,
+            "SpawnID": "GoldCloneMonster_001",
+            "ExtensionData": null
+          }
+        ],
+        "CloneLevelInstance": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bIsAutoSpawnMonster": true,
+        "AutoSpawnMonsterDelayTime": 0.5,
+        "KillMonsterLimitDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CloneSystemDataTable_LimitCenterDes",
+          "SourceString": "击败所有敌人",
+          "LocalizedString": "击败所有敌人"
+        },
+        "LimitDes": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "CloneSystemDataTable_Entertip",
+          "SourceString": "剩余敌人数",
+          "LocalizedString": "剩余敌人数"
+        },
+        "BGIcon": {
+          "AssetPathName": "/Game/UI/UI/CloneSystem/Houdini/UI_YH_FB_Images01.UI_YH_FB_Images01",
+          "SubPathString": ""
+        },
+        "AdventureManualBGIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SpawnStart": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -90466.414,
+            "Y": 131885.0,
+            "Z": -3265.4648
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "CloneAwardTemplate": {
+          "AssetPathName": "/Game/Blueprints/Actors/CloneSystem/BP_CloneChest_Talent.BP_CloneChest_Talent_C",
+          "SubPathString": ""
+        },
+        "bHasChallengeTime": false,
+        "CloneDataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_CloneResource_01.W_Unload_CloneResource_01",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/WorldDataLayer/UnloadDataLayer/W_Unload_CloneResource_02.W_Unload_CloneResource_02",
+            "SubPathString": ""
+          }
+        ],
+        "ResetLayerAssets": [],
+        "ReliveOrChallengeTransforms": [
+          {
+            "Rotation": {
+              "X": -0.0,
+              "Y": 0.0,
+              "Z": -0.100188,
+              "W": 0.994969,
+              "IsNormalized": true,
+              "Size": 1.0000005,
+              "SizeSquared": 1.000001
+            },
+            "Translation": {
+              "X": -93873.0,
+              "Y": 132417.0,
+              "Z": -3470.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        ],
+        "CloneBoxTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.99496853,
+            "W": 0.10018806,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": -90465.0,
+            "Y": 131885.0,
+            "Z": -3370.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Distance": 100,
+        "Rotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "QuestId": "None",
+        "EntryQuestDetailsArray": [],
+        "PreQuestDetails": {
+          "PreFinishedQuestID": "None",
+          "PreQuestFinishedText": {
+            "CultureInvariantString": null
+          }
+        },
+        "CloneFinishedQuestID": "None",
+        "bShowSkipUI": true,
+        "bShowInAdventure": true,
+        "bRepetitionChallenge": true,
+        "EnterCloneTransferLoadingUI": "",
+        "ExitTransferLoadingUI": "CloneLoadingUI",
+        "TransferLoadingUIReset": "CloneLoadingUIReset",
+        "EnterSpecialLoadingID": "",
+        "ExitCloneRewardedTips": {
+          "CultureInvariantString": null
+        },
+        "ExitCloneNotRewardTips": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null
       },
       "DLC_talent_001": {
         "CloneID": "DLC_talent_001",
@@ -3052,7 +3056,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_talent_002": {
         "CloneID": "DLC_talent_002",
@@ -3719,7 +3724,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_talent_003": {
         "CloneID": "DLC_talent_003",
@@ -4386,7 +4392,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_talent_004": {
         "CloneID": "DLC_talent_004",
@@ -5053,7 +5060,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_talent_005": {
         "CloneID": "DLC_talent_005",
@@ -5720,7 +5728,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_forkbreakthrough_001": {
         "CloneID": "DLC_forkbreakthrough_001",
@@ -6387,7 +6396,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_forkbreakthrough_002": {
         "CloneID": "DLC_forkbreakthrough_002",
@@ -7054,7 +7064,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_forkbreakthrough_003": {
         "CloneID": "DLC_forkbreakthrough_003",
@@ -7721,7 +7732,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_forkbreakthrough_004": {
         "CloneID": "DLC_forkbreakthrough_004",
@@ -8388,7 +8400,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_forkbreakthrough_005": {
         "CloneID": "DLC_forkbreakthrough_005",
@@ -9055,7 +9068,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_equipment_001": {
         "CloneID": "DLC_equipment_001",
@@ -9649,7 +9663,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_equipment_002": {
         "CloneID": "DLC_equipment_002",
@@ -10243,7 +10258,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_equipment_003": {
         "CloneID": "DLC_equipment_003",
@@ -10837,7 +10853,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_equipment_004": {
         "CloneID": "DLC_equipment_004",
@@ -11431,7 +11448,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_equipment_005": {
         "CloneID": "DLC_equipment_005",
@@ -12025,7 +12043,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_equipment_006": {
         "CloneID": "DLC_equipment_006",
@@ -12619,7 +12638,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_levelbreakthrough_001": {
         "CloneID": "DLC_levelbreakthrough_001",
@@ -12636,7 +12656,7 @@
           "LocalizedString": "鉴定突破Ⅰ"
         },
         "CloneMode": "ECloneMode::SingleClone",
-        "CloneType": "ECloneType::Trial_Clone",
+        "CloneType": "ECloneType::BreakThrough_Clone",
         "StaminaID": "Stamina",
         "IsDoubleAward": false,
         "CloneSystemSubNodes": [
@@ -12741,7 +12761,7 @@
             "StaminaCount": 0,
             "DropID": "None",
             "DifficultyLevel": 1,
-            "TeamLevel": 19,
+            "TeamLevel": 20,
             "KillMonsterTimeLimit": 99999,
             "SpawnID": "LevelbreakthroughCloneMonster_001",
             "ExtensionData": null
@@ -12881,7 +12901,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_levelbreakthrough_002": {
         "CloneID": "DLC_levelbreakthrough_002",
@@ -12898,7 +12919,7 @@
           "LocalizedString": "鉴定突破Ⅱ"
         },
         "CloneMode": "ECloneMode::SingleClone",
-        "CloneType": "ECloneType::Trial_Clone",
+        "CloneType": "ECloneType::BreakThrough_Clone",
         "StaminaID": "Stamina",
         "IsDoubleAward": false,
         "CloneSystemSubNodes": [
@@ -13003,7 +13024,7 @@
             "StaminaCount": 0,
             "DropID": "None",
             "DifficultyLevel": 1,
-            "TeamLevel": 39,
+            "TeamLevel": 40,
             "KillMonsterTimeLimit": 99999,
             "SpawnID": "LevelbreakthroughCloneMonster_002",
             "ExtensionData": null
@@ -13143,7 +13164,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_levelbreakthrough_003": {
         "CloneID": "DLC_levelbreakthrough_003",
@@ -13160,7 +13182,7 @@
           "LocalizedString": "鉴定突破Ⅲ"
         },
         "CloneMode": "ECloneMode::SingleClone",
-        "CloneType": "ECloneType::Trial_Clone",
+        "CloneType": "ECloneType::BreakThrough_Clone",
         "StaminaID": "Stamina",
         "IsDoubleAward": false,
         "CloneSystemSubNodes": [
@@ -13265,7 +13287,7 @@
             "StaminaCount": 0,
             "DropID": "None",
             "DifficultyLevel": 1,
-            "TeamLevel": 49,
+            "TeamLevel": 50,
             "KillMonsterTimeLimit": 99999,
             "SpawnID": "LevelbreakthroughCloneMonster_003",
             "ExtensionData": null
@@ -13405,7 +13427,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_dynamic_Boss017": {
         "CloneID": "DLC_dynamic_Boss017",
@@ -14407,7 +14430,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "WeeklyClone_Boss05": {
         "CloneID": "WeeklyClone_Boss05",
@@ -14974,7 +14998,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "WeeklyClone_Boss10": {
         "CloneID": "WeeklyClone_Boss10",
@@ -15039,11 +15064,62 @@
             },
             "CloneStageDatas": [],
             "StaminaCount": 60,
-            "DropID": "drop_weeklyclone_a02_lv2",
+            "DropID": "drop_weeklyclone_a02_lv1",
             "DifficultyLevel": 1,
-            "TeamLevel": 20,
+            "TeamLevel": 5,
             "KillMonsterTimeLimit": 99999,
             "SpawnID": "WeeklyClone_Boss10_Lv1",
+            "ExtensionData": null
+          },
+          {
+            "MatchCfgMapKey": "WeeklyClone_Boss10_2",
+            "CloneDesArray": [
+              {
+                "CloneDesTitle": {
+                  "TableId": "/Game/Text/ST_Ui.ST_Ui",
+                  "Key": "UI_Clone_01",
+                  "SourceString": "介绍",
+                  "LocalizedString": "介绍"
+                },
+                "SubCloneDesTitle": {
+                  "CultureInvariantString": null
+                },
+                "CloneDesBody": {
+                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                  "Key": "WeeklyClone_Des_01",
+                  "SourceString": "何人惊扰她的安眠？\r\n何人牵起她的裙袂？\r\n何人……愿共舞一曲？",
+                  "LocalizedString": "何人惊扰她的安眠？\r\n何人牵起她的裙袂？\r\n何人……愿共舞一曲？"
+                },
+                "ReviewerArray": []
+              }
+            ],
+            "EnterCloneSceneData": {
+              "EnterSceneCloneDesArray": [],
+              "NewAttrIconArray": [
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
+                    "SubPathString": ""
+                  }
+                }
+              ],
+              "SceneIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              }
+            },
+            "CloneStageDatas": [],
+            "StaminaCount": 60,
+            "DropID": "drop_weeklyclone_a02_lv2",
+            "DifficultyLevel": 2,
+            "TeamLevel": 20,
+            "KillMonsterTimeLimit": 99999,
+            "SpawnID": "WeeklyClone_Boss10_Lv2",
             "ExtensionData": null
           },
           {
@@ -15091,59 +15167,8 @@
             "CloneStageDatas": [],
             "StaminaCount": 60,
             "DropID": "drop_weeklyclone_a02_lv3",
-            "DifficultyLevel": 2,
-            "TeamLevel": 30,
-            "KillMonsterTimeLimit": 99999,
-            "SpawnID": "WeeklyClone_Boss10_Lv2",
-            "ExtensionData": null
-          },
-          {
-            "MatchCfgMapKey": "WeeklyClone_Boss10_3",
-            "CloneDesArray": [
-              {
-                "CloneDesTitle": {
-                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
-                  "Key": "ResourceClone_Common001_CloneDesTitle",
-                  "SourceString": "副本特性",
-                  "LocalizedString": "副本特性"
-                },
-                "SubCloneDesTitle": {
-                  "CultureInvariantString": null
-                },
-                "CloneDesBody": {
-                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
-                  "Key": "ResourceClone001_CloneDesBody01",
-                  "SourceString": "在已破碎的失落维度中十分少见的稳定碎片，几乎没有空间紊流的影响。",
-                  "LocalizedString": "在已破碎的失落维度中十分少见的稳定碎片，几乎没有空间紊流的影响。"
-                },
-                "ReviewerArray": []
-              }
-            ],
-            "EnterCloneSceneData": {
-              "EnterSceneCloneDesArray": [],
-              "NewAttrIconArray": [
-                {
-                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
-                  "LightTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
-                    "SubPathString": ""
-                  },
-                  "GreyTextureIcon": {
-                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
-                    "SubPathString": ""
-                  }
-                }
-              ],
-              "SceneIcon": {
-                "AssetPathName": "",
-                "SubPathString": ""
-              }
-            },
-            "CloneStageDatas": [],
-            "StaminaCount": 60,
-            "DropID": "drop_weeklyclone_a02_lv4",
             "DifficultyLevel": 3,
-            "TeamLevel": 40,
+            "TeamLevel": 30,
             "KillMonsterTimeLimit": 99999,
             "SpawnID": "WeeklyClone_Boss10_Lv3",
             "ExtensionData": null
@@ -15192,9 +15217,9 @@
             },
             "CloneStageDatas": [],
             "StaminaCount": 60,
-            "DropID": "drop_weeklyclone_a02_lv5",
+            "DropID": "drop_weeklyclone_a02_lv4",
             "DifficultyLevel": 4,
-            "TeamLevel": 45,
+            "TeamLevel": 40,
             "KillMonsterTimeLimit": 99999,
             "SpawnID": "WeeklyClone_Boss10_Lv4",
             "ExtensionData": null
@@ -15243,15 +15268,66 @@
             },
             "CloneStageDatas": [],
             "StaminaCount": 60,
-            "DropID": "drop_weeklyclone_a02_lv6",
+            "DropID": "drop_weeklyclone_a02_lv5",
             "DifficultyLevel": 5,
-            "TeamLevel": 50,
+            "TeamLevel": 45,
             "KillMonsterTimeLimit": 99999,
             "SpawnID": "WeeklyClone_Boss10_Lv5",
             "ExtensionData": null
           },
           {
-            "MatchCfgMapKey": "WeeklyClone_Boss10_5",
+            "MatchCfgMapKey": "WeeklyClone_Boss10_6",
+            "CloneDesArray": [
+              {
+                "CloneDesTitle": {
+                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                  "Key": "ResourceClone_Common001_CloneDesTitle",
+                  "SourceString": "副本特性",
+                  "LocalizedString": "副本特性"
+                },
+                "SubCloneDesTitle": {
+                  "CultureInvariantString": null
+                },
+                "CloneDesBody": {
+                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                  "Key": "ResourceClone001_CloneDesBody01",
+                  "SourceString": "在已破碎的失落维度中十分少见的稳定碎片，几乎没有空间紊流的影响。",
+                  "LocalizedString": "在已破碎的失落维度中十分少见的稳定碎片，几乎没有空间紊流的影响。"
+                },
+                "ReviewerArray": []
+              }
+            ],
+            "EnterCloneSceneData": {
+              "EnterSceneCloneDesArray": [],
+              "NewAttrIconArray": [
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
+                    "SubPathString": ""
+                  }
+                }
+              ],
+              "SceneIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              }
+            },
+            "CloneStageDatas": [],
+            "StaminaCount": 60,
+            "DropID": "drop_weeklyclone_a02_lv6",
+            "DifficultyLevel": 6,
+            "TeamLevel": 50,
+            "KillMonsterTimeLimit": 99999,
+            "SpawnID": "WeeklyClone_Boss10_Lv6",
+            "ExtensionData": null
+          },
+          {
+            "MatchCfgMapKey": "WeeklyClone_Boss10_7",
             "CloneDesArray": [
               {
                 "CloneDesTitle": {
@@ -15295,10 +15371,10 @@
             "CloneStageDatas": [],
             "StaminaCount": 60,
             "DropID": "drop_weeklyclone_a02_lv7",
-            "DifficultyLevel": 6,
+            "DifficultyLevel": 7,
             "TeamLevel": 55,
             "KillMonsterTimeLimit": 99999,
-            "SpawnID": "WeeklyClone_Boss10_Lv6",
+            "SpawnID": "WeeklyClone_Boss10_Lv7",
             "ExtensionData": null
           }
         ],
@@ -15490,7 +15566,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "Trailclone_exp_test": {
         "CloneID": "Trailclone_exp_test",
@@ -15729,7 +15806,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "MultiVision_1": {
         "CloneID": "MultiVision_1",
@@ -15853,7 +15931,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "SingleVision_1": {
         "CloneID": "SingleVision_1",
@@ -15977,13 +16056,14 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "robbank": {
         "CloneID": "robbank",
         "bCrossScene": true,
         "MatchCfgMapKey": "robbank_Single",
-        "OnlineTeamCfgMapKey": "None",
+        "OnlineTeamCfgMapKey": "robbank",
         "CloneOutPut": {
           "CultureInvariantString": null
         },
@@ -16045,12 +16125,12 @@
             "DropID": "drop_RobBank_RewardDisplay",
             "DifficultyLevel": 1,
             "TeamLevel": 0,
-            "KillMonsterTimeLimit": 900,
+            "KillMonsterTimeLimit": 720,
             "SpawnID": "Testmonster",
             "ExtensionData": {
               "SettleConditionMap": [],
-              "RobBankScoreRatio": 0.001167,
-              "RobBankScoreMax": 120
+              "RobBankScoreRatio": 0.000417,
+              "RobBankScoreMax": 90
             }
           }
         ],
@@ -16163,6 +16243,10 @@
           "Key": "ui_robbank_exit_tip",
           "SourceString": "是否退出当前副本？退出将视为撤离失败，失去本局已获得的全部收益。",
           "LocalizedString": "是否退出当前副本？退出将视为撤离失败，失去本局已获得的全部收益。"
+        },
+        "ExtensionData": {
+          "bSetPlayerHP": true,
+          "EnterCloneHPPer": 1.0
         }
       },
       "DLC_Hospital_Single": {
@@ -16189,19 +16273,16 @@
             "CloneDesArray": [
               {
                 "CloneDesTitle": {
-                  "TableId": "/Game/Text/ST_Ui.ST_Ui",
-                  "Key": "UI_Clone_01",
-                  "SourceString": "介绍",
-                  "LocalizedString": "介绍"
+                  "CultureInvariantString": null
                 },
                 "SubCloneDesTitle": {
                   "CultureInvariantString": null
                 },
                 "CloneDesBody": {
-                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
-                  "Key": "DLC_Hospital_Des",
-                  "SourceString": "「无名医院」",
-                  "LocalizedString": "「无名医院」"
+                  "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                  "Key": "Hospital_CusConmment_1_Dis_Player",
+                  "SourceString": "一处名为「冷山医院」的地点异象，位置不明，需借助委托人的异能才能进入其中。医院内存在绷带组成的人形伴生异象，部分具有对光或声的趋避行为。须收集医院各处的线索并提交至档案室，方能完成委托。已验证至少存在一种让其回应的线索组合，并被其通过一段放映影像告知了「真相」，成功脱离。\r\n无法确认「真相」是否唯一，有待进一步考察。",
+                  "LocalizedString": "一处名为「冷山医院」的地点异象，位置不明，需借助委托人的异能才能进入其中。医院内存在绷带组成的人形伴生异象，部分具有对光或声的趋避行为。须收集医院各处的线索并提交至档案室，方能完成委托。已验证至少存在一种让其回应的线索组合，并被其通过一段放映影像告知了「真相」，成功脱离。\r\n无法确认「真相」是否唯一，有待进一步考察。"
                 },
                 "ReviewerArray": []
               }
@@ -16233,7 +16314,90 @@
             "TeamLevel": 0,
             "KillMonsterTimeLimit": 20,
             "SpawnID": "None",
-            "ExtensionData": null
+            "ExtensionData": {
+              "AllHospitalEnding": [
+                {
+                  "EndYhhId": "Hospital_Ending_1",
+                  "EndIndex": 1,
+                  "EndName": {
+                    "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                    "Key": "Hospital_Ending_01_Name",
+                    "SourceString": "告密者之死",
+                    "LocalizedString": "告密者之死"
+                  },
+                  "EndContext": {
+                    "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                    "Key": "Hospital_Ending_01_Des",
+                    "SourceString": "他欺骗了我们，这样下去我们都会变成怪物，我绝不允许这种事情发生。",
+                    "LocalizedString": "他欺骗了我们，这样下去我们都会变成怪物，我绝不允许这种事情发生。"
+                  },
+                  "EndImage": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/Hospital/YH_UI_Hospital_linsh.YH_UI_Hospital_linsh",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "EndYhhId": "Hospital_Ending_2",
+                  "EndIndex": 2,
+                  "EndName": {
+                    "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                    "Key": "Hospital_Ending_02_Name",
+                    "SourceString": "以身殉恶",
+                    "LocalizedString": "以身殉恶"
+                  },
+                  "EndContext": {
+                    "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                    "Key": "Hospital_Ending_02_Des",
+                    "SourceString": "这里的一切都是施特林家族的财产，包括他们的病，他们的生，他们的死。",
+                    "LocalizedString": "这里的一切都是施特林家族的财产，包括他们的病，他们的生，他们的死。"
+                  },
+                  "EndImage": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/Hospital/YH_UI_Hospital_end2.YH_UI_Hospital_end2",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "EndYhhId": "Hospital_Ending_3",
+                  "EndIndex": 3,
+                  "EndName": {
+                    "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                    "Key": "Hospital_Ending_03_Name",
+                    "SourceString": "医学怪人",
+                    "LocalizedString": "医学怪人"
+                  },
+                  "EndContext": {
+                    "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                    "Key": "Hospital_Ending_03_Des",
+                    "SourceString": "实验必须进行下去，我必须在成为「它」之前找到治疗的方法，不惜一切代价。",
+                    "LocalizedString": "实验必须进行下去，我必须在成为「它」之前找到治疗的方法，不惜一切代价。"
+                  },
+                  "EndImage": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/Hospital/YH_UI_Hospital_end4.YH_UI_Hospital_end4",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "EndYhhId": "Hospital_Ending_4",
+                  "EndIndex": 4,
+                  "EndName": {
+                    "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                    "Key": "Hospital_Ending_04_Name",
+                    "SourceString": "噩梦之声",
+                    "LocalizedString": "噩梦之声"
+                  },
+                  "EndContext": {
+                    "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                    "Key": "Hospital_Ending_04_Des",
+                    "SourceString": "他永远活在了那里，永远等待，永远迷失。",
+                    "LocalizedString": "他永远活在了那里，永远等待，永远迷失。"
+                  },
+                  "EndImage": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/Hospital/YH_UI_Hospital_end3.YH_UI_Hospital_end3",
+                    "SubPathString": ""
+                  }
+                }
+              ]
+            }
           }
         ],
         "CloneLevelInstance": {
@@ -16339,7 +16503,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "DLC_Hospital_Multi": {
         "CloneID": "DLC_Hospital_Multi",
@@ -16365,19 +16530,16 @@
             "CloneDesArray": [
               {
                 "CloneDesTitle": {
-                  "TableId": "/Game/Text/ST_Ui.ST_Ui",
-                  "Key": "UI_Clone_01",
-                  "SourceString": "介绍",
-                  "LocalizedString": "介绍"
+                  "CultureInvariantString": null
                 },
                 "SubCloneDesTitle": {
                   "CultureInvariantString": null
                 },
                 "CloneDesBody": {
-                  "TableId": "/Game/Text/ST_Clone.ST_Clone",
-                  "Key": "DLC_Hospital_Des",
-                  "SourceString": "「无名医院」",
-                  "LocalizedString": "「无名医院」"
+                  "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                  "Key": "Hospital_CusConmment_1_Dis_Player",
+                  "SourceString": "一处名为「冷山医院」的地点异象，位置不明，需借助委托人的异能才能进入其中。医院内存在绷带组成的人形伴生异象，部分具有对光或声的趋避行为。须收集医院各处的线索并提交至档案室，方能完成委托。已验证至少存在一种让其回应的线索组合，并被其通过一段放映影像告知了「真相」，成功脱离。\r\n无法确认「真相」是否唯一，有待进一步考察。",
+                  "LocalizedString": "一处名为「冷山医院」的地点异象，位置不明，需借助委托人的异能才能进入其中。医院内存在绷带组成的人形伴生异象，部分具有对光或声的趋避行为。须收集医院各处的线索并提交至档案室，方能完成委托。已验证至少存在一种让其回应的线索组合，并被其通过一段放映影像告知了「真相」，成功脱离。\r\n无法确认「真相」是否唯一，有待进一步考察。"
                 },
                 "ReviewerArray": []
               }
@@ -16409,7 +16571,90 @@
             "TeamLevel": 0,
             "KillMonsterTimeLimit": 20,
             "SpawnID": "None",
-            "ExtensionData": null
+            "ExtensionData": {
+              "AllHospitalEnding": [
+                {
+                  "EndYhhId": "Hospital_Ending_1",
+                  "EndIndex": 1,
+                  "EndName": {
+                    "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                    "Key": "Hospital_Ending_01_Name",
+                    "SourceString": "告密者之死",
+                    "LocalizedString": "告密者之死"
+                  },
+                  "EndContext": {
+                    "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                    "Key": "Hospital_Ending_01_Des",
+                    "SourceString": "他欺骗了我们，这样下去我们都会变成怪物，我绝不允许这种事情发生。",
+                    "LocalizedString": "他欺骗了我们，这样下去我们都会变成怪物，我绝不允许这种事情发生。"
+                  },
+                  "EndImage": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/Hospital/YH_UI_Hospital_linsh.YH_UI_Hospital_linsh",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "EndYhhId": "Hospital_Ending_2",
+                  "EndIndex": 2,
+                  "EndName": {
+                    "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                    "Key": "Hospital_Ending_02_Name",
+                    "SourceString": "以身殉恶",
+                    "LocalizedString": "以身殉恶"
+                  },
+                  "EndContext": {
+                    "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                    "Key": "Hospital_Ending_02_Des",
+                    "SourceString": "这里的一切都是施特林家族的财产，包括他们的病，他们的生，他们的死。",
+                    "LocalizedString": "这里的一切都是施特林家族的财产，包括他们的病，他们的生，他们的死。"
+                  },
+                  "EndImage": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/Hospital/YH_UI_Hospital_end2.YH_UI_Hospital_end2",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "EndYhhId": "Hospital_Ending_3",
+                  "EndIndex": 3,
+                  "EndName": {
+                    "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                    "Key": "Hospital_Ending_03_Name",
+                    "SourceString": "医学怪人",
+                    "LocalizedString": "医学怪人"
+                  },
+                  "EndContext": {
+                    "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                    "Key": "Hospital_Ending_03_Des",
+                    "SourceString": "实验必须进行下去，我必须在成为「它」之前找到治疗的方法，不惜一切代价。",
+                    "LocalizedString": "实验必须进行下去，我必须在成为「它」之前找到治疗的方法，不惜一切代价。"
+                  },
+                  "EndImage": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/Hospital/YH_UI_Hospital_end4.YH_UI_Hospital_end4",
+                    "SubPathString": ""
+                  }
+                },
+                {
+                  "EndYhhId": "Hospital_Ending_4",
+                  "EndIndex": 4,
+                  "EndName": {
+                    "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                    "Key": "Hospital_Ending_04_Name",
+                    "SourceString": "噩梦之声",
+                    "LocalizedString": "噩梦之声"
+                  },
+                  "EndContext": {
+                    "TableId": "/Game/Text/ST_Clone.ST_Clone",
+                    "Key": "Hospital_Ending_04_Des",
+                    "SourceString": "他永远活在了那里，永远等待，永远迷失。",
+                    "LocalizedString": "他永远活在了那里，永远等待，永远迷失。"
+                  },
+                  "EndImage": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/Hospital/YH_UI_Hospital_end3.YH_UI_Hospital_end3",
+                    "SubPathString": ""
+                  }
+                }
+              ]
+            }
           }
         ],
         "CloneLevelInstance": {
@@ -16515,7 +16760,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "Map_Tetris_Connected": {
         "CloneID": "Map_Tetris_Connected",
@@ -16651,7 +16897,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "Museum_Lamp_01": {
         "CloneID": "Museum_Lamp_01",
@@ -17078,7 +17325,8 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
       },
       "Museum_Lamp_02": {
         "CloneID": "Museum_Lamp_02",
@@ -17619,7 +17867,270 @@
         },
         "ExitCloneNotRewardTips": {
           "CultureInvariantString": null
-        }
+        },
+        "ExtensionData": null
+      },
+      "TeachClone": {
+        "CloneID": "DLC_TrialCharacter_Rabbit",
+        "bCrossScene": true,
+        "MatchCfgMapKey": "DLC_TrialCharacter_Rabbit",
+        "OnlineTeamCfgMapKey": "None",
+        "CloneOutPut": {
+          "CultureInvariantString": null
+        },
+        "CloneName": {
+          "CultureInvariantString": null
+        },
+        "CloneMode": "ECloneMode::SingleClone",
+        "CloneType": "ECloneType::Trial_Player_Clone",
+        "StaminaID": "None",
+        "IsDoubleAward": false,
+        "CloneSystemSubNodes": [
+          {
+            "MatchCfgMapKey": "None",
+            "CloneDesArray": [],
+            "EnterCloneSceneData": {
+              "EnterSceneCloneDesArray": [],
+              "NewAttrIconArray": [],
+              "SceneIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              }
+            },
+            "CloneStageDatas": [],
+            "StaminaCount": 0,
+            "DropID": "None",
+            "DifficultyLevel": 0,
+            "TeamLevel": 0,
+            "KillMonsterTimeLimit": 0,
+            "SpawnID": "None",
+            "ExtensionData": null
+          }
+        ],
+        "CloneLevelInstance": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bIsAutoSpawnMonster": false,
+        "AutoSpawnMonsterDelayTime": 0.5,
+        "KillMonsterLimitDes": {
+          "CultureInvariantString": null
+        },
+        "LimitDes": {
+          "CultureInvariantString": null
+        },
+        "BGIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AdventureManualBGIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SpawnStart": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.70710677,
+            "W": 0.70710677,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": 204433.1,
+            "Y": -35658.402,
+            "Z": 14715.725
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "CloneAwardTemplate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHasChallengeTime": false,
+        "CloneDataLayerAssets": [],
+        "ResetLayerAssets": [],
+        "ReliveOrChallengeTransforms": [],
+        "CloneBoxTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": -0.0,
+            "Z": 0.70710677,
+            "W": 0.70710677,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": 204457.0,
+            "Y": -35652.0,
+            "Z": 14689.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Distance": 100,
+        "Rotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "QuestId": "None",
+        "EntryQuestDetailsArray": [],
+        "PreQuestDetails": {
+          "PreFinishedQuestID": "None",
+          "PreQuestFinishedText": {
+            "CultureInvariantString": null
+          }
+        },
+        "CloneFinishedQuestID": "None",
+        "bShowSkipUI": false,
+        "bShowInAdventure": false,
+        "bRepetitionChallenge": false,
+        "EnterCloneTransferLoadingUI": "",
+        "ExitTransferLoadingUI": "CloneLoadingUI",
+        "TransferLoadingUIReset": "CloneLoadingUIReset",
+        "EnterSpecialLoadingID": "",
+        "ExitCloneRewardedTips": {
+          "CultureInvariantString": null
+        },
+        "ExitCloneNotRewardTips": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null
+      },
+      "DLC_RT_C1_clone": {
+        "CloneID": "DLC_RT_C1_clone",
+        "bCrossScene": true,
+        "MatchCfgMapKey": "DLC_RT_C1_clone",
+        "OnlineTeamCfgMapKey": "None",
+        "CloneOutPut": {
+          "CultureInvariantString": null
+        },
+        "CloneName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_RT_C1_clone_name",
+          "SourceString": "试驾中心",
+          "LocalizedString": "试驾中心"
+        },
+        "CloneMode": "ECloneMode::SingleClone",
+        "CloneType": "ECloneType::VehicleTrial",
+        "StaminaID": "None",
+        "IsDoubleAward": false,
+        "CloneSystemSubNodes": [],
+        "CloneLevelInstance": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bIsAutoSpawnMonster": true,
+        "AutoSpawnMonsterDelayTime": 0.5,
+        "KillMonsterLimitDes": {
+          "CultureInvariantString": null
+        },
+        "LimitDes": {
+          "CultureInvariantString": null
+        },
+        "BGIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "AdventureManualBGIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SpawnStart": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "CloneAwardTemplate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHasChallengeTime": true,
+        "CloneDataLayerAssets": [],
+        "ResetLayerAssets": [],
+        "ReliveOrChallengeTransforms": [],
+        "CloneBoxTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Distance": 100,
+        "Rotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "QuestId": "None",
+        "EntryQuestDetailsArray": [],
+        "PreQuestDetails": {
+          "PreFinishedQuestID": "None",
+          "PreQuestFinishedText": {
+            "CultureInvariantString": null
+          }
+        },
+        "CloneFinishedQuestID": "None",
+        "bShowSkipUI": true,
+        "bShowInAdventure": true,
+        "bRepetitionChallenge": true,
+        "EnterCloneTransferLoadingUI": "",
+        "ExitTransferLoadingUI": "CloneLoadingUI",
+        "TransferLoadingUIReset": "CloneLoadingUIReset",
+        "EnterSpecialLoadingID": "",
+        "ExitCloneRewardedTips": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "DLC_RT_C1_clone_exit",
+          "SourceString": "是否退出「试驾中心」？",
+          "LocalizedString": "是否退出「试驾中心」？"
+        },
+        "ExitCloneNotRewardTips": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "DLC_RT_C1_clone_exit",
+          "SourceString": "是否退出「试驾中心」？",
+          "LocalizedString": "是否退出「试驾中心」？"
+        },
+        "ExtensionData": null
       }
     }
   }

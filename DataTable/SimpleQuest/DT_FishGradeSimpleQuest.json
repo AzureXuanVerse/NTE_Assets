@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_FishGradeSimpleQuest",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/SimpleQuest/DT_FishGradeSimpleQuest",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'SimpleQuestStaticData'",
@@ -37,7 +38,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             },
             {
               "UniqueID": {
@@ -51,7 +53,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": true
@@ -66,7 +69,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "FishingLevelReward_03": {
         "QuestId": "FishingLevelReward_03",
@@ -88,13 +130,14 @@
                 "serial": 0
               },
               "ItemID": "Annulith",
-              "Amount": 20,
+              "Amount": 30,
               "bHiddenAmount": false,
               "bIsReplaceItem": false,
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             },
             {
               "UniqueID": {
@@ -108,7 +151,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": true
@@ -123,7 +167,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "FishingLevelReward_04": {
         "QuestId": "FishingLevelReward_04",
@@ -145,13 +228,14 @@
                 "serial": 0
               },
               "ItemID": "Annulith",
-              "Amount": 20,
+              "Amount": 30,
               "bHiddenAmount": false,
               "bIsReplaceItem": false,
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             },
             {
               "UniqueID": {
@@ -165,7 +249,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": true
@@ -180,7 +265,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "FishingLevelReward_05": {
         "QuestId": "FishingLevelReward_05",
@@ -208,7 +332,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             },
             {
               "UniqueID": {
@@ -222,7 +347,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": true
@@ -237,7 +363,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "FishingLevelReward_06": {
         "QuestId": "FishingLevelReward_06",
@@ -259,13 +424,14 @@
                 "serial": 0
               },
               "ItemID": "Annulith",
-              "Amount": 30,
+              "Amount": 40,
               "bHiddenAmount": false,
               "bIsReplaceItem": false,
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             },
             {
               "UniqueID": {
@@ -279,7 +445,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": true
@@ -294,7 +461,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "FishingLevelReward_07": {
         "QuestId": "FishingLevelReward_07",
@@ -322,7 +528,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             },
             {
               "UniqueID": {
@@ -336,7 +543,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": true
@@ -351,7 +559,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "FishingLevelReward_08": {
         "QuestId": "FishingLevelReward_08",
@@ -379,7 +626,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             },
             {
               "UniqueID": {
@@ -387,13 +635,14 @@
                 "serial": 0
               },
               "ItemID": "Common_material_01",
-              "Amount": 2,
+              "Amount": 3,
               "bHiddenAmount": false,
               "bIsReplaceItem": false,
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": true
@@ -408,7 +657,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "FishingLevelReward_09": {
         "QuestId": "FishingLevelReward_09",
@@ -430,13 +718,14 @@
                 "serial": 0
               },
               "ItemID": "Annulith",
-              "Amount": 60,
+              "Amount": 50,
               "bHiddenAmount": false,
               "bIsReplaceItem": false,
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             },
             {
               "UniqueID": {
@@ -450,7 +739,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": true
@@ -465,7 +755,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "FishingLevelReward_10": {
         "QuestId": "FishingLevelReward_10",
@@ -487,27 +816,29 @@
                 "serial": 0
               },
               "ItemID": "Annulith",
-              "Amount": 80,
+              "Amount": 60,
               "bHiddenAmount": false,
               "bIsReplaceItem": false,
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             },
             {
               "UniqueID": {
                 "solt": 0,
                 "serial": 0
               },
-              "ItemID": "Common_material_01",
-              "Amount": 3,
+              "ItemID": "Fashion_character_1051_06",
+              "Amount": 1,
               "bHiddenAmount": false,
               "bIsReplaceItem": false,
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": true
@@ -522,7 +853,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       }
     }
   }

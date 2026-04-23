@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_MapExploreValueConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/MapExplore/DT_MapExploreValueConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'MapExploreValueData'",
@@ -137,8 +138,8 @@
         "ExploreName": {
           "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
           "Key": "TreasureBox_Name",
-          "SourceString": "「21」的赠礼",
-          "LocalizedString": "「21」的赠礼"
+          "SourceString": "「21的赠礼」",
+          "LocalizedString": "「21的赠礼」"
         },
         "ExploreDesc": {
           "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
@@ -149,8 +150,8 @@
         "ExploreGoal": {
           "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
           "Key": "MapexploreInfo_014",
-          "SourceString": "开启该区域「21」的赠礼",
-          "LocalizedString": "开启该区域「21」的赠礼"
+          "SourceString": "开启该区域「21的赠礼」",
+          "LocalizedString": "开启该区域「21的赠礼」"
         },
         "SmallIcon": {
           "AssetPathName": "/Game/UI/UI/minimap/MapExplore/SmallExploreIcon/YH_UI_TSD_Icon_003.YH_UI_TSD_Icon_003",

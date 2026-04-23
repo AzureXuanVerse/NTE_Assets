@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_CityEventLibrary",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/CityEvent/DT_CityEventLibrary",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CityEventDefine'",
@@ -21,7 +22,7 @@
           "Y": 170695.75,
           "Z": 8360.325
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -34,6 +35,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -47,7 +49,7 @@
           "Y": 164717.1,
           "Z": 6685.9214
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -60,6 +62,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -69,11 +72,11 @@
         "EventBelongsAreaID": "001",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -102155.27,
-          "Y": 184413.98,
-          "Z": 4071.8398
+          "X": -101549.984,
+          "Y": 184320.27,
+          "Z": 3723.329
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -86,6 +89,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -97,21 +101,22 @@
         "SendRewardCenter": {
           "X": -125660.59,
           "Y": 156639.56,
-          "Z": 7136.896
+          "Z": 7094.1753
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::ThreatenNPC",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": 1.0,
+          "RefreshWeight": 0.5,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -121,11 +126,11 @@
         "EventBelongsAreaID": "001",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -91565.56,
-          "Y": 182851.22,
+          "X": -91629.875,
+          "Y": 182846.95,
           "Z": 3498.0059
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -138,6 +143,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -151,7 +157,7 @@
           "Y": 147887.48,
           "Z": 6959.438
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -164,6 +170,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -173,11 +180,11 @@
         "EventBelongsAreaID": "001",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -132373.98,
-          "Y": 181299.75,
+          "X": -132435.61,
+          "Y": 181353.86,
           "Z": 7001.568
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -190,6 +197,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -199,11 +207,11 @@
         "EventBelongsAreaID": "001",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -119317.484,
-          "Y": 182401.73,
-          "Z": 6640.8223
+          "X": -121553.27,
+          "Y": 183605.81,
+          "Z": 6609.461
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -216,6 +224,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -225,11 +234,11 @@
         "EventBelongsAreaID": "001",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -145848.86,
-          "Y": 172638.42,
-          "Z": 8120.73
+          "X": -145851.12,
+          "Y": 172711.5,
+          "Z": 8331.706
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -242,6 +251,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -255,19 +265,20 @@
           "Y": 163252.17,
           "Z": 7027.8403
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::StoreHarassment",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
+          "RefreshWeight": 1.0,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -281,7 +292,7 @@
           "Y": 174738.16,
           "Z": 5034.263
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -294,6 +305,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -307,19 +319,20 @@
           "Y": 123142.77,
           "Z": 4962.702
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::RecklessChase",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
+          "RefreshWeight": 0.8,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": true,
           "FinishTransferPoint": "None"
         }
       },
@@ -333,45 +346,20 @@
           "Y": 183677.56,
           "Z": 6993.403
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::RecklessChase",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
+          "RefreshWeight": 0.8,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
-          "FinishTransferPoint": "None"
-        }
-      },
-      "CityEvent_Gardua_RD_001_002": {
-        "EventConfigID": "CityEvent_Gardua_RD_001_002",
-        "EventBelongsLevel": "XL_map_bigworld_test",
-        "EventBelongsAreaID": "001",
-        "bNeedCheckRewardRange": true,
-        "SendRewardCenter": {
-          "X": -105039.05,
-          "Y": 152489.61,
-          "Z": 6008.199
-        },
-        "SendRewardRange": 3000.0,
-        "bUICollapseFollowAIBattleState": true,
-        "bUICollapseFollowProxyObject": false,
-        "EventData": {
-          "Type": "Crimes::RecklessChase",
-          "FirstFinishReward": "None",
-          "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
-          "ResetConditionEntrie": {
-            "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
-            "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
-          },
-          "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": true,
           "FinishTransferPoint": "None"
         }
       },
@@ -398,6 +386,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": false,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "PoliceStation_00105"
         }
       },
@@ -407,9 +396,9 @@
         "EventBelongsAreaID": "001",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -87988.5,
-          "Y": 100706.53,
-          "Z": 4319.541
+          "X": -87937.43,
+          "Y": 100745.63,
+          "Z": 4237.541
         },
         "SendRewardRange": 3000.0,
         "bUICollapseFollowAIBattleState": true,
@@ -424,6 +413,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": false,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "PoliceStation_00303"
         }
       },
@@ -450,6 +440,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": false,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "PoliceStation_00102"
         }
       },
@@ -459,11 +450,11 @@
         "EventBelongsAreaID": "001",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -115670.01,
-          "Y": 150985.7,
-          "Z": 7398.1445
+          "X": -116085.75,
+          "Y": 151381.34,
+          "Z": 7383.1895
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -476,6 +467,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -489,7 +481,7 @@
           "Y": 170210.0,
           "Z": 7014.1904
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -502,6 +494,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -515,19 +508,20 @@
           "Y": 219410.64,
           "Z": 11228.385
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::ThreatenNPC",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": 1.0,
+          "RefreshWeight": 0.5,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -537,11 +531,11 @@
         "EventBelongsAreaID": "002",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -147990.66,
-          "Y": 240352.83,
-          "Z": 3104.5234
+          "X": -147626.25,
+          "Y": 240641.33,
+          "Z": 2921.863
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -554,6 +548,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -563,11 +558,11 @@
         "EventBelongsAreaID": "002",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -152157.45,
-          "Y": 215625.17,
-          "Z": 10324.033
+          "X": -152231.72,
+          "Y": 215630.06,
+          "Z": 10270.379
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -580,6 +575,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -593,7 +589,7 @@
           "Y": 208843.88,
           "Z": 16073.885
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -606,6 +602,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -615,23 +612,24 @@
         "EventBelongsAreaID": "002",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -175843.98,
-          "Y": 224823.25,
-          "Z": 7520.092
+          "X": -179643.98,
+          "Y": 224641.86,
+          "Z": 7838.4697
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::RecklessChase",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
+          "RefreshWeight": 0.8,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": true,
           "FinishTransferPoint": "None"
         }
       },
@@ -641,23 +639,24 @@
         "EventBelongsAreaID": "002",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -175732.61,
-          "Y": 202807.36,
+          "X": -175803.98,
+          "Y": 202486.16,
           "Z": 11114.74
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::RecklessChase",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
+          "RefreshWeight": 0.8,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": true,
           "FinishTransferPoint": "None"
         }
       },
@@ -667,23 +666,24 @@
         "EventBelongsAreaID": "002",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -205588.86,
-          "Y": 229950.53,
-          "Z": 4945.5
+          "X": -207492.06,
+          "Y": 223865.47,
+          "Z": 5405.864
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::RecklessChase",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
+          "RefreshWeight": 0.8,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": true,
           "FinishTransferPoint": "None"
         }
       },
@@ -697,7 +697,7 @@
           "Y": 80901.0,
           "Z": 8282.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -710,6 +710,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -723,7 +724,7 @@
           "Y": 121915.914,
           "Z": 7136.4766
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -736,6 +737,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -749,7 +751,7 @@
           "Y": 103092.0,
           "Z": 6710.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -762,6 +764,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -775,7 +778,7 @@
           "Y": 104338.0,
           "Z": 6507.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -788,6 +791,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -801,7 +805,7 @@
           "Y": 93319.0,
           "Z": 7929.973
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -814,6 +818,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -827,7 +832,7 @@
           "Y": 131026.0,
           "Z": 7174.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -840,6 +845,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -853,7 +859,7 @@
           "Y": 120375.0,
           "Z": 7110.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -866,6 +872,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -879,7 +886,7 @@
           "Y": 84252.0,
           "Z": 7096.7563
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -892,6 +899,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -905,7 +913,7 @@
           "Y": 112368.59,
           "Z": 4342.3916
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -918,6 +926,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -928,10 +937,10 @@
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
           "X": -98068.0,
-          "Y": 96135.0,
+          "Y": 96203.14,
           "Z": 6808.536
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -944,6 +953,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -957,7 +967,7 @@
           "Y": 140519.0,
           "Z": 6741.8726
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -970,6 +980,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -983,7 +994,7 @@
           "Y": 128986.0,
           "Z": 6737.8257
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -996,6 +1007,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1009,7 +1021,7 @@
           "Y": 75552.0,
           "Z": 7135.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1022,6 +1034,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1031,23 +1044,24 @@
         "EventBelongsAreaID": "003",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -131482.0,
-          "Y": 67701.0,
+          "X": -131567.33,
+          "Y": 67891.11,
           "Z": 7446.05
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::RecklessChase",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
+          "RefreshWeight": 0.8,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": true,
           "FinishTransferPoint": "None"
         }
       },
@@ -1061,19 +1075,20 @@
           "Y": 91495.0,
           "Z": 7665.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::RecklessChase",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
+          "RefreshWeight": 0.8,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": true,
           "FinishTransferPoint": "None"
         }
       },
@@ -1087,19 +1102,20 @@
           "Y": 114603.0,
           "Z": 7094.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::RecklessChase",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
+          "RefreshWeight": 0.8,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": true,
           "FinishTransferPoint": "None"
         }
       },
@@ -1109,23 +1125,24 @@
         "EventBelongsAreaID": "003",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -168278.0,
-          "Y": 164217.0,
-          "Z": 5881.0
+          "X": -168605.03,
+          "Y": 164169.08,
+          "Z": 5874.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::RecklessChase",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
+          "RefreshWeight": 0.8,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": true,
           "FinishTransferPoint": "None"
         }
       },
@@ -1152,6 +1169,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": false,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "PoliceStation_00302"
         }
       },
@@ -1178,6 +1196,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": false,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "PoliceStation_00304"
         }
       },
@@ -1204,6 +1223,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": false,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "PoliceStation_00301"
         }
       },
@@ -1217,7 +1237,7 @@
           "Y": 63553.0,
           "Z": 7403.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1230,6 +1250,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1243,7 +1264,7 @@
           "Y": 152170.0,
           "Z": 6318.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1256,6 +1277,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1269,7 +1291,7 @@
           "Y": 116305.0,
           "Z": 7146.5737
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1282,6 +1304,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1295,7 +1318,7 @@
           "Y": 147352.0,
           "Z": 5619.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1308,6 +1331,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1321,7 +1345,7 @@
           "Y": 70427.0,
           "Z": 6169.4077
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1334,6 +1358,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1347,7 +1372,7 @@
           "Y": 112224.0,
           "Z": 7262.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1360,6 +1385,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1373,7 +1399,7 @@
           "Y": 23424.45,
           "Z": 8114.457
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1386,6 +1412,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1399,7 +1426,7 @@
           "Y": 21716.44,
           "Z": 7967.8286
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1412,6 +1439,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1425,7 +1453,7 @@
           "Y": 39555.676,
           "Z": 7975.8433
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1438,6 +1466,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1447,11 +1476,11 @@
         "EventBelongsAreaID": "004",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": 52821.27,
-          "Y": 19953.605,
-          "Z": 6817.8193
+          "X": 53513.9,
+          "Y": 24332.107,
+          "Z": 6902.7734
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1464,6 +1493,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1475,9 +1505,9 @@
         "SendRewardCenter": {
           "X": -52774.516,
           "Y": 51491.938,
-          "Z": 7742.1587
+          "Z": 8201.783
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1490,6 +1520,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1500,10 +1531,10 @@
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
           "X": 5806.032,
-          "Y": 39906.332,
+          "Y": 40110.45,
           "Z": 7872.706
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1516,6 +1547,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1525,11 +1557,11 @@
         "EventBelongsAreaID": "004",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -41173.688,
-          "Y": -1228.6476,
-          "Z": 7696.8057
+          "X": -41021.266,
+          "Y": -3322.2537,
+          "Z": 7670.6816
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1542,6 +1574,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1553,9 +1586,9 @@
         "SendRewardCenter": {
           "X": -1226.4164,
           "Y": 15316.891,
-          "Z": 9063.014
+          "Z": 8922.567
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1568,6 +1601,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1581,7 +1615,7 @@
           "Y": 29385.482,
           "Z": 7611.717
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1594,6 +1628,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1607,7 +1642,7 @@
           "Y": 24496.516,
           "Z": 7704.711
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1620,6 +1655,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1633,7 +1669,7 @@
           "Y": -16614.023,
           "Z": 15554.644
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1646,6 +1682,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1659,7 +1696,7 @@
           "Y": 33175.484,
           "Z": 7715.786
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1672,6 +1709,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1685,7 +1723,7 @@
           "Y": 29254.941,
           "Z": 7695.761
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1698,6 +1736,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1711,7 +1750,7 @@
           "Y": 17767.832,
           "Z": 7715.786
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1724,6 +1763,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1733,23 +1773,24 @@
         "EventBelongsAreaID": "004",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -110175.3,
-          "Y": 39122.605,
-          "Z": 9092.449
+          "X": -108639.0,
+          "Y": 37524.234,
+          "Z": 9063.833
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::RecklessChase",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
+          "RefreshWeight": 0.8,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": true,
           "FinishTransferPoint": "None"
         }
       },
@@ -1759,23 +1800,24 @@
         "EventBelongsAreaID": "004",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": 49722.0,
-          "Y": -1077.0,
-          "Z": 8078.0
+          "X": 52127.195,
+          "Y": -1123.9396,
+          "Z": 7829.493
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::RecklessChase",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
+          "RefreshWeight": 0.8,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": true,
           "FinishTransferPoint": "None"
         }
       },
@@ -1802,6 +1844,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": false,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "PoliceStation_00402"
         }
       },
@@ -1811,9 +1854,9 @@
         "EventBelongsAreaID": "004",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": 17239.115,
-          "Y": 22144.139,
-          "Z": 7720.3115
+          "X": 17228.799,
+          "Y": 22107.367,
+          "Z": 7666.7393
         },
         "SendRewardRange": 3000.0,
         "bUICollapseFollowAIBattleState": true,
@@ -1828,6 +1871,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": false,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "PoliceStation_00404"
         }
       },
@@ -1837,11 +1881,11 @@
         "EventBelongsAreaID": "004",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -38057.14,
+          "X": -38361.77,
           "Y": 23600.053,
           "Z": 8076.58
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1854,6 +1898,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1867,7 +1912,7 @@
           "Y": 18321.664,
           "Z": 8132.513
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1880,6 +1925,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1893,7 +1939,7 @@
           "Y": 82261.0,
           "Z": 6094.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1906,6 +1952,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1919,7 +1966,7 @@
           "Y": 117465.0,
           "Z": 6328.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1932,6 +1979,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1945,7 +1993,7 @@
           "Y": 136019.0,
           "Z": 2856.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1958,6 +2006,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1971,7 +2020,7 @@
           "Y": 62468.0,
           "Z": 6355.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -1984,6 +2033,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -1997,7 +2047,7 @@
           "Y": 107506.0,
           "Z": 5758.111
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -2010,6 +2060,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -2023,7 +2074,7 @@
           "Y": 170256.0,
           "Z": 4633.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -2036,6 +2087,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -2049,7 +2101,7 @@
           "Y": 63760.0,
           "Z": 6354.8438
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -2062,6 +2114,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -2075,7 +2128,7 @@
           "Y": 79308.0,
           "Z": 6290.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -2088,6 +2141,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -2097,11 +2151,11 @@
         "EventBelongsAreaID": "005",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": -46093.0,
-          "Y": 160110.0,
-          "Z": 2291.0
+          "X": -40433.08,
+          "Y": 161734.77,
+          "Z": 2292.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -2114,6 +2168,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -2127,7 +2182,7 @@
           "Y": 94875.0,
           "Z": 2888.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -2140,6 +2195,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -2149,11 +2205,11 @@
         "EventBelongsAreaID": "005",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": 7997.0,
-          "Y": 121212.0,
-          "Z": 6332.0
+          "X": -8348.11,
+          "Y": 126257.86,
+          "Z": 6350.923
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -2166,6 +2222,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -2179,7 +2236,7 @@
           "Y": 110503.0,
           "Z": 4924.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -2192,6 +2249,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -2205,7 +2263,7 @@
           "Y": 100895.0,
           "Z": 9932.729
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -2218,6 +2276,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -2231,7 +2290,7 @@
           "Y": 142696.0,
           "Z": 3171.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -2244,6 +2303,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -2253,11 +2313,11 @@
         "EventBelongsAreaID": "005",
         "bNeedCheckRewardRange": true,
         "SendRewardCenter": {
-          "X": 36473.0,
-          "Y": 123879.0,
-          "Z": 7010.0
+          "X": 37188.36,
+          "Y": 128452.47,
+          "Z": 7013.3374
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -2270,6 +2330,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -2283,7 +2344,7 @@
           "Y": 87741.0,
           "Z": 6333.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -2296,6 +2357,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -2309,7 +2371,7 @@
           "Y": 58620.0,
           "Z": 6346.2446
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -2322,6 +2384,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -2335,19 +2398,20 @@
           "Y": 120450.0,
           "Z": 6053.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::RecklessChase",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
+          "RefreshWeight": 0.8,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": true,
           "FinishTransferPoint": "None"
         }
       },
@@ -2361,19 +2425,20 @@
           "Y": 98039.0,
           "Z": 6647.3364
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::RecklessChase",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
+          "RefreshWeight": 0.8,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": true,
           "FinishTransferPoint": "None"
         }
       },
@@ -2387,19 +2452,20 @@
           "Y": 149041.0,
           "Z": 3983.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::RecklessChase",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
+          "RefreshWeight": 0.8,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": true,
           "FinishTransferPoint": "None"
         }
       },
@@ -2426,6 +2492,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": false,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "PoliceStation_00502"
         }
       },
@@ -2452,6 +2519,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": false,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "PoliceStation_00504"
         }
       },
@@ -2465,7 +2533,7 @@
           "Y": 110680.0,
           "Z": 12380.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -2478,6 +2546,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -2491,19 +2560,20 @@
           "Y": 57864.0,
           "Z": 6812.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
           "Type": "Crimes::RecklessChase",
           "FirstFinishReward": "None",
           "FinishReward": "drop_CityEvent_NUM2",
-          "RefreshWeight": -1.0,
+          "RefreshWeight": 0.8,
           "ResetConditionEntrie": {
             "ObjectName": "BlueprintGeneratedClass'SReset_Time_500_C'",
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": true,
           "FinishTransferPoint": "None"
         }
       },
@@ -2517,7 +2587,7 @@
           "Y": 80301.0,
           "Z": 3104.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -2530,6 +2600,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       },
@@ -2543,7 +2614,7 @@
           "Y": 143023.0,
           "Z": 4486.0
         },
-        "SendRewardRange": 3000.0,
+        "SendRewardRange": 5000.0,
         "bUICollapseFollowAIBattleState": true,
         "bUICollapseFollowProxyObject": false,
         "EventData": {
@@ -2556,6 +2627,7 @@
             "ObjectPath": "/Game/Blueprints/Spawner/Reset/SReset_Time_500.0"
           },
           "AllAIDeadAutoFinish": true,
+          "bSpawnOnlyInHybridMode": false,
           "FinishTransferPoint": "None"
         }
       }

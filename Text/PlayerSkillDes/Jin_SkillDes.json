@@ -2,8 +2,9 @@
   {
     "Type": "StringTable",
     "Name": "Jin_SkillDes",
-    "Class": "UScriptClass'StringTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/Game/Text/PlayerSkillDes/Jin_SkillDes",
     "StringTable": {
       "TableNamespace": "Jin_SkillDes",
       "KeysToEntries": {
@@ -27,7 +28,7 @@
         "GA_Jin_Melee2_name": "<Title>普通攻击：非闭合时计</>",
         "GA_Jin_Melee2_des": "浔上阵时显示一个<hot textstyle=\"TextEXPL\" param=\"nouns&JinTime\">「非闭合时计」</>，其指针将随时间流逝缓慢顺时针转动，并积蓄能量。<hot textstyle=\"TextEXPL\" param=\"nouns&JinTime\">「非闭合时计」</>所能积蓄的能量上限为120。",
         "GA_Jin_Melee3_name": "<Title>普通攻击：勾月</>",
-        "GA_Jin_Melee3_des": "浔在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
+        "GA_Jin_Melee3_des": "浔在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
         "GA_Jin_Melee4_name": "<Title>普通攻击：漪澜</>",
         "GA_Jin_Melee4_des": "战斗中长按普通攻击触发，浔优雅地向前方穿梭而过并攻击，造成<NumGreen>4</>次范围性的<Guang>光属性异能伤害</>。",
         "GA_Jin_Melee5_name": "凝雪之仪",
@@ -45,7 +46,7 @@
         "GA_Jin_star5_des": "浔上阵时，如果场上仅有<NumGreen>1</>个敌人，全队对该目标造成的伤害提升<NumGreen>15%</>。浔力竭时，失去该效果。",
         "GA_Jin_star6_des": "时停期间，浔造成伤害时无视目标<NumGreen>30%</>防御。",
         "GA_Jin_starExtra1_des": "「普通攻击：胧月流」、「变轨技能：今景复映」、「极轨终结：浮世来潮」的技能等级提升1级。",
-        "GA_Jin_starExtra2_des": "浔在编队内且存活时，全队攻击力提升10%。",
+        "GA_Jin_starExtra2_des": "浔在编队内且存活时，全队攻击力提升20%。",
         "GA_Jin_Melee_background": "<Italic>「好不容易才来了个昏头昏脑的，看上件店里的东西想买，要不是浔死不松口，哼……这个月销售额也不会是零蛋了。」</>\r\n<Italic>「臭小鬼，没看他砍的那个价吗？这是把咱们伊波恩当叫花子打发呢，我没喊小水仙去削他都不错了！」</>",
         "GA_Jin_QTE_background": "<Italic>对于浔来说仅仅是小露一下身手，而跳脚说要投诉的难缠客人们将能了解到这区区一家破店也敢提出「霸王条款」的底气。</>",
         "GA_Jin_Skill_background": "<Italic>注视、见证。</>",

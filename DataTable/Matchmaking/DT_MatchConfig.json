@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_MatchConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Matchmaking/DT_MatchConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'MatchConfigData'",
@@ -13,14 +14,10 @@
     "Rows": {
       "DefaultLoadKey": {
         "MapName": "DLC_Hockshop_week",
-        "MatchMode": "EMatchMode::DEFAULT",
-        "RoomMode": "ERoomMode::Multiple",
+        "MatchMode": "EMatchMode::Default",
+        "RoomMode": "ERoomMode::Default",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 1,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -29,54 +26,716 @@
         "MaxEntryNum": 0,
         "MaxLifetime": -1,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": false,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "DLC_RT_C1": {
         "MapName": "DLC_RT_C1",
-        "MatchMode": "EMatchMode::PVP",
+        "MatchMode": "EMatchMode::Ladder",
         "RoomMode": "ERoomMode::Multiple",
-        "CloneType": "EMatchCloneType::Racing_1V1",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "CloneType": "EMatchCloneType::Racing_PVP",
+        "EnableIncreaseFPS": true,
         "SwitchType": "ESwitchType::Racing_PVP",
         "FunctionName": "Race",
         "ActivityId": "None",
         "MinEnterLevel": 1,
         "MaxEnterLevel": 100,
-        "MaxEntryNum": 2,
+        "MaxEntryNum": 4,
         "MaxLifetime": 3600,
         "SpawnBronPoints": [],
+        "RandomMapNames": [
+          "DLC_RT_C2"
+        ],
         "EnableAutoTravel": false,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": false,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [
+          {
+            "MinValue": 0,
+            "MaxValue": 1000,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 5,
+                "ExtendMaxTime": 12,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 2000
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 3000
+              },
+              {
+                "ExtendMinTime": 7,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 4000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 10,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 5000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 8,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 6000
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 20,
+              "RobotMaxTime": 40,
+              "RobotProbability": 95
+            }
+          },
+          {
+            "MinValue": 1000,
+            "MaxValue": 2000,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 5,
+                "ExtendMaxTime": 12,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 3000
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 4000
+              },
+              {
+                "ExtendMinTime": 7,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 5000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 10,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 6000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 8,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 7000
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 20,
+              "RobotMaxTime": 40,
+              "RobotProbability": 95
+            }
+          },
+          {
+            "MinValue": 2000,
+            "MaxValue": 3000,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 5,
+                "ExtendMaxTime": 12,
+                "ExtendMinValue": 1000,
+                "ExtendMaxValue": 4000
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 5000
+              },
+              {
+                "ExtendMinTime": 7,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 6000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 10,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 7000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 8,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 8000
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 20,
+              "RobotMaxTime": 45,
+              "RobotProbability": 90
+            }
+          },
+          {
+            "MinValue": 3000,
+            "MaxValue": 4000,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 5,
+                "ExtendMaxTime": 12,
+                "ExtendMinValue": 2000,
+                "ExtendMaxValue": 5000
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 1000,
+                "ExtendMaxValue": 6000
+              },
+              {
+                "ExtendMinTime": 7,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 7000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 10,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 8000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 8,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 9000
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 20,
+              "RobotMaxTime": 45,
+              "RobotProbability": 90
+            }
+          },
+          {
+            "MinValue": 4000,
+            "MaxValue": 5000,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 5,
+                "ExtendMaxTime": 12,
+                "ExtendMinValue": 3000,
+                "ExtendMaxValue": 6000
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 2000,
+                "ExtendMaxValue": 7000
+              },
+              {
+                "ExtendMinTime": 7,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 1000,
+                "ExtendMaxValue": 8000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 10,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 9000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 8,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 10000
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 25,
+              "RobotMaxTime": 45,
+              "RobotProbability": 80
+            }
+          },
+          {
+            "MinValue": 5000,
+            "MaxValue": 6000,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 5,
+                "ExtendMaxTime": 12,
+                "ExtendMinValue": 4000,
+                "ExtendMaxValue": 7000
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 3000,
+                "ExtendMaxValue": 8000
+              },
+              {
+                "ExtendMinTime": 7,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 2000,
+                "ExtendMaxValue": 9000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 10,
+                "ExtendMinValue": 1000,
+                "ExtendMaxValue": 10000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 8,
+                "ExtendMinValue": 0,
+                "ExtendMaxValue": 11000
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 25,
+              "RobotMaxTime": 45,
+              "RobotProbability": 80
+            }
+          },
+          {
+            "MinValue": 6000,
+            "MaxValue": 7000,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 5,
+                "ExtendMaxTime": 12,
+                "ExtendMinValue": 5000,
+                "ExtendMaxValue": 8000
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 4000,
+                "ExtendMaxValue": 9000
+              },
+              {
+                "ExtendMinTime": 7,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 3000,
+                "ExtendMaxValue": 10000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 10,
+                "ExtendMinValue": 2000,
+                "ExtendMaxValue": 11000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 8,
+                "ExtendMinValue": 1000,
+                "ExtendMaxValue": 12000
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 25,
+              "RobotMaxTime": 45,
+              "RobotProbability": 80
+            }
+          },
+          {
+            "MinValue": 7000,
+            "MaxValue": 8000,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 5,
+                "ExtendMaxTime": 12,
+                "ExtendMinValue": 6000,
+                "ExtendMaxValue": 9000
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 5000,
+                "ExtendMaxValue": 10000
+              },
+              {
+                "ExtendMinTime": 7,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 4000,
+                "ExtendMaxValue": 11000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 10,
+                "ExtendMinValue": 3000,
+                "ExtendMaxValue": 12000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 8,
+                "ExtendMinValue": 2000,
+                "ExtendMaxValue": 13000
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 25,
+              "RobotMaxTime": 45,
+              "RobotProbability": 80
+            }
+          },
+          {
+            "MinValue": 8000,
+            "MaxValue": 9000,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 5,
+                "ExtendMaxTime": 12,
+                "ExtendMinValue": 7000,
+                "ExtendMaxValue": 10000
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 6000,
+                "ExtendMaxValue": 11000
+              },
+              {
+                "ExtendMinTime": 7,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 5000,
+                "ExtendMaxValue": 12000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 10,
+                "ExtendMinValue": 4000,
+                "ExtendMaxValue": 13000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 8,
+                "ExtendMinValue": 3000,
+                "ExtendMaxValue": 14000
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 30,
+              "RobotMaxTime": 60,
+              "RobotProbability": 75
+            }
+          },
+          {
+            "MinValue": 9000,
+            "MaxValue": 10000,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 5,
+                "ExtendMaxTime": 12,
+                "ExtendMinValue": 8000,
+                "ExtendMaxValue": 11000
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 7000,
+                "ExtendMaxValue": 12000
+              },
+              {
+                "ExtendMinTime": 7,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 6000,
+                "ExtendMaxValue": 13000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 10,
+                "ExtendMinValue": 5000,
+                "ExtendMaxValue": 14000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 8,
+                "ExtendMinValue": 4000,
+                "ExtendMaxValue": 15000
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 30,
+              "RobotMaxTime": 60,
+              "RobotProbability": 75
+            }
+          },
+          {
+            "MinValue": 10000,
+            "MaxValue": 11000,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 5,
+                "ExtendMaxTime": 12,
+                "ExtendMinValue": 9000,
+                "ExtendMaxValue": 12000
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 8000,
+                "ExtendMaxValue": 13000
+              },
+              {
+                "ExtendMinTime": 7,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 7000,
+                "ExtendMaxValue": 14000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 10,
+                "ExtendMinValue": 6000,
+                "ExtendMaxValue": 15000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 8,
+                "ExtendMinValue": 5000,
+                "ExtendMaxValue": 16000
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 30,
+              "RobotMaxTime": 60,
+              "RobotProbability": 75
+            }
+          },
+          {
+            "MinValue": 11000,
+            "MaxValue": 12000,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 5,
+                "ExtendMaxTime": 12,
+                "ExtendMinValue": 10000,
+                "ExtendMaxValue": 13000
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 9000,
+                "ExtendMaxValue": 14000
+              },
+              {
+                "ExtendMinTime": 7,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 8000,
+                "ExtendMaxValue": 15000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 10,
+                "ExtendMinValue": 7000,
+                "ExtendMaxValue": 16000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 8,
+                "ExtendMinValue": 6000,
+                "ExtendMaxValue": 17000
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 30,
+              "RobotMaxTime": 60,
+              "RobotProbability": 75
+            }
+          },
+          {
+            "MinValue": 12000,
+            "MaxValue": 13000,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 5,
+                "ExtendMaxTime": 12,
+                "ExtendMinValue": 11000,
+                "ExtendMaxValue": 14000
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 10000,
+                "ExtendMaxValue": 15000
+              },
+              {
+                "ExtendMinTime": 7,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 9000,
+                "ExtendMaxValue": 16000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 10,
+                "ExtendMinValue": 8000,
+                "ExtendMaxValue": 17000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 8,
+                "ExtendMinValue": 7000,
+                "ExtendMaxValue": 18000
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 30,
+              "RobotMaxTime": 60,
+              "RobotProbability": 60
+            }
+          },
+          {
+            "MinValue": 13000,
+            "MaxValue": 14000,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 6,
+                "ExtendMaxTime": 16,
+                "ExtendMinValue": 12000,
+                "ExtendMaxValue": 15000
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 18,
+                "ExtendMinValue": 11000,
+                "ExtendMaxValue": 16000
+              },
+              {
+                "ExtendMinTime": 6,
+                "ExtendMaxTime": 16,
+                "ExtendMinValue": 10000,
+                "ExtendMaxValue": 17000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 10,
+                "ExtendMinValue": 9000,
+                "ExtendMaxValue": 18000
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 30,
+              "RobotMaxTime": 60,
+              "RobotProbability": 60
+            }
+          },
+          {
+            "MinValue": 14000,
+            "MaxValue": 15000,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 6,
+                "ExtendMaxTime": 16,
+                "ExtendMinValue": 13000,
+                "ExtendMaxValue": 16000
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 18,
+                "ExtendMinValue": 12000,
+                "ExtendMaxValue": 17000
+              },
+              {
+                "ExtendMinTime": 6,
+                "ExtendMaxTime": 16,
+                "ExtendMinValue": 11000,
+                "ExtendMaxValue": 18000
+              },
+              {
+                "ExtendMinTime": 0,
+                "ExtendMaxTime": 10,
+                "ExtendMinValue": 10000,
+                "ExtendMaxValue": 19000
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 30,
+              "RobotMaxTime": 60,
+              "RobotProbability": 50
+            }
+          },
+          {
+            "MinValue": 15000,
+            "MaxValue": 16000,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 12,
+                "ExtendMaxTime": 25,
+                "ExtendMinValue": 14000,
+                "ExtendMaxValue": 17000
+              },
+              {
+                "ExtendMinTime": 12,
+                "ExtendMaxTime": 20,
+                "ExtendMinValue": 13000,
+                "ExtendMaxValue": 18000
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 12000,
+                "ExtendMaxValue": 19000
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 30,
+              "RobotMaxTime": 60,
+              "RobotProbability": 50
+            }
+          },
+          {
+            "MinValue": 16000,
+            "MaxValue": 999999,
+            "ValueRules": [
+              {
+                "ExtendMinTime": 12,
+                "ExtendMaxTime": 25,
+                "ExtendMinValue": 15000,
+                "ExtendMaxValue": 999999
+              },
+              {
+                "ExtendMinTime": 12,
+                "ExtendMaxTime": 20,
+                "ExtendMinValue": 14000,
+                "ExtendMaxValue": 999999
+              },
+              {
+                "ExtendMinTime": 8,
+                "ExtendMaxTime": 15,
+                "ExtendMinValue": 13000,
+                "ExtendMaxValue": 999999
+              }
+            ],
+            "RobotRule": {
+              "RobotMinTime": 40,
+              "RobotMaxTime": 60,
+              "RobotProbability": 10
+            }
+          }
+        ],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "XL_map_bigworld_online": {
         "MapName": "XL_map_bigworld_test",
-        "MatchMode": "EMatchMode::DEFAULT",
+        "MatchMode": "EMatchMode::Default",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -85,26 +744,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
-        "EnableAutoReconnect": false,
+        "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "TestMap_yaoql": {
         "MapName": "TestMap_yaoql",
-        "MatchMode": "EMatchMode::DEFAULT",
-        "RoomMode": "ERoomMode::Test",
+        "MatchMode": "EMatchMode::Default",
+        "RoomMode": "ERoomMode::MultipleTest",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -113,26 +771,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": false,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "DLC_FilmOrbit_map_WP": {
         "MapName": "DLC_FilmOrbit_map_WP",
-        "MatchMode": "EMatchMode::DEFAULT",
+        "MatchMode": "EMatchMode::Default",
         "RoomMode": "ERoomMode::Single",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 5,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -141,26 +798,52 @@
         "MaxEntryNum": 100,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
+      },
+      "FilmOrbit_map_WP_World": {
+        "MapName": "FilmOrbit_map_WP_World",
+        "MatchMode": "EMatchMode::Default",
+        "RoomMode": "ERoomMode::Single",
+        "CloneType": "EMatchCloneType::Common",
+        "EnableIncreaseFPS": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "MinEnterLevel": 1,
+        "MaxEnterLevel": 100,
+        "MaxEntryNum": 100,
+        "MaxLifetime": 0,
+        "SpawnBronPoints": [],
+        "RandomMapNames": [],
+        "EnableAutoTravel": true,
+        "EnableSupplement": false,
+        "AutoTravelTimeOut": 30,
+        "EnableAutoReconnect": true,
+        "AutoTravelTime": 10.0,
+        "MatchTimeOut": 60,
+        "LadderMatchRule": [],
+        "EnableDistinguishPlatform": false,
+        "OnlineEffectID": "Default",
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "DLC_hotel": {
         "MapName": "DLC_hotel",
-        "MatchMode": "EMatchMode::DEFAULT",
+        "MatchMode": "EMatchMode::Default",
         "RoomMode": "ERoomMode::Single",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 5,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -169,26 +852,52 @@
         "MaxEntryNum": 100,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
+      },
+      "DLC_SpiralDreams": {
+        "MapName": "DLC_SpiralDreams",
+        "MatchMode": "EMatchMode::Default",
+        "RoomMode": "ERoomMode::SingleTest",
+        "CloneType": "EMatchCloneType::Common",
+        "EnableIncreaseFPS": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "MinEnterLevel": 1,
+        "MaxEnterLevel": 100,
+        "MaxEntryNum": 100,
+        "MaxLifetime": 0,
+        "SpawnBronPoints": [],
+        "RandomMapNames": [],
+        "EnableAutoTravel": true,
+        "EnableSupplement": false,
+        "AutoTravelTimeOut": 30,
+        "EnableAutoReconnect": true,
+        "AutoTravelTime": 10.0,
+        "MatchTimeOut": 60,
+        "LadderMatchRule": [],
+        "EnableDistinguishPlatform": false,
+        "OnlineEffectID": "Default",
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "DLC_Hockshop": {
         "MapName": "DLC_Hockshop",
-        "MatchMode": "EMatchMode::DEFAULT",
+        "MatchMode": "EMatchMode::Default",
         "RoomMode": "ERoomMode::Single",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 5,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -197,26 +906,25 @@
         "MaxEntryNum": 100,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "DLC_Museum_Lamp": {
         "MapName": "DLC_Museum_Lamp",
-        "MatchMode": "EMatchMode::DEFAULT",
+        "MatchMode": "EMatchMode::Default",
         "RoomMode": "ERoomMode::Single",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 5,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -225,26 +933,25 @@
         "MaxEntryNum": 100,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "Zhuqing_level_WP": {
         "MapName": "Zhuqing_level_WP",
-        "MatchMode": "EMatchMode::DEFAULT",
-        "RoomMode": "ERoomMode::Multiple",
+        "MatchMode": "EMatchMode::Default",
+        "RoomMode": "ERoomMode::MultipleTest",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -253,26 +960,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": false,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "DLC_MoonDog": {
         "MapName": "DLC_MoonDog",
-        "MatchMode": "EMatchMode::DEFAULT",
+        "MatchMode": "EMatchMode::Default",
         "RoomMode": "ERoomMode::Single",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 5,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -281,26 +987,25 @@
         "MaxEntryNum": 100,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "DLC_TrialCharacter_Rabbit": {
         "MapName": "DLC_TrialCharacter_Rabbit",
-        "MatchMode": "EMatchMode::DEFAULT",
+        "MatchMode": "EMatchMode::Default",
         "RoomMode": "ERoomMode::Single",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 2,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -309,26 +1014,52 @@
         "MaxEntryNum": 100,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": true
+        "bSceneResetBufferData": true,
+        "bPopCreateRoomTips": false
+      },
+      "DLC_DunnerHouse": {
+        "MapName": "DLC_DunnerHouse",
+        "MatchMode": "EMatchMode::Default",
+        "RoomMode": "ERoomMode::Single",
+        "CloneType": "EMatchCloneType::Common",
+        "EnableIncreaseFPS": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "MinEnterLevel": 1,
+        "MaxEnterLevel": 100,
+        "MaxEntryNum": 100,
+        "MaxLifetime": 0,
+        "SpawnBronPoints": [],
+        "RandomMapNames": [],
+        "EnableAutoTravel": true,
+        "EnableSupplement": false,
+        "AutoTravelTimeOut": 30,
+        "EnableAutoReconnect": true,
+        "AutoTravelTime": 10.0,
+        "MatchTimeOut": 60,
+        "LadderMatchRule": [],
+        "EnableDistinguishPlatform": false,
+        "OnlineEffectID": "Default",
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "Room_MultiVision_1": {
         "MapName": "DLC_Hotel_Week",
-        "MatchMode": "EMatchMode::DEFAULT",
-        "RoomMode": "ERoomMode::Multiple",
+        "MatchMode": "EMatchMode::Default",
+        "RoomMode": "ERoomMode::MultipleTest",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -337,26 +1068,25 @@
         "MaxEntryNum": 100,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "Room_SingleVision_1": {
         "MapName": "DLC_Hotel_Week",
-        "MatchMode": "EMatchMode::DEFAULT",
-        "RoomMode": "ERoomMode::Single",
+        "MatchMode": "EMatchMode::Default",
+        "RoomMode": "ERoomMode::SingleTest",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 1,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -365,26 +1095,25 @@
         "MaxEntryNum": 100,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "TestMap_zhanghao": {
         "MapName": "TestMap_zhanghao",
-        "MatchMode": "EMatchMode::DEFAULT",
-        "RoomMode": "ERoomMode::Test",
+        "MatchMode": "EMatchMode::Default",
+        "RoomMode": "ERoomMode::MultipleTest",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -393,26 +1122,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": false,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "WeeklyClone_Boss05_1": {
         "MapName": "DLC_Hockshop_week",
-        "MatchMode": "EMatchMode::PVE",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -421,26 +1149,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 3600,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": false,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 65,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 63.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
       },
       "WeeklyClone_Boss05_2": {
         "MapName": "DLC_Hockshop_week",
-        "MatchMode": "EMatchMode::PVE",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -449,26 +1176,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 3600,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": false,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 65,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 63.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
       },
       "WeeklyClone_Boss05_3": {
         "MapName": "DLC_Hockshop_week",
-        "MatchMode": "EMatchMode::PVE",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -477,26 +1203,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 3600,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": false,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 65,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 63.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
       },
       "WeeklyClone_Boss05_4": {
         "MapName": "DLC_Hockshop_week",
-        "MatchMode": "EMatchMode::PVE",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -505,26 +1230,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 3600,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": false,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 65,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 63.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
       },
       "WeeklyClone_Boss05_5": {
         "MapName": "DLC_Hockshop_week",
-        "MatchMode": "EMatchMode::PVE",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -533,26 +1257,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 3600,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": false,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 65,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 63.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
       },
       "WeeklyClone_Boss05_6": {
         "MapName": "DLC_Hockshop_week",
-        "MatchMode": "EMatchMode::PVE",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -561,26 +1284,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 3600,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": false,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 65,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 63.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
       },
       "WeeklyClone_Boss05_7": {
         "MapName": "DLC_Hockshop_week",
-        "MatchMode": "EMatchMode::PVE",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -589,26 +1311,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 3600,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": false,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 65,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 63.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
       },
       "WeeklyClone_Boss10_1": {
         "MapName": "DLC_Hotel_Week",
-        "MatchMode": "EMatchMode::PVE",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -617,26 +1338,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 3600,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": false,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 65,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 63.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
       },
       "WeeklyClone_Boss10_2": {
         "MapName": "DLC_Hotel_Week",
-        "MatchMode": "EMatchMode::PVE",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -645,26 +1365,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 3600,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": false,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 65,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 63.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
       },
       "WeeklyClone_Boss10_3": {
         "MapName": "DLC_Hotel_Week",
-        "MatchMode": "EMatchMode::PVE",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -673,26 +1392,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 3600,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": false,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 65,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 63.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
       },
       "WeeklyClone_Boss10_4": {
         "MapName": "DLC_Hotel_Week",
-        "MatchMode": "EMatchMode::PVE",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -701,26 +1419,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 3600,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": false,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 65,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 63.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
       },
       "WeeklyClone_Boss10_5": {
         "MapName": "DLC_Hotel_Week",
-        "MatchMode": "EMatchMode::PVE",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -729,26 +1446,79 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 3600,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": false,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 65,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 63.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
+      },
+      "WeeklyClone_Boss10_6": {
+        "MapName": "DLC_Hotel_Week",
+        "MatchMode": "EMatchMode::Normal",
+        "RoomMode": "ERoomMode::Multiple",
+        "CloneType": "EMatchCloneType::Common",
+        "EnableIncreaseFPS": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "MinEnterLevel": 1,
+        "MaxEnterLevel": 100,
+        "MaxEntryNum": 4,
+        "MaxLifetime": 3600,
+        "SpawnBronPoints": [],
+        "RandomMapNames": [],
+        "EnableAutoTravel": false,
+        "EnableSupplement": false,
+        "AutoTravelTimeOut": 65,
+        "EnableAutoReconnect": true,
+        "AutoTravelTime": 63.0,
+        "MatchTimeOut": 60,
+        "LadderMatchRule": [],
+        "EnableDistinguishPlatform": false,
+        "OnlineEffectID": "Default",
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
+      },
+      "WeeklyClone_Boss10_7": {
+        "MapName": "DLC_Hotel_Week",
+        "MatchMode": "EMatchMode::Normal",
+        "RoomMode": "ERoomMode::Multiple",
+        "CloneType": "EMatchCloneType::Common",
+        "EnableIncreaseFPS": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "MinEnterLevel": 1,
+        "MaxEnterLevel": 100,
+        "MaxEntryNum": 4,
+        "MaxLifetime": 3600,
+        "SpawnBronPoints": [],
+        "RandomMapNames": [],
+        "EnableAutoTravel": false,
+        "EnableSupplement": false,
+        "AutoTravelTimeOut": 65,
+        "EnableAutoReconnect": true,
+        "AutoTravelTime": 63.0,
+        "MatchTimeOut": 60,
+        "LadderMatchRule": [],
+        "EnableDistinguishPlatform": false,
+        "OnlineEffectID": "Default",
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
       },
       "WeeklyClone_Boss05_Single": {
         "MapName": "DLC_Hockshop_week",
-        "MatchMode": "EMatchMode::DEFAULT",
+        "MatchMode": "EMatchMode::Default",
         "RoomMode": "ERoomMode::Single",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 1,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -757,26 +1527,25 @@
         "MaxEntryNum": 100,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "WeeklyClone_Boss10_Single": {
         "MapName": "DLC_Hotel_Week",
-        "MatchMode": "EMatchMode::DEFAULT",
+        "MatchMode": "EMatchMode::Default",
         "RoomMode": "ERoomMode::Single",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 1,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -785,54 +1554,52 @@
         "MaxEntryNum": 100,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "robbank": {
         "MapName": "DLC_Bank_Safety",
-        "MatchMode": "EMatchMode::PVE",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
         "MinEnterLevel": 1,
         "MaxEnterLevel": 100,
-        "MaxEntryNum": 2,
+        "MaxEntryNum": 4,
         "MaxLifetime": 3600,
         "SpawnBronPoints": [],
-        "EnableAutoTravel": false,
+        "RandomMapNames": [],
+        "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "robbank",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
       },
       "robbank_Single": {
         "MapName": "DLC_Bank_Safety",
-        "MatchMode": "EMatchMode::DEFAULT",
+        "MatchMode": "EMatchMode::Default",
         "RoomMode": "ERoomMode::Single",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 1,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -841,26 +1608,25 @@
         "MaxEntryNum": 100,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
-        "EnableAutoReconnect": false,
+        "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "DLC_Museum_Lamp_Story2": {
         "MapName": "DLC_Museum_Lamp_Story2",
-        "MatchMode": "EMatchMode::DEFAULT",
+        "MatchMode": "EMatchMode::Default",
         "RoomMode": "ERoomMode::Single",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 5,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -869,26 +1635,25 @@
         "MaxEntryNum": 100,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "DLC_Hospital_Single": {
         "MapName": "DLC_Hospital_FB",
-        "MatchMode": "EMatchMode::DEFAULT",
+        "MatchMode": "EMatchMode::Default",
         "RoomMode": "ERoomMode::Single",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 1,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -897,26 +1662,25 @@
         "MaxEntryNum": 100,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "DLC_Hospital_Multi": {
         "MapName": "DLC_Hospital_FB",
-        "MatchMode": "EMatchMode::DEFAULT",
+        "MatchMode": "EMatchMode::Default",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -925,26 +1689,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 7200,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
       },
       "TestMap_Racing_WP": {
         "MapName": "TestMap_Racing_WP",
-        "MatchMode": "EMatchMode::DEFAULT",
-        "RoomMode": "ERoomMode::Test",
+        "MatchMode": "EMatchMode::Default",
+        "RoomMode": "ERoomMode::MultipleTest",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -953,54 +1716,74 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": false,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "DLC_Mahjong": {
         "MapName": "DLC_Mahjong",
-        "MatchMode": "EMatchMode::GROUP",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Mahjong",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "Mahjong",
         "ActivityId": "None",
         "MinEnterLevel": 1,
         "MaxEnterLevel": 100,
         "MaxEntryNum": 4,
-        "MaxLifetime": 3600,
-        "SpawnBronPoints": [],
+        "MaxLifetime": 21600,
+        "SpawnBronPoints": [
+          {
+            "Rotation": {
+              "X": 0.0,
+              "Y": -0.0,
+              "Z": 0.0,
+              "W": 1.0,
+              "IsNormalized": true,
+              "Size": 1.0,
+              "SizeSquared": 1.0
+            },
+            "Translation": {
+              "X": 54.0,
+              "Y": 595.0,
+              "Z": 547.0
+            },
+            "Scale3D": {
+              "X": 1.0,
+              "Y": 1.0,
+              "Z": 1.0
+            }
+          }
+        ],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": true,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "WeeklyClone_Boss05_TeamSingle": {
         "MapName": "DLC_Hockshop_week",
-        "MatchMode": "EMatchMode::PVE",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 1,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -1009,26 +1792,25 @@
         "MaxEntryNum": 100,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
       },
       "WeeklyClone_Boss10_TeamSingle": {
         "MapName": "DLC_Hotel_Week",
-        "MatchMode": "EMatchMode::PVE",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 1,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": false,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -1037,26 +1819,25 @@
         "MaxEntryNum": 100,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": true
       },
       "Map_MaruiTest": {
         "MapName": "Map_MaruiTest",
-        "MatchMode": "EMatchMode::DEFAULT",
+        "MatchMode": "EMatchMode::Default",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -1065,26 +1846,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": false,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "Tetris_Connected": {
         "MapName": "Map_Tetris_Connected",
-        "MatchMode": "EMatchMode::PVE",
+        "MatchMode": "EMatchMode::Normal",
         "RoomMode": "ERoomMode::Multiple",
         "CloneType": "EMatchCloneType::TetrisGame",
-        "KeptAvailableNum": 0,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -1093,26 +1873,25 @@
         "MaxEntryNum": 4,
         "MaxLifetime": 3600,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": false,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 3.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       },
       "DLC_hotel_Paimaihui": {
         "MapName": "DLC_hotel",
-        "MatchMode": "EMatchMode::DEFAULT",
+        "MatchMode": "EMatchMode::Default",
         "RoomMode": "ERoomMode::Single",
         "CloneType": "EMatchCloneType::Common",
-        "KeptAvailableNum": 1,
-        "ShrinkThresholdTime": 3600,
-        "ExpandThresholdRatio": 60,
-        "TravelTimeOut": 120,
-        "EnableLoadDefaultKey": true,
+        "EnableIncreaseFPS": false,
         "SwitchType": "ESwitchType::None",
         "FunctionName": "None",
         "ActivityId": "None",
@@ -1121,15 +1900,99 @@
         "MaxEntryNum": 100,
         "MaxLifetime": 0,
         "SpawnBronPoints": [],
+        "RandomMapNames": [],
         "EnableAutoTravel": true,
         "EnableSupplement": false,
         "AutoTravelTimeOut": 30,
         "EnableAutoReconnect": true,
         "AutoTravelTime": 10.0,
         "MatchTimeOut": 60,
+        "LadderMatchRule": [],
         "EnableDistinguishPlatform": false,
         "OnlineEffectID": "Default",
-        "bSceneResetBufferData": false
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
+      },
+      "Trinity_AcceptLayer_None": {
+        "MapName": "Trinity_AcceptLayer_None",
+        "MatchMode": "EMatchMode::Default",
+        "RoomMode": "ERoomMode::SingleTest",
+        "CloneType": "EMatchCloneType::Common",
+        "EnableIncreaseFPS": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "MinEnterLevel": 1,
+        "MaxEnterLevel": 100,
+        "MaxEntryNum": 4,
+        "MaxLifetime": 3600,
+        "SpawnBronPoints": [],
+        "RandomMapNames": [],
+        "EnableAutoTravel": true,
+        "EnableSupplement": false,
+        "AutoTravelTimeOut": 30,
+        "EnableAutoReconnect": false,
+        "AutoTravelTime": 10.0,
+        "MatchTimeOut": 60,
+        "LadderMatchRule": [],
+        "EnableDistinguishPlatform": false,
+        "OnlineEffectID": "Default",
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
+      },
+      "zhahonb_level": {
+        "MapName": "zhahonb_level",
+        "MatchMode": "EMatchMode::Default",
+        "RoomMode": "ERoomMode::MultipleTest",
+        "CloneType": "EMatchCloneType::Common",
+        "EnableIncreaseFPS": false,
+        "SwitchType": "ESwitchType::None",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "MinEnterLevel": 1,
+        "MaxEnterLevel": 100,
+        "MaxEntryNum": 2,
+        "MaxLifetime": 3600,
+        "SpawnBronPoints": [],
+        "RandomMapNames": [],
+        "EnableAutoTravel": true,
+        "EnableSupplement": false,
+        "AutoTravelTimeOut": 30,
+        "EnableAutoReconnect": false,
+        "AutoTravelTime": 10.0,
+        "MatchTimeOut": 60,
+        "LadderMatchRule": [],
+        "EnableDistinguishPlatform": false,
+        "OnlineEffectID": "Default",
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
+      },
+      "DLC_RT_C1_clone": {
+        "MapName": "DLC_RT_C1_clone",
+        "MatchMode": "EMatchMode::Default",
+        "RoomMode": "ERoomMode::Single",
+        "CloneType": "EMatchCloneType::Common",
+        "EnableIncreaseFPS": true,
+        "SwitchType": "ESwitchType::VehicleShop",
+        "FunctionName": "None",
+        "ActivityId": "None",
+        "MinEnterLevel": 1,
+        "MaxEnterLevel": 100,
+        "MaxEntryNum": 100,
+        "MaxLifetime": -1,
+        "SpawnBronPoints": [],
+        "RandomMapNames": [],
+        "EnableAutoTravel": true,
+        "EnableSupplement": false,
+        "AutoTravelTimeOut": 30,
+        "EnableAutoReconnect": false,
+        "AutoTravelTime": 10.0,
+        "MatchTimeOut": 60,
+        "LadderMatchRule": [],
+        "EnableDistinguishPlatform": false,
+        "OnlineEffectID": "Default",
+        "bSceneResetBufferData": false,
+        "bPopCreateRoomTips": false
       }
     }
   }

@@ -2,8 +2,9 @@
   {
     "Type": "StringTable",
     "Name": "ST_Quest",
-    "Class": "UScriptClass'StringTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/Game/Text/ST_Quest",
     "StringTable": {
       "TableNamespace": "ST_Quest",
       "KeysToEntries": {
@@ -14,7 +15,7 @@
         "q110001_0_PDes": "<!>PanelDes   任务界面",
         "q110001_0_QSDes": "<!>QuestSubmitDes 任务完成提交",
         "QuestLevelCondition": "将<blue>猎人等级</>提升到<red>{0}</>级",
-        "QuestNextDay": "第二天",
+        "QuestNextDay": "翌日",
         "s110628_01_BlackScreen": "一段时间后",
         "s110604_01_Picture": "一面墙，墙上一大堆喷漆喷绘的图案堆叠在一起。",
         "s110611_01_BlackScreen": "你们经历了好几轮行人诧异的注目礼，就这样等到天亮……",
@@ -38,7 +39,13 @@
         "s111100_HideItemName": "弧盘-？？？",
         "s111100_HideItemDesc": "一个神秘的弧盘，似乎与某段故事有关……",
         "s111135_ItemName": "夏刑草",
-        "s111135_ItemDescription": "夏刑草，遇夏枯靡，逢雪方生。\r\n于是，那个连哭泣都不敢的雪人，用撼一座城市，逆一个季节的勇气——\r\n为友人筑起了「永恒的冬天」。"
+        "s111135_ItemDescription": "夏刑草，遇夏枯靡，逢雪方生。\r\n于是，那个连哭泣都不敢的雪人，用撼一座城市，逆一个季节的勇气——\r\n为友人筑起了「永恒的冬天」。",
+        "DunnerHouseAirMsg_A": "正在靠近异象空间的边界，请及时调整方向，以免迷失",
+        "DunnerHouseAirMsg_B": "正在靠近幻境的边界，请及时调整方向",
+        "SitDown_Dunner": "落座后",
+        "TempSequence": "黑幕施工中",
+        "q110492_Back": "回到伊波恩后",
+        "q110434_Back": "与此同时……"
       },
       "KeysToMetaData": {}
     }

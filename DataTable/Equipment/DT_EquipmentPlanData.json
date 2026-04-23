@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_EquipmentPlanData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Equipment/DT_EquipmentPlanData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'EquipmentPlanData'",
@@ -24,8 +25,8 @@
           "DamageUpCosmosBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "EquipmentList": [
@@ -70,8 +71,8 @@
           "DamageUpIncantationBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "EquipmentList": [
@@ -197,8 +198,8 @@
           "DamageUpNatureBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "EquipmentList": [
@@ -243,8 +244,8 @@
           "DamageUpNatureBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "EquipmentList": [
@@ -330,8 +331,8 @@
           "DamageUpLakshanaBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "EquipmentList": [
@@ -376,8 +377,8 @@
           "DamageUpCosmosBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "EquipmentList": [
@@ -422,8 +423,8 @@
           "DamageUpLakshanaBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "EquipmentList": [
@@ -463,6 +464,7 @@
           "HPMaxUp"
         ],
         "RecommendAttrList": [
+          "HealUp",
           "HPMaxUp",
           "HPMaxAdd"
         ],
@@ -550,8 +552,8 @@
           "DamageUpNatureBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "EquipmentList": [
@@ -598,8 +600,8 @@
           "DamageUpChaosBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "UnbalIntensityBase"
         ],
         "EquipmentList": [
@@ -635,18 +637,11 @@
         "CoreID": "Cosmos_orange",
         "CoreLvl": 20,
         "CoreMainAttrList": [
-          "DamageUpCosmosBase",
-          "CritBase",
-          "CritDamageBase",
-          "AtkUp"
+          "DamageUpCosmosBase"
         ],
         "RecommendAttrList": [
           "DamageUpCosmosBase",
-          "CritBase",
-          "CritDamageBase",
-          "AtkUp",
-          "DamageUpGeneralBase",
-          "AtkAdd"
+          "DamageUpGeneralBase"
         ],
         "EquipmentList": [
           "cell3_style6_1_Orange",
@@ -690,8 +685,8 @@
           "DamageUpChaosBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "EquipmentList": [
@@ -736,8 +731,8 @@
           "DamageUpCosmosBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "EquipmentList": [
@@ -765,7 +760,53 @@
           "SubPathString": ""
         },
         "CharacterTabImg": {
-          "AssetPathName": "/Game/UI/UI/Cultivation/YH_UI_Development_Radiobox_nanali__1_.YH_UI_Development_Radiobox_nanali__1_",
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/YH_UI_shizhuang_lihui_nanzhu.YH_UI_shizhuang_lihui_nanzhu",
+          "SubPathString": ""
+        }
+      },
+      "1070": {
+        "CoreID": "Psyche_orange",
+        "CoreLvl": 20,
+        "CoreMainAttrList": [
+          "DamageUpPsycheBase",
+          "CritBase",
+          "CritDamageBase",
+          "AtkUp"
+        ],
+        "RecommendAttrList": [
+          "DamageUpPsycheBase",
+          "CritBase",
+          "CritDamageBase",
+          "DamageUpGeneralBase",
+          "AtkUp",
+          "AtkAdd"
+        ],
+        "EquipmentList": [
+          "cell3_style1_1_Orange",
+          "cell3_style6_1_Orange",
+          "cell3_style4_1_Orange",
+          "cell2_style2_1_Orange",
+          "cell3_style2_1_Orange",
+          "cell4_style6_1_Orange",
+          "cell2_style1_1_Orange"
+        ],
+        "EquipmentLvl": 20,
+        "EquipmentSlots": [
+          "-1,-1,-1,-1,-1,-1,-1",
+          "-1,0,cell3_style1_1_Orange,0,cell3_style6_1_Orange,-1,-1",
+          "-1,cell3_style4_1_Orange,0,0,0,-1,-1",
+          "-1,0,0,-1,0,cell2_style2_1_Orange,-1",
+          "-1,-1,cell3_style2_1_Orange,cell4_style6_1_Orange,0,0,-1",
+          "-1,-1,0,0,cell2_style1_1_Orange,0,-1",
+          "-1,-1,-1,-1,-1,-1,-1"
+        ],
+        "ReferScore": 120,
+        "EquipPlanBg": {
+          "AssetPathName": "/Game/UI/UI/Cultivation/Development_Equip_Bg1.Development_Equip_Bg1",
+          "SubPathString": ""
+        },
+        "CharacterTabImg": {
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/YH_UI_shizhuang_lihui_haiyue.YH_UI_shizhuang_lihui_haiyue",
           "SubPathString": ""
         }
       }

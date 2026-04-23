@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_HoldingHandsAnim",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Interact/DT_HoldingHandsAnim",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'HoldingHandsDataTableRow'",
@@ -18,7 +19,7 @@
             "Value": {
               "StartContextAnimScene": {
                 "ObjectName": "ContextualAnimSceneAsset'ContextAnim_HoldingHands_Mint_M'",
-                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/ContextAnim_HoldingHands_Mint_M.0"
+                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/HoldingHands/ContextAnim_HoldingHands_Mint_M.0"
               }
             }
           },
@@ -27,7 +28,7 @@
             "Value": {
               "StartContextAnimScene": {
                 "ObjectName": "ContextualAnimSceneAsset'ContextAnim_HoldingHands_Mint_F'",
-                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/ContextAnim_HoldingHands_Mint_F.0"
+                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/HoldingHands/ContextAnim_HoldingHands_Mint_F.0"
               }
             }
           }
@@ -40,7 +41,7 @@
             "Value": {
               "StartContextAnimScene": {
                 "ObjectName": "ContextualAnimSceneAsset'ContextAnim_HoldingHands_Fadia_M'",
-                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/ContextAnim_HoldingHands_Fadia_M.0"
+                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/HoldingHands/ContextAnim_HoldingHands_Fadia_M.0"
               }
             }
           },
@@ -49,7 +50,7 @@
             "Value": {
               "StartContextAnimScene": {
                 "ObjectName": "ContextualAnimSceneAsset'ContextAnim_HoldingHands_Fadia_F'",
-                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/ContextAnim_HoldingHands_Fadia_F.0"
+                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/HoldingHands/ContextAnim_HoldingHands_Fadia_F.0"
               }
             }
           }
@@ -62,7 +63,7 @@
             "Value": {
               "StartContextAnimScene": {
                 "ObjectName": "ContextualAnimSceneAsset'ContextAnim_HoldingHands_Nanally_M'",
-                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/ContextAnim_HoldingHands_Nanally_M.0"
+                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/HoldingHands/ContextAnim_HoldingHands_Nanally_M.0"
               }
             }
           },
@@ -71,7 +72,7 @@
             "Value": {
               "StartContextAnimScene": {
                 "ObjectName": "ContextualAnimSceneAsset'ContextAnim_HoldingHands_Nanally_F'",
-                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/ContextAnim_HoldingHands_Nanally_F.0"
+                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/HoldingHands/ContextAnim_HoldingHands_Nanally_F.0"
               }
             }
           }
@@ -84,7 +85,7 @@
             "Value": {
               "StartContextAnimScene": {
                 "ObjectName": "ContextualAnimSceneAsset'ContextAnim_HoldingHands_Kuhara_M'",
-                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/ContextAnim_HoldingHands_Kuhara_M.0"
+                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/HoldingHands/ContextAnim_HoldingHands_Kuhara_M.0"
               }
             }
           },
@@ -93,7 +94,73 @@
             "Value": {
               "StartContextAnimScene": {
                 "ObjectName": "ContextualAnimSceneAsset'ContextAnim_HoldingHands_Kuhara_F'",
-                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/ContextAnim_HoldingHands_Kuhara_F.0"
+                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/HoldingHands/ContextAnim_HoldingHands_Kuhara_F.0"
+              }
+            }
+          }
+        ]
+      },
+      "NPC_004_ACT": {
+        "HoldingHandsAnims": [
+          {
+            "Key": "1046",
+            "Value": {
+              "StartContextAnimScene": {
+                "ObjectName": "ContextualAnimSceneAsset'ContextAnim_HoldingHands_lacrimosa_M'",
+                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/HoldingHands/ContextAnim_HoldingHands_lacrimosa_M.0"
+              }
+            }
+          },
+          {
+            "Key": "1051",
+            "Value": {
+              "StartContextAnimScene": {
+                "ObjectName": "ContextualAnimSceneAsset'ContextAnim_HoldingHands_lacrimosa_F'",
+                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/HoldingHands/ContextAnim_HoldingHands_lacrimosa_F.0"
+              }
+            }
+          }
+        ]
+      },
+      "NPC_026_ACT": {
+        "HoldingHandsAnims": [
+          {
+            "Key": "1046",
+            "Value": {
+              "StartContextAnimScene": {
+                "ObjectName": "ContextualAnimSceneAsset'ContextAnim_HoldingHands_Rabbit_M'",
+                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/HoldingHands/ContextAnim_HoldingHands_Rabbit_M.0"
+              }
+            }
+          },
+          {
+            "Key": "1051",
+            "Value": {
+              "StartContextAnimScene": {
+                "ObjectName": "ContextualAnimSceneAsset'ContextAnim_HoldingHands_Rabbit_F'",
+                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/HoldingHands/ContextAnim_HoldingHands_Rabbit_F.0"
+              }
+            }
+          }
+        ]
+      },
+      "NPC_009_ACT": {
+        "HoldingHandsAnims": [
+          {
+            "Key": "1046",
+            "Value": {
+              "StartContextAnimScene": {
+                "ObjectName": "ContextualAnimSceneAsset'ContextAnim_HoldingHands_Jin_M'",
+                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/HoldingHands/ContextAnim_HoldingHands_Jin_M.0"
+              }
+            }
+          },
+          {
+            "Key": "1051",
+            "Value": {
+              "StartContextAnimScene": {
+                "ObjectName": "ContextualAnimSceneAsset'ContextAnim_HoldingHands_Jin_F'",
+                "ObjectPath": "/Game/Blueprints/Character/ContextAnim/HoldingHands/ContextAnim_HoldingHands_Jin_F.0"
               }
             }
           }

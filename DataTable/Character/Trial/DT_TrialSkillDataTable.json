@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_TrialSkillDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/Trial/DT_TrialSkillDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'TrialSkillDataTable'",
@@ -795,6 +796,55 @@
           }
         ]
       },
+      "1070_noPassive": {
+        "TrialAbilityConfig": [
+          {
+            "AbilityId": "GA_Mitsuki_Melee",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Skill",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_UltraSkill",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive1",
+            "AbilityType": "ECharacterAbilityType::Passive",
+            "DefaultLevel": 0
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive2",
+            "AbilityType": "ECharacterAbilityType::Passive",
+            "DefaultLevel": 0
+          },
+          {
+            "AbilityId": "GA_Mitsuki_QTE",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive_3",
+            "AbilityType": "ECharacterAbilityType::Peculiarity",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "City_Ability_1",
+            "AbilityType": "ECharacterAbilityType::City",
+            "DefaultLevel": 0
+          },
+          {
+            "AbilityId": "City_Ability_2",
+            "AbilityType": "ECharacterAbilityType::City",
+            "DefaultLevel": 0
+          }
+        ]
+      },
       "1051_OnePassive": {
         "TrialAbilityConfig": [
           {
@@ -1520,6 +1570,104 @@
           },
           {
             "AbilityId": "City_Ability_Haniel_01",
+            "AbilityType": "ECharacterAbilityType::City",
+            "DefaultLevel": 0
+          },
+          {
+            "AbilityId": "City_Ability_2",
+            "AbilityType": "ECharacterAbilityType::City",
+            "DefaultLevel": 0
+          }
+        ]
+      },
+      "1073_OnePassive": {
+        "TrialAbilityConfig": [
+          {
+            "AbilityId": "GA_Chiichan073_Melee",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Chiichan073_Skill",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Chiichan073_UltraSkill",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Chiichan073_Passive_1",
+            "AbilityType": "ECharacterAbilityType::Passive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Chiichan073_Passive_2",
+            "AbilityType": "ECharacterAbilityType::Passive",
+            "DefaultLevel": 0
+          },
+          {
+            "AbilityId": "GA_Chiichan073_QTE",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Chiichan073_Passive_3",
+            "AbilityType": "ECharacterAbilityType::Peculiarity",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "City_Ability_1",
+            "AbilityType": "ECharacterAbilityType::City",
+            "DefaultLevel": 0
+          },
+          {
+            "AbilityId": "City_Ability_2",
+            "AbilityType": "ECharacterAbilityType::City",
+            "DefaultLevel": 0
+          }
+        ]
+      },
+      "1070_OnePassive": {
+        "TrialAbilityConfig": [
+          {
+            "AbilityId": "GA_Mitsuki_Melee",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Skill",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_UltraSkill",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive1",
+            "AbilityType": "ECharacterAbilityType::Passive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive2",
+            "AbilityType": "ECharacterAbilityType::Passive",
+            "DefaultLevel": 0
+          },
+          {
+            "AbilityId": "GA_Mitsuki_QTE",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive_3",
+            "AbilityType": "ECharacterAbilityType::Peculiarity",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "City_Ability_1",
             "AbilityType": "ECharacterAbilityType::City",
             "DefaultLevel": 0
           },
@@ -2348,6 +2496,55 @@
           },
           {
             "AbilityId": "GA_Chiichan073_Passive_3",
+            "AbilityType": "ECharacterAbilityType::Peculiarity",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "City_Ability_1",
+            "AbilityType": "ECharacterAbilityType::City",
+            "DefaultLevel": 0
+          },
+          {
+            "AbilityId": "City_Ability_2",
+            "AbilityType": "ECharacterAbilityType::City",
+            "DefaultLevel": 0
+          }
+        ]
+      },
+      "1070_TwoPassive": {
+        "TrialAbilityConfig": [
+          {
+            "AbilityId": "GA_Mitsuki_Melee",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 10
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Skill",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 10
+          },
+          {
+            "AbilityId": "GA_Mitsuki_UltraSkill",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 10
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive1",
+            "AbilityType": "ECharacterAbilityType::Passive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive2",
+            "AbilityType": "ECharacterAbilityType::Passive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_QTE",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 10
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive_3",
             "AbilityType": "ECharacterAbilityType::Peculiarity",
             "DefaultLevel": 1
           },
@@ -3833,6 +4030,55 @@
           }
         ]
       },
+      "1070_model4": {
+        "TrialAbilityConfig": [
+          {
+            "AbilityId": "GA_Mitsuki_Melee",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 4
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Skill",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 4
+          },
+          {
+            "AbilityId": "GA_Mitsuki_UltraSkill",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 4
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive1",
+            "AbilityType": "ECharacterAbilityType::Passive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive2",
+            "AbilityType": "ECharacterAbilityType::Passive",
+            "DefaultLevel": 0
+          },
+          {
+            "AbilityId": "GA_Mitsuki_QTE",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 4
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive_3",
+            "AbilityType": "ECharacterAbilityType::Peculiarity",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "City_Ability_1",
+            "AbilityType": "ECharacterAbilityType::City",
+            "DefaultLevel": 0
+          },
+          {
+            "AbilityId": "City_Ability_2",
+            "AbilityType": "ECharacterAbilityType::City",
+            "DefaultLevel": 0
+          }
+        ]
+      },
       "1051_model5": {
         "TrialAbilityConfig": [
           {
@@ -4656,6 +4902,55 @@
           },
           {
             "AbilityId": "City_Ability_hathor_01",
+            "AbilityType": "ECharacterAbilityType::City",
+            "DefaultLevel": 0
+          },
+          {
+            "AbilityId": "City_Ability_2",
+            "AbilityType": "ECharacterAbilityType::City",
+            "DefaultLevel": 0
+          }
+        ]
+      },
+      "1070_model5": {
+        "TrialAbilityConfig": [
+          {
+            "AbilityId": "GA_Mitsuki_Melee",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 6
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Skill",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 6
+          },
+          {
+            "AbilityId": "GA_Mitsuki_UltraSkill",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 6
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive1",
+            "AbilityType": "ECharacterAbilityType::Passive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive2",
+            "AbilityType": "ECharacterAbilityType::Passive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_QTE",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 6
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive_3",
+            "AbilityType": "ECharacterAbilityType::Peculiarity",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "City_Ability_1",
             "AbilityType": "ECharacterAbilityType::City",
             "DefaultLevel": 0
           },
@@ -5499,6 +5794,55 @@
           }
         ]
       },
+      "1070_model6": {
+        "TrialAbilityConfig": [
+          {
+            "AbilityId": "GA_Mitsuki_Melee",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 8
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Skill",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 8
+          },
+          {
+            "AbilityId": "GA_Mitsuki_UltraSkill",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 8
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive1",
+            "AbilityType": "ECharacterAbilityType::Passive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive2",
+            "AbilityType": "ECharacterAbilityType::Passive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_QTE",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 8
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive_3",
+            "AbilityType": "ECharacterAbilityType::Peculiarity",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "City_Ability_1",
+            "AbilityType": "ECharacterAbilityType::City",
+            "DefaultLevel": 0
+          },
+          {
+            "AbilityId": "City_Ability_2",
+            "AbilityType": "ECharacterAbilityType::City",
+            "DefaultLevel": 0
+          }
+        ]
+      },
       "1051_model7": {
         "TrialAbilityConfig": [
           {
@@ -6273,6 +6617,55 @@
           },
           {
             "AbilityId": "City_Ability_hathor_01",
+            "AbilityType": "ECharacterAbilityType::City",
+            "DefaultLevel": 0
+          },
+          {
+            "AbilityId": "City_Ability_2",
+            "AbilityType": "ECharacterAbilityType::City",
+            "DefaultLevel": 0
+          }
+        ]
+      },
+      "1070_model7": {
+        "TrialAbilityConfig": [
+          {
+            "AbilityId": "GA_Mitsuki_Melee",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 10
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Skill",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 10
+          },
+          {
+            "AbilityId": "GA_Mitsuki_UltraSkill",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 10
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive1",
+            "AbilityType": "ECharacterAbilityType::Passive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive2",
+            "AbilityType": "ECharacterAbilityType::Passive",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "GA_Mitsuki_QTE",
+            "AbilityType": "ECharacterAbilityType::Proactive",
+            "DefaultLevel": 10
+          },
+          {
+            "AbilityId": "GA_Mitsuki_Passive_3",
+            "AbilityType": "ECharacterAbilityType::Peculiarity",
+            "DefaultLevel": 1
+          },
+          {
+            "AbilityId": "City_Ability_1",
             "AbilityType": "ECharacterAbilityType::City",
             "DefaultLevel": 0
           },

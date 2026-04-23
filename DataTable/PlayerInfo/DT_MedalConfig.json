@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_MedalConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/PlayerInfo/DT_MedalConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'HTMedalConfig'",
@@ -22,8 +23,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_medal_1003",
-          "SourceString": "早雾好感等级7级奖励",
-          "LocalizedString": "早雾好感等级7级奖励"
+          "SourceString": "早雾羁遇等级7级奖励",
+          "LocalizedString": "早雾羁遇等级7级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -35,7 +36,10 @@
           "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/LlikeAbility/Likeability_Medal_1003_512.Likeability_Medal_1003_512",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "likeabiliyu_1004": {
         "Name": {
@@ -48,8 +52,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_medal_1004",
-          "SourceString": "安魂曲好感等级7级奖励",
-          "LocalizedString": "安魂曲好感等级7级奖励"
+          "SourceString": "安魂曲羁遇等级7级奖励",
+          "LocalizedString": "安魂曲羁遇等级7级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -61,7 +65,10 @@
           "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/LlikeAbility/Likeability_Medal_1004_512.Likeability_Medal_1004_512",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "likeabiliyu_1008": {
         "Name": {
@@ -74,8 +81,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_medal_1008",
-          "SourceString": "翳好感等级7级奖励",
-          "LocalizedString": "翳好感等级7级奖励"
+          "SourceString": "翳羁遇等级7级奖励",
+          "LocalizedString": "翳羁遇等级7级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -87,7 +94,10 @@
           "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/LlikeAbility/Likeability_Medal_1008_512.Likeability_Medal_1008_512",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "likeabiliyu_1010": {
         "Name": {
@@ -100,8 +110,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_medal_1010",
-          "SourceString": "娜娜莉好感等级7级奖励",
-          "LocalizedString": "娜娜莉好感等级7级奖励"
+          "SourceString": "娜娜莉羁遇等级7级奖励",
+          "LocalizedString": "娜娜莉羁遇等级7级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -113,7 +123,10 @@
           "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/LlikeAbility/Likeability_Medal_1010_512.Likeability_Medal_1010_512",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "likeabiliyu_1019": {
         "Name": {
@@ -126,8 +139,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_medal_1019",
-          "SourceString": "薄荷好感等级7级奖励",
-          "LocalizedString": "薄荷好感等级7级奖励"
+          "SourceString": "薄荷羁遇等级7级奖励",
+          "LocalizedString": "薄荷羁遇等级7级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -139,7 +152,10 @@
           "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/LlikeAbility/Likeability_Medal_1019_512.Likeability_Medal_1019_512",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "likeabiliyu_1020": {
         "Name": {
@@ -152,8 +168,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_medal_1020",
-          "SourceString": "哈尼娅好感等级7级奖励",
-          "LocalizedString": "哈尼娅好感等级7级奖励"
+          "SourceString": "哈尼娅羁遇等级7级奖励",
+          "LocalizedString": "哈尼娅羁遇等级7级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -165,7 +181,10 @@
           "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/LlikeAbility/Likeability_Medal_1020_512.Likeability_Medal_1020_512",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "likeabiliyu_1021": {
         "Name": {
@@ -178,8 +197,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_medal_1021",
-          "SourceString": "埃德嘉好感等级7级奖励",
-          "LocalizedString": "埃德嘉好感等级7级奖励"
+          "SourceString": "埃德嘉羁遇等级7级奖励",
+          "LocalizedString": "埃德嘉羁遇等级7级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -191,7 +210,10 @@
           "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/LlikeAbility/Likeability_Medal_1021_512.Likeability_Medal_1021_512",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "likeabiliyu_1023": {
         "Name": {
@@ -204,8 +226,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_medal_1023",
-          "SourceString": "白藏好感等级7级奖励",
-          "LocalizedString": "白藏好感等级7级奖励"
+          "SourceString": "白藏羁遇等级7级奖励",
+          "LocalizedString": "白藏羁遇等级7级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -217,7 +239,10 @@
           "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/LlikeAbility/Likeability_Medal_1023_512.Likeability_Medal_1023_512",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "likeabiliyu_1025": {
         "Name": {
@@ -230,8 +255,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_medal_1025",
-          "SourceString": "哈索尔好感等级7级奖励",
-          "LocalizedString": "哈索尔好感等级7级奖励"
+          "SourceString": "哈索尔羁遇等级7级奖励",
+          "LocalizedString": "哈索尔羁遇等级7级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -243,7 +268,10 @@
           "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/LlikeAbility/Likeability_Medal_1025_512.Likeability_Medal_1025_512",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "likeabiliyu_1033": {
         "Name": {
@@ -256,8 +284,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_medal_1033",
-          "SourceString": "阿德勒好感等级7级奖励",
-          "LocalizedString": "阿德勒好感等级7级奖励"
+          "SourceString": "阿德勒羁遇等级7级奖励",
+          "LocalizedString": "阿德勒羁遇等级7级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -269,7 +297,10 @@
           "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/LlikeAbility/Likeability_Medal_1033_512.Likeability_Medal_1033_512",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "likeabiliyu_1039": {
         "Name": {
@@ -282,8 +313,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_medal_1039",
-          "SourceString": "法帝娅好感等级7级奖励",
-          "LocalizedString": "法帝娅好感等级7级奖励"
+          "SourceString": "法帝娅羁遇等级7级奖励",
+          "LocalizedString": "法帝娅羁遇等级7级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -295,7 +326,10 @@
           "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/LlikeAbility/Likeability_Medal_1039_512.Likeability_Medal_1039_512",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "likeabiliyu_1052": {
         "Name": {
@@ -308,8 +342,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_medal_1052",
-          "SourceString": "浔好感等级7级奖励",
-          "LocalizedString": "浔好感等级7级奖励"
+          "SourceString": "浔羁遇等级7级奖励",
+          "LocalizedString": "浔羁遇等级7级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -321,7 +355,10 @@
           "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/LlikeAbility/Likeability_Medal_1029_512.Likeability_Medal_1029_512",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "likeabiliyu_1054": {
         "Name": {
@@ -334,8 +371,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_medal_1054",
-          "SourceString": "达芙蒂尔好感等级7级奖励",
-          "LocalizedString": "达芙蒂尔好感等级7级奖励"
+          "SourceString": "达芙蒂尔羁遇等级7级奖励",
+          "LocalizedString": "达芙蒂尔羁遇等级7级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -347,7 +384,10 @@
           "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/LlikeAbility/Likeability_Medal_1005_512.Likeability_Medal_1005_512",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "likeabiliyu_1055": {
         "Name": {
@@ -360,8 +400,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_medal_1055",
-          "SourceString": "九原好感等级7级奖励",
-          "LocalizedString": "九原好感等级7级奖励"
+          "SourceString": "九原羁遇等级7级奖励",
+          "LocalizedString": "九原羁遇等级7级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -373,7 +413,10 @@
           "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/LlikeAbility/Likeability_Medal_1014_512.Likeability_Medal_1014_512",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "likeabiliyu_1073": {
         "Name": {
@@ -386,8 +429,8 @@
         "UnlockDescription": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
           "Key": "likeability_medal_1073",
-          "SourceString": "小吱好感等级7级奖励",
-          "LocalizedString": "小吱好感等级7级奖励"
+          "SourceString": "小吱羁遇等级7级奖励",
+          "LocalizedString": "小吱羁遇等级7级奖励"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -399,7 +442,39 @@
           "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/LlikeAbility/Likeability_Medal_1073_512.Likeability_Medal_1073_512",
           "SubPathString": ""
         },
-        "bHide": false
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
+      },
+      "likeabiliyu_1070": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_stickers_1070_name",
+          "SourceString": "潮汐之歌",
+          "LocalizedString": "潮汐之歌"
+        },
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_medal_1070",
+          "SourceString": "海月羁遇等级7级奖励",
+          "LocalizedString": "海月羁遇等级7级奖励"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_stickers_1070_desc",
+          "SourceString": "歌唱大海，歌唱时间，歌唱所有的星辰。",
+          "LocalizedString": "歌唱大海，歌唱时间，歌唱所有的星辰。"
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/Sticker/LlikeAbility/Likeability_Medal_1070_512.Likeability_Medal_1070_512",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       }
     }
   }

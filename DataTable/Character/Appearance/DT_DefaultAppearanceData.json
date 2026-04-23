@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_DefaultAppearanceData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/Appearance/DT_DefaultAppearanceData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'StaticDefaultAppearanceData'",
@@ -107,9 +108,21 @@
           "SubPathString": ""
         }
       },
+      "1070": {
+        "PlayerAppearanceAsset": {
+          "AssetPathName": "/Game/Characters/Player/070_mitsuki/MeshAsset_Player070.MeshAsset_Player070",
+          "SubPathString": ""
+        }
+      },
       "1073": {
         "PlayerAppearanceAsset": {
           "AssetPathName": "/Game/Characters/Player/073_rabbit/MeshAsset_Player073.MeshAsset_Player073",
+          "SubPathString": ""
+        }
+      },
+      "1075": {
+        "PlayerAppearanceAsset": {
+          "AssetPathName": "/Game/Characters/Player/075_oneir/MeshAsset_Player075.MeshAsset_Player075",
           "SubPathString": ""
         }
       }

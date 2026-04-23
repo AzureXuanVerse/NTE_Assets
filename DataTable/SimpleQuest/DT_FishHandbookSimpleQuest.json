@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_FishHandbookSimpleQuest",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/SimpleQuest/DT_FishHandbookSimpleQuest",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'SimpleQuestStaticData'",
@@ -37,7 +38,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": true
@@ -52,7 +54,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "FishHandbook_02": {
         "QuestId": "FishHandbook_02",
@@ -80,7 +121,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": true
@@ -95,7 +137,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "FishHandbook_03": {
         "QuestId": "FishHandbook_03",
@@ -123,7 +204,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": true
@@ -138,7 +220,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "FishHandbook_04": {
         "QuestId": "FishHandbook_04",
@@ -166,7 +287,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": true
@@ -181,7 +303,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "FishHandbook_05": {
         "QuestId": "FishHandbook_05",
@@ -209,7 +370,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": true
@@ -224,7 +386,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       }
     }
   }

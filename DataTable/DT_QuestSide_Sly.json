@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_QuestSide_Sly",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_QuestSide_Sly",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'QuestData'",
@@ -1206,6 +1207,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -1505,6 +1507,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -1804,6 +1807,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -2103,6 +2107,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -2911,7 +2916,7 @@
         "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
         "bMainQuestAutoSpeak": true,
         "bShowQuestAcceptTips": false,
-        "bShowQuestCompleteTip": false,
+        "bShowQuestCompleteTip": true,
         "HideOrShowMainFormWidgets": null,
         "bHideQuestMark": false,
         "bHideTrackMark": false,
@@ -4308,6 +4313,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -6030,7 +6036,7 @@
         "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
         "bMainQuestAutoSpeak": true,
         "bShowQuestAcceptTips": false,
-        "bShowQuestCompleteTip": false,
+        "bShowQuestCompleteTip": true,
         "HideOrShowMainFormWidgets": null,
         "bHideQuestMark": false,
         "bHideTrackMark": false,

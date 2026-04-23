@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_CityGamePlayDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_CityGamePlayDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CityGameplayEntryData'",
@@ -34,7 +35,8 @@
         "EntrySwitchType": "ESwitchType::TakeOrders",
         "MutexGameplayArray": [
           "ECityGameplayMutexType::CityGameplayMutex_TaxiGameplay"
-        ]
+        ],
+        "StaminaChangeType": "EStaminaChangeType::TakeOrders"
       },
       "Race": {
         "GameplayID": "Race",
@@ -48,7 +50,7 @@
           "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_003.UI_YH_CityGameplay_List_003",
           "SubPathString": ""
         },
-        "bIgnoreInOnline": true,
+        "bIgnoreInOnline": false,
         "JumpType": "ECityGameplayJumpType::ECityGameplayJumpType_CommonJumpUI",
         "MapUniqueID": "None",
         "JumpFixedIcon": "Bank_05_00",
@@ -57,7 +59,8 @@
         "NearlyMapIconID": "None",
         "UnlockFunctionID": "Race",
         "EntrySwitchType": "ESwitchType::None",
-        "MutexGameplayArray": []
+        "MutexGameplayArray": [],
+        "StaminaChangeType": "EStaminaChangeType::RacingPVPResult"
       },
       "Store": {
         "GameplayID": "Store",
@@ -80,7 +83,8 @@
         "NearlyMapIconID": "None",
         "UnlockFunctionID": "StoreOnline",
         "EntrySwitchType": "ESwitchType::None",
-        "MutexGameplayArray": []
+        "MutexGameplayArray": [],
+        "StaminaChangeType": "EStaminaChangeType::StoreManagerResult"
       },
       "Taxi": {
         "GameplayID": "Taxi",
@@ -105,7 +109,8 @@
         "EntrySwitchType": "ESwitchType::TaxiGameplay",
         "MutexGameplayArray": [
           "ECityGameplayMutexType::CityGameplayMutex_TakeOrders"
-        ]
+        ],
+        "StaminaChangeType": "EStaminaChangeType::TaxiGameplay"
       },
       "Robbank": {
         "GameplayID": "Robbank",
@@ -128,7 +133,8 @@
         "NearlyMapIconID": "None",
         "UnlockFunctionID": "Robbank",
         "EntrySwitchType": "ESwitchType::RobRank",
-        "MutexGameplayArray": []
+        "MutexGameplayArray": [],
+        "StaminaChangeType": "EStaminaChangeType::NaturalIncrease"
       },
       "FishingEntry": {
         "GameplayID": "FishingEntry",
@@ -151,7 +157,8 @@
         "NearlyMapIconID": "None",
         "UnlockFunctionID": "Fishing",
         "EntrySwitchType": "ESwitchType::Fishing",
-        "MutexGameplayArray": []
+        "MutexGameplayArray": [],
+        "StaminaChangeType": "EStaminaChangeType::FishSell"
       },
       "majiang": {
         "GameplayID": "majiang",
@@ -174,7 +181,8 @@
         "NearlyMapIconID": "None",
         "UnlockFunctionID": "Majsoul",
         "EntrySwitchType": "ESwitchType::RiichiMahjong",
-        "MutexGameplayArray": []
+        "MutexGameplayArray": [],
+        "StaminaChangeType": "EStaminaChangeType::ChuanMaResult"
       },
       "Tetris": {
         "GameplayID": "Tetris",
@@ -197,7 +205,8 @@
         "NearlyMapIconID": "Shop_17",
         "UnlockFunctionID": "Tetris",
         "EntrySwitchType": "ESwitchType::TetrisGame",
-        "MutexGameplayArray": []
+        "MutexGameplayArray": [],
+        "StaminaChangeType": "EStaminaChangeType::TetrisGameResult"
       },
       "Wiku": {
         "GameplayID": "Wiku",
@@ -218,9 +227,10 @@
         "JumpExtensionID": "None",
         "CommonJumpID": "Wiku_map",
         "NearlyMapIconID": "None",
-        "UnlockFunctionID": "WikuFreePlay",
+        "UnlockFunctionID": "Wiku",
         "EntrySwitchType": "ESwitchType::None",
-        "MutexGameplayArray": []
+        "MutexGameplayArray": [],
+        "StaminaChangeType": "EStaminaChangeType::PlaySongConsume"
       }
     }
   }

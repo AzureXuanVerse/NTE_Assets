@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_TreasureboxConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Treasurebox/DT_TreasureboxConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'TreasureboxConfigData'",
@@ -11,19 +12,6 @@
       }
     },
     "Rows": {
-      "Lv2_TreasureBox_001_001": {
-        "Index": 0,
-        "LevelName": "XL_map_bigworld_test",
-        "AreaId": "001",
-        "StaticTreasureBoxType": "EStaticTreasureBoxType::CommonTreasureBox",
-        "Location": {
-          "X": -85033.0,
-          "Y": 164306.0,
-          "Z": 4145.0
-        },
-        "NeedUnlock": true,
-        "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_TwentyOne"
-      },
       "Lv2_TreasureBox_001_002": {
         "Index": 1,
         "LevelName": "XL_map_bigworld_test",
@@ -135,21 +123,8 @@
         "StaticTreasureBoxType": "EStaticTreasureBoxType::CommonTreasureBox",
         "Location": {
           "X": -138612.33,
-          "Y": 156395.61,
-          "Z": 11681.058
-        },
-        "NeedUnlock": true,
-        "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_TwentyOne"
-      },
-      "Lv2_TreasureBox_002_001": {
-        "Index": 12,
-        "LevelName": "XL_map_bigworld_test",
-        "AreaId": "002",
-        "StaticTreasureBoxType": "EStaticTreasureBoxType::CommonTreasureBox",
-        "Location": {
-          "X": -181261.98,
-          "Y": 241139.12,
-          "Z": 2429.7651
+          "Y": 156323.0,
+          "Z": 11679.063
         },
         "NeedUnlock": true,
         "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_TwentyOne"
@@ -732,9 +707,9 @@
         "AreaId": "005",
         "StaticTreasureBoxType": "EStaticTreasureBoxType::CommonTreasureBox",
         "Location": {
-          "X": 37512.758,
-          "Y": 138435.75,
-          "Z": 3163.602
+          "X": 36352.0,
+          "Y": 138546.0,
+          "Z": 3167.0
         },
         "NeedUnlock": true,
         "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_TwentyOne"
@@ -804,19 +779,6 @@
         "NeedUnlock": true,
         "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_TwentyOne"
       },
-      "Lv3_TreasureBox_001_001": {
-        "Index": 66,
-        "LevelName": "XL_map_bigworld_test",
-        "AreaId": "001",
-        "StaticTreasureBoxType": "EStaticTreasureBoxType::CommonTreasureBox",
-        "Location": {
-          "X": -120449.13,
-          "Y": 185925.28,
-          "Z": 6164.7744
-        },
-        "NeedUnlock": true,
-        "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_TwentyOne"
-      },
       "Lv3_TreasureBox_001_002": {
         "Index": 67,
         "LevelName": "XL_map_bigworld_test",
@@ -826,19 +788,6 @@
           "X": -122050.12,
           "Y": 157677.16,
           "Z": 10191.343
-        },
-        "NeedUnlock": true,
-        "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_TwentyOne"
-      },
-      "Lv3_TreasureBox_003_001": {
-        "Index": 68,
-        "LevelName": "XL_map_bigworld_test",
-        "AreaId": "003",
-        "StaticTreasureBoxType": "EStaticTreasureBoxType::CommonTreasureBox",
-        "Location": {
-          "X": -127193.0,
-          "Y": 76870.0,
-          "Z": 8104.0
         },
         "NeedUnlock": true,
         "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_TwentyOne"
@@ -1064,45 +1013,6 @@
         "NeedUnlock": false,
         "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_None"
       },
-      "Lv3_WorldSafeBox_FB_Hospital_001": {
-        "Index": 86,
-        "LevelName": "DLC_Hospital_FB",
-        "AreaId": "None",
-        "StaticTreasureBoxType": "EStaticTreasureBoxType::CommonTreasureBox",
-        "Location": {
-          "X": -3917.5862,
-          "Y": -2859.1206,
-          "Z": -181.0285
-        },
-        "NeedUnlock": false,
-        "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_None"
-      },
-      "Lv3_WorldSafeBox_FB_Hospital_002": {
-        "Index": 87,
-        "LevelName": "DLC_Hospital_FB",
-        "AreaId": "None",
-        "StaticTreasureBoxType": "EStaticTreasureBoxType::CommonTreasureBox",
-        "Location": {
-          "X": -7057.529,
-          "Y": 3152.6584,
-          "Z": 364.40863
-        },
-        "NeedUnlock": false,
-        "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_None"
-      },
-      "Lv3_WorldSafeBox_FB_Hospital_003": {
-        "Index": 88,
-        "LevelName": "DLC_Hospital_FB",
-        "AreaId": "None",
-        "StaticTreasureBoxType": "EStaticTreasureBoxType::CommonTreasureBox",
-        "Location": {
-          "X": 488.89575,
-          "Y": 2084.1125,
-          "Z": 916.50006
-        },
-        "NeedUnlock": false,
-        "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_None"
-      },
       "Lv2_TreasureBox_002_011": {
         "Index": 89,
         "LevelName": "XL_map_bigworld_test",
@@ -1115,6 +1025,97 @@
         },
         "NeedUnlock": true,
         "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_TwentyOne"
+      },
+      "Lv2_TreasureBox_001_001": {
+        "Index": 90,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "StaticTreasureBoxType": "EStaticTreasureBoxType::CommonTreasureBox",
+        "Location": {
+          "X": -85033.0,
+          "Y": 164306.0,
+          "Z": 4145.0
+        },
+        "NeedUnlock": true,
+        "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_TwentyOne"
+      },
+      "Lv2_TreasureBox_002_001": {
+        "Index": 91,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "StaticTreasureBoxType": "EStaticTreasureBoxType::CommonTreasureBox",
+        "Location": {
+          "X": -133166.77,
+          "Y": 211515.77,
+          "Z": 10053.232
+        },
+        "NeedUnlock": true,
+        "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_TwentyOne"
+      },
+      "Lv3_TreasureBox_001_001": {
+        "Index": 92,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "001",
+        "StaticTreasureBoxType": "EStaticTreasureBoxType::CommonTreasureBox",
+        "Location": {
+          "X": -120449.13,
+          "Y": 185925.28,
+          "Z": 6164.7744
+        },
+        "NeedUnlock": true,
+        "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_TwentyOne"
+      },
+      "Lv3_TreasureBox_003_001": {
+        "Index": 93,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "003",
+        "StaticTreasureBoxType": "EStaticTreasureBoxType::CommonTreasureBox",
+        "Location": {
+          "X": -127193.0,
+          "Y": 76870.0,
+          "Z": 8104.0
+        },
+        "NeedUnlock": true,
+        "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_TwentyOne"
+      },
+      "Lv2_TreasureBox_002_020": {
+        "Index": 94,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "002",
+        "StaticTreasureBoxType": "EStaticTreasureBoxType::CommonTreasureBox",
+        "Location": {
+          "X": -181261.98,
+          "Y": 241139.12,
+          "Z": 2429.7651
+        },
+        "NeedUnlock": true,
+        "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_TwentyOne"
+      },
+      "Lv3_WorldSafeBox_World_Bank_005_001": {
+        "Index": 95,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "005",
+        "StaticTreasureBoxType": "EStaticTreasureBoxType::CommonTreasureBox",
+        "Location": {
+          "X": 15792.0,
+          "Y": 67923.984,
+          "Z": 7176.5625
+        },
+        "NeedUnlock": false,
+        "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_None"
+      },
+      "Lv3_WorldSafeBox_World_MDS_005_001": {
+        "Index": 96,
+        "LevelName": "XL_map_bigworld_test",
+        "AreaId": "005",
+        "StaticTreasureBoxType": "EStaticTreasureBoxType::CommonTreasureBox",
+        "Location": {
+          "X": -13367.0625,
+          "Y": 119842.59,
+          "Z": 6978.7837
+        },
+        "NeedUnlock": false,
+        "TreasureType": "EAzimuthTreasureBoxType::TreasureBoxType_None"
       }
     }
   }

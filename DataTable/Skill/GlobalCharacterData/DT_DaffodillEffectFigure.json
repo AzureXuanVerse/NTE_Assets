@@ -2,8 +2,9 @@
   {
     "Type": "CurveTable",
     "Name": "DT_DaffodillEffectFigure",
-    "Class": "UScriptClass'CurveTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CurveTable'",
+    "Package": "/Game/DataTable/Skill/GlobalCharacterData/DT_DaffodillEffectFigure",
     "CurveTableMode": "SimpleCurves",
     "Rows": {
       "Daffodill_DamageResistChaos": {
@@ -11,19 +12,7 @@
         "Keys": [
           {
             "Time": 1.0,
-            "Value": -0.2
-          }
-        ],
-        "DefaultValue": 3.4028235E+38,
-        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
-        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
-      },
-      "Daffodill_DamUpLv6": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
-        "Keys": [
-          {
-            "Time": 1.0,
-            "Value": 0.15
+            "Value": -0.15
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -42,24 +31,12 @@
         "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
         "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
       },
-      "Daffodill_Pas2DefUp": {
+      "Daffodill_DefIgnoreLv6": {
         "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
         "Keys": [
           {
             "Time": 1.0,
-            "Value": 0.5
-          }
-        ],
-        "DefaultValue": 3.4028235E+38,
-        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
-        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
-      },
-      "Daffodill_Pas2Dur": {
-        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
-        "Keys": [
-          {
-            "Time": 1.0,
-            "Value": 5.0
+            "Value": 0.15
           }
         ],
         "DefaultValue": 3.4028235E+38,
@@ -228,6 +205,18 @@
           {
             "Time": 1.0,
             "Value": 3.0
+          }
+        ],
+        "DefaultValue": 3.4028235E+38,
+        "PreInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant",
+        "PostInfinityExtrap": "ERichCurveExtrapolation::RCCE_Constant"
+      },
+      "Daffodill_Pas2DamUp": {
+        "InterpMode": "ERichCurveInterpMode::RCIM_Constant",
+        "Keys": [
+          {
+            "Time": 1.0,
+            "Value": 0.8
           }
         ],
         "DefaultValue": 3.4028235E+38,

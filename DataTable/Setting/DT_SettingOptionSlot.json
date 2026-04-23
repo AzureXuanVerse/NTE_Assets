@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_SettingOptionSlot",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Setting/DT_SettingOptionSlot",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'SettingOptionSlotDataRow'",
@@ -641,93 +642,9 @@
         "Condition": null,
         "bPlaystationShow": false
       },
-      "Graphics_RT": {
-        "Category": "ESettingCategory::Graphics",
-        "PlatformToDisplay": 1,
-        "Showname": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Graphics_RT_Title",
-          "SourceString": "全景光线追踪",
-          "LocalizedString": "全景光线追踪"
-        },
-        "ChooseType": "ESettingChooseType::ComboBox",
-        "OptionDataRow": {
-          "DataTable": {
-            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
-            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
-          },
-          "RowName": "Graphics_RT"
-        },
-        "bIsVolumeSlider": false,
-        "bIsGamePadSlider": false,
-        "bIsPCOrMobileCameraSlider": false,
-        "SliderRange": {
-          "LowerBound": {
-            "Type": "ERangeBoundTypes::Open",
-            "Value": 0
-          },
-          "UpperBound": {
-            "Type": "ERangeBoundTypes::Open",
-            "Value": 0
-          }
-        },
-        "SliderStepSize": 0.0,
-        "bIsForceShowFloat": false,
-        "OpenUIClass": "",
-        "OpenUIButtonName": {
-          "CultureInvariantString": null
-        },
-        "ShowInputType": "ESettingInputType::All",
-        "ComboBoxOptionEvent": {},
-        "SliderValueEvent": null,
-        "Condition": {},
-        "bPlaystationShow": false
-      },
-      "Graphics_DLSSRR": {
-        "Category": "ESettingCategory::Graphics",
-        "PlatformToDisplay": 1,
-        "Showname": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Graphics_DenoiserMode",
-          "SourceString": "光线重构",
-          "LocalizedString": "光线重构"
-        },
-        "ChooseType": "ESettingChooseType::ComboBox",
-        "OptionDataRow": {
-          "DataTable": {
-            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
-            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
-          },
-          "RowName": "Graphics_DLSSRR"
-        },
-        "bIsVolumeSlider": false,
-        "bIsGamePadSlider": false,
-        "bIsPCOrMobileCameraSlider": false,
-        "SliderRange": {
-          "LowerBound": {
-            "Type": "ERangeBoundTypes::Inclusive",
-            "Value": 0
-          },
-          "UpperBound": {
-            "Type": "ERangeBoundTypes::Exclusive",
-            "Value": 100
-          }
-        },
-        "SliderStepSize": 1.0,
-        "bIsForceShowFloat": false,
-        "OpenUIClass": "",
-        "OpenUIButtonName": {
-          "CultureInvariantString": null
-        },
-        "ShowInputType": "ESettingInputType::All",
-        "ComboBoxOptionEvent": {},
-        "SliderValueEvent": null,
-        "Condition": {},
-        "bPlaystationShow": true
-      },
       "Graphics_GIMethod": {
         "Category": "ESettingCategory::Graphics",
-        "PlatformToDisplay": 511,
+        "PlatformToDisplay": 495,
         "Showname": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_GI_Name",
@@ -767,9 +684,51 @@
         "Condition": {},
         "bPlaystationShow": false
       },
+      "Graphics_GIMethod_MAC": {
+        "Category": "ESettingCategory::Graphics",
+        "PlatformToDisplay": 16,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_GI_Name",
+          "SourceString": "全局光照模式",
+          "LocalizedString": "全局光照模式"
+        },
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+          },
+          "RowName": "Graphics_GIMethod_MAC"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        },
+        "SliderStepSize": 0.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
+        "Condition": {},
+        "bPlaystationShow": false
+      },
       "Graphics_ReflectionMethod": {
         "Category": "ESettingCategory::Graphics",
-        "PlatformToDisplay": 18,
+        "PlatformToDisplay": 2,
         "Showname": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_Reflection_Name",
@@ -808,6 +767,90 @@
         "SliderValueEvent": null,
         "Condition": {},
         "bPlaystationShow": false
+      },
+      "Graphics_RT": {
+        "Category": "ESettingCategory::Graphics",
+        "PlatformToDisplay": 2,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Graphics_RT_Title",
+          "SourceString": "光线追踪",
+          "LocalizedString": "光线追踪"
+        },
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+          },
+          "RowName": "Graphics_RT"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        },
+        "SliderStepSize": 0.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
+        "Condition": {},
+        "bPlaystationShow": false
+      },
+      "Graphics_DLSSRR": {
+        "Category": "ESettingCategory::Graphics",
+        "PlatformToDisplay": 2,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Graphics_DenoiserMode",
+          "SourceString": "光线重构",
+          "LocalizedString": "光线重构"
+        },
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+          },
+          "RowName": "Graphics_DLSSRR"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 100
+          }
+        },
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
+        "Condition": {},
+        "bPlaystationShow": true
       },
       "Graphics_Texture": {
         "Category": "ESettingCategory::Graphics",
@@ -1143,7 +1186,7 @@
         "ComboBoxOptionEvent": null,
         "SliderValueEvent": {},
         "Condition": null,
-        "bPlaystationShow": false
+        "bPlaystationShow": true
       },
       "Setting_Light": {
         "Category": "ESettingCategory::Graphics",
@@ -1185,7 +1228,7 @@
         "ComboBoxOptionEvent": null,
         "SliderValueEvent": null,
         "Condition": null,
-        "bPlaystationShow": false
+        "bPlaystationShow": true
       },
       "Graphics_MotionBlur": {
         "Category": "ESettingCategory::Graphics",
@@ -1227,7 +1270,7 @@
         "ComboBoxOptionEvent": {},
         "SliderValueEvent": null,
         "Condition": null,
-        "bPlaystationShow": false
+        "bPlaystationShow": true
       },
       "System": {
         "Category": "ESettingCategory::System",
@@ -1688,6 +1731,90 @@
         "Condition": null,
         "bPlaystationShow": true
       },
+      "EnableFeedbackEffect": {
+        "Category": "ESettingCategory::System",
+        "PlatformToDisplay": 511,
+        "Showname": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "Gamepad_82",
+          "SourceString": "是否开启自适应扳机",
+          "LocalizedString": "是否开启自适应扳机"
+        },
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+          },
+          "RowName": "EnableFeedbackEffect"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 100
+          }
+        },
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::GamePad",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
+        "Condition": null,
+        "bPlaystationShow": true
+      },
+      "EnableLightBar": {
+        "Category": "ESettingCategory::System",
+        "PlatformToDisplay": 511,
+        "Showname": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "Gamepad_83",
+          "SourceString": "是否开启控制器灯带",
+          "LocalizedString": "是否开启控制器灯带"
+        },
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+          },
+          "RowName": "EnableLightBar"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 100
+          }
+        },
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::GamePad",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
+        "Condition": null,
+        "bPlaystationShow": true
+      },
       "Lock": {
         "Category": "ESettingCategory::System",
         "PlatformToDisplay": 511,
@@ -1976,6 +2103,48 @@
         "Condition": null,
         "bPlaystationShow": true
       },
+      "JoyStickMode": {
+        "Category": "ESettingCategory::System",
+        "PlatformToDisplay": 511,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "JoyStickMode",
+          "SourceString": "摇杆模式",
+          "LocalizedString": "摇杆模式"
+        },
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+          },
+          "RowName": "JoyStickMode"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 100
+          }
+        },
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
+        "Condition": null,
+        "bPlaystationShow": true
+      },
       "fCameraSlideYawSpeed": {
         "Category": "ESettingCategory::System",
         "PlatformToDisplay": 511,
@@ -2174,8 +2343,8 @@
             "Value": 10
           }
         },
-        "SliderStepSize": 0.1,
-        "bIsForceShowFloat": true,
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
         "OpenUIClass": "",
         "OpenUIButtonName": {
           "CultureInvariantString": null
@@ -2216,8 +2385,8 @@
             "Value": 10
           }
         },
-        "SliderStepSize": 0.1,
-        "bIsForceShowFloat": true,
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
         "OpenUIClass": "",
         "OpenUIButtonName": {
           "CultureInvariantString": null
@@ -2342,8 +2511,8 @@
             "Value": 10
           }
         },
-        "SliderStepSize": 0.1,
-        "bIsForceShowFloat": true,
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
         "OpenUIClass": "",
         "OpenUIButtonName": {
           "CultureInvariantString": null
@@ -2384,8 +2553,8 @@
             "Value": 10
           }
         },
-        "SliderStepSize": 0.1,
-        "bIsForceShowFloat": true,
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
         "OpenUIClass": "",
         "OpenUIButtonName": {
           "CultureInvariantString": null
@@ -2482,7 +2651,7 @@
       },
       "MobileUICustom": {
         "Category": "ESettingCategory::System",
-        "PlatformToDisplay": 0,
+        "PlatformToDisplay": 268,
         "Showname": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_MobileUICustom",
@@ -2597,7 +2766,7 @@
         "OpenUIButtonName": {
           "CultureInvariantString": null
         },
-        "ShowInputType": "ESettingInputType::All",
+        "ShowInputType": "ESettingInputType::NotGamePad",
         "ComboBoxOptionEvent": {},
         "SliderValueEvent": null,
         "Condition": null,
@@ -2669,6 +2838,132 @@
           "LowerBound": {
             "Type": "ERangeBoundTypes::Inclusive",
             "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 10
+          }
+        },
+        "SliderStepSize": 0.1,
+        "bIsForceShowFloat": true,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": null,
+        "SliderValueEvent": {},
+        "Condition": null,
+        "bPlaystationShow": true
+      },
+      "SteeringDead": {
+        "Category": "ESettingCategory::System",
+        "PlatformToDisplay": 255,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_7_6",
+          "SourceString": "载具驾驶摇杆死区范围",
+          "LocalizedString": "载具驾驶摇杆死区范围"
+        },
+        "ChooseType": "ESettingChooseType::SliderProgress",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingSliderOption'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingSliderOption.0"
+          },
+          "RowName": "SteeringDead"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 100
+          }
+        },
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::GamePad",
+        "ComboBoxOptionEvent": null,
+        "SliderValueEvent": {},
+        "Condition": null,
+        "bPlaystationShow": true
+      },
+      "VehicleThirdPersonCameraAutoAdjustDuration": {
+        "Category": "ESettingCategory::System",
+        "PlatformToDisplay": 511,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "VehicleThirdPersonCameraAutoAdjustDuration",
+          "SourceString": "载具第三人称相机回正时长",
+          "LocalizedString": "载具第三人称相机回正时长"
+        },
+        "ChooseType": "ESettingChooseType::SliderProgress",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingSliderOption'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingSliderOption.0"
+          },
+          "RowName": "VehicleThirdPersonCameraAutoAdjustDuration"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 10
+          }
+        },
+        "SliderStepSize": 0.1,
+        "bIsForceShowFloat": true,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": null,
+        "SliderValueEvent": {},
+        "Condition": null,
+        "bPlaystationShow": true
+      },
+      "VehicleFirstPersonCameraAutoAdjustDuration": {
+        "Category": "ESettingCategory::System",
+        "PlatformToDisplay": 511,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "VehicleFirstPersonCameraAutoAdjustDuration",
+          "SourceString": "载具第一人称相机回正时长",
+          "LocalizedString": "载具第一人称相机回正时长"
+        },
+        "ChooseType": "ESettingChooseType::SliderProgress",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingSliderOption'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingSliderOption.0"
+          },
+          "RowName": "VehicleFirstPersonCameraAutoAdjustDuration"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1
           },
           "UpperBound": {
             "Type": "ERangeBoundTypes::Exclusive",
@@ -2798,7 +3093,7 @@
             "Value": 10
           }
         },
-        "SliderStepSize": 0.1,
+        "SliderStepSize": 1.0,
         "bIsForceShowFloat": false,
         "OpenUIClass": "",
         "OpenUIButtonName": {
@@ -3182,6 +3477,48 @@
         "Condition": null,
         "bPlaystationShow": true
       },
+      "Setting_PropMessageOpacity": {
+        "Category": "ESettingCategory::Other",
+        "PlatformToDisplay": 511,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_PropMessageOpacity",
+          "SourceString": "交互和获得道具提示界面透明度",
+          "LocalizedString": "交互和获得道具提示界面透明度"
+        },
+        "ChooseType": "ESettingChooseType::SliderProgress",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingSliderOption'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingSliderOption.0"
+          },
+          "RowName": "Setting_PropMessageOpacity"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 1
+          }
+        },
+        "SliderStepSize": 0.1,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": null,
+        "SliderValueEvent": {},
+        "Condition": null,
+        "bPlaystationShow": true
+      },
       "Setting_player": {
         "Category": "ESettingCategory::Other",
         "PlatformToDisplay": 511,
@@ -3342,6 +3679,48 @@
         "ComboBoxOptionEvent": {},
         "SliderValueEvent": null,
         "Condition": null,
+        "bPlaystationShow": false
+      },
+      "Graphics_HmsXeg": {
+        "Category": "ESettingCategory::Graphics",
+        "PlatformToDisplay": 511,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "OpenHarmonyHmsXeg",
+          "SourceString": "超分",
+          "LocalizedString": "超分"
+        },
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+          },
+          "RowName": "Graphics_HmsXeg"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Open",
+            "Value": 0
+          }
+        },
+        "SliderStepSize": 0.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
+        "Condition": {},
         "bPlaystationShow": false
       }
     }

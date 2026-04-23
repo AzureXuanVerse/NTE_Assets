@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_AISpawnerAllChangeConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_AISpawnerAllChangeConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'AISpawnerChangeAllConfig'",
@@ -67,7 +68,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -134,7 +136,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,

@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "GameplayEffectTipsDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Skill/Buffer/GameplayEffectTipsDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'GameplayEffectTips'",
@@ -320,7 +321,7 @@
         "Hierarchy": -1,
         "BuffPropType": "BuffPropType::BUFF_PROP_LAKSHANA",
         "IsShowInBuffMaganger": true,
-        "IsMajorBuff": false,
+        "IsMajorBuff": true,
         "ReplaceBufferID": "None",
         "IsShowInHeadUpBattleMark": false,
         "IsShowOnlySenderClient": false,
@@ -352,7 +353,7 @@
         "Hierarchy": -1,
         "BuffPropType": "BuffPropType::BUFF_PROP_LAKSHANA",
         "IsShowInBuffMaganger": true,
-        "IsMajorBuff": false,
+        "IsMajorBuff": true,
         "ReplaceBufferID": "Buff_HathorAnger_Gaze",
         "IsShowInHeadUpBattleMark": false,
         "IsShowOnlySenderClient": false,
@@ -810,7 +811,7 @@
         "Hierarchy": -1,
         "BuffPropType": "BuffPropType::BUFF_PROP_INCANTATION",
         "IsShowInBuffMaganger": true,
-        "IsMajorBuff": false,
+        "IsMajorBuff": true,
         "ReplaceBufferID": "None",
         "IsShowInHeadUpBattleMark": false,
         "IsShowOnlySenderClient": false,
@@ -1840,8 +1841,8 @@
         "Name": {
           "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
           "Key": "Buff_Fork_Time_Save_name",
-          "SourceString": "<!>「时计」",
-          "LocalizedString": "<!>「时计」"
+          "SourceString": "「荒时」",
+          "LocalizedString": "「荒时」"
         },
         "Icon": {
           "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_forkstack.bufficon_common_forkstack",
@@ -1869,8 +1870,8 @@
         "Name": {
           "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
           "Key": "Buff_Fork_Time_CritDamUp_name",
-          "SourceString": "<!>行进于时间之外Ⅰ",
-          "LocalizedString": "<!>行进于时间之外Ⅰ"
+          "SourceString": "行进于时间之外Ⅱ",
+          "LocalizedString": "行进于时间之外Ⅱ"
         },
         "Icon": {
           "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_critdam.bufficon_common_critdam",
@@ -1901,8 +1902,8 @@
         "Name": {
           "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
           "Key": "Buff_Fork_Time_DefIgnore_name",
-          "SourceString": "<!>行进于时间之外Ⅱ",
-          "LocalizedString": "<!>行进于时间之外Ⅱ"
+          "SourceString": "行进于时间之外Ⅲ",
+          "LocalizedString": "行进于时间之外Ⅲ"
         },
         "Icon": {
           "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_defignore.bufficon_common_defignore",
@@ -1911,8 +1912,8 @@
         "Desc": {
           "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
           "Key": "Buff_Fork_Time_DefIgnore_des",
-          "SourceString": "一次性消耗了15层「时计」，额外获得{0}无视防御效果，持续3秒。",
-          "LocalizedString": "一次性消耗了15层「时计」，额外获得{0}无视防御效果，持续3秒。"
+          "SourceString": "一次性消耗了3层「荒时」，额外获得{0}无视防御效果，持续3秒。",
+          "LocalizedString": "一次性消耗了3层「荒时」，额外获得{0}无视防御效果，持续3秒。"
         },
         "BuffType": "BuffInfoType::PositiveBuff",
         "Hierarchy": -1,
@@ -2071,8 +2072,8 @@
         "Desc": {
           "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
           "Key": "Buff_Fork_BitGame2_BackEffect2_des",
-          "SourceString": "<!>自身攻击力提高{0}，最多叠加4层，每2秒最多叠加1次。",
-          "LocalizedString": "<!>自身攻击力提高{0}，最多叠加4层，每2秒最多叠加1次。"
+          "SourceString": "自身攻击力提高{0}，最多叠加4层，每2秒最多叠加1次。",
+          "LocalizedString": "自身攻击力提高{0}，最多叠加4层，每2秒最多叠加1次。"
         },
         "BuffType": "BuffInfoType::PositiveBuff",
         "Hierarchy": -1,
@@ -2167,8 +2168,8 @@
         "Desc": {
           "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
           "Key": "Buff_Fork_wushoutieyu_Effect_des",
-          "SourceString": "装备者「变轨技能」造成伤害提升{0}，持续10秒。",
-          "LocalizedString": "装备者「变轨技能」造成伤害提升{0}，持续10秒。"
+          "SourceString": "装备者「变轨技能」和「极轨终结」造成伤害提升{0}，持续10秒。",
+          "LocalizedString": "装备者「变轨技能」和「极轨终结」造成伤害提升{0}，持续10秒。"
         },
         "BuffType": "BuffInfoType::PositiveBuff",
         "Hierarchy": -1,
@@ -3218,7 +3219,7 @@
         "Hierarchy": -1,
         "BuffPropType": "BuffPropType::BUFF_PROP_LAKSHANA",
         "IsShowInBuffMaganger": true,
-        "IsMajorBuff": false,
+        "IsMajorBuff": true,
         "ReplaceBufferID": "None",
         "IsShowInHeadUpBattleMark": false,
         "IsShowOnlySenderClient": false,
@@ -3314,7 +3315,7 @@
         "Hierarchy": -1,
         "BuffPropType": "BuffPropType::BUFF_PROP_PSYCHE",
         "IsShowInBuffMaganger": true,
-        "IsMajorBuff": false,
+        "IsMajorBuff": true,
         "ReplaceBufferID": "None",
         "IsShowInHeadUpBattleMark": false,
         "IsShowOnlySenderClient": false,
@@ -3410,7 +3411,7 @@
         "Hierarchy": -1,
         "BuffPropType": "BuffPropType::BUFF_PROP_NATURE",
         "IsShowInBuffMaganger": true,
-        "IsMajorBuff": false,
+        "IsMajorBuff": true,
         "ReplaceBufferID": "None",
         "IsShowInHeadUpBattleMark": false,
         "IsShowOnlySenderClient": false,
@@ -3442,7 +3443,7 @@
         "Hierarchy": -1,
         "BuffPropType": "BuffPropType::BUFF_PROP_NATURE",
         "IsShowInBuffMaganger": true,
-        "IsMajorBuff": false,
+        "IsMajorBuff": true,
         "ReplaceBufferID": "None",
         "IsShowInHeadUpBattleMark": false,
         "IsShowOnlySenderClient": false,
@@ -3771,6 +3772,483 @@
         "GEParamNum": 0,
         "IsValueOnlyAndCustomDesc": true,
         "IsShowCustomModifierInfo": true,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Mon030Rain_DotDamage": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_Mon030Rain_DotDamage_name",
+          "SourceString": "冻雨",
+          "LocalizedString": "冻雨"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/YH_UI_bufficon_mon030_rain.YH_UI_bufficon_mon030_rain",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_Mon030Rain_DotDamage_des",
+          "SourceString": "自身持续受到伤害",
+          "LocalizedString": "自身持续受到伤害"
+        },
+        "BuffType": "BuffInfoType::NegativeBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Skia008_Level2_1": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+          "Key": "GA_Skia_Passive_2_name",
+          "SourceString": "捉拿归案",
+          "LocalizedString": "捉拿归案"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Player/bufficon_skia_Awake2.bufficon_skia_Awake2",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
+          "Key": "GA_Skia_star2_des",
+          "SourceString": "翳在释放「变轨技能：潜影追击」后，使自身的暴击率提升<NumGreen>10%</>，抗打断能力提升<NumGreen>50%</>，持续<NumGreen>15</>秒。",
+          "LocalizedString": "翳在释放「变轨技能：潜影追击」后，使自身的暴击率提升<NumGreen>10%</>，抗打断能力提升<NumGreen>50%</>，持续<NumGreen>15</>秒。"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::BUFF_PROP_LAKSHANA",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Skia008_Level2_1",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "GE_mon_030_Energy": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "GE_mon_030_Energy_name",
+          "SourceString": "极寒",
+          "LocalizedString": "极寒"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/YH_UI_bufficon_mon030_snow.YH_UI_bufficon_mon030_snow",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "GE_mon_030_Energy_des",
+          "SourceString": "自身耐力持续减少",
+          "LocalizedString": "自身耐力持续减少"
+        },
+        "BuffType": "BuffInfoType::NegativeBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Fork_Time_CritDamUp2": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_Fork_Time_CritDamUp2_name",
+          "SourceString": "行进于时间之外Ⅰ",
+          "LocalizedString": "行进于时间之外Ⅰ"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_critdam.bufficon_common_critdam",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_Fork_Time_CritDamUp2_des",
+          "SourceString": "「极轨终结」造成的暴击伤害提升(0),持续3秒。",
+          "LocalizedString": "「极轨终结」造成的暴击伤害提升(0),持续3秒。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Fork_Time_CritDamUp2",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": true,
+        "IsShowCustomModifierInfo": true,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Fork_Time_State": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_Fork_Time_State_name",
+          "SourceString": "「荒时迷宫」",
+          "LocalizedString": "「荒时迷宫」"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/TakeOrders/YH_UI_weituo_time_ico.YH_UI_weituo_time_ico",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "CultureInvariantString": null
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Fork_Time_State",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": true,
+        "IsShowCustomModifierInfo": true,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Fork_WorldRain_effect": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_Fork_WorldRain_effect_name",
+          "SourceString": "倾世之雨",
+          "LocalizedString": "倾世之雨"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_critdam.bufficon_common_critdam",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_Fork_WorldRain_effect_des",
+          "SourceString": "装备者释放「变轨技能」后，自身环合强度提高{0}，持续15秒。",
+          "LocalizedString": "装备者释放「变轨技能」后，自身环合强度提高{0}，持续15秒。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Fork_WorldRain_effect",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": true,
+        "IsShowCustomModifierInfo": true,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Fork_Moon_effect": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_Fork_Moon_effect_name",
+          "SourceString": "银河暂留",
+          "LocalizedString": "银河暂留"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_critdam.bufficon_common_critdam",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "Buff_Fork_Moon_effect_des",
+          "SourceString": "造成魂属性异能伤害时，自身暴击伤害提高{0}，持续5秒，最多叠加10层。",
+          "LocalizedString": "造成魂属性异能伤害时，自身暴击伤害提高{0}，持续5秒，最多叠加10层。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Fork_Moon_effect",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": true,
+        "IsShowCustomModifierInfo": true,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Mitsuki_Skill": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "MitsukiSkill_name",
+          "SourceString": "华彩",
+          "LocalizedString": "华彩"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/bufficon_Mitsuki_SkillBuff.bufficon_Mitsuki_SkillBuff",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "MitsukiSkill_des",
+          "SourceString": "海月发射的水母弹造成额外<NumGreen>70%</>伤害，并对目标周围的敌人造成范围伤害。",
+          "LocalizedString": "海月发射的水母弹造成额外<NumGreen>70%</>伤害，并对目标周围的敌人造成范围伤害。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::BUFF_PROP_PSYCHE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": true,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Mitsuki_Skill",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Mitsuki070_Passive2_AtkUp": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_Passive_2_name",
+          "SourceString": "渐强",
+          "LocalizedString": "渐强"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_Passive_2_des_tidy",
+          "SourceString": "每当水母弹命中目标时，海月的攻击力提升<NumGreen>1%</>，效果持续<NumGreen>5</>秒，最多可叠加<NumGreen>10</>层。",
+          "LocalizedString": "每当水母弹命中目标时，海月的攻击力提升<NumGreen>1%</>，效果持续<NumGreen>5</>秒，最多可叠加<NumGreen>10</>层。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::BUFF_PROP_PSYCHE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": true,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Mitsuki070_Passive2_AtkUp",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Mitsuki070_Level1_CritUp": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_star1_name",
+          "SourceString": "未来序曲",
+          "LocalizedString": "未来序曲"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_crit.bufficon_common_crit",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_star1_des",
+          "SourceString": "处于<hot textstyle=\"TextEXPL\" param=\"nouns&MitsukiSkill\">「华彩」</>状态时，海月的暴击率提高<NumGreen>15%</>。",
+          "LocalizedString": "处于<hot textstyle=\"TextEXPL\" param=\"nouns&MitsukiSkill\">「华彩」</>状态时，海月的暴击率提高<NumGreen>15%</>。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::BUFF_PROP_PSYCHE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": true,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Mitsuki070_Level1_CritUp",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Mitsuki070_Level3_DmgUp": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_star3_name",
+          "SourceString": "三重奏的休止符",
+          "LocalizedString": "三重奏的休止符"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_dmgup_ultraskill.bufficon_common_dmgup_ultraskill",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_star3_des",
+          "SourceString": "处于<hot textstyle=\"TextEXPL\" param=\"nouns&MitsukiSkill\">「华彩」</>状态时，海月释放「极轨终结：众声轮唱」所造成的伤害提高<NumGreen>20%</>。",
+          "LocalizedString": "处于<hot textstyle=\"TextEXPL\" param=\"nouns&MitsukiSkill\">「华彩」</>状态时，海月释放「极轨终结：众声轮唱」所造成的伤害提高<NumGreen>20%</>。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::BUFF_PROP_PSYCHE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": true,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Mitsuki070_Level3_DmgUp",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Mitsuki070_Level4_DefUp": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_star4_name",
+          "SourceString": "五线谱的空白处",
+          "LocalizedString": "五线谱的空白处"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_def.bufficon_common_def",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_star4_des",
+          "SourceString": "在释放「普通攻击：顿音」时，海月的防御力增加<NumGreen>20%</>。",
+          "LocalizedString": "在释放「普通攻击：顿音」时，海月的防御力增加<NumGreen>20%</>。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::BUFF_PROP_PSYCHE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": true,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Mitsuki070_Level4_DefUp",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Mitsuki070_Level6_extra_DmgUp": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_starExtra2_name",
+          "SourceString": "与你一同奏响",
+          "LocalizedString": "与你一同奏响"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_dmgup.bufficon_common_dmgup",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_starExtra2_des",
+          "SourceString": "进入<hot textstyle=\"TextEXPL\" param=\"nouns&MitsukiSkill\">「华彩」</>状态或<hot textstyle=\"TextEXPL\" param=\"nouns&MitsukiSkill\">「华彩」</>状态持续时间延长时，全队的<Hun>魂属性异能伤害</>提升<NumGreen>8%</>，持续<NumGreen>15</>秒，重复获得刷新持续时间。",
+          "LocalizedString": "进入<hot textstyle=\"TextEXPL\" param=\"nouns&MitsukiSkill\">「华彩」</>状态或<hot textstyle=\"TextEXPL\" param=\"nouns&MitsukiSkill\">「华彩」</>状态持续时间延长时，全队的<Hun>魂属性异能伤害</>提升<NumGreen>8%</>，持续<NumGreen>15</>秒，重复获得刷新持续时间。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::BUFF_PROP_PSYCHE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": true,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Mitsuki070_Level6_extra_DmgUp",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "GE_mon_030_EnergyVision": {
+        "Name": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "GE_mon_030_Energy_name",
+          "SourceString": "极寒",
+          "LocalizedString": "极寒"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/YH_UI_bufficon_mon030_snow.YH_UI_bufficon_mon030_snow",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_BuffDes.ST_BuffDes",
+          "Key": "GE_mon_030_Energy_des",
+          "SourceString": "自身耐力持续减少",
+          "LocalizedString": "自身耐力持续减少"
+        },
+        "BuffType": "BuffInfoType::NegativeBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::NONE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "None",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Mitsuki070_Passive2_AtkUp_level6": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_Passive_2_name",
+          "SourceString": "渐强",
+          "LocalizedString": "渐强"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Common/bufficon_common_atk.bufficon_common_atk",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_Passive_2_level6_des_tidy",
+          "SourceString": "每当水母弹命中目标时，海月的攻击力提升<NumGreen>1%</>，效果持续<NumGreen>5</>秒，最多可叠加<NumGreen>20</>层。",
+          "LocalizedString": "每当水母弹命中目标时，海月的攻击力提升<NumGreen>1%</>，效果持续<NumGreen>5</>秒，最多可叠加<NumGreen>20</>层。"
+        },
+        "BuffType": "BuffInfoType::PositiveBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::BUFF_PROP_PSYCHE",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": true,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Mitsuki070_Passive2_AtkUp_level6",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
         "IsValueOnlyAndStackCountReplaceLevel": false
       }
     }

@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_SettingSliderOption",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Setting/DT_SettingSliderOption",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'SettingOptionSliderDataRow'",
@@ -44,8 +45,23 @@
       "SteeringSensitivity": {
         "DefaultValue": 5
       },
+      "NewRow": {
+        "DefaultValue": 0
+      },
+      "VehicleThirdPersonCameraAutoAdjustDuration": {
+        "DefaultValue": 2
+      },
+      "VehicleFirstPersonCameraAutoAdjustDuration": {
+        "DefaultValue": 2
+      },
       "FPCameraFOV": {
         "DefaultValue": 90
+      },
+      "Setting_PropMessageOpacity": {
+        "DefaultValue": 1
+      },
+      "SteeringDead": {
+        "DefaultValue": 8
       }
     }
   }

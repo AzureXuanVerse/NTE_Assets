@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_InventoryContainer",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Inventory/DT_InventoryContainer",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'InventoryContainerData'",
@@ -140,7 +141,7 @@
         ],
         "ExtraDisplayItemTypes": [],
         "ExtraDisplayItemIDs": [],
-        "ContainerCapacity": 1000,
+        "ContainerCapacity": 2000,
         "ShowInBagTabConditions": [
           {
             "ExcludeLevels": [
@@ -188,7 +189,7 @@
         ],
         "ExtraDisplayItemTypes": [],
         "ExtraDisplayItemIDs": [],
-        "ContainerCapacity": 1000,
+        "ContainerCapacity": 2000,
         "ShowInBagTabConditions": [
           {
             "ExcludeLevels": [
@@ -343,7 +344,8 @@
           "EItemType::ITEM_TYPE_DIVINATION_CRYSTAL",
           "EItemType::ITEM_TYPE_ROB_BANK_IMPORTANT",
           "EItemType::ITEM_TYPE_ROB_BANK",
-          "EItemType::ITEM_TYPE_CHARACTER_CARD"
+          "EItemType::ITEM_TYPE_CHARACTER_CARD",
+          "EItemType::ITEM_TYPE_LIMITED_COUNT_VEHICLE_KEY"
         ],
         "ExtraDisplayItemTypes": [],
         "ExtraDisplayItemIDs": [],
@@ -447,7 +449,7 @@
       },
       "AUTOUSE": {
         "ContainItemTypes": [
-          "EItemType::ITEM_TYPE_EQUIPMENT_CORE",
+          "EItemType::ITEM_TYPE_AUTO_USE",
           "EItemType::ITEM_TYPE_FASHION",
           "EItemType::ITEM_TYPE_GLIDE"
         ],
@@ -483,8 +485,7 @@
       "INVISIBLE": {
         "ContainItemTypes": [
           "EItemType::ITEM_TYPE_GACHA_BOX",
-          "EItemType::ITEM_TYPE_VEHICLE_SKIN",
-          "EItemType::ITEM_TYPE_LIKEABILITY_RELATION"
+          "EItemType::ITEM_TYPE_VEHICLE_SKIN"
         ],
         "ExtraDisplayItemTypes": [],
         "ExtraDisplayItemIDs": [],
@@ -648,7 +649,22 @@
           "SmallWardKey_2f",
           "BigWardKey_2f",
           "HallKey_2f",
-          "StairwellKey_2f"
+          "StairwellKey_2f",
+          "ExperimentClue_2",
+          "ExperimentClue_3",
+          "ExperimentClue_4",
+          "ExperimentClue_5",
+          "ExperimentClue_6",
+          "ElevatorCard_Hospital",
+          "NorthSidekey_3F",
+          "SouthSidekey_3F",
+          "SouthOfficekey_3F",
+          "HospitalJigsaw_1",
+          "HospitalJigsaw_2",
+          "HospitalJigsawFake_2",
+          "HospitalJigsaw_Toilet",
+          "HospitalJigsaw_Hidden",
+          "MetaClue_1"
         ],
         "ContainerCapacity": 1000,
         "ShowInBagTabConditions": [
@@ -708,7 +724,8 @@
           "Prison_walkman",
           "Food_115",
           "Food_116",
-          "Food_117"
+          "Food_117",
+          "Prison_SideDoorkey"
         ],
         "ContainerCapacity": 1000,
         "ShowInBagTabConditions": [

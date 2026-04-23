@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_CombatAwardConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/CombatAward/DT_CombatAwardConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'HTCombatAwardConfig'",
@@ -110,7 +111,7 @@
         "AdvancedAward02": {
           "bIsSpecialItem": false,
           "ItemID": "SpecialGift_letter",
-          "Amount": 1
+          "Amount": 2
         },
         "bIsRichAward": true,
         "bIsNeedNoticeActiveAward": false,
@@ -215,7 +216,7 @@
         "AdvancedAward02": {
           "bIsSpecialItem": false,
           "ItemID": "Fons",
-          "Amount": 20000
+          "Amount": 100000
         },
         "bIsRichAward": true,
         "bIsNeedNoticeActiveAward": true,
@@ -425,7 +426,7 @@
         "AdvancedAward02": {
           "bIsSpecialItem": false,
           "ItemID": "fons",
-          "Amount": 50000
+          "Amount": 200000
         },
         "bIsRichAward": true,
         "bIsNeedNoticeActiveAward": true,
@@ -950,7 +951,7 @@
         "AdvancedAward02": {
           "bIsSpecialItem": false,
           "ItemID": "Fons",
-          "Amount": 50000
+          "Amount": 200000
         },
         "bIsRichAward": true,
         "bIsNeedNoticeActiveAward": false,

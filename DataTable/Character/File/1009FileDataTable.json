@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "1009FileDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/File/1009FileDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CharacterFileData'",
@@ -43,6 +44,12 @@
           "Key": "ZERO_F_birthday",
           "SourceString": "未知",
           "LocalizedString": "未知"
+        },
+        "BirthdaySkillName": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "skillname_001",
+          "SourceString": "异能：",
+          "LocalizedString": "异能："
         },
         "HomePlace": {
           "TableId": "/Game/Text/ST_File.ST_File",

@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_ChargeData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Shop/DT_ChargeData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'ChargeConfig'",
@@ -15,14 +16,14 @@
         "ProductId": "com.pwrd.yihuan.6",
         "ChargeType": "EChargeType::Common",
         "ChargePrice": 600,
-        "ClientShowPrice": "￥  6",
+        "ClientShowPrice": "￥6.00",
         "ClientShowPrice_OS": "USD 0.99",
         "PrimaryCurrency": "Riftcrystal",
         "PrimaryCurrencyAmount": 60,
         "VoucherID": "Voucher",
         "VoucherAmount": 6,
         "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "AssetPathName": "/Game/UI/UI/shop/RechargeShop/YH_UI_chongzhi_6.YH_UI_chongzhi_6",
           "SubPathString": ""
         },
         "Desc": "",
@@ -38,14 +39,14 @@
         "ProductId": "com.pwrd.yihuan.30",
         "ChargeType": "EChargeType::Common",
         "ChargePrice": 3000,
-        "ClientShowPrice": "￥  30",
+        "ClientShowPrice": "￥30.00",
         "ClientShowPrice_OS": "USD 4.99",
         "PrimaryCurrency": "Riftcrystal",
         "PrimaryCurrencyAmount": 300,
         "VoucherID": "Voucher",
         "VoucherAmount": 30,
         "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_02.UI_YH_Recharge_Icon_02",
+          "AssetPathName": "/Game/UI/UI/shop/RechargeShop/YH_UI_chongzhi_30.YH_UI_chongzhi_30",
           "SubPathString": ""
         },
         "Desc": "",
@@ -61,14 +62,14 @@
         "ProductId": "com.pwrd.yihuan.98",
         "ChargeType": "EChargeType::Common",
         "ChargePrice": 9800,
-        "ClientShowPrice": "￥  98",
+        "ClientShowPrice": "￥98.00",
         "ClientShowPrice_OS": "USD 14.99",
         "PrimaryCurrency": "Riftcrystal",
         "PrimaryCurrencyAmount": 980,
         "VoucherID": "Voucher",
         "VoucherAmount": 98,
         "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_03.UI_YH_Recharge_Icon_03",
+          "AssetPathName": "/Game/UI/UI/shop/RechargeShop/YH_UI_chongzhi_98.YH_UI_chongzhi_98",
           "SubPathString": ""
         },
         "Desc": "",
@@ -84,14 +85,14 @@
         "ProductId": "com.pwrd.yihuan.198",
         "ChargeType": "EChargeType::Common",
         "ChargePrice": 19800,
-        "ClientShowPrice": "￥  198",
+        "ClientShowPrice": "￥198.00",
         "ClientShowPrice_OS": "USD 29.99",
         "PrimaryCurrency": "Riftcrystal",
         "PrimaryCurrencyAmount": 1980,
         "VoucherID": "Voucher",
         "VoucherAmount": 198,
         "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_04.UI_YH_Recharge_Icon_04",
+          "AssetPathName": "/Game/UI/UI/shop/RechargeShop/YH_UI_chongzhi_198.YH_UI_chongzhi_198",
           "SubPathString": ""
         },
         "Desc": "",
@@ -107,14 +108,14 @@
         "ProductId": "com.pwrd.yihuan.328",
         "ChargeType": "EChargeType::Common",
         "ChargePrice": 32800,
-        "ClientShowPrice": "￥  328",
+        "ClientShowPrice": "￥328.00",
         "ClientShowPrice_OS": "USD 49.99",
         "PrimaryCurrency": "Riftcrystal",
         "PrimaryCurrencyAmount": 3280,
         "VoucherID": "Voucher",
         "VoucherAmount": 328,
         "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_05.UI_YH_Recharge_Icon_05",
+          "AssetPathName": "/Game/UI/UI/shop/RechargeShop/YH_UI_chongzhi_328.YH_UI_chongzhi_328",
           "SubPathString": ""
         },
         "Desc": "",
@@ -130,14 +131,14 @@
         "ProductId": "com.pwrd.yihuan.648",
         "ChargeType": "EChargeType::Common",
         "ChargePrice": 64800,
-        "ClientShowPrice": "￥  648",
+        "ClientShowPrice": "￥648.00",
         "ClientShowPrice_OS": "USD 99.99",
         "PrimaryCurrency": "Riftcrystal",
         "PrimaryCurrencyAmount": 6480,
         "VoucherID": "Voucher",
         "VoucherAmount": 648,
         "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_06.UI_YH_Recharge_Icon_06",
+          "AssetPathName": "/Game/UI/UI/shop/RechargeShop/YH_UI_chongzhi_648.YH_UI_chongzhi_648",
           "SubPathString": ""
         },
         "Desc": "",
@@ -172,6 +173,144 @@
         },
         "MappingID": 264800001
       },
+      "com.pwrd.yihuan.gift.6": {
+        "ProductId": "com.pwrd.yihuan.gift.6",
+        "ChargeType": "EChargeType::MallShop",
+        "ChargePrice": 600,
+        "ClientShowPrice": "￥ 6",
+        "ClientShowPrice_OS": "USD 0.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 66,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 6,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "6元充值，6元特惠礼包",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "giftpackage_dice_6_name",
+          "SourceString": "双频掷骰礼盒",
+          "LocalizedString": "双频掷骰礼盒"
+        },
+        "MappingID": 50060001
+      },
+      "com.pwrd.yihuan.gift.18": {
+        "ProductId": "com.pwrd.yihuan.gift.18",
+        "ChargeType": "EChargeType::MallShop",
+        "ChargePrice": 1800,
+        "ClientShowPrice": "￥ 18",
+        "ClientShowPrice_OS": "USD 2.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 198,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 18,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "18元充值，18元特惠礼包",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "giftpackage_fork_18_name",
+          "SourceString": "特选弧盘礼盒",
+          "LocalizedString": "特选弧盘礼盒"
+        },
+        "MappingID": 50180001
+      },
+      "com.pwrd.yihuan.gift.30": {
+        "ProductId": "com.pwrd.yihuan.gift.30",
+        "ChargeType": "EChargeType::MallShop",
+        "ChargePrice": 3000,
+        "ClientShowPrice": "￥ 30",
+        "ClientShowPrice_OS": "USD 4.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 330,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 30,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "30元充值，30元特惠礼包",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "giftpackage_coin_30_name",
+          "SourceString": "长线资金组合箱",
+          "LocalizedString": "长线资金组合箱"
+        },
+        "MappingID": 50300001
+      },
+      "com.pwrd.yihuan.gift1.98": {
+        "ProductId": "com.pwrd.yihuan.gift1.98",
+        "ChargeType": "EChargeType::MallShop",
+        "ChargePrice": 9800,
+        "ClientShowPrice": "￥ 98",
+        "ClientShowPrice_OS": "USD 14.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 1090,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 98,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "98元充值，98元特惠礼包1",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "giftpackage_nanallydice_98_name",
+          "SourceString": "萌虎掷骰礼盒",
+          "LocalizedString": "萌虎掷骰礼盒"
+        },
+        "MappingID": 50980001
+      },
+      "com.pwrd.yihuan.gift2.98": {
+        "ProductId": "com.pwrd.yihuan.gift2.98",
+        "ChargeType": "EChargeType::MallShop",
+        "ChargePrice": 9800,
+        "ClientShowPrice": "￥ 98",
+        "ClientShowPrice_OS": "USD 14.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 1090,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 98,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "98元充值，98元特惠礼包2",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "DiceNormal_giftpackage_01_name",
+          "SourceString": "奇遇掷骰礼盒",
+          "LocalizedString": "奇遇掷骰礼盒"
+        },
+        "MappingID": 50980002
+      },
+      "com.pwrd.yihuan.gift.328": {
+        "ProductId": "com.pwrd.yihuan.gift.328",
+        "ChargeType": "EChargeType::MallShop",
+        "ChargePrice": 32800,
+        "ClientShowPrice": "￥ 328",
+        "ClientShowPrice_OS": "USD 49.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 3880,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 328,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "328元充值，328元特惠礼包",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "giftpackage_vehicle023_328_name",
+          "SourceString": "音速疾驰礼盒",
+          "LocalizedString": "音速疾驰礼盒"
+        },
+        "MappingID": 53280001
+      },
       "com.pwrd.yihuan.monthly.30": {
         "ProductId": "com.pwrd.yihuan.monthly.30",
         "ChargeType": "EChargeType::Monthly",
@@ -200,7 +339,7 @@
         "ChargeType": "EChargeType::Pass",
         "ChargePrice": 6800,
         "ClientShowPrice": "￥ 68",
-        "ClientShowPrice_OS": "USD 10.49",
+        "ClientShowPrice_OS": "USD 9.99",
         "PrimaryCurrency": "Riftcrystal",
         "PrimaryCurrencyAmount": 750,
         "VoucherID": "Voucher",
@@ -223,7 +362,7 @@
         "ChargeType": "EChargeType::Pass",
         "ChargePrice": 12800,
         "ClientShowPrice": "￥ 128",
-        "ClientShowPrice_OS": "USD 20.99",
+        "ClientShowPrice_OS": "USD 19.99",
         "PrimaryCurrency": "Riftcrystal",
         "PrimaryCurrencyAmount": 1410,
         "VoucherID": "Voucher",
@@ -246,7 +385,7 @@
         "ChargeType": "EChargeType::Pass",
         "ChargePrice": 6000,
         "ClientShowPrice": "￥ 60",
-        "ClientShowPrice_OS": "USD 9.99",
+        "ClientShowPrice_OS": "USD 10",
         "PrimaryCurrency": "Riftcrystal",
         "PrimaryCurrencyAmount": 660,
         "VoucherID": "Voucher",
@@ -273,7 +412,7 @@
         "PrimaryCurrency": "Riftcrystal",
         "PrimaryCurrencyAmount": 32400,
         "VoucherID": "Voucher",
-        "VoucherAmount": 324,
+        "VoucherAmount": 3240,
         "IconResource": {
           "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_06.UI_YH_Recharge_Icon_06",
           "SubPathString": ""
@@ -291,14 +430,14 @@
         "ClientShowPrice": "",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 60,
+        "PrimaryCurrencyAmount": 54,
         "VoucherID": "Voucher",
         "VoucherAmount": 6,
         "IconResource": {
           "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
           "SubPathString": ""
         },
-        "Desc": "",
+        "Desc": "tw开头是港澳台特殊",
         "ProductName": {
           "CultureInvariantString": null
         },
@@ -311,7 +450,7 @@
         "ClientShowPrice": "",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 100,
+        "PrimaryCurrencyAmount": 90,
         "VoucherID": "Voucher",
         "VoucherAmount": 10,
         "IconResource": {
@@ -331,7 +470,7 @@
         "ClientShowPrice": "",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 180,
+        "PrimaryCurrencyAmount": 163,
         "VoucherID": "Voucher",
         "VoucherAmount": 18,
         "IconResource": {
@@ -351,7 +490,7 @@
         "ClientShowPrice": "",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 300,
+        "PrimaryCurrencyAmount": 272,
         "VoucherID": "Voucher",
         "VoucherAmount": 30,
         "IconResource": {
@@ -371,9 +510,9 @@
         "ClientShowPrice": "",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 340,
+        "PrimaryCurrencyAmount": 300,
         "VoucherID": "Voucher",
-        "VoucherAmount": 34,
+        "VoucherAmount": 37,
         "IconResource": {
           "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_02.UI_YH_Recharge_Icon_02",
           "SubPathString": ""
@@ -391,7 +530,7 @@
         "ClientShowPrice": "",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 600,
+        "PrimaryCurrencyAmount": 530,
         "VoucherID": "Voucher",
         "VoucherAmount": 60,
         "IconResource": {
@@ -411,7 +550,7 @@
         "ClientShowPrice": "",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 700,
+        "PrimaryCurrencyAmount": 618,
         "VoucherID": "Voucher",
         "VoucherAmount": 70,
         "IconResource": {
@@ -431,7 +570,7 @@
         "ClientShowPrice": "",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 800,
+        "PrimaryCurrencyAmount": 706,
         "VoucherID": "Voucher",
         "VoucherAmount": 80,
         "IconResource": {
@@ -451,7 +590,7 @@
         "ClientShowPrice": "",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 900,
+        "PrimaryCurrencyAmount": 794,
         "VoucherID": "Voucher",
         "VoucherAmount": 90,
         "IconResource": {
@@ -591,7 +730,7 @@
         "ClientShowPrice": "",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 4000,
+        "PrimaryCurrencyAmount": 3880,
         "VoucherID": "Voucher",
         "VoucherAmount": 400,
         "IconResource": {
@@ -611,7 +750,7 @@
         "ClientShowPrice": "",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 5000,
+        "PrimaryCurrencyAmount": 4850,
         "VoucherID": "Voucher",
         "VoucherAmount": 500,
         "IconResource": {
@@ -631,7 +770,7 @@
         "ClientShowPrice": "",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 6000,
+        "PrimaryCurrencyAmount": 5820,
         "VoucherID": "Voucher",
         "VoucherAmount": 600,
         "IconResource": {
@@ -671,7 +810,7 @@
         "ClientShowPrice": "",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 10000,
+        "PrimaryCurrencyAmount": 9850,
         "VoucherID": "Voucher",
         "VoucherAmount": 1000,
         "IconResource": {
@@ -691,7 +830,7 @@
         "ClientShowPrice": "",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 20000,
+        "PrimaryCurrencyAmount": 19700,
         "VoucherID": "Voucher",
         "VoucherAmount": 2000,
         "IconResource": {
@@ -711,7 +850,7 @@
         "ClientShowPrice": "￥ 1",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 10,
+        "PrimaryCurrencyAmount": 11,
         "VoucherID": "Voucher",
         "VoucherAmount": 1,
         "IconResource": {
@@ -720,198 +859,21 @@
         },
         "Desc": "1元充值，运营活动礼包1",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
         "MappingID": 10010001
-      },
-      "com.pwrd.yihuan.libao2.1": {
-        "ProductId": "com.pwrd.yihuan.libao2.1",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 100,
-        "ClientShowPrice": "￥ 1",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 10,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 1,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "1元充值，运营活动礼包2",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10010001
-      },
-      "com.pwrd.yihuan.libao3.1": {
-        "ProductId": "com.pwrd.yihuan.libao3.1",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 100,
-        "ClientShowPrice": "￥ 1",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 10,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 1,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "1元充值，运营活动礼包3",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10010002
-      },
-      "com.pwrd.yihuan.libao4.1": {
-        "ProductId": "com.pwrd.yihuan.libao4.1",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 100,
-        "ClientShowPrice": "￥ 1",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 10,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 1,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "1元充值，运营活动礼包4",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10010003
-      },
-      "com.pwrd.yihuan.libao5.1": {
-        "ProductId": "com.pwrd.yihuan.libao5.1",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 100,
-        "ClientShowPrice": "￥ 1",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 10,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 1,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "1元充值，运营活动礼包5",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10010004
-      },
-      "com.pwrd.yihuan.libao6.1": {
-        "ProductId": "com.pwrd.yihuan.libao6.1",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 100,
-        "ClientShowPrice": "￥ 1",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 10,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 1,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "1元充值，运营活动礼包6",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10010005
-      },
-      "com.pwrd.yihuan.libao7.1": {
-        "ProductId": "com.pwrd.yihuan.libao7.1",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 100,
-        "ClientShowPrice": "￥ 1",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 10,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 1,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "1元充值，运营活动礼包7",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10010006
-      },
-      "com.pwrd.yihuan.libao8.1": {
-        "ProductId": "com.pwrd.yihuan.libao8.1",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 100,
-        "ClientShowPrice": "￥ 1",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 10,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 1,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "1元充值，运营活动礼包8",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10010007
-      },
-      "com.pwrd.yihuan.libao9.1": {
-        "ProductId": "com.pwrd.yihuan.libao9.1",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 100,
-        "ClientShowPrice": "￥ 1",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 10,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 1,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "1元充值，运营活动礼包9",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10010008
-      },
-      "com.pwrd.yihuan.libao10.1": {
-        "ProductId": "com.pwrd.yihuan.libao10.1",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 100,
-        "ClientShowPrice": "￥ 1",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 10,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 1,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "1元充值，运营活动礼包10",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10010009
       },
       "com.pwrd.yihuan.libao1.6": {
         "ProductId": "com.pwrd.yihuan.libao1.6",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 600,
         "ClientShowPrice": "￥ 6",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 0.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 60,
+        "PrimaryCurrencyAmount": 66,
         "VoucherID": "Voucher",
         "VoucherAmount": 6,
         "IconResource": {
@@ -920,18 +882,21 @@
         },
         "Desc": "6元充值，运营活动礼包1",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10010010
+        "MappingID": 10060001
       },
       "com.pwrd.yihuan.libao2.6": {
         "ProductId": "com.pwrd.yihuan.libao2.6",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 600,
         "ClientShowPrice": "￥ 6",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 0.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 60,
+        "PrimaryCurrencyAmount": 66,
         "VoucherID": "Voucher",
         "VoucherAmount": 6,
         "IconResource": {
@@ -940,18 +905,21 @@
         },
         "Desc": "6元充值，运营活动礼包2",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10060001
+        "MappingID": 10060002
       },
       "com.pwrd.yihuan.libao3.6": {
         "ProductId": "com.pwrd.yihuan.libao3.6",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 600,
         "ClientShowPrice": "￥ 6",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 0.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 60,
+        "PrimaryCurrencyAmount": 66,
         "VoucherID": "Voucher",
         "VoucherAmount": 6,
         "IconResource": {
@@ -960,18 +928,21 @@
         },
         "Desc": "6元充值，运营活动礼包3",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10060002
+        "MappingID": 10060003
       },
       "com.pwrd.yihuan.libao4.6": {
         "ProductId": "com.pwrd.yihuan.libao4.6",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 600,
         "ClientShowPrice": "￥ 6",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 0.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 60,
+        "PrimaryCurrencyAmount": 66,
         "VoucherID": "Voucher",
         "VoucherAmount": 6,
         "IconResource": {
@@ -980,18 +951,21 @@
         },
         "Desc": "6元充值，运营活动礼包4",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10060003
+        "MappingID": 10060004
       },
       "com.pwrd.yihuan.libao5.6": {
         "ProductId": "com.pwrd.yihuan.libao5.6",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 600,
         "ClientShowPrice": "￥ 6",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 0.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 60,
+        "PrimaryCurrencyAmount": 66,
         "VoucherID": "Voucher",
         "VoucherAmount": 6,
         "IconResource": {
@@ -1000,118 +974,21 @@
         },
         "Desc": "6元充值，运营活动礼包5",
         "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10060004
-      },
-      "com.pwrd.yihuan.libao6.6": {
-        "ProductId": "com.pwrd.yihuan.libao6.6",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 600,
-        "ClientShowPrice": "￥ 6",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 60,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 6,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "6元充值，运营活动礼包6",
-        "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
         "MappingID": 10060005
-      },
-      "com.pwrd.yihuan.libao7.6": {
-        "ProductId": "com.pwrd.yihuan.libao7.6",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 600,
-        "ClientShowPrice": "￥ 6",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 60,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 6,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "6元充值，运营活动礼包7",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10060006
-      },
-      "com.pwrd.yihuan.libao8.6": {
-        "ProductId": "com.pwrd.yihuan.libao8.6",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 600,
-        "ClientShowPrice": "￥ 6",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 60,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 6,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "6元充值，运营活动礼包8",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10060007
-      },
-      "com.pwrd.yihuan.libao9.6": {
-        "ProductId": "com.pwrd.yihuan.libao9.6",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 600,
-        "ClientShowPrice": "￥ 6",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 60,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 6,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "6元充值，运营活动礼包9",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10060008
-      },
-      "com.pwrd.yihuan.libao10.6": {
-        "ProductId": "com.pwrd.yihuan.libao10.6",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 600,
-        "ClientShowPrice": "￥ 6",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 60,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 6,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "6元充值，运营活动礼包10",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10060009
       },
       "com.pwrd.yihuan.libao1.18": {
         "ProductId": "com.pwrd.yihuan.libao1.18",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 1800,
         "ClientShowPrice": "￥ 18",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 2.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 180,
+        "PrimaryCurrencyAmount": 198,
         "VoucherID": "Voucher",
         "VoucherAmount": 18,
         "IconResource": {
@@ -1120,18 +997,21 @@
         },
         "Desc": "18元充值，运营活动礼包1",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10060010
+        "MappingID": 10180001
       },
       "com.pwrd.yihuan.libao2.18": {
         "ProductId": "com.pwrd.yihuan.libao2.18",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 1800,
         "ClientShowPrice": "￥ 18",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 2.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 180,
+        "PrimaryCurrencyAmount": 198,
         "VoucherID": "Voucher",
         "VoucherAmount": 18,
         "IconResource": {
@@ -1140,18 +1020,21 @@
         },
         "Desc": "18元充值，运营活动礼包2",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10180001
+        "MappingID": 10180002
       },
       "com.pwrd.yihuan.libao3.18": {
         "ProductId": "com.pwrd.yihuan.libao3.18",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 1800,
         "ClientShowPrice": "￥ 18",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 2.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 180,
+        "PrimaryCurrencyAmount": 198,
         "VoucherID": "Voucher",
         "VoucherAmount": 18,
         "IconResource": {
@@ -1160,18 +1043,21 @@
         },
         "Desc": "18元充值，运营活动礼包3",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10180002
+        "MappingID": 10180003
       },
       "com.pwrd.yihuan.libao4.18": {
         "ProductId": "com.pwrd.yihuan.libao4.18",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 1800,
         "ClientShowPrice": "￥ 18",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 2.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 180,
+        "PrimaryCurrencyAmount": 198,
         "VoucherID": "Voucher",
         "VoucherAmount": 18,
         "IconResource": {
@@ -1180,18 +1066,21 @@
         },
         "Desc": "18元充值，运营活动礼包4",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10180003
+        "MappingID": 10180004
       },
       "com.pwrd.yihuan.libao5.18": {
         "ProductId": "com.pwrd.yihuan.libao5.18",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 1800,
         "ClientShowPrice": "￥ 18",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 2.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 180,
+        "PrimaryCurrencyAmount": 198,
         "VoucherID": "Voucher",
         "VoucherAmount": 18,
         "IconResource": {
@@ -1200,118 +1089,21 @@
         },
         "Desc": "18元充值，运营活动礼包5",
         "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10180004
-      },
-      "com.pwrd.yihuan.libao6.18": {
-        "ProductId": "com.pwrd.yihuan.libao6.18",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 1800,
-        "ClientShowPrice": "￥ 18",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 180,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 18,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "18元充值，运营活动礼包6",
-        "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
         "MappingID": 10180005
-      },
-      "com.pwrd.yihuan.libao7.18": {
-        "ProductId": "com.pwrd.yihuan.libao7.18",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 1800,
-        "ClientShowPrice": "￥ 18",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 180,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 18,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "18元充值，运营活动礼包7",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10180006
-      },
-      "com.pwrd.yihuan.libao8.18": {
-        "ProductId": "com.pwrd.yihuan.libao8.18",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 1800,
-        "ClientShowPrice": "￥ 18",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 180,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 18,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "18元充值，运营活动礼包8",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10180007
-      },
-      "com.pwrd.yihuan.libao9.18": {
-        "ProductId": "com.pwrd.yihuan.libao9.18",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 1800,
-        "ClientShowPrice": "￥ 18",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 180,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 18,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "18元充值，运营活动礼包9",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10180008
-      },
-      "com.pwrd.yihuan.libao10.18": {
-        "ProductId": "com.pwrd.yihuan.libao10.18",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 1800,
-        "ClientShowPrice": "￥ 18",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 180,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 18,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "18元充值，运营活动礼包10",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10180009
       },
       "com.pwrd.yihuan.libao1.30": {
         "ProductId": "com.pwrd.yihuan.libao1.30",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 3000,
         "ClientShowPrice": "￥ 30",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 4.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 300,
+        "PrimaryCurrencyAmount": 330,
         "VoucherID": "Voucher",
         "VoucherAmount": 30,
         "IconResource": {
@@ -1320,18 +1112,21 @@
         },
         "Desc": "30元充值，运营活动礼包1",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10180010
+        "MappingID": 10300001
       },
       "com.pwrd.yihuan.libao2.30": {
         "ProductId": "com.pwrd.yihuan.libao2.30",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 3000,
         "ClientShowPrice": "￥ 30",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 4.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 300,
+        "PrimaryCurrencyAmount": 330,
         "VoucherID": "Voucher",
         "VoucherAmount": 30,
         "IconResource": {
@@ -1340,18 +1135,21 @@
         },
         "Desc": "30元充值，运营活动礼包2",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10300001
+        "MappingID": 10300002
       },
       "com.pwrd.yihuan.libao3.30": {
         "ProductId": "com.pwrd.yihuan.libao3.30",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 3000,
         "ClientShowPrice": "￥ 30",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 4.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 300,
+        "PrimaryCurrencyAmount": 330,
         "VoucherID": "Voucher",
         "VoucherAmount": 30,
         "IconResource": {
@@ -1360,18 +1158,21 @@
         },
         "Desc": "30元充值，运营活动礼包3",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10300002
+        "MappingID": 10300003
       },
       "com.pwrd.yihuan.libao4.30": {
         "ProductId": "com.pwrd.yihuan.libao4.30",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 3000,
         "ClientShowPrice": "￥ 30",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 4.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 300,
+        "PrimaryCurrencyAmount": 330,
         "VoucherID": "Voucher",
         "VoucherAmount": 30,
         "IconResource": {
@@ -1380,18 +1181,21 @@
         },
         "Desc": "30元充值，运营活动礼包4",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10300003
+        "MappingID": 10300004
       },
       "com.pwrd.yihuan.libao5.30": {
         "ProductId": "com.pwrd.yihuan.libao5.30",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 3000,
         "ClientShowPrice": "￥ 30",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 4.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 300,
+        "PrimaryCurrencyAmount": 330,
         "VoucherID": "Voucher",
         "VoucherAmount": 30,
         "IconResource": {
@@ -1400,109 +1204,12 @@
         },
         "Desc": "30元充值，运营活动礼包5",
         "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10300004
-      },
-      "com.pwrd.yihuan.libao6.30": {
-        "ProductId": "com.pwrd.yihuan.libao6.30",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 3000,
-        "ClientShowPrice": "￥ 30",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 300,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 30,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "30元充值，运营活动礼包6",
-        "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
         "MappingID": 10300005
-      },
-      "com.pwrd.yihuan.libao7.30": {
-        "ProductId": "com.pwrd.yihuan.libao7.30",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 3000,
-        "ClientShowPrice": "￥ 30",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 300,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 30,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "30元充值，运营活动礼包7",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10300006
-      },
-      "com.pwrd.yihuan.libao8.30": {
-        "ProductId": "com.pwrd.yihuan.libao8.30",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 3000,
-        "ClientShowPrice": "￥ 30",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 300,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 30,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "30元充值，运营活动礼包8",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10300007
-      },
-      "com.pwrd.yihuan.libao9.30": {
-        "ProductId": "com.pwrd.yihuan.libao9.30",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 3000,
-        "ClientShowPrice": "￥ 30",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 300,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 30,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "30元充值，运营活动礼包9",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10300008
-      },
-      "com.pwrd.yihuan.libao10.30": {
-        "ProductId": "com.pwrd.yihuan.libao10.30",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 3000,
-        "ClientShowPrice": "￥ 30",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 300,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 30,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "30元充值，运营活动礼包10",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10300009
       },
       "com.pwrd.yihuan.libao1.60": {
         "ProductId": "com.pwrd.yihuan.libao1.60",
@@ -1511,7 +1218,7 @@
         "ClientShowPrice": "￥ 60",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 600,
+        "PrimaryCurrencyAmount": 660,
         "VoucherID": "Voucher",
         "VoucherAmount": 60,
         "IconResource": {
@@ -1520,198 +1227,21 @@
         },
         "Desc": "60元充值，运营活动礼包1",
         "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10300010
-      },
-      "com.pwrd.yihuan.libao2.60": {
-        "ProductId": "com.pwrd.yihuan.libao2.60",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 6000,
-        "ClientShowPrice": "￥ 60",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 600,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 60,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "60元充值，运营活动礼包2",
-        "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
         "MappingID": 10600001
-      },
-      "com.pwrd.yihuan.libao3.60": {
-        "ProductId": "com.pwrd.yihuan.libao3.60",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 6000,
-        "ClientShowPrice": "￥ 60",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 600,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 60,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "60元充值，运营活动礼包3",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10600002
-      },
-      "com.pwrd.yihuan.libao4.60": {
-        "ProductId": "com.pwrd.yihuan.libao4.60",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 6000,
-        "ClientShowPrice": "￥ 60",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 600,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 60,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "60元充值，运营活动礼包4",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10600003
-      },
-      "com.pwrd.yihuan.libao5.60": {
-        "ProductId": "com.pwrd.yihuan.libao5.60",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 6000,
-        "ClientShowPrice": "￥ 60",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 600,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 60,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "60元充值，运营活动礼包5",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10600004
-      },
-      "com.pwrd.yihuan.libao6.60": {
-        "ProductId": "com.pwrd.yihuan.libao6.60",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 6000,
-        "ClientShowPrice": "￥ 60",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 600,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 60,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "60元充值，运营活动礼包6",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10600005
-      },
-      "com.pwrd.yihuan.libao7.60": {
-        "ProductId": "com.pwrd.yihuan.libao7.60",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 6000,
-        "ClientShowPrice": "￥ 60",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 600,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 60,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "60元充值，运营活动礼包7",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10600006
-      },
-      "com.pwrd.yihuan.libao8.60": {
-        "ProductId": "com.pwrd.yihuan.libao8.60",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 6000,
-        "ClientShowPrice": "￥ 60",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 600,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 60,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "60元充值，运营活动礼包8",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10600007
-      },
-      "com.pwrd.yihuan.libao9.60": {
-        "ProductId": "com.pwrd.yihuan.libao9.60",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 6000,
-        "ClientShowPrice": "￥ 60",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 600,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 60,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "60元充值，运营活动礼包9",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10600008
-      },
-      "com.pwrd.yihuan.libao10.60": {
-        "ProductId": "com.pwrd.yihuan.libao10.60",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 6000,
-        "ClientShowPrice": "￥ 60",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 600,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 60,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "60元充值，运营活动礼包10",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10600009
       },
       "com.pwrd.yihuan.libao1.98": {
         "ProductId": "com.pwrd.yihuan.libao1.98",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 9800,
         "ClientShowPrice": "￥ 98",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 14.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 980,
+        "PrimaryCurrencyAmount": 1090,
         "VoucherID": "Voucher",
         "VoucherAmount": 98,
         "IconResource": {
@@ -1720,18 +1250,21 @@
         },
         "Desc": "98元充值，运营活动礼包1",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10600010
+        "MappingID": 10980001
       },
       "com.pwrd.yihuan.libao2.98": {
         "ProductId": "com.pwrd.yihuan.libao2.98",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 9800,
         "ClientShowPrice": "￥ 98",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 14.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 980,
+        "PrimaryCurrencyAmount": 1090,
         "VoucherID": "Voucher",
         "VoucherAmount": 98,
         "IconResource": {
@@ -1740,18 +1273,21 @@
         },
         "Desc": "98元充值，运营活动礼包2",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10980001
+        "MappingID": 10980002
       },
       "com.pwrd.yihuan.libao3.98": {
         "ProductId": "com.pwrd.yihuan.libao3.98",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 9800,
         "ClientShowPrice": "￥ 98",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 14.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 980,
+        "PrimaryCurrencyAmount": 1090,
         "VoucherID": "Voucher",
         "VoucherAmount": 98,
         "IconResource": {
@@ -1760,18 +1296,21 @@
         },
         "Desc": "98元充值，运营活动礼包3",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10980002
+        "MappingID": 10980003
       },
       "com.pwrd.yihuan.libao4.98": {
         "ProductId": "com.pwrd.yihuan.libao4.98",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 9800,
         "ClientShowPrice": "￥ 98",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 14.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 980,
+        "PrimaryCurrencyAmount": 1090,
         "VoucherID": "Voucher",
         "VoucherAmount": 98,
         "IconResource": {
@@ -1780,18 +1319,21 @@
         },
         "Desc": "98元充值，运营活动礼包4",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10980003
+        "MappingID": 10980004
       },
       "com.pwrd.yihuan.libao5.98": {
         "ProductId": "com.pwrd.yihuan.libao5.98",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 9800,
         "ClientShowPrice": "￥ 98",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 14.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 980,
+        "PrimaryCurrencyAmount": 1090,
         "VoucherID": "Voucher",
         "VoucherAmount": 98,
         "IconResource": {
@@ -1800,118 +1342,21 @@
         },
         "Desc": "98元充值，运营活动礼包5",
         "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10980004
-      },
-      "com.pwrd.yihuan.libao6.98": {
-        "ProductId": "com.pwrd.yihuan.libao6.98",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 9800,
-        "ClientShowPrice": "￥ 98",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 980,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 98,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "98元充值，运营活动礼包6",
-        "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
         "MappingID": 10980005
-      },
-      "com.pwrd.yihuan.libao7.98": {
-        "ProductId": "com.pwrd.yihuan.libao7.98",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 9800,
-        "ClientShowPrice": "￥ 98",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 980,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 98,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "98元充值，运营活动礼包7",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10980006
-      },
-      "com.pwrd.yihuan.libao8.98": {
-        "ProductId": "com.pwrd.yihuan.libao8.98",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 9800,
-        "ClientShowPrice": "￥ 98",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 980,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 98,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "98元充值，运营活动礼包8",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10980007
-      },
-      "com.pwrd.yihuan.libao9.98": {
-        "ProductId": "com.pwrd.yihuan.libao9.98",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 9800,
-        "ClientShowPrice": "￥ 98",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 980,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 98,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "98元充值，运营活动礼包9",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10980008
-      },
-      "com.pwrd.yihuan.libao10.98": {
-        "ProductId": "com.pwrd.yihuan.libao10.98",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 9800,
-        "ClientShowPrice": "￥ 98",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 980,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 98,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "98元充值，运营活动礼包10",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 10980009
       },
       "com.pwrd.yihuan.libao1.128": {
         "ProductId": "com.pwrd.yihuan.libao1.128",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 12800,
         "ClientShowPrice": "￥ 128",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 19.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1280,
+        "PrimaryCurrencyAmount": 1410,
         "VoucherID": "Voucher",
         "VoucherAmount": 128,
         "IconResource": {
@@ -1920,18 +1365,21 @@
         },
         "Desc": "128元充值，运营活动礼包1",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 10980010
+        "MappingID": 11280001
       },
       "com.pwrd.yihuan.libao2.128": {
         "ProductId": "com.pwrd.yihuan.libao2.128",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 12800,
         "ClientShowPrice": "￥ 128",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 19.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1280,
+        "PrimaryCurrencyAmount": 1410,
         "VoucherID": "Voucher",
         "VoucherAmount": 128,
         "IconResource": {
@@ -1940,18 +1388,21 @@
         },
         "Desc": "128元充值，运营活动礼包2",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 11280001
+        "MappingID": 11280002
       },
       "com.pwrd.yihuan.libao3.128": {
         "ProductId": "com.pwrd.yihuan.libao3.128",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 12800,
         "ClientShowPrice": "￥ 128",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 19.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1280,
+        "PrimaryCurrencyAmount": 1410,
         "VoucherID": "Voucher",
         "VoucherAmount": 128,
         "IconResource": {
@@ -1960,18 +1411,21 @@
         },
         "Desc": "128元充值，运营活动礼包3",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 11280002
+        "MappingID": 11280003
       },
       "com.pwrd.yihuan.libao4.128": {
         "ProductId": "com.pwrd.yihuan.libao4.128",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 12800,
         "ClientShowPrice": "￥ 128",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 19.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1280,
+        "PrimaryCurrencyAmount": 1410,
         "VoucherID": "Voucher",
         "VoucherAmount": 128,
         "IconResource": {
@@ -1980,18 +1434,21 @@
         },
         "Desc": "128元充值，运营活动礼包4",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 11280003
+        "MappingID": 11280004
       },
       "com.pwrd.yihuan.libao5.128": {
         "ProductId": "com.pwrd.yihuan.libao5.128",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 12800,
         "ClientShowPrice": "￥ 128",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 19.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1280,
+        "PrimaryCurrencyAmount": 1410,
         "VoucherID": "Voucher",
         "VoucherAmount": 128,
         "IconResource": {
@@ -2000,138 +1457,44 @@
         },
         "Desc": "128元充值，运营活动礼包5",
         "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11280004
-      },
-      "com.pwrd.yihuan.libao6.128": {
-        "ProductId": "com.pwrd.yihuan.libao6.128",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 12800,
-        "ClientShowPrice": "￥ 128",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1280,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 128,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "128元充值，运营活动礼包6",
-        "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
         "MappingID": 11280005
       },
-      "com.pwrd.yihuan.libao7.128": {
-        "ProductId": "com.pwrd.yihuan.libao7.128",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 12800,
-        "ClientShowPrice": "￥ 128",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1280,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 128,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "128元充值，运营活动礼包7",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11280006
-      },
-      "com.pwrd.yihuan.libao8.128": {
-        "ProductId": "com.pwrd.yihuan.libao8.128",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 12800,
-        "ClientShowPrice": "￥ 128",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1280,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 128,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "128元充值，运营活动礼包8",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11280007
-      },
-      "com.pwrd.yihuan.libao9.128": {
-        "ProductId": "com.pwrd.yihuan.libao9.128",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 12800,
-        "ClientShowPrice": "￥ 128",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1280,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 128,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "128元充值，运营活动礼包9",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11280008
-      },
-      "com.pwrd.yihuan.libao10.128": {
-        "ProductId": "com.pwrd.yihuan.libao10.128",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 12800,
-        "ClientShowPrice": "￥ 128",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1280,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 128,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "128元充值，运营活动礼包10",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11280009
-      },
       "com.pwrd.yihuan.libao1.168": {
         "ProductId": "com.pwrd.yihuan.libao1.168",
-        "ChargeType": "EChargeType::BackendGift",
+        "ChargeType": "EChargeType::MallShop",
         "ChargePrice": 16800,
         "ClientShowPrice": "￥ 168",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 25.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1680,
+        "PrimaryCurrencyAmount": 1880,
         "VoucherID": "Voucher",
         "VoucherAmount": 168,
         "IconResource": {
           "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
           "SubPathString": ""
         },
-        "Desc": "168元充值，运营活动礼包1",
+        "Desc": "168元充值，卡丁车礼包",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "giftpackage_vehicle023_328_name",
+          "SourceString": "音速疾驰礼盒",
+          "LocalizedString": "音速疾驰礼盒"
         },
-        "MappingID": 11280010
+        "MappingID": 11680001
       },
       "com.pwrd.yihuan.libao2.168": {
         "ProductId": "com.pwrd.yihuan.libao2.168",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 16800,
         "ClientShowPrice": "￥ 168",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 25.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1680,
+        "PrimaryCurrencyAmount": 1880,
         "VoucherID": "Voucher",
         "VoucherAmount": 168,
         "IconResource": {
@@ -2140,18 +1503,21 @@
         },
         "Desc": "168元充值，运营活动礼包2",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 11680001
+        "MappingID": 11680002
       },
       "com.pwrd.yihuan.libao3.168": {
         "ProductId": "com.pwrd.yihuan.libao3.168",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 16800,
         "ClientShowPrice": "￥ 168",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 25.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1680,
+        "PrimaryCurrencyAmount": 1880,
         "VoucherID": "Voucher",
         "VoucherAmount": 168,
         "IconResource": {
@@ -2160,18 +1526,21 @@
         },
         "Desc": "168元充值，运营活动礼包3",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 11680002
+        "MappingID": 11680003
       },
       "com.pwrd.yihuan.libao4.168": {
         "ProductId": "com.pwrd.yihuan.libao4.168",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 16800,
         "ClientShowPrice": "￥ 168",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 25.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1680,
+        "PrimaryCurrencyAmount": 1880,
         "VoucherID": "Voucher",
         "VoucherAmount": 168,
         "IconResource": {
@@ -2180,18 +1549,21 @@
         },
         "Desc": "168元充值，运营活动礼包4",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 11680003
+        "MappingID": 11680004
       },
       "com.pwrd.yihuan.libao5.168": {
         "ProductId": "com.pwrd.yihuan.libao5.168",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 16800,
         "ClientShowPrice": "￥ 168",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 25.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1680,
+        "PrimaryCurrencyAmount": 1880,
         "VoucherID": "Voucher",
         "VoucherAmount": 168,
         "IconResource": {
@@ -2200,109 +1572,12 @@
         },
         "Desc": "168元充值，运营活动礼包5",
         "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11680004
-      },
-      "com.pwrd.yihuan.libao6.168": {
-        "ProductId": "com.pwrd.yihuan.libao6.168",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 16800,
-        "ClientShowPrice": "￥ 168",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1680,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 168,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "168元充值，运营活动礼包6",
-        "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
         "MappingID": 11680005
-      },
-      "com.pwrd.yihuan.libao7.168": {
-        "ProductId": "com.pwrd.yihuan.libao7.168",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 16800,
-        "ClientShowPrice": "￥ 168",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1680,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 168,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "168元充值，运营活动礼包7",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11680006
-      },
-      "com.pwrd.yihuan.libao8.168": {
-        "ProductId": "com.pwrd.yihuan.libao8.168",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 16800,
-        "ClientShowPrice": "￥ 168",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1680,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 168,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "168元充值，运营活动礼包8",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11680007
-      },
-      "com.pwrd.yihuan.libao9.168": {
-        "ProductId": "com.pwrd.yihuan.libao9.168",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 16800,
-        "ClientShowPrice": "￥ 168",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1680,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 168,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "168元充值，运营活动礼包9",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11680008
-      },
-      "com.pwrd.yihuan.libao10.168": {
-        "ProductId": "com.pwrd.yihuan.libao10.168",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 16800,
-        "ClientShowPrice": "￥ 168",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1680,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 168,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "168元充值，运营活动礼包10",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11680009
       },
       "com.pwrd.yihuan.libao1.198": {
         "ProductId": "com.pwrd.yihuan.libao1.198",
@@ -2311,7 +1586,7 @@
         "ClientShowPrice": "￥ 198",
         "ClientShowPrice_OS": "",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1980,
+        "PrimaryCurrencyAmount": 2240,
         "VoucherID": "Voucher",
         "VoucherAmount": 198,
         "IconResource": {
@@ -2320,198 +1595,21 @@
         },
         "Desc": "198元充值，运营活动礼包1",
         "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11680010
-      },
-      "com.pwrd.yihuan.libao2.198": {
-        "ProductId": "com.pwrd.yihuan.libao2.198",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 19800,
-        "ClientShowPrice": "￥ 198",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1980,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 198,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "198元充值，运营活动礼包2",
-        "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
         "MappingID": 11980001
-      },
-      "com.pwrd.yihuan.libao3.198": {
-        "ProductId": "com.pwrd.yihuan.libao3.198",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 19800,
-        "ClientShowPrice": "￥ 198",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1980,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 198,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "198元充值，运营活动礼包3",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11980002
-      },
-      "com.pwrd.yihuan.libao4.198": {
-        "ProductId": "com.pwrd.yihuan.libao4.198",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 19800,
-        "ClientShowPrice": "￥ 198",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1980,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 198,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "198元充值，运营活动礼包4",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11980003
-      },
-      "com.pwrd.yihuan.libao5.198": {
-        "ProductId": "com.pwrd.yihuan.libao5.198",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 19800,
-        "ClientShowPrice": "￥ 198",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1980,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 198,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "198元充值，运营活动礼包5",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11980004
-      },
-      "com.pwrd.yihuan.libao6.198": {
-        "ProductId": "com.pwrd.yihuan.libao6.198",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 19800,
-        "ClientShowPrice": "￥ 198",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1980,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 198,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "198元充值，运营活动礼包6",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11980005
-      },
-      "com.pwrd.yihuan.libao7.198": {
-        "ProductId": "com.pwrd.yihuan.libao7.198",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 19800,
-        "ClientShowPrice": "￥ 198",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1980,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 198,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "198元充值，运营活动礼包7",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11980006
-      },
-      "com.pwrd.yihuan.libao8.198": {
-        "ProductId": "com.pwrd.yihuan.libao8.198",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 19800,
-        "ClientShowPrice": "￥ 198",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1980,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 198,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "198元充值，运营活动礼包8",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11980007
-      },
-      "com.pwrd.yihuan.libao9.198": {
-        "ProductId": "com.pwrd.yihuan.libao9.198",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 19800,
-        "ClientShowPrice": "￥ 198",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1980,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 198,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "198元充值，运营活动礼包9",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11980008
-      },
-      "com.pwrd.yihuan.libao10.198": {
-        "ProductId": "com.pwrd.yihuan.libao10.198",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 19800,
-        "ClientShowPrice": "￥ 198",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 1980,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 198,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "198元充值，运营活动礼包10",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 11980009
       },
       "com.pwrd.yihuan.libao1.328": {
         "ProductId": "com.pwrd.yihuan.libao1.328",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 32800,
         "ClientShowPrice": "￥ 328",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 49.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 3280,
+        "PrimaryCurrencyAmount": 3880,
         "VoucherID": "Voucher",
         "VoucherAmount": 328,
         "IconResource": {
@@ -2520,18 +1618,21 @@
         },
         "Desc": "328元充值，运营活动礼包1",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 11980010
+        "MappingID": 13280001
       },
       "com.pwrd.yihuan.libao2.328": {
         "ProductId": "com.pwrd.yihuan.libao2.328",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 32800,
         "ClientShowPrice": "￥ 328",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 49.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 3280,
+        "PrimaryCurrencyAmount": 3880,
         "VoucherID": "Voucher",
         "VoucherAmount": 328,
         "IconResource": {
@@ -2540,18 +1641,21 @@
         },
         "Desc": "328元充值，运营活动礼包2",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 13280001
+        "MappingID": 13280002
       },
       "com.pwrd.yihuan.libao3.328": {
         "ProductId": "com.pwrd.yihuan.libao3.328",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 32800,
         "ClientShowPrice": "￥ 328",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 49.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 3280,
+        "PrimaryCurrencyAmount": 3880,
         "VoucherID": "Voucher",
         "VoucherAmount": 328,
         "IconResource": {
@@ -2560,18 +1664,21 @@
         },
         "Desc": "328元充值，运营活动礼包3",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 13280002
+        "MappingID": 13280003
       },
       "com.pwrd.yihuan.libao4.328": {
         "ProductId": "com.pwrd.yihuan.libao4.328",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 32800,
         "ClientShowPrice": "￥ 328",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 49.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 3280,
+        "PrimaryCurrencyAmount": 3880,
         "VoucherID": "Voucher",
         "VoucherAmount": 328,
         "IconResource": {
@@ -2580,18 +1687,21 @@
         },
         "Desc": "328元充值，运营活动礼包4",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 13280003
+        "MappingID": 13280004
       },
       "com.pwrd.yihuan.libao5.328": {
         "ProductId": "com.pwrd.yihuan.libao5.328",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 32800,
         "ClientShowPrice": "￥ 328",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 49.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 3280,
+        "PrimaryCurrencyAmount": 3880,
         "VoucherID": "Voucher",
         "VoucherAmount": 328,
         "IconResource": {
@@ -2600,118 +1710,21 @@
         },
         "Desc": "328元充值，运营活动礼包5",
         "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 13280004
-      },
-      "com.pwrd.yihuan.libao6.328": {
-        "ProductId": "com.pwrd.yihuan.libao6.328",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 32800,
-        "ClientShowPrice": "￥ 328",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 3280,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 328,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "328元充值，运营活动礼包6",
-        "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
         "MappingID": 13280005
-      },
-      "com.pwrd.yihuan.libao7.328": {
-        "ProductId": "com.pwrd.yihuan.libao7.328",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 32800,
-        "ClientShowPrice": "￥ 328",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 3280,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 328,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "328元充值，运营活动礼包7",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 13280006
-      },
-      "com.pwrd.yihuan.libao8.328": {
-        "ProductId": "com.pwrd.yihuan.libao8.328",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 32800,
-        "ClientShowPrice": "￥ 328",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 3280,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 328,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "328元充值，运营活动礼包8",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 13280007
-      },
-      "com.pwrd.yihuan.libao9.328": {
-        "ProductId": "com.pwrd.yihuan.libao9.328",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 32800,
-        "ClientShowPrice": "￥ 328",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 3280,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 328,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "328元充值，运营活动礼包9",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 13280008
-      },
-      "com.pwrd.yihuan.libao10.328": {
-        "ProductId": "com.pwrd.yihuan.libao10.328",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 32800,
-        "ClientShowPrice": "￥ 328",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 3280,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 328,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "328元充值，运营活动礼包10",
-        "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 13280009
       },
       "com.pwrd.yihuan.libao1.648": {
         "ProductId": "com.pwrd.yihuan.libao1.648",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 64800,
         "ClientShowPrice": "￥ 648",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 99.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 6480,
+        "PrimaryCurrencyAmount": 8080,
         "VoucherID": "Voucher",
         "VoucherAmount": 648,
         "IconResource": {
@@ -2720,18 +1733,21 @@
         },
         "Desc": "648元充值，运营活动礼包1",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 13280010
+        "MappingID": 16480001
       },
       "com.pwrd.yihuan.libao2.648": {
         "ProductId": "com.pwrd.yihuan.libao2.648",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 64800,
         "ClientShowPrice": "￥ 648",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 99.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 6480,
+        "PrimaryCurrencyAmount": 8080,
         "VoucherID": "Voucher",
         "VoucherAmount": 648,
         "IconResource": {
@@ -2740,18 +1756,21 @@
         },
         "Desc": "648元充值，运营活动礼包2",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 16480001
+        "MappingID": 16480002
       },
       "com.pwrd.yihuan.libao3.648": {
         "ProductId": "com.pwrd.yihuan.libao3.648",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 64800,
         "ClientShowPrice": "￥ 648",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 99.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 6480,
+        "PrimaryCurrencyAmount": 8080,
         "VoucherID": "Voucher",
         "VoucherAmount": 648,
         "IconResource": {
@@ -2760,18 +1779,21 @@
         },
         "Desc": "648元充值，运营活动礼包3",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 16480002
+        "MappingID": 16480003
       },
       "com.pwrd.yihuan.libao4.648": {
         "ProductId": "com.pwrd.yihuan.libao4.648",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 64800,
         "ClientShowPrice": "￥ 648",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 99.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 6480,
+        "PrimaryCurrencyAmount": 8080,
         "VoucherID": "Voucher",
         "VoucherAmount": 648,
         "IconResource": {
@@ -2780,18 +1802,21 @@
         },
         "Desc": "648元充值，运营活动礼包4",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 16480003
+        "MappingID": 16480004
       },
       "com.pwrd.yihuan.libao5.648": {
         "ProductId": "com.pwrd.yihuan.libao5.648",
         "ChargeType": "EChargeType::BackendGift",
         "ChargePrice": 64800,
         "ClientShowPrice": "￥ 648",
-        "ClientShowPrice_OS": "",
+        "ClientShowPrice_OS": "USD 99.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 6480,
+        "PrimaryCurrencyAmount": 8080,
         "VoucherID": "Voucher",
         "VoucherAmount": 648,
         "IconResource": {
@@ -2800,109 +1825,587 @@
         },
         "Desc": "648元充值，运营活动礼包5",
         "ProductName": {
-          "CultureInvariantString": null
-        },
-        "MappingID": 16480004
-      },
-      "com.pwrd.yihuan.libao6.648": {
-        "ProductId": "com.pwrd.yihuan.libao6.648",
-        "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 64800,
-        "ClientShowPrice": "￥ 648",
-        "ClientShowPrice_OS": "",
-        "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 6480,
-        "VoucherID": "Voucher",
-        "VoucherAmount": 648,
-        "IconResource": {
-          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
-          "SubPathString": ""
-        },
-        "Desc": "648元充值，运营活动礼包6",
-        "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
         "MappingID": 16480005
       },
-      "com.pwrd.yihuan.libao7.648": {
-        "ProductId": "com.pwrd.yihuan.libao7.648",
+      "com.pwrd.yihuan.libao1.38": {
+        "ProductId": "com.pwrd.yihuan.libao1.38",
         "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 64800,
-        "ClientShowPrice": "￥ 648",
-        "ClientShowPrice_OS": "",
+        "ChargePrice": 3800,
+        "ClientShowPrice": "￥ 38",
+        "ClientShowPrice_OS": "USD 5.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 6480,
+        "PrimaryCurrencyAmount": 418,
         "VoucherID": "Voucher",
-        "VoucherAmount": 648,
+        "VoucherAmount": 38,
         "IconResource": {
           "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
           "SubPathString": ""
         },
-        "Desc": "648元充值，运营活动礼包7",
+        "Desc": "38元充值，运营活动礼包1",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 16480006
+        "MappingID": 10380001
       },
-      "com.pwrd.yihuan.libao8.648": {
-        "ProductId": "com.pwrd.yihuan.libao8.648",
+      "com.pwrd.yihuan.libao2.38": {
+        "ProductId": "com.pwrd.yihuan.libao2.38",
         "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 64800,
-        "ClientShowPrice": "￥ 648",
-        "ClientShowPrice_OS": "",
+        "ChargePrice": 3800,
+        "ClientShowPrice": "￥ 38",
+        "ClientShowPrice_OS": "USD 5.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 6480,
+        "PrimaryCurrencyAmount": 418,
         "VoucherID": "Voucher",
-        "VoucherAmount": 648,
+        "VoucherAmount": 38,
         "IconResource": {
           "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
           "SubPathString": ""
         },
-        "Desc": "648元充值，运营活动礼包8",
+        "Desc": "38元充值，运营活动礼包2",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 16480007
+        "MappingID": 10380002
       },
-      "com.pwrd.yihuan.libao9.648": {
-        "ProductId": "com.pwrd.yihuan.libao9.648",
+      "com.pwrd.yihuan.libao3.38": {
+        "ProductId": "com.pwrd.yihuan.libao3.38",
         "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 64800,
-        "ClientShowPrice": "￥ 648",
-        "ClientShowPrice_OS": "",
+        "ChargePrice": 3800,
+        "ClientShowPrice": "￥ 38",
+        "ClientShowPrice_OS": "USD 5.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 6480,
+        "PrimaryCurrencyAmount": 418,
         "VoucherID": "Voucher",
-        "VoucherAmount": 648,
+        "VoucherAmount": 38,
         "IconResource": {
           "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
           "SubPathString": ""
         },
-        "Desc": "648元充值，运营活动礼包9",
+        "Desc": "38元充值，运营活动礼包3",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 16480008
+        "MappingID": 10380003
       },
-      "com.pwrd.yihuan.libao10.648": {
-        "ProductId": "com.pwrd.yihuan.libao10.648",
+      "com.pwrd.yihuan.libao4.38": {
+        "ProductId": "com.pwrd.yihuan.libao4.38",
         "ChargeType": "EChargeType::BackendGift",
-        "ChargePrice": 64800,
-        "ClientShowPrice": "￥ 648",
-        "ClientShowPrice_OS": "",
+        "ChargePrice": 3800,
+        "ClientShowPrice": "￥ 38",
+        "ClientShowPrice_OS": "USD 5.99",
         "PrimaryCurrency": "Riftcrystal",
-        "PrimaryCurrencyAmount": 6480,
+        "PrimaryCurrencyAmount": 418,
         "VoucherID": "Voucher",
-        "VoucherAmount": 648,
+        "VoucherAmount": 38,
         "IconResource": {
           "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
           "SubPathString": ""
         },
-        "Desc": "648元充值，运营活动礼包10",
+        "Desc": "38元充值，运营活动礼包4",
         "ProductName": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
-        "MappingID": 16480009
+        "MappingID": 10380004
+      },
+      "com.pwrd.yihuan.libao5.38": {
+        "ProductId": "com.pwrd.yihuan.libao5.38",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 3800,
+        "ClientShowPrice": "￥ 38",
+        "ClientShowPrice_OS": "USD 5.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 418,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 38,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "38元充值，运营活动礼包5",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 10380005
+      },
+      "com.pwrd.yihuan.libao1.68": {
+        "ProductId": "com.pwrd.yihuan.libao1.68",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 6800,
+        "ClientShowPrice": "￥ 68",
+        "ClientShowPrice_OS": "USD 9.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 750,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 68,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "68元充值，运营活动礼包1",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 10680001
+      },
+      "com.pwrd.yihuan.libao2.68": {
+        "ProductId": "com.pwrd.yihuan.libao2.68",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 6800,
+        "ClientShowPrice": "￥ 68",
+        "ClientShowPrice_OS": "USD 9.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 750,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 68,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "68元充值，运营活动礼包2",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 10680002
+      },
+      "com.pwrd.yihuan.libao3.68": {
+        "ProductId": "com.pwrd.yihuan.libao3.68",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 6800,
+        "ClientShowPrice": "￥ 68",
+        "ClientShowPrice_OS": "USD 9.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 750,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 68,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "68元充值，运营活动礼包3",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 10680003
+      },
+      "com.pwrd.yihuan.libao4.68": {
+        "ProductId": "com.pwrd.yihuan.libao4.68",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 6800,
+        "ClientShowPrice": "￥ 68",
+        "ClientShowPrice_OS": "USD 9.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 750,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 68,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "68元充值，运营活动礼包4",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 10680004
+      },
+      "com.pwrd.yihuan.libao5.68": {
+        "ProductId": "com.pwrd.yihuan.libao5.68",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 6800,
+        "ClientShowPrice": "￥ 68",
+        "ClientShowPrice_OS": "USD 9.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 750,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 68,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "68元充值，运营活动礼包5",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 10680005
+      },
+      "com.pwrd.yihuan.libao1.228": {
+        "ProductId": "com.pwrd.yihuan.libao1.228",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 22800,
+        "ClientShowPrice": "￥ 228",
+        "ClientShowPrice_OS": "USD 34.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 2580,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 228,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "228元充值，运营活动礼包1",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 12280001
+      },
+      "com.pwrd.yihuan.libao2.228": {
+        "ProductId": "com.pwrd.yihuan.libao2.228",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 22800,
+        "ClientShowPrice": "￥ 228",
+        "ClientShowPrice_OS": "USD 34.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 2580,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 228,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "228元充值，运营活动礼包2",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 12280002
+      },
+      "com.pwrd.yihuan.libao3.228": {
+        "ProductId": "com.pwrd.yihuan.libao3.228",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 22800,
+        "ClientShowPrice": "￥ 228",
+        "ClientShowPrice_OS": "USD 34.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 2580,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 228,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "228元充值，运营活动礼包3",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 12280003
+      },
+      "com.pwrd.yihuan.libao4.228": {
+        "ProductId": "com.pwrd.yihuan.libao4.228",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 22800,
+        "ClientShowPrice": "￥ 228",
+        "ClientShowPrice_OS": "USD 34.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 2580,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 228,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "228元充值，运营活动礼包4",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 12280004
+      },
+      "com.pwrd.yihuan.libao5.228": {
+        "ProductId": "com.pwrd.yihuan.libao5.228",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 22800,
+        "ClientShowPrice": "￥ 228",
+        "ClientShowPrice_OS": "USD 34.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 2580,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 228,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "228元充值，运营活动礼包5",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 12280005
+      },
+      "com.pwrd.yihuan.libao1.298": {
+        "ProductId": "com.pwrd.yihuan.libao1.298",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 29800,
+        "ClientShowPrice": "￥ 298",
+        "ClientShowPrice_OS": "USD 45.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 3480,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 298,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "298元充值，运营活动礼包1",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 12980001
+      },
+      "com.pwrd.yihuan.libao2.298": {
+        "ProductId": "com.pwrd.yihuan.libao2.298",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 29800,
+        "ClientShowPrice": "￥ 298",
+        "ClientShowPrice_OS": "USD 45.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 3480,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 298,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "298元充值，运营活动礼包2",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 12980002
+      },
+      "com.pwrd.yihuan.libao3.298": {
+        "ProductId": "com.pwrd.yihuan.libao3.298",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 29800,
+        "ClientShowPrice": "￥ 298",
+        "ClientShowPrice_OS": "USD 45.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 3480,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 298,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "298元充值，运营活动礼包3",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 12980003
+      },
+      "com.pwrd.yihuan.libao4.298": {
+        "ProductId": "com.pwrd.yihuan.libao4.298",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 29800,
+        "ClientShowPrice": "￥ 298",
+        "ClientShowPrice_OS": "USD 45.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 3480,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 298,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "298元充值，运营活动礼包4",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 12980004
+      },
+      "com.pwrd.yihuan.libao5.298": {
+        "ProductId": "com.pwrd.yihuan.libao5.298",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 29800,
+        "ClientShowPrice": "￥ 298",
+        "ClientShowPrice_OS": "USD 45.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 3480,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 298,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "298元充值，运营活动礼包5",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 12980005
+      },
+      "com.pwrd.yihuan.libao1.488": {
+        "ProductId": "com.pwrd.yihuan.libao1.488",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 48800,
+        "ClientShowPrice": "￥ 488",
+        "ClientShowPrice_OS": "USD 75.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 5880,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 488,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "488元充值，运营活动礼包1",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 14880001
+      },
+      "com.pwrd.yihuan.libao2.488": {
+        "ProductId": "com.pwrd.yihuan.libao2.488",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 48800,
+        "ClientShowPrice": "￥ 488",
+        "ClientShowPrice_OS": "USD 75.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 5880,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 488,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "488元充值，运营活动礼包2",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 14880002
+      },
+      "com.pwrd.yihuan.libao3.488": {
+        "ProductId": "com.pwrd.yihuan.libao3.488",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 48800,
+        "ClientShowPrice": "￥ 488",
+        "ClientShowPrice_OS": "USD 75.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 5880,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 488,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "488元充值，运营活动礼包3",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 14880003
+      },
+      "com.pwrd.yihuan.libao4.488": {
+        "ProductId": "com.pwrd.yihuan.libao4.488",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 48800,
+        "ClientShowPrice": "￥ 488",
+        "ClientShowPrice_OS": "USD 75.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 5880,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 488,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "488元充值，运营活动礼包4",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 14880004
+      },
+      "com.pwrd.yihuan.libao5.488": {
+        "ProductId": "com.pwrd.yihuan.libao5.488",
+        "ChargeType": "EChargeType::BackendGift",
+        "ChargePrice": 48800,
+        "ClientShowPrice": "￥ 488",
+        "ClientShowPrice_OS": "USD 75.99",
+        "PrimaryCurrency": "Riftcrystal",
+        "PrimaryCurrencyAmount": 5880,
+        "VoucherID": "Voucher",
+        "VoucherAmount": 488,
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/shop/shangcheng/UI_YH_Recharge_Icon_01.UI_YH_Recharge_Icon_01",
+          "SubPathString": ""
+        },
+        "Desc": "488元充值，运营活动礼包5",
+        "ProductName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "GameBackendGiftShop",
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
+        },
+        "MappingID": 14880005
       }
     }
   }

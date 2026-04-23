@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_GameplayAbilityCostData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Skill/DT_GameplayAbilityCostData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'GameplayAbilityCost'",
@@ -182,6 +183,18 @@
       "GA_Chiichan073_UltraSkill": {
         "GACost": 100.0,
         "GAStrengthCost": 0.0
+      },
+      "GA_Mitsuki_Evade": {
+        "GACost": 0.0,
+        "GAStrengthCost": 15.0
+      },
+      "GA_Mitsuki_UltraSkill": {
+        "GACost": 120.0,
+        "GAStrengthCost": 0.0
+      },
+      "GA_Mitsuki_SwimJump": {
+        "GACost": 0.0,
+        "GAStrengthCost": 10.0
       }
     }
   }

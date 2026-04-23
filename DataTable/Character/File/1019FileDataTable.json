@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "1019FileDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/File/1019FileDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CharacterFileData'",
@@ -43,6 +44,12 @@
           "Key": "NPC001_birthday",
           "SourceString": "6月1日",
           "LocalizedString": "6月1日"
+        },
+        "BirthdaySkillName": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "skillname_001",
+          "SourceString": "异能：",
+          "LocalizedString": "异能："
         },
         "HomePlace": {
           "TableId": "/Game/Text/ST_File.ST_File",
@@ -676,8 +683,8 @@
             "Content": {
               "TableId": "/Game/Text/ST_File.ST_File",
               "Key": "NPC001_about_005",
-              "SourceString": "娜娜莉之前偷偷接过一个超厉害的委托，带着早雾和埃德嘉溜进了一片暴怒的V级GR云空间！听她说，那次经历可真是惊心动魄险象环生呐！还好有她那招「柯林斯终极幽魂暗影裂空霆焰魔拳」才能成功化险为夷！后来有好一阵没看见她，听说是被浔前辈关了禁闭……唉，天才总是很难被世人认可啊！",
-              "LocalizedString": "娜娜莉之前偷偷接过一个超厉害的委托，带着早雾和埃德嘉溜进了一片暴怒的V级GR云空间！听她说，那次经历可真是惊心动魄险象环生呐！还好有她那招「柯林斯终极幽魂暗影裂空霆焰魔拳」才能成功化险为夷！后来有好一阵没看见她，听说是被浔前辈关了禁闭……唉，天才总是很难被世人认可啊！"
+              "SourceString": "娜娜莉之前偷偷接过一个超厉害的委托，带着早雾和埃德嘉溜进了一片超级危险的异象空间！听她说，那次经历可真是惊心动魄险象环生呐！还好有她那招「柯林斯终极幽魂暗影裂空霆焰魔拳」才能成功化险为夷！后来有好一阵没看见她，听说是被浔前辈关了禁闭……唉，天才总是很难被世人认可啊！",
+              "LocalizedString": "娜娜莉之前偷偷接过一个超厉害的委托，带着早雾和埃德嘉溜进了一片超级危险的异象空间！听她说，那次经历可真是惊心动魄险象环生呐！还好有她那招「柯林斯终极幽魂暗影裂空霆焰魔拳」才能成功化险为夷！后来有好一阵没看见她，听说是被浔前辈关了禁闭……唉，天才总是很难被世人认可啊！"
             },
             "AudioEvent": {
               "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_about_005.Play_Vo_Char_NPC001_about_005",
@@ -882,6 +889,86 @@
                 "CharacterFileBreakLevel": 5
               }
             ]
+          },
+          {
+            "ID": "Daily35",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_001",
+              "SourceString": "收到赠礼·Ⅰ",
+              "LocalizedString": "收到赠礼·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC001_gift_001",
+              "SourceString": "知薄荷者，非可可莫属！",
+              "LocalizedString": "知薄荷者，非可可莫属！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_gift_001.Play_Vo_Char_NPC001_gift_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily36",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_002",
+              "SourceString": "收到赠礼·Ⅱ",
+              "LocalizedString": "收到赠礼·Ⅱ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC001_gift_002",
+              "SourceString": "我超喜欢！可可！",
+              "LocalizedString": "我超喜欢！可可！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_gift_002.Play_Vo_Char_NPC001_gift_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily37",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_003",
+              "SourceString": "收到赠礼·Ⅲ",
+              "LocalizedString": "收到赠礼·Ⅲ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC001_gift_003",
+              "SourceString": "哇哦~谢谢你可可~",
+              "LocalizedString": "哇哦~谢谢你可可~"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_gift_003.Play_Vo_Char_NPC001_gift_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "None",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_004",
+              "SourceString": "收到赠礼·IV",
+              "LocalizedString": "收到赠礼·IV"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC001_gift_004",
+              "SourceString": "我需要管教管教我的尾巴——它开心到摇得停不下来！",
+              "LocalizedString": "我需要管教管教我的尾巴——它开心到摇得停不下来！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC001/Play_Vo_Char_NPC001_gift_004.Play_Vo_Char_NPC001_gift_004",
+              "SubPathString": ""
+            },
+            "Conditions": []
           }
         ],
         "BattleContent": [

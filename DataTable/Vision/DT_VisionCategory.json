@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_VisionCategory",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Vision/DT_VisionCategory",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'VisionCategoryData'",
@@ -1995,8 +1996,8 @@
             "DisplayText": {
               "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
               "Key": "BPhⅡE-0085_CusComment_3_Dis_Player",
-              "SourceString": "名为「起潮洄天」的异象实际上是由天上流淌而下的细长水柱河流，而「鱼幡」的幻影是组成该现象的一部分，或者说，装饰物？战斗于它们而言其实只是流于形式的「试炼」，完成后就会离去，并不会造成实际的损害。<blue>鱼类洄游，绝大多数会在途中或目的地就死亡，而那些不灭的「鱼幡」却仿佛是特地前来促进生命的成长与循环，实在耐人寻味……</>",
-              "LocalizedString": "名为「起潮洄天」的异象实际上是由天上流淌而下的细长水柱河流，而「鱼幡」的幻影是组成该现象的一部分，或者说，装饰物？战斗于它们而言其实只是流于形式的「试炼」，完成后就会离去，并不会造成实际的损害。<blue>鱼类洄游，绝大多数会在途中或目的地就死亡，而那些不灭的「鱼幡」却仿佛是特地前来促进生命的成长与循环，实在耐人寻味……</>"
+              "SourceString": "名为「起潮洄天」的异象实际上是由天上流淌而下的细长水柱河流，而「鱼幡」的幻影是组成该现象的一部分，或者说，装饰物？战斗于它们而言其实只是流于形式的「试炼」，完成后就会离去，并不会造成实际的损害。鱼类洄游，绝大多数会在途中或目的地就死亡，而那些不灭的「鱼幡」却仿佛是特地前来促进生命的成长与循环，实在耐人寻味……",
+              "LocalizedString": "名为「起潮洄天」的异象实际上是由天上流淌而下的细长水柱河流，而「鱼幡」的幻影是组成该现象的一部分，或者说，装饰物？战斗于它们而言其实只是流于形式的「试炼」，完成后就会离去，并不会造成实际的损害。鱼类洄游，绝大多数会在途中或目的地就死亡，而那些不灭的「鱼幡」却仿佛是特地前来促进生命的成长与循环，实在耐人寻味……"
             }
           }
         ]
@@ -4125,8 +4126,8 @@
           "HouseCondition": {
             "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
             "Key": "TeruTeruBoZu_HouseCondition",
-            "SourceString": "通过攻击破坏「扫晴娘」的储水系统",
-            "LocalizedString": "通过攻击破坏「扫晴娘」的储水系统"
+            "SourceString": "在晴天找到「扫晴娘」，通过攻击破坏其储水系统",
+            "LocalizedString": "在晴天找到「扫晴娘」，通过攻击破坏其储水系统"
           },
           "AnnihilateCondition": {
             "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
@@ -4152,8 +4153,8 @@
           "HouseCondition": {
             "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
             "Key": "TeruTeruBoZu_HouseCondition",
-            "SourceString": "通过攻击破坏「扫晴娘」的储水系统",
-            "LocalizedString": "通过攻击破坏「扫晴娘」的储水系统"
+            "SourceString": "在晴天找到「扫晴娘」，通过攻击破坏其储水系统",
+            "LocalizedString": "在晴天找到「扫晴娘」，通过攻击破坏其储水系统"
           },
           "AnnihilateCondition": {
             "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
@@ -4211,8 +4212,8 @@
                 "Sign": {
                   "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
                   "Key": "TeruTeruBoZu_RecordBeforeSign_2",
-                  "SourceString": "--简宁\r\n「超自然家居馆」品牌发言人",
-                  "LocalizedString": "--简宁\r\n「超自然家居馆」品牌发言人"
+                  "SourceString": "--简宁\r\n「超规格家居馆」品牌发言人",
+                  "LocalizedString": "--简宁\r\n「超规格家居馆」品牌发言人"
                 },
                 "OrganizationTitle": {
                   "CultureInvariantString": null
@@ -4449,8 +4450,8 @@
           "HouseCondition": {
             "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
             "Key": "TeruTeruBoZu_HouseCondition",
-            "SourceString": "通过攻击破坏「扫晴娘」的储水系统",
-            "LocalizedString": "通过攻击破坏「扫晴娘」的储水系统"
+            "SourceString": "在晴天找到「扫晴娘」，通过攻击破坏其储水系统",
+            "LocalizedString": "在晴天找到「扫晴娘」，通过攻击破坏其储水系统"
           },
           "AnnihilateCondition": {
             "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
@@ -4476,14 +4477,14 @@
           "HouseCondition": {
             "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
             "Key": "TeruTeruBoZu_HouseCondition",
-            "SourceString": "通过攻击破坏「扫晴娘」的储水系统",
-            "LocalizedString": "通过攻击破坏「扫晴娘」的储水系统"
+            "SourceString": "在晴天找到「扫晴娘」，通过攻击破坏其储水系统",
+            "LocalizedString": "在晴天找到「扫晴娘」，通过攻击破坏其储水系统"
           },
           "AnnihilateCondition": {
             "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
-            "Key": "TeruTeruBoZu_AnniCondAfter",
-            "SourceString": "想办法排尽「扫晴娘」储存的雨水",
-            "LocalizedString": "想办法排尽「扫晴娘」储存的雨水"
+            "Key": "TeruTeruBoZu_Snow_AnniCondAfter",
+            "SourceString": "想办法排尽「扫晴娘」储存的雪水",
+            "LocalizedString": "想办法排尽「扫晴娘」储存的雪水"
           }
         },
         "RecordTitle": {
@@ -4535,8 +4536,8 @@
                 "Sign": {
                   "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
                   "Key": "TeruTeruBoZu_RecordBeforeSign_2",
-                  "SourceString": "--简宁\r\n「超自然家居馆」品牌发言人",
-                  "LocalizedString": "--简宁\r\n「超自然家居馆」品牌发言人"
+                  "SourceString": "--简宁\r\n「超规格家居馆」品牌发言人",
+                  "LocalizedString": "--简宁\r\n「超规格家居馆」品牌发言人"
                 },
                 "OrganizationTitle": {
                   "CultureInvariantString": null

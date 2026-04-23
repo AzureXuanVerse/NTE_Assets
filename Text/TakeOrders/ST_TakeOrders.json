@@ -2,8 +2,9 @@
   {
     "Type": "StringTable",
     "Name": "ST_TakeOrders",
-    "Class": "UScriptClass'StringTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/Game/Text/TakeOrders/ST_TakeOrders",
     "StringTable": {
       "TableNamespace": "ST_TakeOrders",
       "KeysToEntries": {
@@ -47,7 +48,7 @@
         "TakeOrders_ComDec_006": "更改路线",
         "TakeOrders_ComDec_007": "<Red>猎人等级</>已达标，提升委托获得的奖励！",
         "TakeOrders_ComDec_008": "都市活力消耗",
-        "TakeOrders_ComDec_009": "中途离开车辆会导致派送失败，是否确认下车？",
+        "TakeOrders_ComDec_009": "中途离开车辆会导致本单派送失败（可重新接取），是否确认下车？",
         "TakeOrders_ComDec_010": "派送时间超时，请重新派送！",
         "TakeOrders_ComDec_011": "货物耐久度过低，请重新派送！",
         "TakeOrders_ComDec_012": "派送奖励",
@@ -287,7 +288,8 @@
         "TakeOrders_NPC_016": "好的",
         "TakeOrders_NPC_017": "<blue>由哈索尔帮忙完成派送</>",
         "TakeOrders_NPC_018": "是「斯特利速递」的快递员吗？那可真是帮大忙了！订单立即就会完成了吧。",
-        "TakeOrders_ComDec_023": "该订单不消耗都市活力"
+        "TakeOrders_ComDec_023": "该订单不消耗都市活力",
+        "GetOffTips_Boss019_002": "请驾驶汽车进入"
       },
       "KeysToMetaData": {}
     }

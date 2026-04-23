@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "1010AwakenEffect",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/Awaken/1010AwakenEffect",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CharacterAwakenEffectData'",
@@ -99,8 +100,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
               "Key": "GA_Nanally_star3_des",
-              "SourceString": "在<hot textstyle=\"TextEXPL\" param=\"nouns&NanallyWalkOnWall\">「一代目的权柄」</>状态下，娜娜莉对敌人造成伤害时，将额外对单体敌人施加<NumGreen>1</>次<TextHLT>追加攻击</>，造成<NumGreen>50%</>*攻击力的<Ling>灵属性异能伤害</>，倍率跟随普通攻击技能等级成长。该效果每秒触发<NumGreen>1</>次。",
-              "LocalizedString": "在<hot textstyle=\"TextEXPL\" param=\"nouns&NanallyWalkOnWall\">「一代目的权柄」</>状态下，娜娜莉对敌人造成伤害时，将额外对单体敌人施加<NumGreen>1</>次<TextHLT>追加攻击</>，造成<NumGreen>50%</>*攻击力的<Ling>灵属性异能伤害</>，倍率跟随普通攻击技能等级成长。该效果每秒触发<NumGreen>1</>次。"
+              "SourceString": "在<hot textstyle=\"TextEXPL\" param=\"nouns&NanallyWalkOnWall\">「一代目的权柄」</>状态下，娜娜莉对敌人造成伤害时，将额外对单体敌人施加<NumGreen>1</>次<TextHLT>追加攻击</>，造成<NumGreen>50%</>*攻击力的<Ling>灵属性异能伤害</>，倍率跟随普通攻击技能等级成长，11级成长至<NumGreen>107.9%</>。该效果每秒触发<NumGreen>1</>次。",
+              "LocalizedString": "在<hot textstyle=\"TextEXPL\" param=\"nouns&NanallyWalkOnWall\">「一代目的权柄」</>状态下，娜娜莉对敌人造成伤害时，将额外对单体敌人施加<NumGreen>1</>次<TextHLT>追加攻击</>，造成<NumGreen>50%</>*攻击力的<Ling>灵属性异能伤害</>，倍率跟随普通攻击技能等级成长，11级成长至<NumGreen>107.9%</>。该效果每秒触发<NumGreen>1</>次。"
             }
           },
           {
@@ -129,8 +130,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
               "Key": "GA_Nanally_star4_des",
-              "SourceString": "「副手」造成的伤害提升<NumGreen>30%</>。",
-              "LocalizedString": "「副手」造成的伤害提升<NumGreen>30%</>。"
+              "SourceString": "「副手」造成的伤害提升<NumGreen>100%</>。",
+              "LocalizedString": "「副手」造成的伤害提升<NumGreen>100%</>。"
             }
           },
           {
@@ -254,8 +255,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
               "Key": "GA_Nanally_starExtra2_des",
-              "SourceString": "娜娜莉造成的伤害额外提升10%。",
-              "LocalizedString": "娜娜莉造成的伤害额外提升10%。"
+              "SourceString": "娜娜莉造成的伤害额外提升15%。",
+              "LocalizedString": "娜娜莉造成的伤害额外提升15%。"
             }
           }
         ]

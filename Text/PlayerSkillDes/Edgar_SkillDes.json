@@ -2,14 +2,15 @@
   {
     "Type": "StringTable",
     "Name": "Edgar_SkillDes",
-    "Class": "UScriptClass'StringTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/Game/Text/PlayerSkillDes/Edgar_SkillDes",
     "StringTable": {
       "TableNamespace": "Edgar_SkillDes",
       "KeysToEntries": {
         "GA_Edgar_Melee_name": "体术实战",
         "GA_Edgar_Melee1_name": "<Title>普通攻击：体术实战</>",
-        "GA_Edgar_Melee2_des": "埃德嘉滞空时点按普攻，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
+        "GA_Edgar_Melee2_des": "埃德嘉滞空时点按普攻，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
         "adddes1": "{0}+{1}%",
         "adddes2": "{0}%",
         "adddes3": "{0}+{1}%最大生命值",

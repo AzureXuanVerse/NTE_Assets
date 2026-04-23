@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_MonsterStaticData_BigWorld_Quest",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Monster/DT_MonsterStaticData_BigWorld_Quest",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'MonsterStaticData'",
@@ -36,6 +37,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 8,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_03_1_BP_q110020_DataPack0",
         "WorldLevelArray": [
           {
@@ -106,6 +108,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 8,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "woodenStake",
         "WorldLevelArray": [
           {
@@ -176,6 +179,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 50,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "boss_18_BP_stage2_L110135_DataPack0",
         "WorldLevelArray": [
           {
@@ -222,7 +226,7 @@
         "BalanceDamageBasePercent": 0.0167
       },
       "boss_26_BP_q110419": {
-        "Comment": "主线-讨债人-BOSS",
+        "Comment": "讨债人停车场BOSS",
         "TextName": {
           "CultureInvariantString": null
         },
@@ -243,55 +247,33 @@
         "IsVisionActor": false,
         "VisionSoulID": "None",
         "UnbalBarTypeList": [
-          "UNBAL_BAR_CHAOS"
+          "UNBAL_BAR_COSMOS"
         ],
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
-        "MonsterLevel": 45,
-        "PropModifyID": "boss_10_BP_q110300_DataPack0",
+        "MonsterLevel": 50,
+        "IsUseLeaderPropModifyID": false,
+        "PropModifyID": "boss_26_BP_q110419_DataPack0",
         "WorldLevelArray": [
           {
-            "MonsterWorldLevel": 45,
-            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack0"
-          },
-          {
-            "MonsterWorldLevel": 5,
-            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack1"
-          },
-          {
-            "MonsterWorldLevel": 5,
-            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack2"
-          },
-          {
-            "MonsterWorldLevel": 5,
-            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack3"
-          },
-          {
-            "MonsterWorldLevel": 5,
-            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack4"
-          },
-          {
-            "MonsterWorldLevel": 5,
-            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack5"
-          },
-          {
-            "MonsterWorldLevel": 5,
-            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack6"
-          },
-          {
-            "MonsterWorldLevel": 5,
-            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack7"
+            "MonsterWorldLevel": 50,
+            "MonsterWorldLevelPropModifyID": "boss_26_BP_q110419_DataPack0"
           }
         ],
         "OnlineRatioID": "normal",
         "bIsCloneDifficultyLevel": false,
-        "CloneDifficultyLevelArray": [],
+        "CloneDifficultyLevelArray": [
+          {
+            "MonsterCloneLevel": 50,
+            "MonsterClonePropModifyID": "boss_26_BP_q110419_DataPack0"
+          }
+        ],
         "bIsAbyssCloneLevel": false,
         "AbyssCloneLevelArray": [],
         "IsTestMonster": false,
         "IsStoryBalance": true,
-        "BalanceBeDamageBase": 100.0,
-        "BalanceDamageBasePercent": 0.0154
+        "BalanceBeDamageBase": 10000.0,
+        "BalanceDamageBasePercent": 0.0095
       },
       "mon_025_double_BP_WJ1017": {
         "Comment": "偶遇-薄荷-鲤鱼旗",
@@ -320,6 +302,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 8,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_04_BP_q110070_DataPack0",
         "WorldLevelArray": [
           {
@@ -343,7 +326,7 @@
         "BalanceDamageBasePercent": 0.0017
       },
       "mon_46_BP_q110431": {
-        "Comment": "讨债人副本小怪",
+        "Comment": "讨债人副本餐厅打小怪",
         "TextName": {
           "CultureInvariantString": null
         },
@@ -364,58 +347,36 @@
         "IsVisionActor": false,
         "VisionSoulID": "None",
         "UnbalBarTypeList": [
-          "UNBAL_BAR_CHAOS"
+          "UNBAL_BAR_NORMAL"
         ],
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
-        "MonsterLevel": 45,
-        "PropModifyID": "mon_02_BP_q110126_3_DataPack0",
+        "MonsterLevel": 38,
+        "IsUseLeaderPropModifyID": false,
+        "PropModifyID": "mon_46_BP_q110431_DataPack0",
         "WorldLevelArray": [
           {
-            "MonsterWorldLevel": 45,
-            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack0"
-          },
-          {
-            "MonsterWorldLevel": 5,
-            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack1"
-          },
-          {
-            "MonsterWorldLevel": 5,
-            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack2"
-          },
-          {
-            "MonsterWorldLevel": 5,
-            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack3"
-          },
-          {
-            "MonsterWorldLevel": 5,
-            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack4"
-          },
-          {
-            "MonsterWorldLevel": 5,
-            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack5"
-          },
-          {
-            "MonsterWorldLevel": 5,
-            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack6"
-          },
-          {
-            "MonsterWorldLevel": 5,
-            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack7"
+            "MonsterWorldLevel": 38,
+            "MonsterWorldLevelPropModifyID": "mon_46_BP_q110431_DataPack0"
           }
         ],
         "OnlineRatioID": "normal",
         "bIsCloneDifficultyLevel": false,
-        "CloneDifficultyLevelArray": [],
+        "CloneDifficultyLevelArray": [
+          {
+            "MonsterCloneLevel": 38,
+            "MonsterClonePropModifyID": "mon_46_BP_q110431_DataPack0"
+          }
+        ],
         "bIsAbyssCloneLevel": false,
         "AbyssCloneLevelArray": [],
         "IsTestMonster": false,
         "IsStoryBalance": true,
-        "BalanceBeDamageBase": 100.0,
-        "BalanceDamageBasePercent": 0.0154
+        "BalanceBeDamageBase": 10000.0,
+        "BalanceDamageBasePercent": 0.0095
       },
       "boss_26_BP_q110490": {
-        "Comment": "讨债人副本中的讨债人BOSS",
+        "Comment": "Boss平台打讨债人",
         "TextName": {
           "CultureInvariantString": null
         },
@@ -426,35 +387,46 @@
         "Description": {
           "CultureInvariantString": null
         },
-        "DropRadius": 1.0,
+        "DropRadius": 0.0,
         "DropGroupID": "None",
         "DropNpcGroupID": "None",
-        "DropDelayTime": 0.0,
+        "DropDelayTime": 1.9,
         "Tags": [
           "boss_26_BP_q110490"
         ],
         "IsVisionActor": false,
         "VisionSoulID": "None",
         "UnbalBarTypeList": [
-          "UNBAL_BAR_CHAOS"
+          "UNBAL_BAR_COSMOS"
         ],
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
-        "MonsterLevel": 1,
-        "PropModifyID": "boss_10_BP_q110300_DataPack0",
-        "WorldLevelArray": [],
-        "OnlineRatioID": "None",
+        "MonsterLevel": 50,
+        "IsUseLeaderPropModifyID": false,
+        "PropModifyID": "boss_26_BP_q110490_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 50,
+            "MonsterWorldLevelPropModifyID": "boss_26_BP_q110490_DataPack0"
+          }
+        ],
+        "OnlineRatioID": "normal",
         "bIsCloneDifficultyLevel": false,
-        "CloneDifficultyLevelArray": [],
+        "CloneDifficultyLevelArray": [
+          {
+            "MonsterCloneLevel": 50,
+            "MonsterClonePropModifyID": "Boss_26_BP_q110490_DataPack0"
+          }
+        ],
         "bIsAbyssCloneLevel": false,
         "AbyssCloneLevelArray": [],
         "IsTestMonster": false,
-        "IsStoryBalance": false,
-        "BalanceBeDamageBase": 0.0,
-        "BalanceDamageBasePercent": 0.0
+        "IsStoryBalance": true,
+        "BalanceBeDamageBase": 10000.0,
+        "BalanceDamageBasePercent": 0.0133
       },
-      "boss_32_BP_q110488": {
-        "Comment": "讨债人副本中的残虹BOSS",
+      "Boss_32_BP_q110488": {
+        "Comment": "Boss平台打残虹",
         "TextName": {
           "CultureInvariantString": null
         },
@@ -465,32 +437,93 @@
         "Description": {
           "CultureInvariantString": null
         },
-        "DropRadius": 1.0,
+        "DropRadius": 0.0,
         "DropGroupID": "None",
         "DropNpcGroupID": "None",
-        "DropDelayTime": 0.0,
+        "DropDelayTime": 1.9,
         "Tags": [
-          "boss_32_BP_q110488"
+          "Boss_32_BP_q110488"
         ],
         "IsVisionActor": false,
         "VisionSoulID": "None",
         "UnbalBarTypeList": [
-          "UNBAL_BAR_CHAOS"
+          "UNBAL_BAR_INCANTATION"
         ],
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
-        "MonsterLevel": 1,
-        "PropModifyID": "boss_10_BP_q110300_DataPack0",
-        "WorldLevelArray": [],
-        "OnlineRatioID": "None",
+        "MonsterLevel": 48,
+        "IsUseLeaderPropModifyID": false,
+        "PropModifyID": "Boss_32_BP_q110488_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 48,
+            "MonsterWorldLevelPropModifyID": "Boss_32_BP_q110488_DataPack0"
+          }
+        ],
+        "OnlineRatioID": "normal",
         "bIsCloneDifficultyLevel": false,
-        "CloneDifficultyLevelArray": [],
+        "CloneDifficultyLevelArray": [
+          {
+            "MonsterCloneLevel": 48,
+            "MonsterClonePropModifyID": "Boss_32_BP_q110488_DataPack0"
+          }
+        ],
         "bIsAbyssCloneLevel": false,
         "AbyssCloneLevelArray": [],
         "IsTestMonster": false,
-        "IsStoryBalance": false,
-        "BalanceBeDamageBase": 0.0,
-        "BalanceDamageBasePercent": 0.0
+        "IsStoryBalance": true,
+        "BalanceBeDamageBase": 10000.0,
+        "BalanceDamageBasePercent": 0.0095
+      },
+      "Boss_32_BP_Canying_q110488": {
+        "Comment": "Boss平台打残虹-残影",
+        "TextName": {
+          "CultureInvariantString": null
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropNpcGroupID": "None",
+        "DropDelayTime": 1.9,
+        "Tags": [
+          "Boss_32_BP_Canying_q110488"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarTypeList": [
+          "UNBAL_BAR_INCANTATION"
+        ],
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 48,
+        "IsUseLeaderPropModifyID": false,
+        "PropModifyID": "Boss_32_BP_Canying_q110488_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 48,
+            "MonsterWorldLevelPropModifyID": "Boss_32_BP_Canying_q110488_DataPack0"
+          }
+        ],
+        "OnlineRatioID": "normal",
+        "bIsCloneDifficultyLevel": false,
+        "CloneDifficultyLevelArray": [
+          {
+            "MonsterCloneLevel": 48,
+            "MonsterClonePropModifyID": "Boss_32_BP_Canying_q110488_DataPack0"
+          }
+        ],
+        "bIsAbyssCloneLevel": false,
+        "AbyssCloneLevelArray": [],
+        "IsTestMonster": false,
+        "IsStoryBalance": true,
+        "BalanceBeDamageBase": 10000.0,
+        "BalanceDamageBasePercent": 0.0095
       },
       "mon_04_BP_q110013": {
         "Comment": "新手-迷失种",
@@ -519,6 +552,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_04_BP_q110013_DataPack0",
         "WorldLevelArray": [
           {
@@ -568,6 +602,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_01_BP_q1100132_DataPack0",
         "WorldLevelArray": [
           {
@@ -617,6 +652,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_01_BP_q110022_DataPack0",
         "WorldLevelArray": [
           {
@@ -666,6 +702,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_02_BP_q1100132_DataPack0",
         "WorldLevelArray": [
           {
@@ -715,6 +752,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 2,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_14_BP_q110022_DataPack0",
         "WorldLevelArray": [
           {
@@ -764,6 +802,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 2,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_14_1_BP_q110022_DataPack0",
         "WorldLevelArray": [
           {
@@ -813,6 +852,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 4,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_016_BP_q110020_DataPack0",
         "WorldLevelArray": [
           {
@@ -862,6 +902,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 2,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_04_BP_q110022_DataPack0",
         "WorldLevelArray": [
           {
@@ -911,6 +952,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 9,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "boss_01_BP_q110025_DataPack0",
         "WorldLevelArray": [
           {
@@ -960,6 +1002,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 11,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "boss_04_BP_q110052_DataPack0",
         "WorldLevelArray": [
           {
@@ -1009,6 +1052,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 8,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_02_BP_q110070_DataPack0",
         "WorldLevelArray": [
           {
@@ -1058,6 +1102,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 8,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_04_BP_q110070_DataPack0",
         "WorldLevelArray": [
           {
@@ -1107,6 +1152,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 8,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_04_BP_q1100756_DataPack0",
         "WorldLevelArray": [
           {
@@ -1156,6 +1202,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 8,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_02_BP_q110070_Drop_DataPack0",
         "WorldLevelArray": [
           {
@@ -1205,6 +1252,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 8,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_04_BP_q110070_down_DataPack0",
         "WorldLevelArray": [
           {
@@ -1254,6 +1302,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 18,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "BP_Boss_06_q110083_DataPack0",
         "WorldLevelArray": [
           {
@@ -1303,6 +1352,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 11,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "Boss_06_Sagiri_BP_q110083_DataPack0",
         "WorldLevelArray": [
           {
@@ -1352,6 +1402,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "boss_05_BP_q110131_DataPack0",
         "WorldLevelArray": [
           {
@@ -1457,6 +1508,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_02_BP_q110125_5_DataPack0",
         "WorldLevelArray": [
           {
@@ -1562,6 +1614,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_02_BP_q110126_1_DataPack0",
         "WorldLevelArray": [
           {
@@ -1667,6 +1720,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_02_BP_q110126_3_DataPack0",
         "WorldLevelArray": [
           {
@@ -1772,6 +1826,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_05_BP_q110127_2_DataPack0",
         "WorldLevelArray": [
           {
@@ -1877,6 +1932,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_02_BP_Hockshop_DataPack0",
         "WorldLevelArray": [
           {
@@ -1982,6 +2038,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_02_BP_K110213_DataPack0",
         "WorldLevelArray": [
           {
@@ -2087,6 +2144,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_02_BP_K110325_DataPack0",
         "WorldLevelArray": [
           {
@@ -2192,6 +2250,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_18_2_BP_S1105071_DataPack0",
         "WorldLevelArray": [
           {
@@ -2270,6 +2329,112 @@
         "BalanceBeDamageBase": 10000.0,
         "BalanceDamageBasePercent": 0.0095
       },
+      "mon_18_2_BP_S1105071_2": {
+        "Comment": "支线-黑化棉绒绒",
+        "TextName": {
+          "CultureInvariantString": null
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropNpcGroupID": "None",
+        "DropDelayTime": 0.0,
+        "Tags": [
+          "mon_18_2_BP_S1105071_2"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarTypeList": [
+          "UNBAL_BAR_NORMAL"
+        ],
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": true,
+        "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
+        "PropModifyID": "mon_18_2_BP_S1105071_2_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 9,
+            "MonsterWorldLevelPropModifyID": "mon_18_2_BP_S1105071_2_DataPack0"
+          },
+          {
+            "MonsterWorldLevel": 19,
+            "MonsterWorldLevelPropModifyID": "mon_18_2_BP_S1105071_2_DataPack1"
+          },
+          {
+            "MonsterWorldLevel": 29,
+            "MonsterWorldLevelPropModifyID": "mon_18_2_BP_S1105071_2_DataPack2"
+          },
+          {
+            "MonsterWorldLevel": 39,
+            "MonsterWorldLevelPropModifyID": "mon_18_2_BP_S1105071_2_DataPack3"
+          },
+          {
+            "MonsterWorldLevel": 49,
+            "MonsterWorldLevelPropModifyID": "mon_18_2_BP_S1105071_2_DataPack4"
+          },
+          {
+            "MonsterWorldLevel": 54,
+            "MonsterWorldLevelPropModifyID": "mon_18_2_BP_S1105071_2_DataPack5"
+          },
+          {
+            "MonsterWorldLevel": 59,
+            "MonsterWorldLevelPropModifyID": "mon_18_2_BP_S1105071_2_DataPack6"
+          },
+          {
+            "MonsterWorldLevel": 64,
+            "MonsterWorldLevelPropModifyID": "mon_18_2_BP_S1105071_2_DataPack7"
+          }
+        ],
+        "OnlineRatioID": "normal",
+        "bIsCloneDifficultyLevel": false,
+        "CloneDifficultyLevelArray": [
+          {
+            "MonsterCloneLevel": 9,
+            "MonsterClonePropModifyID": "mon_18_2_BP_S1105071_2_DataPack0"
+          },
+          {
+            "MonsterCloneLevel": 19,
+            "MonsterClonePropModifyID": "mon_18_2_BP_S1105071_2_DataPack1"
+          },
+          {
+            "MonsterCloneLevel": 29,
+            "MonsterClonePropModifyID": "mon_18_2_BP_S1105071_2_DataPack2"
+          },
+          {
+            "MonsterCloneLevel": 39,
+            "MonsterClonePropModifyID": "mon_18_2_BP_S1105071_2_DataPack3"
+          },
+          {
+            "MonsterCloneLevel": 49,
+            "MonsterClonePropModifyID": "mon_18_2_BP_S1105071_2_DataPack4"
+          },
+          {
+            "MonsterCloneLevel": 54,
+            "MonsterClonePropModifyID": "mon_18_2_BP_S1105071_2_DataPack5"
+          },
+          {
+            "MonsterCloneLevel": 59,
+            "MonsterClonePropModifyID": "mon_18_2_BP_S1105071_2_DataPack6"
+          },
+          {
+            "MonsterCloneLevel": 64,
+            "MonsterClonePropModifyID": "mon_18_2_BP_S1105071_2_DataPack7"
+          }
+        ],
+        "bIsAbyssCloneLevel": false,
+        "AbyssCloneLevelArray": [],
+        "IsTestMonster": false,
+        "IsStoryBalance": false,
+        "BalanceBeDamageBase": 10000.0,
+        "BalanceDamageBasePercent": 0.0095
+      },
       "mon_012_1_BP_s110601": {
         "Comment": "支线-涂鸦-一阶段",
         "TextName": {
@@ -2297,6 +2462,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_012_1_BP_s110601_DataPack0",
         "WorldLevelArray": [
           {
@@ -2402,6 +2568,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_012_2_BP_s110601_DataPack0",
         "WorldLevelArray": [
           {
@@ -2507,6 +2674,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_nanally_BP_q110150_DataPack0",
         "WorldLevelArray": [
           {
@@ -2612,6 +2780,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "Boss_016_BP_Child_q110150_DataPack0",
         "WorldLevelArray": [
           {
@@ -2717,6 +2886,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "Boss_16_summon_BP_DataPack0",
         "WorldLevelArray": [
           {
@@ -2822,6 +2992,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "Boss_16_summon_small_BP_DataPack0",
         "WorldLevelArray": [
           {
@@ -2927,6 +3098,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_17_BP_S110300_DataPack0",
         "WorldLevelArray": [
           {
@@ -3032,6 +3204,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 21,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_27_BP_L110035_p4_DataPack0",
         "WorldLevelArray": [
           {
@@ -3081,6 +3254,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 19,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_011_BP_L110035_p6_DataPack0",
         "WorldLevelArray": [
           {
@@ -3130,6 +3304,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 19,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_011_BP_l110035_p11_DataPack0",
         "WorldLevelArray": [
           {
@@ -3179,6 +3354,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 19,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_011_BP_L110035_p14_DataPack0",
         "WorldLevelArray": [
           {
@@ -3228,6 +3404,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 19,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_011_BP_L110038_DataPack0",
         "WorldLevelArray": [
           {
@@ -3277,6 +3454,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 32,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "Boss_07_BP_L110047_DataPack0",
         "WorldLevelArray": [
           {
@@ -3326,6 +3504,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 35,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_33_BP_q110380_DataPack0",
         "WorldLevelArray": [
           {
@@ -3375,6 +3554,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 35,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_02_BP_q110300_DataPack0",
         "WorldLevelArray": [
           {
@@ -3424,6 +3604,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 38,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_36_BP_q110370_DataPack0",
         "WorldLevelArray": [
           {
@@ -3473,6 +3654,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 45,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "boss_10_BP_q110300_DataPack0",
         "WorldLevelArray": [
           {
@@ -3522,6 +3704,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 35,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "boss_10_partner_BP_q110389_DataPack0",
         "WorldLevelArray": [
           {
@@ -3571,6 +3754,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 50,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_04_BP_CR_q100001_DataPack0",
         "WorldLevelArray": [
           {
@@ -3620,6 +3804,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 50,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_02_BP_CR_q100001_DataPack0",
         "WorldLevelArray": [
           {
@@ -3669,6 +3854,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 40,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "boss_18_BP_stage1_L110116_DataPack0",
         "WorldLevelArray": [
           {
@@ -3718,6 +3904,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 40,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "boss_18_BP_stage1_L110133_DataPack0",
         "WorldLevelArray": [
           {
@@ -3767,6 +3954,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": false,
         "MonsterLevel": 40,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "boss_18_BP_stage2_L110135_DataPack0",
         "WorldLevelArray": [
           {
@@ -3816,6 +4004,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_02_BP_S110921_DataPack0",
         "WorldLevelArray": [
           {
@@ -3921,6 +4110,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_02_BP_s110921_2_DataPack0",
         "WorldLevelArray": [
           {
@@ -4026,6 +4216,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_04_BP_s110922_DataPack0",
         "WorldLevelArray": [
           {
@@ -4131,6 +4322,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_04_BP_s110922_2_DataPack0",
         "WorldLevelArray": [
           {
@@ -4236,6 +4428,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_38_BP_Normal_S111325_Soldier_DataPack0",
         "WorldLevelArray": [
           {
@@ -4341,6 +4534,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_38_2_BP_S111325_Elite_DataPack0",
         "WorldLevelArray": [
           {
@@ -4446,6 +4640,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_38_BP_Normal_S111323_1L_DataPack0",
         "WorldLevelArray": [
           {
@@ -4551,6 +4746,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_38_BP_Normal_S111324_2L_DataPack0",
         "WorldLevelArray": [
           {
@@ -4656,6 +4852,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_38_BP_Normal_S1113244_3L_DataPack0",
         "WorldLevelArray": [
           {
@@ -4761,6 +4958,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_39_BP_Normal_S111323_1L_DataPack0",
         "WorldLevelArray": [
           {
@@ -4866,6 +5064,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_39_BP_Normal_S111324_2L_DataPack0",
         "WorldLevelArray": [
           {
@@ -4971,6 +5170,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_39_BP_Normal_S1113244_3L_DataPack0",
         "WorldLevelArray": [
           {
@@ -5076,6 +5276,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_39_2_BP_S1113244_DataPack0",
         "WorldLevelArray": [
           {
@@ -5181,6 +5382,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_015_BP_s111800_DataPack0",
         "WorldLevelArray": [
           {
@@ -5286,6 +5488,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_012_2_perform_BP_L110248_DataPack0",
         "WorldLevelArray": [
           {
@@ -5391,6 +5594,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_023_BP_Museum_Lamp_DataPack0",
         "WorldLevelArray": [
           {
@@ -5496,6 +5700,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_023_BP_Museum_Lamp_Wild_DataPack0",
         "WorldLevelArray": [
           {
@@ -5601,6 +5806,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_nanally_BP_WJ1004_DataPack0",
         "WorldLevelArray": [
           {
@@ -5706,6 +5912,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_38_BP_Normal_DLC_S111300_DataPack0",
         "WorldLevelArray": [
           {
@@ -5811,6 +6018,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_39_BP_Normal_DLC_S111300_DataPack0",
         "WorldLevelArray": [
           {
@@ -5916,6 +6124,7 @@
         "AutoDecIntervalTime": 0.0,
         "bIsWorldLevel": true,
         "MonsterLevel": 1,
+        "IsUseLeaderPropModifyID": false,
         "PropModifyID": "mon_18_BP_S111300_DataPack0",
         "WorldLevelArray": [
           {
@@ -5993,6 +6202,156 @@
         "IsStoryBalance": true,
         "BalanceBeDamageBase": 10000.0,
         "BalanceDamageBasePercent": 0.0095
+      },
+      "mon_051_BP_q110500": {
+        "Comment": "主线-第四话-BOSS-桀桀熊（先占坑）",
+        "TextName": {
+          "CultureInvariantString": null
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropNpcGroupID": "None",
+        "DropDelayTime": 1.9,
+        "Tags": [
+          "mon_051_BP_q110500"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarTypeList": [
+          "UNBAL_BAR_CHAOS"
+        ],
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 45,
+        "IsUseLeaderPropModifyID": false,
+        "PropModifyID": "boss_10_BP_q110300_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 45,
+            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack0"
+          }
+        ],
+        "OnlineRatioID": "normal",
+        "bIsCloneDifficultyLevel": false,
+        "CloneDifficultyLevelArray": [
+          {
+            "MonsterCloneLevel": 45,
+            "MonsterClonePropModifyID": "boss_10_BP_q110300_DataPack0"
+          }
+        ],
+        "bIsAbyssCloneLevel": false,
+        "AbyssCloneLevelArray": [],
+        "IsTestMonster": false,
+        "IsStoryBalance": true,
+        "BalanceBeDamageBase": 10000.0,
+        "BalanceDamageBasePercent": 0.0154
+      },
+      "boss_34_BP_q110500": {
+        "Comment": "主线-第四话-BOSS-莳1（先占坑）",
+        "TextName": {
+          "CultureInvariantString": null
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropNpcGroupID": "None",
+        "DropDelayTime": 1.9,
+        "Tags": [
+          "boss_34_BP_q110500"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarTypeList": [
+          "UNBAL_BAR_CHAOS"
+        ],
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 45,
+        "IsUseLeaderPropModifyID": false,
+        "PropModifyID": "boss_10_BP_q110300_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 45,
+            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack0"
+          }
+        ],
+        "OnlineRatioID": "normal",
+        "bIsCloneDifficultyLevel": false,
+        "CloneDifficultyLevelArray": [
+          {
+            "MonsterCloneLevel": 45,
+            "MonsterClonePropModifyID": "boss_10_BP_q110300_DataPack0"
+          }
+        ],
+        "bIsAbyssCloneLevel": false,
+        "AbyssCloneLevelArray": [],
+        "IsTestMonster": false,
+        "IsStoryBalance": true,
+        "BalanceBeDamageBase": 10000.0,
+        "BalanceDamageBasePercent": 0.0154
+      },
+      "Boss_34b_maki_BP_q110500": {
+        "Comment": "主线-第四话-BOSS-莳2（先占坑）",
+        "TextName": {
+          "CultureInvariantString": null
+        },
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "DropRadius": 0.0,
+        "DropGroupID": "None",
+        "DropNpcGroupID": "None",
+        "DropDelayTime": 1.9,
+        "Tags": [
+          "Boss_34b_maki_BP_q110500"
+        ],
+        "IsVisionActor": false,
+        "VisionSoulID": "None",
+        "UnbalBarTypeList": [
+          "UNBAL_BAR_CHAOS"
+        ],
+        "AutoDecIntervalTime": 0.0,
+        "bIsWorldLevel": false,
+        "MonsterLevel": 45,
+        "IsUseLeaderPropModifyID": false,
+        "PropModifyID": "boss_10_BP_q110300_DataPack0",
+        "WorldLevelArray": [
+          {
+            "MonsterWorldLevel": 45,
+            "MonsterWorldLevelPropModifyID": "boss_10_BP_q110300_DataPack0"
+          }
+        ],
+        "OnlineRatioID": "normal",
+        "bIsCloneDifficultyLevel": false,
+        "CloneDifficultyLevelArray": [
+          {
+            "MonsterCloneLevel": 45,
+            "MonsterClonePropModifyID": "boss_10_BP_q110300_DataPack0"
+          }
+        ],
+        "bIsAbyssCloneLevel": false,
+        "AbyssCloneLevelArray": [],
+        "IsTestMonster": false,
+        "IsStoryBalance": true,
+        "BalanceBeDamageBase": 10000.0,
+        "BalanceDamageBasePercent": 0.0154
       }
     }
   }

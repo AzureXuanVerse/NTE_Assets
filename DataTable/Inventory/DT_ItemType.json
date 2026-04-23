@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_ItemType",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Inventory/DT_ItemType",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'ItemTypeData'",
@@ -568,8 +569,8 @@
           }
         },
         "ItemDataTable": {
-          "ObjectName": "DataTable'DT_ItemConfig'",
-          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+          "ObjectName": "DataTable'DT_FoodItemData'",
+          "ObjectPath": "/Game/DataTable/Food/DT_FoodItemData.0"
         },
         "ItemClassOverride": {
           "ObjectName": "Class'HTItem'",
@@ -1346,7 +1347,7 @@
           "SubPathString": ""
         },
         "TipsUIID": "ItemTipsBase",
-        "bNeedNeedImmediateSerialize": true,
+        "bNeedNeedImmediateSerialize": false,
         "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
       },
       "ITEM_TYPE_DISCOUNT_CARD": {
@@ -1917,8 +1918,8 @@
         "TypeName": {
           "TableId": "/Game/Text/ST_Common.ST_Common",
           "Key": "item_type_10",
-          "SourceString": "拉花",
-          "LocalizedString": "拉花"
+          "SourceString": "改装件",
+          "LocalizedString": "改装件"
         },
         "IconData": {
           "NormalImage": {
@@ -2164,8 +2165,8 @@
           }
         },
         "ItemDataTable": {
-          "ObjectName": "DataTable'DT_ItemConfig'",
-          "ObjectPath": "/Game/DataTable/Inventory/DT_ItemConfig.0"
+          "ObjectName": "DataTable'DT_RobBankItemData'",
+          "ObjectPath": "/Game/DataTable/RobBank/DT_RobBankItemData.0"
         },
         "ItemClassOverride": {
           "ObjectName": "Class'HTItem'",
@@ -2177,6 +2178,51 @@
         },
         "ItemTypeTipsIcon": {
           "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_ZhongYao.UI_YH_Tips_Type_ZhongYao",
+          "SubPathString": ""
+        },
+        "TipsUIID": "ItemTipsBase",
+        "bNeedNeedImmediateSerialize": false,
+        "ItemSlotType": "EItemSlotType::ItemSlot_Amount"
+      },
+      "ITEM_TYPE_LIMITED_COUNT_VEHICLE_KEY": {
+        "TypeName": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
+        },
+        "IconData": {
+          "NormalImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "HoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          },
+          "CheckedHoverImage": {
+            "AssetPathName": "/Game/UI/UI/common/function/huoqu_cailiao.huoqu_cailiao",
+            "SubPathString": ""
+          }
+        },
+        "ItemDataTable": {
+          "ObjectName": "DataTable'DT_VehicleItemData'",
+          "ObjectPath": "/Game/DataTable/Vehicle/DT_VehicleItemData.0"
+        },
+        "ItemClassOverride": {
+          "ObjectName": "Class'HTItem'",
+          "ObjectPath": "/Script/HTGame"
+        },
+        "ItemTypeIcon": {
+          "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_daoju.YH_UI_icon_top_daoju",
+          "SubPathString": ""
+        },
+        "ItemTypeTipsIcon": {
+          "AssetPathName": "/Game/UI/UI/itemtips/itemtips_11_11/UI_YH_Tips_Type_DaoJu.UI_YH_Tips_Type_DaoJu",
           "SubPathString": ""
         },
         "TipsUIID": "ItemTipsBase",

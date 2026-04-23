@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_SelfiePhotoFrame",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Selfie/DT_SelfiePhotoFrame",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'HTSelfiePhotoFrame'",
@@ -70,7 +71,7 @@
         "ChildWidgetDatas": [
           {
             "WidgetName": "TextBlock_8",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -82,15 +83,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtName",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -102,15 +103,15 @@
               }
             },
             "Offsets": {
-              "Left": 248.0,
-              "Top": -84.0,
-              "Right": 177.0,
-              "Bottom": 48.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtTime",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -122,15 +123,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtUid",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -142,15 +143,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "ImgWaterMark",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -162,10 +163,10 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           }
         ]
@@ -180,8 +181,8 @@
           "SubPathString": ""
         },
         "FrameImageSize": {
-          "X": 0.0,
-          "Y": 0.0
+          "X": 956.0,
+          "Y": 1440.0
         },
         "FrameMargin": {
           "Left": 0.0,
@@ -190,17 +191,17 @@
           "Bottom": 0.0
         },
         "MarginClip": {
-          "Left": 0.0,
-          "Top": 0.0,
-          "Right": 0.0,
-          "Bottom": 0.0
+          "Left": 0.01,
+          "Top": 0.01,
+          "Right": 0.01,
+          "Bottom": 0.01
         },
-        "FrameType": "ESelfiePhotoFrameType::InwardShrinkClip",
+        "FrameType": "ESelfiePhotoFrameType::OutwardExpandClip",
         "ClipScale": 0.373437,
         "ChildWidgetDatas": [
           {
             "WidgetName": "TextBlock_8",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -212,15 +213,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtName",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -232,15 +233,15 @@
               }
             },
             "Offsets": {
-              "Left": 248.0,
-              "Top": -84.0,
-              "Right": 177.0,
-              "Bottom": 48.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtTime",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -252,15 +253,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtUid",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -272,15 +273,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "ImgWaterMark",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -292,10 +293,10 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           }
         ]
@@ -330,7 +331,7 @@
         "ChildWidgetDatas": [
           {
             "WidgetName": "TextBlock_8",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -342,15 +343,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtName",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -362,15 +363,15 @@
               }
             },
             "Offsets": {
-              "Left": 248.0,
-              "Top": -84.0,
-              "Right": 177.0,
-              "Bottom": 48.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtTime",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -382,15 +383,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtUid",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -402,15 +403,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "ImgWaterMark",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -422,10 +423,10 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           }
         ]
@@ -460,7 +461,7 @@
         "ChildWidgetDatas": [
           {
             "WidgetName": "TextBlock_8",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -472,15 +473,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtName",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -492,15 +493,15 @@
               }
             },
             "Offsets": {
-              "Left": 248.0,
-              "Top": -84.0,
-              "Right": 177.0,
-              "Bottom": 48.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtTime",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -512,15 +513,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtUid",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -532,15 +533,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "ImgWaterMark",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -552,10 +553,10 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           }
         ]
@@ -590,7 +591,7 @@
         "ChildWidgetDatas": [
           {
             "WidgetName": "TextBlock_8",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -602,15 +603,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtName",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -622,15 +623,15 @@
               }
             },
             "Offsets": {
-              "Left": 248.0,
-              "Top": -84.0,
-              "Right": 177.0,
-              "Bottom": 48.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtTime",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -642,15 +643,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtUid",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -662,15 +663,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "ImgWaterMark",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -682,10 +683,10 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           }
         ]
@@ -700,8 +701,8 @@
           "SubPathString": ""
         },
         "FrameImageSize": {
-          "X": 0.0,
-          "Y": 0.0
+          "X": 1089.0,
+          "Y": 1440.0
         },
         "FrameMargin": {
           "Left": 0.0,
@@ -710,17 +711,17 @@
           "Bottom": 0.0
         },
         "MarginClip": {
-          "Left": 0.0,
-          "Top": 0.0,
-          "Right": 0.0,
-          "Bottom": 0.0
+          "Left": 0.005,
+          "Top": 0.005,
+          "Right": 0.005,
+          "Bottom": 0.005
         },
-        "FrameType": "ESelfiePhotoFrameType::InwardShrinkClip",
+        "FrameType": "ESelfiePhotoFrameType::OutwardExpandClip",
         "ClipScale": 0.425,
         "ChildWidgetDatas": [
           {
             "WidgetName": "TextBlock_8",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -732,15 +733,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtName",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -752,15 +753,15 @@
               }
             },
             "Offsets": {
-              "Left": 248.0,
-              "Top": -84.0,
-              "Right": 177.0,
-              "Bottom": 48.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtTime",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -772,15 +773,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtUid",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -792,15 +793,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "ImgWaterMark",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -812,10 +813,10 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           }
         ]
@@ -830,8 +831,8 @@
           "SubPathString": ""
         },
         "FrameImageSize": {
-          "X": 0.0,
-          "Y": 0.0
+          "X": 1088.0,
+          "Y": 1440.0
         },
         "FrameMargin": {
           "Left": 0.0,
@@ -840,17 +841,17 @@
           "Bottom": 0.0
         },
         "MarginClip": {
-          "Left": 0.0,
-          "Top": 0.0,
-          "Right": 0.0,
-          "Bottom": 0.0
+          "Left": 0.005,
+          "Top": 0.005,
+          "Right": 0.005,
+          "Bottom": 0.005
         },
-        "FrameType": "ESelfiePhotoFrameType::InwardShrinkClip",
+        "FrameType": "ESelfiePhotoFrameType::OutwardExpandClip",
         "ClipScale": 0.425,
         "ChildWidgetDatas": [
           {
             "WidgetName": "TextBlock_8",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -862,15 +863,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtName",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -882,15 +883,15 @@
               }
             },
             "Offsets": {
-              "Left": 248.0,
-              "Top": -84.0,
-              "Right": 177.0,
-              "Bottom": 48.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtTime",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -902,15 +903,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtUid",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -922,15 +923,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "ImgWaterMark",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -942,10 +943,10 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           }
         ]
@@ -970,17 +971,17 @@
           "Bottom": 0.0
         },
         "MarginClip": {
-          "Left": 0.1,
-          "Top": 0.1,
-          "Right": 0.1,
-          "Bottom": 0.1
+          "Left": 0.08,
+          "Top": 0.08,
+          "Right": 0.08,
+          "Bottom": 0.08
         },
         "FrameType": "ESelfiePhotoFrameType::OutwardExpandClip",
         "ClipScale": 0.558203,
         "ChildWidgetDatas": [
           {
             "WidgetName": "TextBlock_8",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -992,15 +993,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtName",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1012,15 +1013,15 @@
               }
             },
             "Offsets": {
-              "Left": 248.0,
-              "Top": -84.0,
-              "Right": 177.0,
-              "Bottom": 48.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtTime",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1032,15 +1033,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtUid",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1052,15 +1053,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "ImgWaterMark",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1072,10 +1073,10 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           }
         ]
@@ -1090,8 +1091,8 @@
           "SubPathString": ""
         },
         "FrameImageSize": {
-          "X": 0.0,
-          "Y": 0.0
+          "X": 1078.0,
+          "Y": 1440.0
         },
         "FrameMargin": {
           "Left": 0.0,
@@ -1100,17 +1101,17 @@
           "Bottom": 0.0
         },
         "MarginClip": {
-          "Left": 0.0,
+          "Left": 0.005,
           "Top": 0.0,
-          "Right": 0.0,
+          "Right": 0.005,
           "Bottom": 0.0
         },
-        "FrameType": "ESelfiePhotoFrameType::InwardShrinkClip",
-        "ClipScale": 0.421,
+        "FrameType": "ESelfiePhotoFrameType::OutwardExpandClip",
+        "ClipScale": 0.421094,
         "ChildWidgetDatas": [
           {
             "WidgetName": "TextBlock_8",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1122,15 +1123,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtName",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1142,15 +1143,15 @@
               }
             },
             "Offsets": {
-              "Left": 248.0,
-              "Top": -84.0,
-              "Right": 177.0,
-              "Bottom": 48.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtTime",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1162,15 +1163,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtUid",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1182,15 +1183,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "ImgWaterMark",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1202,10 +1203,10 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           }
         ]
@@ -1220,8 +1221,8 @@
           "SubPathString": ""
         },
         "FrameImageSize": {
-          "X": 0.0,
-          "Y": 0.0
+          "X": 2560.0,
+          "Y": 1440.0
         },
         "FrameMargin": {
           "Left": 0.0,
@@ -1240,7 +1241,7 @@
         "ChildWidgetDatas": [
           {
             "WidgetName": "TextBlock_8",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1252,15 +1253,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtName",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1272,15 +1273,15 @@
               }
             },
             "Offsets": {
-              "Left": 248.0,
-              "Top": -84.0,
-              "Right": 177.0,
-              "Bottom": 48.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtTime",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1292,15 +1293,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtUid",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1312,15 +1313,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "ImgWaterMark",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1332,10 +1333,10 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           }
         ]
@@ -1350,8 +1351,8 @@
           "SubPathString": ""
         },
         "FrameImageSize": {
-          "X": 0.0,
-          "Y": 0.0
+          "X": 2560.0,
+          "Y": 1440.0
         },
         "FrameMargin": {
           "Left": 0.0,
@@ -1370,7 +1371,7 @@
         "ChildWidgetDatas": [
           {
             "WidgetName": "TextBlock_8",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1382,15 +1383,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtName",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1402,15 +1403,15 @@
               }
             },
             "Offsets": {
-              "Left": 248.0,
-              "Top": -84.0,
-              "Right": 177.0,
-              "Bottom": 48.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtTime",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1422,15 +1423,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtUid",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1442,15 +1443,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "ImgWaterMark",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1462,10 +1463,10 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           }
         ]
@@ -1480,8 +1481,8 @@
           "SubPathString": ""
         },
         "FrameImageSize": {
-          "X": 0.0,
-          "Y": 0.0
+          "X": 2560.0,
+          "Y": 1440.0
         },
         "FrameMargin": {
           "Left": 0.0,
@@ -1500,7 +1501,7 @@
         "ChildWidgetDatas": [
           {
             "WidgetName": "TextBlock_8",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1512,15 +1513,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtName",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1532,15 +1533,15 @@
               }
             },
             "Offsets": {
-              "Left": 248.0,
-              "Top": -84.0,
-              "Right": 177.0,
-              "Bottom": 48.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtTime",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1552,15 +1553,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtUid",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1572,15 +1573,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "ImgWaterMark",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1592,10 +1593,10 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           }
         ]
@@ -1630,7 +1631,7 @@
         "ChildWidgetDatas": [
           {
             "WidgetName": "TextBlock_8",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1642,15 +1643,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtName",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1662,15 +1663,15 @@
               }
             },
             "Offsets": {
-              "Left": 248.0,
-              "Top": -84.0,
-              "Right": 177.0,
-              "Bottom": 48.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtTime",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1682,15 +1683,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtUid",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1702,15 +1703,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "ImgWaterMark",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1722,10 +1723,10 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           }
         ]
@@ -1740,8 +1741,8 @@
           "SubPathString": ""
         },
         "FrameImageSize": {
-          "X": 0.0,
-          "Y": 0.0
+          "X": 2560.0,
+          "Y": 1440.0
         },
         "FrameMargin": {
           "Left": 0.0,
@@ -1760,7 +1761,7 @@
         "ChildWidgetDatas": [
           {
             "WidgetName": "TextBlock_8",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1772,15 +1773,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtName",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1792,15 +1793,15 @@
               }
             },
             "Offsets": {
-              "Left": 248.0,
-              "Top": -84.0,
-              "Right": 177.0,
-              "Bottom": 48.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtTime",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1812,15 +1813,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtUid",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1832,15 +1833,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "ImgWaterMark",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1852,10 +1853,10 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           }
         ]
@@ -1867,6 +1868,526 @@
         },
         "FrameSource": {
           "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_15.YH_UI_selfie_frame_15",
+          "SubPathString": ""
+        },
+        "FrameImageSize": {
+          "X": 2560.0,
+          "Y": 1440.0
+        },
+        "FrameMargin": {
+          "Left": 0.0,
+          "Top": 0.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "MarginClip": {
+          "Left": 0.0,
+          "Top": 0.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "FrameType": "ESelfiePhotoFrameType::InwardShrink",
+        "ClipScale": 0.5,
+        "ChildWidgetDatas": [
+          {
+            "WidgetName": "TextBlock_8",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtName",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 1.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtTime",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtUid",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "ImgWaterMark",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          }
+        ]
+      },
+      "17": {
+        "FrameIcon": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_Icon_16.YH_UI_selfie_frame_Icon_16",
+          "SubPathString": ""
+        },
+        "FrameSource": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_16.YH_UI_selfie_frame_16",
+          "SubPathString": ""
+        },
+        "FrameImageSize": {
+          "X": 1150.0,
+          "Y": 1440.0
+        },
+        "FrameMargin": {
+          "Left": 0.0,
+          "Top": 0.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "MarginClip": {
+          "Left": 0.1,
+          "Top": 0.1,
+          "Right": 0.1,
+          "Bottom": 0.1
+        },
+        "FrameType": "ESelfiePhotoFrameType::OutwardExpandClip",
+        "ClipScale": 0.449219,
+        "ChildWidgetDatas": [
+          {
+            "WidgetName": "TextBlock_8",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtName",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 1.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtTime",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtUid",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "ImgWaterMark",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          }
+        ]
+      },
+      "18": {
+        "FrameIcon": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_Icon_17.YH_UI_selfie_frame_Icon_17",
+          "SubPathString": ""
+        },
+        "FrameSource": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_17.YH_UI_selfie_frame_17",
+          "SubPathString": ""
+        },
+        "FrameImageSize": {
+          "X": 1032.0,
+          "Y": 1440.0
+        },
+        "FrameMargin": {
+          "Left": 0.0,
+          "Top": 0.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "MarginClip": {
+          "Left": 0.005,
+          "Top": 0.005,
+          "Right": 0.005,
+          "Bottom": 0.005
+        },
+        "FrameType": "ESelfiePhotoFrameType::OutwardExpandClip",
+        "ClipScale": 0.403125,
+        "ChildWidgetDatas": [
+          {
+            "WidgetName": "TextBlock_8",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtName",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 1.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtTime",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtUid",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "ImgWaterMark",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          }
+        ]
+      },
+      "19": {
+        "FrameIcon": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_Icon_18.YH_UI_selfie_frame_Icon_18",
+          "SubPathString": ""
+        },
+        "FrameSource": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_18.YH_UI_selfie_frame_18",
+          "SubPathString": ""
+        },
+        "FrameImageSize": {
+          "X": 1040.0,
+          "Y": 1440.0
+        },
+        "FrameMargin": {
+          "Left": 0.0,
+          "Top": 0.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "MarginClip": {
+          "Left": 0.0,
+          "Top": 0.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "FrameType": "ESelfiePhotoFrameType::InwardShrinkClip",
+        "ClipScale": 0.40625,
+        "ChildWidgetDatas": [
+          {
+            "WidgetName": "TextBlock_8",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtName",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 1.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtTime",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtUid",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "ImgWaterMark",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          }
+        ]
+      },
+      "20": {
+        "FrameIcon": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_Icon_19.YH_UI_selfie_frame_Icon_19",
+          "SubPathString": ""
+        },
+        "FrameSource": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_19.YH_UI_selfie_frame_19",
           "SubPathString": ""
         },
         "FrameImageSize": {
@@ -1890,7 +2411,7 @@
         "ChildWidgetDatas": [
           {
             "WidgetName": "TextBlock_8",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1902,15 +2423,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtName",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1922,15 +2443,15 @@
               }
             },
             "Offsets": {
-              "Left": 248.0,
-              "Top": -84.0,
-              "Right": 177.0,
-              "Bottom": 48.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtTime",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1942,15 +2463,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "TxtUid",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1962,15 +2483,15 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           },
           {
             "WidgetName": "ImgWaterMark",
-            "bIsHidden": true,
+            "bIsHidden": false,
             "Anchors": {
               "Minimum": {
                 "X": 0.0,
@@ -1982,10 +2503,660 @@
               }
             },
             "Offsets": {
-              "Left": 0.0,
-              "Top": 0.0,
-              "Right": 0.0,
-              "Bottom": 0.0
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          }
+        ]
+      },
+      "21": {
+        "FrameIcon": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_Icon_20.YH_UI_selfie_frame_Icon_20",
+          "SubPathString": ""
+        },
+        "FrameSource": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_20.YH_UI_selfie_frame_20",
+          "SubPathString": ""
+        },
+        "FrameImageSize": {
+          "X": 2560.0,
+          "Y": 1440.0
+        },
+        "FrameMargin": {
+          "Left": 0.0,
+          "Top": 0.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "MarginClip": {
+          "Left": 0.0,
+          "Top": 0.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "FrameType": "ESelfiePhotoFrameType::InwardShrink",
+        "ClipScale": 1.0,
+        "ChildWidgetDatas": [
+          {
+            "WidgetName": "TextBlock_8",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtName",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 1.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtTime",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtUid",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "ImgWaterMark",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          }
+        ]
+      },
+      "22": {
+        "FrameIcon": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_Icon_21.YH_UI_selfie_frame_Icon_21",
+          "SubPathString": ""
+        },
+        "FrameSource": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_21.YH_UI_selfie_frame_21",
+          "SubPathString": ""
+        },
+        "FrameImageSize": {
+          "X": 2560.0,
+          "Y": 1440.0
+        },
+        "FrameMargin": {
+          "Left": 0.0,
+          "Top": 0.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "MarginClip": {
+          "Left": 0.01,
+          "Top": 0.01,
+          "Right": 0.01,
+          "Bottom": 0.01
+        },
+        "FrameType": "ESelfiePhotoFrameType::OutwardExpandClip",
+        "ClipScale": 1.0,
+        "ChildWidgetDatas": [
+          {
+            "WidgetName": "TextBlock_8",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtName",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 1.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtTime",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtUid",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "ImgWaterMark",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          }
+        ]
+      },
+      "23": {
+        "FrameIcon": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_Icon_22.YH_UI_selfie_frame_Icon_22",
+          "SubPathString": ""
+        },
+        "FrameSource": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_22.YH_UI_selfie_frame_22",
+          "SubPathString": ""
+        },
+        "FrameImageSize": {
+          "X": 2560.0,
+          "Y": 1440.0
+        },
+        "FrameMargin": {
+          "Left": 0.0,
+          "Top": 0.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "MarginClip": {
+          "Left": 0.01,
+          "Top": 0.01,
+          "Right": 0.01,
+          "Bottom": 0.01
+        },
+        "FrameType": "ESelfiePhotoFrameType::OutwardExpandClip",
+        "ClipScale": 1.0,
+        "ChildWidgetDatas": [
+          {
+            "WidgetName": "TextBlock_8",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtName",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 1.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtTime",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtUid",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "ImgWaterMark",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          }
+        ]
+      },
+      "24": {
+        "FrameIcon": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_Icon_23.YH_UI_selfie_frame_Icon_23",
+          "SubPathString": ""
+        },
+        "FrameSource": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_23.YH_UI_selfie_frame_23",
+          "SubPathString": ""
+        },
+        "FrameImageSize": {
+          "X": 1082.0,
+          "Y": 1440.0
+        },
+        "FrameMargin": {
+          "Left": 0.0,
+          "Top": 0.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "MarginClip": {
+          "Left": 0.03,
+          "Top": 0.07,
+          "Right": 0.07,
+          "Bottom": 0.005
+        },
+        "FrameType": "ESelfiePhotoFrameType::OutwardExpandClip",
+        "ClipScale": 0.422656,
+        "ChildWidgetDatas": [
+          {
+            "WidgetName": "TextBlock_8",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtName",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 1.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtTime",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtUid",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "ImgWaterMark",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          }
+        ]
+      },
+      "25": {
+        "FrameIcon": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_Icon_24.YH_UI_selfie_frame_Icon_24",
+          "SubPathString": ""
+        },
+        "FrameSource": {
+          "AssetPathName": "/Game/UI/UI/selfie/Frame/YH_UI_selfie_frame_24.YH_UI_selfie_frame_24",
+          "SubPathString": ""
+        },
+        "FrameImageSize": {
+          "X": 2560.0,
+          "Y": 1440.0
+        },
+        "FrameMargin": {
+          "Left": 0.0,
+          "Top": 0.0,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "MarginClip": {
+          "Left": 0.01,
+          "Top": 0.01,
+          "Right": 0.01,
+          "Bottom": 0.01
+        },
+        "FrameType": "ESelfiePhotoFrameType::OutwardExpandClip",
+        "ClipScale": 1.0,
+        "ChildWidgetDatas": [
+          {
+            "WidgetName": "TextBlock_8",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtName",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 1.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 1.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtTime",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "TxtUid",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
+            }
+          },
+          {
+            "WidgetName": "ImgWaterMark",
+            "bIsHidden": false,
+            "Anchors": {
+              "Minimum": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "Maximum": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            },
+            "Offsets": {
+              "Left": 100000.0,
+              "Top": 100000.0,
+              "Right": 100000.0,
+              "Bottom": 100000.0
             }
           }
         ]

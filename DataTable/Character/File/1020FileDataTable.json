@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "1020FileDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/File/1020FileDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CharacterFileData'",
@@ -44,6 +45,12 @@
           "SourceString": "3月27日",
           "LocalizedString": "3月27日"
         },
+        "BirthdaySkillName": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "skillname_001",
+          "SourceString": "异能：",
+          "LocalizedString": "异能："
+        },
         "HomePlace": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "F_NPC014_006",
@@ -74,8 +81,8 @@
             "Content": {
               "TableId": "/Game/Text/ST_File.ST_File",
               "Key": "F_NPC014_011",
-              "SourceString": "哈尼娅，呗果公开账号@哈尼娅_斯特利速递，私人账号@盖罗塞克特女子学院超异科王牌一号，目前常用马甲小号@今天吃到新谷了吗。公开账号用来推销斯特利速递的服务，顺便经营一下斯特利速递「只要钱到位，什么都能送！」（九原语）的形象；私人账号则是哈尼娅的社交账号，文，画，音乐，正片……是圈内产出无数的超王太太，唯一的缺点就是更新极度不稳定，粉丝们经常一边哀嚎一边好吃好吃；至于马甲小号，在偷懒不想更新的日子里，哈尼娅就用着各种小号在呗果匿名冲浪，掉马就立刻转生下一个，立志维护吃粮自由。\n\n或许你送过快递吗？斯特利速递的几位快递员都有自己的送货习惯，对于哈尼娅来说，当拿到快递单的那一刻，一份使命就交到了她的手上——\n「今日任务：送快递（0/1）\n快递完整度：100%\n剩余时间：00:59:59\n三星评价达成：\n快递无伤（0/1)\n时限送达（0/1）\n微笑服务（0/1）」\n\n哈尼娅小时候有很多「兴趣爱好」，小提琴，马术，象棋……就像她身边的同龄人一样，接受着传统的「精英教育」。哈尼娅并不讨厌这些，却也远远谈不上喜欢，就好像是湿哒哒的阴雨天，世界就像是被减淡了色彩，连羽毛都会粘黏在一起。\n哈尼娅更喜欢晴天。于是，年幼的哈尼娅在睡前故事环节前，与母亲进行了一次平等的对话。她表达了自己的诉求与困惑，向最亲近的母亲寻求帮助，而妈妈轻柔地摸着哈尼娅的头发，因为自己的疏忽没能及时察觉到哈尼娅的心情向她道歉。\n找到自己真正的「兴趣爱好」是很困难的，还好哈尼娅最够幸运。",
-              "LocalizedString": "哈尼娅，呗果公开账号@哈尼娅_斯特利速递，私人账号@盖罗塞克特女子学院超异科王牌一号，目前常用马甲小号@今天吃到新谷了吗。公开账号用来推销斯特利速递的服务，顺便经营一下斯特利速递「只要钱到位，什么都能送！」（九原语）的形象；私人账号则是哈尼娅的社交账号，文，画，音乐，正片……是圈内产出无数的超王太太，唯一的缺点就是更新极度不稳定，粉丝们经常一边哀嚎一边好吃好吃；至于马甲小号，在偷懒不想更新的日子里，哈尼娅就用着各种小号在呗果匿名冲浪，掉马就立刻转生下一个，立志维护吃粮自由。\n\n或许你送过快递吗？斯特利速递的几位快递员都有自己的送货习惯，对于哈尼娅来说，当拿到快递单的那一刻，一份使命就交到了她的手上——\n「今日任务：送快递（0/1）\n快递完整度：100%\n剩余时间：00:59:59\n三星评价达成：\n快递无伤（0/1)\n时限送达（0/1）\n微笑服务（0/1）」\n\n哈尼娅小时候有很多「兴趣爱好」，小提琴，马术，象棋……就像她身边的同龄人一样，接受着传统的「精英教育」。哈尼娅并不讨厌这些，却也远远谈不上喜欢，就好像是湿哒哒的阴雨天，世界就像是被减淡了色彩，连羽毛都会粘黏在一起。\n哈尼娅更喜欢晴天。于是，年幼的哈尼娅在睡前故事环节前，与母亲进行了一次平等的对话。她表达了自己的诉求与困惑，向最亲近的母亲寻求帮助，而妈妈轻柔地摸着哈尼娅的头发，因为自己的疏忽没能及时察觉到哈尼娅的心情向她道歉。\n找到自己真正的「兴趣爱好」是很困难的，还好哈尼娅最够幸运。"
+              "SourceString": "哈尼娅，呗果公开账号@哈尼娅_斯特利速递，私人账号@盖罗塞克特女子学院超异科王牌一号，目前常用马甲小号@今天吃到新谷了吗。公开账号用来推销斯特利速递的服务，顺便经营一下斯特利速递「只要钱到位，什么都能送！」（九原语）的形象；私人账号则是哈尼娅的社交账号，文，画，音乐，正片……是圈内产出无数的超王太太，唯一的缺点就是更新极度不稳定，粉丝们经常一边哀嚎一边好吃好吃；至于马甲小号，在偷懒不想更新的日子里，哈尼娅就用着各种小号在呗果匿名冲浪，掉马就立刻转生下一个，立志维护吃粮自由。\r\n\r\n或许你送过快递吗？斯特利速递的几位快递员都有自己的送货习惯，对于哈尼娅来说，当拿到快递单的那一刻，一份使命就交到了她的手上——\r\n「今日任务：送快递（0/1）\r\n快递完整度：100%\r\n剩余时间：00:59:59\r\n三星评价达成：\r\n快递无伤（0/1)\r\n时限送达（0/1）\r\n微笑服务（0/1）」\r\n\r\n哈尼娅小时候有很多「兴趣爱好」，小提琴，马术，象棋……就像她身边的同龄人一样，接受着传统的「精英教育」。哈尼娅并不讨厌这些，却也远远谈不上喜欢，就好像是湿哒哒的阴雨天，世界就像是被减淡了色彩，连羽毛都会粘黏在一起。\r\n哈尼娅更喜欢晴天。于是，年幼的哈尼娅在睡前故事环节前，与母亲进行了一次平等的对话。她表达了自己的诉求与困惑，向最亲近的母亲寻求帮助，而妈妈轻柔地摸着哈尼娅的头发，因为自己的疏忽没能及时察觉到哈尼娅的心情向她道歉。\r\n找到自己真正的「兴趣爱好」是很困难的，还好哈尼娅足够幸运。",
+              "LocalizedString": "哈尼娅，呗果公开账号@哈尼娅_斯特利速递，私人账号@盖罗塞克特女子学院超异科王牌一号，目前常用马甲小号@今天吃到新谷了吗。公开账号用来推销斯特利速递的服务，顺便经营一下斯特利速递「只要钱到位，什么都能送！」（九原语）的形象；私人账号则是哈尼娅的社交账号，文，画，音乐，正片……是圈内产出无数的超王太太，唯一的缺点就是更新极度不稳定，粉丝们经常一边哀嚎一边好吃好吃；至于马甲小号，在偷懒不想更新的日子里，哈尼娅就用着各种小号在呗果匿名冲浪，掉马就立刻转生下一个，立志维护吃粮自由。\r\n\r\n或许你送过快递吗？斯特利速递的几位快递员都有自己的送货习惯，对于哈尼娅来说，当拿到快递单的那一刻，一份使命就交到了她的手上——\r\n「今日任务：送快递（0/1）\r\n快递完整度：100%\r\n剩余时间：00:59:59\r\n三星评价达成：\r\n快递无伤（0/1)\r\n时限送达（0/1）\r\n微笑服务（0/1）」\r\n\r\n哈尼娅小时候有很多「兴趣爱好」，小提琴，马术，象棋……就像她身边的同龄人一样，接受着传统的「精英教育」。哈尼娅并不讨厌这些，却也远远谈不上喜欢，就好像是湿哒哒的阴雨天，世界就像是被减淡了色彩，连羽毛都会粘黏在一起。\r\n哈尼娅更喜欢晴天。于是，年幼的哈尼娅在睡前故事环节前，与母亲进行了一次平等的对话。她表达了自己的诉求与困惑，向最亲近的母亲寻求帮助，而妈妈轻柔地摸着哈尼娅的头发，因为自己的疏忽没能及时察觉到哈尼娅的心情向她道歉。\r\n找到自己真正的「兴趣爱好」是很困难的，还好哈尼娅足够幸运。"
             },
             "AudioEvent": {
               "AssetPathName": "",
@@ -782,6 +789,86 @@
                 "CharacterFileBreakLevel": 5
               }
             ]
+          },
+          {
+            "ID": "Daily32",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_001",
+              "SourceString": "收到赠礼·Ⅰ",
+              "LocalizedString": "收到赠礼·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC014_gift_001",
+              "SourceString": "嘘快听……听见到了吗？哈尼娅好感度加一加一加一！",
+              "LocalizedString": "嘘快听……听见到了吗？哈尼娅好感度加一加一加一！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC014/Play_Vo_Char_NPC014_gift_001.Play_Vo_Char_NPC014_gift_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily33",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_002",
+              "SourceString": "收到赠礼·Ⅱ",
+              "LocalizedString": "收到赠礼·Ⅱ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC014_gift_002",
+              "SourceString": "哇！你怎么知道我喜欢这个！难道鉴定师还能鉴别喜好吗？好酷！",
+              "LocalizedString": "哇！你怎么知道我喜欢这个！难道鉴定师还能鉴别喜好吗？好酷！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC014/Play_Vo_Char_NPC014_gift_002.Play_Vo_Char_NPC014_gift_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "Daily34",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_003",
+              "SourceString": "收到赠礼·Ⅲ",
+              "LocalizedString": "收到赠礼·Ⅲ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC014_gift_003",
+              "SourceString": "给我的吗？给我的吗！谢谢谢谢谢谢谢谢！",
+              "LocalizedString": "给我的吗？给我的吗！谢谢谢谢谢谢谢谢！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC014/Play_Vo_Char_NPC014_gift_003.Play_Vo_Char_NPC014_gift_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "None",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_004",
+              "SourceString": "收到赠礼·IV",
+              "LocalizedString": "收到赠礼·IV"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC014_gift_004",
+              "SourceString": "下次接到伊波恩的单子我偷偷给你加急！",
+              "LocalizedString": "下次接到伊波恩的单子我偷偷给你加急！"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC014/Play_Vo_Char_NPC014_gift_004.Play_Vo_Char_NPC014_gift_004",
+              "SubPathString": ""
+            },
+            "Conditions": []
           }
         ],
         "BattleContent": [

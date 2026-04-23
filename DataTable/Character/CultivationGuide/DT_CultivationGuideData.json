@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_CultivationGuideData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/CultivationGuide/DT_CultivationGuideData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CultivationGuideData'",
@@ -14,7 +15,7 @@
       "1051": {
         "RecommendForkList": [
           {
-            "ForkItemId": "fork_rishi",
+            "ForkItemId": "fork_worldrain",
             "Desc": {
               "TableId": "/Game/Text/ST_UI_J.ST_UI_J",
               "Key": "Cultivation_83",
@@ -39,8 +40,8 @@
           "DamageUpCosmosBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "WorldLevelRecommendList": [
@@ -250,7 +251,8 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_nvzhu.YH_UI_Development_nvzhu",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       },
       "1023": {
         "RecommendForkList": [
@@ -280,23 +282,23 @@
           "DamageUpIncantationBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "WorldLevelRecommendList": [
           {
             "SkillRecommendGradeList": [
               {
+                "AbilityId": "GA_Cang_Melee",
+                "RecommendLevel": 1
+              },
+              {
                 "AbilityId": "GA_Cang_UltraSkill",
                 "RecommendLevel": 1
               },
               {
                 "AbilityId": "GA_Cang_Skill",
-                "RecommendLevel": 1
-              },
-              {
-                "AbilityId": "GA_Cang_Melee",
                 "RecommendLevel": 1
               },
               {
@@ -313,15 +315,15 @@
           {
             "SkillRecommendGradeList": [
               {
+                "AbilityId": "GA_Cang_Melee",
+                "RecommendLevel": 1
+              },
+              {
                 "AbilityId": "GA_Cang_UltraSkill",
                 "RecommendLevel": 1
               },
               {
                 "AbilityId": "GA_Cang_Skill",
-                "RecommendLevel": 1
-              },
-              {
-                "AbilityId": "GA_Cang_Melee",
                 "RecommendLevel": 1
               },
               {
@@ -338,15 +340,15 @@
           {
             "SkillRecommendGradeList": [
               {
+                "AbilityId": "GA_Cang_Melee",
+                "RecommendLevel": 2
+              },
+              {
                 "AbilityId": "GA_Cang_UltraSkill",
                 "RecommendLevel": 2
               },
               {
                 "AbilityId": "GA_Cang_Skill",
-                "RecommendLevel": 2
-              },
-              {
-                "AbilityId": "GA_Cang_Melee",
                 "RecommendLevel": 2
               },
               {
@@ -363,15 +365,15 @@
           {
             "SkillRecommendGradeList": [
               {
+                "AbilityId": "GA_Cang_Melee",
+                "RecommendLevel": 4
+              },
+              {
                 "AbilityId": "GA_Cang_UltraSkill",
                 "RecommendLevel": 4
               },
               {
                 "AbilityId": "GA_Cang_Skill",
-                "RecommendLevel": 4
-              },
-              {
-                "AbilityId": "GA_Cang_Melee",
                 "RecommendLevel": 4
               },
               {
@@ -388,15 +390,15 @@
           {
             "SkillRecommendGradeList": [
               {
+                "AbilityId": "GA_Cang_Melee",
+                "RecommendLevel": 6
+              },
+              {
                 "AbilityId": "GA_Cang_UltraSkill",
                 "RecommendLevel": 6
               },
               {
                 "AbilityId": "GA_Cang_Skill",
-                "RecommendLevel": 6
-              },
-              {
-                "AbilityId": "GA_Cang_Melee",
                 "RecommendLevel": 6
               },
               {
@@ -413,15 +415,15 @@
           {
             "SkillRecommendGradeList": [
               {
+                "AbilityId": "GA_Cang_Melee",
+                "RecommendLevel": 8
+              },
+              {
                 "AbilityId": "GA_Cang_UltraSkill",
                 "RecommendLevel": 8
               },
               {
                 "AbilityId": "GA_Cang_Skill",
-                "RecommendLevel": 8
-              },
-              {
-                "AbilityId": "GA_Cang_Melee",
                 "RecommendLevel": 8
               },
               {
@@ -438,15 +440,15 @@
           {
             "SkillRecommendGradeList": [
               {
+                "AbilityId": "GA_Cang_Melee",
+                "RecommendLevel": 10
+              },
+              {
                 "AbilityId": "GA_Cang_UltraSkill",
                 "RecommendLevel": 10
               },
               {
                 "AbilityId": "GA_Cang_Skill",
-                "RecommendLevel": 10
-              },
-              {
-                "AbilityId": "GA_Cang_Melee",
                 "RecommendLevel": 10
               },
               {
@@ -463,15 +465,15 @@
           {
             "SkillRecommendGradeList": [
               {
+                "AbilityId": "GA_Cang_Melee",
+                "RecommendLevel": 10
+              },
+              {
                 "AbilityId": "GA_Cang_UltraSkill",
                 "RecommendLevel": 10
               },
               {
                 "AbilityId": "GA_Cang_Skill",
-                "RecommendLevel": 10
-              },
-              {
-                "AbilityId": "GA_Cang_Melee",
                 "RecommendLevel": 10
               },
               {
@@ -491,7 +493,8 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_baizang.YH_UI_Development_baizang",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       },
       "1003": {
         "RecommendForkList": [
@@ -730,7 +733,8 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_zaowu.YH_UI_Development_zaowu",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       },
       "1033": {
         "RecommendForkList": [
@@ -967,7 +971,8 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_adele.YH_UI_Development_adele",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       },
       "1019": {
         "RecommendForkList": [
@@ -997,8 +1002,8 @@
           "DamageUpNatureBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "WorldLevelRecommendList": [
@@ -1208,7 +1213,8 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_bohe.YH_UI_Development_bohe",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       },
       "1010": {
         "RecommendForkList": [
@@ -1238,8 +1244,8 @@
           "DamageUpNatureBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "WorldLevelRecommendList": [
@@ -1449,7 +1455,8 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_nanali.YH_UI_Development_nanali",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       },
       "1039": {
         "RecommendForkList": [
@@ -1686,7 +1693,8 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_fadiya.YH_UI_Development_fadiya",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       },
       "1025": {
         "RecommendForkList": [
@@ -1716,8 +1724,8 @@
           "DamageUpLakshanaBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "WorldLevelRecommendList": [
@@ -1927,7 +1935,8 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_hasuoer.YH_UI_Development_hasuoer",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       },
       "1052": {
         "RecommendForkList": [
@@ -1957,8 +1966,8 @@
           "DamageUpCosmosBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "WorldLevelRecommendList": [
@@ -2168,7 +2177,8 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_xun.YH_UI_Development_xun",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       },
       "1008": {
         "RecommendForkList": [
@@ -2198,8 +2208,8 @@
           "DamageUpLakshanaBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "WorldLevelRecommendList": [
@@ -2409,7 +2419,8 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_yi.YH_UI_Development_yi",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       },
       "1021": {
         "RecommendForkList": [
@@ -2647,7 +2658,8 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_aidejia.YH_UI_Development_aidejia",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       },
       "1020": {
         "RecommendForkList": [
@@ -2886,7 +2898,8 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_naniya.YH_UI_Development_naniya",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       },
       "1055": {
         "RecommendForkList": [
@@ -2916,8 +2929,8 @@
           "DamageUpNatureBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "WorldLevelRecommendList": [
@@ -3127,7 +3140,8 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_jiuyuan.YH_UI_Development_jiuyuan",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       },
       "1054": {
         "RecommendForkList": [
@@ -3157,8 +3171,8 @@
           "DamageUpChaosBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "UnbalIntensityBase"
         ],
         "WorldLevelRecommendList": [
@@ -3368,7 +3382,8 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_dafudier.YH_UI_Development_dafudier",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       },
       "1073": {
         "RecommendForkList": [
@@ -3396,11 +3411,7 @@
         "bDisplayText": true,
         "RecommendAttrList": [
           "DamageUpCosmosBase",
-          "CritBase",
-          "CritDamageBase",
-          "AtkUp",
-          "DamageUpGeneralBase",
-          "AtkAdd"
+          "DamageUpGeneralBase"
         ],
         "WorldLevelRecommendList": [
           {
@@ -3609,7 +3620,8 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_xiaozhni.YH_UI_Development_xiaozhni",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       },
       "1004": {
         "RecommendForkList": [
@@ -3639,8 +3651,8 @@
           "DamageUpChaosBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "WorldLevelRecommendList": [
@@ -3850,12 +3862,13 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_anhunqu.YH_UI_Development_anhunqu",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       },
       "1046": {
         "RecommendForkList": [
           {
-            "ForkItemId": "fork_rishi",
+            "ForkItemId": "fork_worldrain",
             "Desc": {
               "TableId": "/Game/Text/ST_UI_J.ST_UI_J",
               "Key": "Cultivation_83",
@@ -3880,8 +3893,8 @@
           "DamageUpCosmosBase",
           "CritBase",
           "CritDamageBase",
-          "AtkUp",
           "DamageUpGeneralBase",
+          "AtkUp",
           "AtkAdd"
         ],
         "WorldLevelRecommendList": [
@@ -4091,7 +4104,250 @@
         "CharacterIcon": {
           "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_nanzhu.YH_UI_Development_nanzhu",
           "SubPathString": ""
-        }
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
+      },
+      "1070": {
+        "RecommendForkList": [
+          {
+            "ForkItemId": "fork_moon",
+            "Desc": {
+              "TableId": "/Game/Text/ST_UI_J.ST_UI_J",
+              "Key": "Cultivation_83",
+              "SourceString": "系统推荐",
+              "LocalizedString": "系统推荐"
+            },
+            "SourceID": "ForkLotterynShop"
+          },
+          {
+            "ForkItemId": "fork_oulaquantao",
+            "Desc": {
+              "TableId": "/Game/Text/ST_UI_J.ST_UI_J",
+              "Key": "Cultivation_84",
+              "SourceString": "其他选择",
+              "LocalizedString": "其他选择"
+            },
+            "SourceID": "ForkLotterynShop"
+          }
+        ],
+        "bDisplayText": true,
+        "RecommendAttrList": [
+          "DamageUpPsycheBase",
+          "CritBase",
+          "CritDamageBase",
+          "DamageUpGeneralBase",
+          "AtkUp",
+          "AtkAdd"
+        ],
+        "WorldLevelRecommendList": [
+          {
+            "SkillRecommendGradeList": [
+              {
+                "AbilityId": "GA_Mitsuki_Melee",
+                "RecommendLevel": 1
+              },
+              {
+                "AbilityId": "GA_Mitsuki_UltraSkill",
+                "RecommendLevel": 1
+              },
+              {
+                "AbilityId": "GA_Mitsuki_QTE",
+                "RecommendLevel": 1
+              },
+              {
+                "AbilityId": "GA_Mitsuki_Skill",
+                "RecommendLevel": 1
+              }
+            ],
+            "CharacterRecommendLevel": 20,
+            "ForkRecommendLevel": 20,
+            "CoreID": "Psyche_orange",
+            "CoreLvl": 20,
+            "EquipLvl": 20
+          },
+          {
+            "SkillRecommendGradeList": [
+              {
+                "AbilityId": "GA_Mitsuki_Melee",
+                "RecommendLevel": 1
+              },
+              {
+                "AbilityId": "GA_Mitsuki_UltraSkill",
+                "RecommendLevel": 1
+              },
+              {
+                "AbilityId": "GA_Mitsuki_QTE",
+                "RecommendLevel": 1
+              },
+              {
+                "AbilityId": "GA_Mitsuki_Skill",
+                "RecommendLevel": 1
+              }
+            ],
+            "CharacterRecommendLevel": 30,
+            "ForkRecommendLevel": 30,
+            "CoreID": "Psyche_orange",
+            "CoreLvl": 20,
+            "EquipLvl": 20
+          },
+          {
+            "SkillRecommendGradeList": [
+              {
+                "AbilityId": "GA_Mitsuki_Melee",
+                "RecommendLevel": 2
+              },
+              {
+                "AbilityId": "GA_Mitsuki_UltraSkill",
+                "RecommendLevel": 2
+              },
+              {
+                "AbilityId": "GA_Mitsuki_QTE",
+                "RecommendLevel": 2
+              },
+              {
+                "AbilityId": "GA_Mitsuki_Skill",
+                "RecommendLevel": 2
+              }
+            ],
+            "CharacterRecommendLevel": 40,
+            "ForkRecommendLevel": 40,
+            "CoreID": "Psyche_orange",
+            "CoreLvl": 20,
+            "EquipLvl": 20
+          },
+          {
+            "SkillRecommendGradeList": [
+              {
+                "AbilityId": "GA_Mitsuki_Melee",
+                "RecommendLevel": 4
+              },
+              {
+                "AbilityId": "GA_Mitsuki_UltraSkill",
+                "RecommendLevel": 4
+              },
+              {
+                "AbilityId": "GA_Mitsuki_QTE",
+                "RecommendLevel": 4
+              },
+              {
+                "AbilityId": "GA_Mitsuki_Skill",
+                "RecommendLevel": 4
+              }
+            ],
+            "CharacterRecommendLevel": 50,
+            "ForkRecommendLevel": 50,
+            "CoreID": "Psyche_orange",
+            "CoreLvl": 20,
+            "EquipLvl": 20
+          },
+          {
+            "SkillRecommendGradeList": [
+              {
+                "AbilityId": "GA_Mitsuki_Melee",
+                "RecommendLevel": 6
+              },
+              {
+                "AbilityId": "GA_Mitsuki_UltraSkill",
+                "RecommendLevel": 6
+              },
+              {
+                "AbilityId": "GA_Mitsuki_QTE",
+                "RecommendLevel": 6
+              },
+              {
+                "AbilityId": "GA_Mitsuki_Skill",
+                "RecommendLevel": 6
+              }
+            ],
+            "CharacterRecommendLevel": 60,
+            "ForkRecommendLevel": 60,
+            "CoreID": "Psyche_orange",
+            "CoreLvl": 20,
+            "EquipLvl": 20
+          },
+          {
+            "SkillRecommendGradeList": [
+              {
+                "AbilityId": "GA_Mitsuki_Melee",
+                "RecommendLevel": 8
+              },
+              {
+                "AbilityId": "GA_Mitsuki_UltraSkill",
+                "RecommendLevel": 8
+              },
+              {
+                "AbilityId": "GA_Mitsuki_QTE",
+                "RecommendLevel": 8
+              },
+              {
+                "AbilityId": "GA_Mitsuki_Skill",
+                "RecommendLevel": 8
+              }
+            ],
+            "CharacterRecommendLevel": 70,
+            "ForkRecommendLevel": 70,
+            "CoreID": "Psyche_orange",
+            "CoreLvl": 20,
+            "EquipLvl": 20
+          },
+          {
+            "SkillRecommendGradeList": [
+              {
+                "AbilityId": "GA_Mitsuki_Melee",
+                "RecommendLevel": 10
+              },
+              {
+                "AbilityId": "GA_Mitsuki_UltraSkill",
+                "RecommendLevel": 10
+              },
+              {
+                "AbilityId": "GA_Mitsuki_QTE",
+                "RecommendLevel": 10
+              },
+              {
+                "AbilityId": "GA_Mitsuki_Skill",
+                "RecommendLevel": 10
+              }
+            ],
+            "CharacterRecommendLevel": 80,
+            "ForkRecommendLevel": 80,
+            "CoreID": "Psyche_orange",
+            "CoreLvl": 20,
+            "EquipLvl": 20
+          },
+          {
+            "SkillRecommendGradeList": [
+              {
+                "AbilityId": "GA_Mitsuki_Melee",
+                "RecommendLevel": 10
+              },
+              {
+                "AbilityId": "GA_Mitsuki_UltraSkill",
+                "RecommendLevel": 10
+              },
+              {
+                "AbilityId": "GA_Mitsuki_QTE",
+                "RecommendLevel": 10
+              },
+              {
+                "AbilityId": "GA_Mitsuki_Skill",
+                "RecommendLevel": 10
+              }
+            ],
+            "CharacterRecommendLevel": 80,
+            "ForkRecommendLevel": 80,
+            "CoreID": "Psyche_orange",
+            "CoreLvl": 20,
+            "EquipLvl": 20
+          }
+        ],
+        "SScore": 0.9,
+        "AScore": 0.6,
+        "CharacterIcon": {
+          "AssetPathName": "/Game/UI/UI/Cultivation/Character/YH_UI_Development_haiyue.YH_UI_Development_haiyue",
+          "SubPathString": ""
+        },
+        "RecommendAttrJumpID": "EquipmentCloneEnter_001_map"
       }
     }
   }

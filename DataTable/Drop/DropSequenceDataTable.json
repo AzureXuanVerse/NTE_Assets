@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DropSequenceDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Drop/DropSequenceDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'DropSequenceStaticRangeData'",
@@ -451,6 +452,17 @@
         "Weight": 1,
         "LimitLevel": ""
       },
+      "droplist_1070_0": {
+        "ItemID": "1070",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
       "droplist_CharacterCard_1019_0": {
         "ItemID": "CharacterCard_1019",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
@@ -607,6 +619,17 @@
       },
       "droplist_CharacterCard_1073_0": {
         "ItemID": "CharacterCard_1073",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_CharacterCard_1020_0": {
+        "ItemID": "CharacterCard_1020",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
         "SequenceProbability": [],
@@ -7205,7 +7228,7 @@
         "Weight": 1,
         "LimitLevel": ""
       },
-      "droplist_ForkPull_gold_0": {
+      "droplist_ForkPull_gold_Nanali_0": {
         "ItemID": "fork_Butterfly",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
@@ -7216,7 +7239,7 @@
         "Weight": 15,
         "LimitLevel": ""
       },
-      "droplist_ForkPull_gold_1": {
+      "droplist_ForkPull_gold_Nanali_1": {
         "ItemID": "fork_BlackBook",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
@@ -7227,7 +7250,7 @@
         "Weight": 15,
         "LimitLevel": ""
       },
-      "droplist_ForkPull_gold_2": {
+      "droplist_ForkPull_gold_Nanali_2": {
         "ItemID": "fork_mofeikesi",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
@@ -7238,7 +7261,7 @@
         "Weight": 15,
         "LimitLevel": ""
       },
-      "droplist_ForkPull_gold_3": {
+      "droplist_ForkPull_gold_Nanali_3": {
         "ItemID": "fork_jingmotingyuan",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
@@ -7249,7 +7272,7 @@
         "Weight": 15,
         "LimitLevel": ""
       },
-      "droplist_ForkPull_gold_4": {
+      "droplist_ForkPull_gold_Nanali_4": {
         "ItemID": "fork_wushoutieyu",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
@@ -7260,8 +7283,74 @@
         "Weight": 15,
         "LimitLevel": ""
       },
-      "droplist_ForkPull_gold_5": {
+      "droplist_ForkPull_gold_Nanali_5": {
         "ItemID": "Fork_TigerTally",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 25,
+        "LimitLevel": ""
+      },
+      "droplist_ForkPull_gold_Xun_0": {
+        "ItemID": "fork_Butterfly",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 15,
+        "LimitLevel": ""
+      },
+      "droplist_ForkPull_gold_Xun_1": {
+        "ItemID": "fork_BlackBook",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 15,
+        "LimitLevel": ""
+      },
+      "droplist_ForkPull_gold_Xun_2": {
+        "ItemID": "fork_mofeikesi",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 15,
+        "LimitLevel": ""
+      },
+      "droplist_ForkPull_gold_Xun_3": {
+        "ItemID": "fork_jingmotingyuan",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 15,
+        "LimitLevel": ""
+      },
+      "droplist_ForkPull_gold_Xun_4": {
+        "ItemID": "fork_wushoutieyu",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 15,
+        "LimitLevel": ""
+      },
+      "droplist_ForkPull_gold_Xun_5": {
+        "ItemID": "fork_Time",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
         "SequenceProbability": [],
@@ -9735,8 +9824,8 @@
         "Weight": 1,
         "LimitLevel": ""
       },
-      "droplist_Fashion_character_1052_0": {
-        "ItemID": "Fashion_character_1052",
+      "droplist_Fashion_vehicleSkin_1052_0": {
+        "ItemID": "Fashion_vehicleSkin_1052_V016",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
         "SequenceProbability": [],
@@ -9769,7 +9858,7 @@
         "LimitLevel": ""
       },
       "droplist_Fashion_vehicle_1052_0": {
-        "ItemID": "Fashion_vehicle_1052",
+        "ItemID": "Fashion_vehicle_1052_V024",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
         "SequenceProbability": [],
@@ -10771,6 +10860,105 @@
       },
       "droplist_RobBankItem_G016_0": {
         "ItemID": "RobBankItem_G016",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_RobBankItem_G017_0": {
+        "ItemID": "RobBankItem_G017",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_RobBankItem_G018_0": {
+        "ItemID": "RobBankItem_G018",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_RobBankItem_G019_0": {
+        "ItemID": "RobBankItem_G019",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_RobBankItem_G020_0": {
+        "ItemID": "RobBankItem_G020",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_RobBankItem_G021_0": {
+        "ItemID": "RobBankItem_G021",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_RobBankItem_G022_0": {
+        "ItemID": "RobBankItem_G022",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_RobBankItem_G023_0": {
+        "ItemID": "RobBankItem_G023",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_RobBankItem_G024_0": {
+        "ItemID": "RobBankItem_G024",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_RobBankItem_G025_0": {
+        "ItemID": "RobBankItem_G025",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
         "SequenceProbability": [],
@@ -12090,7 +12278,7 @@
         "LimitLevel": ""
       },
       "droplist_RobBank_RewardDisplay_0": {
-        "ItemID": "RobBankLvExp",
+        "ItemID": "RobbankCoin",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
         "SequenceProbability": [],
@@ -12101,6 +12289,17 @@
         "LimitLevel": ""
       },
       "droplist_RobBank_RewardDisplay_1": {
+        "ItemID": "RobBankLvExp",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_RobBank_RewardDisplay_2": {
         "ItemID": "Fons",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
@@ -12981,9 +13180,9 @@
         "LimitLevel": ""
       },
       "droplist_ExploreReward_mge_5_0": {
-        "ItemID": "ExploreReward_Skin_1",
+        "ItemID": "DIceNormal",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 1,
+        "Num": 2,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -15455,6 +15654,72 @@
         "Weight": 1,
         "LimitLevel": ""
       },
+      "droplist_ExperimentClue_2_0": {
+        "ItemID": "ExperimentClue_2",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_ExperimentClue_3_0": {
+        "ItemID": "ExperimentClue_3",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_ExperimentClue_4_0": {
+        "ItemID": "ExperimentClue_4",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_ExperimentClue_5_0": {
+        "ItemID": "ExperimentClue_5",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_ExperimentClue_6_0": {
+        "ItemID": "ExperimentClue_6",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_MetaClue_1_0": {
+        "ItemID": "MetaClue_1",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
       "droplist_ClinicRoomKey_1f_0": {
         "ItemID": "ClinicRoomKey_1f",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
@@ -15556,6 +15821,105 @@
       },
       "droplist_Combat_BussinessCard_01_0": {
         "ItemID": "Combat_BussinessCard_01",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_NorthSidekey_3F_0": {
+        "ItemID": "NorthSidekey_3F",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_SouthSidekey_3F_0": {
+        "ItemID": "SouthSidekey_3F",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_SouthOfficekey_3F_0": {
+        "ItemID": "SouthOfficekey_3F",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_HospitalJigsaw_1_0": {
+        "ItemID": "HospitalJigsaw_1",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_HospitalJigsaw_2_0": {
+        "ItemID": "HospitalJigsaw_2",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_HospitalJigsawFake_2_0": {
+        "ItemID": "HospitalJigsawFake_2",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_HospitalJigsaw_Toilet_0": {
+        "ItemID": "HospitalJigsaw_Toilet",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_HospitalJigsaw_Hidden_0": {
+        "ItemID": "HospitalJigsaw_Hidden",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_ElevatorCard_Hospital_0": {
+        "ItemID": "ElevatorCard_Hospital",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
         "SequenceProbability": [],
@@ -15720,9 +16084,9 @@
         "LimitLevel": ""
       },
       "droplist_Likeability_1019_lv6_1_0": {
-        "ItemID": "Friendship_3_1019",
+        "ItemID": "Gold",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 1,
+        "Num": 20000,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -15731,9 +16095,9 @@
         "LimitLevel": ""
       },
       "droplist_Likeability_1019_lv6_2_0": {
-        "ItemID": "Gold",
+        "ItemID": "Friendship_3_1019",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 20000,
+        "Num": 1,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -15796,6 +16160,17 @@
         "Weight": 1,
         "LimitLevel": ""
       },
+      "droplist_Likeability_1019_lv8_2_0": {
+        "ItemID": "Friendship_4_1019",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
       "droplist_Likeability_1019_lv9_0_0": {
         "ItemID": "Gold",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
@@ -15831,6 +16206,17 @@
       },
       "droplist_Likeability_1019_lv10_1_0": {
         "ItemID": "Universal_BusinessCard_1019",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1019_lv10_2_0": {
+        "ItemID": "Fashion_character_1019_nighty",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
         "SequenceProbability": [],
@@ -15939,17 +16325,6 @@
         "Weight": 1,
         "LimitLevel": ""
       },
-      "droplist_Likeability_1023_lv4_2_0": {
-        "ItemID": "Friendship_2_1023",
-        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 1,
-        "SequenceProbability": [],
-        "MinNum": 0,
-        "MaxNum": 0,
-        "Formula": "",
-        "Weight": 1,
-        "LimitLevel": ""
-      },
       "droplist_Likeability_1023_lv5_0_0": {
         "ItemID": "Annulith",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
@@ -15995,9 +16370,9 @@
         "LimitLevel": ""
       },
       "droplist_Likeability_1023_lv6_1_0": {
-        "ItemID": "Likeprice_1023_0",
+        "ItemID": "Gold",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 1,
+        "Num": 20000,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -16006,20 +16381,9 @@
         "LimitLevel": ""
       },
       "droplist_Likeability_1023_lv6_2_0": {
-        "ItemID": "Friendship_3_1023",
+        "ItemID": "Likeprice_1023_0",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
-        "SequenceProbability": [],
-        "MinNum": 0,
-        "MaxNum": 0,
-        "Formula": "",
-        "Weight": 1,
-        "LimitLevel": ""
-      },
-      "droplist_Likeability_1023_lv6_3_0": {
-        "ItemID": "Gold",
-        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 20000,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -16467,17 +16831,6 @@
         "Weight": 1,
         "LimitLevel": ""
       },
-      "droplist_Likeability_1003_lv4_2_0": {
-        "ItemID": "Friendship_2_1003",
-        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 1,
-        "SequenceProbability": [],
-        "MinNum": 0,
-        "MaxNum": 0,
-        "Formula": "",
-        "Weight": 1,
-        "LimitLevel": ""
-      },
       "droplist_Likeability_1003_lv5_0_0": {
         "ItemID": "Annulith",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
@@ -16523,17 +16876,6 @@
         "LimitLevel": ""
       },
       "droplist_Likeability_1003_lv6_1_0": {
-        "ItemID": "Friendship_3_1003",
-        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 1,
-        "SequenceProbability": [],
-        "MinNum": 0,
-        "MaxNum": 0,
-        "Formula": "",
-        "Weight": 1,
-        "LimitLevel": ""
-      },
-      "droplist_Likeability_1003_lv6_2_0": {
         "ItemID": "Gold",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 20000,
@@ -17149,6 +17491,17 @@
         "Weight": 1,
         "LimitLevel": ""
       },
+      "droplist_Likeability_1029_lv2_2_0": {
+        "ItemID": "Friendship_1_1029",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
       "droplist_Likeability_1029_lv3_0_0": {
         "ItemID": "Annulith",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
@@ -17249,6 +17602,17 @@
         "LimitLevel": ""
       },
       "droplist_Likeability_1029_lv6_1_0": {
+        "ItemID": "Gold",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 20000,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1029_lv6_2_0": {
         "ItemID": "Likeprice_1029_0",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
@@ -17259,21 +17623,10 @@
         "Weight": 1,
         "LimitLevel": ""
       },
-      "droplist_Likeability_1029_lv6_2_0": {
+      "droplist_Likeability_1029_lv6_3_0": {
         "ItemID": "Friendship_3_1029",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
-        "SequenceProbability": [],
-        "MinNum": 0,
-        "MaxNum": 0,
-        "Formula": "",
-        "Weight": 1,
-        "LimitLevel": ""
-      },
-      "droplist_Likeability_1029_lv6_3_0": {
-        "ItemID": "Gold",
-        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 20000,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -17325,6 +17678,17 @@
         "Weight": 1,
         "LimitLevel": ""
       },
+      "droplist_Likeability_1029_lv8_2_0": {
+        "ItemID": "Friendship_4_1029",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
       "droplist_Likeability_1029_lv9_0_0": {
         "ItemID": "Gold",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
@@ -17360,6 +17724,17 @@
       },
       "droplist_Likeability_1029_lv10_1_0": {
         "ItemID": "Universal_BusinessCard_1029",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1029_lv10_2_0": {
+        "ItemID": "Fashion_character_1052_nighty",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
         "SequenceProbability": [],
@@ -17513,9 +17888,9 @@
         "LimitLevel": ""
       },
       "droplist_Likeability_1010_lv6_1_0": {
-        "ItemID": "Friendship_3_1010",
+        "ItemID": "Gold",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 1,
+        "Num": 20000,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -17524,9 +17899,9 @@
         "LimitLevel": ""
       },
       "droplist_Likeability_1010_lv6_2_0": {
-        "ItemID": "Gold",
+        "ItemID": "Friendship_3_1010",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 20000,
+        "Num": 1,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -17569,6 +17944,17 @@
       },
       "droplist_Likeability_1010_lv8_1_0": {
         "ItemID": "Universal_avatar1_1010",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1010_lv8_2_0": {
+        "ItemID": "Friendship_4_1010",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
         "SequenceProbability": [],
@@ -17622,6 +18008,17 @@
         "Weight": 1,
         "LimitLevel": ""
       },
+      "droplist_Likeability_1010_lv10_2_0": {
+        "ItemID": "Fashion_character_1010_nighty",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
       "droplist_Likeability_1008_lv1_0_0": {
         "ItemID": "Annulith",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
@@ -17659,6 +18056,17 @@
         "ItemID": "WeaponUpMaterial_lv3",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 2,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1008_lv2_2_0": {
+        "ItemID": "Friendship_1_1008",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -17897,6 +18305,17 @@
         "Weight": 1,
         "LimitLevel": ""
       },
+      "droplist_Likeability_1004_lv2_2_0": {
+        "ItemID": "Friendship_1_1004",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
       "droplist_Likeability_1004_lv3_0_0": {
         "ItemID": "Annulith",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
@@ -17986,9 +18405,9 @@
         "LimitLevel": ""
       },
       "droplist_Likeability_1004_lv6_1_0": {
-        "ItemID": "Friendship_3_1004",
+        "ItemID": "Gold",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 1,
+        "Num": 20000,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -17997,9 +18416,9 @@
         "LimitLevel": ""
       },
       "droplist_Likeability_1004_lv6_2_0": {
-        "ItemID": "Gold",
+        "ItemID": "Friendship_3_1004",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 20000,
+        "Num": 1,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -18051,6 +18470,17 @@
         "Weight": 1,
         "LimitLevel": ""
       },
+      "droplist_Likeability_1004_lv8_2_0": {
+        "ItemID": "Friendship_4_1004",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
       "droplist_Likeability_1004_lv9_0_0": {
         "ItemID": "Gold",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
@@ -18086,6 +18516,17 @@
       },
       "droplist_Likeability_1004_lv10_1_0": {
         "ItemID": "Universal_BusinessCard_1004",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1004_lv10_2_0": {
+        "ItemID": "Fashion_character_1004_nighty",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
         "SequenceProbability": [],
@@ -18239,9 +18680,9 @@
         "LimitLevel": ""
       },
       "droplist_Likeability_1039_lv6_1_0": {
-        "ItemID": "Friendship_3_1039",
+        "ItemID": "Gold",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 1,
+        "Num": 20000,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -18250,9 +18691,9 @@
         "LimitLevel": ""
       },
       "droplist_Likeability_1039_lv6_2_0": {
-        "ItemID": "Gold",
+        "ItemID": "Friendship_3_1039",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 20000,
+        "Num": 1,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -18339,6 +18780,17 @@
       },
       "droplist_Likeability_1039_lv10_1_0": {
         "ItemID": "Universal_BusinessCard_1039",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1039_lv10_2_0": {
+        "ItemID": "Fashion_character_1039_nighty",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
         "SequenceProbability": [],
@@ -18734,9 +19186,9 @@
         "LimitLevel": ""
       },
       "droplist_Likeability_1014_lv6_1_0": {
-        "ItemID": "Friendship_3_1014",
+        "ItemID": "Gold",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 1,
+        "Num": 20000,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -18745,9 +19197,9 @@
         "LimitLevel": ""
       },
       "droplist_Likeability_1014_lv6_2_0": {
-        "ItemID": "Gold",
+        "ItemID": "Friendship_3_1014",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 20000,
+        "Num": 1,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -18834,6 +19286,17 @@
       },
       "droplist_Likeability_1014_lv10_1_0": {
         "ItemID": "Universal_BusinessCard_1014",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1014_lv10_2_0": {
+        "ItemID": "Fashion_character_1055_nighty",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
         "SequenceProbability": [],
@@ -18979,17 +19442,6 @@
         "ItemID": "Gold",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 20000,
-        "SequenceProbability": [],
-        "MinNum": 0,
-        "MaxNum": 0,
-        "Formula": "",
-        "Weight": 1,
-        "LimitLevel": ""
-      },
-      "droplist_Likeability_1020_lv6_2_0": {
-        "ItemID": "MovablePlayer",
-        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 1,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -19184,17 +19636,6 @@
         "Weight": 1,
         "LimitLevel": ""
       },
-      "droplist_Likeability_1057_lv4_2_0": {
-        "ItemID": "Friendship_2_1057",
-        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 1,
-        "SequenceProbability": [],
-        "MinNum": 0,
-        "MaxNum": 0,
-        "Formula": "",
-        "Weight": 1,
-        "LimitLevel": ""
-      },
       "droplist_Likeability_1057_lv5_0_0": {
         "ItemID": "Annulith",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
@@ -19229,17 +19670,6 @@
         "LimitLevel": ""
       },
       "droplist_Likeability_1057_lv6_1_0": {
-        "ItemID": "Friendship_3_1057",
-        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
-        "Num": 1,
-        "SequenceProbability": [],
-        "MinNum": 0,
-        "MaxNum": 0,
-        "Formula": "",
-        "Weight": 1,
-        "LimitLevel": ""
-      },
-      "droplist_Likeability_1057_lv6_2_0": {
         "ItemID": "Gold",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 20000,
@@ -19437,6 +19867,17 @@
         "Weight": 1,
         "LimitLevel": ""
       },
+      "droplist_Likeability_1073_lv4_2_0": {
+        "ItemID": "Friendship_2_1073",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
       "droplist_Likeability_1073_lv5_0_0": {
         "ItemID": "Annulith",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
@@ -19474,6 +19915,17 @@
         "ItemID": "Gold",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 20000,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1073_lv6_2_0": {
+        "ItemID": "Friendship_3_1073",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
         "SequenceProbability": [],
         "MinNum": 0,
         "MaxNum": 0,
@@ -19560,6 +20012,248 @@
       },
       "droplist_Likeability_1073_lv10_1_0": {
         "ItemID": "Universal_BusinessCard_1073",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1073_lv10_2_0": {
+        "ItemID": "Fashion_character_1073_nighty",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv1_0_0": {
+        "ItemID": "Annulith",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 10,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv1_1_0": {
+        "ItemID": "CharacterUpMaterial_lv2",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 3,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv2_0_0": {
+        "ItemID": "Annulith",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 10,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv2_1_0": {
+        "ItemID": "WeaponUpMaterial_lv3",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 2,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv2_2_0": {
+        "ItemID": "Friendship_1_1070",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv3_0_0": {
+        "ItemID": "Annulith",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 10,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv3_1_0": {
+        "ItemID": "CharacterUpMaterial_lv3",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 2,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv4_0_0": {
+        "ItemID": "Annulith",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 10,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv4_1_0": {
+        "ItemID": "CharacterUpMaterial_lv3",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 3,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv5_0_0": {
+        "ItemID": "Annulith",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 20,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv5_1_0": {
+        "ItemID": "CityAbility_UpMaterial",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 5,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv6_0_0": {
+        "ItemID": "Annulith",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 20,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv6_1_0": {
+        "ItemID": "Gold",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 20000,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv7_0_0": {
+        "ItemID": "Gold",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 20000,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv7_1_0": {
+        "ItemID": "Universal_stickers_1070",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv8_0_0": {
+        "ItemID": "Gold",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 30000,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv8_1_0": {
+        "ItemID": "Universal_avatar1_1070",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv9_0_0": {
+        "ItemID": "Gold",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 40000,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv9_1_0": {
+        "ItemID": "Universal_frame_1070",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv10_0_0": {
+        "ItemID": "Gold",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 50000,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Likeability_1070_lv10_1_0": {
+        "ItemID": "Universal_BusinessCard_1070",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
         "SequenceProbability": [],
@@ -19703,6 +20397,710 @@
       },
       "droplist_Likeprice_Aobuli_0": {
         "ItemID": "Likeprice_Aobuli",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_MovablePlayer_0": {
+        "ItemID": "MovablePlayer",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_fork_worldrain_0": {
+        "ItemID": "fork_worldrain",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Dicelimite_Nanally_0": {
+        "ItemID": "Dicelimite_Nanally",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_vehicle023_0": {
+        "ItemID": "vehicle023",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Birthday_cake_0": {
+        "ItemID": "Birthday_cake",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_RacingRankSkin_1_0": {
+        "ItemID": "RacingRankSkin_1",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_RacingRankSkin_2_0": {
+        "ItemID": "RacingRankSkin_2",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_RacingRankSkin_3_0": {
+        "ItemID": "RacingRankSkin_3",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Title_RacingRank_001_0": {
+        "ItemID": "Title_RacingRank_001",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Title_RacingRank_002_0": {
+        "ItemID": "Title_RacingRank_002",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Title_RacingRank_003_0": {
+        "ItemID": "Title_RacingRank_003",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Title_RacingRank_004_0": {
+        "ItemID": "Title_RacingRank_004",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Title_TycoonRank_001_0": {
+        "ItemID": "Title_TycoonRank_001",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Title_TycoonRank_002_0": {
+        "ItemID": "Title_TycoonRank_002",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Title_TycoonRank_003_0": {
+        "ItemID": "Title_TycoonRank_003",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Title_TycoonRank_004_0": {
+        "ItemID": "Title_TycoonRank_004",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Title_TycoonRank_005_0": {
+        "ItemID": "Title_TycoonRank_005",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_RobbankCoin_0": {
+        "ItemID": "RobbankCoin",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Vehicle023_Skin_1_0": {
+        "ItemID": "Vehicle023_Skin_1",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Vehicle023_Skin_2_0": {
+        "ItemID": "Vehicle023_Skin_2",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Vehicle023_Skin_3_0": {
+        "ItemID": "Vehicle023_Skin_3",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Vehicle023_Skin_4_0": {
+        "ItemID": "Vehicle023_Skin_4",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1003_0": {
+        "ItemID": "Universal_avatar1_1003",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1004_0": {
+        "ItemID": "Universal_avatar1_1004",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1005_0": {
+        "ItemID": "Universal_avatar1_1005",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1008_0": {
+        "ItemID": "Universal_avatar1_1008",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1010_0": {
+        "ItemID": "Universal_avatar1_1010",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1014_0": {
+        "ItemID": "Universal_avatar1_1014",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1019_0": {
+        "ItemID": "Universal_avatar1_1019",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1020_0": {
+        "ItemID": "Universal_avatar1_1020",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1021_0": {
+        "ItemID": "Universal_avatar1_1021",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1023_0": {
+        "ItemID": "Universal_avatar1_1023",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1025_0": {
+        "ItemID": "Universal_avatar1_1025",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1029_0": {
+        "ItemID": "Universal_avatar1_1029",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1033_0": {
+        "ItemID": "Universal_avatar1_1033",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1039_0": {
+        "ItemID": "Universal_avatar1_1039",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1057_0": {
+        "ItemID": "Universal_avatar1_1057",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1070_0": {
+        "ItemID": "Universal_avatar1_1070",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_1073_0": {
+        "ItemID": "Universal_avatar1_1073",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Universal_avatar1_Tajiduo_0": {
+        "ItemID": "Universal_avatar1_Tajiduo",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_fork_moon_0": {
+        "ItemID": "fork_moon",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_BusinessCard_Characterawaken_Mint_0": {
+        "ItemID": "BusinessCard_Characterawaken_Mint",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_BusinessCard_Characterawaken_Sagiri_0": {
+        "ItemID": "BusinessCard_Characterawaken_Sagiri",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_BusinessCard_Characterawaken_Nanally_0": {
+        "ItemID": "BusinessCard_Characterawaken_Nanally",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_BusinessCard_Characterawaken_Adler_0": {
+        "ItemID": "BusinessCard_Characterawaken_Adler",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_BusinessCard_Characterawaken_skia_0": {
+        "ItemID": "BusinessCard_Characterawaken_skia",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_BusinessCard_Characterawaken_lacrimosa_0": {
+        "ItemID": "BusinessCard_Characterawaken_lacrimosa",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_BusinessCard_Characterawaken_fadia_0": {
+        "ItemID": "BusinessCard_Characterawaken_fadia",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_BusinessCard_Characterawaken_cang_0": {
+        "ItemID": "BusinessCard_Characterawaken_cang",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_BusinessCard_Characterawaken_Hathor_0": {
+        "ItemID": "BusinessCard_Characterawaken_Hathor",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_BusinessCard_Characterawaken_Haniel_0": {
+        "ItemID": "BusinessCard_Characterawaken_Haniel",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_BusinessCard_Characterawaken_Kuhara_0": {
+        "ItemID": "BusinessCard_Characterawaken_Kuhara",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_BusinessCard_Characterawaken_daffodill_0": {
+        "ItemID": "BusinessCard_Characterawaken_daffodill",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_BusinessCard_Characterawaken_edgar_0": {
+        "ItemID": "BusinessCard_Characterawaken_edgar",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_BusinessCard_Characterawaken_chiichan_0": {
+        "ItemID": "BusinessCard_Characterawaken_chiichan",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_BusinessCard_Characterawaken_Jin_0": {
+        "ItemID": "BusinessCard_Characterawaken_Jin",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_BusinessCard_Characterawaken_mitsuki_0": {
+        "ItemID": "BusinessCard_Characterawaken_mitsuki",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Food_100_sp_0": {
+        "ItemID": "Food_100_sp",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Actbond_exp_0": {
+        "ItemID": "Actbond_exp",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_CharacterCard_1070_0": {
+        "ItemID": "CharacterCard_1070",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Furniture_Ornament_051_TV_0": {
+        "ItemID": "Furniture_Ornament_051_TV",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Dicelimite_jin_0": {
+        "ItemID": "Dicelimite_jin",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Furniture_draw_0038_quest_0": {
+        "ItemID": "Furniture_draw_0038_quest",
+        "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
+        "Num": 1,
+        "SequenceProbability": [],
+        "MinNum": 0,
+        "MaxNum": 0,
+        "Formula": "",
+        "Weight": 1,
+        "LimitLevel": ""
+      },
+      "droplist_Furniture_draw_0039_quest_0": {
+        "ItemID": "Furniture_draw_0039_quest",
         "SequenceNumType": "EDropSequenceNumType::DROPSEQUENCENUMTYPE_FIXED",
         "Num": 1,
         "SequenceProbability": [],

@@ -2,8 +2,9 @@
   {
     "Type": "StringTable",
     "Name": "ST_EditPlayerInfo",
-    "Class": "UScriptClass'StringTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/Game/Text/ST_EditPlayerInfo",
     "StringTable": {
       "TableNamespace": "ST_EditPlayerInfo",
       "KeysToEntries": {
@@ -64,7 +65,10 @@
         "ui_edit_avatarframe_001": "默认头像框",
         "ui_editbusinesscard_001": "默认名片",
         "ui_editbusinesscard_002": "默认获取",
-        "ui_editbusinesscard_003": "使用中"
+        "ui_editbusinesscard_003": "使用中",
+        "ui_edit_playerinfolist_044": "更改称号",
+        "ui_edit_playerinfolist_045": "称号",
+        "ui_edit_playerinfolist_046": "<!>ui_edit_playerinfolist_044"
       },
       "KeysToMetaData": {}
     }

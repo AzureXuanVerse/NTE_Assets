@@ -2,89 +2,15 @@
   {
     "Type": "DataTable",
     "Name": "DT_NewGameSystemMail",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Mail/DT_NewGameSystemMail",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'HTMailGameSystem'",
         "ObjectPath": "/Script/HTGame"
       }
     },
-    "Rows": {
-      "Mail_gachaunlock": {
-        "MailUniqueID": "Mail_gachaunlock",
-        "MailType": "EHTMailType::MT_PLAYER",
-        "MailSubType": "EHTMailSubType::MT_Sub_Default",
-        "MailTitle": {
-          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-          "Key": "Mail_gachaunlock_title",
-          "SourceString": "【共存测试】特别补给（1/2）",
-          "LocalizedString": "【共存测试】特别补给（1/2）"
-        },
-        "MailSubTitle": {
-          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-          "Key": "Mail_gachaunlock_title",
-          "SourceString": "【共存测试】特别补给（1/2）",
-          "LocalizedString": "【共存测试】特别补给（1/2）"
-        },
-        "MailContent": {
-          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-          "Key": "Mail_gachaunlock_desc",
-          "SourceString": "感谢您参与本次共存测试！为助力您获得更流畅的游戏体验，我们特此为您准备了专属奖励「捏造骰子」*20，愿您在游戏中畅享精彩！",
-          "LocalizedString": "感谢您参与本次共存测试！为助力您获得更流畅的游戏体验，我们特此为您准备了专属奖励「捏造骰子」*20，愿您在游戏中畅享精彩！"
-        },
-        "MailParams": "",
-        "MailSender": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "MonthlyPassExpire_Sender",
-          "SourceString": "异象猎人公会",
-          "LocalizedString": "异象猎人公会"
-        },
-        "MailAttachStr": "",
-        "DropID": "drop_Mail_gachaunlock",
-        "MailConditions": "Mail_gachaunlock",
-        "MailExpiryTimeDays": 30,
-        "MailPath": 0,
-        "bIsPermanent": false,
-        "Hyperlinks": ""
-      },
-      "Mail_hunterlv10": {
-        "MailUniqueID": "Mail_hunterlv10",
-        "MailType": "EHTMailType::MT_PLAYER",
-        "MailSubType": "EHTMailSubType::MT_Sub_Default",
-        "MailTitle": {
-          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-          "Key": "Mail_hunterlv10_title",
-          "SourceString": "【共存测试】特别补给（2/2）",
-          "LocalizedString": "【共存测试】特别补给（2/2）"
-        },
-        "MailSubTitle": {
-          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-          "Key": "Mail_hunterlv10_title",
-          "SourceString": "【共存测试】特别补给（2/2）",
-          "LocalizedString": "【共存测试】特别补给（2/2）"
-        },
-        "MailContent": {
-          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-          "Key": "Mail_hunterlv10_desc",
-          "SourceString": "感谢您参与本次共存测试！为助力您获得更流畅的游戏体验，我们特此为您准备了专属奖励「捏造骰子」*10，愿您在游戏中畅享精彩！",
-          "LocalizedString": "感谢您参与本次共存测试！为助力您获得更流畅的游戏体验，我们特此为您准备了专属奖励「捏造骰子」*10，愿您在游戏中畅享精彩！"
-        },
-        "MailParams": "",
-        "MailSender": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "MonthlyPassExpire_Sender",
-          "SourceString": "异象猎人公会",
-          "LocalizedString": "异象猎人公会"
-        },
-        "MailAttachStr": "",
-        "DropID": "drop_Mail_hunterlv10",
-        "MailConditions": "Mail_hunterlv10",
-        "MailExpiryTimeDays": 30,
-        "MailPath": 0,
-        "bIsPermanent": false,
-        "Hyperlinks": ""
-      }
-    }
+    "Rows": {}
   }
 ]

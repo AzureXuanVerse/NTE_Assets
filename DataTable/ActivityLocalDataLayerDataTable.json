@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "ActivityLocalDataLayerDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/ActivityLocalDataLayerDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'ActivityLocalDataLayerStaticData'",
@@ -973,11 +974,11 @@
         ],
         "bOnlyLoadNotActive": false,
         "ActiveCondition": {
-          "YahahaId": "Yahaha_TeruTeruRain01",
+          "VisionID": "Vision_TeruTeruBozu01",
           "bNeedComplete": false
         },
         "UnLoadCondition": {
-          "YahahaId": "Yahaha_TeruTeruRain01",
+          "VisionID": "Vision_TeruTeruBozu01",
           "bNeedComplete": true
         }
       },
@@ -1134,11 +1135,11 @@
         ],
         "bOnlyLoadNotActive": false,
         "ActiveCondition": {
-          "YahahaId": "Yahaha_TeruTeruSnow01",
+          "VisionID": "Vision_TeruTeruBozuSnow01",
           "bNeedComplete": false
         },
         "UnLoadCondition": {
-          "YahahaId": "Yahaha_TeruTeruSnow01",
+          "YahahaId": "Vision_TeruTeruBozuSnow01",
           "bNeedComplete": true
         }
       }

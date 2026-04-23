@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_CombatAwardQuest",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/SimpleQuest/DT_CombatAwardQuest",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'SimpleQuestStaticData'",
@@ -40,7 +41,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -55,7 +57,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardDailyQuest_02": {
         "QuestId": "CombatAwardDailyQuest_02",
@@ -87,7 +128,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -102,7 +144,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardDailyQuest_03": {
         "QuestId": "CombatAwardDailyQuest_03",
@@ -133,7 +214,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -148,7 +230,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardDailyQuest_04": {
         "QuestId": "CombatAwardDailyQuest_04",
@@ -169,7 +290,7 @@
             "fons"
           ],
           "IsVehicleKey": false,
-          "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
+          "VehicleKeyTypeArray": [],
           "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
           "Amount": 10000
         },
@@ -188,7 +309,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -203,7 +325,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardWeeklyQuest_01": {
         "QuestId": "CombatAwardWeeklyQuest_01",
@@ -235,7 +396,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -250,7 +412,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardWeeklyQuest_02": {
         "QuestId": "CombatAwardWeeklyQuest_02",
@@ -282,7 +483,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -297,7 +499,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardWeeklyQuest_03": {
         "QuestId": "CombatAwardWeeklyQuest_03",
@@ -318,7 +559,7 @@
             "fons"
           ],
           "IsVehicleKey": false,
-          "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
+          "VehicleKeyTypeArray": [],
           "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
           "Amount": 300000
         },
@@ -337,7 +578,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -352,7 +594,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardWeeklyQuest_04": {
         "QuestId": "CombatAwardWeeklyQuest_04",
@@ -383,7 +664,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -398,7 +680,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardWeeklyQuest_05": {
         "QuestId": "CombatAwardWeeklyQuest_05",
@@ -432,7 +753,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -447,7 +769,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardWeeklyQuest_06": {
         "QuestId": "CombatAwardWeeklyQuest_06",
@@ -481,7 +842,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -496,7 +858,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardWeeklyQuest_07": {
         "QuestId": "CombatAwardWeeklyQuest_07",
@@ -517,7 +918,7 @@
             "gold"
           ],
           "IsVehicleKey": false,
-          "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
+          "VehicleKeyTypeArray": [],
           "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
           "Amount": 100000
         },
@@ -536,7 +937,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -551,7 +953,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardWeeklyQuest_08": {
         "QuestId": "CombatAwardWeeklyQuest_08",
@@ -583,7 +1024,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -598,7 +1040,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardOnceQuest_01": {
         "QuestId": "CombatAwardOnceQuest_01",
@@ -632,7 +1113,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -647,7 +1129,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardOnceQuest_02": {
         "QuestId": "CombatAwardOnceQuest_02",
@@ -681,7 +1202,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -696,7 +1218,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardOnceQuest_03": {
         "QuestId": "CombatAwardOnceQuest_03",
@@ -730,7 +1291,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -745,7 +1307,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardOnceQuest_04": {
         "QuestId": "CombatAwardOnceQuest_04",
@@ -779,7 +1380,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -794,7 +1396,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardOnceQuest_05": {
         "QuestId": "CombatAwardOnceQuest_05",
@@ -828,7 +1469,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -843,7 +1485,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardOnceQuest_06": {
         "QuestId": "CombatAwardOnceQuest_06",
@@ -877,7 +1558,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -892,7 +1574,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardOnceQuest_07": {
         "QuestId": "CombatAwardOnceQuest_07",
@@ -926,7 +1647,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -941,7 +1663,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardOnceQuest_08": {
         "QuestId": "CombatAwardOnceQuest_08",
@@ -974,7 +1735,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -989,7 +1751,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardOnceQuest_09": {
         "QuestId": "CombatAwardOnceQuest_09",
@@ -1020,7 +1821,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -1035,7 +1837,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "CombatAwardOnceQuest_10": {
         "QuestId": "CombatAwardOnceQuest_10",
@@ -1066,7 +1907,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -1081,7 +1923,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 2026,
+            "Month": 5,
+            "Day": 27,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 2026,
+            "Month": 6,
+            "Day": 1,
+            "Hour": 16,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       }
     }
   }

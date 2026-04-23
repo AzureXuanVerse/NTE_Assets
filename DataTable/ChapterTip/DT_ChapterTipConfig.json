@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_ChapterTipConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/ChapterTip/DT_ChapterTipConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'ChapterTipConfig'",
@@ -27,8 +28,8 @@
         },
         "ShowTime": 4.0,
         "ContentPosition": {
-          "X": 350.0,
-          "Y": 350.0
+          "X": 136.0,
+          "Y": 248.0
         }
       },
       "NewRow_0": {
@@ -47,8 +48,8 @@
         },
         "ShowTime": 4.0,
         "ContentPosition": {
-          "X": 400.0,
-          "Y": 600.0
+          "X": 148.0,
+          "Y": 560.0
         }
       },
       "NewRow_1": {
@@ -106,6 +107,26 @@
         "ContentPosition": {
           "X": 1400.0,
           "Y": 600.0
+        }
+      },
+      "NewRow_4": {
+        "ChapterID": 5,
+        "Title": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "chapter_title4",
+          "SourceString": "第4话",
+          "LocalizedString": "第4话"
+        },
+        "Content": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "chapter_name5",
+          "SourceString": "红字的研究\r\n                  END",
+          "LocalizedString": "红字的研究\r\n                  END"
+        },
+        "ShowTime": 4.0,
+        "ContentPosition": {
+          "X": 724.0,
+          "Y": 404.0
         }
       }
     }

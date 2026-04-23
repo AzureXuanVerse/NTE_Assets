@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_AuctionBidChatDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/AuctionShop/DT_AuctionBidChatDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'AuctionBidChatConfig'",
@@ -11,7 +12,7 @@
       }
     },
     "Rows": {
-      "AuctionChat_1_1_female": {
+      "AuctionChat_1_1_player": {
         "bBidding": true,
         "ChatContext": {
           "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
@@ -20,13 +21,17 @@
           "LocalizedString": "我需要这件拍品。"
         },
         "BidVoice": {
-          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_1'",
-          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_1.0"
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_1_f'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_1_f.0"
+        },
+        "MaleBidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_1_m'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_1_m.0"
         },
         "NpcGender": 1,
         "bPlayerChat": 1
       },
-      "AuctionChat_1_2_female": {
+      "AuctionChat_1_2_player": {
         "bBidding": true,
         "ChatContext": {
           "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
@@ -35,13 +40,17 @@
           "LocalizedString": "还在预算范围内。"
         },
         "BidVoice": {
-          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_2'",
-          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_2.0"
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_2_f'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_2_f.0"
+        },
+        "MaleBidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_2_m'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_2_m.0"
         },
         "NpcGender": 1,
         "bPlayerChat": 1
       },
-      "AuctionChat_1_3_female": {
+      "AuctionChat_1_3_player": {
         "bBidding": true,
         "ChatContext": {
           "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
@@ -50,13 +59,17 @@
           "LocalizedString": "要向店长预支工资吗……"
         },
         "BidVoice": {
-          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_3'",
-          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_3.0"
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_3_f'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_3_f.0"
+        },
+        "MaleBidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_3_m'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_3_m.0"
         },
         "NpcGender": 1,
         "bPlayerChat": 1
       },
-      "AuctionChat_1_4_female": {
+      "AuctionChat_1_4_player": {
         "bBidding": true,
         "ChatContext": {
           "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
@@ -65,13 +78,17 @@
           "LocalizedString": "要多接几份委托了。"
         },
         "BidVoice": {
-          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_4'",
-          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_4.0"
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_4_f'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_4_f.0"
+        },
+        "MaleBidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_4_m'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_4_m.0"
         },
         "NpcGender": 1,
         "bPlayerChat": 1
       },
-      "AuctionChat_1_5_female": {
+      "AuctionChat_1_5_player": {
         "bBidding": true,
         "ChatContext": {
           "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
@@ -80,71 +97,15 @@
           "LocalizedString": "这件拍品值得这个价。"
         },
         "BidVoice": {
-          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_5'",
-          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_5.0"
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_5_f'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_5_f.0"
+        },
+        "MaleBidVoice": {
+          "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_1_5_m'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_1_5_m.0"
         },
         "NpcGender": 1,
         "bPlayerChat": 1
-      },
-      "AuctionChat_1_1_male": {
-        "bBidding": true,
-        "ChatContext": {
-          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
-          "Key": "AuctionChat_1_1",
-          "SourceString": "我需要这件拍品。",
-          "LocalizedString": "我需要这件拍品。"
-        },
-        "BidVoice": null,
-        "NpcGender": 0,
-        "bPlayerChat": 0
-      },
-      "AuctionChat_1_2_male": {
-        "bBidding": true,
-        "ChatContext": {
-          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
-          "Key": "AuctionChat_1_2",
-          "SourceString": "还在预算范围内。",
-          "LocalizedString": "还在预算范围内。"
-        },
-        "BidVoice": null,
-        "NpcGender": 0,
-        "bPlayerChat": 0
-      },
-      "AuctionChat_1_3_male": {
-        "bBidding": true,
-        "ChatContext": {
-          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
-          "Key": "AuctionChat_1_3",
-          "SourceString": "要向店长预支工资吗……",
-          "LocalizedString": "要向店长预支工资吗……"
-        },
-        "BidVoice": null,
-        "NpcGender": 0,
-        "bPlayerChat": 0
-      },
-      "AuctionChat_1_4_male": {
-        "bBidding": true,
-        "ChatContext": {
-          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
-          "Key": "AuctionChat_1_4",
-          "SourceString": "要多接几份委托了。",
-          "LocalizedString": "要多接几份委托了。"
-        },
-        "BidVoice": null,
-        "NpcGender": 0,
-        "bPlayerChat": 0
-      },
-      "AuctionChat_1_5_male": {
-        "bBidding": true,
-        "ChatContext": {
-          "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
-          "Key": "AuctionChat_1_5",
-          "SourceString": "这件拍品值得这个价。",
-          "LocalizedString": "这件拍品值得这个价。"
-        },
-        "BidVoice": null,
-        "NpcGender": 0,
-        "bPlayerChat": 0
       },
       "AuctionChat_2_1": {
         "bBidding": true,
@@ -158,6 +119,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_2_1'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_2_1.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -173,6 +135,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_2_2'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_2_2.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -188,6 +151,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_2_3'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_2_3.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -203,6 +167,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_2_4'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_2_4.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -218,6 +183,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_2_5'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_2_5.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -233,6 +199,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_2_6'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_2_6.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -248,6 +215,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_2_7'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_2_7.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -263,6 +231,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_3_1'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_3_1.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -278,6 +247,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_3_2'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_3_2.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -293,6 +263,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_3_3'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_3_3.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -308,6 +279,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_3_4'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_3_4.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -323,6 +295,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_3_5'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_3_5.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -335,6 +308,7 @@
           "LocalizedString": "哼\r\n（声音中包含了三分释然）"
         },
         "BidVoice": null,
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -350,6 +324,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_3_7'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_3_7.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -365,6 +340,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_4_1'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_4_1.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -380,6 +356,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_4_2'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_4_2.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -395,6 +372,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_4_3'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_4_3.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -410,6 +388,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_4_4'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_4_4.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -425,6 +404,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_4_5'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_4_5.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -440,6 +420,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_4_6'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_4_6.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -455,6 +436,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_4_7'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_4_7.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -470,6 +452,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_5_1'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_5_1.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -485,6 +468,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_5_2'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_5_2.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -500,6 +484,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_5_3'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_5_3.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -515,6 +500,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_5_4'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_5_4.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -530,6 +516,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_5_5'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_5_5.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -545,6 +532,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_5_6'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_5_6.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -560,6 +548,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_5_7'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_5_7.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -572,6 +561,7 @@
           "LocalizedString": "就当给喵喵买个玩具。"
         },
         "BidVoice": null,
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -584,6 +574,7 @@
           "LocalizedString": "不过一包口粮的钱。"
         },
         "BidVoice": null,
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -596,6 +587,7 @@
           "LocalizedString": "新玩意，喵喵说不定感兴趣。"
         },
         "BidVoice": null,
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -608,6 +600,7 @@
           "LocalizedString": "为了喵喵还要更努力一些。"
         },
         "BidVoice": null,
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -620,6 +613,7 @@
           "LocalizedString": "和喵喵的新造型很配呢。"
         },
         "BidVoice": null,
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -632,6 +626,7 @@
           "LocalizedString": "算了，喵喵说不喜欢这个。"
         },
         "BidVoice": null,
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -644,6 +639,7 @@
           "LocalizedString": "唉，喵喵只是一只小狗罢了。"
         },
         "BidVoice": null,
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -659,6 +655,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_7_1'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_7_1.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -674,6 +671,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_7_2'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_7_2.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -689,6 +687,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_7_3'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_7_3.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -704,6 +703,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_7_4'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_7_4.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -719,6 +719,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_7_5'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_7_5.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -734,6 +735,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_7_6'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_7_6.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -749,6 +751,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_7_7'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_7_7.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -764,6 +767,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_8_1'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_8_1.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -779,6 +783,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_8_2'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_8_2.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -794,6 +799,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_8_3'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_8_3.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -809,6 +815,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_8_4'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_8_4.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -824,6 +831,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_8_5'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_8_5.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -839,6 +847,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_8_6'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_8_6.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -854,6 +863,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_8_7'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_8_7.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -869,6 +879,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_9_1'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_9_1.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -884,6 +895,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_9_2'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_9_2.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -899,6 +911,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_9_3'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_9_3.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -914,6 +927,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_9_4'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_9_4.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -929,6 +943,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_9_5'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_9_5.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -944,6 +959,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_9_6'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_9_6.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -959,6 +975,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_9_7'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_9_7.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -974,6 +991,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_10_1'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_10_1.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -989,6 +1007,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_10_2'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_10_2.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1004,6 +1023,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_10_3'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_10_3.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1019,6 +1039,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_10_4'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_10_4.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1034,6 +1055,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_10_5'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_10_5.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1049,6 +1071,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_10_6'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_10_6.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1064,6 +1087,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_10_7'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_10_7.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1079,6 +1103,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_11_1'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_11_1.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1094,6 +1119,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_11_2'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_11_2.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1109,6 +1135,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_11_3'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_11_3.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1124,6 +1151,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_11_4'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_11_4.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1139,6 +1167,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_11_5'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_11_5.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1154,6 +1183,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_11_6'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_11_6.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1169,6 +1199,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_11_7'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_11_7.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1184,6 +1215,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_12_1'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_12_1.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1199,6 +1231,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_12_2'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_12_2.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1214,6 +1247,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_12_3'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_12_3.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1229,6 +1263,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_12_4'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_12_4.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1244,6 +1279,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_12_5'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_12_5.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1259,6 +1295,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_12_6'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_12_6.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1274,6 +1311,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_12_7'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_12_7.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1289,6 +1327,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_13_1'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_13_1.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1304,6 +1343,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_13_2'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_13_2.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1319,6 +1359,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_13_3'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_13_3.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1334,6 +1375,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_13_4'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_13_4.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1349,6 +1391,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_13_5'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_13_5.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1364,6 +1407,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_13_6'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_13_6.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1379,6 +1423,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionChat_13_7'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionChat_13_7.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1394,6 +1439,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionDetail_5'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionDetail_5.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1409,6 +1455,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionDetail_3_2'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionDetail_3_2.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1424,6 +1471,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionDetail_4_2'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionDetail_4_2.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       },
@@ -1439,6 +1487,7 @@
           "ObjectName": "AkAudioEvent'Play_Vo_AuctionDetail_5_3'",
           "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/AuctionChat/Play_Vo_AuctionDetail_5_3.0"
         },
+        "MaleBidVoice": null,
         "NpcGender": 0,
         "bPlayerChat": 0
       }

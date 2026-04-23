@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "ClientDropGroupDataTable_Quest",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Drop/Client/ClientDropGroupDataTable_Quest",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'ClientDropGroupStaticRangeData'",
@@ -68,16 +69,16 @@
       "drop_mainquest_q110026_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_OrdinaryMonMaterial_01_lv1",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 5,
+        "ModifyNum": 60000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_mainquest_q110026_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_OrdinaryMonMaterial_02_lv1",
+        "SequenceId": "droplist_OrdinaryMonMaterial_01_lv1",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 5,
@@ -86,7 +87,7 @@
       "drop_mainquest_q110026_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_OrdinaryMonMaterial_03_lv1",
+        "SequenceId": "droplist_OrdinaryMonMaterial_02_lv1",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 5,
@@ -95,7 +96,7 @@
       "drop_mainquest_q110026_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_OrdinaryMonMaterial_04_lv1",
+        "SequenceId": "droplist_OrdinaryMonMaterial_03_lv1",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 5,
@@ -104,13 +105,22 @@
       "drop_mainquest_q110026_6": {
         "MinLevel": 0,
         "MaxLevel": 100,
+        "SequenceId": "droplist_OrdinaryMonMaterial_04_lv1",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 5,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_mainquest_q110026_7": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
         "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 10,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
-      "drop_mainquest_q110026_7": {
+      "drop_mainquest_q110026_8": {
         "MinLevel": 0,
         "MaxLevel": 100,
         "SequenceId": "droplist_Item_reduce_sin",
@@ -119,22 +129,13 @@
         "ModifyNum": 5,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
-      "drop_mainquest_q110026_8": {
+      "drop_mainquest_q110026_9": {
         "MinLevel": 0,
         "MaxLevel": 100,
         "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 100000,
-        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
-      },
-      "drop_mainquest_q110026_9": {
-        "MinLevel": 0,
-        "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
-        "HiddenCounts": false,
-        "SequenceWeight": 1.0,
-        "ModifyNum": 60000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_mainquest_q110050_0": {
@@ -662,16 +663,16 @@
       "drop_sidequest_S110108_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 12,
+        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110108_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 12,
@@ -680,19 +681,19 @@
       "drop_sidequest_S110108_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 30000,
+        "ModifyNum": 12,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110108_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
+        "ModifyNum": 30000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110211_0": {
@@ -716,16 +717,16 @@
       "drop_sidequest_S110211_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 12,
+        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110211_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 12,
@@ -734,19 +735,19 @@
       "drop_sidequest_S110211_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 30000,
+        "ModifyNum": 12,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110211_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
+        "ModifyNum": 30000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110313_0": {
@@ -770,16 +771,16 @@
       "drop_sidequest_S110313_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6,
+        "ModifyNum": 7500,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110313_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 6,
@@ -788,19 +789,19 @@
       "drop_sidequest_S110313_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
+        "ModifyNum": 6,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110313_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 7500,
+        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110339_0": {
@@ -824,16 +825,16 @@
       "drop_sidequest_S110339_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6,
+        "ModifyNum": 7500,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110339_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 6,
@@ -842,19 +843,19 @@
       "drop_sidequest_S110339_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
+        "ModifyNum": 6,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110339_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 7500,
+        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110413_0": {
@@ -878,16 +879,16 @@
       "drop_sidequest_S110413_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 12,
+        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110413_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 12,
@@ -896,19 +897,19 @@
       "drop_sidequest_S110413_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 30000,
+        "ModifyNum": 12,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110413_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
+        "ModifyNum": 30000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110519_0": {
@@ -932,16 +933,16 @@
       "drop_sidequest_S110519_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 12,
+        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110519_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 12,
@@ -950,19 +951,19 @@
       "drop_sidequest_S110519_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 30000,
+        "ModifyNum": 12,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110519_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
+        "ModifyNum": 30000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_s110622_0": {
@@ -986,16 +987,16 @@
       "drop_sidequest_s110622_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6,
+        "ModifyNum": 9000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_s110622_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 6,
@@ -1004,19 +1005,19 @@
       "drop_sidequest_s110622_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
+        "ModifyNum": 6,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_s110622_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 9000,
+        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110630_0": {
@@ -1040,16 +1041,16 @@
       "drop_sidequest_S110630_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6,
+        "ModifyNum": 9000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110630_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 6,
@@ -1058,19 +1059,19 @@
       "drop_sidequest_S110630_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
+        "ModifyNum": 6,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110630_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 9000,
+        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110844_0": {
@@ -1094,16 +1095,16 @@
       "drop_sidequest_S110844_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 12,
+        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110844_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 12,
@@ -1112,19 +1113,19 @@
       "drop_sidequest_S110844_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 30000,
+        "ModifyNum": 12,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110844_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
+        "ModifyNum": 30000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110820_0": {
@@ -1157,13 +1158,40 @@
       "drop_sidequest_S110820_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
+        "SequenceId": "droplist_Furniture_draw_0038_quest",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 1,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_sidequest_S110820_4": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_Furniture_draw_0039_quest",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 1,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_sidequest_S110820_5": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_fons",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 15000,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_sidequest_S110820_6": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
         "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 12,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
-      "drop_sidequest_S110820_4": {
+      "drop_sidequest_S110820_7": {
         "MinLevel": 0,
         "MaxLevel": 100,
         "SequenceId": "droplist_WeaponUpMaterial_lv2",
@@ -1172,22 +1200,13 @@
         "ModifyNum": 12,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
-      "drop_sidequest_S110820_5": {
+      "drop_sidequest_S110820_8": {
         "MinLevel": 0,
         "MaxLevel": 100,
         "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 30000,
-        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
-      },
-      "drop_sidequest_S110820_6": {
-        "MinLevel": 0,
-        "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
-        "HiddenCounts": false,
-        "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111001_0": {
@@ -1211,16 +1230,16 @@
       "drop_sidequest_S111001_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 2,
+        "ModifyNum": 3000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111001_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 2,
@@ -1229,19 +1248,19 @@
       "drop_sidequest_S111001_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6000,
+        "ModifyNum": 2,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111001_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 3000,
+        "ModifyNum": 6000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111002_0": {
@@ -1265,16 +1284,16 @@
       "drop_sidequest_S111002_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 2,
+        "ModifyNum": 3000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111002_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 2,
@@ -1283,19 +1302,19 @@
       "drop_sidequest_S111002_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6000,
+        "ModifyNum": 2,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111002_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 3000,
+        "ModifyNum": 6000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111003_0": {
@@ -1319,16 +1338,16 @@
       "drop_sidequest_S111003_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 2,
+        "ModifyNum": 3000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111003_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 2,
@@ -1337,19 +1356,19 @@
       "drop_sidequest_S111003_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6000,
+        "ModifyNum": 2,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111003_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 3000,
+        "ModifyNum": 6000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111004_0": {
@@ -1373,16 +1392,16 @@
       "drop_sidequest_S111004_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 2,
+        "ModifyNum": 3000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111004_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 2,
@@ -1391,19 +1410,19 @@
       "drop_sidequest_S111004_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6000,
+        "ModifyNum": 2,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111004_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 3000,
+        "ModifyNum": 6000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111007_0": {
@@ -1427,16 +1446,16 @@
       "drop_sidequest_S111007_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 4,
+        "ModifyNum": 3000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111007_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 4,
@@ -1445,19 +1464,19 @@
       "drop_sidequest_S111007_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6000,
+        "ModifyNum": 4,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111007_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 3000,
+        "ModifyNum": 6000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110719_0": {
@@ -1481,16 +1500,16 @@
       "drop_sidequest_S110719_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 12,
+        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110719_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 12,
@@ -1499,19 +1518,19 @@
       "drop_sidequest_S110719_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 30000,
+        "ModifyNum": 12,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110719_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
+        "ModifyNum": 30000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111120_0": {
@@ -1535,16 +1554,16 @@
       "drop_sidequest_S111120_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6,
+        "ModifyNum": 29000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111120_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 6,
@@ -1553,19 +1572,19 @@
       "drop_sidequest_S111120_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
+        "ModifyNum": 6,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111120_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 29000,
+        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111135_0": {
@@ -1589,7 +1608,7 @@
       "drop_sidequest_S111135_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_item_quest_009",
+        "SequenceId": "droplist_fork_snowman",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 1,
@@ -1598,22 +1617,13 @@
       "drop_sidequest_S111135_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_item_quest_012",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 1,
+        "ModifyNum": 18000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111135_4": {
-        "MinLevel": 0,
-        "MaxLevel": 100,
-        "SequenceId": "droplist_fork_snowman",
-        "HiddenCounts": false,
-        "SequenceWeight": 1.0,
-        "ModifyNum": 1,
-        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
-      },
-      "drop_sidequest_S111135_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
         "SequenceId": "droplist_CharacterUpMaterial_lv2",
@@ -1622,7 +1632,7 @@
         "ModifyNum": 6,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
-      "drop_sidequest_S111135_6": {
+      "drop_sidequest_S111135_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
         "SequenceId": "droplist_WeaponUpMaterial_lv2",
@@ -1631,22 +1641,13 @@
         "ModifyNum": 6,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
-      "drop_sidequest_S111135_7": {
+      "drop_sidequest_S111135_6": {
         "MinLevel": 0,
         "MaxLevel": 100,
         "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 15000,
-        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
-      },
-      "drop_sidequest_S111135_8": {
-        "MinLevel": 0,
-        "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
-        "HiddenCounts": false,
-        "SequenceWeight": 1.0,
-        "ModifyNum": 18000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111236_0": {
@@ -1670,16 +1671,16 @@
       "drop_sidequest_S111236_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 12,
+        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111236_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 12,
@@ -1688,19 +1689,19 @@
       "drop_sidequest_S111236_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 30000,
+        "ModifyNum": 12,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111236_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
+        "ModifyNum": 30000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K1102211_0": {
@@ -1724,16 +1725,16 @@
       "drop_linkquest_K1102211_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 9,
+        "ModifyNum": 10000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K1102211_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 9,
@@ -1742,19 +1743,19 @@
       "drop_linkquest_K1102211_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 20000,
+        "ModifyNum": 9,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K1102211_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 10000,
+        "ModifyNum": 20000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110237_0": {
@@ -1778,16 +1779,16 @@
       "drop_linkquest_K110237_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 9,
+        "ModifyNum": 10000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110237_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 9,
@@ -1796,19 +1797,19 @@
       "drop_linkquest_K110237_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 20000,
+        "ModifyNum": 9,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110237_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 10000,
+        "ModifyNum": 20000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110315_0": {
@@ -1832,16 +1833,16 @@
       "drop_linkquest_K110315_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6,
+        "ModifyNum": 5000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110315_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 6,
@@ -1850,19 +1851,19 @@
       "drop_linkquest_K110315_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 10000,
+        "ModifyNum": 6,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110315_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 5000,
+        "ModifyNum": 10000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110338_0": {
@@ -1886,16 +1887,16 @@
       "drop_linkquest_K110338_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6,
+        "ModifyNum": 5000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110338_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 6,
@@ -1904,19 +1905,19 @@
       "drop_linkquest_K110338_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 10000,
+        "ModifyNum": 6,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110338_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 5000,
+        "ModifyNum": 10000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110350_0": {
@@ -1949,16 +1950,16 @@
       "drop_linkquest_K110350_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6,
+        "ModifyNum": 10000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110350_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 6,
@@ -1967,19 +1968,19 @@
       "drop_linkquest_K110350_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 20000,
+        "ModifyNum": 6,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110350_6": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 10000,
+        "ModifyNum": 20000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110353_0": {
@@ -2045,24 +2046,6 @@
         "ModifyNum": 10,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
-      "drop_linkquest_K110604_2": {
-        "MinLevel": 0,
-        "MaxLevel": 100,
-        "SequenceId": "droplist_item_quest_005",
-        "HiddenCounts": false,
-        "SequenceWeight": 1.0,
-        "ModifyNum": 1,
-        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
-      },
-      "drop_linkquest_K110801_0": {
-        "MinLevel": 0,
-        "MaxLevel": 100,
-        "SequenceId": "droplist_item_quest_007",
-        "HiddenCounts": false,
-        "SequenceWeight": 1.0,
-        "ModifyNum": 1,
-        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
-      },
       "drop_linkquest_K110015_0": {
         "MinLevel": 0,
         "MaxLevel": 100,
@@ -2084,16 +2067,16 @@
       "drop_linkquest_K110015_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6,
+        "ModifyNum": 5000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110015_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 6,
@@ -2102,19 +2085,19 @@
       "drop_linkquest_K110015_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 10000,
+        "ModifyNum": 6,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110015_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 5000,
+        "ModifyNum": 10000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110020_0": {
@@ -2147,16 +2130,16 @@
       "drop_linkquest_K110030_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6,
+        "ModifyNum": 5000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110030_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 6,
@@ -2165,19 +2148,19 @@
       "drop_linkquest_K110030_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 10000,
+        "ModifyNum": 6,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110030_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 5000,
+        "ModifyNum": 10000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110036_0": {
@@ -2210,16 +2193,16 @@
       "drop_linkquest_K110048_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6,
+        "ModifyNum": 10000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110048_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 6,
@@ -2228,19 +2211,19 @@
       "drop_linkquest_K110048_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 50000,
+        "ModifyNum": 6,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110048_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 10000,
+        "ModifyNum": 50000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110411_0": {
@@ -2264,16 +2247,16 @@
       "drop_linkquest_K110411_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6,
+        "ModifyNum": 5000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110411_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 6,
@@ -2282,19 +2265,19 @@
       "drop_linkquest_K110411_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 10000,
+        "ModifyNum": 6,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110411_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 5000,
+        "ModifyNum": 10000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110416_0": {
@@ -2318,16 +2301,16 @@
       "drop_linkquest_K110416_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6,
+        "ModifyNum": 5000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110416_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 6,
@@ -2336,19 +2319,19 @@
       "drop_linkquest_K110416_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 10000,
+        "ModifyNum": 6,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110416_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 5000,
+        "ModifyNum": 10000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110431_0": {
@@ -2372,16 +2355,16 @@
       "drop_linkquest_K110431_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 6,
+        "ModifyNum": 10000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110431_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 6,
@@ -2390,19 +2373,19 @@
       "drop_linkquest_K110431_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 20000,
+        "ModifyNum": 6,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110431_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 10000,
+        "ModifyNum": 20000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110905_0": {
@@ -2489,13 +2472,22 @@
       "drop_Legendquest_L110123_1": {
         "MinLevel": 0,
         "MaxLevel": 100,
+        "SequenceId": "droplist_Annulith",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 50,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_Legendquest_L110123_2": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
         "SequenceId": "droplist_Common_material_01",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 10,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
-      "drop_Legendquest_L110123_2": {
+      "drop_Legendquest_L110123_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
         "SequenceId": "droplist_fons",
@@ -2504,7 +2496,7 @@
         "ModifyNum": 40000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
-      "drop_Legendquest_L110123_3": {
+      "drop_Legendquest_L110123_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
         "SequenceId": "droplist_gold",
@@ -2696,13 +2688,22 @@
       "drop_mainquest_q110332_1": {
         "MinLevel": 0,
         "MaxLevel": 100,
+        "SequenceId": "droplist_Annulith",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 60,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_mainquest_q110332_2": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
         "SequenceId": "droplist_Common_material_01",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 10,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
-      "drop_mainquest_q110332_2": {
+      "drop_mainquest_q110332_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
         "SequenceId": "droplist_fons",
@@ -2711,7 +2712,7 @@
         "ModifyNum": 40000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
-      "drop_mainquest_q110332_3": {
+      "drop_mainquest_q110332_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
         "SequenceId": "droplist_gold",
@@ -2885,16 +2886,16 @@
       "drop_sidequest_S110935_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 12,
+        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110935_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 12,
@@ -2903,19 +2904,19 @@
       "drop_sidequest_S110935_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 30000,
+        "ModifyNum": 12,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S110935_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
+        "ModifyNum": 30000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111606_0": {
@@ -2939,16 +2940,16 @@
       "drop_sidequest_S111606_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 12,
+        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111606_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 12,
@@ -2957,19 +2958,19 @@
       "drop_sidequest_S111606_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 30000,
+        "ModifyNum": 12,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111606_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
+        "ModifyNum": 30000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110906_0": {
@@ -2993,16 +2994,16 @@
       "drop_linkquest_K110906_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 12,
+        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110906_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 12,
@@ -3011,19 +3012,19 @@
       "drop_linkquest_K110906_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 30000,
+        "ModifyNum": 12,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_K110906_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
+        "ModifyNum": 30000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_linkquest_short_0": {
@@ -3065,16 +3066,16 @@
       "drop_sidequest_S111329_2": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_CharacterUpMaterial_lv2",
+        "SequenceId": "droplist_fons",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 12,
+        "ModifyNum": 15000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111329_3": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_WeaponUpMaterial_lv2",
+        "SequenceId": "droplist_CharacterUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 12,
@@ -3083,19 +3084,19 @@
       "drop_sidequest_S111329_4": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_gold",
+        "SequenceId": "droplist_WeaponUpMaterial_lv2",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 30000,
+        "ModifyNum": 12,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_sidequest_S111329_5": {
         "MinLevel": 0,
         "MaxLevel": 100,
-        "SequenceId": "droplist_fons",
+        "SequenceId": "droplist_gold",
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
-        "ModifyNum": 15000,
+        "ModifyNum": 30000,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       },
       "drop_B110052_0": {
@@ -3195,6 +3196,159 @@
         "HiddenCounts": false,
         "SequenceWeight": 1.0,
         "ModifyNum": 10000,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_prisonquest5_0": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_PrisonCoin",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 1,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_prisonquest5_1": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_fons",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 10000,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_mainquest_q110424_0": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_HunterLvExp",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 1000,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_mainquest_q110424_1": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_Annulith",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 120,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_mainquest_q110424_2": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_Common_material_01",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 10,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_mainquest_q110424_3": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_fons",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 80000,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_mainquest_q110424_4": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_gold",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 100000,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_mainquest_q110493_0": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_HunterLvExp",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 1000,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_mainquest_q110493_1": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_Annulith",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 120,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_mainquest_q110493_2": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_CharacterUpMaterial_lv3",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 15,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_mainquest_q110493_3": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_WeaponUpMaterial_lv3",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 15,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_mainquest_q110493_4": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_EquipmentUpMaterial_lv3",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 30,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_mainquest_q110493_5": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_fons",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 80000,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_mainquest_q110493_6": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_gold",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 100000,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_linkquest_K111901_0": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_HunterLvExp",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 100,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_linkquest_K111901_1": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_Annulith",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 10,
+        "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
+      },
+      "drop_linkquest_K111901_2": {
+        "MinLevel": 0,
+        "MaxLevel": 100,
+        "SequenceId": "droplist_Food_100_sp",
+        "HiddenCounts": false,
+        "SequenceWeight": 1.0,
+        "ModifyNum": 1,
         "DropGroupLevelType": "EDropGroupLevelType::DROPGROUPLEVELTYPE_CHARACTERLEVEL"
       }
     }

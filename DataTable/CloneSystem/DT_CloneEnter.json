@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_CloneEnter",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/CloneSystem/DT_CloneEnter",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CloneSystemContain'",
@@ -19,9 +20,9 @@
           "DLC_levelbreakthrough_001",
           "DLC_levelbreakthrough_002",
           "DLC_levelbreakthrough_003",
+          "Trailclone_exp",
           "Trailclone_Wpexp",
-          "Trailclone_gold",
-          "Trailclone_exp"
+          "Trailclone_gold"
         ],
         "NotContainsCloneIDsToMap": [
           "DLC_levelbreakthrough_001",

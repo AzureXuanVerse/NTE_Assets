@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_QuestItemExchange",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_QuestItemExchange",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'QuestItemExchangeData'",
@@ -53,6 +54,90 @@
         "CostItems": {
           "ItemID": "Prison_Towerkey",
           "Amount": 1
+        },
+        "Conditions": []
+      },
+      "Prison_Spoon_reduce": {
+        "ItemID": "None",
+        "MaxAmount": 0,
+        "CostItems": {
+          "ItemID": "Prison_Spoon",
+          "Amount": 1
+        },
+        "Conditions": []
+      },
+      "Prison_SideDoorkey": {
+        "ItemID": "Prison_SideDoorkey",
+        "MaxAmount": 1,
+        "CostItems": null,
+        "Conditions": []
+      },
+      "Prison_SideDoorkey_reduce": {
+        "ItemID": "None",
+        "MaxAmount": 0,
+        "CostItems": {
+          "ItemID": "Prison_SideDoorkey",
+          "Amount": 1
+        },
+        "Conditions": []
+      },
+      "Prison_Dart": {
+        "ItemID": "Prison_Dart",
+        "MaxAmount": 1,
+        "CostItems": null,
+        "Conditions": []
+      },
+      "Prison_Dart_reduce": {
+        "ItemID": "None",
+        "MaxAmount": 0,
+        "CostItems": {
+          "ItemID": "Prison_Dart",
+          "Amount": 1
+        },
+        "Conditions": []
+      },
+      "Prison_erodent_reduce": {
+        "ItemID": "None",
+        "MaxAmount": 0,
+        "CostItems": {
+          "ItemID": "Prison_erodent",
+          "Amount": 1
+        },
+        "Conditions": []
+      },
+      "Prison_figues_reduce": {
+        "ItemID": "None",
+        "MaxAmount": 0,
+        "CostItems": {
+          "ItemID": "Prison_figues",
+          "Amount": 1
+        },
+        "Conditions": []
+      },
+      "Prison_Paralyser_reduce": {
+        "ItemID": "None",
+        "MaxAmount": 0,
+        "CostItems": {
+          "ItemID": "Prison_Paralyser",
+          "Amount": 1
+        },
+        "Conditions": []
+      },
+      "Prison_BedSheet_reduce": {
+        "ItemID": "None",
+        "MaxAmount": 0,
+        "CostItems": {
+          "ItemID": "Prison_BedSheet",
+          "Amount": 2
+        },
+        "Conditions": []
+      },
+      "Prison_Uniform_reduce": {
+        "ItemID": "None",
+        "MaxAmount": 0,
+        "CostItems": {
+          "ItemID": "Prison_Uniform",
+          "Amount": 2
         },
         "Conditions": []
       }

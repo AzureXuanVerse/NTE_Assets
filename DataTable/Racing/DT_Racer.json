@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_Racer",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Racing/DT_Racer",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'RacerData'",
@@ -2157,12 +2158,12 @@
             "CostStaminaAmountBase": 4
           },
           {
-            "TimeLimit": 170.0,
+            "TimeLimit": 160.0,
             "ObjectiveText": {
               "TableId": "/Game/Text/ST_Ui.ST_Ui",
               "Key": "UI_Race_TJ_004",
-              "SourceString": "用时小于170秒赢得比赛",
-              "LocalizedString": "用时小于170秒赢得比赛"
+              "SourceString": "用时小于160秒赢得比赛",
+              "LocalizedString": "用时小于160秒赢得比赛"
             },
             "CostStaminaID": "CityStamina",
             "CostStaminaAmountBase": 3

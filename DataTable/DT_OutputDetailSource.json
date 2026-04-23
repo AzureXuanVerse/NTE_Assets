@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_OutputDetailSource",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_OutputDetailSource",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'ItemOutputSourceConfig'",
@@ -7185,7 +7186,7 @@
           "QuestUIType": "EQuestUIType::QUT_CommonUI",
           "UIParaming": [
             "Mall",
-            "FonsLimitTimeShop1"
+            "FonsLimitTimeShop"
           ],
           "JumpConfig": null,
           "UnlockFunctionID": "Tycoon_lv6",
@@ -8066,7 +8067,7 @@
           "QuestUIType": "EQuestUIType::QUT_CommonUI",
           "UIParaming": [
             "Mall",
-            "FonsLimitTimeShop1"
+            "FonsLimitTimeShop"
           ],
           "JumpConfig": null,
           "UnlockFunctionID": "Tycoon_lv6",
@@ -8930,7 +8931,7 @@
           "QuestUIType": "EQuestUIType::QUT_CommonUI",
           "UIParaming": [
             "Mall",
-            "FonsLimitTimeShop1"
+            "FonsLimitTimeShop"
           ],
           "JumpConfig": null,
           "UnlockFunctionID": "FonsShop01",
@@ -8977,7 +8978,7 @@
           "UIParaming": [
             "Mall",
             "MultiShop1",
-            "0",
+            "",
             "0"
           ],
           "JumpConfig": null,
@@ -9025,7 +9026,7 @@
           "UIParaming": [
             "Mall",
             "MultiShop1",
-            "0",
+            "",
             "1"
           ],
           "JumpConfig": null,
@@ -9155,7 +9156,7 @@
           "UIParaming": [
             "Mall",
             "MultiShop1",
-            "0",
+            "",
             "2"
           ],
           "JumpConfig": null,
@@ -10282,6 +10283,46 @@
           "PreCloseUI": []
         }
       },
+      "Adventure_10_9": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "CultureInvariantString": "任务"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_QuestMain",
+          "UIParaming": [
+            "QuestPanel",
+            "MU01_04"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
       "WorldBoss_07": {
         "Type": "EItemOutputSource::OS_UI_PATH",
         "Icon": {
@@ -10794,7 +10835,7 @@
           "QuestUIType": "EQuestUIType::QUT_CommonUI",
           "UIParaming": [
             "Mall",
-            "FonsLimitTimeShop1"
+            "FonsLimitTimeShop"
           ],
           "JumpConfig": null,
           "UnlockFunctionID": "FonsShop01",
@@ -10955,6 +10996,46 @@
           "UIParaming": [
             "Dungeon",
             "WorldBoss_Display"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "adventure_WeekClone_ui": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "CultureInvariantString": "探索指南-Boss"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_AdventureManual",
+          "UIParaming": [
+            "Dungeon",
+            "Weekly_Clone"
           ],
           "JumpConfig": null,
           "UnlockFunctionID": "None",
@@ -13289,8 +13370,8 @@
           "UnlockNoticeMessage": {
             "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
             "Key": "likeability_12",
-            "SourceString": "请提升至好感等级2级，并领取奖励。",
-            "LocalizedString": "请提升至好感等级2级，并领取奖励。"
+            "SourceString": "请提升至羁遇等级2级，并领取奖励。",
+            "LocalizedString": "请提升至羁遇等级2级，并领取奖励。"
           },
           "SwitchArray": [],
           "DynamicParam": {
@@ -13330,7 +13411,7 @@
             "Mall",
             "Appearance",
             "",
-            "1"
+            "GlideShop"
           ],
           "JumpConfig": null,
           "UnlockFunctionID": "None",
@@ -13584,7 +13665,7 @@
             "Mall",
             "Appearance",
             "",
-            "2"
+            "VehicleSkinShop"
           ],
           "JumpConfig": null,
           "UnlockFunctionID": "None",
@@ -13629,7 +13710,7 @@
             "LotteryMain"
           ],
           "JumpConfig": null,
-          "UnlockFunctionID": "None",
+          "UnlockFunctionID": "Lottery",
           "UnlockNoticeMessage": {
             "CultureInvariantString": null
           },
@@ -15815,6 +15896,754 @@
           "UnlockFunctionID": "None",
           "UnlockNoticeMessage": {
             "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "MaJiang": {
+        "Type": "EItemOutputSource::OS_SHOP",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_MaidCoffee_name",
+          "SourceString": "小小麻雀",
+          "LocalizedString": "小小麻雀"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Place_20"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "Likeability_Nanally": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Likeability_Nanally",
+          "SourceString": "「娜娜莉」羁遇等级达到10级获得",
+          "LocalizedString": "「娜娜莉」羁遇等级达到10级获得"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "Likeability",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "LikeabilityMain",
+            "1010",
+            "Fashion_1010_nighty"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "Likeability_Mint": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Likeability_Mint",
+          "SourceString": "「薄荷」羁遇等级达到10级获得",
+          "LocalizedString": "「薄荷」羁遇等级达到10级获得"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "Likeability",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "LikeabilityMain",
+            "1019",
+            "Fashion_1019_nighty"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "Likeability_Kuhara": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Likeability_Kuhara",
+          "SourceString": "「九原」羁遇等级达到10级获得",
+          "LocalizedString": "「九原」羁遇等级达到10级获得"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "Likeability",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "LikeabilityMain",
+            "1014",
+            "Fashion_1055_nighty"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "Likeability_Fadia": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Likeability_Fadia",
+          "SourceString": "「法帝娅」羁遇等级达到10级获得",
+          "LocalizedString": "「法帝娅」羁遇等级达到10级获得"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "Likeability",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "LikeabilityMain",
+            "1039",
+            "Fashion_1039_nighty"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "Likeability_Jin": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Likeability_Jin",
+          "SourceString": "「浔」羁遇等级达到10级获得",
+          "LocalizedString": "「浔」羁遇等级达到10级获得"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "Likeability",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "LikeabilityMain",
+            "1029",
+            "Fashion_1052_nighty"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "Likeability_Lacrimosa": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Likeability_Lacrimosa",
+          "SourceString": "「安魂曲」羁遇等级达到10级获得",
+          "LocalizedString": "「安魂曲」羁遇等级达到10级获得"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "Likeability",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "LikeabilityMain",
+            "1004",
+            "Fashion_1004_nighty"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "FishingShop": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "FishingShop_name",
+          "SourceString": "月亮湾渔具商店",
+          "LocalizedString": "月亮湾渔具商店"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Shop_2"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "Giftpackage_RMB": {
+        "Type": "EItemOutputSource::OS_SHOP",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Giftpackage_RMB",
+          "SourceString": "商城礼包获取",
+          "LocalizedString": "商城礼包获取"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "Mall",
+            "GiftShop",
+            "",
+            "1"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "RacingRank": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "RacingRank_name",
+          "SourceString": "<!>赛车排位",
+          "LocalizedString": "<!>赛车排位"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "TableId": "/Game/Text/ST_Output.ST_Output",
+            "Key": "RacingRank_UnlockDesc",
+            "SourceString": "<!>x级解锁赛车排位",
+            "LocalizedString": "<!>x级解锁赛车排位"
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "RobbankShop": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "RobbankShop_name",
+          "SourceString": "粉爪大劫案-粉爪猫窝",
+          "LocalizedString": "粉爪大劫案-粉爪猫窝"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Place_21",
+            "Bank_05_00"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "Robbank",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "FishingLevelReward": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "FishingLevelReward_name",
+          "SourceString": "「海上钓客」等级奖励",
+          "LocalizedString": "「海上钓客」等级奖励"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_FishFuc",
+          "UIParaming": [
+            "FishFuncMain",
+            "FishFuncGrade"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "Fishing",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "fenzhua_map": {
+        "Type": "EItemOutputSource::OS_UI_ICON",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "fenzhua_map_name",
+          "SourceString": "粉爪大劫案",
+          "LocalizedString": "粉爪大劫案"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonMapPoint",
+          "UIParaming": [
+            "BigMap",
+            "Bank_05_00"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "Likeability_Chiichan": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Likeability_Chiichan",
+          "SourceString": "「小吱」羁遇等级达到10级获得",
+          "LocalizedString": "「小吱」羁遇等级达到10级获得"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "Likeability",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "LikeabilityMain",
+            "1073",
+            "Fashion_1073_nighty"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "SpecialFurniture_0010": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "SpecialFurniture_0010",
+          "SourceString": "异像家具：压缩嘭嘭朵",
+          "LocalizedString": "异像家具：压缩嘭嘭朵"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "gachashop_JumpTo_1": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "gachashop_name",
+          "SourceString": "集市兑换",
+          "LocalizedString": "集市兑换"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "Mall&9&0",
+        "UnlockFuncID": "Mall",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "Mall",
+            "MultiShop1",
+            "",
+            "0"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "Lottery",
+          "UnlockNoticeMessage": {
+            "TableId": "/Game/Text/ST_Output.ST_Output",
+            "Key": "UnlockMsg_MainQuest",
+            "SourceString": "推进主线任务解锁",
+            "LocalizedString": "推进主线任务解锁"
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "gachashop_JumpTo_2": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "gachashop_name",
+          "SourceString": "集市兑换",
+          "LocalizedString": "集市兑换"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "Mall&9&1",
+        "UnlockFuncID": "Mall",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "Mall",
+            "MultiShop1",
+            "",
+            "1"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "Lottery",
+          "UnlockNoticeMessage": {
+            "TableId": "/Game/Text/ST_Output.ST_Output",
+            "Key": "UnlockMsg_MainQuest",
+            "SourceString": "推进主线任务解锁",
+            "LocalizedString": "推进主线任务解锁"
           },
           "SwitchArray": [],
           "DynamicParam": {

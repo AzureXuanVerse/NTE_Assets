@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_AdventureManualDailyQuest",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/SimpleQuest/DT_AdventureManualDailyQuest",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'SimpleQuestStaticData'",
@@ -40,13 +41,14 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
         },
         "bAutoCommit": false,
-        "JumpPath": "AdcentureManualEverydayTask_Paisong",
+        "JumpPath": "store_brand_ui",
         "QuestIcon": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -55,7 +57,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "D1002": {
         "QuestId": "D1002",
@@ -70,13 +111,13 @@
         "ObjectiveInfo": {
           "bNeedItemsByType": false,
           "ItemType": "EItemType::ITEM_TYPE_NONE",
-          "bNeedNewAdd": false,
+          "bNeedNewAdd": true,
           "bUseItem": true,
           "ItemIDArray": [
             "fons"
           ],
           "IsVehicleKey": false,
-          "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
+          "VehicleKeyTypeArray": [],
           "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
           "Amount": 1
         },
@@ -95,7 +136,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -110,7 +152,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "D1003": {
         "QuestId": "D1003",
@@ -142,7 +223,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -157,7 +239,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "D1004": {
         "QuestId": "D1004",
@@ -191,7 +312,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -206,7 +328,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "D1005": {
         "QuestId": "D1005",
@@ -242,7 +403,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -257,7 +419,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "D1006": {
         "QuestId": "D1006",
@@ -288,7 +489,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -303,7 +505,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "D1007": {
         "QuestId": "D1007",
@@ -334,7 +575,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -349,7 +591,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "D1008": {
         "QuestId": "D1008",
@@ -383,7 +664,8 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
@@ -398,7 +680,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "D1009": {
         "QuestId": "D1009",
@@ -430,13 +751,14 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
         },
         "bAutoCommit": false,
-        "JumpPath": "fork_ui",
+        "JumpPath": "UrbanGameplay",
         "QuestIcon": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -445,7 +767,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "D1010": {
         "QuestId": "D1010",
@@ -479,13 +840,14 @@
               "ExtraItemNetInfo": {
                 "RandomBaseModifyData": [],
                 "RandomModifyData": []
-              }
+              },
+              "AwardItemType": "EItemType::ITEM_TYPE_NONE"
             }
           ],
           "bShowAwardWindow": false
         },
         "bAutoCommit": false,
-        "JumpPath": "fork_ui",
+        "JumpPath": "UrbanGameplay",
         "QuestIcon": {
           "AssetPathName": "",
           "SubPathString": ""
@@ -494,7 +856,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": true
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       }
     }
   }

@@ -2,8 +2,9 @@
   {
     "Type": "StringTable",
     "Name": "ST_Update",
-    "Class": "UScriptClass'StringTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/Game/Text/ST_Update",
     "StringTable": {
       "TableNamespace": "ST_Update",
       "KeysToEntries": {
@@ -42,7 +43,7 @@
         "ui_patcher_03": "重试",
         "ui_patcher_04": "您当前正在使用移动网络，继续更新将消耗流量，是否继续更新？",
         "ui_patcher_05": "取消",
-        "ui_patcher_06": "需要重启应用",
+        "ui_patcher_06": "更新成功，需要重启游戏。",
         "ui_patcher_07": "重启",
         "ui_patcher_08": "健康游戏忠告",
         "ui_patcher_08_01": "抵制不良游戏，拒绝盗版游戏",
@@ -63,7 +64,8 @@
         "ui_patcher_pso_precompiles": "着色器编译中",
         "ui_patcher_needrestart": "更新成功，需要重启游戏。",
         "ui_patcher_08_15": "审批文号：国新出审〔2025〕923号 ISBN 978-7-498-15063-9",
-        "ui_patcher_res_check": "资源校验中"
+        "ui_patcher_res_check": "资源校验中",
+        "ui_login_ICP": "京ICP备2021013357号-5A"
       },
       "KeysToMetaData": {}
     }

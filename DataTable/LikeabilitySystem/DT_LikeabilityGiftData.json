@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_LikeabilityGiftData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/LikeabilitySystem/DT_LikeabilityGiftData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'LikeabilityGiftData'",
@@ -152,7 +153,12 @@
       },
       "Food_009": {
         "DefaultLikeabilityValue": 50,
-        "SpeicalGiftDatas": [],
+        "SpeicalGiftDatas": [
+          {
+            "RoleId": "1070",
+            "LikeabilityValue": 100
+          }
+        ],
         "bUnlimit": false
       },
       "Food_010": {
@@ -624,6 +630,10 @@
           {
             "RoleId": "1021",
             "LikeabilityValue": 100
+          },
+          {
+            "RoleId": "1070",
+            "LikeabilityValue": 100
           }
         ],
         "bUnlimit": false
@@ -821,16 +831,15 @@
           {
             "RoleId": "1014",
             "LikeabilityValue": 100
+          },
+          {
+            "RoleId": "1070",
+            "LikeabilityValue": 100
           }
         ],
         "bUnlimit": false
       },
       "Food_104": {
-        "DefaultLikeabilityValue": 50,
-        "SpeicalGiftDatas": [],
-        "bUnlimit": false
-      },
-      "Food_114": {
         "DefaultLikeabilityValue": 50,
         "SpeicalGiftDatas": [],
         "bUnlimit": false
@@ -872,6 +881,10 @@
           },
           {
             "RoleId": "1021",
+            "LikeabilityValue": 200
+          },
+          {
+            "RoleId": "1070",
             "LikeabilityValue": 200
           }
         ],
@@ -954,6 +967,10 @@
           {
             "RoleId": "1073",
             "LikeabilityValue": 200
+          },
+          {
+            "RoleId": "1070",
+            "LikeabilityValue": 200
           }
         ],
         "bUnlimit": false
@@ -966,6 +983,76 @@
             "LikeabilityValue": 200
           }
         ],
+        "bUnlimit": false
+      },
+      "Flower0011": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Flower0012": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Flower0013": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Flower0014": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Flower0015": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Flower0016": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Flower0017": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Flower0018": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Flower0019": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Flower0020": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Flower0021": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Flower0022": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Flower0023": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Flower0024": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
         "bUnlimit": false
       },
       "Furniture_FlowerPot_001": {
@@ -1091,7 +1178,12 @@
       },
       "BigPoster004": {
         "DefaultLikeabilityValue": 100,
-        "SpeicalGiftDatas": [],
+        "SpeicalGiftDatas": [
+          {
+            "RoleId": "1070",
+            "LikeabilityValue": 200
+          }
+        ],
         "bUnlimit": false
       },
       "BigPoster005": {
@@ -1100,6 +1192,96 @@
         "bUnlimit": false
       },
       "BigPoster006": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_009_handicraft": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_010_handicraft": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_011_handicraft": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_012_handicraft": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_013": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_014_handicraft": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_015_handicraft": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_016_handicraft": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_020_handicraft": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_021_handicraft": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_019": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_039_book": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_040_book": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_041_book": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_042_book": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_043_book": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_044_book": {
+        "DefaultLikeabilityValue": 100,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_045_book": {
         "DefaultLikeabilityValue": 100,
         "SpeicalGiftDatas": [],
         "bUnlimit": false
@@ -1229,7 +1411,12 @@
       },
       "Furniture_Light_002": {
         "DefaultLikeabilityValue": 200,
-        "SpeicalGiftDatas": [],
+        "SpeicalGiftDatas": [
+          {
+            "RoleId": "1070",
+            "LikeabilityValue": 400
+          }
+        ],
         "bUnlimit": false
       },
       "Furniture_Light_003": {
@@ -1286,6 +1473,10 @@
           },
           {
             "RoleId": "1005",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1070",
             "LikeabilityValue": 400
           }
         ],
@@ -1470,68 +1661,49 @@
         ],
         "bUnlimit": false
       },
-      "disc_0001": {
-        "DefaultLikeabilityValue": 200,
-        "SpeicalGiftDatas": [
-          {
-            "RoleId": "1057",
-            "LikeabilityValue": 400
-          }
-        ],
-        "bUnlimit": false
-      },
-      "disc_0002": {
-        "DefaultLikeabilityValue": 200,
-        "SpeicalGiftDatas": [
-          {
-            "RoleId": "1057",
-            "LikeabilityValue": 400
-          }
-        ],
-        "bUnlimit": false
-      },
-      "disc_0003": {
-        "DefaultLikeabilityValue": 200,
-        "SpeicalGiftDatas": [
-          {
-            "RoleId": "1057",
-            "LikeabilityValue": 400
-          }
-        ],
-        "bUnlimit": false
-      },
-      "disc_0004": {
-        "DefaultLikeabilityValue": 200,
-        "SpeicalGiftDatas": [
-          {
-            "RoleId": "1021",
-            "LikeabilityValue": 400
-          }
-        ],
-        "bUnlimit": false
-      },
-      "disc_0005": {
+      "Furniture_Ornament_020": {
         "DefaultLikeabilityValue": 200,
         "SpeicalGiftDatas": [],
         "bUnlimit": false
       },
-      "disc_0006": {
+      "Furniture_Ornament_021": {
         "DefaultLikeabilityValue": 200,
         "SpeicalGiftDatas": [],
         "bUnlimit": false
       },
-      "disc_0007": {
+      "Furniture_Ornament_022": {
         "DefaultLikeabilityValue": 200,
-        "SpeicalGiftDatas": [
-          {
-            "RoleId": "1021",
-            "LikeabilityValue": 400
-          },
-          {
-            "RoleId": "1073",
-            "LikeabilityValue": 400
-          }
-        ],
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_026": {
+        "DefaultLikeabilityValue": 200,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_027": {
+        "DefaultLikeabilityValue": 200,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_028": {
+        "DefaultLikeabilityValue": 200,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_029": {
+        "DefaultLikeabilityValue": 200,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_030": {
+        "DefaultLikeabilityValue": 200,
+        "SpeicalGiftDatas": [],
+        "bUnlimit": false
+      },
+      "Furniture_Ornament_031": {
+        "DefaultLikeabilityValue": 200,
+        "SpeicalGiftDatas": [],
         "bUnlimit": false
       },
       "SpecialGift_letter": {
@@ -1600,14 +1772,13 @@
           {
             "RoleId": "1073",
             "LikeabilityValue": 2000
+          },
+          {
+            "RoleId": "1070",
+            "LikeabilityValue": 2000
           }
         ],
         "bUnlimit": true
-      },
-      "Likeability_gift_5": {
-        "DefaultLikeabilityValue": 100000,
-        "SpeicalGiftDatas": [],
-        "bUnlimit": false
       },
       "SpecialGift_Fries": {
         "DefaultLikeabilityValue": 200,
@@ -1623,6 +1794,94 @@
         "DefaultLikeabilityValue": 400,
         "SpeicalGiftDatas": [],
         "bUnlimit": false
+      },
+      "SpecialGift_CD": {
+        "DefaultLikeabilityValue": 200,
+        "SpeicalGiftDatas": [
+          {
+            "RoleId": "1021",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1057",
+            "LikeabilityValue": 400
+          }
+        ],
+        "bUnlimit": false
+      },
+      "SpecialGift_ticket": {
+        "DefaultLikeabilityValue": 400,
+        "SpeicalGiftDatas": [
+          {
+            "RoleId": "1019",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1023",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1033",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1003",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1005",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1021",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1029",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1010",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1008",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1004",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1039",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1025",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1014",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1020",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1057",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1073",
+            "LikeabilityValue": 400
+          },
+          {
+            "RoleId": "1070",
+            "LikeabilityValue": 400
+          }
+        ],
+        "bUnlimit": true
       }
     }
   }

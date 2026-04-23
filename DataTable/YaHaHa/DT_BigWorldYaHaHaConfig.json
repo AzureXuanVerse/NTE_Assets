@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_BigWorldYaHaHaConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/YaHaHa/DT_BigWorldYaHaHaConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'YaHaHaData'",
@@ -546,7 +547,7 @@
         },
         "Range": 2000.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -564,8 +565,8 @@
         },
         "Range": 2000.0,
         "DropID": "None",
-        "CanReset": false,
-        "NeedCheckPos": true,
+        "CanReset": true,
+        "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
       },
@@ -852,7 +853,7 @@
         },
         "Range": 2000.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -870,7 +871,7 @@
         },
         "Range": 2000.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -1300,7 +1301,7 @@
           "Y": 91978.305,
           "Z": 7182.5757
         },
-        "Range": 5000.0,
+        "Range": 10000.0,
         "DropID": "drop_schoolmyth",
         "CanReset": false,
         "NeedCheckPos": true,
@@ -1438,7 +1439,7 @@
         "YahahaId": "PortableVision_Hammer",
         "TableName": "BigWorld",
         "Type": "PortableVision_Hammer",
-        "CD": 86400,
+        "CD": 1440,
         "Location": {
           "X": -88186.71,
           "Y": 146122.39,
@@ -1456,7 +1457,7 @@
         "YahahaId": "PortableVision_Speaker",
         "TableName": "BigWorld",
         "Type": "PortableVision_Speaker",
-        "CD": 86400,
+        "CD": 1440,
         "Location": {
           "X": -88186.71,
           "Y": 146122.39,
@@ -1474,7 +1475,7 @@
         "YahahaId": "PortableVision_Spray",
         "TableName": "BigWorld",
         "Type": "PortableVision_Spray",
-        "CD": 86400,
+        "CD": 1440,
         "Location": {
           "X": -88186.71,
           "Y": 146122.39,
@@ -1492,7 +1493,7 @@
         "YahahaId": "PortableVision_Truck",
         "TableName": "BigWorld",
         "Type": "PortableVision_Truck",
-        "CD": 86400,
+        "CD": 1440,
         "Location": {
           "X": -88186.71,
           "Y": 146122.39,
@@ -2104,7 +2105,7 @@
         "YahahaId": "yahaha_Coupon_002",
         "TableName": "BigWorld",
         "Type": "Coupon_002",
-        "CD": 604800,
+        "CD": 10080,
         "Location": {
           "X": 0.0,
           "Y": 0.0,
@@ -2122,7 +2123,7 @@
         "YahahaId": "yahaha_Coupon_003",
         "TableName": "BigWorld",
         "Type": "Coupon_003",
-        "CD": 86400,
+        "CD": 1440,
         "Location": {
           "X": 0.0,
           "Y": 0.0,
@@ -2140,7 +2141,7 @@
         "YahahaId": "yahaha_Coupon_004",
         "TableName": "BigWorld",
         "Type": "Coupon_004",
-        "CD": 86400,
+        "CD": 1440,
         "Location": {
           "X": 0.0,
           "Y": 0.0,
@@ -2158,7 +2159,7 @@
         "YahahaId": "yahaha_Coupon_005",
         "TableName": "BigWorld",
         "Type": "Coupon_005",
-        "CD": 86400,
+        "CD": 1440,
         "Location": {
           "X": 0.0,
           "Y": 0.0,
@@ -2176,7 +2177,7 @@
         "YahahaId": "yahaha_Coupon_006",
         "TableName": "BigWorld",
         "Type": "Coupon_006",
-        "CD": 86400,
+        "CD": 1440,
         "Location": {
           "X": 0.0,
           "Y": 0.0,
@@ -2194,7 +2195,7 @@
         "YahahaId": "yahaha_Coupon_007",
         "TableName": "BigWorld",
         "Type": "Coupon_007",
-        "CD": 604800,
+        "CD": 10080,
         "Location": {
           "X": 0.0,
           "Y": 0.0,
@@ -2212,7 +2213,7 @@
         "YahahaId": "yahaha_Coupon_009",
         "TableName": "BigWorld",
         "Type": "Coupon_009",
-        "CD": 259200,
+        "CD": 4320,
         "Location": {
           "X": 0.0,
           "Y": 0.0,
@@ -2230,7 +2231,7 @@
         "YahahaId": "W1076_DailyReset",
         "TableName": "BigWorld",
         "Type": "W1076",
-        "CD": 86400,
+        "CD": 1440,
         "Location": {
           "X": 0.0,
           "Y": 0.0,
@@ -2604,7 +2605,7 @@
         },
         "Range": 0.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -2622,7 +2623,7 @@
         },
         "Range": 0.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -2640,7 +2641,7 @@
         },
         "Range": 0.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -2658,7 +2659,7 @@
         },
         "Range": 0.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -2676,7 +2677,7 @@
         },
         "Range": 0.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -2694,7 +2695,7 @@
         },
         "Range": 0.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -2712,7 +2713,7 @@
         },
         "Range": 0.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -2730,7 +2731,7 @@
         },
         "Range": 0.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -2748,7 +2749,7 @@
         },
         "Range": 0.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -2766,7 +2767,7 @@
         },
         "Range": 0.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -2994,12 +2995,12 @@
         "Type": "Hospital_Pickup",
         "CD": 0,
         "Location": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
+          "X": -3272.9976,
+          "Y": -1415.6233,
+          "Z": 1002.01294
         },
         "Range": 10000.0,
-        "DropID": "None",
+        "DropID": "drop_Hospital_Ending_Clue12",
         "CanReset": true,
         "NeedCheckPos": true,
         "ResetTimes": [],
@@ -3012,12 +3013,12 @@
         "Type": "Hospital_Pickup",
         "CD": 0,
         "Location": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
+          "X": -654.8859,
+          "Y": -1412.3307,
+          "Z": 1006.2914
         },
         "Range": 10000.0,
-        "DropID": "None",
+        "DropID": "drop_Hospital_Ending_Clue13",
         "CanReset": true,
         "NeedCheckPos": true,
         "ResetTimes": [],
@@ -3030,12 +3031,12 @@
         "Type": "Hospital_Pickup",
         "CD": 0,
         "Location": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
+          "X": -3513.1672,
+          "Y": 4416.9023,
+          "Z": 1055.083
         },
         "Range": 10000.0,
-        "DropID": "None",
+        "DropID": "drop_Hospital_Ending_Clue14",
         "CanReset": true,
         "NeedCheckPos": true,
         "ResetTimes": [],
@@ -3048,12 +3049,12 @@
         "Type": "Hospital_Pickup",
         "CD": 0,
         "Location": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
+          "X": -690.5676,
+          "Y": 2098.1194,
+          "Z": 976.80945
         },
         "Range": 10000.0,
-        "DropID": "None",
+        "DropID": "drop_Hospital_Ending_Clue15",
         "CanReset": true,
         "NeedCheckPos": true,
         "ResetTimes": [],
@@ -3066,12 +3067,12 @@
         "Type": "Hospital_Pickup",
         "CD": 0,
         "Location": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
+          "X": 3465.5244,
+          "Y": 1082.1124,
+          "Z": 1006.2913
         },
         "Range": 10000.0,
-        "DropID": "None",
+        "DropID": "drop_Hospital_Ending_Clue16",
         "CanReset": true,
         "NeedCheckPos": true,
         "ResetTimes": [],
@@ -3084,12 +3085,12 @@
         "Type": "Hospital_Pickup",
         "CD": 0,
         "Location": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
+          "X": -5685.233,
+          "Y": -4153.552,
+          "Z": 997.7174
         },
         "Range": 10000.0,
-        "DropID": "None",
+        "DropID": "drop_Hospital_Ending_Clue17",
         "CanReset": true,
         "NeedCheckPos": true,
         "ResetTimes": [],
@@ -3233,7 +3234,7 @@
           "Z": 627.2415
         },
         "Range": 10000.0,
-        "DropID": "None",
+        "DropID": "drop_hospital_NoramalEnding",
         "CanReset": false,
         "NeedCheckPos": true,
         "ResetTimes": [],
@@ -3251,7 +3252,7 @@
           "Z": 627.2415
         },
         "Range": 10000.0,
-        "DropID": "None",
+        "DropID": "drop_hospital_NoramalEnding",
         "CanReset": false,
         "NeedCheckPos": true,
         "ResetTimes": [],
@@ -3684,7 +3685,7 @@
         },
         "Range": 0.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -3702,7 +3703,7 @@
         },
         "Range": 0.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -3720,7 +3721,7 @@
         },
         "Range": 0.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -3738,7 +3739,7 @@
         },
         "Range": 0.0,
         "DropID": "None",
-        "CanReset": false,
+        "CanReset": true,
         "NeedCheckPos": false,
         "ResetTimes": [],
         "bOnlyServer": false
@@ -3756,8 +3757,350 @@
         },
         "Range": 0.0,
         "DropID": "None",
+        "CanReset": true,
+        "NeedCheckPos": false,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "Hospital_Pickup_Smoke6": {
+        "Index": 209,
+        "YahahaId": "Hospital_Pickup_Smoke6",
+        "TableName": "BigWorld",
+        "Type": "Hospital_Pickup",
+        "CD": 0,
+        "Location": {
+          "X": -4412.34,
+          "Y": -3337.6167,
+          "Z": 1037.5992
+        },
+        "Range": 10000.0,
+        "DropID": "drop_Hospital_Pickup_Smoke6",
+        "CanReset": true,
+        "NeedCheckPos": true,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "Hospital_Pickup_Smoke7": {
+        "Index": 210,
+        "YahahaId": "Hospital_Pickup_Smoke7",
+        "TableName": "BigWorld",
+        "Type": "Hospital_Pickup",
+        "CD": 0,
+        "Location": {
+          "X": -2779.0518,
+          "Y": -651.5672,
+          "Z": 1037.5992
+        },
+        "Range": 10000.0,
+        "DropID": "drop_Hospital_Pickup_Smoke7",
+        "CanReset": true,
+        "NeedCheckPos": true,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "Hospital_Pickup_Smoke8": {
+        "Index": 211,
+        "YahahaId": "Hospital_Pickup_Smoke8",
+        "TableName": "BigWorld",
+        "Type": "Hospital_Pickup",
+        "CD": 0,
+        "Location": {
+          "X": -3288.2708,
+          "Y": 1330.0385,
+          "Z": 1037.1588
+        },
+        "Range": 10000.0,
+        "DropID": "drop_Hospital_Pickup_Smoke8",
+        "CanReset": true,
+        "NeedCheckPos": true,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "Hospital_Pickup_3FKeyN1": {
+        "Index": 212,
+        "YahahaId": "Hospital_Pickup_3FKeyN1",
+        "TableName": "BigWorld",
+        "Type": "Hospital_Pickup",
+        "CD": 0,
+        "Location": {
+          "X": -4286.434,
+          "Y": -976.8221,
+          "Z": 915.2484
+        },
+        "Range": 10000.0,
+        "DropID": "drop_Hospital_Pickup_3FKeyN1",
+        "CanReset": true,
+        "NeedCheckPos": true,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "Hospital_Pickup_3FKeyS1": {
+        "Index": 213,
+        "YahahaId": "Hospital_Pickup_3FKeyS1",
+        "TableName": "BigWorld",
+        "Type": "Hospital_Pickup",
+        "CD": 0,
+        "Location": {
+          "X": -3684.4717,
+          "Y": 581.43024,
+          "Z": 1055.1213
+        },
+        "Range": 10000.0,
+        "DropID": "drop_Hospital_Pickup_3FKeyS1",
+        "CanReset": true,
+        "NeedCheckPos": true,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "Hospital_Pickup_3FKeyS2": {
+        "Index": 214,
+        "YahahaId": "Hospital_Pickup_3FKeyS2",
+        "TableName": "BigWorld",
+        "Type": "Hospital_Pickup",
+        "CD": 0,
+        "Location": {
+          "X": -6058.1655,
+          "Y": 2786.1213,
+          "Z": 923.41754
+        },
+        "Range": 10000.0,
+        "DropID": "drop_Hospital_Pickup_3FKeyS2",
+        "CanReset": true,
+        "NeedCheckPos": true,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "Hospital_Pickup_Jigsaw_1": {
+        "Index": 215,
+        "YahahaId": "Hospital_Pickup_Jigsaw_1",
+        "TableName": "BigWorld",
+        "Type": "Hospital_Pickup",
+        "CD": 0,
+        "Location": {
+          "X": -3384.1294,
+          "Y": -1362.2144,
+          "Z": 1042.6826
+        },
+        "Range": 10000.0,
+        "DropID": "drop_Hospital_Pickup_Jigsaw_1",
+        "CanReset": true,
+        "NeedCheckPos": true,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "Hospital_Pickup_Jigsaw_2": {
+        "Index": 216,
+        "YahahaId": "Hospital_Pickup_Jigsaw_2",
+        "TableName": "BigWorld",
+        "Type": "Hospital_Pickup",
+        "CD": 0,
+        "Location": {
+          "X": -2824.2983,
+          "Y": -213.31934,
+          "Z": 1038.6761
+        },
+        "Range": 10000.0,
+        "DropID": "drop_Hospital_Pickup_Jigsaw_2",
+        "CanReset": true,
+        "NeedCheckPos": true,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "Hospital_Pickup_Jigsaw_Fake2": {
+        "Index": 217,
+        "YahahaId": "Hospital_Pickup_Jigsaw_Fake2",
+        "TableName": "BigWorld",
+        "Type": "Hospital_Pickup",
+        "CD": 0,
+        "Location": {
+          "X": -695.8359,
+          "Y": -1097.7607,
+          "Z": 1146.1473
+        },
+        "Range": 10000.0,
+        "DropID": "drop_Hospital_Pickup_Jigsaw_Fake2",
+        "CanReset": true,
+        "NeedCheckPos": true,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "Hospital_Pickup_Jigsaw_Toilet": {
+        "Index": 218,
+        "YahahaId": "Hospital_Pickup_Jigsaw_Toilet",
+        "TableName": "BigWorld",
+        "Type": "Hospital_Pickup",
+        "CD": 0,
+        "Location": {
+          "X": -594.6751,
+          "Y": -835.37836,
+          "Z": 985.2957
+        },
+        "Range": 10000.0,
+        "DropID": "drop_Hospital_Pickup_Jigsaw_Toilet",
+        "CanReset": true,
+        "NeedCheckPos": true,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "Hospital_Pickup_Jigsaw_Hidden": {
+        "Index": 219,
+        "YahahaId": "Hospital_Pickup_Jigsaw_Hidden",
+        "TableName": "BigWorld",
+        "Type": "Hospital_Pickup",
+        "CD": 0,
+        "Location": {
+          "X": 171.03738,
+          "Y": 3047.9343,
+          "Z": 1023.1202
+        },
+        "Range": 10000.0,
+        "DropID": "drop_Hospital_Pickup_Jigsaw_Hidden",
+        "CanReset": true,
+        "NeedCheckPos": true,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "PrisonEgg_01": {
+        "Index": 220,
+        "YahahaId": "PrisonEgg_01",
+        "TableName": "BigWorld",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
         "CanReset": false,
         "NeedCheckPos": false,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "PrisonEgg_02": {
+        "Index": 221,
+        "YahahaId": "PrisonEgg_02",
+        "TableName": "BigWorld",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "PrisonEgg_03": {
+        "Index": 222,
+        "YahahaId": "PrisonEgg_03",
+        "TableName": "BigWorld",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "PrisonEgg_book01": {
+        "Index": 223,
+        "YahahaId": "PrisonEgg_book01",
+        "TableName": "BigWorld",
+        "Type": "PrisonEgg_book",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "PrisonEgg_book02": {
+        "Index": 224,
+        "YahahaId": "PrisonEgg_book01",
+        "TableName": "BigWorld",
+        "Type": "PrisonEgg_book",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "PrisonEgg_book03": {
+        "Index": 225,
+        "YahahaId": "PrisonEgg_book01",
+        "TableName": "BigWorld",
+        "Type": "PrisonEgg_book",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "PrisonEgg_bookfinish": {
+        "Index": 226,
+        "YahahaId": "PrisonEgg_book01",
+        "TableName": "BigWorld",
+        "Type": "PrisonEgg_book",
+        "CD": 0,
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "Range": 0.0,
+        "DropID": "None",
+        "CanReset": false,
+        "NeedCheckPos": false,
+        "ResetTimes": [],
+        "bOnlyServer": false
+      },
+      "SchoolMyth_Anomaly010": {
+        "Index": 227,
+        "YahahaId": "SchoolMyth_Anomaly010",
+        "TableName": "BigWorld",
+        "Type": "None",
+        "CD": 0,
+        "Location": {
+          "X": -148616.62,
+          "Y": 97621.84,
+          "Z": 8589.189
+        },
+        "Range": 8000.0,
+        "DropID": "drop_SchoolMyth_Anomaly010",
+        "CanReset": false,
+        "NeedCheckPos": true,
         "ResetTimes": [],
         "bOnlyServer": false
       }

@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_QuestFavorabilityAtmosphere",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_QuestFavorabilityAtmosphere",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'QuestData'",
@@ -5377,7 +5378,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_008/Date/BP_NPC_008_Date01_WJ1011.BP_NPC_008_Date01_WJ1011_C",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_008/Date/BP_NPC_008_Date01_WJ1012.BP_NPC_008_Date01_WJ1012_C",
               "SubPathString": ""
             },
             "MonsterTrackIcon": {
@@ -5398,7 +5399,29 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -39410.984,
+                "Y": 34053.26,
+                "Z": 7625.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": true,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -5591,7 +5614,11 @@
         "bCanMainQuestChangeTrack": false,
         "LikeabilityData": null,
         "QuestAward": null,
-        "QuestTimeLock": null,
+        "QuestTimeLock": {
+          "LockTime": 1000.0,
+          "TransitionSpeed": -1.0,
+          "ProtectTimeSeconds": 600.0
+        },
         "QuestWeatherLock": {
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
@@ -5614,7 +5641,7 @@
         },
         "ChapterID": "WJ1025",
         "ChapterProgress": 39.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "FuLaMingGe",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
@@ -5651,7 +5678,29 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": 20995.248,
+                "Y": 67839.23,
+                "Z": 6362.7573
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": true,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -5743,13 +5792,13 @@
         },
         "ChapterID": "WJ1025",
         "ChapterProgress": 40.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "FuLaMingGe",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "StorySequenceID": "None",
+            "StorySequenceID": "SQ_WJ102501",
             "bNeedPlaySequenceEnd": true,
             "bCanAddProgress": true,
             "bReloadReplay": false,
@@ -5783,7 +5832,25 @@
             "bOnlyInClient": false,
             "TrackInfo": null,
             "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": 19755.953,
+                "Y": 69202.945,
+                "Z": 6300.692
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": -188.4375,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": -188.4375,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
             "CompleteCameraRotation": null,
             "BuffInfo": null,
             "CompleteDistance": null,
@@ -5796,12 +5863,12 @@
         "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
         "bMainQuestAutoSpeak": true,
         "bShowQuestAcceptTips": false,
-        "bShowQuestCompleteTip": false,
+        "bShowQuestCompleteTip": true,
         "HideOrShowMainFormWidgets": null,
         "bHideQuestMark": false,
         "bHideTrackMark": false,
         "ShowAcceptMsg": false,
-        "ShowSubmitMsg": false,
+        "ShowSubmitMsg": true,
         "bNeedPlayAnimation": true,
         "bUseSpecialQuestSettleUI": false,
         "bForceHybridQuest": false,
@@ -7609,7 +7676,7 @@
         },
         "ChapterID": "WJ1042",
         "ChapterProgress": 53.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "BaiWeiShuPanShanGongLu",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
@@ -7625,7 +7692,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_015/BP_NPC_015_date_001.BP_NPC_015_date_001_C",
               "SubPathString": ""
             },
             "MonsterTrackIcon": {
@@ -7635,7 +7702,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "CultureInvariantString": null
+              "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+              "Key": "WJ104301_dec",
+              "SourceString": "与<blue>九原</>对话",
+              "LocalizedString": "与<blue>九原</>对话"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -7643,7 +7713,29 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -100061.0,
+                "Y": -32364.0,
+                "Z": 20249.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": true,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -7735,13 +7827,13 @@
         },
         "ChapterID": "WJ1042",
         "ChapterProgress": 54.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "BaiWeiShuPanShanGongLu",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "StorySequenceID": "None",
+            "StorySequenceID": "SQ_WJ104201",
             "bNeedPlaySequenceEnd": true,
             "bCanAddProgress": true,
             "bReloadReplay": false,
@@ -7774,16 +7866,16 @@
             "CompleteTeleportID": "None",
             "CompleteTeleport": {
               "CompletedTeleportPosition": {
-                "X": -95161.336,
-                "Y": -15540.182,
-                "Z": 15577.844
+                "X": -95170.805,
+                "Y": -15541.719,
+                "Z": 15635.0
               },
               "CompletedRotation": {
                 "Pitch": 0.0,
                 "Yaw": 0.0,
                 "Roll": 0.0
               },
-              "LoadingUIType": "ETransferLoadingUIType::AutoWaitLoading_FadeOut",
+              "LoadingUIType": "ETransferLoadingUIType::AutoWaitLoading",
               "CameraRotation": {
                 "Pitch": 0.0,
                 "Yaw": 0.0,
@@ -7880,7 +7972,7 @@
         },
         "ChapterID": "WJ1042",
         "ChapterProgress": 55.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "BaiWeiShuPanShanGongLu",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
@@ -7906,7 +7998,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "CultureInvariantString": null
+              "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+              "Key": "WJ104301_dec",
+              "SourceString": "与<blue>九原</>对话",
+              "LocalizedString": "与<blue>九原</>对话"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -7914,7 +8009,29 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -95170.805,
+                "Y": -15541.719,
+                "Z": 15635.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": -95170.805,
+                "Y": -15541.719,
+                "Z": 15635.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": true,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -7929,12 +8046,12 @@
         "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
         "bMainQuestAutoSpeak": true,
         "bShowQuestAcceptTips": false,
-        "bShowQuestCompleteTip": false,
+        "bShowQuestCompleteTip": true,
         "HideOrShowMainFormWidgets": null,
         "bHideQuestMark": false,
         "bHideTrackMark": false,
         "ShowAcceptMsg": false,
-        "ShowSubmitMsg": false,
+        "ShowSubmitMsg": true,
         "bNeedPlayAnimation": true,
         "bUseSpecialQuestSettleUI": false,
         "bForceHybridQuest": false,
@@ -8278,9 +8395,9 @@
           "SourceString": "夜空下的邀请",
           "LocalizedString": "夜空下的邀请"
         },
-        "ChapterID": "None",
+        "ChapterID": "WJ1044",
         "ChapterProgress": 58.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShangQingTa",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
@@ -8296,7 +8413,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_015/BP_NPC_015_date_003.BP_NPC_015_date_003_C",
               "SubPathString": ""
             },
             "MonsterTrackIcon": {
@@ -8306,7 +8423,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "CultureInvariantString": null
+              "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+              "Key": "WJ104301_dec",
+              "SourceString": "与<blue>九原</>对话",
+              "LocalizedString": "与<blue>九原</>对话"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -8314,9 +8434,49 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": 26324.0,
+                "Y": 44455.0,
+                "Z": 52118.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": true,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
             "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": 26381.656,
+                "Y": 44194.06,
+                "Z": 52117.773
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": -109.6875,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": -109.6875,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
             "CompleteCameraRotation": null,
             "BuffInfo": null,
             "CompleteDistance": null,
@@ -8362,7 +8522,7 @@
         "QuestResetTime": null,
         "FailedData": null,
         "NextQuests": [
-          "WJ104402"
+          "WJ104401_1"
         ],
         "bAutoNext": true,
         "NeedSubmit": false,
@@ -8404,15 +8564,15 @@
           "SourceString": "夜空下的邀请",
           "LocalizedString": "夜空下的邀请"
         },
-        "ChapterID": "None",
-        "ChapterProgress": 59.0,
-        "DisplayMapName": "None",
+        "ChapterID": "WJ1044",
+        "ChapterProgress": 106.0,
+        "DisplayMapName": "ShangQingTa",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
         "ObjectivesInfo": [
           {
-            "StorySequenceID": "None",
+            "StorySequenceID": "SQ_WJ104401",
             "bNeedPlaySequenceEnd": true,
             "bCanAddProgress": true,
             "bReloadReplay": false,
@@ -8443,7 +8603,25 @@
             "bOnlyInClient": false,
             "TrackInfo": null,
             "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": 24709.67,
+                "Y": 43368.117,
+                "Z": 7740.7593
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": 168.75,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
             "CompleteCameraRotation": null,
             "BuffInfo": null,
             "CompleteDistance": null,
@@ -8456,12 +8634,12 @@
         "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
         "bMainQuestAutoSpeak": true,
         "bShowQuestAcceptTips": false,
-        "bShowQuestCompleteTip": false,
+        "bShowQuestCompleteTip": true,
         "HideOrShowMainFormWidgets": null,
         "bHideQuestMark": false,
         "bHideTrackMark": false,
         "ShowAcceptMsg": false,
-        "ShowSubmitMsg": false,
+        "ShowSubmitMsg": true,
         "bNeedPlayAnimation": true,
         "bUseSpecialQuestSettleUI": false,
         "bForceHybridQuest": false,
@@ -9063,6 +9241,7 @@
               "Y": 0.0,
               "Z": 0.0
             },
+            "bBindOnTracking": true,
             "ObjectiveID": "1",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_CONVOY",
@@ -10266,9 +10445,9 @@
           "SourceString": "夜空下的邀请",
           "LocalizedString": "夜空下的邀请"
         },
-        "ChapterID": "None",
+        "ChapterID": "WJ1044",
         "ChapterProgress": 73.0,
-        "DisplayMapName": "None",
+        "DisplayMapName": "ShangQingTa",
         "TrackMapName": "XL_map_bigworld_test",
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
@@ -10616,7 +10795,7 @@
               },
               "TrackMapName": "XL_map_bigworld_test",
               "bNeedCrossBox": false,
-              "bTrackGoalEnable": true,
+              "bTrackGoalEnable": false,
               "bNeedPassParking": false,
               "VehicleParkingArray": [],
               "AzimuthIndicatorable": true,
@@ -15110,6 +15289,2039 @@
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
           "ProtectTimeSeconds": 600.0
         },
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "WJ104401_1": {
+        "QuestId": "WJ104401_1",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_SideQuest.ST_SideQuest",
+          "Key": "WJ104401_name",
+          "SourceString": "夜空下的邀请",
+          "LocalizedString": "夜空下的邀请"
+        },
+        "ChapterID": "WJ1044",
+        "ChapterProgress": 59.0,
+        "DisplayMapName": "ShangQingTa",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_015/BP_NPC_015_date_003.BP_NPC_015_date_003_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+              "Key": "WJ104401_1_dec",
+              "SourceString": "与<blue>九原</>一起离开",
+              "LocalizedString": "与<blue>九原</>一起离开"
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_FAVORABILITY_ATMOSPHERE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest.ST_SideQuest",
+          "Key": "WJ104401_des",
+          "SourceString": "上晴塔Firmament是海特洛的名流们不约而同选择的餐厅，据说顶层的夜景别有一番风味，或许在这里，会碰到意想不到的人……",
+          "LocalizedString": "上晴塔Firmament是海特洛的名流们不约而同选择的餐厅，据说顶层的夜景别有一番风味，或许在这里，会碰到意想不到的人……"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "WJ104402"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": {
+          "LockTime": 2200.0,
+          "TransitionSpeed": -1.0,
+          "ProtectTimeSeconds": 600.0
+        },
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
+          "ProtectTimeSeconds": 600.0
+        },
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "WJ103901": {
+        "QuestId": "WJ103901",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ103901_name",
+          "SourceString": "骑士姿态",
+          "LocalizedString": "骑士姿态"
+        },
+        "ChapterID": "WJ1039",
+        "ChapterProgress": 107.0,
+        "DisplayMapName": "YuBingJie",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "StorySequenceID": "SQ_WJ103901",
+            "bNeedPlaySequenceEnd": true,
+            "bCanAddProgress": true,
+            "bReloadReplay": false,
+            "bNeedInTargetMap": false,
+            "TargetMap": "",
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest.ST_SideQuest",
+              "Key": "WJ101001_dec",
+              "SourceString": " ",
+              "LocalizedString": " "
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -168405.89,
+                "Y": 105618.21,
+                "Z": 7104.1797
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": true,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": -168997.1,
+                "Y": 105201.086,
+                "Z": 7104.1797
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_FAVORABILITY_ATMOSPHERE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ103901_des",
+          "SourceString": "在广场附近有个人看上去很面熟……是哈索尔？她在这里做什么？",
+          "LocalizedString": "在广场附近有个人看上去很面熟……是哈索尔？她在这里做什么？"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "WJ103902"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": true,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": {
+          "LockTime": 1000.0,
+          "TransitionSpeed": -1.0,
+          "ProtectTimeSeconds": 600.0
+        },
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
+          "ProtectTimeSeconds": 600.0
+        },
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "WJ103902": {
+        "QuestId": "WJ103902",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ103901_name",
+          "SourceString": "骑士姿态",
+          "LocalizedString": "骑士姿态"
+        },
+        "ChapterID": "WJ1039",
+        "ChapterProgress": 108.0,
+        "DisplayMapName": "YuBingJie",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_016/Date/BP_NPC016_Date01_WJ1039.BP_NPC016_Date01_WJ1039_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+              "Key": "WJ103902_dec",
+              "SourceString": "与<blue>哈索尔</>对话",
+              "LocalizedString": "与<blue>哈索尔</>对话"
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -168405.89,
+                "Y": 105618.21,
+                "Z": 7104.1797
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": true,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_FAVORABILITY_ATMOSPHERE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": true,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": true,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ103901_des",
+          "SourceString": "在广场附近有个人看上去很面熟……是哈索尔？她在这里做什么？",
+          "LocalizedString": "在广场附近有个人看上去很面熟……是哈索尔？她在这里做什么？"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
+          "ProtectTimeSeconds": 600.0
+        },
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "WJ104601": {
+        "QuestId": "WJ104601",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ104601_name",
+          "SourceString": "晴转雪，宜打雪仗",
+          "LocalizedString": "晴转雪，宜打雪仗"
+        },
+        "ChapterID": "WJ1046",
+        "ChapterProgress": 109.0,
+        "DisplayMapName": "NakuPeiDaGongYuan",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_026/Date/BP_NPC026_Date01_WJ1046.BP_NPC026_Date01_WJ1046_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+              "Key": "WJ104601_dec",
+              "SourceString": "与<blue>小吱</>对话",
+              "LocalizedString": "与<blue>小吱</>对话"
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -152872.1,
+                "Y": 150386.5,
+                "Z": 6650.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": true,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_FAVORABILITY_ATMOSPHERE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ104601_des",
+          "SourceString": "天气正好，适合去公园逛逛……小吱也在吗？",
+          "LocalizedString": "天气正好，适合去公园逛逛……小吱也在吗？"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "WJ104602"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": true,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": {
+          "LockTime": 1000.0,
+          "TransitionSpeed": -1.0,
+          "ProtectTimeSeconds": 600.0
+        },
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
+          "ProtectTimeSeconds": 600.0
+        },
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "WJ104602": {
+        "QuestId": "WJ104602",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ104601_name",
+          "SourceString": "晴转雪，宜打雪仗",
+          "LocalizedString": "晴转雪，宜打雪仗"
+        },
+        "ChapterID": "WJ1046",
+        "ChapterProgress": 110.0,
+        "DisplayMapName": "NakuPeiDaGongYuan",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "StorySequenceID": "SQ_WJ104601",
+            "bNeedPlaySequenceEnd": true,
+            "bCanAddProgress": true,
+            "bReloadReplay": false,
+            "bNeedInTargetMap": false,
+            "TargetMap": "",
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest.ST_SideQuest",
+              "Key": "WJ100502_dec",
+              "SourceString": " ",
+              "LocalizedString": " "
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": -153165.3,
+                "Y": 150818.6,
+                "Z": 6650.478
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": -78.75,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": -78.75,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_FAVORABILITY_ATMOSPHERE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ104601_des",
+          "SourceString": "天气正好，适合去公园逛逛……小吱也在吗？",
+          "LocalizedString": "天气正好，适合去公园逛逛……小吱也在吗？"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "WJ104603"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": {
+          "LockTime": 1000.0,
+          "TransitionSpeed": -1.0,
+          "ProtectTimeSeconds": 600.0
+        },
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Snow",
+          "ProtectTimeSeconds": 600.0
+        },
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "WJ104603": {
+        "QuestId": "WJ104603",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ104601_name",
+          "SourceString": "晴转雪，宜打雪仗",
+          "LocalizedString": "晴转雪，宜打雪仗"
+        },
+        "ChapterID": "WJ1046",
+        "ChapterProgress": 111.0,
+        "DisplayMapName": "NakuPeiDaGongYuan",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_026/Date/BP_NPC026_Date01_WJ1046.BP_NPC026_Date01_WJ1046_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+              "Key": "WJ104601_dec",
+              "SourceString": "与<blue>小吱</>对话",
+              "LocalizedString": "与<blue>小吱</>对话"
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -153148.0,
+                "Y": 150636.0,
+                "Z": 6799.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": true,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_FAVORABILITY_ATMOSPHERE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": true,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": true,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ104601_des",
+          "SourceString": "天气正好，适合去公园逛逛……小吱也在吗？",
+          "LocalizedString": "天气正好，适合去公园逛逛……小吱也在吗？"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": {
+          "LockTime": 1000.0,
+          "TransitionSpeed": -1.0,
+          "ProtectTimeSeconds": 600.0
+        },
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
+          "ProtectTimeSeconds": 600.0
+        },
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "WJ104701": {
+        "QuestId": "WJ104701",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ104701_name",
+          "SourceString": "月亮落下之前",
+          "LocalizedString": "月亮落下之前"
+        },
+        "ChapterID": "WJ1047",
+        "ChapterProgress": 112.0,
+        "DisplayMapName": "ShuiLing",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/CNPC/CNPC_107/CNPC_107004/CNPC_107004.CNPC_107004_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+              "Key": "WJ104701_dec",
+              "SourceString": "与<blue>可疑的两人</>对话",
+              "LocalizedString": "与<blue>可疑的两人</>对话"
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -65354.91,
+                "Y": 16110.858,
+                "Z": 7719.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": true,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": -64825.13,
+                "Y": 16025.998,
+                "Z": 7713.6665
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": -90.0,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": -90.0,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_FAVORABILITY_ATMOSPHERE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ104701_des",
+          "SourceString": "水菱湖边似乎流传着关于「湖中仙子」的传闻。传闻所指的难道是……",
+          "LocalizedString": "水菱湖边似乎流传着关于「湖中仙子」的传闻。传闻所指的难道是……"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "WJ104702"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": true,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": {
+          "LockTime": 2200.0,
+          "TransitionSpeed": -1.0,
+          "ProtectTimeSeconds": 600.0
+        },
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
+          "ProtectTimeSeconds": 600.0
+        },
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "WJ104702": {
+        "QuestId": "WJ104702",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ104701_name",
+          "SourceString": "月亮落下之前",
+          "LocalizedString": "月亮落下之前"
+        },
+        "ChapterID": "WJ1047",
+        "ChapterProgress": 113.0,
+        "DisplayMapName": "ShuiLing",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_1029/Date/BP_NPC_1029_Date01_WJ1047B.BP_NPC_1029_Date01_WJ1047B_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+              "Key": "WJ104702_dec",
+              "SourceString": "跟随<blue>水母</>",
+              "LocalizedString": "跟随<blue>水母</>"
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -64815.832,
+                "Y": 15891.634,
+                "Z": 7713.6665
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "XL_map_bigworld_test",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_FAVORABILITY_ATMOSPHERE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ104701_des",
+          "SourceString": "水菱湖边似乎流传着关于「湖中仙子」的传闻。传闻所指的难道是……",
+          "LocalizedString": "水菱湖边似乎流传着关于「湖中仙子」的传闻。传闻所指的难道是……"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "WJ104703"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": {
+          "LockTime": 2200.0,
+          "TransitionSpeed": -1.0,
+          "ProtectTimeSeconds": 600.0
+        },
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
+          "ProtectTimeSeconds": 600.0
+        },
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "WJ104703": {
+        "QuestId": "WJ104703",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ104701_name",
+          "SourceString": "月亮落下之前",
+          "LocalizedString": "月亮落下之前"
+        },
+        "ChapterID": "WJ1047",
+        "ChapterProgress": 114.0,
+        "DisplayMapName": "ShuiLing",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_1029/Date/BP_NPC_1029_Date01_WJ1047.BP_NPC_1029_Date01_WJ1047_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+              "Key": "WJ104703_dec",
+              "SourceString": "与<blue>海月</>对话",
+              "LocalizedString": "与<blue>海月</>对话"
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": true,
+              "TrackLocation": {
+                "X": -65262.0,
+                "Y": 11510.0,
+                "Z": 7346.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": true,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_FAVORABILITY_ATMOSPHERE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": true,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": true,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ104701_des",
+          "SourceString": "水菱湖边似乎流传着关于「湖中仙子」的传闻。传闻所指的难道是……",
+          "LocalizedString": "水菱湖边似乎流传着关于「湖中仙子」的传闻。传闻所指的难道是……"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": {
+          "LockTime": 2200.0,
+          "TransitionSpeed": -1.0,
+          "ProtectTimeSeconds": 600.0
+        },
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
+          "ProtectTimeSeconds": 600.0
+        },
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "WJ102401": {
+        "QuestId": "WJ102401",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ102401_name",
+          "SourceString": "请勿喧哗",
+          "LocalizedString": "请勿喧哗"
+        },
+        "ChapterID": "WJ1024",
+        "ChapterProgress": 115.0,
+        "DisplayMapName": "HaiMaJie",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/Monster/boss_15/Boss_15_BP_Vision.Boss_15_BP_Vision_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+              "Key": "WJ102401_dec",
+              "SourceString": "击败<blue>音霸魔王</>",
+              "LocalizedString": "击败<blue>音霸魔王</>"
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -105535.555,
+                "Y": 94329.28,
+                "Z": 6794.7305
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": true,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_FAVORABILITY_ATMOSPHERE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ102401_des",
+          "SourceString": "「音霸魔王」是个不容小觑的异象，必须准备周全再与之一战。不过，在开战前，视野中似乎出现了安魂曲的身影……难道是错觉？",
+          "LocalizedString": "「音霸魔王」是个不容小觑的异象，必须准备周全再与之一战。不过，在开战前，视野中似乎出现了安魂曲的身影……难道是错觉？"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "WJ102402"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": true,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": {
+          "LockTime": 1000.0,
+          "TransitionSpeed": 10.0,
+          "ProtectTimeSeconds": 600.0
+        },
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
+          "ProtectTimeSeconds": 600.0
+        },
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "WJ102402": {
+        "QuestId": "WJ102402",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ102401_name",
+          "SourceString": "请勿喧哗",
+          "LocalizedString": "请勿喧哗"
+        },
+        "ChapterID": "WJ1024",
+        "ChapterProgress": 116.0,
+        "DisplayMapName": "HaiMaJie",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "StorySequenceID": "SQ_WJ102401",
+            "bNeedPlaySequenceEnd": true,
+            "bCanAddProgress": true,
+            "bReloadReplay": false,
+            "bNeedInTargetMap": false,
+            "TargetMap": "",
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": " 现在开始播放安魂曲黑幕！！！"
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": -105197.0,
+                "Y": 95372.0,
+                "Z": 6789.0
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": 213.75,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer_FadeOut",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": 213.75,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_FAVORABILITY_ATMOSPHERE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ102401_des",
+          "SourceString": "「音霸魔王」是个不容小觑的异象，必须准备周全再与之一战。不过，在开战前，视野中似乎出现了安魂曲的身影……难道是错觉？",
+          "LocalizedString": "「音霸魔王」是个不容小觑的异象，必须准备周全再与之一战。不过，在开战前，视野中似乎出现了安魂曲的身影……难道是错觉？"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "WJ102403"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": {
+          "LockTime": 1000.0,
+          "TransitionSpeed": -1.0,
+          "ProtectTimeSeconds": 600.0
+        },
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
+          "ProtectTimeSeconds": 600.0
+        },
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "WJ102403": {
+        "QuestId": "WJ102403",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ102401_name",
+          "SourceString": "请勿喧哗",
+          "LocalizedString": "请勿喧哗"
+        },
+        "ChapterID": "WJ1024",
+        "ChapterProgress": 117.0,
+        "DisplayMapName": "HaiMaJie",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -105197.0,
+                "Y": 95372.0,
+                "Z": 6907.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": true,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_FAVORABILITY_ATMOSPHERE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ102401_des",
+          "SourceString": "「音霸魔王」是个不容小觑的异象，必须准备周全再与之一战。不过，在开战前，视野中似乎出现了安魂曲的身影……难道是错觉？",
+          "LocalizedString": "「音霸魔王」是个不容小觑的异象，必须准备周全再与之一战。不过，在开战前，视野中似乎出现了安魂曲的身影……难道是错觉？"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": {
+          "LockTime": 1000.0,
+          "TransitionSpeed": -1.0,
+          "ProtectTimeSeconds": 600.0
+        },
+        "QuestWeatherLock": {
+          "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
+          "ProtectTimeSeconds": 600.0
+        },
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "WJ103301": {
+        "QuestId": "WJ103301",
+        "QuestName": {
+          "CultureInvariantString": "<!>浔-BOSS"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": 118.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "StorySequenceID": "SQ_WJ103301",
+            "bNeedPlaySequenceEnd": true,
+            "bCanAddProgress": true,
+            "bReloadReplay": false,
+            "bNeedInTargetMap": false,
+            "TargetMap": "",
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_FAVORABILITY_ATMOSPHERE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ103301_dec",
+          "SourceString": "<!>",
+          "LocalizedString": "<!>"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "SQ_WJBoss013": {
+        "QuestId": "SQ_WJBoss013",
+        "QuestName": {
+          "CultureInvariantString": "<!>真红-BOSS"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": 119.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "ObjectivesInfo": [
+          {
+            "StorySequenceID": "SQ_WJBoss013",
+            "bNeedPlaySequenceEnd": true,
+            "bCanAddProgress": true,
+            "bReloadReplay": false,
+            "bNeedInTargetMap": false,
+            "TargetMap": "",
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_SEQUENCE",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "BuffInfo": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_FAVORABILITY_ATMOSPHERE",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "TableId": "/Game/Text/ST_SideQuest_QQ.ST_SideQuest_QQ",
+          "Key": "WJ103301_dec",
+          "SourceString": "<!>",
+          "LocalizedString": "<!>"
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
         "ReloadLocation": null,
         "TrialCharacterID": "None",
         "ActivateYahahaID": "None",

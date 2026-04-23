@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_CapitalItemConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Inventory/DT_CapitalItemConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'StaticItemData'",
@@ -558,7 +559,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "Fons",
+        "OutputSourceID": "MahjongCoin",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -630,6 +631,77 @@
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
         "OutputSourceID": "Prison_Explored",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "RobbankCoin": {
+        "ItemType": "EItemType::ITEM_TYPE_CAPITAL",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/RobbankCoin.RobbankCoin",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/RobbankCoin.RobbankCoin",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobbankCoin_name",
+          "SourceString": "爪爪币",
+          "LocalizedString": "爪爪币"
+        },
+        "MaxAmount": 99999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobbankCoin_usedesc",
+          "SourceString": "「粉爪大劫案」活动中可获取的特制金币，将它们交给粉爪银行的小吱，可以兑换各种道具。",
+          "LocalizedString": "「粉爪大劫案」活动中可获取的特制金币，将它们交给粉爪银行的小吱，可以兑换各种道具。"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "RobbankCoin_desc",
+          "SourceString": "颇为少见的猫爪形金币，由粉爪银行特别发行。",
+          "LocalizedString": "颇为少见的猫爪形金币，由粉爪银行特别发行。"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },

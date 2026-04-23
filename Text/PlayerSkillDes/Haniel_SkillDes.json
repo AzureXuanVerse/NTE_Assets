@@ -2,8 +2,9 @@
   {
     "Type": "StringTable",
     "Name": "Haniel_SkillDes",
-    "Class": "UScriptClass'StringTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/Game/Text/PlayerSkillDes/Haniel_SkillDes",
     "StringTable": {
       "TableNamespace": "Haniel_SkillDes",
       "KeysToEntries": {
@@ -16,8 +17,8 @@
         "GA_Haniel_Melee1_des_short": "造成<Hun>魂属性异能伤害</>。",
         "GA_Haniel_Melee2_name": "<Title>普通攻击：超异科魔法炮</>",
         "GA_Haniel_Melee2_des": "哈尼娅在普攻第一段时长按普攻键可转身进入蓄力状态，并向前发射<NumGreen>1</>枚蓄力炮。",
-        "GA_Haniel_Melee2_des_short": "造成<Hun>魂属性异能伤害</>，最多可弹射<NumGreen>6</>次。",
-        "GA_Haniel_Melee3_des": "哈尼娅滞空时点按普攻，落地后造成<NumGreen>1</>次范围性的<Hun>魂属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
+        "GA_Haniel_Melee2_des_short": "造成<Hun>魂属性异能伤害</>，最多可弹射<NumGreen>4</>次。",
+        "GA_Haniel_Melee3_des": "哈尼娅滞空时点按普攻，落地后造成<NumGreen>1</>次范围性的<Hun>魂属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
         "GA_Haniel_Melee3_des_short": "造成<Hun>魂属性异能伤害</>。",
         "GA_Haniel_Melee3_name": "<Title>普通攻击：超异科登场</>",
         "GA_Haniel_Melee_1_des": "一段伤害倍率",
@@ -36,14 +37,14 @@
         "GA_Haniel_Skill_Heterochrome_num": "{0}",
         "GA_Haniel_Melee_name": "盖罗塞克特术法",
         "GA_Haniel_Passive_1_background": "<Italic>对于哈尼娅来说，比起那些孤独的英雄主义小说，她还是更喜欢热热闹闹的伙伴故事，就算是一群热血笨蛋也不错。</>",
-        "GA_Haniel_Passive_1_des": "<TextHLT>「黯星」强化</>：「黯星」状态结束时，全队角色以200%的汲取效率，从目标汲取哈尼娅8%基础攻击力并加在自身攻击力上，累计汲取不超过哈尼娅16%的基础攻击力，且至多不超过敌人20%的初始攻击力。",
+        "GA_Haniel_Passive_1_des": "<TextHLT>「黯星」强化</>：「黯星」状态结束时，全队角色从目标汲取攻击力。目标损失相当于哈尼娅4%基础攻击力的攻击力，全队角色获得哈尼娅8%基础攻击力。累计汲取不超过哈尼娅16%基础攻击力，目标损失不超过20%初始攻击力。离开战斗状态时还原双方属性。",
         "GA_Haniel_Passive_1_name": "是友情啊",
         "GA_Haniel_Passive_2_background": "<Italic>看热血运动番想学运动，看热血乐队番想学乐器，看热血战斗番想……这个还是不建议学习了。</>",
-        "GA_Haniel_Passive_2_des": "当在场角色触发<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>时，可以为哈尼娅累积<NumGreen>1</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>，用以提高「超异科魔法炮」的弹射次数。每触发<NumGreen>1</>次<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>使得哈尼娅获得<NumGreen>1</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。\r\n当哈尼娅处于「超异科王牌」状态时，每触发<NumGreen>1</>次<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>使得哈尼娅获得<NumGreen>2</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。\r\n通过这种方式至多累积<NumGreen>5</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。",
+        "GA_Haniel_Passive_2_des": "当在场角色触发<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>时，可以为哈尼娅累积<NumGreen>1</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>，用以提高「超异科魔法炮」的弹射次数。每触发<NumGreen>1</>次<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>使得哈尼娅获得<NumGreen>1</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。\r\n当哈尼娅处于「超异科王牌」状态时，每触发<NumGreen>1</>次<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>使得哈尼娅获得<NumGreen>2</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。\r\n通过这种方式至多累积<NumGreen>4</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。",
         "GA_Haniel_Passive_2_name": "是羁绊啊",
         "GA_Haniel_PerfectEvade_name": "<Title>极限反击：王牌身法</>",
-        "GA_Haniel_PerfectEvade_des": "极限闪避后使用「盖罗塞克特术法」触发。这么慢的话会被顾客投诉的哦？哈尼娅闪身躲过攻击，并造成<NumGreen>1</>次<Hun>魂属性异能伤害</>，并额外扣除一定倾陷值，可立即释放<NumGreen>1</>次满蓄力的「超异科魔法炮」",
-        "GA_Haniel_PerfectEvade_des_short": "造成<NumGreen>1</>次<Hun>魂属性异能伤害</>，可立即释放满蓄力的「超异科魔法炮」",
+        "GA_Haniel_PerfectEvade_des": "触发极限闪避后，使用「普通攻击：盖罗塞克特术法」发动。这么慢的话会被顾客投诉的哦？哈尼娅闪身躲过攻击，并立即向敌人发射一枚飞弹，造成<NumGreen>1</>次<Hun>魂属性异能伤害</>，并额外扣除一定倾陷值。",
+        "GA_Haniel_PerfectEvade_des_short": "造成<NumGreen>1</>次<Hun>魂属性异能伤害</>。",
         "GA_Haniel_QTE1_name": "<Title>彩蛋时间</>",
         "GA_Haniel_QTE_des": "别那么无趣嘛，来点彩蛋如何？哈尼娅向敌人掷出<NumGreen>1</>枚魔法弹，造成<NumGreen>1</>次<Hun>魂属性异能伤害</>。",
         "GA_Haniel_QTE_des_short": "造成<Hun>魂属性异能伤害</>。",
@@ -65,7 +66,7 @@
         "GA_Haniel_Skill_cooldown_des": "冷却时间",
         "GA_Haniel_Skill_cooldown_num": "{0}秒",
         "GA_Haniel_star1_name": "新人！天才转校生报道",
-        "GA_Haniel_star1_des": "「超异科魔法炮」的弹射次数上限提升至<NumGreen>6</>次。",
+        "GA_Haniel_star1_des": "「主角光环」的累积上限提升至<NumGreen>6</>层，使得「超异科魔法炮」最多可弹射<NumGreen>6</>次。",
         "GA_Haniel_star2_des": "「咕咕子」的持续时间增加<NumGreen>4</>秒。",
         "GA_Haniel_star3_des": "处于「超异科王牌」状态时，使得哈尼娅自身的暴击率提升<NumGreen>20%</>。",
         "GA_Haniel_star4_des": "处于「超异科王牌」状态时，若由哈尼娅触发<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>，则哈尼娅下次攻击附加的额外伤害提升<NumGreen>100%</>。",
@@ -117,10 +118,11 @@
         "Haniel_Skill_name": "四部和声",
         "Haniel_UltraSkill_des": "累积<NumGreen>4</>层<TextEXPL>「四部和声」</>后可触发，对范围内敌人造成范围性<Hun>魂属性异能伤害</>，并使得当前在场角色的下次攻击将附带额外伤害，持续<NumGreen>3</>秒。",
         "Haniel_UltraSkill_name": "合奏",
-        "Haniel_Passive_2_des": "当在场角色触发<TextEXPL>「合奏」</>时，可以为哈尼娅累积<NumGreen>1</>层<TextEXPL>「主角光环」</>，用以提高「超异科魔法炮」的弹射次数。每触发<NumGreen>1</>次<TextEXPL>「合奏」</>使得哈尼娅获得<NumGreen>1</>层<TextEXPL>「主角光环」</>。当哈尼娅处于「超异科王牌」状态时，每触发<NumGreen>1</>次<TextEXPL>「合奏」</>使得哈尼娅获得<NumGreen>2</>层<TextEXPL>「主角光环」</>。通过这种方式至多累积<NumGreen>5</>层<TextEXPL>「主角光环」</>。",
+        "Haniel_Passive_2_des": "当在场角色触发<TextEXPL>「合奏」</>时，可以为哈尼娅累积<NumGreen>1</>层<TextEXPL>「主角光环」</>，用以提高「超异科魔法炮」的弹射次数。每触发<NumGreen>1</>次<TextEXPL>「合奏」</>使得哈尼娅获得<NumGreen>1</>层<TextEXPL>「主角光环」</>。当哈尼娅处于「超异科王牌」状态时，每触发<NumGreen>1</>次<TextEXPL>「合奏」</>使得哈尼娅获得<NumGreen>2</>层<TextEXPL>「主角光环」</>。通过这种方式至多累积<NumGreen>4</>层<TextEXPL>「主角光环」</>。",
         "Haniel_Passive_2_name": "主角光环",
         "Haniel_UltraSkill_ExtraAtk_des": "触发「合奏」时，当前在场角色的下次攻击将附带额外伤害，持续3秒，该效果不可叠加。",
-        "Haniel_UltraSkill_ExtraAtk_name": "强化「咕咕子」"
+        "Haniel_UltraSkill_ExtraAtk_name": "强化「咕咕子」",
+        "Haniel_Ultraskill_nounsexplanation": "累积<NumGreen>4</>层<TextEXPL>「四部和声」</>后可触发，对范围内敌人造成范围性<Hun>魂属性异能伤害</>。"
       },
       "KeysToMetaData": {}
     }

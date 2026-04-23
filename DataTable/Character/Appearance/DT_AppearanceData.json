@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_AppearanceData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/Appearance/DT_AppearanceData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'StaticAppearanceData'",
@@ -14,6 +15,8 @@
       "Fashion_1003_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1003",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1003_0_Name",
@@ -85,6 +88,8 @@
       "Fashion_1004_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1004",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "1004",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1004_0_Name",
@@ -151,88 +156,13 @@
           "CultureInvariantString": null
         },
         "IsDefault": true,
-        "IsCharacterShow": true
-      },
-      "Fashion_1004_nighty": {
-        "AppearanceType": "EAppearanceType::Fashion",
-        "CharacterID": "1004",
-        "Name": {
-          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
-          "Key": "Fashion_1004_nighty_Name",
-          "SourceString": "新月摇篮曲",
-          "LocalizedString": "新月摇篮曲"
-        },
-        "Quality": "EItemQuality::ITEM_QUALITY_PURPLE",
-        "Desc": {
-          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
-          "Key": "Fashion_1004_nighty_Desc",
-          "SourceString": "安魂曲的居家服装。布料柔软舒适，支持随时随地倒头就睡。\r\n「一只蝙蝠……两只蝙蝠……三……呼……」",
-          "LocalizedString": "安魂曲的居家服装。布料柔软舒适，支持随时随地倒头就睡。\r\n「一只蝙蝠……两只蝙蝠……三……呼……」"
-        },
-        "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_004_2_256.player_004_2_256",
-          "SubPathString": ""
-        },
-        "HeadIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_004_2.player_004_2",
-          "SubPathString": ""
-        },
-        "HeadIconBig": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_004_2_256.player_004_2_256",
-          "SubPathString": ""
-        },
-        "DisplayIcon": {
-          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/YH_UI_shizhuang_lihui_anhunqu2.YH_UI_shizhuang_lihui_anhunqu2",
-          "SubPathString": ""
-        },
-        "SpineUI": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PortraitImg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "UIScale": {
-          "X": 1.0,
-          "Y": 1.0,
-          "Z": 1.0
-        },
-        "ActorOffsets": 0.0,
-        "UIActorClass": {
-          "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_004_nighty.PlayerUIShow_004_nighty_C",
-          "SubPathString": ""
-        },
-        "AppearanceData": {
-          "PlayerAppearanceAsset": {
-            "AssetPathName": "/Game/Characters/Player/004_lacrimosa_nighty/MeshAsset_Player004_lacrimosa_nighty.MeshAsset_Player004_lacrimosa_nighty",
-            "SubPathString": ""
-          },
-          "NPCAppearanceAsset": {
-            "AssetPathName": "",
-            "SubPathString": ""
-          }
-        },
-        "ExtraAwards": [],
-        "SourceID": "None",
-        "SourceText": {
-          "TableId": "/Game/Text/ST_Output.ST_Output",
-          "Key": "Fashion_Invite_Obtained",
-          "SourceString": "暂未开放",
-          "LocalizedString": "暂未开放"
-        },
-        "SourceLockText": {
-          "TableId": "/Game/Text/ST_Output.ST_Output",
-          "Key": "Fashion_Invite_Obtained_lock",
-          "SourceString": "暂未开放获取途径，敬请期待",
-          "LocalizedString": "暂未开放获取途径，敬请期待"
-        },
-        "IsDefault": false,
-        "IsCharacterShow": true
+        "IsCharacterShow": false
       },
       "Fashion_1008_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1008",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1008_0_Name",
@@ -304,6 +234,8 @@
       "Fashion_1010_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1010",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1010_0_Name",
@@ -375,6 +307,8 @@
       "Fashion_1019_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1019",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1019_0_Name",
@@ -446,6 +380,8 @@
       "Fashion_1020_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1020",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1020_0_Name",
@@ -517,6 +453,8 @@
       "Fashion_1021_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1021",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1021_0_Name",
@@ -588,6 +526,8 @@
       "Fashion_1023_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1023",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1023_0_Name",
@@ -659,6 +599,8 @@
       "Fashion_1025_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1025",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1025_0_Name",
@@ -730,6 +672,8 @@
       "Fashion_1033_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1033",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1033_0_Name",
@@ -801,6 +745,8 @@
       "Fashion_1039_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1039",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1039_0_Name",
@@ -872,6 +818,8 @@
       "Fashion_1046_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1046",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1046_0_Name",
@@ -943,6 +891,8 @@
       "Fashion_1051_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1051",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1051_0_Name",
@@ -1014,6 +964,8 @@
       "Fashion_1052_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1052",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "1052",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1052_0_Name",
@@ -1085,6 +1037,8 @@
       "Fashion_1054_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1054",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1054_0_Name",
@@ -1156,6 +1110,8 @@
       "Fashion_1055_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1055",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1055_0_Name",
@@ -1227,6 +1183,10 @@
       "Glide_all_Default": {
         "AppearanceType": "EAppearanceType::Glide",
         "CharacterID": "None",
+        "ExcludeCharacterID": [
+          "1070"
+        ],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Glid_All_Xiupa_name",
@@ -1294,6 +1254,10 @@
       "Fashion_Glide_all_1": {
         "AppearanceType": "EAppearanceType::Glide",
         "CharacterID": "None",
+        "ExcludeCharacterID": [
+          "1070"
+        ],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Glide_1_1_Name",
@@ -1348,18 +1312,12 @@
           }
         },
         "ExtraAwards": [],
-        "SourceID": "None",
+        "SourceID": "RobbankShop",
         "SourceText": {
-          "TableId": "/Game/Text/ST_Output.ST_Output",
-          "Key": "WorldExploredProgress",
-          "SourceString": "地图探索度奖励",
-          "LocalizedString": "地图探索度奖励"
+          "CultureInvariantString": null
         },
         "SourceLockText": {
-          "TableId": "/Game/Text/ST_Output.ST_Output",
-          "Key": "WorldExploredProgress_lock",
-          "SourceString": "「漫游手札」玩法获得",
-          "LocalizedString": "「漫游手札」玩法获得"
+          "CultureInvariantString": null
         },
         "IsDefault": false,
         "IsCharacterShow": true
@@ -1367,6 +1325,10 @@
       "Fashion_Glide_all_2": {
         "AppearanceType": "EAppearanceType::Glide",
         "CharacterID": "None",
+        "ExcludeCharacterID": [
+          "1070"
+        ],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Glide_1_2_Name",
@@ -1440,6 +1402,10 @@
       "Fashion_Glide_all_3": {
         "AppearanceType": "EAppearanceType::Glide",
         "CharacterID": "None",
+        "ExcludeCharacterID": [
+          "1070"
+        ],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Glide_1_3_Name",
@@ -1513,6 +1479,10 @@
       "Fashion_Glide_all_4": {
         "AppearanceType": "EAppearanceType::Glide",
         "CharacterID": "None",
+        "ExcludeCharacterID": [
+          "1070"
+        ],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Glide_2_2_Name",
@@ -1583,18 +1553,22 @@
       "Fashion_Glide_1004": {
         "AppearanceType": "EAppearanceType::Glide",
         "CharacterID": "None",
+        "ExcludeCharacterID": [
+          "1070"
+        ],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
-          "Key": "Glide_2_3_Name",
-          "SourceString": "番茄气球",
-          "LocalizedString": "番茄气球"
+          "Key": "Fashion_1004_0_Name",
+          "SourceString": "番茄的故事",
+          "LocalizedString": "番茄的故事"
         },
         "Quality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "Desc": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
-          "Key": "Glide_2_3_Desc",
-          "SourceString": "滑翔皮肤-番茄气球描述",
-          "LocalizedString": "滑翔皮肤-番茄气球描述"
+          "Key": "Fashion_1004_0_Name",
+          "SourceString": "番茄的故事",
+          "LocalizedString": "番茄的故事"
         },
         "ItemIcon": {
           "AssetPathName": "",
@@ -1648,6 +1622,10 @@
       "Fashion_Glide_1010": {
         "AppearanceType": "EAppearanceType::Glide",
         "CharacterID": "None",
+        "ExcludeCharacterID": [
+          "1070"
+        ],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Glid_3_name",
@@ -1718,18 +1696,22 @@
       "Fashion_Glide_1052": {
         "AppearanceType": "EAppearanceType::Glide",
         "CharacterID": "None",
+        "ExcludeCharacterID": [
+          "1070"
+        ],
+        "ShowLinkCharacterID": "1052",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
-          "Key": "Glid_4_name",
-          "SourceString": "伞",
-          "LocalizedString": "伞"
+          "Key": "Fashion_Glide_1052_Name",
+          "SourceString": "幽兰",
+          "LocalizedString": "幽兰"
         },
         "Quality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "Desc": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
-          "Key": "Glide_2_3_Desc",
-          "SourceString": "滑翔皮肤-番茄气球描述",
-          "LocalizedString": "滑翔皮肤-番茄气球描述"
+          "Key": "Fashion_Glide_1052_Desc",
+          "SourceString": "由浔设计的滑翔翼涂装，轻盈的纸伞很适合乘风而飞。\r\n「起风了。」",
+          "LocalizedString": "由浔设计的滑翔翼涂装，轻盈的纸伞很适合乘风而飞。\r\n「起风了。」"
         },
         "ItemIcon": {
           "AssetPathName": "",
@@ -1744,7 +1726,7 @@
           "SubPathString": ""
         },
         "DisplayIcon": {
-          "AssetPathName": "/Game/UI/UI/Appearance/Glider/YH_UI_Glider_lihui_Default.YH_UI_Glider_lihui_Default",
+          "AssetPathName": "/Game/UI/UI/Appearance/Glider/Fashion_Glide_1052.Fashion_Glide_1052",
           "SubPathString": ""
         },
         "SpineUI": {
@@ -1752,20 +1734,25 @@
           "SubPathString": ""
         },
         "PortraitImg": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_fly07.YH_UI_shizhuang_big_fly07",
           "SubPathString": ""
         },
         "UIScale": {
-          "X": 1.0,
-          "Y": 1.0,
-          "Z": 1.0
+          "X": 0.8,
+          "Y": 0.8,
+          "Z": 0.8
         },
-        "ActorOffsets": 0.0,
+        "ActorOffsets": -8.0,
         "UIActorClass": {
-          "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_Xiupa.PlayerUIShow_Xiupa_C",
+          "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_Xiupa_Fashion_1052.PlayerUIShow_Xiupa_Fashion_1052_C",
           "SubPathString": ""
         },
-        "AppearanceData": null,
+        "AppearanceData": {
+          "ActorClass": {
+            "AssetPathName": "/Game/Blueprints/Gliding/Glid_Fashion_1052.Glid_Fashion_1052_C",
+            "SubPathString": ""
+          }
+        },
         "ExtraAwards": [],
         "SourceID": "Monopoly",
         "SourceText": {
@@ -1778,23 +1765,25 @@
           "CultureInvariantString": null
         },
         "IsDefault": false,
-        "IsCharacterShow": false
+        "IsCharacterShow": true
       },
-      "Fashion_Glide_1042": {
+      "Fashion_Glide_1070": {
         "AppearanceType": "EAppearanceType::Glide",
-        "CharacterID": "None",
+        "CharacterID": "1070",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
-          "Key": "Glid_5_name",
-          "SourceString": "乌鸫",
-          "LocalizedString": "乌鸫"
+          "Key": "Glid_1070_name",
+          "SourceString": "空游",
+          "LocalizedString": "空游"
         },
         "Quality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "Desc": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
-          "Key": "Glide_2_3_Desc",
-          "SourceString": "滑翔皮肤-番茄气球描述",
-          "LocalizedString": "滑翔皮肤-番茄气球描述"
+          "Key": "Glid_1070_des",
+          "SourceString": "独属于海月的水母，可以乘着它滑翔。天空也是它的海洋。",
+          "LocalizedString": "独属于海月的水母，可以乘着它滑翔。天空也是它的海洋。"
         },
         "ItemIcon": {
           "AssetPathName": "",
@@ -1809,7 +1798,7 @@
           "SubPathString": ""
         },
         "DisplayIcon": {
-          "AssetPathName": "/Game/UI/UI/Appearance/Glider/YH_UI_Glider_lihui_Default.YH_UI_Glider_lihui_Default",
+          "AssetPathName": "/Game/UI/UI/Appearance/Glider/Fashion_Glide_1070.Fashion_Glide_1070",
           "SubPathString": ""
         },
         "SpineUI": {
@@ -1817,37 +1806,47 @@
           "SubPathString": ""
         },
         "PortraitImg": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_fly08.YH_UI_shizhuang_big_fly08",
           "SubPathString": ""
         },
         "UIScale": {
-          "X": 1.0,
-          "Y": 1.0,
-          "Z": 1.0
+          "X": 0.5,
+          "Y": 0.5,
+          "Z": 0.5
         },
         "ActorOffsets": 0.0,
         "UIActorClass": {
-          "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_Xiupa.PlayerUIShow_Xiupa_C",
+          "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_Xiupa_Fashion_1070.PlayerUIShow_Xiupa_Fashion_1070_C",
           "SubPathString": ""
         },
-        "AppearanceData": null,
+        "AppearanceData": {
+          "ActorClass": {
+            "AssetPathName": "/Game/Blueprints/Gliding/GlideMitsukiOnly.GlideMitsukiOnly_C",
+            "SubPathString": ""
+          }
+        },
         "ExtraAwards": [],
-        "SourceID": "FashionShop",
+        "SourceID": "None",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
-          "Key": "FashionShop",
-          "SourceString": "商城购买获取",
-          "LocalizedString": "商城购买获取"
+          "Key": "Activity_Obtained_01",
+          "SourceString": "活动奖励",
+          "LocalizedString": "活动奖励"
         },
         "SourceLockText": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Activity_Obtained_01_lock",
+          "SourceString": "社媒里程碑活动奖励",
+          "LocalizedString": "社媒里程碑活动奖励"
         },
-        "IsDefault": false,
-        "IsCharacterShow": false
+        "IsDefault": true,
+        "IsCharacterShow": true
       },
       "Fashion_1003_1": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1003",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1003_1_Name",
@@ -1905,7 +1904,12 @@
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1003_1_Avatar",
+            "Amount": 1
+          }
+        ],
         "SourceID": "FashionShop",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
@@ -1919,83 +1923,11 @@
         "IsDefault": false,
         "IsCharacterShow": true
       },
-      "Fashion_1051_1": {
-        "AppearanceType": "EAppearanceType::Fashion",
-        "CharacterID": "1051",
-        "Name": {
-          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
-          "Key": "Fashion_1051_1_Name",
-          "SourceString": "<!>「零」测试时装",
-          "LocalizedString": "<!>「零」测试时装"
-        },
-        "Quality": "EItemQuality::ITEM_QUALITY_PURPLE",
-        "Desc": {
-          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
-          "Key": "Fashion_1051_1_Desc",
-          "SourceString": "<!>「零」测试时装描述",
-          "LocalizedString": "<!>「零」测试时装描述"
-        },
-        "ItemIcon": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "HeadIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_009.player_009",
-          "SubPathString": ""
-        },
-        "HeadIconBig": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_009_256.player_009_256",
-          "SubPathString": ""
-        },
-        "DisplayIcon": {
-          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/YH_UI_shizhuang_lihui_nvzhu.YH_UI_shizhuang_lihui_nvzhu",
-          "SubPathString": ""
-        },
-        "SpineUI": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "PortraitImg": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "UIScale": {
-          "X": 1.0,
-          "Y": 1.0,
-          "Z": 1.0
-        },
-        "ActorOffsets": 0.0,
-        "UIActorClass": {
-          "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_051_fashion1.PlayerUIShow_051_fashion1_C",
-          "SubPathString": ""
-        },
-        "AppearanceData": {
-          "PlayerAppearanceAsset": {
-            "AssetPathName": "/Game/Characters/Player/051_female_fashion1/MeshAsset_Player051_fashion1.MeshAsset_Player051_fashion1",
-            "SubPathString": ""
-          },
-          "NPCAppearanceAsset": {
-            "AssetPathName": "",
-            "SubPathString": ""
-          }
-        },
-        "ExtraAwards": [],
-        "SourceID": "FashionShop",
-        "SourceText": {
-          "TableId": "/Game/Text/ST_Output.ST_Output",
-          "Key": "FashionShop",
-          "SourceString": "商城购买获取",
-          "LocalizedString": "商城购买获取"
-        },
-        "SourceLockText": {
-          "CultureInvariantString": null
-        },
-        "IsDefault": false,
-        "IsCharacterShow": false
-      },
       "Fashion_1019_1": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1019",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1019_1_Name",
@@ -2053,7 +1985,12 @@
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1019_1_Avatar",
+            "Amount": 1
+          }
+        ],
         "SourceID": "FashionShop",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
@@ -2070,6 +2007,8 @@
       "Fashion_1010_1": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1010",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1010_1_Name",
@@ -2127,7 +2066,12 @@
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1010_1_Avatar",
+            "Amount": 1
+          }
+        ],
         "SourceID": "FashionShop",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
@@ -2144,6 +2088,8 @@
       "Fashion_1010_2": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1010",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1010_2_Name",
@@ -2201,7 +2147,12 @@
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1010_2_Avatar",
+            "Amount": 1
+          }
+        ],
         "SourceID": "Monopoly",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
@@ -2218,6 +2169,8 @@
       "Fashion_1010_3": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1010",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1010_3_Name",
@@ -2275,7 +2228,12 @@
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1010_3_Avatar",
+            "Amount": 1
+          }
+        ],
         "SourceID": "FashionShop",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
@@ -2292,6 +2250,8 @@
       "Fashion_1019_nighty": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1019",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1019_nighty_Name",
@@ -2345,23 +2305,28 @@
             "SubPathString": ""
           },
           "NPCAppearanceAsset": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_001/MeshAsset_NPC001_nighty.MeshAsset_NPC001_nighty",
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
-        "SourceID": "None",
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1019_nighty_Avatar",
+            "Amount": 1
+          }
+        ],
+        "SourceID": "Likeability_Mint",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
           "Key": "Fashion_Invite_Obtained",
-          "SourceString": "暂未开放",
-          "LocalizedString": "暂未开放"
+          "SourceString": "羁遇等级达到10级获得",
+          "LocalizedString": "羁遇等级达到10级获得"
         },
         "SourceLockText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
           "Key": "Fashion_Invite_Obtained_lock",
-          "SourceString": "暂未开放获取途径，敬请期待",
-          "LocalizedString": "暂未开放获取途径，敬请期待"
+          "SourceString": "羁遇等级达到10级获得",
+          "LocalizedString": "羁遇等级达到10级获得"
         },
         "IsDefault": false,
         "IsCharacterShow": true
@@ -2369,6 +2334,8 @@
       "Fashion_1055_nighty": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1055",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1055_Nighty_Name",
@@ -2422,23 +2389,28 @@
             "SubPathString": ""
           },
           "NPCAppearanceAsset": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_015/MeshAsset_NPC015_nighty.MeshAsset_NPC015_nighty",
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
-        "SourceID": "None",
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1055_nighty_Avatar",
+            "Amount": 1
+          }
+        ],
+        "SourceID": "Likeability_Kuhara",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
           "Key": "Fashion_Invite_Obtained",
-          "SourceString": "暂未开放",
-          "LocalizedString": "暂未开放"
+          "SourceString": "羁遇等级达到10级获得",
+          "LocalizedString": "羁遇等级达到10级获得"
         },
         "SourceLockText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
           "Key": "Fashion_Invite_Obtained_lock",
-          "SourceString": "暂未开放获取途径，敬请期待",
-          "LocalizedString": "暂未开放获取途径，敬请期待"
+          "SourceString": "羁遇等级达到10级获得",
+          "LocalizedString": "羁遇等级达到10级获得"
         },
         "IsDefault": false,
         "IsCharacterShow": true
@@ -2446,6 +2418,8 @@
       "Fashion_1010_nighty": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1010",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1010_nighty_Name",
@@ -2499,23 +2473,28 @@
             "SubPathString": ""
           },
           "NPCAppearanceAsset": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_011/MeshAsset_NPC011_nighty.MeshAsset_NPC011_nighty",
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
-        "SourceID": "None",
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1010_nighty_Avatar",
+            "Amount": 1
+          }
+        ],
+        "SourceID": "Likeability_Nanally",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
           "Key": "Fashion_Invite_Obtained",
-          "SourceString": "暂未开放",
-          "LocalizedString": "暂未开放"
+          "SourceString": "羁遇等级达到10级获得",
+          "LocalizedString": "羁遇等级达到10级获得"
         },
         "SourceLockText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
           "Key": "Fashion_Invite_Obtained_lock",
-          "SourceString": "暂未开放获取途径，敬请期待",
-          "LocalizedString": "暂未开放获取途径，敬请期待"
+          "SourceString": "羁遇等级达到10级获得",
+          "LocalizedString": "羁遇等级达到10级获得"
         },
         "IsDefault": false,
         "IsCharacterShow": true
@@ -2523,6 +2502,8 @@
       "Fashion_1051_2": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1051",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1051_2_Name",
@@ -2580,13 +2561,15 @@
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
-        "SourceID": "FashionShop",
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1051_2_Avatar",
+            "Amount": 1
+          }
+        ],
+        "SourceID": "RobbankShop",
         "SourceText": {
-          "TableId": "/Game/Text/ST_Output.ST_Output",
-          "Key": "FashionShop",
-          "SourceString": "商城购买获取",
-          "LocalizedString": "商城购买获取"
+          "CultureInvariantString": null
         },
         "SourceLockText": {
           "CultureInvariantString": null
@@ -2597,6 +2580,8 @@
       "Fashion_1051_3": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1051",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1051_3_Name",
@@ -2654,7 +2639,12 @@
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1051_3_Avatar",
+            "Amount": 1
+          }
+        ],
         "SourceID": "FashionShop",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
@@ -2671,6 +2661,8 @@
       "Fashion_1051_4": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1051",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1051_4_Name",
@@ -2728,7 +2720,12 @@
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1051_4_Avatar",
+            "Amount": 1
+          }
+        ],
         "SourceID": "None",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
@@ -2739,8 +2736,8 @@
         "SourceLockText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
           "Key": "Prison_Obtained_lock",
-          "SourceString": "「安全漏洞检测」玩法获得",
-          "LocalizedString": "「安全漏洞检测」玩法获得"
+          "SourceString": "海特洛市拘留所-囚犯「蜘蛛」 兑换",
+          "LocalizedString": "海特洛市拘留所-囚犯「蜘蛛」 兑换"
         },
         "IsDefault": false,
         "IsCharacterShow": true
@@ -2748,6 +2745,8 @@
       "Fashion_1051_5": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1051",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1051_7_Name",
@@ -2805,7 +2804,12 @@
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1051_5_Avatar",
+            "Amount": 1
+          }
+        ],
         "SourceID": "FashionShop",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
@@ -2822,6 +2826,8 @@
       "Fashion_1051_6": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1051",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1051_6_Name",
@@ -2879,13 +2885,15 @@
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
-        "SourceID": "FashionShop",
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1051_6_Avatar",
+            "Amount": 1
+          }
+        ],
+        "SourceID": "FishingLevelReward",
         "SourceText": {
-          "TableId": "/Game/Text/ST_Output.ST_Output",
-          "Key": "FashionShop",
-          "SourceString": "商城购买获取",
-          "LocalizedString": "商城购买获取"
+          "CultureInvariantString": null
         },
         "SourceLockText": {
           "CultureInvariantString": null
@@ -2896,6 +2904,8 @@
       "Fashion_1039_nighty": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1039",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1039_nighty_Name",
@@ -2949,23 +2959,28 @@
             "SubPathString": ""
           },
           "NPCAppearanceAsset": {
-            "AssetPathName": "",
+            "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_003/MeshAsset_NPC003_nighty.MeshAsset_NPC003_nighty",
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
-        "SourceID": "None",
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1039_nighty_Avatar",
+            "Amount": 1
+          }
+        ],
+        "SourceID": "Likeability_Fadia",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
           "Key": "Fashion_Invite_Obtained",
-          "SourceString": "暂未开放",
-          "LocalizedString": "暂未开放"
+          "SourceString": "羁遇等级达到10级获得",
+          "LocalizedString": "羁遇等级达到10级获得"
         },
         "SourceLockText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
           "Key": "Fashion_Invite_Obtained_lock",
-          "SourceString": "暂未开放获取途径，敬请期待",
-          "LocalizedString": "暂未开放获取途径，敬请期待"
+          "SourceString": "羁遇等级达到10级获得",
+          "LocalizedString": "羁遇等级达到10级获得"
         },
         "IsDefault": false,
         "IsCharacterShow": true
@@ -2973,6 +2988,8 @@
       "Fashion_1046_2": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1046",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1051_2_Name",
@@ -3030,13 +3047,15 @@
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
-        "SourceID": "FashionShop",
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1046_2_Avatar",
+            "Amount": 1
+          }
+        ],
+        "SourceID": "RobbankShop",
         "SourceText": {
-          "TableId": "/Game/Text/ST_Output.ST_Output",
-          "Key": "FashionShop",
-          "SourceString": "商城购买获取",
-          "LocalizedString": "商城购买获取"
+          "CultureInvariantString": null
         },
         "SourceLockText": {
           "CultureInvariantString": null
@@ -3047,6 +3066,8 @@
       "Fashion_1046_3": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1046",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1051_3_Name",
@@ -3104,7 +3125,12 @@
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1046_3_Avatar",
+            "Amount": 1
+          }
+        ],
         "SourceID": "FashionShop",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
@@ -3121,6 +3147,8 @@
       "Fashion_1046_4": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1046",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1051_4_Name",
@@ -3178,7 +3206,12 @@
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1046_4_Avatar",
+            "Amount": 1
+          }
+        ],
         "SourceID": "None",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
@@ -3189,8 +3222,8 @@
         "SourceLockText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
           "Key": "Prison_Obtained_lock",
-          "SourceString": "「安全漏洞检测」玩法获得",
-          "LocalizedString": "「安全漏洞检测」玩法获得"
+          "SourceString": "海特洛市拘留所-囚犯「蜘蛛」 兑换",
+          "LocalizedString": "海特洛市拘留所-囚犯「蜘蛛」 兑换"
         },
         "IsDefault": false,
         "IsCharacterShow": true
@@ -3198,6 +3231,8 @@
       "Fashion_1046_5": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1046",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1051_7_Name",
@@ -3255,7 +3290,12 @@
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1046_5_Avatar",
+            "Amount": 1
+          }
+        ],
         "SourceID": "FashionShop",
         "SourceText": {
           "TableId": "/Game/Text/ST_Output.ST_Output",
@@ -3272,6 +3312,8 @@
       "Fashion_1046_6": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1046",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1051_6_Name",
@@ -3329,13 +3371,15 @@
             "SubPathString": ""
           }
         },
-        "ExtraAwards": [],
-        "SourceID": "FashionShop",
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1046_6_Avatar",
+            "Amount": 1
+          }
+        ],
+        "SourceID": "FishingLevelReward",
         "SourceText": {
-          "TableId": "/Game/Text/ST_Output.ST_Output",
-          "Key": "FashionShop",
-          "SourceString": "商城购买获取",
-          "LocalizedString": "商城购买获取"
+          "CultureInvariantString": null
         },
         "SourceLockText": {
           "CultureInvariantString": null
@@ -3346,6 +3390,8 @@
       "Fashion_1073_0": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1073",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1073_0_Name",
@@ -3417,6 +3463,8 @@
       "Fashion_1052_1": {
         "AppearanceType": "EAppearanceType::Fashion",
         "CharacterID": "1052",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "1052",
         "Name": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1052_1_Name",
@@ -3431,19 +3479,19 @@
           "LocalizedString": "以鬼兰花为主题的高级定制套装，浔刚开店资金还充裕时所购置。至于后来……即使卖掉了自己的车也没有考虑转售掉这件，看来是相当喜欢。"
         },
         "ItemIcon": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_052_3_256.player_052_3_256",
           "SubPathString": ""
         },
         "HeadIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_013.player_013",
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_052_3.player_052_3",
           "SubPathString": ""
         },
         "HeadIconBig": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_013_256.player_013_256",
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_052_3_256.player_052_3_256",
           "SubPathString": ""
         },
         "DisplayIcon": {
-          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/YH_UI_shizhuang_lihui_szfengmian1.YH_UI_shizhuang_lihui_szfengmian1",
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/YH_UI_shizhuang_lihui_xun3.YH_UI_shizhuang_lihui_xun3",
           "SubPathString": ""
         },
         "SpineUI": {
@@ -3451,7 +3499,7 @@
           "SubPathString": ""
         },
         "PortraitImg": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_xun3.YH_UI_shizhuang_big_xun3",
           "SubPathString": ""
         },
         "UIScale": {
@@ -3470,6 +3518,171 @@
             "SubPathString": ""
           },
           "NPCAppearanceAsset": {
+            "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_009/DA_Appearance_009_1_RideAlong.DA_Appearance_009_1_RideAlong",
+            "SubPathString": ""
+          }
+        },
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1052_1_Avatar",
+            "Amount": 1
+          }
+        ],
+        "SourceID": "FashionShop",
+        "SourceText": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "FashionShop",
+          "SourceString": "商城购买获取",
+          "LocalizedString": "商城购买获取"
+        },
+        "SourceLockText": {
+          "CultureInvariantString": null
+        },
+        "IsDefault": false,
+        "IsCharacterShow": true
+      },
+      "Fashion_1052_nighty": {
+        "AppearanceType": "EAppearanceType::Fashion",
+        "CharacterID": "1052",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "1052",
+        "Name": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1052_nighty_Name",
+          "SourceString": "闲满庭",
+          "LocalizedString": "闲满庭"
+        },
+        "Quality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "Desc": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1052_nighty_Desc",
+          "SourceString": "浔的居家服装。宽松轻便的打扮，躲闲时还是舒服最重要。\r\n「惊鹿一声响。」",
+          "LocalizedString": "浔的居家服装。宽松轻便的打扮，躲闲时还是舒服最重要。\r\n「惊鹿一声响。」"
+        },
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_013_2_256.player_013_2_256",
+          "SubPathString": ""
+        },
+        "HeadIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_013_2.player_013_2",
+          "SubPathString": ""
+        },
+        "HeadIconBig": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_013_2_256.player_013_2_256",
+          "SubPathString": ""
+        },
+        "DisplayIcon": {
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/YH_UI_shizhuang_lihui_xun2.YH_UI_shizhuang_lihui_xun2",
+          "SubPathString": ""
+        },
+        "SpineUI": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PortraitImg": {
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_xun2.YH_UI_shizhuang_big_xun2",
+          "SubPathString": ""
+        },
+        "UIScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "ActorOffsets": 0.0,
+        "UIActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_052_nighty.PlayerUIShow_052_nighty_C",
+          "SubPathString": ""
+        },
+        "AppearanceData": {
+          "PlayerAppearanceAsset": {
+            "AssetPathName": "/Game/Characters/Player/052_jin_nighty/MeshAsset_Player052_nighty.MeshAsset_Player052_nighty",
+            "SubPathString": ""
+          },
+          "NPCAppearanceAsset": {
+            "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_009/MeshAsset_NPC009_nighty.MeshAsset_NPC009_nighty",
+            "SubPathString": ""
+          }
+        },
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1052_nighty_Avatar",
+            "Amount": 1
+          }
+        ],
+        "SourceID": "Likeability_Jin",
+        "SourceText": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Fashion_Invite_Obtained",
+          "SourceString": "羁遇等级达到10级获得",
+          "LocalizedString": "羁遇等级达到10级获得"
+        },
+        "SourceLockText": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Fashion_Invite_Obtained_lock",
+          "SourceString": "羁遇等级达到10级获得",
+          "LocalizedString": "羁遇等级达到10级获得"
+        },
+        "IsDefault": false,
+        "IsCharacterShow": true
+      },
+      "Fashion_1070_0": {
+        "AppearanceType": "EAppearanceType::Fashion",
+        "CharacterID": "1070",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
+        "Name": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1070_0_Name",
+          "SourceString": "碧海回唱",
+          "LocalizedString": "碧海回唱"
+        },
+        "Quality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "Desc": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1070_0_Desc",
+          "SourceString": "轻便舒适的衣装，穿在身上，耳畔仿佛回荡着浪花漫卷沙滩的声音。",
+          "LocalizedString": "轻便舒适的衣装，穿在身上，耳畔仿佛回荡着浪花漫卷沙滩的声音。"
+        },
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_haiyue_256.player_haiyue_256",
+          "SubPathString": ""
+        },
+        "HeadIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_haiyue.player_haiyue",
+          "SubPathString": ""
+        },
+        "HeadIconBig": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_haiyue_256.player_haiyue_256",
+          "SubPathString": ""
+        },
+        "DisplayIcon": {
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/YH_UI_shizhuang_lihui_haiyue.YH_UI_shizhuang_lihui_haiyue",
+          "SubPathString": ""
+        },
+        "SpineUI": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PortraitImg": {
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_haiyue.YH_UI_shizhuang_big_haiyue",
+          "SubPathString": ""
+        },
+        "UIScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "ActorOffsets": 0.0,
+        "UIActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_070.PlayerUIShow_070_C",
+          "SubPathString": ""
+        },
+        "AppearanceData": {
+          "PlayerAppearanceAsset": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "NPCAppearanceAsset": {
             "AssetPathName": "",
             "SubPathString": ""
           }
@@ -3478,6 +3691,252 @@
         "SourceID": "None",
         "SourceText": {
           "CultureInvariantString": null
+        },
+        "SourceLockText": {
+          "CultureInvariantString": null
+        },
+        "IsDefault": true,
+        "IsCharacterShow": true
+      },
+      "Fashion_1073_nighty": {
+        "AppearanceType": "EAppearanceType::Fashion",
+        "CharacterID": "1073",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
+        "Name": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1073_nighty_Name",
+          "SourceString": "绒绒春日",
+          "LocalizedString": "绒绒春日"
+        },
+        "Quality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "Desc": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1073_nighty_Desc",
+          "SourceString": "小吱的居家服装。柔软亲肤的面料，休假时间就该舒舒服服地待在家里啊。\r\n「虽然明天也不出门，但请……请出太阳吧！」",
+          "LocalizedString": "小吱的居家服装。柔软亲肤的面料，休假时间就该舒舒服服地待在家里啊。\r\n「虽然明天也不出门，但请……请出太阳吧！」"
+        },
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_xiaozhi2_256.player_xiaozhi2_256",
+          "SubPathString": ""
+        },
+        "HeadIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_xiaozhi2.player_xiaozhi2",
+          "SubPathString": ""
+        },
+        "HeadIconBig": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_xiaozhi2_256.player_xiaozhi2_256",
+          "SubPathString": ""
+        },
+        "DisplayIcon": {
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/YH_UI_shizhuang_lihui_xiaozhi2.YH_UI_shizhuang_lihui_xiaozhi2",
+          "SubPathString": ""
+        },
+        "SpineUI": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PortraitImg": {
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_xiaozhi2.YH_UI_shizhuang_big_xiaozhi2",
+          "SubPathString": ""
+        },
+        "UIScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "ActorOffsets": 0.0,
+        "UIActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_073_nighty.PlayerUIShow_073_nighty_C",
+          "SubPathString": ""
+        },
+        "AppearanceData": {
+          "PlayerAppearanceAsset": {
+            "AssetPathName": "/Game/Characters/Player/073_rabbit_nighty/MeshAsset_Player073_nighty.MeshAsset_Player073_nighty",
+            "SubPathString": ""
+          },
+          "NPCAppearanceAsset": {
+            "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_026/DA_Appearance_026_nighty_RideAlong.DA_Appearance_026_nighty_RideAlong",
+            "SubPathString": ""
+          }
+        },
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1073_nighty_Avatar",
+            "Amount": 1
+          }
+        ],
+        "SourceID": "Likeability_Chiichan",
+        "SourceText": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Fashion_Invite_Obtained",
+          "SourceString": "羁遇等级达到10级获得",
+          "LocalizedString": "羁遇等级达到10级获得"
+        },
+        "SourceLockText": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Fashion_Invite_Obtained",
+          "SourceString": "羁遇等级达到10级获得",
+          "LocalizedString": "羁遇等级达到10级获得"
+        },
+        "IsDefault": false,
+        "IsCharacterShow": true
+      },
+      "Fashion_1054_1": {
+        "AppearanceType": "EAppearanceType::Fashion",
+        "CharacterID": "1054",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
+        "Name": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1054_1_Name",
+          "SourceString": "都市浮光",
+          "LocalizedString": "都市浮光"
+        },
+        "Quality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "Desc": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1054_1_Desc",
+          "SourceString": "浔自费购入的衣装，用以改善小水仙沉闷的衣柜，达芙蒂尔为此新买了五个不同的眼罩用来搭配它。",
+          "LocalizedString": "浔自费购入的衣装，用以改善小水仙沉闷的衣柜，达芙蒂尔为此新买了五个不同的眼罩用来搭配它。"
+        },
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_005_2_256.player_005_2_256",
+          "SubPathString": ""
+        },
+        "HeadIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_005_2.player_005_2",
+          "SubPathString": ""
+        },
+        "HeadIconBig": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_005_2_256.player_005_2_256",
+          "SubPathString": ""
+        },
+        "DisplayIcon": {
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/YH_UI_shizhuang_lihui_dafudier2.YH_UI_shizhuang_lihui_dafudier2",
+          "SubPathString": ""
+        },
+        "SpineUI": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PortraitImg": {
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_dafudier2.YH_UI_shizhuang_big_dafudier2",
+          "SubPathString": ""
+        },
+        "UIScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "ActorOffsets": 0.0,
+        "UIActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_054_fashion1.PlayerUIShow_054_fashion1_C",
+          "SubPathString": ""
+        },
+        "AppearanceData": {
+          "PlayerAppearanceAsset": {
+            "AssetPathName": "/Game/Characters/Player/054_daffodill_fashion1/MeshAsset_Player054_fashion1.MeshAsset_Player054_fashion1",
+            "SubPathString": ""
+          },
+          "NPCAppearanceAsset": {
+            "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_013/DA_Appearance_013_1_RideAlong.DA_Appearance_013_1_RideAlong",
+            "SubPathString": ""
+          }
+        },
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1054_1_Avatar",
+            "Amount": 1
+          }
+        ],
+        "SourceID": "FashionShop",
+        "SourceText": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "FashionShop",
+          "SourceString": "商城购买获取",
+          "LocalizedString": "商城购买获取"
+        },
+        "SourceLockText": {
+          "CultureInvariantString": null
+        },
+        "IsDefault": false,
+        "IsCharacterShow": true
+      },
+      "Fashion_1073_1": {
+        "AppearanceType": "EAppearanceType::Fashion",
+        "CharacterID": "1073",
+        "ExcludeCharacterID": [],
+        "ShowLinkCharacterID": "None",
+        "Name": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1073_1_Name",
+          "SourceString": "青竹猗猗",
+          "LocalizedString": "青竹猗猗"
+        },
+        "Quality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "Desc": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1073_1_Desc",
+          "SourceString": "粉爪银行某年年会的表演着装，彼时的乔望尼先生正异常沉迷这种黑白色生物。\r\n「我、我们银行是要和胖达火锅联名吗……」",
+          "LocalizedString": "粉爪银行某年年会的表演着装，彼时的乔望尼先生正异常沉迷这种黑白色生物。\r\n「我、我们银行是要和胖达火锅联名吗……」"
+        },
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_xiaozhi3_256.player_xiaozhi3_256",
+          "SubPathString": ""
+        },
+        "HeadIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_xiaozhi3.player_xiaozhi3",
+          "SubPathString": ""
+        },
+        "HeadIconBig": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_xiaozhi3_256.player_xiaozhi3_256",
+          "SubPathString": ""
+        },
+        "DisplayIcon": {
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/YH_UI_shizhuang_lihui_xiaozhi3.YH_UI_shizhuang_lihui_xiaozhi3",
+          "SubPathString": ""
+        },
+        "SpineUI": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PortraitImg": {
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_xiaozhi1.YH_UI_shizhuang_big_xiaozhi1",
+          "SubPathString": ""
+        },
+        "UIScale": {
+          "X": 1.0,
+          "Y": 1.0,
+          "Z": 1.0
+        },
+        "ActorOffsets": 0.0,
+        "UIActorClass": {
+          "AssetPathName": "/Game/Blueprints/Character/PlayerUIShow/PlayerUIShow_073_fashion1.PlayerUIShow_073_fashion1_C",
+          "SubPathString": ""
+        },
+        "AppearanceData": {
+          "PlayerAppearanceAsset": {
+            "AssetPathName": "/Game/Characters/Player/073_rabbit_fashion1/MeshAsset_Player073_fashion1.MeshAsset_Player073_fashion1",
+            "SubPathString": ""
+          },
+          "NPCAppearanceAsset": {
+            "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_026/DA_Appearance_026_1_RideAlong.DA_Appearance_026_1_RideAlong",
+            "SubPathString": ""
+          }
+        },
+        "ExtraAwards": [
+          {
+            "ItemID": "Fashion_1073_1_Avatar",
+            "Amount": 1
+          }
+        ],
+        "SourceID": "FashionShop",
+        "SourceText": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "FashionShop",
+          "SourceString": "商城购买获取",
+          "LocalizedString": "商城购买获取"
         },
         "SourceLockText": {
           "CultureInvariantString": null

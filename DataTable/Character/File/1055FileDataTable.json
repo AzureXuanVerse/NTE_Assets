@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "1055FileDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/File/1055FileDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CharacterFileData'",
@@ -43,6 +44,12 @@
           "Key": "F_NPC015_002",
           "SourceString": "7月24日",
           "LocalizedString": "7月24日"
+        },
+        "BirthdaySkillName": {
+          "TableId": "/Game/Text/ST_File.ST_File",
+          "Key": "skillname_001",
+          "SourceString": "异能：",
+          "LocalizedString": "异能："
         },
         "HomePlace": {
           "TableId": "/Game/Text/ST_File.ST_File",
@@ -774,6 +781,86 @@
                 "CharacterFileBreakLevel": 5
               }
             ]
+          },
+          {
+            "ID": "None",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_001",
+              "SourceString": "收到赠礼·Ⅰ",
+              "LocalizedString": "收到赠礼·Ⅰ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC015_gift_001",
+              "SourceString": "你倒是比我预想的，要更懂我几分~",
+              "LocalizedString": "你倒是比我预想的，要更懂我几分~"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC015/Play_Vo_Char_NPC015_gift_001.Play_Vo_Char_NPC015_gift_001",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "None",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_002",
+              "SourceString": "收到赠礼·Ⅱ",
+              "LocalizedString": "收到赠礼·Ⅱ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC015_gift_002",
+              "SourceString": "能真正戳中我心坎的礼物，这世上可不算多见。",
+              "LocalizedString": "能真正戳中我心坎的礼物，这世上可不算多见。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC015/Play_Vo_Char_NPC015_gift_002.Play_Vo_Char_NPC015_gift_002",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "None",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_003",
+              "SourceString": "收到赠礼·Ⅲ",
+              "LocalizedString": "收到赠礼·Ⅲ"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC015_gift_003",
+              "SourceString": "倒也符合你的风格。",
+              "LocalizedString": "倒也符合你的风格。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC015/Play_Vo_Char_NPC015_gift_003.Play_Vo_Char_NPC015_gift_003",
+              "SubPathString": ""
+            },
+            "Conditions": []
+          },
+          {
+            "ID": "None",
+            "Title": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "gift_004",
+              "SourceString": "收到赠礼·IV",
+              "LocalizedString": "收到赠礼·IV"
+            },
+            "Content": {
+              "TableId": "/Game/Text/ST_File.ST_File",
+              "Key": "NPC015_gift_004",
+              "SourceString": "形式如何，本就不必挂怀。这份心意，我可是实实在在收到了。",
+              "LocalizedString": "形式如何，本就不必挂怀。这份心意，我可是实实在在收到了。"
+            },
+            "AudioEvent": {
+              "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC015/Play_Vo_Char_NPC015_gift_004.Play_Vo_Char_NPC015_gift_004",
+              "SubPathString": ""
+            },
+            "Conditions": []
           }
         ],
         "BattleContent": [

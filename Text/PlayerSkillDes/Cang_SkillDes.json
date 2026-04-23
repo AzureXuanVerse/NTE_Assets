@@ -2,8 +2,9 @@
   {
     "Type": "StringTable",
     "Name": "Cang_SkillDes",
-    "Class": "UScriptClass'StringTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/Game/Text/PlayerSkillDes/Cang_SkillDes",
     "StringTable": {
       "TableNamespace": "Cang_SkillDes",
       "KeysToEntries": {
@@ -92,7 +93,7 @@
         "Cang_UltraSkill_time": "「判予秋」持续时间",
         "Cang_UltraSkill_period": "伤害时间间隔",
         "GA_Cang_Melee5_name": "<Title>普通攻击：于风中</>",
-        "GA_Cang_Melee5_des": "白藏跃起于风中施展拳脚，落地后对目标造成<NumGreen>1</>次范围性的<Zhou>咒属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
+        "GA_Cang_Melee5_des": "白藏跃起于风中施展拳脚，落地后对目标造成<NumGreen>1</>次范围性的<Zhou>咒属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
         "GA_Cang_Melee6_name": "<Title>极限反击：避实击虚</>",
         "GA_Cang_Melee6_des": "触发极限闪避后使用「言行合一」触发。白藏膝顶攻击目标，造成<NumGreen>1</>次范围性的<Zhou>咒属性异能伤害</>，并额外扣除一定倾陷值。命中时，目标身上将生成<NumGreen>1</>个<hot textstyle=\"TextEXPL\" param=\"nouns&CangZhu\">「祝」</>字。",
         "GA_Cang_Skill_1_des": "触发闪避后点击「变轨技能」触发。\r\n对单体目标释放攻击，命中造成单体<Zhou>咒属性异能伤害</>，攻击命中后在目标身上生成<NumGreen>1</>个<hot textstyle=\"TextEXPL\" param=\"nouns&CangJin\">「噤」</>字。",

@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_GameplayAbilityTipsData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Skill/DT_GameplayAbilityTipsData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'GameplayAbilityTips'",
@@ -98,8 +99,8 @@
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Female051_SkillDes.Female051_SkillDes",
               "Key": "GA_F_Passive_2_des_tidy",
-              "SourceString": "造成的伤害提升<NumGreen>30%</>。",
-              "LocalizedString": "造成的伤害提升<NumGreen>30%</>。"
+              "SourceString": "「极轨终结：奇零除尽」造成的伤害提升<NumGreen>25%</>。",
+              "LocalizedString": "「极轨终结：奇零除尽」造成的伤害提升<NumGreen>25%</>。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -185,8 +186,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
               "Key": "GA_Mint_Melee2_des",
-              "SourceString": "薄荷在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Ling>灵属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "薄荷在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Ling>灵属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "薄荷在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Ling>灵属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "薄荷在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Ling>灵属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
@@ -1142,8 +1143,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Sagiri_SkillDes.Sagiri_SkillDes",
               "Key": "GA_Sagiri_Melee3_des",
-              "SourceString": "早雾在空中挥动鬼郎丸，并迅速下落冲击地面，落地后造成<NumGreen>1</>次范围性的<Zhou>咒属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "早雾在空中挥动鬼郎丸，并迅速下落冲击地面，落地后造成<NumGreen>1</>次范围性的<Zhou>咒属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "早雾在空中挥动鬼郎丸，并迅速下落冲击地面，落地后造成<NumGreen>1</>次范围性的<Zhou>咒属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "早雾在空中挥动鬼郎丸，并迅速下落冲击地面，落地后造成<NumGreen>1</>次范围性的<Zhou>咒属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Sagiri_SkillDes.Sagiri_SkillDes",
@@ -1602,8 +1603,32 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Sagiri_SkillDes.Sagiri_SkillDes",
               "Key": "GA_Sagiri_Skill_Heterochrome_des",
-              "SourceString": "环合值",
-              "LocalizedString": "环合值"
+              "SourceString": "短按技能环合值",
+              "LocalizedString": "短按技能环合值"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Sagiri_SkillDes.Sagiri_SkillDes",
+              "Key": "GA_Sagiri_Skill_Heterochrome_num",
+              "SourceString": "{0}",
+              "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "SkillLong_Heterochrome_Show",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Sagiri_SkillDes.Sagiri_SkillDes",
+              "Key": "GA_Sagiri_SkillLong_Heterochrome_des",
+              "SourceString": "长按技能环合值",
+              "LocalizedString": "长按技能环合值"
             },
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Sagiri_SkillDes.Sagiri_SkillDes",
@@ -1636,14 +1661,14 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Sagiri_SkillDes.Sagiri_SkillDes",
               "Key": "GA_Sagiri_UtraSkill_des",
-              "SourceString": "这下跑不掉了吧？鬼郎丸自上空吐出大量的重力沼液，造成<NumGreen>6</>次范围性的<Zhou>咒属性异能伤害</>。命中的敌人会受到强劲的重力影响，被重重压向地面（对boss不生效）。被<TextHLT>压制</>的敌人一段时间内无法移动。",
-              "LocalizedString": "这下跑不掉了吧？鬼郎丸自上空吐出大量的重力沼液，造成<NumGreen>6</>次范围性的<Zhou>咒属性异能伤害</>。命中的敌人会受到强劲的重力影响，被重重压向地面（对boss不生效）。被<TextHLT>压制</>的敌人一段时间内无法移动。"
+              "SourceString": "这下跑不掉了吧？鬼郎丸自上空吐出大量的重力沼液，造成<NumGreen>6</>次范围性的<Zhou>咒属性异能伤害</>。命中的敌人会受到强劲的重力影响，被重重压向地面（对boss不生效）。被<TextHLT>压制</>的敌人一段时间内无法移动。释放「极轨终结：千钧隆重的饕餮宴」后，基于早雾基础攻击力提升全队角色（不包括早雾）的攻击力。",
+              "LocalizedString": "这下跑不掉了吧？鬼郎丸自上空吐出大量的重力沼液，造成<NumGreen>6</>次范围性的<Zhou>咒属性异能伤害</>。命中的敌人会受到强劲的重力影响，被重重压向地面（对boss不生效）。被<TextHLT>压制</>的敌人一段时间内无法移动。释放「极轨终结：千钧隆重的饕餮宴」后，基于早雾基础攻击力提升全队角色（不包括早雾）的攻击力。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Sagiri_SkillDes.Sagiri_SkillDes",
               "Key": "GA_Sagiri_UtraSkill_des_Tidy",
-              "SourceString": "<TextHLT>压制</>敌人，造成<Zhou>咒属性异能伤害</>。",
-              "LocalizedString": "<TextHLT>压制</>敌人，造成<Zhou>咒属性异能伤害</>。"
+              "SourceString": "<TextHLT>压制</>敌人，造成<Zhou>咒属性异能伤害</>。释放后基于早雾攻击力提升全队（不包括早雾）攻击力。",
+              "LocalizedString": "<TextHLT>压制</>敌人，造成<Zhou>咒属性异能伤害</>。释放后基于早雾攻击力提升全队（不包括早雾）攻击力。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -1761,6 +1786,54 @@
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Sagiri_SkillDes.Sagiri_SkillDes",
               "Key": "GA_Sagiri_UltraSkill_Suppresst_num",
+              "SourceString": "{0}秒",
+              "LocalizedString": "{0}秒"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Sagiri_QDamUp_AtkAdd",
+                  "bIsPercent": true
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Sagiri_SkillDes.Sagiri_SkillDes",
+              "Key": "GA_Sagiri_UltraSkilll_atk_des",
+              "SourceString": "攻击力加成比例",
+              "LocalizedString": "攻击力加成比例"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Sagiri_SkillDes.Sagiri_SkillDes",
+              "Key": "GA_Sagiri_UltraSkill_atk_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Sagiri_QDamUp_AtkAddDur",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Sagiri_SkillDes.Sagiri_SkillDes",
+              "Key": "GA_Sagiri_UltraSkilll_atkdur_des",
+              "SourceString": "持续时间",
+              "LocalizedString": "持续时间"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Sagiri_SkillDes.Sagiri_SkillDes",
+              "Key": "GA_Sagiri_UltraSkilll_atkdur_num",
               "SourceString": "{0}秒",
               "LocalizedString": "{0}秒"
             },
@@ -1941,8 +2014,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Sagiri_SkillDes.Sagiri_SkillDes",
               "Key": "GA_Sagiri_Passive_2_des",
-              "SourceString": "释放「极轨终结：千钧隆重的饕餮宴」后，基于早雾基础攻击力的<NumGreen>30%</>，提升全队角色（不包括早雾）的攻击力，持续<NumGreen>20</>秒。",
-              "LocalizedString": "释放「极轨终结：千钧隆重的饕餮宴」后，基于早雾基础攻击力的<NumGreen>30%</>，提升全队角色（不包括早雾）的攻击力，持续<NumGreen>20</>秒。"
+              "SourceString": "早雾成功对敌人施加「浮空」或「<TextHLT>压制</>」后，使敌人防御力下降10%，持续20秒。",
+              "LocalizedString": "早雾成功对敌人施加「浮空」或「<TextHLT>压制</>」后，使敌人防御力下降10%，持续20秒。"
             },
             "ShortDescription": {
               "CultureInvariantString": null
@@ -2109,8 +2182,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
               "Key": "GA_Lacrimosa_Melee3_des",
-              "SourceString": "安魂曲在空中操纵异能造物，并迅速下落冲击地面，落地后造成<NumGreen>1</>次范围性的<An>暗属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "安魂曲在空中操纵异能造物，并迅速下落冲击地面，落地后造成<NumGreen>1</>次范围性的<An>暗属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "安魂曲在空中操纵异能造物，并迅速下落冲击地面，落地后造成<NumGreen>1</>次范围性的<An>暗属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "安魂曲在空中操纵异能造物，并迅速下落冲击地面，落地后造成<NumGreen>1</>次范围性的<An>暗属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
@@ -3273,8 +3346,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Lacrimosa_SkillDes.Lacrimosa_SkillDes",
               "Key": "GA_Lacrimosa_Passive_1_des",
-              "SourceString": "<TextHLT>「失谐」强化</>：触发「失谐」时，若目标已处于倾陷状态，则对目标额外造成400%*攻击力的伤害。",
-              "LocalizedString": "<TextHLT>「失谐」强化</>：触发「失谐」时，若目标已处于倾陷状态，则对目标额外造成400%*攻击力的伤害。"
+              "SourceString": "<TextHLT>「失谐」强化</>：触发「失谐」时，若目标已处于倾陷状态，则对目标额外造成400%攻击力的伤害。",
+              "LocalizedString": "<TextHLT>「失谐」强化</>：触发「失谐」时，若目标已处于倾陷状态，则对目标额外造成400%攻击力的伤害。"
             },
             "ShortDescription": {
               "CultureInvariantString": null
@@ -3602,8 +3675,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
               "Key": "GA_Fadia_Melee3_des",
-              "SourceString": "法帝娅在空中挥动化形十字盾下砸，落地后造成<NumGreen>1</>次范围性的<Hun>魂属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "法帝娅在空中挥动化形十字盾下砸，落地后造成<NumGreen>1</>次范围性的<Hun>魂属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "法帝娅在空中挥动化形十字盾下砸，落地后造成<NumGreen>1</>次范围性的<Hun>魂属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "法帝娅在空中挥动化形十字盾下砸，落地后造成<NumGreen>1</>次范围性的<Hun>魂属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
@@ -4571,8 +4644,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Fadia_SkillDes.Fadia_SkillDes",
               "Key": "GA_Fadia_Passive_1_des",
-              "SourceString": "<TextHLT>「黯星」强化</>：「黯星」状态结束时，全队角色以5%的汲取效率，从目标汲取法帝娅10%固有生命上限，累计汲取不超过法帝娅固有生命上限的50%。离开战斗状态时还原双方属性。",
-              "LocalizedString": "<TextHLT>「黯星」强化</>：「黯星」状态结束时，全队角色以5%的汲取效率，从目标汲取法帝娅10%固有生命上限，累计汲取不超过法帝娅固有生命上限的50%。离开战斗状态时还原双方属性。"
+              "SourceString": "<TextHLT>「黯星」强化</>：「黯星」状态结束时，全队角色从目标汲取生命上限。目标损失相当于法帝娅固有生命上限200%的生命上限，全队角色各获得法帝娅10%固有生命上限，累计汲取不超过法帝娅固有生命上限的50%。离开战斗状态时还原双方属性。",
+              "LocalizedString": "<TextHLT>「黯星」强化</>：「黯星」状态结束时，全队角色从目标汲取生命上限。目标损失相当于法帝娅固有生命上限200%的生命上限，全队角色各获得法帝娅10%固有生命上限，累计汲取不超过法帝娅固有生命上限的50%。离开战斗状态时还原双方属性。"
             },
             "ShortDescription": {
               "CultureInvariantString": null
@@ -4856,8 +4929,8 @@
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
               "Key": "GA_Nanally_Melee1_des_short",
-              "SourceString": "至多5段的连续攻击，造成<Ling>灵属性异能伤害</>。",
-              "LocalizedString": "至多5段的连续攻击，造成<Ling>灵属性异能伤害</>。"
+              "SourceString": "造成<Ling>灵属性异能伤害</>。",
+              "LocalizedString": "造成<Ling>灵属性异能伤害</>。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -4881,8 +4954,8 @@
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
               "Key": "GA_Nanally_Melee4_des_short",
-              "SourceString": "长按普攻，触发分支攻击，至多三段的强力连续攻击，造成<Ling>灵属性异能伤害</>。",
-              "LocalizedString": "长按普攻，触发分支攻击，至多三段的强力连续攻击，造成<Ling>灵属性异能伤害</>。"
+              "SourceString": "造成<Ling>灵属性异能伤害</>。",
+              "LocalizedString": "造成<Ling>灵属性异能伤害</>。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -4906,8 +4979,8 @@
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
               "Key": "GA_Nanally_Melee2_des_short",
-              "SourceString": "进入瞄准状态，造成<NumGreen>1</>次<Ling>灵属性异能伤害</>",
-              "LocalizedString": "进入瞄准状态，造成<NumGreen>1</>次<Ling>灵属性异能伤害</>"
+              "SourceString": "造成<Ling>灵属性异能伤害</>。",
+              "LocalizedString": "造成<Ling>灵属性异能伤害</>。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -4925,14 +4998,14 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
               "Key": "GA_Nanally_Melee3_des",
-              "SourceString": "娜娜莉在空中挥出爪子，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Ling>灵属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "娜娜莉在空中挥出爪子，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Ling>灵属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "娜娜莉在空中挥出爪子，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Ling>灵属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "娜娜莉在空中挥出爪子，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Ling>灵属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
               "Key": "GA_Nanally_Melee3_des_short",
-              "SourceString": "滞空时点按普攻，造成<NumGreen>1</>次<Ling>灵属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "滞空时点按普攻，造成<NumGreen>1</>次<Ling>灵属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "长按普攻，造成<Ling>灵属性异能伤害</>。",
+              "LocalizedString": "长按普攻，造成<Ling>灵属性异能伤害</>。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -4956,8 +5029,8 @@
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
               "Key": "GA_Nanally_PerfectEvade_des_short",
-              "SourceString": "触发极限闪避后点按[普通攻击]，造成<NumGreen>1</>次<Ling>灵属性异能伤害</>。",
-              "LocalizedString": "触发极限闪避后点按[普通攻击]，造成<NumGreen>1</>次<Ling>灵属性异能伤害</>。"
+              "SourceString": "造成<Ling>灵属性异能伤害</>。",
+              "LocalizedString": "造成<Ling>灵属性异能伤害</>。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -5338,8 +5411,8 @@
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
               "Key": "GA_Nanally_Skill_des_short",
-              "SourceString": "造成范围<Ling>灵属性异能伤害</>，进入<hot textstyle=\"TextEXPL\" param=\"nouns&NanallyWalkOnWall\">「一代目的权柄」</>状态。",
-              "LocalizedString": "造成范围<Ling>灵属性异能伤害</>，进入<hot textstyle=\"TextEXPL\" param=\"nouns&NanallyWalkOnWall\">「一代目的权柄」</>状态。"
+              "SourceString": "造成<Ling>灵属性异能伤害</>，进入<hot textstyle=\"TextEXPL\" param=\"nouns&NanallyWalkOnWall\">「一代目的权柄」</>状态。",
+              "LocalizedString": "造成<Ling>灵属性异能伤害</>，进入<hot textstyle=\"TextEXPL\" param=\"nouns&NanallyWalkOnWall\">「一代目的权柄」</>状态。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -5515,8 +5588,8 @@
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
               "Key": "GA_Nanally_UltraSkill_des_short",
-              "SourceString": "造成范围<Ling>灵属性异能伤害</>，并召唤「副手」一同战斗。「副手」造成<Ling>灵属性异能伤害</>，并视为<TextHLT>追加攻击</>。",
-              "LocalizedString": "造成范围<Ling>灵属性异能伤害</>，并召唤「副手」一同战斗。「副手」造成<Ling>灵属性异能伤害</>，并视为<TextHLT>追加攻击</>。"
+              "SourceString": "造成<Ling>灵属性异能伤害</>，并召唤「副手」一同战斗。「副手」造成<Ling>灵属性异能伤害</>，并视为<TextHLT>追加攻击</>。",
+              "LocalizedString": "造成<Ling>灵属性异能伤害</>，并召唤「副手」一同战斗。「副手」造成<Ling>灵属性异能伤害</>，并视为<TextHLT>追加攻击</>。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -5963,8 +6036,8 @@
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
               "Key": "GA_Nanally_QTE_des_short",
-              "SourceString": "造成范围<Ling>灵属性异能伤害</>。",
-              "LocalizedString": "造成范围<Ling>灵属性异能伤害</>。"
+              "SourceString": "造成<Ling>灵属性异能伤害</>。",
+              "LocalizedString": "造成<Ling>灵属性异能伤害</>。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -6109,8 +6182,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
               "Key": "GA_Nanally_Passive_2_des",
-              "SourceString": "在<hot textstyle=\"TextEXPL\" param=\"nouns&NanallyWalkOnWall\">「一代目的权柄」</>状态下，队伍中任意角色每对敌人造成<NumGreen>1</>次异能环合伤害，娜娜莉将额外对单体敌人施加<NumGreen>1</>次<TextHLT>追加攻击</>，造成<NumGreen>60%</>*攻击力的<Ling>灵属性异能伤害</>，倍率跟随普通攻击技能等级成长。该效果每<NumGreen>2</>秒触发<NumGreen>1</>次。",
-              "LocalizedString": "在<hot textstyle=\"TextEXPL\" param=\"nouns&NanallyWalkOnWall\">「一代目的权柄」</>状态下，队伍中任意角色每对敌人造成<NumGreen>1</>次异能环合伤害，娜娜莉将额外对单体敌人施加<NumGreen>1</>次<TextHLT>追加攻击</>，造成<NumGreen>60%</>*攻击力的<Ling>灵属性异能伤害</>，倍率跟随普通攻击技能等级成长。该效果每<NumGreen>2</>秒触发<NumGreen>1</>次。"
+              "SourceString": "在<hot textstyle=\"TextEXPL\" param=\"nouns&NanallyWalkOnWall\">「一代目的权柄」</>状态下，队伍中任意角色每对敌人造成<NumGreen>1</>次异能环合伤害，娜娜莉将额外对单体敌人施加<NumGreen>1</>次<TextHLT>追加攻击</>，造成<NumGreen>60%</>*攻击力的<Ling>灵属性异能伤害</>，倍率跟随普通攻击技能等级成长，11级成长至<NumGreen>129.5%</>。\r\n该效果每<NumGreen>2</>秒触发<NumGreen>1</>次。",
+              "LocalizedString": "在<hot textstyle=\"TextEXPL\" param=\"nouns&NanallyWalkOnWall\">「一代目的权柄」</>状态下，队伍中任意角色每对敌人造成<NumGreen>1</>次异能环合伤害，娜娜莉将额外对单体敌人施加<NumGreen>1</>次<TextHLT>追加攻击</>，造成<NumGreen>60%</>*攻击力的<Ling>灵属性异能伤害</>，倍率跟随普通攻击技能等级成长，11级成长至<NumGreen>129.5%</>。\r\n该效果每<NumGreen>2</>秒触发<NumGreen>1</>次。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
@@ -6252,8 +6325,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Jin_SkillDes.Jin_SkillDes",
               "Key": "GA_Jin_Melee3_des",
-              "SourceString": "浔在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "浔在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "浔在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "浔在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Jin_SkillDes.Jin_SkillDes",
@@ -7365,8 +7438,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
               "Key": "GA_Adler_Melee3_des",
-              "SourceString": "阿德勒从空中迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Zhou>咒属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "阿德勒从空中迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Zhou>咒属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "阿德勒从空中迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Zhou>咒属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "阿德勒从空中迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Zhou>咒属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Adler_SkillDes.Adler_SkillDes",
@@ -8417,8 +8490,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
               "Key": "GA_Skia_Melee2_des",
-              "SourceString": "翳在空中挥舞拳脚，并迅速下落冲击地面，落地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "翳在空中挥舞拳脚，并迅速下落冲击地面，落地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "翳在空中挥舞拳脚，并迅速下落冲击地面，落地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "翳在空中挥舞拳脚，并迅速下落冲击地面，落地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Skia_SkillDes.Skia_SkillDes",
@@ -9740,8 +9813,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Cang_SkillDes.Cang_SkillDes",
               "Key": "GA_Cang_Melee5_des",
-              "SourceString": "白藏跃起于风中施展拳脚，落地后对目标造成<NumGreen>1</>次范围性的<Zhou>咒属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "白藏跃起于风中施展拳脚，落地后对目标造成<NumGreen>1</>次范围性的<Zhou>咒属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "白藏跃起于风中施展拳脚，落地后对目标造成<NumGreen>1</>次范围性的<Zhou>咒属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "白藏跃起于风中施展拳脚，落地后对目标造成<NumGreen>1</>次范围性的<Zhou>咒属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Cang_SkillDes.Cang_SkillDes",
@@ -11191,8 +11264,8 @@
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
               "Key": "GA_Hathor_Melee1_des_short",
-              "SourceString": "至多<NumGreen>5</>段的连续攻击。",
-              "LocalizedString": "至多<NumGreen>5</>段的连续攻击。"
+              "SourceString": "造成<Xiang>相属性异能伤害</>。",
+              "LocalizedString": "造成<Xiang>相属性异能伤害</>。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -11210,14 +11283,14 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
               "Key": "GA_Hathor_Melee2_des",
-              "SourceString": "哈索尔滞空时点按普攻，落地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "哈索尔滞空时点按普攻，落地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "哈索尔滞空时俯身冲刺，落地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "哈索尔滞空时俯身冲刺，落地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
               "Key": "GA_Hathor_Melee2_des_short",
-              "SourceString": "滞空时点按普攻，造成<NumGreen>1</>次<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "滞空时点按普攻，造成<NumGreen>1</>次<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "造成<Xiang>相属性异能伤害</>。",
+              "LocalizedString": "造成<Xiang>相属性异能伤害</>。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -11235,14 +11308,14 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
               "Key": "GA_Hathor_Melee3_des",
-              "SourceString": "哈索尔长按普攻，触发连段分支攻击。哈索尔将环绕目标高速飞行，卷起强风将其击至空中，随后压制目标从上空急坠，重击目标坠地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，若目标不可浮空则转为触发「普通攻击：压轴派送」。",
-              "LocalizedString": "哈索尔长按普攻，触发连段分支攻击。哈索尔将环绕目标高速飞行，卷起强风将其击至空中，随后压制目标从上空急坠，重击目标坠地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，若目标不可浮空则转为触发「普通攻击：压轴派送」。"
+              "SourceString": "长按普通攻击触发，哈索尔将环绕目标高速飞行，卷起强风将其击至空中，随后压制目标从上空急坠，重击目标坠地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，若目标不可浮空则转为触发「普通攻击：压轴派送」。",
+              "LocalizedString": "长按普通攻击触发，哈索尔将环绕目标高速飞行，卷起强风将其击至空中，随后压制目标从上空急坠，重击目标坠地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，若目标不可浮空则转为触发「普通攻击：压轴派送」。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
               "Key": "GA_Hathor_Melee3_des_short",
-              "SourceString": "长按普攻，触发分支攻击，浮空并击落目标造成<NumGreen>1</>次<Xiang>相属性异能伤害</>，若目标不可浮空则触发「普通攻击：压轴派送」。",
-              "LocalizedString": "长按普攻，触发分支攻击，浮空并击落目标造成<NumGreen>1</>次<Xiang>相属性异能伤害</>，若目标不可浮空则触发「普通攻击：压轴派送」。"
+              "SourceString": "浮空并击落目标造成<Xiang>相属性异能伤害</>，若目标不可浮空则触发「普通攻击：压轴派送」。",
+              "LocalizedString": "浮空并击落目标造成<Xiang>相属性异能伤害</>，若目标不可浮空则触发「普通攻击：压轴派送」。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -11264,7 +11337,10 @@
               "LocalizedString": "触发极限闪避后使用「普通攻击：高频送达」触发。哈索尔向敌人发起极速反击，造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，并额外扣除一定倾陷值，命中后获得<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>，<NumGreen>5</>秒内最多获取<NumGreen>1</>次。"
             },
             "ShortDescription": {
-              "CultureInvariantString": null
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_PerfectEvade_des_short",
+              "SourceString": "触发极限闪避后普通攻击，造成<NumGreen>1</>次<Xiang>相属性异能伤害</>，命中获得<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>，<NumGreen>5</>秒获取冷却。",
+              "LocalizedString": "触发极限闪避后普通攻击，造成<NumGreen>1</>次<Xiang>相属性异能伤害</>，命中获得<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>，<NumGreen>5</>秒获取冷却。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -11572,14 +11648,14 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
               "Key": "GA_Hathor_Skill2_des",
-              "SourceString": "在<TextEXPL>「紧急派送」</>状态下，消耗<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>可释放此技能。哈索尔召唤由荆棘构成的摩托车，对目标发动高速连段攻击。",
-              "LocalizedString": "在<TextEXPL>「紧急派送」</>状态下，消耗<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>可释放此技能。哈索尔召唤由荆棘构成的摩托车，对目标发动高速连段攻击。"
+              "SourceString": "在<TextEXPL>「紧急派送」</>状态下，消耗<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>可释放此技能。哈索尔召唤由荆棘构成的摩托车，对目标发动高速连段攻击，技能期间自身防御力提升。",
+              "LocalizedString": "在<TextEXPL>「紧急派送」</>状态下，消耗<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>可释放此技能。哈索尔召唤由荆棘构成的摩托车，对目标发动高速连段攻击，技能期间自身防御力提升。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
               "Key": "GA_Hathor_Skill2_des_short",
-              "SourceString": "<TextEXPL>「紧急派送」</>状态下，消耗<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>释放，对目标发动连段攻击。",
-              "LocalizedString": "<TextEXPL>「紧急派送」</>状态下，消耗<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>释放，对目标发动连段攻击。"
+              "SourceString": "<TextEXPL>「紧急派送」</>状态下，消耗<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>释放，对目标发动连段攻击，自身防御力提升。",
+              "LocalizedString": "<TextEXPL>「紧急派送」</>状态下，消耗<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>释放，对目标发动连段攻击，自身防御力提升。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -11903,6 +11979,30 @@
               "LocalizedString": "{0}"
             },
             "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Buff_Hathor_Skill2_DefUp",
+                  "bIsPercent": true
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_Skill2_4_des",
+              "SourceString": "「轮转打击」期间防御力提升",
+              "LocalizedString": "「轮转打击」期间防御力提升"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_Skill2_4_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
           }
         ],
         "bStolenAbility": false,
@@ -11955,14 +12055,14 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
               "Key": "GA_Hathor_Skill2_des",
-              "SourceString": "在<TextEXPL>「紧急派送」</>状态下，消耗<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>可释放此技能。哈索尔召唤由荆棘构成的摩托车，对目标发动高速连段攻击。",
-              "LocalizedString": "在<TextEXPL>「紧急派送」</>状态下，消耗<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>可释放此技能。哈索尔召唤由荆棘构成的摩托车，对目标发动高速连段攻击。"
+              "SourceString": "在<TextEXPL>「紧急派送」</>状态下，消耗<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>可释放此技能。哈索尔召唤由荆棘构成的摩托车，对目标发动高速连段攻击，技能期间自身防御力提升。",
+              "LocalizedString": "在<TextEXPL>「紧急派送」</>状态下，消耗<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>可释放此技能。哈索尔召唤由荆棘构成的摩托车，对目标发动高速连段攻击，技能期间自身防御力提升。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
               "Key": "GA_Hathor_Skill2_des_short",
-              "SourceString": "<TextEXPL>「紧急派送」</>状态下，消耗<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>释放，对目标发动连段攻击。",
-              "LocalizedString": "<TextEXPL>「紧急派送」</>状态下，消耗<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>释放，对目标发动连段攻击。"
+              "SourceString": "<TextEXPL>「紧急派送」</>状态下，消耗<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>释放，对目标发动连段攻击，自身防御力提升。",
+              "LocalizedString": "<TextEXPL>「紧急派送」</>状态下，消耗<hot textstyle=\"TextEXPL\" param=\"nouns&HathorAnger\">「闪送之力」</>释放，对目标发动连段攻击，自身防御力提升。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -12199,6 +12299,30 @@
               "Key": "Hathor_ExSkill3_Heterochrome_num",
               "SourceString": "{0}",
               "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Buff_Hathor_Skill2_DefUp",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_Skill2_4_des",
+              "SourceString": "「轮转打击」期间防御力提升",
+              "LocalizedString": "「轮转打击」期间防御力提升"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
+              "Key": "GA_Hathor_Skill2_4_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
             },
             "CLGlobalCommonDataCurveID": "None"
           }
@@ -12540,8 +12664,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Hathor_SkillDes.Hathor_SkillDes",
               "Key": "GA_Hathor_Passive_1_des",
-              "SourceString": "<TextHLT>「延滞」强化</>：处于「延滞」状态的目标再次被施加「延滞」时，受到150%*攻击力的伤害。",
-              "LocalizedString": "<TextHLT>「延滞」强化</>：处于「延滞」状态的目标再次被施加「延滞」时，受到150%*攻击力的伤害。"
+              "SourceString": "<TextHLT>「延滞」强化</>：目标受到「延滞」影响时间延长至12秒，全队角色攻击受「延滞」影响的目标时暴击率提升10%。",
+              "LocalizedString": "<TextHLT>「延滞」强化</>：目标受到「延滞」影响时间延长至12秒，全队角色攻击受「延滞」影响的目标时暴击率提升10%。"
             },
             "ShortDescription": {
               "CultureInvariantString": null
@@ -12976,8 +13100,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Female051_SkillDes.Female051_SkillDes",
               "Key": "GA_F_Melee2_des",
-              "SourceString": "零在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "零在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "零在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "零在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Female051_SkillDes.Female051_SkillDes",
@@ -13654,8 +13778,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Female051_SkillDes.Female051_SkillDes",
               "Key": "GA_F_Melee2_des",
-              "SourceString": "零在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "零在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "零在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "零在空中挥动武器，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Female051_SkillDes.Female051_SkillDes",
@@ -14058,7 +14182,7 @@
             "LevelUpData": {
               "EffectFigureDataList": [
                 {
-                  "NameID": "MeleeMale_Heterochrome_Show",
+                  "NameID": "Skill_Heterochrome_Show",
                   "bIsPercent": false
                 }
               ]
@@ -14314,7 +14438,7 @@
         },
         "AbilityDescription": [],
         "Icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/YH_UI_Abyss_skil.YH_UI_Abyss_skil",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/YH_UI_icon_skill_coordination_colorful.YH_UI_icon_skill_coordination_colorful",
           "SubPathString": ""
         },
         "ExtendIcon": {
@@ -14334,7 +14458,7 @@
         },
         "AbilityDescription": [],
         "Icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/YH_UI_Abyss_skil.YH_UI_Abyss_skil",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/YH_UI_icon_skill_coordination_colorful.YH_UI_icon_skill_coordination_colorful",
           "SubPathString": ""
         },
         "ExtendIcon": {
@@ -14392,8 +14516,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Edgar_SkillDes.Edgar_SkillDes",
               "Key": "GA_Edgar_Melee2_des",
-              "SourceString": "埃德嘉滞空时点按普攻，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "埃德嘉滞空时点按普攻，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "埃德嘉滞空时点按普攻，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "埃德嘉滞空时点按普攻，落地时造成<NumGreen>1</>次范围性的<Guang>光属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Edgar_SkillDes.Edgar_SkillDes",
@@ -15274,8 +15398,8 @@
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
               "Key": "GA_Kuhara_Melee1_des_short",
-              "SourceString": "至多<NumGreen>5</>段的连续攻击，造成<Ling>灵属性异能伤害</>。",
-              "LocalizedString": "至多<NumGreen>5</>段的连续攻击，造成<Ling>灵属性异能伤害</>。"
+              "SourceString": "造成<Ling>灵属性异能伤害</>。",
+              "LocalizedString": "造成<Ling>灵属性异能伤害</>。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -15293,14 +15417,14 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
               "Key": "GA_Kuhara_Melee2_des",
-              "SourceString": "九原滞空时点按普攻，落地后造成<NumGreen>1</>次<Ling>灵属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "九原滞空时点按普攻，落地后造成<NumGreen>1</>次<Ling>灵属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "九原滞空时握持双枪，并迅速下落冲击地面，落地后造成<NumGreen>1</>次<Ling>灵属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "九原滞空时握持双枪，并迅速下落冲击地面，落地后造成<NumGreen>1</>次<Ling>灵属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
               "Key": "GA_Kuhara_Melee2_des_short",
-              "SourceString": "滞空时点按普攻，造成<NumGreen>1</>次<Ling>灵属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "滞空时点按普攻，造成<NumGreen>1</>次<Ling>灵属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "造成<Ling>灵属性异能伤害</>。",
+              "LocalizedString": "造成<Ling>灵属性异能伤害</>。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -15318,14 +15442,14 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
               "Key": "GA_Kuhara_Melee3_des",
-              "SourceString": "长按普攻，九原触发分支攻击，将自动锁定目标射击单发子弹造成<NumGreen>1</>次<Ling>灵属性异能伤害</>。若九原持有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>，则自动消耗<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>进行连续射击，并优先攻击带有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的目标。",
-              "LocalizedString": "长按普攻，九原触发分支攻击，将自动锁定目标射击单发子弹造成<NumGreen>1</>次<Ling>灵属性异能伤害</>。若九原持有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>，则自动消耗<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>进行连续射击，并优先攻击带有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的目标。"
+              "SourceString": "长按普通攻击触发，九原将自动锁定目标射击单发子弹造成<NumGreen>1</>次<Ling>灵属性异能伤害</>。若九原持有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>，则自动消耗<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>进行连续射击，并优先攻击带有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的目标。",
+              "LocalizedString": "长按普通攻击触发，九原将自动锁定目标射击单发子弹造成<NumGreen>1</>次<Ling>灵属性异能伤害</>。若九原持有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>，则自动消耗<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>进行连续射击，并优先攻击带有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的目标。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
               "Key": "GA_Kuhara_Melee3_des_short",
-              "SourceString": "长按普攻，触发分支攻击，自动锁定目标造成<NumGreen>1</>次<Ling>灵属性异能伤害</>。可自动消耗<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>进行连续射击，并优先攻击带有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的目标。",
-              "LocalizedString": "长按普攻，触发分支攻击，自动锁定目标造成<NumGreen>1</>次<Ling>灵属性异能伤害</>。可自动消耗<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>进行连续射击，并优先攻击带有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的目标。"
+              "SourceString": "造成<Ling>灵属性异能伤害</>。可自动消耗<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>连续射击，并优先攻击带有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的目标。",
+              "LocalizedString": "造成<Ling>灵属性异能伤害</>。可自动消耗<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>连续射击，并优先攻击带有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的目标。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -15372,7 +15496,10 @@
               "LocalizedString": "触发极限闪避后使用「普通攻击：秘密成型时」触发，九原甩动双臂交叉射击前方范围目标，对当前目标缔结一次<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>同时造成<NumGreen>1</>次<Ling>灵属性异能伤害</>，并额外扣除一定倾陷值，并获得<NumGreen>2</>颗<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>。"
             },
             "ShortDescription": {
-              "CultureInvariantString": null
+              "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
+              "Key": "GA_Kuhara_PerfectEvade_des_short",
+              "SourceString": "触发极限闪避后普通攻击，造成<Ling>灵属性异能伤害</>，并获得<NumGreen>2</>颗<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>",
+              "LocalizedString": "触发极限闪避后普通攻击，造成<Ling>灵属性异能伤害</>，并获得<NumGreen>2</>颗<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -15571,8 +15698,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
               "Key": "GA_Kuhara_Branch_1_des",
-              "SourceString": "分支伤害倍率",
-              "LocalizedString": "分支伤害倍率"
+              "SourceString": "长按普攻射击伤害倍率",
+              "LocalizedString": "长按普攻射击伤害倍率"
             },
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
@@ -15595,8 +15722,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
               "Key": "GA_Kuhara_BranchPower_1_des",
-              "SourceString": "强化分支每段伤害倍率",
-              "LocalizedString": "强化分支每段伤害倍率"
+              "SourceString": "「玫约子弹」每段射击伤害倍率",
+              "LocalizedString": "「玫约子弹」每段射击伤害倍率"
             },
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
@@ -16079,6 +16206,30 @@
               "LocalizedString": "{0}%"
             },
             "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Kuhara_BudBoomAddQEnergy",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
+              "Key": "GA_Kuhara_UltraSkill_3_des",
+              "SourceString": "「致约清算」获得终结能量",
+              "LocalizedString": "「致约清算」获得终结能量"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
+              "Key": "GA_Kuhara_UltraSkill_3_num",
+              "SourceString": "{0}",
+              "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
           }
         ],
         "bStolenAbility": false,
@@ -16370,8 +16521,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
               "Key": "GA_Chiichan_Melee3_des",
-              "SourceString": "小吱滞空时点按普攻，落地后造成1次范围性的<Guang>光属性异能伤害</>，并获得一定数量的<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>。伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "小吱滞空时点按普攻，落地后造成1次范围性的<Guang>光属性异能伤害</>，并获得一定数量的<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>。伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "小吱滞空时点按普攻，落地后造成1次范围性的<Guang>光属性异能伤害</>，并获得一定数量的<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>。伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "小吱滞空时点按普攻，落地后造成1次范围性的<Guang>光属性异能伤害</>，并获得一定数量的<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>。伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
@@ -16844,14 +16995,14 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
               "Key": "GA_Chiichan_Skill_des",
-              "SourceString": "多、多多、多多多益善。小吱的变轨技能可累积使用次数，至多可累积3次。\r\n\r\n点按变轨技能时，将消耗1次技能使用次数，释放「变轨技能：空仓」，对目标造成1次光属性异能伤害。连续点按变轨技能时，将依据点按次数消耗对应的技能使用次数，并依次释放「变轨技能：空仓」、「变轨技能：半仓」、「变轨技能：满仓」，至多可连续释放3次。\r\n当小吱处于<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes2\">「盈余」</>状态时，点按释放「变轨技能：粉爪在上原则」，每段变轨技能将依据小吱持有的<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>数对目标额外造成<Guang>光属性异能伤害</>。\r\n\r\n长按变轨技能时，将消耗2次技能使用次数，释放「变轨技能：空仓」和「变轨技能：半仓」。「变轨技能：半仓」攻击期间将持续消耗<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>，并依据消耗的「金谷」数对目标造成额外的连续<Guang>光属性异能伤害</>。「变轨技能：半仓」攻击持续时间结束时，将消耗小吱持有的全部「金谷」（包含<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes3\">「负债」</>状态下的全部<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes4\">「金谷贷款」</>）。可再次点按变轨技能，消耗1次技能使用次数，提前结束「变轨技能：半仓」，不再消耗「金谷」并释放「变轨技能：满仓」。持续长按变轨技能时，将消耗3次技能使用次数，消耗小吱持有的全部「金谷」（包含「负债」状态下的全部「金谷贷款」），并依次释放「变轨技能：空仓」、「变轨技能：半仓」、「变轨技能：满仓」。\r\n当小吱处于「盈余」状态时，长按释放「变轨技能：粉爪在上原则」，将依据小吱持有的「金谷」数使得「变轨技能：空仓」对目标额外造成<Guang>光属性异能伤害</>。",
-              "LocalizedString": "多、多多、多多多益善。小吱的变轨技能可累积使用次数，至多可累积3次。\r\n\r\n点按变轨技能时，将消耗1次技能使用次数，释放「变轨技能：空仓」，对目标造成1次光属性异能伤害。连续点按变轨技能时，将依据点按次数消耗对应的技能使用次数，并依次释放「变轨技能：空仓」、「变轨技能：半仓」、「变轨技能：满仓」，至多可连续释放3次。\r\n当小吱处于<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes2\">「盈余」</>状态时，点按释放「变轨技能：粉爪在上原则」，每段变轨技能将依据小吱持有的<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>数对目标额外造成<Guang>光属性异能伤害</>。\r\n\r\n长按变轨技能时，将消耗2次技能使用次数，释放「变轨技能：空仓」和「变轨技能：半仓」。「变轨技能：半仓」攻击期间将持续消耗<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>，并依据消耗的「金谷」数对目标造成额外的连续<Guang>光属性异能伤害</>。「变轨技能：半仓」攻击持续时间结束时，将消耗小吱持有的全部「金谷」（包含<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes3\">「负债」</>状态下的全部<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes4\">「金谷贷款」</>）。可再次点按变轨技能，消耗1次技能使用次数，提前结束「变轨技能：半仓」，不再消耗「金谷」并释放「变轨技能：满仓」。持续长按变轨技能时，将消耗3次技能使用次数，消耗小吱持有的全部「金谷」（包含「负债」状态下的全部「金谷贷款」），并依次释放「变轨技能：空仓」、「变轨技能：半仓」、「变轨技能：满仓」。\r\n当小吱处于「盈余」状态时，长按释放「变轨技能：粉爪在上原则」，将依据小吱持有的「金谷」数使得「变轨技能：空仓」对目标额外造成<Guang>光属性异能伤害</>。"
+              "SourceString": "多、多多、多多多益善。小吱的变轨技能可累积使用次数，至多可累积3次。\r\n\r\n点按变轨技能时，将消耗1次技能使用次数，释放「变轨技能：空仓」，对目标造成1次光属性异能伤害。连续点按变轨技能时，将依据点按次数消耗对应的技能使用次数，并依次释放「变轨技能：空仓」、「变轨技能：半仓」、「变轨技能：满仓」，至多可连续释放3次。\r\n当小吱处于<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes2\">「盈余」</>状态时，点按释放「变轨技能：粉爪在上原则」，每段变轨技能将依据小吱持有的<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>数对目标额外造成<Guang>光属性异能伤害</>，伤害不可暴击。\r\n\r\n长按变轨技能时，将消耗2次技能使用次数，释放「变轨技能：空仓」和「变轨技能：半仓」。「变轨技能：半仓」攻击期间将持续消耗<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>，并依据消耗的「金谷」数对目标造成额外的连续<Guang>光属性异能伤害</>，伤害不可暴击。「变轨技能：半仓」攻击持续时间结束时，将消耗小吱持有的全部「金谷」（包含<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes3\">「负债」</>状态下的全部<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes4\">「金谷贷款」</>）。可再次点按变轨技能，消耗1次技能使用次数，提前结束「变轨技能：半仓」，不再消耗「金谷」并释放「变轨技能：满仓」。持续长按变轨技能时，将消耗3次技能使用次数，消耗小吱持有的全部「金谷」（包含「负债」状态下的全部「金谷贷款」），并依次释放「变轨技能：空仓」、「变轨技能：半仓」、「变轨技能：满仓」。\r\n当小吱处于「盈余」状态时，长按释放「变轨技能：粉爪在上原则」，将依据小吱持有的「金谷」数使得「变轨技能：空仓」对目标额外造成<Guang>光属性异能伤害</>，伤害不可暴击。",
+              "LocalizedString": "多、多多、多多多益善。小吱的变轨技能可累积使用次数，至多可累积3次。\r\n\r\n点按变轨技能时，将消耗1次技能使用次数，释放「变轨技能：空仓」，对目标造成1次光属性异能伤害。连续点按变轨技能时，将依据点按次数消耗对应的技能使用次数，并依次释放「变轨技能：空仓」、「变轨技能：半仓」、「变轨技能：满仓」，至多可连续释放3次。\r\n当小吱处于<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes2\">「盈余」</>状态时，点按释放「变轨技能：粉爪在上原则」，每段变轨技能将依据小吱持有的<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>数对目标额外造成<Guang>光属性异能伤害</>，伤害不可暴击。\r\n\r\n长按变轨技能时，将消耗2次技能使用次数，释放「变轨技能：空仓」和「变轨技能：半仓」。「变轨技能：半仓」攻击期间将持续消耗<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>，并依据消耗的「金谷」数对目标造成额外的连续<Guang>光属性异能伤害</>，伤害不可暴击。「变轨技能：半仓」攻击持续时间结束时，将消耗小吱持有的全部「金谷」（包含<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes3\">「负债」</>状态下的全部<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes4\">「金谷贷款」</>）。可再次点按变轨技能，消耗1次技能使用次数，提前结束「变轨技能：半仓」，不再消耗「金谷」并释放「变轨技能：满仓」。持续长按变轨技能时，将消耗3次技能使用次数，消耗小吱持有的全部「金谷」（包含「负债」状态下的全部「金谷贷款」），并依次释放「变轨技能：空仓」、「变轨技能：半仓」、「变轨技能：满仓」。\r\n当小吱处于「盈余」状态时，长按释放「变轨技能：粉爪在上原则」，将依据小吱持有的「金谷」数使得「变轨技能：空仓」对目标额外造成<Guang>光属性异能伤害</>，伤害不可暴击。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
               "Key": "GA_Chiichan_Skill_des_tidy",
-              "SourceString": "变轨技能最多可累积使用3次。\r\n\r\n点按时，可连续释放3段技能并消耗对应的技能次数，对目标造成基于当前金谷数的额外<Guang>光属性异能伤害</>。\r\n\r\n长按时，可连续释放3段技能并消耗对应的技能次数，并在第二段时持续消耗<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>，基于当前金谷数量提升技能<Guang>光属性异能伤害</>。",
-              "LocalizedString": "变轨技能最多可累积使用3次。\r\n\r\n点按时，可连续释放3段技能并消耗对应的技能次数，对目标造成基于当前金谷数的额外<Guang>光属性异能伤害</>。\r\n\r\n长按时，可连续释放3段技能并消耗对应的技能次数，并在第二段时持续消耗<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>，基于当前金谷数量提升技能<Guang>光属性异能伤害</>。"
+              "SourceString": "变轨技能最多可累积使用3次。\r\n\r\n点按时，可连续释放3段技能并消耗对应的技能次数，对目标造成基于当前金谷数的额外<Guang>光属性异能伤害</>，伤害不可暴击。\r\n\r\n长按时，可连续释放3段技能并消耗对应的技能次数，并在第二段时持续消耗<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>，依据消耗的「金谷」数对目标造成额外的连续<Guang>光属性异能伤害</>，伤害不可暴击。",
+              "LocalizedString": "变轨技能最多可累积使用3次。\r\n\r\n点按时，可连续释放3段技能并消耗对应的技能次数，对目标造成基于当前金谷数的额外<Guang>光属性异能伤害</>，伤害不可暴击。\r\n\r\n长按时，可连续释放3段技能并消耗对应的技能次数，并在第二段时持续消耗<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>，依据消耗的「金谷」数对目标造成额外的连续<Guang>光属性异能伤害</>，伤害不可暴击。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -17174,14 +17325,14 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
               "Key": "GA_Chiichan_UltraSkill_des",
-              "SourceString": "事已至此，拉满杠杆吧！小吱投出「黑糖波波」撞击敌人，立刻造成1次范围性的<Guang>光属性异能伤害</>，并进入「金谷市场」，持续7秒。\r\n释放「极轨终结：零和博弈」后，剩余的全部<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes4\">「金谷贷款」</>都将转化成<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>，并进入<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes2\">「盈余」</>状态。小吱将全部的「金谷」投入「金谷市场」，并在点按使用「变轨技能：粉爪至上原则」时，根据当前的<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes5\">「金谷K线」</>波动参与<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes6\">「谷价结算」</>，获得对应的「金谷」数；若长按使用「变轨技能：粉爪至上原则」，则仅根据按下时的「金谷K线」值进行一次「谷价结算」。\r\n当「金谷市场」持续时间结束或切换角色时，小吱将退出「金谷市场」，当前持有全部的「金谷」将优先偿还「金谷贷款」。\r\n小吱处于<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes3\">「负债」</>状态且「金谷贷款」不为0时，也可进入「金谷市场」。",
-              "LocalizedString": "事已至此，拉满杠杆吧！小吱投出「黑糖波波」撞击敌人，立刻造成1次范围性的<Guang>光属性异能伤害</>，并进入「金谷市场」，持续7秒。\r\n释放「极轨终结：零和博弈」后，剩余的全部<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes4\">「金谷贷款」</>都将转化成<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>，并进入<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes2\">「盈余」</>状态。小吱将全部的「金谷」投入「金谷市场」，并在点按使用「变轨技能：粉爪至上原则」时，根据当前的<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes5\">「金谷K线」</>波动参与<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes6\">「谷价结算」</>，获得对应的「金谷」数；若长按使用「变轨技能：粉爪至上原则」，则仅根据按下时的「金谷K线」值进行一次「谷价结算」。\r\n当「金谷市场」持续时间结束或切换角色时，小吱将退出「金谷市场」，当前持有全部的「金谷」将优先偿还「金谷贷款」。\r\n小吱处于<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes3\">「负债」</>状态且「金谷贷款」不为0时，也可进入「金谷市场」。"
+              "SourceString": "事已至此，拉满杠杆吧！小吱投出「黑糖波波」撞击敌人，立刻造成1次范围性的<Guang>光属性异能伤害</>，并进入「金谷市场」，持续7秒，期间第1次「谷价结算」的伤害必定暴击。\r\n释放「极轨终结：零和博弈」后，剩余的全部<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes4\">「金谷贷款」</>都将转化成<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>，并进入<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes2\">「盈余」</>状态。小吱将全部的「金谷」投入「金谷市场」，并在点按使用「变轨技能：粉爪至上原则」时，根据当前的<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes5\">「金谷K线」</>波动参与<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes6\">「谷价结算」</>，获得对应的「金谷」数；若长按使用「变轨技能：粉爪至上原则」，则仅根据按下时的「金谷K线」值进行一次「谷价结算」。\r\n当「金谷市场」持续时间结束时，小吱将退出「金谷市场」，当前持有全部的「金谷」将优先偿还「金谷贷款」。\r\n小吱处于<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes3\">「负债」</>状态且「金谷贷款」不为0时，也可进入「金谷市场」。",
+              "LocalizedString": "事已至此，拉满杠杆吧！小吱投出「黑糖波波」撞击敌人，立刻造成1次范围性的<Guang>光属性异能伤害</>，并进入「金谷市场」，持续7秒，期间第1次「谷价结算」的伤害必定暴击。\r\n释放「极轨终结：零和博弈」后，剩余的全部<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes4\">「金谷贷款」</>都将转化成<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes1\">「金谷」</>，并进入<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes2\">「盈余」</>状态。小吱将全部的「金谷」投入「金谷市场」，并在点按使用「变轨技能：粉爪至上原则」时，根据当前的<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes5\">「金谷K线」</>波动参与<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes6\">「谷价结算」</>，获得对应的「金谷」数；若长按使用「变轨技能：粉爪至上原则」，则仅根据按下时的「金谷K线」值进行一次「谷价结算」。\r\n当「金谷市场」持续时间结束时，小吱将退出「金谷市场」，当前持有全部的「金谷」将优先偿还「金谷贷款」。\r\n小吱处于<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes3\">「负债」</>状态且「金谷贷款」不为0时，也可进入「金谷市场」。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
               "Key": "GA_Chiichan_UltraSkill_des_tidy",
-              "SourceString": "造成<Guang>光属性异能伤害</>，并进入「金谷市场」，持续7秒。立刻获得<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes4\">「金谷贷款」</>。\r\n\r\n点按变轨技能，根据按下时的<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes5\">「金谷K线」</>值，结算当前金谷数量，并在变轨技能进入下一段后，可再次点按变轨技能进行<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes6\">「谷价结算」</>。\r\n\r\n长按变轨技能，根据按下时的金谷K线值，结算当前金谷数量，并在变轨技能进入下一段时，不进行谷价结算。",
-              "LocalizedString": "造成<Guang>光属性异能伤害</>，并进入「金谷市场」，持续7秒。立刻获得<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes4\">「金谷贷款」</>。\r\n\r\n点按变轨技能，根据按下时的<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes5\">「金谷K线」</>值，结算当前金谷数量，并在变轨技能进入下一段后，可再次点按变轨技能进行<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes6\">「谷价结算」</>。\r\n\r\n长按变轨技能，根据按下时的金谷K线值，结算当前金谷数量，并在变轨技能进入下一段时，不进行谷价结算。"
+              "SourceString": "造成<Guang>光属性异能伤害</>，并进入「金谷市场」，持续7秒，期间第1次「谷价结算」的伤害必定暴击。立刻获得<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes4\">「金谷贷款」</>。\r\n\r\n点按变轨技能，根据按下时的<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes5\">「金谷K线」</>值，结算当前金谷数量，并在变轨技能进入下一段后，可再次点按变轨技能进行<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes6\">「谷价结算」</>。\r\n\r\n长按变轨技能，根据按下时的金谷K线值，结算当前金谷数量，并在变轨技能进入下一段时，不进行谷价结算。",
+              "LocalizedString": "造成<Guang>光属性异能伤害</>，并进入「金谷市场」，持续7秒，期间第1次「谷价结算」的伤害必定暴击。立刻获得<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes4\">「金谷贷款」</>。\r\n\r\n点按变轨技能，根据按下时的<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes5\">「金谷K线」</>值，结算当前金谷数量，并在变轨技能进入下一段后，可再次点按变轨技能进行<hot textstyle=\"TextEXPL\" param=\"nouns&ChiichanRes6\">「谷价结算」</>。\r\n\r\n长按变轨技能，根据按下时的金谷K线值，结算当前金谷数量，并在变轨技能进入下一段时，不进行谷价结算。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -17399,14 +17550,14 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
               "Key": "GA_Chiichan_Passive1_des",
-              "SourceString": "<TextHLT>「盈蓄」强化</>：前台角色获得的充能值提升4点。",
-              "LocalizedString": "<TextHLT>「盈蓄」强化</>：前台角色获得的充能值提升4点。"
+              "SourceString": "<TextHLT>「盈蓄」强化</>：前台角色获得的终结能量提升4点。",
+              "LocalizedString": "<TextHLT>「盈蓄」强化</>：前台角色获得的终结能量提升4点。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
               "Key": "GA_Chiichan_Passive1_des_tidy",
-              "SourceString": "<TextHLT>「盈蓄」强化</>：前台角色获得的充能值提升4点。",
-              "LocalizedString": "<TextHLT>「盈蓄」强化</>：前台角色获得的充能值提升4点。"
+              "SourceString": "<TextHLT>「盈蓄」强化</>：前台角色获得的终结能量提升4点。",
+              "LocalizedString": "<TextHLT>「盈蓄」强化</>：前台角色获得的终结能量提升4点。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -17464,14 +17615,14 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
               "Key": "GA_Chiichan_Passive2_des",
-              "SourceString": "囤积癖：小吱在前台时，同队其他角色无法获得充能，她自身充能效率提升20%。",
-              "LocalizedString": "囤积癖：小吱在前台时，同队其他角色无法获得充能，她自身充能效率提升20%。"
+              "SourceString": "小吱在前台时，自身充能效率提升20%。",
+              "LocalizedString": "小吱在前台时，自身充能效率提升20%。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
               "Key": "GA_Chiichan_Passive2_des_tidy",
-              "SourceString": "囤积癖：小吱在前台时，同队其他角色无法获得充能，她自身充能效率提升20%。",
-              "LocalizedString": "囤积癖：小吱在前台时，同队其他角色无法获得充能，她自身充能效率提升20%。"
+              "SourceString": "小吱在前台时，自身充能效率提升20%。",
+              "LocalizedString": "小吱在前台时，自身充能效率提升20%。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -17632,8 +17783,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Daffodill_SkillDes.Daffodill_SkillDes",
               "Key": "GA_Daffodill_Melee5_des",
-              "SourceString": "达芙蒂尔滞空时挥动武器，并迅速下落冲击地面，落地后造成1次范围性的<An>暗属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "达芙蒂尔滞空时挥动武器，并迅速下落冲击地面，落地后造成1次范围性的<An>暗属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "达芙蒂尔滞空时挥动武器，并迅速下落冲击地面，落地后造成1次范围性的<An>暗属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "达芙蒂尔滞空时挥动武器，并迅速下落冲击地面，落地后造成1次范围性的<An>暗属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Daffodill_SkillDes.Daffodill_SkillDes",
@@ -18555,14 +18706,14 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Daffodill_SkillDes.Daffodill_SkillDes",
               "Key": "GA_daffodill_Passive_1_des",
-              "SourceString": "<TextHLT>「失谐」强化</>：当目标进入「失谐」状态时，额外削减其10%倾陷值上限，持续30秒。当目标脱离战斗时，其倾陷值上限将恢复原状。多次触发「失谐」强化，削减效果可叠加，最高削减量为目标初始倾陷值上限的30%。",
-              "LocalizedString": "<TextHLT>「失谐」强化</>：当目标进入「失谐」状态时，额外削减其10%倾陷值上限，持续30秒。当目标脱离战斗时，其倾陷值上限将恢复原状。多次触发「失谐」强化，削减效果可叠加，最高削减量为目标初始倾陷值上限的30%。"
+              "SourceString": "<TextHLT>「失谐」强化</>：当目标进入「失谐」状态时，额外削减其10%倾陷值上限，持续30秒。当目标脱离战斗时，其倾陷值上限将恢复原状。多次触发「失谐」强化，削减效果可叠加，最高削减量为目标初始倾陷值上限的20%。",
+              "LocalizedString": "<TextHLT>「失谐」强化</>：当目标进入「失谐」状态时，额外削减其10%倾陷值上限，持续30秒。当目标脱离战斗时，其倾陷值上限将恢复原状。多次触发「失谐」强化，削减效果可叠加，最高削减量为目标初始倾陷值上限的20%。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Daffodill_SkillDes.Daffodill_SkillDes",
               "Key": "GA_daffodill_Passive_1_des",
-              "SourceString": "<TextHLT>「失谐」强化</>：当目标进入「失谐」状态时，额外削减其10%倾陷值上限，持续30秒。当目标脱离战斗时，其倾陷值上限将恢复原状。多次触发「失谐」强化，削减效果可叠加，最高削减量为目标初始倾陷值上限的30%。",
-              "LocalizedString": "<TextHLT>「失谐」强化</>：当目标进入「失谐」状态时，额外削减其10%倾陷值上限，持续30秒。当目标脱离战斗时，其倾陷值上限将恢复原状。多次触发「失谐」强化，削减效果可叠加，最高削减量为目标初始倾陷值上限的30%。"
+              "SourceString": "<TextHLT>「失谐」强化</>：当目标进入「失谐」状态时，额外削减其10%倾陷值上限，持续30秒。当目标脱离战斗时，其倾陷值上限将恢复原状。多次触发「失谐」强化，削减效果可叠加，最高削减量为目标初始倾陷值上限的20%。",
+              "LocalizedString": "<TextHLT>「失谐」强化</>：当目标进入「失谐」状态时，额外削减其10%倾陷值上限，持续30秒。当目标脱离战斗时，其倾陷值上限将恢复原状。多次触发「失谐」强化，削减效果可叠加，最高削减量为目标初始倾陷值上限的20%。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -18620,14 +18771,14 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Daffodill_SkillDes.Daffodill_SkillDes",
               "Key": "GA_daffodill_Passive_2_des",
-              "SourceString": "达芙蒂尔释放<hot textstyle=\"TextEXPL\" param=\"nouns&DaffodillQTE\">「幻影移行」</>时，自身防御力提升50%，持续5秒。",
-              "LocalizedString": "达芙蒂尔释放<hot textstyle=\"TextEXPL\" param=\"nouns&DaffodillQTE\">「幻影移行」</>时，自身防御力提升50%，持续5秒。"
+              "SourceString": "<hot textstyle=\"TextEXPL\" param=\"nouns&DaffodillQTE\">「幻影移行」</>造成的伤害提升80%。",
+              "LocalizedString": "<hot textstyle=\"TextEXPL\" param=\"nouns&DaffodillQTE\">「幻影移行」</>造成的伤害提升80%。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Daffodill_SkillDes.Daffodill_SkillDes",
               "Key": "GA_daffodill_Passive_2_des",
-              "SourceString": "达芙蒂尔释放<hot textstyle=\"TextEXPL\" param=\"nouns&DaffodillQTE\">「幻影移行」</>时，自身防御力提升50%，持续5秒。",
-              "LocalizedString": "达芙蒂尔释放<hot textstyle=\"TextEXPL\" param=\"nouns&DaffodillQTE\">「幻影移行」</>时，自身防御力提升50%，持续5秒。"
+              "SourceString": "<hot textstyle=\"TextEXPL\" param=\"nouns&DaffodillQTE\">「幻影移行」</>造成的伤害提升80%。",
+              "LocalizedString": "<hot textstyle=\"TextEXPL\" param=\"nouns&DaffodillQTE\">「幻影移行」</>造成的伤害提升80%。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -18756,8 +18907,8 @@
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
               "Key": "GA_Haniel_Melee2_des_short",
-              "SourceString": "造成<Hun>魂属性异能伤害</>，最多可弹射<NumGreen>6</>次。",
-              "LocalizedString": "造成<Hun>魂属性异能伤害</>，最多可弹射<NumGreen>6</>次。"
+              "SourceString": "造成<Hun>魂属性异能伤害</>，最多可弹射<NumGreen>4</>次。",
+              "LocalizedString": "造成<Hun>魂属性异能伤害</>，最多可弹射<NumGreen>4</>次。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -18775,8 +18926,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
               "Key": "GA_Haniel_Melee3_des",
-              "SourceString": "哈尼娅滞空时点按普攻，落地后造成<NumGreen>1</>次范围性的<Hun>魂属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
-              "LocalizedString": "哈尼娅滞空时点按普攻，落地后造成<NumGreen>1</>次范围性的<Hun>魂属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。"
+              "SourceString": "哈尼娅滞空时点按普攻，落地后造成<NumGreen>1</>次范围性的<Hun>魂属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "哈尼娅滞空时点按普攻，落地后造成<NumGreen>1</>次范围性的<Hun>魂属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
@@ -18800,14 +18951,14 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
               "Key": "GA_Haniel_PerfectEvade_des",
-              "SourceString": "极限闪避后使用「盖罗塞克特术法」触发。这么慢的话会被顾客投诉的哦？哈尼娅闪身躲过攻击，并造成<NumGreen>1</>次<Hun>魂属性异能伤害</>，并额外扣除一定倾陷值，可立即释放<NumGreen>1</>次满蓄力的「超异科魔法炮」",
-              "LocalizedString": "极限闪避后使用「盖罗塞克特术法」触发。这么慢的话会被顾客投诉的哦？哈尼娅闪身躲过攻击，并造成<NumGreen>1</>次<Hun>魂属性异能伤害</>，并额外扣除一定倾陷值，可立即释放<NumGreen>1</>次满蓄力的「超异科魔法炮」"
+              "SourceString": "触发极限闪避后，使用「普通攻击：盖罗塞克特术法」发动。这么慢的话会被顾客投诉的哦？哈尼娅闪身躲过攻击，并立即向敌人发射一枚飞弹，造成<NumGreen>1</>次<Hun>魂属性异能伤害</>，并额外扣除一定倾陷值。",
+              "LocalizedString": "触发极限闪避后，使用「普通攻击：盖罗塞克特术法」发动。这么慢的话会被顾客投诉的哦？哈尼娅闪身躲过攻击，并立即向敌人发射一枚飞弹，造成<NumGreen>1</>次<Hun>魂属性异能伤害</>，并额外扣除一定倾陷值。"
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
               "Key": "GA_Haniel_PerfectEvade_des_short",
-              "SourceString": "造成<NumGreen>1</>次<Hun>魂属性异能伤害</>，可立即释放满蓄力的「超异科魔法炮」",
-              "LocalizedString": "造成<NumGreen>1</>次<Hun>魂属性异能伤害</>，可立即释放满蓄力的「超异科魔法炮」"
+              "SourceString": "造成<NumGreen>1</>次<Hun>魂属性异能伤害</>。",
+              "LocalizedString": "造成<NumGreen>1</>次<Hun>魂属性异能伤害</>。"
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -19586,8 +19737,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
               "Key": "GA_Haniel_Passive_1_des",
-              "SourceString": "<TextHLT>「黯星」强化</>：「黯星」状态结束时，全队角色以200%的汲取效率，从目标汲取哈尼娅8%基础攻击力并加在自身攻击力上，累计汲取不超过哈尼娅16%的基础攻击力，且至多不超过敌人20%的初始攻击力。",
-              "LocalizedString": "<TextHLT>「黯星」强化</>：「黯星」状态结束时，全队角色以200%的汲取效率，从目标汲取哈尼娅8%基础攻击力并加在自身攻击力上，累计汲取不超过哈尼娅16%的基础攻击力，且至多不超过敌人20%的初始攻击力。"
+              "SourceString": "<TextHLT>「黯星」强化</>：「黯星」状态结束时，全队角色从目标汲取攻击力。目标损失相当于哈尼娅4%基础攻击力的攻击力，全队角色获得哈尼娅8%基础攻击力。累计汲取不超过哈尼娅16%基础攻击力，目标损失不超过20%初始攻击力。离开战斗状态时还原双方属性。",
+              "LocalizedString": "<TextHLT>「黯星」强化</>：「黯星」状态结束时，全队角色从目标汲取攻击力。目标损失相当于哈尼娅4%基础攻击力的攻击力，全队角色获得哈尼娅8%基础攻击力。累计汲取不超过哈尼娅16%基础攻击力，目标损失不超过20%初始攻击力。离开战斗状态时还原双方属性。"
             },
             "ShortDescription": {
               "CultureInvariantString": null
@@ -19648,8 +19799,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
               "Key": "GA_Haniel_Passive_2_des",
-              "SourceString": "当在场角色触发<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>时，可以为哈尼娅累积<NumGreen>1</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>，用以提高「超异科魔法炮」的弹射次数。每触发<NumGreen>1</>次<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>使得哈尼娅获得<NumGreen>1</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。\r\n当哈尼娅处于「超异科王牌」状态时，每触发<NumGreen>1</>次<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>使得哈尼娅获得<NumGreen>2</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。\r\n通过这种方式至多累积<NumGreen>5</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。",
-              "LocalizedString": "当在场角色触发<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>时，可以为哈尼娅累积<NumGreen>1</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>，用以提高「超异科魔法炮」的弹射次数。每触发<NumGreen>1</>次<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>使得哈尼娅获得<NumGreen>1</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。\r\n当哈尼娅处于「超异科王牌」状态时，每触发<NumGreen>1</>次<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>使得哈尼娅获得<NumGreen>2</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。\r\n通过这种方式至多累积<NumGreen>5</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。"
+              "SourceString": "当在场角色触发<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>时，可以为哈尼娅累积<NumGreen>1</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>，用以提高「超异科魔法炮」的弹射次数。每触发<NumGreen>1</>次<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>使得哈尼娅获得<NumGreen>1</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。\r\n当哈尼娅处于「超异科王牌」状态时，每触发<NumGreen>1</>次<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>使得哈尼娅获得<NumGreen>2</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。\r\n通过这种方式至多累积<NumGreen>4</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。",
+              "LocalizedString": "当在场角色触发<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>时，可以为哈尼娅累积<NumGreen>1</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>，用以提高「超异科魔法炮」的弹射次数。每触发<NumGreen>1</>次<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>使得哈尼娅获得<NumGreen>1</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。\r\n当哈尼娅处于「超异科王牌」状态时，每触发<NumGreen>1</>次<hot textstyle=\"TextEXPL\" param=\"nouns&HanielUltraSkill\">「合奏」</>使得哈尼娅获得<NumGreen>2</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。\r\n通过这种方式至多累积<NumGreen>4</>层<hot textstyle=\"TextEXPL\" param=\"nouns&HanielPassive2\">「主角光环」</>。"
             },
             "ShortDescription": {
               "CultureInvariantString": null
@@ -19681,6 +19832,3170 @@
         ],
         "Icon": {
           "AssetPathName": "/Game/UI/UI_Icon/Skill/Haniel_Pas2.Haniel_Pas2",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Oneiroi_Melee": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+          "Key": "GA_Oneiroi_Melee_name",
+          "SourceString": "1",
+          "LocalizedString": "1"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Melee1_name",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Melee1_des",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Melee_des_tidy",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Melee2_name",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Melee2_des",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Melee_des_tidy",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Melee3_name",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Melee3_des",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Melee_des_tidy",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Melee4_name",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Melee4_des",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Melee_des_tidy",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_PerfectEvade_name",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_PerfectEvade_des",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_PerfectEvade_des_tidy",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Melee_background",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Haniel_Melee.Haniel_Melee",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Haniel_Melee1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Melee_1_des",
+              "SourceString": "一段伤害倍率",
+              "LocalizedString": "一段伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Melee_1_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Haniel_Melee2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Melee_2_des",
+              "SourceString": "二段伤害倍率",
+              "LocalizedString": "二段伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Melee_2_num",
+              "SourceString": "{0}%*2",
+              "LocalizedString": "{0}%*2"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Haniel_Melee3_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Melee_3_des",
+              "SourceString": "三段伤害倍率",
+              "LocalizedString": "三段伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Melee_3_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Haniel_Melee4_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Melee_4_des",
+              "SourceString": "四段伤害倍率",
+              "LocalizedString": "四段伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Melee_4_num",
+              "SourceString": "{0}%*4",
+              "LocalizedString": "{0}%*4"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Haniel_Melee5_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Melee_5_des",
+              "SourceString": "五段伤害倍率",
+              "LocalizedString": "五段伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Melee_1_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Haniel_Airattack_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_AirAttack_1_des",
+              "SourceString": "下落伤害倍率",
+              "LocalizedString": "下落伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_AirAttack_1_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Haniel_Branch_Damage1"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Branch_1_des",
+              "SourceString": "分支伤害倍率",
+              "LocalizedString": "分支伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Branch_1_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Haniel020_PerfectEvadeAttack_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "Haniel_PerfectEvade_dmg_des",
+              "SourceString": "极限反击倍率",
+              "LocalizedString": "极限反击倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "Haniel_PerfectEvade_dmg_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Melee_Heterochrome_Show",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Melee_Heterochrome_des",
+              "SourceString": "环合值",
+              "LocalizedString": "环合值"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Melee_Heterochrome_num",
+              "SourceString": "{0}",
+              "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          }
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Oneiroi_Skill": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+          "Key": "GA_Oneiroi_Skill_name",
+          "SourceString": "1",
+          "LocalizedString": "1"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Skill_name",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Skill_des",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Skill_des_tidy",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Skill_background",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Haniel_Skill.Haniel_Skill",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Haniel_Skill1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Skill_1_des",
+              "SourceString": "伤害倍率",
+              "LocalizedString": "伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Skill_1_num",
+              "SourceString": "{0}%*2",
+              "LocalizedString": "{0}%*2"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Haniel_Skill2_Damage",
+                "None"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Skill_2_des",
+              "SourceString": "扩散伤害倍率",
+              "LocalizedString": "扩散伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Skill_2_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Haniel_Skill_AtkAdd",
+                  "bIsPercent": true
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Skill_3_des",
+              "SourceString": "攻击力加成比例",
+              "LocalizedString": "攻击力加成比例"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Skill_3_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Haniel_Skill_ActorDuaration",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Skill_4_des",
+              "SourceString": "持续时间",
+              "LocalizedString": "持续时间"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Skill_4_num",
+              "SourceString": "{0}秒",
+              "LocalizedString": "{0}秒"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "SkillCDName": "GA_Haniel_Skill"
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Skill_cooldown_des",
+              "SourceString": "冷却时间",
+              "LocalizedString": "冷却时间"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Skill_cooldown_num",
+              "SourceString": "{0}秒",
+              "LocalizedString": "{0}秒"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Skill_Heterochrome_Show",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Skill_Heterochrome_des",
+              "SourceString": "环合值",
+              "LocalizedString": "环合值"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_Skill_Heterochrome_num",
+              "SourceString": "{0}",
+              "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          }
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Oneiroi_QTE": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+          "Key": "GA_Oneiroi_QTE_name",
+          "SourceString": "1",
+          "LocalizedString": "1"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_QTE_des",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_QTE_des_tidy",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Haniel_QTE.Haniel_QTE",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Haniel_QTE_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_QTE_dmg_des",
+              "SourceString": "伤害倍率",
+              "LocalizedString": "伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_QTE_dmg_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          }
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Oneiroi_UltraSkill": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+          "Key": "GA_Oneiroi_UltraSkill_name",
+          "SourceString": "1",
+          "LocalizedString": "1"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_UltraSkill_des",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_UltraSkill_des_tidy",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_UltraSkill_background",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Haniel_UltraSkill.Haniel_UltraSkill",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Haniel_Ultraskill1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_UltraSkill_1_des",
+              "SourceString": "伤害倍率",
+              "LocalizedString": "伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_UltraSkill_1_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Haniel_Ultraskill2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_UltraSkill_2_des",
+              "SourceString": "扩散伤害倍率",
+              "LocalizedString": "扩散伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_UltraSkill_2_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Haniel_UltraSkill_Extra_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_UltraSkill_3_des",
+              "SourceString": "强化攻击伤害倍率",
+              "LocalizedString": "强化攻击伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_UltraSkill_3_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Haniel_UltraSkill_AtkAdd",
+                  "bIsPercent": true
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_UltraSkill_5_des",
+              "SourceString": "攻击力加成比例",
+              "LocalizedString": "攻击力加成比例"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_UltraSkill_5_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Haniel_UltraSkillDuaration",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_UltraSkill_4_des",
+              "SourceString": "持续时间",
+              "LocalizedString": "持续时间"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_UltraSkill_4_num",
+              "SourceString": "{0}秒",
+              "LocalizedString": "{0}秒"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "SkillCDName": "GA_Haniel_UltraSkill"
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_UltraSkill_cooldown_des",
+              "SourceString": "冷却时间",
+              "LocalizedString": "冷却时间"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_UltraSkill_cooldown_num",
+              "SourceString": "{0}秒",
+              "LocalizedString": "{0}秒"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "SkillCostName": "GA_Haniel_UltraSkill"
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_UltraSkill_ChargeCost_des",
+              "SourceString": "消耗终结能量",
+              "LocalizedString": "消耗终结能量"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
+              "Key": "GA_Haniel_UltraSkill_ChargeCost_num",
+              "SourceString": "{0}",
+              "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          }
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Buff_Oneiroi075_Passive1": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+          "Key": "GA_Oneiroi_Passive_1_name",
+          "SourceString": "1",
+          "LocalizedString": "1"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Passive_1_des",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Passive_1_background",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Haniel_Pas1.Haniel_Pas1",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Buff_Oneiroi075_Passive2": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+          "Key": "GA_Oneiroi_Passive_2_name",
+          "SourceString": "1",
+          "LocalizedString": "1"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Passive_2_des",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Passive_2_background",
+              "SourceString": "1",
+              "LocalizedString": "1"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Haniel_Pas1.Haniel_Pas1",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Mitsuki_Melee": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_Melee_name",
+          "SourceString": "清唱",
+          "LocalizedString": "清唱"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee1_name",
+              "SourceString": "<Title>普通攻击：连音</>",
+              "LocalizedString": "<Title>普通攻击：连音</>"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee1_des",
+              "SourceString": "要唱得流畅而自然！海月挥动指挥棒，进行至多4段的连续攻击，造成<Hun>魂属性异能伤害</>。",
+              "LocalizedString": "要唱得流畅而自然！海月挥动指挥棒，进行至多4段的连续攻击，造成<Hun>魂属性异能伤害</>。"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee_des_tidy",
+              "SourceString": "造成<Hun>魂属性异能伤害</>。",
+              "LocalizedString": "造成<Hun>魂属性异能伤害</>。"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee2_name",
+              "SourceString": "<Title>普通攻击：顿音</>",
+              "LocalizedString": "<Title>普通攻击：顿音</>"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee2_des",
+              "SourceString": "要唱得响亮而饱满！移动时长按闪避，海月可乘坐水母，持续高速移动。周围存在目标时，每隔一段时间生成水母弹，攻击范围内的随机目标，造成<Hun>魂属性异能伤害</>。\r\n在此状态下，海月会使用特殊闪避动作，「极限闪避反击：切分节奏」变为自动发射四枚水母弹。\r\n剩余一定耐力值后，自动退出该状态。",
+              "LocalizedString": "要唱得响亮而饱满！移动时长按闪避，海月可乘坐水母，持续高速移动。周围存在目标时，每隔一段时间生成水母弹，攻击范围内的随机目标，造成<Hun>魂属性异能伤害</>。\r\n在此状态下，海月会使用特殊闪避动作，「极限闪避反击：切分节奏」变为自动发射四枚水母弹。\r\n剩余一定耐力值后，自动退出该状态。"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee2_des_tidy",
+              "SourceString": "移动时长按闪避，进入特殊状态。每隔一段时间生成水母弹，造成<Hun>魂属性异能伤害</>。\r\n在此状态下，「极限闪避反击：切分节奏」变为发射水母弹。\r\n剩余一定耐力值后，自动退出该状态。",
+              "LocalizedString": "移动时长按闪避，进入特殊状态。每隔一段时间生成水母弹，造成<Hun>魂属性异能伤害</>。\r\n在此状态下，「极限闪避反击：切分节奏」变为发射水母弹。\r\n剩余一定耐力值后，自动退出该状态。"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee3_name",
+              "SourceString": "<Title>普通攻击：跳音</>",
+              "LocalizedString": "<Title>普通攻击：跳音</>"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee3_des",
+              "SourceString": "要唱得清越而优美！海月在空中挥动指挥棒，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Hun>魂属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
+              "LocalizedString": "要唱得清越而优美！海月在空中挥动指挥棒，并迅速下落冲击地面，落地时造成<NumGreen>1</>次范围性的<Hun>魂属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee_des_tidy",
+              "SourceString": "造成<Hun>魂属性异能伤害</>。",
+              "LocalizedString": "造成<Hun>魂属性异能伤害</>。"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_PerfectEvade_name",
+              "SourceString": "<Title>极限反击：切分节奏</>",
+              "LocalizedString": "<Title>极限反击：切分节奏</>"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_PerfectEvade_des",
+              "SourceString": "触发极限闪避后，释放「普通攻击：连音」触发。\r\n不如来试试我的节奏吧？海月挥动指挥棒，造成<NumGreen>1</>次范围性的<Hun>魂属性异能伤害</>，并额外扣除一定倾陷值。",
+              "LocalizedString": "触发极限闪避后，释放「普通攻击：连音」触发。\r\n不如来试试我的节奏吧？海月挥动指挥棒，造成<NumGreen>1</>次范围性的<Hun>魂属性异能伤害</>，并额外扣除一定倾陷值。"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_PerfectEvade_des_tidy",
+              "SourceString": "造成<Hun>魂属性异能伤害</>。",
+              "LocalizedString": "造成<Hun>魂属性异能伤害</>。"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Melee_background",
+              "SourceString": "<Italic>声乐也是指挥不可或缺的素养，要勤加练习。腹部发力，牙关打开，感受声音穿过后脑、从眉心位置发出来……是这里吗？</>\r\n<Italic>「啊——啊——」</>\r\n<Italic>……怎么感觉歌声好像也在迷路。</>",
+              "LocalizedString": "<Italic>声乐也是指挥不可或缺的素养，要勤加练习。腹部发力，牙关打开，感受声音穿过后脑、从眉心位置发出来……是这里吗？</>\r\n<Italic>「啊——啊——」</>\r\n<Italic>……怎么感觉歌声好像也在迷路。</>"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Mitsuki_Melee1.Mitsuki_Melee1",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_Melee1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee1_des",
+              "SourceString": "一段伤害倍率",
+              "LocalizedString": "一段伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee1_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_Melee2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee2_des",
+              "SourceString": "二段伤害倍率",
+              "LocalizedString": "二段伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee2_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_Melee3_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee3_des",
+              "SourceString": "三段射弹伤害倍率",
+              "LocalizedString": "三段射弹伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee3_num",
+              "SourceString": "{0}%*3",
+              "LocalizedString": "{0}%*3"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_Melee4_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee4_des",
+              "SourceString": "四段伤害倍率",
+              "LocalizedString": "四段伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee4_num",
+              "SourceString": "{0}%*4",
+              "LocalizedString": "{0}%*4"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_AirAttack_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "AirAttack_des",
+              "SourceString": "下落攻击伤害倍率",
+              "LocalizedString": "下落攻击伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "AirAttack_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_EvadeBranch_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "EvadeBranch_des",
+              "SourceString": "长按闪避射弹伤害倍率",
+              "LocalizedString": "长按闪避射弹伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "EvadeBranch_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_PerfectEvadeAtk_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "PerfectEvadeAttack_des",
+              "SourceString": "极限反击伤害倍率",
+              "LocalizedString": "极限反击伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "PerfectEvadeAttack_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_PerfectAtkBullet_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "PerfectEvadeAttackEvade_des",
+              "SourceString": "特殊极限反击射弹伤害倍率",
+              "LocalizedString": "特殊极限反击射弹伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "PerfectEvadeAttackEvade_num",
+              "SourceString": "{0}%*4",
+              "LocalizedString": "{0}%*4"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Melee_Heterochrome_Show",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee_Heterochrome_des",
+              "SourceString": "环合值",
+              "LocalizedString": "环合值"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Melee_Heterochrome_num",
+              "SourceString": "{0}",
+              "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "SkillCostName": "None"
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "EvadeBranchPowerCost_des",
+              "SourceString": "长按闪避每秒体力消耗",
+              "LocalizedString": "长按闪避每秒体力消耗"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "EvadeBranchPowerCost_num",
+              "SourceString": "5",
+              "LocalizedString": "5"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "SkillCostName": "None"
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "EvadeBranchPowerCostLow_des",
+              "SourceString": "长按闪避最低剩余体力值",
+              "LocalizedString": "长按闪避最低剩余体力值"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "EvadeBranchPowerCostLow_num",
+              "SourceString": "40",
+              "LocalizedString": "40"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          }
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Mitsuki_Skill": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_Skill_name",
+          "SourceString": "华彩唱段",
+          "LocalizedString": "华彩唱段"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Skill_des",
+              "SourceString": "将随处可见的日常谱成虹色的旋律，让它们响彻天际吧。造成<NumGreen>1</>次范围性的<Hun>魂属性异能伤害</>并进入<hot textstyle=\"TextEXPL\" param=\"nouns&MitsukiSkill\">「华彩」</>状态，持续<NumGreen>12</>秒。",
+              "LocalizedString": "将随处可见的日常谱成虹色的旋律，让它们响彻天际吧。造成<NumGreen>1</>次范围性的<Hun>魂属性异能伤害</>并进入<hot textstyle=\"TextEXPL\" param=\"nouns&MitsukiSkill\">「华彩」</>状态，持续<NumGreen>12</>秒。"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Skill_des_tidy",
+              "SourceString": "造成<Hun>魂属性异能伤害</>，进入<hot textstyle=\"TextEXPL\" param=\"nouns&MitsukiSkill\">「华彩」</>状态。",
+              "LocalizedString": "造成<Hun>魂属性异能伤害</>，进入<hot textstyle=\"TextEXPL\" param=\"nouns&MitsukiSkill\">「华彩」</>状态。"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Skill_background",
+              "SourceString": "<Italic>如果没有加入玉饼街居民协会，海月说不定会去华彩街做管理员。或许冥冥之中，一切自有缘分。</>",
+              "LocalizedString": "<Italic>如果没有加入玉饼街居民协会，海月说不定会去华彩街做管理员。或许冥冥之中，一切自有缘分。</>"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Mitsuki_Skill.Mitsuki_Skill",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_Skill_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Skill1_des",
+              "SourceString": "伤害倍率",
+              "LocalizedString": "伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Skill1_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Skill1Effect_des",
+              "SourceString": "射弹强化倍率",
+              "LocalizedString": "射弹强化倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Skill1Effect_num",
+              "SourceString": "70%",
+              "LocalizedString": "70%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Skill2_des",
+              "SourceString": "增益效果持续时间",
+              "LocalizedString": "增益效果持续时间"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Skill2_num",
+              "SourceString": "12秒",
+              "LocalizedString": "12秒"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "SkillCDName": "GA_Mitsuki_Skill"
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "SkillCoolDown_des",
+              "SourceString": "冷却时间",
+              "LocalizedString": "冷却时间"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "SkillCoolDown_num",
+              "SourceString": "{0}秒",
+              "LocalizedString": "{0}秒"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Skill_Heterochrome_Show",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Skill_Heterochrome_des",
+              "SourceString": "环合值",
+              "LocalizedString": "环合值"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "Skill_Heterochrome_num",
+              "SourceString": "{0}",
+              "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          }
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Mitsuki_QTE": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_QTE_name",
+          "SourceString": "不协和音",
+          "LocalizedString": "不协和音"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_QTE_des",
+              "SourceString": "优秀的指挥可从不会误判时机！海月指挥水母发动突袭，在命中目标时造成1次范围性的<Hun>魂属性异能伤害</>。",
+              "LocalizedString": "优秀的指挥可从不会误判时机！海月指挥水母发动突袭，在命中目标时造成1次范围性的<Hun>魂属性异能伤害</>。"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_QTE_des_tidy",
+              "SourceString": "造成<Hun>魂属性异能伤害</>。",
+              "LocalizedString": "造成<Hun>魂属性异能伤害</>。"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Mitsuki_QTE.Mitsuki_QTE",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_QTE_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "QTE_des",
+              "SourceString": "伤害倍率",
+              "LocalizedString": "伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "QTE_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          }
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Mitsuki_UltraSkill": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_UltraSkill_name",
+          "SourceString": "众声轮唱",
+          "LocalizedString": "众声轮唱"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_UltraSkill_des",
+              "SourceString": "接下来的唱段，就让我们一同完成吧。海月将水母群聚拢至身边，造成6段范围性的<Hun>魂属性异能伤害</>，并小幅聚集敌人。",
+              "LocalizedString": "接下来的唱段，就让我们一同完成吧。海月将水母群聚拢至身边，造成6段范围性的<Hun>魂属性异能伤害</>，并小幅聚集敌人。"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_UltraSkill_des_tidy",
+              "SourceString": "造成<Hun>魂属性异能伤害</>，聚集敌人。",
+              "LocalizedString": "造成<Hun>魂属性异能伤害</>，聚集敌人。"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_UltraSkill_background",
+              "SourceString": "<Italic>无论是学生时代的合唱团，还是那支昙花一现的乐队，都是海月最珍贵的宝物。辉煌的乐章若是只有一人独奏，实在有些太寂寞了。</>",
+              "LocalizedString": "<Italic>无论是学生时代的合唱团，还是那支昙花一现的乐队，都是海月最珍贵的宝物。辉煌的乐章若是只有一人独奏，实在有些太寂寞了。</>"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Mitsuki_UltraSkill.Mitsuki_UltraSkill",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Mitsuki_UltraSkill_Damage",
+                "GE_Player_Mitsuki_UltraSkill_Damage2"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "UltraSkill1_des",
+              "SourceString": "伤害倍率",
+              "LocalizedString": "伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "UltraSkill1_num",
+              "SourceString": "{0}%*5+{1}%",
+              "LocalizedString": "{0}%*5+{1}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "SkillCDName": "GA_Mitsuki_UltraSkill"
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "UltraSkill_Cooldown_des",
+              "SourceString": "冷却时间",
+              "LocalizedString": "冷却时间"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "UltraSkill_Cooldown_num",
+              "SourceString": "{0}秒",
+              "LocalizedString": "{0}秒"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "SkillCostName": "GA_Mitsuki_UltraSkill"
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "UltraSkill_Cost_des",
+              "SourceString": "消耗终结能量",
+              "LocalizedString": "消耗终结能量"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "UltraSkill_Cost_num",
+              "SourceString": "{0}",
+              "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          }
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Mitsuki_Passive1": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_Passive_1_name",
+          "SourceString": "泛音",
+          "LocalizedString": "泛音"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Passive_1_des",
+              "SourceString": "<TextHLT>「黯星」强化</>：目标的「黯星」状态结束后，将受到3次来自海月50%攻击力的<Hun>魂属性异能伤害</>。",
+              "LocalizedString": "<TextHLT>「黯星」强化</>：目标的「黯星」状态结束后，将受到3次来自海月50%攻击力的<Hun>魂属性异能伤害</>。"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Passive_1_background",
+              "SourceString": "<Italic>要怎么证明声音是一种波呢？向水里丢一枚石子，涟漪便会一圈圈漾开；向人丢一枚石子，同样也能听到连绵不绝的声音。</>\r\n<Italic>「……这里该笑吗？」</>\r\n<Italic>「海月姐的玩笑，一点也不好笑——」</>\r\n<Italic>「怎么这样！以前她们可都很捧场的……是你们这些小家伙笑点太高了吧。」</>",
+              "LocalizedString": "<Italic>要怎么证明声音是一种波呢？向水里丢一枚石子，涟漪便会一圈圈漾开；向人丢一枚石子，同样也能听到连绵不绝的声音。</>\r\n<Italic>「……这里该笑吗？」</>\r\n<Italic>「海月姐的玩笑，一点也不好笑——」</>\r\n<Italic>「怎么这样！以前她们可都很捧场的……是你们这些小家伙笑点太高了吧。」</>"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Mitsuki_Pas1.Mitsuki_Pas1",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Mitsuki_Passive2": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_Passive_2_name",
+          "SourceString": "渐强",
+          "LocalizedString": "渐强"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Passive_2_des",
+              "SourceString": "每当水母弹命中目标时，海月的攻击力提升<NumGreen>1%</>，效果持续<NumGreen>5</>秒，最多可叠加<NumGreen>10</>层。",
+              "LocalizedString": "每当水母弹命中目标时，海月的攻击力提升<NumGreen>1%</>，效果持续<NumGreen>5</>秒，最多可叠加<NumGreen>10</>层。"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Passive_2_background",
+              "SourceString": "<Italic>强、中强、很强、最强音！还要更强吗？那只好请鼓手一头扎进鼓里了。</>",
+              "LocalizedString": "<Italic>强、中强、很强、最强音！还要更强吗？那只好请鼓手一头扎进鼓里了。</>"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Mitsuki_Pas2.Mitsuki_Pas2",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Mitsuki_Passive3": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_Passive_3_name",
+          "SourceString": "海阔天空",
+          "LocalizedString": "海阔天空"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Passive_3_des",
+              "SourceString": "海月乘坐水母，穿行于城市的大街小巷。海月无法攀爬或跨越障碍物，但跳跃高度有所提升，且具备特殊的滑翔和游泳能力。",
+              "LocalizedString": "海月乘坐水母，穿行于城市的大街小巷。海月无法攀爬或跨越障碍物，但跳跃高度有所提升，且具备特殊的滑翔和游泳能力。"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_Passive_3_background",
+              "SourceString": "<Italic>无法迈出脚步，不代表无法继续向前。心就如同世界本身那样自由而广阔，只要愿意出发，无论何处都能抵达。</>",
+              "LocalizedString": "<Italic>无法迈出脚步，不代表无法继续向前。心就如同世界本身那样自由而广阔，只要愿意出发，无论何处都能抵达。</>"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Mitsuki_Pas3.Mitsuki_Pas3",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Shinku_Melee": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+          "Key": "GA_Shinku_Melee_name",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee1_1_name",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee1_1_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee1_1_des_short",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee1_2_name",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee1_2_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee1_2_des_short",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee1_3_name",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
+              "Key": "GA_Kuhara_Melee3_des",
+              "SourceString": "长按普通攻击触发，九原将自动锁定目标射击单发子弹造成<NumGreen>1</>次<Ling>灵属性异能伤害</>。若九原持有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>，则自动消耗<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>进行连续射击，并优先攻击带有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的目标。",
+              "LocalizedString": "长按普通攻击触发，九原将自动锁定目标射击单发子弹造成<NumGreen>1</>次<Ling>灵属性异能伤害</>。若九原持有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>，则自动消耗<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>进行连续射击，并优先攻击带有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的目标。"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
+              "Key": "GA_Kuhara_Melee3_des_short",
+              "SourceString": "造成<Ling>灵属性异能伤害</>。可自动消耗<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>连续射击，并优先攻击带有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的目标。",
+              "LocalizedString": "造成<Ling>灵属性异能伤害</>。可自动消耗<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaPowerBullet\">「玫约子弹」</>连续射击，并优先攻击带有<hot textstyle=\"TextEXPL\" param=\"nouns&KuharaAttachment\">「致命玫约」</>的目标。"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_PerfectEvade_name",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_PerfectEvade_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_PerfectEvade_des_short",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee_background",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Kuhara_Melee.Kuhara_Melee",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Shinku_Melee1_1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee_1_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee_1_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Shinku_Melee1_2_Damage",
+                "GE_Player_Shinku_Melee1_2_1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee_2_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee_2_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Shinku_Melee1_3_Damage",
+                "GE_Player_Shinku_Melee1_3_1_Damage",
+                "GE_Player_Shinku_Melee1_3_2_Damage",
+                "GE_Player_Shinku_Melee1_3_3_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee_3_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee_3_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Shinku_Melee1_4_Damage",
+                "GE_Player_Shinku_Melee1_4_1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee_4_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee_4_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Shinku_Melee1_5_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee_5_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Melee_5_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Shinku_AirAttack1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_AirAttack_1_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_AirAttack_1_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Shinku_Branch1_1_Damage",
+                "GE_Player_Shinku_Branch1_2_Damage",
+                "GE_Player_Shinku_Branch1_3_Damage",
+                "GE_Player_Shinku_Branch1_4_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Branch1_1_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Branch1_1_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Melee_Heterochrome_Show",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill_Heterochrome_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill_Heterochrome_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Shinku_PerfectEvadeAttack_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "Shinku_PerfectEvade_dmg_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "Shinku_PerfectEvade_dmg_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "Shinku_Melee_AddQEnergy"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "Shinku_Melee_AddQEnergy_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "Shinku_Melee_AddQEnergy_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "Shinku_PerfectEvade_AddQEnergy"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "Shinku_PerfectEvade_AddQEnergy_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "Shinku_PerfectEvade_AddQEnergy_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Kuhara_BudEnd_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
+              "Key": "GA_Kuhara_autoboom_des",
+              "SourceString": "自动「致约清算」伤害倍率",
+              "LocalizedString": "自动「致约清算」伤害倍率"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
+              "Key": "GA_Kuhara_autoboom_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          }
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Shinku_Skill": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+          "Key": "GA_Shinku_Skill1_name",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill1_1_name",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill1_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill1_des_short",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill2_1_name",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill2_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill2_des_short",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill_background",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Kuhara_Skill.Kuhara_Skill",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Shinku_Skill1_1_Damage",
+                "GE_Player_Shinku_Skill1_2_Damage",
+                "GE_Player_Shinku_Skill1_3_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill1_1_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill1_1_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {},
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill1_2_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill1_2_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "SkillCDName": "GA_Shinku_Skill"
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill1_cooldown_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill1_cooldown_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Skill_Heterochrome_Show",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill_Heterochrome_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Skill_Heterochrome_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          }
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Shinku_UltraSkill": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+          "Key": "GA_Shinku_UltraSkill_name",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_UltraSkill1_name",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_UltraSkill1_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_UltraSkill1_des_short",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_UltraSkill2_name",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_UltraSkill2_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_UltraSkill2_des_short",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_UltraSkill_background",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Kuhara_UltraSkill.Kuhara_UltraSkill",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Kuhara_UltraSkill1_Damage",
+                "GE_Player_Kuhara_UltraSkill2_Damage",
+                "GE_Player_Kuhara_UltraSkill3_Damage",
+                "GE_Player_Kuhara_UltraSkill4_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_UltraSkill_1_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_UltraSkill_1_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "SkillCDName": "GA_Shinku_UltraSkill1"
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_UltraSkill_cooldown_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_UltraSkill_cooldown_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Kuhara_UltraSkill1_Damage",
+                "GE_Player_Kuhara_UltraSkill2_Damage",
+                "GE_Player_Kuhara_UltraSkill3_Damage",
+                "GE_Player_Kuhara_UltraSkill4_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_UltraSkill_2_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_UltraSkill_2_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          }
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Shinku_QTE": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+          "Key": "GA_Shinku_QTE_name",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_QTE_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_QTE_des_short",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_QTE_background",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Kuhara_QTE.Kuhara_QTE",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Shinku_QTE_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "Shinku_QTE",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_QTE_dmg_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_QTE_dmg_num",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          }
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Shinku_Passive_1": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+          "Key": "GA_Shinku_Passive_1_name",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Passive_1_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Passive_1_background",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Kuhara_Pas1.Kuhara_Pas1",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Shinku_Passive_2": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+          "Key": "GA_Shinku_Passive_2_name",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Passive_2_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Shinku_SkillDes.Shinku_SkillDes",
+              "Key": "GA_Shinku_Passive_2_background",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Kuhara_Pas2.Kuhara_Pas2",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Zankou_UltraSkill": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_UltraSkill_name",
+          "SourceString": "众声轮唱",
+          "LocalizedString": "众声轮唱"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_UltraSkill_des",
+              "SourceString": "接下来的唱段，就让我们一同完成吧。海月将水母群聚拢至身边，造成6段范围性的<Hun>魂属性异能伤害</>，并小幅聚集敌人。",
+              "LocalizedString": "接下来的唱段，就让我们一同完成吧。海月将水母群聚拢至身边，造成6段范围性的<Hun>魂属性异能伤害</>，并小幅聚集敌人。"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_UltraSkill_des_tidy",
+              "SourceString": "造成<Hun>魂属性异能伤害</>，聚集敌人。",
+              "LocalizedString": "造成<Hun>魂属性异能伤害</>，聚集敌人。"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_UltraSkill_background",
+              "SourceString": "<Italic>无论是学生时代的合唱团，还是那支昙花一现的乐队，都是海月最珍贵的宝物。辉煌的乐章若是只有一人独奏，实在有些太寂寞了。</>",
+              "LocalizedString": "<Italic>无论是学生时代的合唱团，还是那支昙花一现的乐队，都是海月最珍贵的宝物。辉煌的乐章若是只有一人独奏，实在有些太寂寞了。</>"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Mitsuki_UltraSkill.Mitsuki_UltraSkill",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Zankou_UltraSkillForce": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_UltraSkill_name",
+          "SourceString": "众声轮唱",
+          "LocalizedString": "众声轮唱"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_UltraSkill_des",
+              "SourceString": "接下来的唱段，就让我们一同完成吧。海月将水母群聚拢至身边，造成6段范围性的<Hun>魂属性异能伤害</>，并小幅聚集敌人。",
+              "LocalizedString": "接下来的唱段，就让我们一同完成吧。海月将水母群聚拢至身边，造成6段范围性的<Hun>魂属性异能伤害</>，并小幅聚集敌人。"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_UltraSkill_des_tidy",
+              "SourceString": "造成<Hun>魂属性异能伤害</>，聚集敌人。",
+              "LocalizedString": "造成<Hun>魂属性异能伤害</>，聚集敌人。"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_UltraSkill_background",
+              "SourceString": "<Italic>无论是学生时代的合唱团，还是那支昙花一现的乐队，都是海月最珍贵的宝物。辉煌的乐章若是只有一人独奏，实在有些太寂寞了。</>",
+              "LocalizedString": "<Italic>无论是学生时代的合唱团，还是那支昙花一现的乐队，都是海月最珍贵的宝物。辉煌的乐章若是只有一人独奏，实在有些太寂寞了。</>"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Haniel_UltraSkill.Haniel_UltraSkill",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Zankou_UltraSkillMagic": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "GA_Mitsuki_UltraSkill_name",
+          "SourceString": "众声轮唱",
+          "LocalizedString": "众声轮唱"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_UltraSkill_des",
+              "SourceString": "接下来的唱段，就让我们一同完成吧。海月将水母群聚拢至身边，造成6段范围性的<Hun>魂属性异能伤害</>，并小幅聚集敌人。",
+              "LocalizedString": "接下来的唱段，就让我们一同完成吧。海月将水母群聚拢至身边，造成6段范围性的<Hun>魂属性异能伤害</>，并小幅聚集敌人。"
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_UltraSkill_des_tidy",
+              "SourceString": "造成<Hun>魂属性异能伤害</>，聚集敌人。",
+              "LocalizedString": "造成<Hun>魂属性异能伤害</>，聚集敌人。"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+              "Key": "GA_Mitsuki_UltraSkill_background",
+              "SourceString": "<Italic>无论是学生时代的合唱团，还是那支昙花一现的乐队，都是海月最珍贵的宝物。辉煌的乐章若是只有一人独奏，实在有些太寂寞了。</>",
+              "LocalizedString": "<Italic>无论是学生时代的合唱团，还是那支昙花一现的乐队，都是海月最珍贵的宝物。辉煌的乐章若是只有一人独奏，实在有些太寂寞了。</>"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Daffodill_UltraSkill.Daffodill_UltraSkill",
           "SubPathString": ""
         },
         "ExtendIcon": {

@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "1040FileDataTable1",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/File/1040FileDataTable1",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CharacterFileData'",
@@ -25,6 +26,9 @@
           "Key": "Characterfile_test001",
           "SourceString": "<!>临时译文",
           "LocalizedString": "<!>临时译文"
+        },
+        "BirthdaySkillName": {
+          "CultureInvariantString": null
         },
         "HomePlace": {
           "CultureInvariantString": null

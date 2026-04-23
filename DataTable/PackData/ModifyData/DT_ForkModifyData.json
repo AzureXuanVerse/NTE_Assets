@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_ForkModifyData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/PackData/ModifyData/DT_ForkModifyData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'ModifyStaticData'",
@@ -22604,6 +22605,244 @@
           {
             "PropName": "CritBase",
             "PropValue": 0.24,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "fork_worldrain_rank5_stage0": {
+        "ConditionArray": [],
+        "ModifyData": [
+          {
+            "PropName": "AtkBase",
+            "PropValue": 0.0,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          },
+          {
+            "PropName": "CritBase",
+            "PropValue": 0.088,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "fork_worldrain_rank5_stage1": {
+        "ConditionArray": [],
+        "ModifyData": [
+          {
+            "PropName": "AtkBase",
+            "PropValue": 21.0,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          },
+          {
+            "PropName": "CritBase",
+            "PropValue": 0.11,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "fork_worldrain_rank5_stage2": {
+        "ConditionArray": [],
+        "ModifyData": [
+          {
+            "PropName": "AtkBase",
+            "PropValue": 43.0,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          },
+          {
+            "PropName": "CritBase",
+            "PropValue": 0.132,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "fork_worldrain_rank5_stage3": {
+        "ConditionArray": [],
+        "ModifyData": [
+          {
+            "PropName": "AtkBase",
+            "PropValue": 66.0,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          },
+          {
+            "PropName": "CritBase",
+            "PropValue": 0.154,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "fork_worldrain_rank5_stage4": {
+        "ConditionArray": [],
+        "ModifyData": [
+          {
+            "PropName": "AtkBase",
+            "PropValue": 89.0,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          },
+          {
+            "PropName": "CritBase",
+            "PropValue": 0.176,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "fork_worldrain_rank5_stage5": {
+        "ConditionArray": [],
+        "ModifyData": [
+          {
+            "PropName": "AtkBase",
+            "PropValue": 112.0,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          },
+          {
+            "PropName": "CritBase",
+            "PropValue": 0.198,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "fork_worldrain_rank5_stage6": {
+        "ConditionArray": [],
+        "ModifyData": [
+          {
+            "PropName": "AtkBase",
+            "PropValue": 135.0,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          },
+          {
+            "PropName": "CritBase",
+            "PropValue": 0.22,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "fork_moon_rank5_stage0": {
+        "ConditionArray": [],
+        "ModifyData": [
+          {
+            "PropName": "AtkBase",
+            "PropValue": 0.0,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          },
+          {
+            "PropName": "AtkUp",
+            "PropValue": 0.11,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "fork_moon_rank5_stage1": {
+        "ConditionArray": [],
+        "ModifyData": [
+          {
+            "PropName": "AtkBase",
+            "PropValue": 21.0,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          },
+          {
+            "PropName": "AtkUp",
+            "PropValue": 0.1375,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "fork_moon_rank5_stage2": {
+        "ConditionArray": [],
+        "ModifyData": [
+          {
+            "PropName": "AtkBase",
+            "PropValue": 43.0,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          },
+          {
+            "PropName": "AtkUp",
+            "PropValue": 0.165,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "fork_moon_rank5_stage3": {
+        "ConditionArray": [],
+        "ModifyData": [
+          {
+            "PropName": "AtkBase",
+            "PropValue": 66.0,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          },
+          {
+            "PropName": "AtkUp",
+            "PropValue": 0.1925,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "fork_moon_rank5_stage4": {
+        "ConditionArray": [],
+        "ModifyData": [
+          {
+            "PropName": "AtkBase",
+            "PropValue": 89.0,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          },
+          {
+            "PropName": "AtkUp",
+            "PropValue": 0.22,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "fork_moon_rank5_stage5": {
+        "ConditionArray": [],
+        "ModifyData": [
+          {
+            "PropName": "AtkBase",
+            "PropValue": 112.0,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          },
+          {
+            "PropName": "AtkUp",
+            "PropValue": 0.2475,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "fork_moon_rank5_stage6": {
+        "ConditionArray": [],
+        "ModifyData": [
+          {
+            "PropName": "AtkBase",
+            "PropValue": 135.0,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          },
+          {
+            "PropName": "AtkUp",
+            "PropValue": 0.275,
             "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
             "SortKey": 0
           }

@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_QuestAdventureManual",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_QuestAdventureManual",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'QuestData'",
@@ -1474,6 +1475,8 @@
             ],
             "bByCarType": false,
             "VehicleType": "EVehicleKeyUseType::EKUT_Car",
+            "bByMultiCarType": false,
+            "MultiVehicleType": [],
             "ObjectiveID": "None",
             "ObjectiveTips": "",
             "ObjectiveType": "EObjectiveType::EOT_VEHICLE_BUY",

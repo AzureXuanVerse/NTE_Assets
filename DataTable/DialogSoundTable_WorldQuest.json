@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DialogSoundTable_WorldQuest",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DialogSoundTable_WorldQuest",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'MessageDialogSoundData'",
@@ -2248,7 +2249,12 @@
           "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/ZERO/Play_Vo_WLSD_WJ019_Player_001.Play_Vo_WLSD_WJ019_Player_001",
           "SubPathString": ""
         },
-        "RTPCConfigs": [],
+        "RTPCConfigs": [
+          {
+            "RTPCName": "Voice_InnerVoice",
+            "RTPCValue": 1.0
+          }
+        ],
         "AuxBus": []
       },
       "WLSD_NPC_006_WJ019_Player_002": {
@@ -2256,7 +2262,12 @@
           "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/ZERO/Play_Vo_WLSD_WJ019_Player_002.Play_Vo_WLSD_WJ019_Player_002",
           "SubPathString": ""
         },
-        "RTPCConfigs": [],
+        "RTPCConfigs": [
+          {
+            "RTPCName": "Voice_InnerVoice",
+            "RTPCValue": 1.0
+          }
+        ],
         "AuxBus": []
       },
       "WLSD_NPC_006_WJ019_Player_003": {
@@ -2288,7 +2299,12 @@
           "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/ZERO/Play_Vo_WLSD_WJ019_Player_006.Play_Vo_WLSD_WJ019_Player_006",
           "SubPathString": ""
         },
-        "RTPCConfigs": [],
+        "RTPCConfigs": [
+          {
+            "RTPCName": "Voice_InnerVoice",
+            "RTPCValue": 1.0
+          }
+        ],
         "AuxBus": []
       },
       "WLSD_NPC_006_WJ019_Player_007": {
@@ -2528,7 +2544,12 @@
           "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/ZERO/Play_Vo_WLSD_WJ1021_Player_002.Play_Vo_WLSD_WJ1021_Player_002",
           "SubPathString": ""
         },
-        "RTPCConfigs": [],
+        "RTPCConfigs": [
+          {
+            "RTPCName": "Voice_InnerVoice",
+            "RTPCValue": 1.0
+          }
+        ],
         "AuxBus": []
       },
       "WLSD_NPC_004_WJ1021_Player_003": {
@@ -4966,6 +4987,14 @@
       "WLSD_NPC_008_WJ1011_014": {
         "DialogSoundEvent": {
           "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/NPC008/Play_Vo_WLSD_NPC008_WJ1011_014.Play_Vo_WLSD_NPC008_WJ1011_014",
+          "SubPathString": ""
+        },
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "WLSD_NPC_016_WJ1042_007": {
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/NPC015/Play_Vo_WLSD_NPC015_WJ1042_007.Play_Vo_WLSD_NPC015_WJ1042_007",
           "SubPathString": ""
         },
         "RTPCConfigs": [],

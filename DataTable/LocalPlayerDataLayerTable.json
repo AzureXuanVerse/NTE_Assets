@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "LocalPlayerDataLayerTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/LocalPlayerDataLayerTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'LocalDataLayerStaticData'",
@@ -143,6 +144,18 @@
         "bOnlyLoad": false,
         "bOnlyInVisibleActors": false
       },
+      "NPF_Office_TrackBox": {
+        "BeginQuest": "q110002",
+        "EndQuest": "q1100251",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/NPF_Office_TrackBox.NPF_Office_TrackBox",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
       "AFT_NPF_Data": {
         "BeginQuest": "q110027",
         "EndQuest": "None",
@@ -273,6 +286,18 @@
         "DataLayerAssets": [
           {
             "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/L110201_MD.L110201_MD",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Legend_Shinku": {
+        "BeginQuest": "L110302",
+        "EndQuest": "L110333",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/L110301.L110301",
             "SubPathString": ""
           }
         ],
@@ -675,12 +700,36 @@
         "bOnlyLoad": false,
         "bOnlyInVisibleActors": false
       },
+      "DL_Unload_Theater_ads_init": {
+        "BeginQuest": "None",
+        "EndQuest": "q110315",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/ArtDataLayer/UnloadDataLayer/DL_Unload_Theater_ads.DL_Unload_Theater_ads",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
       "DL_Unload_Theater_qsh": {
         "BeginQuest": "q110320",
         "EndQuest": "q110333",
         "DataLayerAssets": [
           {
             "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/ArtDataLayer/UnloadDataLayer/DL_Unload_Theater_qsh.DL_Unload_Theater_qsh",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "DL_Unload_Theater_ads_qshEnd": {
+        "BeginQuest": "q110340",
+        "EndQuest": "None",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/ArtDataLayer/UnloadDataLayer/DL_Unload_Theater_ads.DL_Unload_Theater_ads",
             "SubPathString": ""
           }
         ],
@@ -805,7 +854,7 @@
       },
       "DL_DLC_Hotel_Art_6LStart": {
         "BeginQuest": "q110381",
-        "EndQuest": "q1103871",
+        "EndQuest": "q110388",
         "DataLayerAssets": [
           {
             "AssetPathName": "/Game/Maps/Map_DLC/DLC_Hotel/DataLayers/DL_DLC_Hotel_6F_Art.DL_DLC_Hotel_6F_Art",
@@ -1042,6 +1091,10 @@
           {
             "AssetPathName": "/Game/Maps/Map_DLC/DLC_DunnerHouse/DataLayer/Dunnerhouse_Broken.Dunnerhouse_Broken",
             "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_DunnerHouse/DataLayer/Dunnerhouse_greenhouse_broken.Dunnerhouse_greenhouse_broken",
+            "SubPathString": ""
           }
         ],
         "bOnlyLoad": true,
@@ -1054,9 +1107,13 @@
           {
             "AssetPathName": "/Game/Maps/Map_DLC/DLC_DunnerHouse/DataLayer/Dunnerhouse_new.Dunnerhouse_new",
             "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_DunnerHouse/DataLayer/Dunnerhouse_greenhouse_new.Dunnerhouse_greenhouse_new",
+            "SubPathString": ""
           }
         ],
-        "bOnlyLoad": false,
+        "bOnlyLoad": true,
         "bOnlyInVisibleActors": false
       },
       "s111601": {
@@ -1213,6 +1270,558 @@
         "DataLayerAssets": [
           {
             "AssetPathName": "/Game/Maps/Map_DLC/DLC_DunnerHouse/DataLayer/Dunnerhouse_Boss_Broken.Dunnerhouse_Boss_Broken",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "q110500": {
+        "BeginQuest": "q110501",
+        "EndQuest": "q1105992",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500.Q110500",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "q110500_office": {
+        "BeginQuest": "q110596",
+        "EndQuest": "q110597",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/ArtDataLayer/UnloadDataLayer/DL_Unload_office_q110500.DL_Unload_office_q110500",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "q110400_1_PuppetPendant": {
+        "BeginQuest": "q110400_1",
+        "EndQuest": "None",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/q110400_1.q110400_1",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "q110400_OldTree": {
+        "BeginQuest": "q100001",
+        "EndQuest": "q110493",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/q110400_OldTree.q110400_OldTree",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "q110600": {
+        "BeginQuest": "q110601",
+        "EndQuest": "q110606",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/q110600.q110600",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "q110600_WucBuilding_G_Art": {
+        "BeginQuest": "q110607",
+        "EndQuest": "q110660",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_Wuchao/Wuchao_Building_Ground_Art.Wuchao_Building_Ground_Art",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "q110600_WucBuilding_UG_Art": {
+        "BeginQuest": "q110661",
+        "EndQuest": "q110669",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_Wuchao/Wuchao_Building_UnderGround_Art.Wuchao_Building_UnderGround_Art",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "q110600_WucBuilding_G_Level": {
+        "BeginQuest": "q110607",
+        "EndQuest": "q110660",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_Wuchao/Wuchao_Building_Level_Ground.Wuchao_Building_Level_Ground",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "q110600_WucBuilding_UG_Level": {
+        "BeginQuest": "q110661",
+        "EndQuest": "q110669",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_Wuchao/Wuchao_Building_Level_UnderGround.Wuchao_Building_Level_UnderGround",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "q110600_WucArt_Daff_01": {
+        "BeginQuest": "q110669",
+        "EndQuest": "q110691",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_Wuchao/Wuchao_01_Art_daffodill_01.Wuchao_01_Art_daffodill_01",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "q110600_WucArt_Daff_02": {
+        "BeginQuest": "q110691",
+        "EndQuest": "q110698",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_Wuchao/Wuchao_01_Art_daffodill_02.Wuchao_01_Art_daffodill_02",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "q110600_WucLevel_Daff_01": {
+        "BeginQuest": "q110669",
+        "EndQuest": "q110691",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_Wuchao/Wuchao_Level_01_daffodill_01.Wuchao_Level_01_daffodill_01",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "q110600_WucLevel_Daff_02": {
+        "BeginQuest": "q110691",
+        "EndQuest": "q110698",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_DLC/DLC_Wuchao/Wuchao_Level_01_daffodill_02.Wuchao_Level_01_daffodill_02",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_LieinApril_load": {
+        "BeginQuest": "q110562",
+        "EndQuest": "q110565",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_LieinApril.Q110500_HuiLang_LieinApril",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_LieinApril": {
+        "BeginQuest": "q110564",
+        "EndQuest": "q110565",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_LieinApril.Q110500_HuiLang_LieinApril",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_LieinAprilpark_load": {
+        "BeginQuest": "q11055_April_05",
+        "EndQuest": "q110565",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_LieinAprilPark.Q110500_HuiLang_LieinAprilPark",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_LieinAprilPark": {
+        "BeginQuest": "q11055_April_08",
+        "EndQuest": "q110565",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_LieinAprilPark.Q110500_HuiLang_LieinAprilPark",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_LieinApril_end_1": {
+        "BeginQuest": "q11055_April_h_14",
+        "EndQuest": "q110565",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_LieinApril_end_1.Q110500_HuiLang_LieinApril_end_1",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_LieinApril_end_2": {
+        "BeginQuest": "q11055_April_h_22",
+        "EndQuest": "q110565",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_LieinApril_end_2.Q110500_HuiLang_LieinApril_end_2",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_Fish_load": {
+        "BeginQuest": "q110565",
+        "EndQuest": "q110568",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_Fish.Q110500_HuiLang_Fish",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_Fish": {
+        "BeginQuest": "q110566",
+        "EndQuest": "q110568",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_Fish.Q110500_HuiLang_Fish",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_office_load": {
+        "BeginQuest": "q110571",
+        "EndQuest": "q110574",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_office.Q110500_HuiLang_office",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_office": {
+        "BeginQuest": "q110572",
+        "EndQuest": "q110574",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_office.Q110500_HuiLang_office",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_MosquitoPark_load": {
+        "BeginQuest": "q110567",
+        "EndQuest": "q110574",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_MosquitoPark.Q110500_HuiLang_MosquitoPark",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_MosquitoPark": {
+        "BeginQuest": "q110569",
+        "EndQuest": "q110574",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_MosquitoPark.Q110500_HuiLang_MosquitoPark",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_SnowPark_load": {
+        "BeginQuest": "q110571",
+        "EndQuest": "q110575",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_SnowPark.Q110500_HuiLang_SnowPark",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_SnowPark": {
+        "BeginQuest": "q110574",
+        "EndQuest": "q110575",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_SnowPark.Q110500_HuiLang_SnowPark",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_IntoHouse_0": {
+        "BeginQuest": "None",
+        "EndQuest": "q110550_dfdil_11",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_IntoHouse_0.Q110500_HuiLang_IntoHouse_0",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_IntoHouse_load": {
+        "BeginQuest": "q110550_dfdil_10",
+        "EndQuest": "None",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_IntoHouse_1.Q110500_HuiLang_IntoHouse_1",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_IntoHouse_1": {
+        "BeginQuest": "q110550_dfdil_12",
+        "EndQuest": "None",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_IntoHouse_1.Q110500_HuiLang_IntoHouse_1",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_Daffodill_1_load": {
+        "BeginQuest": "q110580",
+        "EndQuest": "q110550_dfdil_37",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_Daffodill_1.Q110500_HuiLang_Daffodill_1",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_Daffodill_1": {
+        "BeginQuest": "q110581",
+        "EndQuest": "q110550_dfdil_37",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_Daffodill_1.Q110500_HuiLang_Daffodill_1",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_Daffodill_pureLake_load": {
+        "BeginQuest": "q110550_dfdil_32",
+        "EndQuest": "q110550_nnl_03",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_Daffodill_pureLake.Q110500_HuiLang_Daffodill_pureLake",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_Daffodill_pureLake": {
+        "BeginQuest": "q110550_dfdil_35",
+        "EndQuest": "q110550_nnl_03",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_Daffodill_pureLake.Q110500_HuiLang_Daffodill_pureLake",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_Nanally_1_load": {
+        "BeginQuest": "q110550_nnl_01",
+        "EndQuest": "q110590",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_Nanally_1.Q110500_HuiLang_Nanally_1",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_Nanally_1": {
+        "BeginQuest": "q110550_nnl_02",
+        "EndQuest": "q110590",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_Nanally_1.Q110500_HuiLang_Nanally_1",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_Dlg_q110590_load": {
+        "BeginQuest": "q110550_nnl_found",
+        "EndQuest": "q110591",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_Dlg_q110590.Q110500_HuiLang_Dlg_q110590",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_Dlg_q110590": {
+        "BeginQuest": "q110550_nnl_found",
+        "EndQuest": "q110591",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_Dlg_q110590.Q110500_HuiLang_Dlg_q110590",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_Boss_s1_load": {
+        "BeginQuest": "q110590",
+        "EndQuest": "q1105921",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_Boss_s1.Q110500_HuiLang_Boss_s1",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_Boss_s1": {
+        "BeginQuest": "q110591",
+        "EndQuest": "q1105921",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_Boss_s1.Q110500_HuiLang_Boss_s1",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_Boss_s2_load": {
+        "BeginQuest": "q1105921",
+        "EndQuest": "q110595",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_Boss_s2.Q110500_HuiLang_Boss_s2",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": true,
+        "bOnlyInVisibleActors": false
+      },
+      "Q110500_HuiLang_Boss_s2": {
+        "BeginQuest": "q1105922",
+        "EndQuest": "q110595",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/Q110500/Q110500_HuiLang_Boss_s2.Q110500_HuiLang_Boss_s2",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "WQ100101": {
+        "BeginQuest": "WQ100101",
+        "EndQuest": "WQ100108",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/WQ100101.WQ100101",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "WQ100201": {
+        "BeginQuest": "WQ100201",
+        "EndQuest": "WQ100210",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/WQ100201.WQ100201",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "WQ100301": {
+        "BeginQuest": "WQ100301",
+        "EndQuest": "WQ100308",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/WQ100301.WQ100301",
+            "SubPathString": ""
+          }
+        ],
+        "bOnlyLoad": false,
+        "bOnlyInVisibleActors": false
+      },
+      "K111901": {
+        "BeginQuest": "K111901",
+        "EndQuest": "K111913",
+        "DataLayerAssets": [
+          {
+            "AssetPathName": "/Game/Maps/Map_bigworld/DataLayer/QuestDataLayer/K111901.K111901",
             "SubPathString": ""
           }
         ],

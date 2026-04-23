@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_QuestLiking",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_QuestLiking",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'QuestData'",
@@ -343,7 +344,11 @@
         "bForceTrack": false,
         "bForceTrackExceptMain": false,
         "bCanMainQuestChangeTrack": false,
-        "LikeabilityData": null,
+        "LikeabilityData": {
+          "ActiveChatItemID": "1023_c_17",
+          "AcceptChatItemID": "None",
+          "PushChatItemIDs": []
+        },
         "QuestAward": {
           "AwardGroupID": "drop_linkquest_short",
           "SimpleAwards": [],
@@ -570,7 +575,11 @@
         "bForceTrack": false,
         "bForceTrackExceptMain": false,
         "bCanMainQuestChangeTrack": false,
-        "LikeabilityData": null,
+        "LikeabilityData": {
+          "ActiveChatItemID": "1023_c_35",
+          "AcceptChatItemID": "None",
+          "PushChatItemIDs": []
+        },
         "QuestAward": {
           "AwardGroupID": "drop_linkquest_short",
           "SimpleAwards": [],

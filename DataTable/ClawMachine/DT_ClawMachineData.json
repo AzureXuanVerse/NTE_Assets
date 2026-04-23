@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_ClawMachineData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/ClawMachine/DT_ClawMachineData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'StaticClawMachineData'",
@@ -15,7 +16,7 @@
         "CurrencyID": "DSDshop_RaffleTickets",
         "CurrencyNum": 1,
         "ReplacementID": "Fons",
-        "ReplacementNum": 2000,
+        "ReplacementNum": 5000,
         "ClawProb": 50,
         "DollArr": [
           {
@@ -66,14 +67,31 @@
               }
             }
           }
+        ],
+        "BaodiAwards": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "CharacterUpMaterial_lv1",
+            "Amount": 2,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
         ]
       },
       "ClawMachine_Huili": {
         "CurrencyID": "DSDshop_RaffleTickets",
         "CurrencyNum": 1,
         "ReplacementID": "Fons",
-        "ReplacementNum": 2000,
-        "ClawProb": 30,
+        "ReplacementNum": 5000,
+        "ClawProb": 50,
         "DollArr": [
           {
             "DollID": "Doll_Huili",
@@ -170,6 +188,23 @@
                 "Z": 1.0
               }
             }
+          }
+        ],
+        "BaodiAwards": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "gold",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
           }
         ]
       },
@@ -177,8 +212,8 @@
         "CurrencyID": "DSDshop_RaffleTickets",
         "CurrencyNum": 1,
         "ReplacementID": "Fons",
-        "ReplacementNum": 2000,
-        "ClawProb": 30,
+        "ReplacementNum": 5000,
+        "ClawProb": 50,
         "DollArr": [
           {
             "DollID": "Doll_LonelyDoll",
@@ -228,14 +263,31 @@
               }
             }
           }
+        ],
+        "BaodiAwards": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "gold",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
         ]
       },
       "ClawMachine_Rider": {
         "CurrencyID": "DSDshop_RaffleTickets",
         "CurrencyNum": 1,
         "ReplacementID": "Fons",
-        "ReplacementNum": 2000,
-        "ClawProb": 30,
+        "ReplacementNum": 5000,
+        "ClawProb": 50,
         "DollArr": [
           {
             "DollID": "Doll_Huili",
@@ -333,14 +385,31 @@
               }
             }
           }
+        ],
+        "BaodiAwards": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "gold",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
         ]
       },
       "ClawMachine_PoliceMouse": {
         "CurrencyID": "DSDshop_RaffleTickets",
         "CurrencyNum": 1,
         "ReplacementID": "Fons",
-        "ReplacementNum": 2000,
-        "ClawProb": 30,
+        "ReplacementNum": 5000,
+        "ClawProb": 50,
         "DollArr": [
           {
             "DollID": "Doll_PoliceMouse",
@@ -437,6 +506,23 @@
                 "Z": 1.0
               }
             }
+          }
+        ],
+        "BaodiAwards": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "gold",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
           }
         ]
       }

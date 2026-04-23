@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_SharePlatIconData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Selfie/DT_SharePlatIconData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'SharePlatIconData'",
@@ -16,19 +17,21 @@
           "AssetPathName": "/Game/UI/UI/selfie/Share/YH_UI_Share_PlatForm_Icon_wx.YH_UI_Share_PlatForm_Icon_wx",
           "SubPathString": ""
         },
-        "bMainlandIsShow": false,
+        "bMainlandIsShow": true,
         "bGlobalIsShow": false,
         "bIWPlayIsShow": false,
+        "LanguageArray": [],
         "Desc": ""
       },
       "1": {
         "IconResource": {
-          "AssetPathName": "/Game/Environment/Building/Interior/Antiquestore/Build_Yiboen/Textures/01.01",
+          "AssetPathName": "/Game/UI/UI/selfie/Share/Moments.Moments",
           "SubPathString": ""
         },
-        "bMainlandIsShow": false,
+        "bMainlandIsShow": true,
         "bGlobalIsShow": false,
         "bIWPlayIsShow": false,
+        "LanguageArray": [],
         "Desc": ""
       },
       "2": {
@@ -39,16 +42,18 @@
         "bMainlandIsShow": true,
         "bGlobalIsShow": false,
         "bIWPlayIsShow": false,
+        "LanguageArray": [],
         "Desc": ""
       },
       "3": {
         "IconResource": {
-          "AssetPathName": "/Game/Environment/Building/Interior/Antiquestore/Build_Yiboen/Textures/01.01",
+          "AssetPathName": "/Game/UI/UI/selfie/Share/Qzone.Qzone",
           "SubPathString": ""
         },
-        "bMainlandIsShow": false,
+        "bMainlandIsShow": true,
         "bGlobalIsShow": false,
         "bIWPlayIsShow": false,
+        "LanguageArray": [],
         "Desc": ""
       },
       "4": {
@@ -59,16 +64,18 @@
         "bMainlandIsShow": true,
         "bGlobalIsShow": false,
         "bIWPlayIsShow": false,
+        "LanguageArray": [],
         "Desc": ""
       },
       "5": {
         "IconResource": {
-          "AssetPathName": "/Game/UI/UI/selfie/2.2",
+          "AssetPathName": "/Game/UI/UI/selfie/Share/Bilibili.Bilibili",
           "SubPathString": ""
         },
-        "bMainlandIsShow": false,
+        "bMainlandIsShow": true,
         "bGlobalIsShow": false,
         "bIWPlayIsShow": false,
+        "LanguageArray": [],
         "Desc": ""
       },
       "6": {
@@ -77,9 +84,19 @@
           "SubPathString": ""
         },
         "bMainlandIsShow": false,
-        "bGlobalIsShow": false,
-        "bIWPlayIsShow": false,
-        "Desc": ""
+        "bGlobalIsShow": true,
+        "bIWPlayIsShow": true,
+        "LanguageArray": [
+          "en",
+          "de",
+          "fr",
+          "zh-CN",
+          "zh-Hans",
+          "zh-Hant",
+          "ru",
+          "es"
+        ],
+        "Desc": "除了日韩地区"
       },
       "8": {
         "IconResource": {
@@ -89,6 +106,7 @@
         "bMainlandIsShow": false,
         "bGlobalIsShow": true,
         "bIWPlayIsShow": true,
+        "LanguageArray": [],
         "Desc": ""
       },
       "9": {
@@ -99,6 +117,7 @@
         "bMainlandIsShow": false,
         "bGlobalIsShow": true,
         "bIWPlayIsShow": true,
+        "LanguageArray": [],
         "Desc": ""
       },
       "12": {
@@ -107,8 +126,44 @@
           "SubPathString": ""
         },
         "bMainlandIsShow": false,
+        "bGlobalIsShow": true,
+        "bIWPlayIsShow": false,
+        "LanguageArray": [],
+        "Desc": ""
+      },
+      "10": {
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/selfie/Share/YH_UI_Share_PlatForm_Icon_line.YH_UI_Share_PlatForm_Icon_line",
+          "SubPathString": ""
+        },
+        "bMainlandIsShow": false,
+        "bGlobalIsShow": true,
+        "bIWPlayIsShow": true,
+        "LanguageArray": [
+          "ja"
+        ],
+        "Desc": "台湾地区和日本"
+      },
+      "15": {
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/selfie/Share/YH_UI_Share_PlatForm_Icon_tjd.YH_UI_Share_PlatForm_Icon_tjd",
+          "SubPathString": ""
+        },
+        "bMainlandIsShow": true,
         "bGlobalIsShow": false,
         "bIWPlayIsShow": false,
+        "LanguageArray": [],
+        "Desc": ""
+      },
+      "16": {
+        "IconResource": {
+          "AssetPathName": "/Game/UI/UI/selfie/Share/TapTap.TapTap",
+          "SubPathString": ""
+        },
+        "bMainlandIsShow": true,
+        "bGlobalIsShow": false,
+        "bIWPlayIsShow": false,
+        "LanguageArray": [],
         "Desc": ""
       }
     }

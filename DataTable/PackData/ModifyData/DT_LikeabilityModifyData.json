@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_LikeabilityModifyData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/PackData/ModifyData/DT_LikeabilityModifyData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'ModifyStaticData'",
@@ -177,6 +178,17 @@
         ]
       },
       "likeatt_1073": {
+        "ConditionArray": [],
+        "ModifyData": [
+          {
+            "PropName": "AtkUp",
+            "PropValue": 0.05,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "likeatt_1070": {
         "ConditionArray": [],
         "ModifyData": [
           {

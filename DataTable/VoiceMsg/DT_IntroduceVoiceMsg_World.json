@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_IntroduceVoiceMsg_World",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/VoiceMsg/DT_IntroduceVoiceMsg_World",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'VoiceMsgDetail'",
@@ -1059,7 +1060,7 @@
         "duration": 2.0,
         "Delay": 0.5,
         "EndByVoice": false,
-        "NeedTyping": true,
+        "NeedTyping": false,
         "ClearNeedQuestID": "None",
         "MontageInfos": [],
         "LockTargetInfo": null,
@@ -1082,10 +1083,10 @@
           "SubPathString": ""
         },
         "IsSelf": true,
-        "duration": 2.0,
+        "duration": 5.0,
         "Delay": 0.5,
         "EndByVoice": false,
-        "NeedTyping": true,
+        "NeedTyping": false,
         "ClearNeedQuestID": "None",
         "MontageInfos": [],
         "LockTargetInfo": null,
@@ -1111,10 +1112,10 @@
           "SubPathString": ""
         },
         "IsSelf": false,
-        "duration": 2.0,
+        "duration": 4.0,
         "Delay": 0.5,
         "EndByVoice": false,
-        "NeedTyping": true,
+        "NeedTyping": false,
         "ClearNeedQuestID": "None",
         "MontageInfos": [],
         "LockTargetInfo": null,
@@ -1140,10 +1141,10 @@
           "SubPathString": ""
         },
         "IsSelf": false,
-        "duration": 2.0,
+        "duration": 4.0,
         "Delay": 0.5,
         "EndByVoice": false,
-        "NeedTyping": true,
+        "NeedTyping": false,
         "ClearNeedQuestID": "None",
         "MontageInfos": [],
         "LockTargetInfo": null,
@@ -1166,10 +1167,10 @@
           "SubPathString": ""
         },
         "IsSelf": true,
-        "duration": 2.0,
+        "duration": 4.0,
         "Delay": 0.5,
         "EndByVoice": false,
-        "NeedTyping": true,
+        "NeedTyping": false,
         "ClearNeedQuestID": "None",
         "MontageInfos": [],
         "LockTargetInfo": null,
@@ -1192,10 +1193,10 @@
           "SubPathString": ""
         },
         "IsSelf": true,
-        "duration": 2.0,
+        "duration": 5.0,
         "Delay": 0.5,
         "EndByVoice": false,
-        "NeedTyping": true,
+        "NeedTyping": false,
         "ClearNeedQuestID": "None",
         "MontageInfos": [],
         "LockTargetInfo": null,
@@ -6275,7 +6276,7 @@
         "IsSelf": false,
         "duration": 3.0,
         "Delay": 0.5,
-        "EndByVoice": false,
+        "EndByVoice": true,
         "NeedTyping": true,
         "ClearNeedQuestID": "None",
         "MontageInfos": [],
@@ -7061,8 +7062,8 @@
         "Desc": {
           "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
           "Key": "Hospital_Case3_Clue2",
-          "SourceString": "<!>异象实验线索2",
-          "LocalizedString": "<!>异象实验线索2"
+          "SourceString": "一份关于某个异象的实验报告：「本报告内容仅限██组内查阅，不得外传。」",
+          "LocalizedString": "一份关于某个异象的实验报告：「本报告内容仅限██组内查阅，不得外传。」"
         },
         "SpeakerName": {
           "CultureInvariantString": null
@@ -7087,8 +7088,8 @@
         "Desc": {
           "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
           "Key": "Hospital_Case3_Clue3",
-          "SourceString": "<!>异象实验线索3",
-          "LocalizedString": "<!>异象实验线索3"
+          "SourceString": "一张字迹潦草的便条，夹在某人的备忘录里：「以防万一，得找个机会跟N聊聊。」",
+          "LocalizedString": "一张字迹潦草的便条，夹在某人的备忘录里：「以防万一，得找个机会跟N聊聊。」"
         },
         "SpeakerName": {
           "CultureInvariantString": null
@@ -7113,8 +7114,8 @@
         "Desc": {
           "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
           "Key": "Hospital_Case3_Clue4",
-          "SourceString": "<!>异象实验线索4",
-          "LocalizedString": "<!>异象实验线索4"
+          "SourceString": "一份办公室内的排班记录：「仔细看这份排班表的话，似乎有哪里不对劲……」",
+          "LocalizedString": "一份办公室内的排班记录：「仔细看这份排班表的话，似乎有哪里不对劲……」"
         },
         "SpeakerName": {
           "CultureInvariantString": null
@@ -7139,8 +7140,8 @@
         "Desc": {
           "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
           "Key": "Hospital_Case3_Clue5",
-          "SourceString": "<!>异象实验线索5",
-          "LocalizedString": "<!>异象实验线索5"
+          "SourceString": "一份病房内的护理记录表，记录着5号床██位患者的身体状况：「不幸的是，患者意外死亡。」",
+          "LocalizedString": "一份病房内的护理记录表，记录着5号床██位患者的身体状况：「不幸的是，患者意外死亡。」"
         },
         "SpeakerName": {
           "CultureInvariantString": null
@@ -7165,8 +7166,8 @@
         "Desc": {
           "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
           "Key": "Hospital_Case3_Clue6",
-          "SourceString": "<!>异象实验线索6",
-          "LocalizedString": "<!>异象实验线索6"
+          "SourceString": "一本被撕烂的实验日志，可能曾属于医院的某位助理护士：「这就是你想要的结局吗,V？」",
+          "LocalizedString": "一本被撕烂的实验日志，可能曾属于医院的某位助理护士：「这就是你想要的结局吗,V？」"
         },
         "SpeakerName": {
           "CultureInvariantString": null
@@ -7191,8 +7192,8 @@
         "Desc": {
           "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
           "Key": "Hospital_Case3_Clue7",
-          "SourceString": "<!>异象实验线索7",
-          "LocalizedString": "<!>异象实验线索7"
+          "SourceString": null,
+          "LocalizedString": null
         },
         "SpeakerName": {
           "CultureInvariantString": null
@@ -7321,8 +7322,8 @@
         "Desc": {
           "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
           "Key": "Hospital_Case5_SpecialClue",
-          "SourceString": "<!>隐藏线索1",
-          "LocalizedString": "<!>隐藏线索1"
+          "SourceString": "神秘的笔记，上面似乎记录着现实中所发生的事情：……这不是██第一次来这里。我很好奇，这座恐怖，阴森，毫无生机的医院，对你来说究竟有怎样的吸引力呢……我的结局早已注定……",
+          "LocalizedString": "神秘的笔记，上面似乎记录着现实中所发生的事情：……这不是██第一次来这里。我很好奇，这座恐怖，阴森，毫无生机的医院，对你来说究竟有怎样的吸引力呢……我的结局早已注定……"
         },
         "SpeakerName": {
           "CultureInvariantString": null
@@ -7387,7 +7388,7 @@
         "duration": 3.0,
         "Delay": 0.5,
         "EndByVoice": false,
-        "NeedTyping": true,
+        "NeedTyping": false,
         "ClearNeedQuestID": "None",
         "MontageInfos": [],
         "LockTargetInfo": null,
@@ -7410,10 +7411,10 @@
           "SubPathString": ""
         },
         "IsSelf": false,
-        "duration": 3.0,
+        "duration": 5.0,
         "Delay": 0.5,
         "EndByVoice": false,
-        "NeedTyping": true,
+        "NeedTyping": false,
         "ClearNeedQuestID": "None",
         "MontageInfos": [],
         "LockTargetInfo": null,
@@ -7436,10 +7437,10 @@
           "SubPathString": ""
         },
         "IsSelf": false,
-        "duration": 3.0,
+        "duration": 5.0,
         "Delay": 0.5,
         "EndByVoice": false,
-        "NeedTyping": true,
+        "NeedTyping": false,
         "ClearNeedQuestID": "None",
         "MontageInfos": [],
         "LockTargetInfo": null,
@@ -7666,7 +7667,7 @@
           "CultureInvariantString": null
         },
         "DialogSoundEvent": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Prison/Play_Vo_Prison_Escape01_Paper_Player_001.Play_Vo_Prison_Escape01_Paper_Player_001",
           "SubPathString": ""
         },
         "IsSelf": true,
@@ -7692,7 +7693,7 @@
           "CultureInvariantString": null
         },
         "DialogSoundEvent": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Prison/Play_Vo_Prison_ShopSteal_Spoon_Player_001.Play_Vo_Prison_ShopSteal_Spoon_Player_001",
           "SubPathString": ""
         },
         "IsSelf": true,
@@ -7718,7 +7719,7 @@
           "CultureInvariantString": null
         },
         "DialogSoundEvent": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Prison/Play_Vo_Prison_ShopSteal_Spoon_Player_002.Play_Vo_Prison_ShopSteal_Spoon_Player_002",
           "SubPathString": ""
         },
         "IsSelf": true,
@@ -7770,7 +7771,7 @@
           "CultureInvariantString": null
         },
         "DialogSoundEvent": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Prison/Play_Vo_Prison_PlayBoy_Player_001.Play_Vo_Prison_PlayBoy_Player_001",
           "SubPathString": ""
         },
         "IsSelf": true,
@@ -7958,7 +7959,7 @@
           "CultureInvariantString": null
         },
         "DialogSoundEvent": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Prison/Play_Vo_Prison_Escape01_LightFirstTech_Player_001.Play_Vo_Prison_Escape01_LightFirstTech_Player_001",
           "SubPathString": ""
         },
         "IsSelf": true,
@@ -7984,7 +7985,7 @@
           "CultureInvariantString": null
         },
         "DialogSoundEvent": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Prison/Play_Vo_Prison_Escape01_NextNight_Player_002.Play_Vo_Prison_Escape01_NextNight_Player_002",
           "SubPathString": ""
         },
         "IsSelf": true,
@@ -8010,7 +8011,7 @@
           "CultureInvariantString": null
         },
         "DialogSoundEvent": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Prison/Play_Vo_Prison_Escape01_WaitNight_Player_001.Play_Vo_Prison_Escape01_WaitNight_Player_001",
           "SubPathString": ""
         },
         "IsSelf": true,
@@ -8062,7 +8063,7 @@
           "CultureInvariantString": null
         },
         "DialogSoundEvent": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Bubble/Prison/Play_Vo_Prison_Escape01_GoBack_Player_001.Play_Vo_Prison_Escape01_GoBack_Player_001",
           "SubPathString": ""
         },
         "IsSelf": true,
@@ -8640,8 +8641,8 @@
         "Desc": {
           "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
           "Key": "PrisonEscape04_Player_firstdoor",
-          "SourceString": "（门上锁了。或许能在某处找到这扇门的钥匙。）",
-          "LocalizedString": "（门上锁了。或许能在某处找到这扇门的钥匙。）"
+          "SourceString": "（门上锁了……之前好像见到有管教带着一串钥匙，说不定能在监舍楼里找到这扇门的钥匙。）",
+          "LocalizedString": "（门上锁了……之前好像见到有管教带着一串钥匙，说不定能在监舍楼里找到这扇门的钥匙。）"
         },
         "SpeakerName": {
           "CultureInvariantString": null
@@ -8889,6 +8890,1126 @@
         },
         "IsSelf": false,
         "duration": 3.0,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Hospital_3F_JigsawShowMsg": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Hospital_3F_JigsawShowMsg",
+          "SourceString": "一个空的密封罐，标签上的文字已经模糊不清，隐约能看到「拼拼」几个字样，底下似乎压着什么东西……",
+          "LocalizedString": "一个空的密封罐，标签上的文字已经模糊不清，隐约能看到「拼拼」几个字样，底下似乎压着什么东西……"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Hospital_3F_TimeShowMsg": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Hospital_3F_TimeShowMsg",
+          "SourceString": "一个坏掉的钟表，指针也已经生锈，不过它的后面似乎有什么东西……",
+          "LocalizedString": "一个坏掉的钟表，指针也已经生锈，不过它的后面似乎有什么东西……"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SD_Prison_CNPE117008_Player_006": {
+        "Desc": {
+          "TableId": "/Game/Text/Dialogue/ST_Dialogue_CityMark_Chat.ST_Dialogue_CityMark_Chat",
+          "Key": "SD_Prison_CNPE117008_Player_006",
+          "SourceString": "（如果给{Gender}|gender(他,她)一把汤匙，让{Gender}|gender(他,她)送进配电房，说不定可以让监舍楼的电力系统短路……）",
+          "LocalizedString": "（如果给{Gender}|gender(他,她)一把汤匙，让{Gender}|gender(他,她)送进配电房，说不定可以让监舍楼的电力系统短路……）"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PrisonEscape05_Player_FirstWatch": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PrisonEscape05_Player_FirstWatch",
+          "SourceString": "（糟糕，这里有管教在巡逻，得想办法引开{Gender}|gender(他,她)。）",
+          "LocalizedString": "（糟糕，这里有管教在巡逻，得想办法引开{Gender}|gender(他,她)。）"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PrisonEscape05_Player_opentap": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PrisonEscape05_Player_opentap",
+          "SourceString": "（管教应该会被吸引过来，在那之前赶紧找地方躲起来吧。）",
+          "LocalizedString": "（管教应该会被吸引过来，在那之前赶紧找地方躲起来吧。）"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PrisonEscape05_Player_withoutkey": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PrisonEscape05_Player_withoutkey",
+          "SourceString": "（似乎上锁了，在刚刚的门厅前台处或许能找到钥匙。）",
+          "LocalizedString": "（似乎上锁了，在刚刚的门厅前台处或许能找到钥匙。）"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PrisonEscape05_Player_cantopenthisway": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PrisonEscape05_Player_cantopenthisway",
+          "SourceString": "（门锁似乎损坏了，无法从这一侧打开。）",
+          "LocalizedString": "（门锁似乎损坏了，无法从这一侧打开。）"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PrisonEscape05_Player_ReturnWatch": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PrisonEscape05_Player_ReturnWatch",
+          "SourceString": "（管教又回到这里巡逻了，从旁边的房间绕到前台吧。）",
+          "LocalizedString": "（管教又回到这里巡逻了，从旁边的房间绕到前台吧。）"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Prison_Player_NeedSpoon": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Prison_Player_NeedSpoon",
+          "SourceString": "（这个收音机的电路……如果有尖锐的金属物品的话，或许可以让它短路。）",
+          "LocalizedString": "（这个收音机的电路……如果有尖锐的金属物品的话，或许可以让它短路。）"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Prison_Player_BreakRadio": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Prison_Player_BreakRadio",
+          "SourceString": "（成功了，应该不会被看出是人为的……）",
+          "LocalizedString": "（成功了，应该不会被看出是人为的……）"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PrisonEscape05_Player_GoToWharf": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PrisonEscape05_Player_GoToWharf",
+          "SourceString": "（终于出来了。趁管教还没有追上来，赶紧前往码头吧。）",
+          "LocalizedString": "（终于出来了。趁管教还没有追上来，赶紧前往码头吧。）"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PrisonEscape05_Player_safenow": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PrisonEscape05_Player_safenow",
+          "SourceString": "（现在出去应该不会被发现。）",
+          "LocalizedString": "（现在出去应该不会被发现。）"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Prison_Player_FindDart": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Prison_Player_FindDart",
+          "SourceString": "（飞镖？为什么会藏在书里……）",
+          "LocalizedString": "（飞镖？为什么会藏在书里……）"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Hospital_AnomalyCanIntro_Mian": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Hospital_AnomalyCanIntro_Mian",
+          "SourceString": "「棉绒绒」\r\n该实验对象被激怒或是受到伤害后会改变形态，需确保其保持现有形态。\r\n若观察到形态转变，请联系中心实验室。",
+          "LocalizedString": "「棉绒绒」\r\n该实验对象被激怒或是受到伤害后会改变形态，需确保其保持现有形态。\r\n若观察到形态转变，请联系中心实验室。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": false,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Hospital_AnomalyCanIntro_Jigsaw": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Hospital_AnomalyCanIntro_Jigsaw",
+          "SourceString": "「拼拼」（？型）\r\n该实验对象本体可人为分裂为最少四个单元，通常用作保密优先级较高的空间生物锁，需将该样本与其他碎片完整组合后方可打开特定空间。\r\n具有较高的医学研究价值，可与█████████，尚在研究中。",
+          "LocalizedString": "「拼拼」（？型）\r\n该实验对象本体可人为分裂为最少四个单元，通常用作保密优先级较高的空间生物锁，需将该样本与其他碎片完整组合后方可打开特定空间。\r\n具有较高的医学研究价值，可与█████████，尚在研究中。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": false,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Hospital_AnomalyCanIntro_Bandage": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Hospital_AnomalyCanIntro_Bandage",
+          "SourceString": "「失躯者」（部分）\r\n该实验对象真实形态为扭曲人形轮廓的绷带空壳，部分个体具有奇特的习性，如趋光、会被声音吸引等。\r\n严禁触碰该实验样本！",
+          "LocalizedString": "「失躯者」（部分）\r\n该实验对象真实形态为扭曲人形轮廓的绷带空壳，部分个体具有奇特的习性，如趋光、会被声音吸引等。\r\n严禁触碰该实验样本！"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": false,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Hospital_AnomalyCanIntro_Mimic": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Hospital_AnomalyCanIntro_Mimic",
+          "SourceString": "「谜皮鬼」\r\n已知该实验对象可以变幻为与自身大小相仿的物体，如果对象形态发生改变，无须理会。",
+          "LocalizedString": "「谜皮鬼」\r\n已知该实验对象可以变幻为与自身大小相仿的物体，如果对象形态发生改变，无须理会。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": false,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Hospital_AnomalyCanIntro_Jigsaw_Empty": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Hospital_AnomalyCanIntro_Jigsaw_Empty",
+          "SourceString": "一个空的密封罐，标签上有「拼拼」的字样，但里面的东西不知被谁拿走了……",
+          "LocalizedString": "一个空的密封罐，标签上有「拼拼」的字样，但里面的东西不知被谁拿走了……"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": false,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Hospital_AnomalyCanIntro_Author": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Hospital_AnomalyCanIntro_Author",
+          "SourceString": "████\r\n████████████████████████████████████████████████████。\r\n████████████。",
+          "LocalizedString": "████\r\n████████████████████████████████████████████████████。\r\n████████████。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": false,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Hospital_AnomalyCanIntro_Clock": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "Hospital_AnomalyCanIntro_Clock",
+          "SourceString": "「回环时钟」\r\n请确保该实验对象形态完整，处于正常工作状态，如果发现其指针转动异常或是被破坏，立刻联系中心实验室。\r\n严禁与该对象长时间处于同一空间。",
+          "LocalizedString": "「回环时钟」\r\n请确保该实验对象形态完整，处于正常工作状态，如果发现其指针转动异常或是被破坏，立刻联系中心实验室。\r\n严禁与该对象长时间处于同一空间。"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 5.0,
+        "Delay": 0.5,
+        "EndByVoice": false,
+        "NeedTyping": false,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_026_Admission_001_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_026_Admission_001_001",
+          "SourceString": "不会让你……伤到鉴定师的。",
+          "LocalizedString": "不会让你……伤到鉴定师的。"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_026_Name",
+          "SourceString": "小吱",
+          "LocalizedString": "小吱"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC026/Play_Vo_SSD_NPC026_Admission_001_001.Play_Vo_SSD_NPC026_Admission_001_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_026_Admission_002_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_026_Admission_002_001",
+          "SourceString": "异象……还是这么讨厌……",
+          "LocalizedString": "异象……还是这么讨厌……"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_026_Name",
+          "SourceString": "小吱",
+          "LocalizedString": "小吱"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC026/Play_Vo_SSD_NPC026_Admission_002_001.Play_Vo_SSD_NPC026_Admission_002_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_026_Admission_003_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_026_Admission_003_001",
+          "SourceString": "赶、赶上了！请，交给我吧。",
+          "LocalizedString": "赶、赶上了！请，交给我吧。"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_026_Name",
+          "SourceString": "小吱",
+          "LocalizedString": "小吱"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC026/Play_Vo_SSD_NPC026_Admission_003_001.Play_Vo_SSD_NPC026_Admission_003_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_026_Leave_001_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_026_Leave_001_001",
+          "SourceString": "希、希望有……有帮到你。",
+          "LocalizedString": "希、希望有……有帮到你。"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_026_Name",
+          "SourceString": "小吱",
+          "LocalizedString": "小吱"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC026/Play_Vo_SSD_NPC026_Leave_001_001.Play_Vo_SSD_NPC026_Leave_001_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_026_Leave_002_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_026_Leave_002_001",
+          "SourceString": "结束了……下次，总、总之，有需要的话还可以找我。",
+          "LocalizedString": "结束了……下次，总、总之，有需要的话还可以找我。"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_026_Name",
+          "SourceString": "小吱",
+          "LocalizedString": "小吱"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC026/Play_Vo_SSD_NPC026_Leave_002_001.Play_Vo_SSD_NPC026_Leave_002_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_026_Leave_003_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_026_Leave_003_001",
+          "SourceString": "呼——待会要……临时通知要加班，我、我先走了……下次见。",
+          "LocalizedString": "呼——待会要……临时通知要加班，我、我先走了……下次见。"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_026_Name",
+          "SourceString": "小吱",
+          "LocalizedString": "小吱"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC026/Play_Vo_SSD_NPC026_Leave_003_001.Play_Vo_SSD_NPC026_Leave_003_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_026_UseProp_001_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_026_UseProp_001_001",
+          "SourceString": "注意安全，加、加油！",
+          "LocalizedString": "注意安全，加、加油！"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_026_Name",
+          "SourceString": "小吱",
+          "LocalizedString": "小吱"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC026/Play_Vo_SSD_NPC026_UseProp_001_001.Play_Vo_SSD_NPC026_UseProp_001_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_026_UseProp_002_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_026_UseProp_002_001",
+          "SourceString": "分、分给你，要赢呀……",
+          "LocalizedString": "分、分给你，要赢呀……"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_026_Name",
+          "SourceString": "小吱",
+          "LocalizedString": "小吱"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC026/Play_Vo_SSD_NPC026_UseProp_002_001.Play_Vo_SSD_NPC026_UseProp_002_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_026_UseProp_003_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_026_UseProp_003_001",
+          "SourceString": "振作起来，我相信你。",
+          "LocalizedString": "振作起来，我相信你。"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_026_Name",
+          "SourceString": "小吱",
+          "LocalizedString": "小吱"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC026/Play_Vo_SSD_NPC026_UseProp_003_001.Play_Vo_SSD_NPC026_UseProp_003_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_1029_Admission_001_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_1029_Admission_001_001",
+          "SourceString": "你还好吧，鉴定师？一个人对付这家伙太危险了，让我们也来帮忙吧！",
+          "LocalizedString": "你还好吧，鉴定师？一个人对付这家伙太危险了，让我们也来帮忙吧！"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_1029_Name",
+          "SourceString": "海月",
+          "LocalizedString": "海月"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_SSD_NPC1029_Admission_001_001.Play_Vo_SSD_NPC1029_Admission_001_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 4.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_1029_Admission_002_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_1029_Admission_002_001",
+          "SourceString": "稳住节奏，我们会配合你。",
+          "LocalizedString": "稳住节奏，我们会配合你。"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_1029_Name",
+          "SourceString": "海月",
+          "LocalizedString": "海月"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_SSD_NPC1029_Admission_002_001.Play_Vo_SSD_NPC1029_Admission_002_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_1029_Admission_003_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_1029_Admission_003_001",
+          "SourceString": "没想到会在这种地方遇到你……还好我就在附近。",
+          "LocalizedString": "没想到会在这种地方遇到你……还好我就在附近。"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_1029_Name",
+          "SourceString": "海月",
+          "LocalizedString": "海月"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_SSD_NPC1029_Admission_003_001.Play_Vo_SSD_NPC1029_Admission_003_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_1029_Leave_001_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_1029_Leave_001_001",
+          "SourceString": "虽然你可能不愿意麻烦身边的人，但千万别因此让自己受伤呀。以后遇到困难，一定要及时寻求帮助。",
+          "LocalizedString": "虽然你可能不愿意麻烦身边的人，但千万别因此让自己受伤呀。以后遇到困难，一定要及时寻求帮助。"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_1029_Name",
+          "SourceString": "海月",
+          "LocalizedString": "海月"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_SSD_NPC1029_Leave_001_001.Play_Vo_SSD_NPC1029_Leave_001_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_1029_Leave_002_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_1029_Leave_002_001",
+          "SourceString": "呼，刚才好险啊……还好你平安无事。",
+          "LocalizedString": "呼，刚才好险啊……还好你平安无事。"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_1029_Name",
+          "SourceString": "海月",
+          "LocalizedString": "海月"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_SSD_NPC1029_Leave_002_001.Play_Vo_SSD_NPC1029_Leave_002_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_1029_Leave_003_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_1029_Leave_003_001",
+          "SourceString": "想起了以前当异象猎人的日子……好怀念啊。",
+          "LocalizedString": "想起了以前当异象猎人的日子……好怀念啊。"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_1029_Name",
+          "SourceString": "海月",
+          "LocalizedString": "海月"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_SSD_NPC1029_Leave_003_001.Play_Vo_SSD_NPC1029_Leave_003_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_1029_UseProp_001_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_1029_UseProp_001_001",
+          "SourceString": "累了吗，鉴定师？不要太勉强自己，我们一起解决它。",
+          "LocalizedString": "累了吗，鉴定师？不要太勉强自己，我们一起解决它。"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_1029_Name",
+          "SourceString": "海月",
+          "LocalizedString": "海月"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_SSD_NPC1029_UseProp_001_001.Play_Vo_SSD_NPC1029_UseProp_001_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_1029_UseProp_002_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_1029_UseProp_002_001",
+          "SourceString": "就快战胜它了，不要放弃！",
+          "LocalizedString": "就快战胜它了，不要放弃！"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_1029_Name",
+          "SourceString": "海月",
+          "LocalizedString": "海月"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_SSD_NPC1029_UseProp_002_001.Play_Vo_SSD_NPC1029_UseProp_002_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "SSD_NPC_1029_UseProp_003_001": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "SSD_NPC_1029_UseProp_003_001",
+          "SourceString": "调整呼吸，按你自己的节奏来就好。",
+          "LocalizedString": "调整呼吸，按你自己的节奏来就好。"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "NPC_1029_Name",
+          "SourceString": "海月",
+          "LocalizedString": "海月"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Char/NPC1029/Play_Vo_SSD_NPC1029_UseProp_003_001.Play_Vo_SSD_NPC1029_UseProp_003_001",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 3.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PrisonEscape03_Player_findneedle": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PrisonEscape03_Player_findneedle",
+          "SourceString": "（这里的针头或许能用来注射「静息灵」。）",
+          "LocalizedString": "（这里的针头或许能用来注射「静息灵」。）"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PrisonDailyEgg_Player_introduce_01": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PrisonDailyEgg_Player_introduce_01",
+          "SourceString": "（《放弃幻想，好好改造》、《成为一个对社会有帮助的人》、《感动海特洛特刊》……大多都是这种风格的书和杂志。）",
+          "LocalizedString": "（《放弃幻想，好好改造》、《成为一个对社会有帮助的人》、《感动海特洛特刊》……大多都是这种风格的书和杂志。）"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "duration": 2.5,
+        "Delay": 0.0,
+        "EndByVoice": false,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "None",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "PrisonDailyEgg_Player_introduce_02": {
+        "Desc": {
+          "TableId": "/Game/Text/IntroduceMsg/ST_IntroduceMsg_World.ST_IntroduceMsg_World",
+          "Key": "PrisonDailyEgg_Player_introduce_02",
+          "SourceString": "（没想到这里居然还有漫画……）",
+          "LocalizedString": "（没想到这里居然还有漫画……）"
+        },
+        "SpeakerName": {
+          "CultureInvariantString": null
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "IsSelf": true,
+        "duration": 2.5,
         "Delay": 0.0,
         "EndByVoice": false,
         "NeedTyping": true,

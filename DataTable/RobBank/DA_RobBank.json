@@ -2,8 +2,9 @@
   {
     "Type": "RobBankCloneDataAsset",
     "Name": "DA_RobBank",
-    "Class": "UScriptClass'RobBankCloneDataAsset'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'RobBankCloneDataAsset'",
+    "Package": "/Game/DataTable/RobBank/DA_RobBank",
     "Properties": {
       "DT_RobBankPoint": {
         "ObjectName": "DataTable'DT_RobBankPoint'",
@@ -48,9 +49,14 @@
           "SpawnMonsterID": "Testmonster02"
         },
         {
-          "StageTime": 120,
+          "StageTime": 480,
           "DataLayerAssets": [],
           "SpawnMonsterID": "Testmonster03"
+        },
+        {
+          "StageTime": 600,
+          "DataLayerAssets": [],
+          "SpawnMonsterID": "None"
         }
       ],
       "RobBankCheckPointMap": [
@@ -237,7 +243,9 @@
         "mon_028_BP_Bank_nosummon",
         "mon_028_bank_Turn_90_BP",
         "mon_028_bank_Turn_90_BP_nosummon"
-      ]
+      ],
+      "PeriodQuestNum": 6,
+      "PeriodRefreshCount": 1
     }
   }
 ]

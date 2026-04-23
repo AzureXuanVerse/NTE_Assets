@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_NPCQuestOccupation",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_NPCQuestOccupation",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'NPCQuestOccupation'",
@@ -63,6 +64,11 @@
           {
             "BeginQuest": "WJ102601_YC",
             "EndQuest": "WJ102601_YC",
+            "QuestChapter": "None"
+          },
+          {
+            "BeginQuest": "WJ102501_YC",
+            "EndQuest": "WJ102501_YC",
             "QuestChapter": "None"
           }
         ]
@@ -168,6 +174,16 @@
             "BeginQuest": "WJ101101_YC",
             "EndQuest": "WJ101101_YC",
             "QuestChapter": "None"
+          },
+          {
+            "BeginQuest": "WJ101001_YC",
+            "EndQuest": "WJ101001_YC",
+            "QuestChapter": "None"
+          },
+          {
+            "BeginQuest": "WJ101201_YC",
+            "EndQuest": "WJ101201_YC",
+            "QuestChapter": "None"
           }
         ]
       },
@@ -237,6 +253,11 @@
             "BeginQuest": "WJ103201_YC",
             "EndQuest": "WJ103201_YC",
             "QuestChapter": "None"
+          },
+          {
+            "BeginQuest": "q110401",
+            "EndQuest": "q110414",
+            "QuestChapter": "MU01_04"
           }
         ]
       },
@@ -321,6 +342,16 @@
             "BeginQuest": "WJ100701_YC",
             "EndQuest": "WJ100701_YC",
             "QuestChapter": "None"
+          },
+          {
+            "BeginQuest": "q110415",
+            "EndQuest": "q110415",
+            "QuestChapter": "MU01_04"
+          },
+          {
+            "BeginQuest": "q110402",
+            "EndQuest": "q110402",
+            "QuestChapter": "MU01_04"
           }
         ]
       },
@@ -400,6 +431,16 @@
             "BeginQuest": "WJ100501_YC",
             "EndQuest": "WJ100501_YC",
             "QuestChapter": "None"
+          },
+          {
+            "BeginQuest": "q110401",
+            "EndQuest": "q110401",
+            "QuestChapter": "MU01_04"
+          },
+          {
+            "BeginQuest": "q110414",
+            "EndQuest": "q110493",
+            "QuestChapter": "MU01_04"
           }
         ]
       },
@@ -488,6 +529,11 @@
             "BeginQuest": "WJ103501_YC",
             "EndQuest": "WJ103501_YC",
             "QuestChapter": "None"
+          },
+          {
+            "BeginQuest": "q110401",
+            "EndQuest": "q110492",
+            "QuestChapter": "MU01_04"
           }
         ]
       },
@@ -541,6 +587,16 @@
             "BeginQuest": "WJ104301_YC",
             "EndQuest": "WJ104301_YC",
             "QuestChapter": "None"
+          },
+          {
+            "BeginQuest": "WJ104201_YC",
+            "EndQuest": "WJ104201_YC",
+            "QuestChapter": "None"
+          },
+          {
+            "BeginQuest": "WJ104401_YC",
+            "EndQuest": "WJ104401_YC",
+            "QuestChapter": "None"
           }
         ]
       },
@@ -550,6 +606,11 @@
             "BeginQuest": "q110301",
             "EndQuest": "q110394",
             "QuestChapter": "MU01_03"
+          },
+          {
+            "BeginQuest": "WJ103901_YC",
+            "EndQuest": "WJ103901_YC",
+            "QuestChapter": "None"
           }
         ]
       },
@@ -627,6 +688,11 @@
             "BeginQuest": "k111701",
             "EndQuest": "k111702",
             "QuestChapter": "SU047"
+          },
+          {
+            "BeginQuest": "q110415",
+            "EndQuest": "q110415",
+            "QuestChapter": "MU01_04"
           }
         ]
       },
@@ -667,7 +733,7 @@
         "LockQuests": [
           {
             "BeginQuest": "S110815",
-            "EndQuest": "S110819",
+            "EndQuest": "S110820",
             "QuestChapter": "SU010"
           }
         ]
@@ -747,7 +813,7 @@
         "LockQuests": [
           {
             "BeginQuest": "q110421",
-            "EndQuest": "q110422",
+            "EndQuest": "q110421",
             "QuestChapter": "MU_01_04"
           }
         ]
@@ -758,6 +824,11 @@
             "BeginQuest": "S111701",
             "EndQuest": "S111703",
             "QuestChapter": "SU035"
+          },
+          {
+            "BeginQuest": "S110104",
+            "EndQuest": "S110104",
+            "QuestChapter": "SU007"
           }
         ]
       },
@@ -771,9 +842,17 @@
           {
             "BeginQuest": "B110005",
             "EndQuest": "B110005",
-            "QuestChapter": "SU039"
+            "QuestChapter": "SU039_08"
+          },
+          {
+            "BeginQuest": "WJ104601_YC",
+            "EndQuest": "WJ104601_YC",
+            "QuestChapter": "None"
           }
         ]
+      },
+      "NPC_1029": {
+        "LockQuests": []
       }
     }
   }

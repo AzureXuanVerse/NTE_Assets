@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_GashaponBaseDataConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Gashapon/DT_GashaponBaseDataConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'GashaponBaseDataConfig'",
@@ -16,7 +17,7 @@
         "OneCurrencyNum": 1,
         "TenCurrencyNum": 10,
         "ReplacementID": "fons",
-        "ReplacementFraction": 2000
+        "ReplacementFraction": 4000
       }
     }
   }

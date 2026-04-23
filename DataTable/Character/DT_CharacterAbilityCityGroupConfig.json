@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_CharacterAbilityCityGroupConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/DT_CharacterAbilityCityGroupConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CharacterAbilityCityGroupConfig'",
@@ -46,7 +47,7 @@
             "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
             "AbilityCityAttribute": [
               {
-                "MaxLevel": 4,
+                "MaxLevel": 10,
                 "GiftAddFraction": 0.05,
                 "GiftAddValidLevel": 4,
                 "bInFormation": false
@@ -66,15 +67,15 @@
             "Description": {
               "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
               "Key": "City_Ability_palyer_01_lv2",
-              "SourceString": "当角色羁遇等级为<Green2>6</>级及以下时，赠送礼物增加的好感值提高<Green2>5%</>。",
-              "LocalizedString": "当角色羁遇等级为<Green2>6</>级及以下时，赠送礼物增加的好感值提高<Green2>5%</>。"
+              "SourceString": "当角色羁遇等级为<Green2>5</>级及以下时，赠送礼物增加的好感值提高<Green2>5%</>。",
+              "LocalizedString": "当角色羁遇等级为<Green2>5</>级及以下时，赠送礼物增加的好感值提高<Green2>5%</>。"
             },
             "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
             "AbilityCityAttribute": [
               {
-                "MaxLevel": 4,
+                "MaxLevel": 10,
                 "GiftAddFraction": 0.05,
-                "GiftAddValidLevel": 6,
+                "GiftAddValidLevel": 5,
                 "bInFormation": false
               }
             ]
@@ -92,13 +93,13 @@
             "Description": {
               "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
               "Key": "City_Ability_palyer_01_lv3",
-              "SourceString": "羁遇等级上限解锁至<Green2>8</>级（默认为<Green2>6</>级）。",
-              "LocalizedString": "羁遇等级上限解锁至<Green2>8</>级（默认为<Green2>6</>级）。"
+              "SourceString": "当角色羁遇等级为<Green2>6</>级及以下时，赠送礼物增加的好感值提高<Green2>5%</>。",
+              "LocalizedString": "当角色羁遇等级为<Green2>6</>级及以下时，赠送礼物增加的好感值提高<Green2>5%</>。"
             },
             "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
             "AbilityCityAttribute": [
               {
-                "MaxLevel": 8,
+                "MaxLevel": 10,
                 "GiftAddFraction": 0.05,
                 "GiftAddValidLevel": 6,
                 "bInFormation": false
@@ -118,15 +119,15 @@
             "Description": {
               "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
               "Key": "City_Ability_palyer_01_lv4",
-              "SourceString": "羁遇等级上限解锁至<Green2>9</>级。",
-              "LocalizedString": "羁遇等级上限解锁至<Green2>9</>级。"
+              "SourceString": "当角色羁遇等级为<Green2>7</>级及以下时，赠送礼物增加的好感值提高<Green2>5%</>。",
+              "LocalizedString": "当角色羁遇等级为<Green2>7</>级及以下时，赠送礼物增加的好感值提高<Green2>5%</>。"
             },
             "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
             "AbilityCityAttribute": [
               {
-                "MaxLevel": 9,
+                "MaxLevel": 10,
                 "GiftAddFraction": 0.05,
-                "GiftAddValidLevel": 6,
+                "GiftAddValidLevel": 7,
                 "bInFormation": false
               }
             ]
@@ -144,15 +145,15 @@
             "Description": {
               "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
               "Key": "City_Ability_palyer_01_lv5",
-              "SourceString": "羁遇等级上限解锁至<Green2>10</>级。",
-              "LocalizedString": "羁遇等级上限解锁至<Green2>10</>级。"
+              "SourceString": "当角色羁遇等级为<Green2>8</>级及以下时，赠送礼物增加的好感值提高<Green2>5%</>。",
+              "LocalizedString": "当角色羁遇等级为<Green2>8</>级及以下时，赠送礼物增加的好感值提高<Green2>5%</>。"
             },
             "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
             "AbilityCityAttribute": [
               {
                 "MaxLevel": 10,
                 "GiftAddFraction": 0.05,
-                "GiftAddValidLevel": 6,
+                "GiftAddValidLevel": 8,
                 "bInFormation": false
               }
             ]
@@ -160,255 +161,6 @@
         ],
         "AbilityGroupType": [
           "ECharacterCityAbilityGroupType::GROUP_LIKEABILITY"
-        ]
-      },
-      "City_Ability_fadia_01": {
-        "GroupId": "City_Ability_fadia_01",
-        "Icon": {
-          "AssetPathName": "/Game/UI/UI/YINeng/CityAbilityIcon/YH_UI_Skill_zjyd.YH_UI_Skill_zjyd",
-          "SubPathString": ""
-        },
-        "Description": {
-          "CultureInvariantString": "新模拟经营技能✔"
-        },
-        "AbilityName": {
-          "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
-          "Key": "City_Ability_fadia_01_name",
-          "SourceString": "自觉一点",
-          "LocalizedString": "自觉一点"
-        },
-        "AbilityCityAttributeArray": [
-          {
-            "AttributeID": "City_Ability_fadia_01",
-            "AttributeLevel": 1,
-            "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
-              "SubPathString": ""
-            },
-            "Name": {
-              "CultureInvariantString": "<！>城市属性3"
-            },
-            "Description": {
-              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
-              "Key": "City_Ability_fadia_01_lv1",
-              "SourceString": "法帝娅上阵店铺后上架菜品每包含1个饮料标签，该店的人流量额外增加<Green2>1%</>。",
-              "LocalizedString": "法帝娅上阵店铺后上架菜品每包含1个饮料标签，该店的人流量额外增加<Green2>1%</>。"
-            },
-            "AbilityAttributeType": "ECharacterCityAbilityType::COOK_PRICE_ADD",
-            "AbilityCityAttribute": [
-              {
-                "SkillEffects": [
-                  {
-                    "SkillEffectType": "EEmployeeSkillEffectType::FixedRepeatEntry",
-                    "PropDes": {
-                      "CultureInvariantString": null
-                    },
-                    "PropertyFiltrateData": {
-                      "PropertyType": "EStoreProperty::Passenger_Flow_Volume_Percentage_Property",
-                      "PropertyData": {
-                        "PropertyValue": 0.01
-                      }
-                    },
-                    "ItemEntry": "EStoreBrandItemEntryType::Entry_Drink",
-                    "EntryCount": 1,
-                    "IsUnlockItems": false,
-                    "UnlockItems": 0,
-                    "AddPerMaxLimit": 0.0,
-                    "IsWorkingEmployee": false,
-                    "SellItemID": "None",
-                    "SellItemLevel": 0,
-                    "IsExtraAddEntryToItem": false
-                  }
-                ],
-                "bInFormation": false
-              }
-            ]
-          },
-          {
-            "AttributeID": "City_Ability_fadia_01",
-            "AttributeLevel": 2,
-            "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_2.Anhun_H_2",
-              "SubPathString": ""
-            },
-            "Name": {
-              "CultureInvariantString": "<！>新模拟经营技能"
-            },
-            "Description": {
-              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
-              "Key": "City_Ability_fadia_01_lv2",
-              "SourceString": "法帝娅上阵店铺后食材消耗速度降低<Green2>1%</>。",
-              "LocalizedString": "法帝娅上阵店铺后食材消耗速度降低<Green2>1%</>。"
-            },
-            "AbilityAttributeType": "ECharacterCityAbilityType::COOK_PRICE_ADD",
-            "AbilityCityAttribute": [
-              {
-                "SkillEffects": [
-                  {
-                    "SkillEffectType": "EEmployeeSkillEffectType::Common",
-                    "PropDes": {
-                      "CultureInvariantString": null
-                    },
-                    "PropertyFiltrateData": {
-                      "PropertyType": "EStoreProperty::New_Materials_Consume_Reduce_Property",
-                      "PropertyData": {
-                        "PropertyValue": 0.01
-                      }
-                    },
-                    "ItemEntry": "EStoreBrandItemEntryType::Entry_None",
-                    "EntryCount": 0,
-                    "IsUnlockItems": false,
-                    "UnlockItems": 0,
-                    "AddPerMaxLimit": 0.0,
-                    "IsWorkingEmployee": false,
-                    "SellItemID": "None",
-                    "SellItemLevel": 0,
-                    "IsExtraAddEntryToItem": false
-                  }
-                ],
-                "bInFormation": false
-              }
-            ]
-          },
-          {
-            "AttributeID": "City_Ability_fadia_01",
-            "AttributeLevel": 3,
-            "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_1.Anhun_H_1",
-              "SubPathString": ""
-            },
-            "Name": {
-              "CultureInvariantString": "<！>城市属性1"
-            },
-            "Description": {
-              "TableId": "/Game/Text/ST_Store.ST_Store",
-              "Key": "DT_OnlineEmployee_Skia",
-              "SourceString": "「店长特供」中当客人离开时会额外留下小费。",
-              "LocalizedString": "「店长特供」中当客人离开时会额外留下小费。"
-            },
-            "AbilityAttributeType": "ECharacterCityAbilityType::COOK_PRICE_ADD",
-            "AbilityCityAttribute": [
-              {
-                "SkillEffects": [
-                  {
-                    "SkillEffectType": "EEmployeeSkillEffectType::None",
-                    "PropDes": {
-                      "CultureInvariantString": null
-                    },
-                    "PropertyFiltrateData": {
-                      "PropertyType": "EStoreProperty::Store_Property_None",
-                      "PropertyData": null
-                    },
-                    "ItemEntry": "EStoreBrandItemEntryType::Entry_None",
-                    "EntryCount": 0,
-                    "IsUnlockItems": false,
-                    "UnlockItems": 0,
-                    "AddPerMaxLimit": 0.0,
-                    "IsWorkingEmployee": false,
-                    "SellItemID": "None",
-                    "SellItemLevel": 0,
-                    "IsExtraAddEntryToItem": false
-                  }
-                ],
-                "bInFormation": false
-              }
-            ]
-          },
-          {
-            "AttributeID": "City_Ability_fadia_01",
-            "AttributeLevel": 4,
-            "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
-              "SubPathString": ""
-            },
-            "Name": {
-              "CultureInvariantString": "<！>城市属性3"
-            },
-            "Description": {
-              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
-              "Key": "City_Ability_fadia_01_lv4",
-              "SourceString": "法帝娅上阵店铺后食材消耗速度降低<Green2>1%</>。",
-              "LocalizedString": "法帝娅上阵店铺后食材消耗速度降低<Green2>1%</>。"
-            },
-            "AbilityAttributeType": "ECharacterCityAbilityType::COOK_PRICE_ADD",
-            "AbilityCityAttribute": [
-              {
-                "SkillEffects": [
-                  {
-                    "SkillEffectType": "EEmployeeSkillEffectType::Common",
-                    "PropDes": {
-                      "CultureInvariantString": null
-                    },
-                    "PropertyFiltrateData": {
-                      "PropertyType": "EStoreProperty::New_Materials_Consume_Reduce_Property",
-                      "PropertyData": {
-                        "PropertyValue": 0.01
-                      }
-                    },
-                    "ItemEntry": "EStoreBrandItemEntryType::Entry_None",
-                    "EntryCount": 0,
-                    "IsUnlockItems": false,
-                    "UnlockItems": 0,
-                    "AddPerMaxLimit": 0.0,
-                    "IsWorkingEmployee": false,
-                    "SellItemID": "None",
-                    "SellItemLevel": 0,
-                    "IsExtraAddEntryToItem": false
-                  }
-                ],
-                "bInFormation": false
-              }
-            ]
-          },
-          {
-            "AttributeID": "City_Ability_fadia_01",
-            "AttributeLevel": 5,
-            "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
-              "SubPathString": ""
-            },
-            "Name": {
-              "CultureInvariantString": "<！>城市属性3"
-            },
-            "Description": {
-              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
-              "Key": "City_Ability_fadia_01_lv5",
-              "SourceString": "法帝娅上阵店铺后上架菜品每包含2个饮料标签，该店的人流量额外增加<Green2>1.5%</>。",
-              "LocalizedString": "法帝娅上阵店铺后上架菜品每包含2个饮料标签，该店的人流量额外增加<Green2>1.5%</>。"
-            },
-            "AbilityAttributeType": "ECharacterCityAbilityType::COOK_PRICE_ADD",
-            "AbilityCityAttribute": [
-              {
-                "SkillEffects": [
-                  {
-                    "SkillEffectType": "EEmployeeSkillEffectType::FixedRepeatEntry",
-                    "PropDes": {
-                      "CultureInvariantString": null
-                    },
-                    "PropertyFiltrateData": {
-                      "PropertyType": "EStoreProperty::Passenger_Flow_Volume_Percentage_Property",
-                      "PropertyData": {
-                        "PropertyValue": 0.015
-                      }
-                    },
-                    "ItemEntry": "EStoreBrandItemEntryType::Entry_Drink",
-                    "EntryCount": 2,
-                    "IsUnlockItems": false,
-                    "UnlockItems": 0,
-                    "AddPerMaxLimit": 0.0,
-                    "IsWorkingEmployee": false,
-                    "SellItemID": "None",
-                    "SellItemLevel": 0,
-                    "IsExtraAddEntryToItem": false
-                  }
-                ],
-                "bInFormation": false
-              }
-            ]
-          }
-        ],
-        "AbilityGroupType": [
-          "ECharacterCityAbilityGroupType::GROUP_STORE"
         ]
       },
       "City_Ability_fadia_02": {
@@ -1995,8 +1747,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
               "Key": "City_Ability_lacrimosa_01_lv1",
-              "SourceString": "安魂曲上阵店铺后上架菜品每包含1个甜品标签，该店的菜品售价额外增加<Green2>1%</>。",
-              "LocalizedString": "安魂曲上阵店铺后上架菜品每包含1个甜品标签，该店的菜品售价额外增加<Green2>1%</>。"
+              "SourceString": "安魂曲上阵店铺后上架菜品包含1个甜品标签，该店的菜品售价额外增加<Green2>1%</>。",
+              "LocalizedString": "安魂曲上阵店铺后上架菜品包含1个甜品标签，该店的菜品售价额外增加<Green2>1%</>。"
             },
             "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
             "AbilityCityAttribute": [
@@ -2177,8 +1929,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
               "Key": "City_Ability_lacrimosa_01_lv5",
-              "SourceString": "安魂曲上阵店铺后上架菜品每包含2个甜品标签，该店的菜品售价额外增加<Green2>1.5%</>。",
-              "LocalizedString": "安魂曲上阵店铺后上架菜品每包含2个甜品标签，该店的菜品售价额外增加<Green2>1.5%</>。"
+              "SourceString": "安魂曲上阵店铺后上架菜品包含2个甜品标签，该店的菜品售价额外增加<Green2>1.5%</>。",
+              "LocalizedString": "安魂曲上阵店铺后上架菜品包含2个甜品标签，该店的菜品售价额外增加<Green2>1.5%</>。"
             },
             "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
             "AbilityCityAttribute": [
@@ -2770,8 +2522,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
               "Key": "City_Ability_nanally_01_lv1",
-              "SourceString": "娜娜莉上阵店铺后上架菜品每包含1个主食标签，该店的菜品售价额外增加<Green2>0.2</>方斯。",
-              "LocalizedString": "娜娜莉上阵店铺后上架菜品每包含1个主食标签，该店的菜品售价额外增加<Green2>0.2</>方斯。"
+              "SourceString": "娜娜莉上阵店铺后上架菜品包含1个主食标签，该店的菜品售价额外增加<Green2>0.2</>方斯。",
+              "LocalizedString": "娜娜莉上阵店铺后上架菜品包含1个主食标签，该店的菜品售价额外增加<Green2>0.2</>方斯。"
             },
             "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
             "AbilityCityAttribute": [
@@ -2952,8 +2704,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
               "Key": "City_Ability_nanally_01_lv5",
-              "SourceString": "娜娜莉上阵店铺后上架菜品每包含2个主食标签，该店的菜品售价额外增加<Green2>0.3</>方斯。",
-              "LocalizedString": "娜娜莉上阵店铺后上架菜品每包含2个主食标签，该店的菜品售价额外增加<Green2>0.3</>方斯。"
+              "SourceString": "娜娜莉上阵店铺后上架菜品包含2个主食标签，该店的菜品售价额外增加<Green2>0.3</>方斯。",
+              "LocalizedString": "娜娜莉上阵店铺后上架菜品包含2个主食标签，该店的菜品售价额外增加<Green2>0.3</>方斯。"
             },
             "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
             "AbilityCityAttribute": [
@@ -3818,7 +3570,7 @@
             "AttributeID": "City_Ability_Aidejia_01",
             "AttributeLevel": 1,
             "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_1.Anhun_H_1",
               "SubPathString": ""
             },
             "Name": {
@@ -3910,36 +3662,38 @@
             "AttributeID": "City_Ability_Aidejia_01",
             "AttributeLevel": 3,
             "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_1.Anhun_H_1",
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
               "SubPathString": ""
             },
             "Name": {
-              "CultureInvariantString": "<！>城市属性1"
+              "CultureInvariantString": "<！>城市属性3"
             },
             "Description": {
-              "TableId": "/Game/Text/ST_Store.ST_Store",
-              "Key": "DT_OnlineEmployee_Hathor",
-              "SourceString": "「店长特供」中顾客选择售价最高的菜品的概率提高。",
-              "LocalizedString": "「店长特供」中顾客选择售价最高的菜品的概率提高。"
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_edgar_lv3",
+              "SourceString": "埃德嘉上阵店铺后人流量增加<Green2>18</>点。",
+              "LocalizedString": "埃德嘉上阵店铺后人流量增加<Green2>18</>点。"
             },
             "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
             "AbilityCityAttribute": [
               {
                 "SkillEffects": [
                   {
-                    "SkillEffectType": "EEmployeeSkillEffectType::None",
+                    "SkillEffectType": "EEmployeeSkillEffectType::Common",
                     "PropDes": {
                       "CultureInvariantString": null
                     },
                     "PropertyFiltrateData": {
-                      "PropertyType": "EStoreProperty::Store_Property_None",
-                      "PropertyData": null
+                      "PropertyType": "EStoreProperty::Passenger_Flow_Volume_Base_Property",
+                      "PropertyData": {
+                        "PropertyValue": 18.0
+                      }
                     },
                     "ItemEntry": "EStoreBrandItemEntryType::Entry_None",
                     "EntryCount": 0,
                     "IsUnlockItems": false,
-                    "UnlockItems": 0,
-                    "AddPerMaxLimit": 0.0,
+                    "UnlockItems": 1,
+                    "AddPerMaxLimit": 0.5,
                     "IsWorkingEmployee": false,
                     "SellItemID": "None",
                     "SellItemLevel": 0,
@@ -3954,7 +3708,7 @@
             "AttributeID": "City_Ability_Aidejia_01",
             "AttributeLevel": 4,
             "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_4.Anhun_H_4",
               "SubPathString": ""
             },
             "Name": {
@@ -4000,7 +3754,7 @@
             "AttributeID": "City_Ability_Aidejia_01",
             "AttributeLevel": 5,
             "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_5.Anhun_H_5",
               "SubPathString": ""
             },
             "Name": {
@@ -4299,145 +4053,6 @@
       "City_Ability_Dafudier_01": {
         "GroupId": "City_Ability_Dafudier_01",
         "Icon": {
-          "AssetPathName": "/Game/UI/UI/YINeng/CityAbilityIcon/YH_UI_Skill_kdzlm.YH_UI_Skill_kdzlm",
-          "SubPathString": ""
-        },
-        "Description": {
-          "CultureInvariantString": "<!>达芙蒂尔-1-x"
-        },
-        "AbilityName": {
-          "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
-          "Key": "City_Ability_Dafudier_01_name",
-          "SourceString": "快刀斩乱麻",
-          "LocalizedString": "快刀斩乱麻"
-        },
-        "AbilityCityAttributeArray": [
-          {
-            "AttributeID": "City_Ability_Dafudier_01",
-            "AttributeLevel": 1,
-            "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_1.Anhun_H_1",
-              "SubPathString": ""
-            },
-            "Name": {
-              "Namespace": "",
-              "Key": "A55015E64243A8F63A6B6A8CEC262D51",
-              "SourceString": "<！>城市属性1",
-              "LocalizedString": "<！>城市属性1"
-            },
-            "Description": {
-              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
-              "Key": "City_Ability_cang_02_lv1",
-              "SourceString": null,
-              "LocalizedString": null
-            },
-            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
-            "AbilityCityAttribute": [
-              {
-                "bInFormation": false
-              }
-            ]
-          },
-          {
-            "AttributeID": "City_Ability_Dafudier_01",
-            "AttributeLevel": 2,
-            "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_2.Anhun_H_2",
-              "SubPathString": ""
-            },
-            "Name": {
-              "CultureInvariantString": "<！>城市属性2"
-            },
-            "Description": {
-              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
-              "Key": "City_Ability_cang_02_lv2",
-              "SourceString": null,
-              "LocalizedString": null
-            },
-            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
-            "AbilityCityAttribute": [
-              {
-                "bInFormation": false
-              }
-            ]
-          },
-          {
-            "AttributeID": "City_Ability_Dafudier_01",
-            "AttributeLevel": 3,
-            "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
-              "SubPathString": ""
-            },
-            "Name": {
-              "CultureInvariantString": "<！>城市属性3"
-            },
-            "Description": {
-              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
-              "Key": "City_Ability_cang_02_lv3",
-              "SourceString": null,
-              "LocalizedString": null
-            },
-            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
-            "AbilityCityAttribute": [
-              {
-                "bInFormation": false
-              }
-            ]
-          },
-          {
-            "AttributeID": "City_Ability_Dafudier_01",
-            "AttributeLevel": 4,
-            "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
-              "SubPathString": ""
-            },
-            "Name": {
-              "CultureInvariantString": "<！>城市属性3"
-            },
-            "Description": {
-              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
-              "Key": "City_Ability_cang_02_lv3",
-              "SourceString": null,
-              "LocalizedString": null
-            },
-            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
-            "AbilityCityAttribute": [
-              {
-                "bInFormation": false
-              }
-            ]
-          },
-          {
-            "AttributeID": "City_Ability_Dafudier_01",
-            "AttributeLevel": 5,
-            "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
-              "SubPathString": ""
-            },
-            "Name": {
-              "CultureInvariantString": "<！>城市属性3"
-            },
-            "Description": {
-              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
-              "Key": "City_Ability_cang_02_lv3",
-              "SourceString": null,
-              "LocalizedString": null
-            },
-            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
-            "AbilityCityAttribute": [
-              {
-                "bInFormation": false
-              }
-            ]
-          }
-        ],
-        "AbilityGroupType": [
-          "ECharacterCityAbilityGroupType::GROUP_Bank"
-        ]
-      },
-      "City_Ability_Dafudier_02": {
-        "GroupId": "City_Ability_Dafudier_02",
-        "Icon": {
           "AssetPathName": "/Game/UI/UI/YINeng/CityAbilityIcon/YH_UI_Skill_dkxx.YH_UI_Skill_dkxx",
           "SubPathString": ""
         },
@@ -4452,10 +4067,10 @@
         },
         "AbilityCityAttributeArray": [
           {
-            "AttributeID": "City_Ability_Dafudier_02",
+            "AttributeID": "City_Ability_Dafudier_01",
             "AttributeLevel": 1,
             "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_1.Anhun_H_1",
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
               "SubPathString": ""
             },
             "Name": {
@@ -4498,7 +4113,7 @@
             ]
           },
           {
-            "AttributeID": "City_Ability_Dafudier_02",
+            "AttributeID": "City_Ability_Dafudier_01",
             "AttributeLevel": 2,
             "Icon": {
               "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_2.Anhun_H_2",
@@ -4544,41 +4159,39 @@
             ]
           },
           {
-            "AttributeID": "City_Ability_Dafudier_02",
+            "AttributeID": "City_Ability_Dafudier_01",
             "AttributeLevel": 3,
             "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_1.Anhun_H_1",
               "SubPathString": ""
             },
             "Name": {
-              "CultureInvariantString": "<！>城市属性3"
+              "CultureInvariantString": "<！>城市属性1"
             },
             "Description": {
-              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
-              "Key": "City_Ability_daffodill_lv3",
-              "SourceString": "达芙蒂尔上阵店铺后人流量增加<Green2>18</>点。",
-              "LocalizedString": "达芙蒂尔上阵店铺后人流量增加<Green2>18</>点。"
+              "TableId": "/Game/Text/ST_Store.ST_Store",
+              "Key": "DT_OnlineEmployee_Hathor",
+              "SourceString": "「店长特供」中顾客选择售价最高的菜品的概率提高。",
+              "LocalizedString": "「店长特供」中顾客选择售价最高的菜品的概率提高。"
             },
             "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
             "AbilityCityAttribute": [
               {
                 "SkillEffects": [
                   {
-                    "SkillEffectType": "EEmployeeSkillEffectType::Common",
+                    "SkillEffectType": "EEmployeeSkillEffectType::None",
                     "PropDes": {
                       "CultureInvariantString": null
                     },
                     "PropertyFiltrateData": {
-                      "PropertyType": "EStoreProperty::Passenger_Flow_Volume_Base_Property",
-                      "PropertyData": {
-                        "PropertyValue": 18.0
-                      }
+                      "PropertyType": "EStoreProperty::Store_Property_None",
+                      "PropertyData": null
                     },
                     "ItemEntry": "EStoreBrandItemEntryType::Entry_None",
                     "EntryCount": 0,
                     "IsUnlockItems": false,
-                    "UnlockItems": 1,
-                    "AddPerMaxLimit": 0.5,
+                    "UnlockItems": 0,
+                    "AddPerMaxLimit": 0.0,
                     "IsWorkingEmployee": false,
                     "SellItemID": "None",
                     "SellItemLevel": 0,
@@ -4590,10 +4203,10 @@
             ]
           },
           {
-            "AttributeID": "City_Ability_Dafudier_02",
+            "AttributeID": "City_Ability_Dafudier_01",
             "AttributeLevel": 4,
             "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_4.Anhun_H_4",
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
               "SubPathString": ""
             },
             "Name": {
@@ -4636,10 +4249,10 @@
             ]
           },
           {
-            "AttributeID": "City_Ability_Dafudier_02",
+            "AttributeID": "City_Ability_Dafudier_01",
             "AttributeLevel": 5,
             "Icon": {
-              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_5.Anhun_H_5",
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
               "SubPathString": ""
             },
             "Name": {
@@ -4668,6 +4281,235 @@
                     },
                     "ItemEntry": "EStoreBrandItemEntryType::Entry_None",
                     "EntryCount": 0,
+                    "IsUnlockItems": false,
+                    "UnlockItems": 0,
+                    "AddPerMaxLimit": 0.0,
+                    "IsWorkingEmployee": false,
+                    "SellItemID": "None",
+                    "SellItemLevel": 0,
+                    "IsExtraAddEntryToItem": false
+                  }
+                ],
+                "bInFormation": false
+              }
+            ]
+          }
+        ],
+        "AbilityGroupType": [
+          "ECharacterCityAbilityGroupType::GROUP_STORE"
+        ]
+      },
+      "City_Ability_Mitsuki_01": {
+        "GroupId": "City_Ability_Mitsuki_01",
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/YINeng/CityAbilityIcon/YH_UI_Skill_zydk.YH_UI_Skill_zydk",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": "新模拟经营技能✔"
+        },
+        "AbilityName": {
+          "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+          "Key": "City_Ability_Haiyue_01_name",
+          "SourceString": "专业对口",
+          "LocalizedString": "专业对口"
+        },
+        "AbilityCityAttributeArray": [
+          {
+            "AttributeID": "City_Ability_Mitsuki_01",
+            "AttributeLevel": 1,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
+              "SubPathString": ""
+            },
+            "Name": {
+              "CultureInvariantString": "<！>城市属性3"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Haiyue_01_lv1",
+              "SourceString": "海月上阵店铺后上架菜品包含1个饮品标签，该店的人流量额外增加<Green2>1%</>。",
+              "LocalizedString": "海月上阵店铺后上架菜品包含1个饮品标签，该店的人流量额外增加<Green2>1%</>。"
+            },
+            "AbilityAttributeType": "ECharacterCityAbilityType::COOK_PRICE_ADD",
+            "AbilityCityAttribute": [
+              {
+                "SkillEffects": [
+                  {
+                    "SkillEffectType": "EEmployeeSkillEffectType::None",
+                    "PropDes": {
+                      "CultureInvariantString": null
+                    },
+                    "PropertyFiltrateData": {
+                      "PropertyType": "EStoreProperty::Cuisine_Price_Base_Property",
+                      "PropertyData": {
+                        "PropertyValue": 0.12
+                      }
+                    },
+                    "ItemEntry": "EStoreBrandItemEntryType::Entry_None",
+                    "EntryCount": 0,
+                    "IsUnlockItems": false,
+                    "UnlockItems": 0,
+                    "AddPerMaxLimit": 0.0,
+                    "IsWorkingEmployee": false,
+                    "SellItemID": "None",
+                    "SellItemLevel": 0,
+                    "IsExtraAddEntryToItem": false
+                  }
+                ],
+                "bInFormation": false
+              }
+            ]
+          },
+          {
+            "AttributeID": "City_Ability_Mitsuki_01",
+            "AttributeLevel": 2,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_2.Anhun_H_2",
+              "SubPathString": ""
+            },
+            "Name": {
+              "CultureInvariantString": "<！>新模拟经营技能"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Haiyue_01_lv2",
+              "SourceString": "海月上阵店铺后食材消耗速度降低<Green2>1%</>。",
+              "LocalizedString": "海月上阵店铺后食材消耗速度降低<Green2>1%</>。"
+            },
+            "AbilityAttributeType": "ECharacterCityAbilityType::COOK_PRICE_ADD",
+            "AbilityCityAttribute": [
+              {
+                "SkillEffects": [
+                  {
+                    "SkillEffectType": "EEmployeeSkillEffectType::FixedRepeatEntry",
+                    "PropDes": {
+                      "CultureInvariantString": null
+                    },
+                    "PropertyFiltrateData": {
+                      "PropertyType": "EStoreProperty::Passenger_Flow_Volume_Percentage_Property",
+                      "PropertyData": {
+                        "PropertyValue": 0.01
+                      }
+                    },
+                    "ItemEntry": "EStoreBrandItemEntryType::Entry_Drink",
+                    "EntryCount": 2,
+                    "IsUnlockItems": false,
+                    "UnlockItems": 0,
+                    "AddPerMaxLimit": 0.0,
+                    "IsWorkingEmployee": false,
+                    "SellItemID": "None",
+                    "SellItemLevel": 0,
+                    "IsExtraAddEntryToItem": false
+                  }
+                ],
+                "bInFormation": false
+              }
+            ]
+          },
+          {
+            "AttributeID": "City_Ability_Mitsuki_01",
+            "AttributeLevel": 3,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_1.Anhun_H_1",
+              "SubPathString": ""
+            },
+            "Name": {
+              "CultureInvariantString": "<！>城市属性1"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_Store.ST_Store",
+              "Key": "DT_OnlineEmployee_Skia",
+              "SourceString": "「店长特供」中当客人离开时会额外留下小费。",
+              "LocalizedString": "「店长特供」中当客人离开时会额外留下小费。"
+            },
+            "AbilityAttributeType": "ECharacterCityAbilityType::COOK_PRICE_ADD",
+            "AbilityCityAttribute": [
+              {
+                "SkillEffects": [],
+                "bInFormation": false
+              }
+            ]
+          },
+          {
+            "AttributeID": "City_Ability_Mitsuki_01",
+            "AttributeLevel": 4,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
+              "SubPathString": ""
+            },
+            "Name": {
+              "CultureInvariantString": "<！>城市属性3"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Haiyue_01_lv4",
+              "SourceString": "海月上阵店铺后食材消耗速度降低<Green2>1%</>。",
+              "LocalizedString": "海月上阵店铺后食材消耗速度降低<Green2>1%</>。"
+            },
+            "AbilityAttributeType": "ECharacterCityAbilityType::COOK_PRICE_ADD",
+            "AbilityCityAttribute": [
+              {
+                "SkillEffects": [
+                  {
+                    "SkillEffectType": "EEmployeeSkillEffectType::Common",
+                    "PropDes": {
+                      "CultureInvariantString": null
+                    },
+                    "PropertyFiltrateData": {
+                      "PropertyType": "EStoreProperty::New_Materials_Consume_Reduce_Property",
+                      "PropertyData": {
+                        "PropertyValue": 0.01
+                      }
+                    },
+                    "ItemEntry": "EStoreBrandItemEntryType::Entry_None",
+                    "EntryCount": 0,
+                    "IsUnlockItems": false,
+                    "UnlockItems": 0,
+                    "AddPerMaxLimit": 0.0,
+                    "IsWorkingEmployee": false,
+                    "SellItemID": "None",
+                    "SellItemLevel": 0,
+                    "IsExtraAddEntryToItem": false
+                  }
+                ],
+                "bInFormation": false
+              }
+            ]
+          },
+          {
+            "AttributeID": "City_Ability_Mitsuki_01",
+            "AttributeLevel": 5,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_3.Anhun_H_3",
+              "SubPathString": ""
+            },
+            "Name": {
+              "CultureInvariantString": "<！>城市属性3"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Haiyue_01_lv5",
+              "SourceString": "海月上阵店铺后上架菜品包含2个饮品标签，该店的人流量额外增加<Green2>1.5%</>。",
+              "LocalizedString": "海月上阵店铺后上架菜品包含2个饮品标签，该店的人流量额外增加<Green2>1.5%</>。"
+            },
+            "AbilityAttributeType": "ECharacterCityAbilityType::COOK_PRICE_ADD",
+            "AbilityCityAttribute": [
+              {
+                "SkillEffects": [
+                  {
+                    "SkillEffectType": "EEmployeeSkillEffectType::FixedRepeatEntry",
+                    "PropDes": {
+                      "CultureInvariantString": null
+                    },
+                    "PropertyFiltrateData": {
+                      "PropertyType": "EStoreProperty::Passenger_Flow_Volume_Percentage_Property",
+                      "PropertyData": {
+                        "PropertyValue": 0.015
+                      }
+                    },
+                    "ItemEntry": "EStoreBrandItemEntryType::Entry_Drink",
+                    "EntryCount": 2,
                     "IsUnlockItems": false,
                     "UnlockItems": 0,
                     "AddPerMaxLimit": 0.0,

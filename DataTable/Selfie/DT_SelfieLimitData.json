@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_SelfieLimitData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Selfie/DT_SelfieLimitData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'HTSelfieLimitDataItem'",
@@ -225,7 +226,7 @@
         "bForbiddenCamera": false,
         "bTimePause": false,
         "bForbiddenUseStick": false,
-        "bForbiddenUseDrone": true,
+        "bForbiddenUseDrone": false,
         "bAutoCloseInState": false,
         "bAutoRotaor": false,
         "YawRotartor": 180.0,
@@ -420,7 +421,7 @@
       },
       "38": {
         "LimitStateType": "EHTCharacterStateType::Fishing",
-        "bForbiddenCamera": false,
+        "bForbiddenCamera": true,
         "bTimePause": true,
         "bForbiddenUseStick": true,
         "bForbiddenUseDrone": true,
@@ -432,7 +433,7 @@
       "39": {
         "LimitStateType": "EHTCharacterStateType::BoardTrain",
         "bForbiddenCamera": false,
-        "bTimePause": true,
+        "bTimePause": false,
         "bForbiddenUseStick": true,
         "bForbiddenUseDrone": true,
         "bAutoCloseInState": false,

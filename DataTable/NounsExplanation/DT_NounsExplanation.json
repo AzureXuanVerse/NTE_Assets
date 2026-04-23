@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_NounsExplanation",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/NounsExplanation/DT_NounsExplanation",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'NounsExplanationData'",
@@ -245,8 +246,8 @@
         "Explanation": {
           "TableId": "/Game/Text/PlayerSkillDes/Daffodill_SkillDes.Daffodill_SkillDes",
           "Key": "Daffodill_ZhiYuan_des",
-          "SourceString": "战斗中且存在目标时，从其他角色切换至达芙蒂尔时，达芙蒂尔先行释放「幻影移行」。如果「幻影移行」承轨反击成功目标，可造成高额伤害和倾陷值并立刻为「极轨终结：见此终幕」蓄满充能。如果切换至达芙蒂尔时存在「援护技：交仞」，会先行释放「援护技：交仞」，后自动释放「幻影移行」，此时「援护技：交仞」承轨反击成功视为「幻影移行」承轨反击成功。",
-          "LocalizedString": "战斗中且存在目标时，从其他角色切换至达芙蒂尔时，达芙蒂尔先行释放「幻影移行」。如果「幻影移行」承轨反击成功目标，可造成高额伤害和倾陷值并立刻为「极轨终结：见此终幕」蓄满充能。如果切换至达芙蒂尔时存在「援护技：交仞」，会先行释放「援护技：交仞」，后自动释放「幻影移行」，此时「援护技：交仞」承轨反击成功视为「幻影移行」承轨反击成功。"
+          "SourceString": "战斗中且存在目标时，从其他角色切换至达芙蒂尔时，达芙蒂尔先行释放「幻影移行」。如果「幻影移行」成功承轨反击目标，可造成高额伤害和倾陷值并立刻为「极轨终结：见此终幕」蓄满充能。如果切换至达芙蒂尔时存在「援护技：交仞」，会先行释放「援护技：交仞」，后自动释放「幻影移行」，此时「援护技：交仞」承轨反击成功视为「幻影移行」承轨反击成功。",
+          "LocalizedString": "战斗中且存在目标时，从其他角色切换至达芙蒂尔时，达芙蒂尔先行释放「幻影移行」。如果「幻影移行」成功承轨反击目标，可造成高额伤害和倾陷值并立刻为「极轨终结：见此终幕」蓄满充能。如果切换至达芙蒂尔时存在「援护技：交仞」，会先行释放「援护技：交仞」，后自动释放「幻影移行」，此时「援护技：交仞」承轨反击成功视为「幻影移行」承轨反击成功。"
         }
       },
       "KuharaAttachment": {
@@ -287,8 +288,8 @@
         "Explanation": {
           "TableId": "/Game/Text/PlayerSkillDes/Kuhara_SkillDes.Kuhara_SkillDes",
           "Key": "KuharaBudBoom_des",
-          "SourceString": "「致命玫约」进入可清算阶段后，被「玫约子弹」或「极轨终结：终局清账」最后一段伤害命中后触发，造成高额附着类<Ling>灵属性异能伤害</>，由「极轨终结：终局清账」触发造成的清算伤害将大幅提升；\r\n若「致命玫约」持续时间内未被触发，「致约清算」会在超时后自动清算，对目标造成伤害附着类<Ling>灵属性异能伤害</>。",
-          "LocalizedString": "「致命玫约」进入可清算阶段后，被「玫约子弹」或「极轨终结：终局清账」最后一段伤害命中后触发，造成高额附着类<Ling>灵属性异能伤害</>，由「极轨终结：终局清账」触发造成的清算伤害将大幅提升；\r\n若「致命玫约」持续时间内未被触发，「致约清算」会在超时后自动清算，对目标造成伤害附着类<Ling>灵属性异能伤害</>。"
+          "SourceString": "「致命玫约」进入可清算阶段后，被「玫约子弹」或「极轨终结：终局清账」最后一段伤害命中后触发，造成高额附着类<Ling>灵属性异能伤害</>，由「极轨终结：终局清账」触发造成的清算伤害将大幅提升且使九原获得大量终结能量；\r\n若「致命玫约」持续时间内未被触发，「致约清算」会在超时后自动清算，对目标造成伤害附着类<Ling>灵属性异能伤害</>。",
+          "LocalizedString": "「致命玫约」进入可清算阶段后，被「玫约子弹」或「极轨终结：终局清账」最后一段伤害命中后触发，造成高额附着类<Ling>灵属性异能伤害</>，由「极轨终结：终局清账」触发造成的清算伤害将大幅提升且使九原获得大量终结能量；\r\n若「致命玫约」持续时间内未被触发，「致约清算」会在超时后自动清算，对目标造成伤害附着类<Ling>灵属性异能伤害</>。"
         }
       },
       "HanielSkill": {
@@ -314,9 +315,9 @@
         },
         "Explanation": {
           "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
-          "Key": "Haniel_UltraSkill_des",
-          "SourceString": "累积<NumGreen>4</>层<TextEXPL>「四部和声」</>后可触发，对范围内敌人造成范围性<Hun>魂属性异能伤害</>，并使得当前在场角色的下次攻击将附带额外伤害，持续<NumGreen>3</>秒。",
-          "LocalizedString": "累积<NumGreen>4</>层<TextEXPL>「四部和声」</>后可触发，对范围内敌人造成范围性<Hun>魂属性异能伤害</>，并使得当前在场角色的下次攻击将附带额外伤害，持续<NumGreen>3</>秒。"
+          "Key": "Haniel_Ultraskill_nounsexplanation",
+          "SourceString": "累积<NumGreen>4</>层<TextEXPL>「四部和声」</>后可触发，对范围内敌人造成范围性<Hun>魂属性异能伤害</>。",
+          "LocalizedString": "累积<NumGreen>4</>层<TextEXPL>「四部和声」</>后可触发，对范围内敌人造成范围性<Hun>魂属性异能伤害</>。"
         }
       },
       "HanielPassive2": {
@@ -329,8 +330,8 @@
         "Explanation": {
           "TableId": "/Game/Text/PlayerSkillDes/Haniel_SkillDes.Haniel_SkillDes",
           "Key": "Haniel_Passive_2_des",
-          "SourceString": "当在场角色触发<TextEXPL>「合奏」</>时，可以为哈尼娅累积<NumGreen>1</>层<TextEXPL>「主角光环」</>，用以提高「超异科魔法炮」的弹射次数。每触发<NumGreen>1</>次<TextEXPL>「合奏」</>使得哈尼娅获得<NumGreen>1</>层<TextEXPL>「主角光环」</>。当哈尼娅处于「超异科王牌」状态时，每触发<NumGreen>1</>次<TextEXPL>「合奏」</>使得哈尼娅获得<NumGreen>2</>层<TextEXPL>「主角光环」</>。通过这种方式至多累积<NumGreen>5</>层<TextEXPL>「主角光环」</>。",
-          "LocalizedString": "当在场角色触发<TextEXPL>「合奏」</>时，可以为哈尼娅累积<NumGreen>1</>层<TextEXPL>「主角光环」</>，用以提高「超异科魔法炮」的弹射次数。每触发<NumGreen>1</>次<TextEXPL>「合奏」</>使得哈尼娅获得<NumGreen>1</>层<TextEXPL>「主角光环」</>。当哈尼娅处于「超异科王牌」状态时，每触发<NumGreen>1</>次<TextEXPL>「合奏」</>使得哈尼娅获得<NumGreen>2</>层<TextEXPL>「主角光环」</>。通过这种方式至多累积<NumGreen>5</>层<TextEXPL>「主角光环」</>。"
+          "SourceString": "当在场角色触发<TextEXPL>「合奏」</>时，可以为哈尼娅累积<NumGreen>1</>层<TextEXPL>「主角光环」</>，用以提高「超异科魔法炮」的弹射次数。每触发<NumGreen>1</>次<TextEXPL>「合奏」</>使得哈尼娅获得<NumGreen>1</>层<TextEXPL>「主角光环」</>。当哈尼娅处于「超异科王牌」状态时，每触发<NumGreen>1</>次<TextEXPL>「合奏」</>使得哈尼娅获得<NumGreen>2</>层<TextEXPL>「主角光环」</>。通过这种方式至多累积<NumGreen>4</>层<TextEXPL>「主角光环」</>。",
+          "LocalizedString": "当在场角色触发<TextEXPL>「合奏」</>时，可以为哈尼娅累积<NumGreen>1</>层<TextEXPL>「主角光环」</>，用以提高「超异科魔法炮」的弹射次数。每触发<NumGreen>1</>次<TextEXPL>「合奏」</>使得哈尼娅获得<NumGreen>1</>层<TextEXPL>「主角光环」</>。当哈尼娅处于「超异科王牌」状态时，每触发<NumGreen>1</>次<TextEXPL>「合奏」</>使得哈尼娅获得<NumGreen>2</>层<TextEXPL>「主角光环」</>。通过这种方式至多累积<NumGreen>4</>层<TextEXPL>「主角光环」</>。"
         }
       },
       "ChiichanRes1": {
@@ -413,8 +414,8 @@
         "Explanation": {
           "TableId": "/Game/Text/PlayerSkillDes/Chiichan_SkillDes.Chiichan_SkillDes",
           "Key": "ChiichanRes6_des",
-          "SourceString": "进入「金谷市场」后。点按变轨技能可依据当前「金谷K线」所示的「金谷」价格进行结算，并获得对应「金谷」。长按变轨技能时，将先结算当前「金谷」，再依据技能所消耗的「金谷」造成额外光属性异能伤害。\r\n每次点按变轨技能时均可进行「谷价结算」；长按变轨技能时，只进行1次「谷价结算」。",
-          "LocalizedString": "进入「金谷市场」后。点按变轨技能可依据当前「金谷K线」所示的「金谷」价格进行结算，并获得对应「金谷」。长按变轨技能时，将先结算当前「金谷」，再依据技能所消耗的「金谷」造成额外光属性异能伤害。\r\n每次点按变轨技能时均可进行「谷价结算」；长按变轨技能时，只进行1次「谷价结算」。"
+          "SourceString": "进入「金谷市场」后，点按变轨技能可依据当前「金谷K线」所示的「金谷」价格进行结算，并获得对应「金谷」。长按变轨技能时，将先结算当前「金谷」，再依据技能所消耗的「金谷」造成额外光属性异能伤害。\r\n每次点按变轨技能时均可进行「谷价结算」；长按变轨技能时，只进行1次「谷价结算」。",
+          "LocalizedString": "进入「金谷市场」后，点按变轨技能可依据当前「金谷K线」所示的「金谷」价格进行结算，并获得对应「金谷」。长按变轨技能时，将先结算当前「金谷」，再依据技能所消耗的「金谷」造成额外光属性异能伤害。\r\n每次点按变轨技能时均可进行「谷价结算」；长按变轨技能时，只进行1次「谷价结算」。"
         }
       },
       "attach": {
@@ -429,6 +430,20 @@
           "Key": "attach_des",
           "SourceString": "部分技能可以对目标施加「附着物」，附着物对目标造成1次伤害后自动脱落。",
           "LocalizedString": "部分技能可以对目标施加「附着物」，附着物对目标造成1次伤害后自动脱落。"
+        }
+      },
+      "MitsukiSkill": {
+        "Title": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "MitsukiSkill_name",
+          "SourceString": "华彩",
+          "LocalizedString": "华彩"
+        },
+        "Explanation": {
+          "TableId": "/Game/Text/PlayerSkillDes/Mitsuki_SkillDes.Mitsuki_SkillDes",
+          "Key": "MitsukiSkill_des",
+          "SourceString": "海月发射的水母弹造成额外<NumGreen>70%</>伤害，并对目标周围的敌人造成范围伤害。",
+          "LocalizedString": "海月发射的水母弹造成额外<NumGreen>70%</>伤害，并对目标周围的敌人造成范围伤害。"
         }
       }
     }

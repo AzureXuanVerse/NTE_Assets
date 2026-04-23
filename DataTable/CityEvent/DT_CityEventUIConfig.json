@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_CityEventUIConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/CityEvent/DT_CityEventUIConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'CityEventUIConfig'",
@@ -22,7 +23,27 @@
                 "SourceString": "市民受到威胁",
                 "LocalizedString": "市民受到威胁"
               },
-              "StageTriggerTitle": []
+              "StageTriggerTitle": [],
+              "AIKillSelfSourceText": [
+                {
+                  "Key": "ECityEventAIDeadSource::Police",
+                  "Value": {
+                    "TableId": "/Game/Text/ST_Dialogue_WorldRandomCriminal_Chat.ST_Dialogue_WorldRandomCriminal_Chat",
+                    "Key": "CityEvent_Crime_WarningByPolice_Des",
+                    "SourceString": "迦楼罗成员已被治安官控制",
+                    "LocalizedString": "迦楼罗成员已被治安官控制"
+                  }
+                },
+                {
+                  "Key": "ECityEventAIDeadSource::Monster",
+                  "Value": {
+                    "TableId": "/Game/Text/ST_Dialogue_WorldRandomCriminal_Chat.ST_Dialogue_WorldRandomCriminal_Chat",
+                    "Key": "CityEvent_Crime_WarningByMon",
+                    "SourceString": "迦楼罗成员已被怪物惊散",
+                    "LocalizedString": "迦楼罗成员已被怪物惊散"
+                  }
+                }
+              ]
             },
             {
               "Type": "Crimes::VehicleTheft",
@@ -32,7 +53,27 @@
                 "SourceString": "存在他人行窃",
                 "LocalizedString": "存在他人行窃"
               },
-              "StageTriggerTitle": []
+              "StageTriggerTitle": [],
+              "AIKillSelfSourceText": [
+                {
+                  "Key": "ECityEventAIDeadSource::Police",
+                  "Value": {
+                    "TableId": "/Game/Text/ST_Dialogue_WorldRandomCriminal_Chat.ST_Dialogue_WorldRandomCriminal_Chat",
+                    "Key": "CityEvent_Crime_WarningByPolice_Des",
+                    "SourceString": "迦楼罗成员已被治安官控制",
+                    "LocalizedString": "迦楼罗成员已被治安官控制"
+                  }
+                },
+                {
+                  "Key": "ECityEventAIDeadSource::Monster",
+                  "Value": {
+                    "TableId": "/Game/Text/ST_Dialogue_WorldRandomCriminal_Chat.ST_Dialogue_WorldRandomCriminal_Chat",
+                    "Key": "CityEvent_Crime_WarningByMon",
+                    "SourceString": "迦楼罗成员已被怪物惊散",
+                    "LocalizedString": "迦楼罗成员已被怪物惊散"
+                  }
+                }
+              ]
             },
             {
               "Type": "Crimes::HawkerHarassment",
@@ -42,7 +83,27 @@
                 "SourceString": "商铺受到骚扰",
                 "LocalizedString": "商铺受到骚扰"
               },
-              "StageTriggerTitle": []
+              "StageTriggerTitle": [],
+              "AIKillSelfSourceText": [
+                {
+                  "Key": "ECityEventAIDeadSource::Police",
+                  "Value": {
+                    "TableId": "/Game/Text/ST_Dialogue_WorldRandomCriminal_Chat.ST_Dialogue_WorldRandomCriminal_Chat",
+                    "Key": "CityEvent_Crime_WarningByPolice_Des",
+                    "SourceString": "迦楼罗成员已被治安官控制",
+                    "LocalizedString": "迦楼罗成员已被治安官控制"
+                  }
+                },
+                {
+                  "Key": "ECityEventAIDeadSource::Monster",
+                  "Value": {
+                    "TableId": "/Game/Text/ST_Dialogue_WorldRandomCriminal_Chat.ST_Dialogue_WorldRandomCriminal_Chat",
+                    "Key": "CityEvent_Crime_WarningByMon",
+                    "SourceString": "迦楼罗成员已被怪物惊散",
+                    "LocalizedString": "迦楼罗成员已被怪物惊散"
+                  }
+                }
+              ]
             },
             {
               "Type": "Crimes::StoreHarassment",
@@ -52,7 +113,27 @@
                 "SourceString": "商铺受到骚扰",
                 "LocalizedString": "商铺受到骚扰"
               },
-              "StageTriggerTitle": []
+              "StageTriggerTitle": [],
+              "AIKillSelfSourceText": [
+                {
+                  "Key": "ECityEventAIDeadSource::Police",
+                  "Value": {
+                    "TableId": "/Game/Text/ST_Dialogue_WorldRandomCriminal_Chat.ST_Dialogue_WorldRandomCriminal_Chat",
+                    "Key": "CityEvent_Crime_WarningByPolice_Des",
+                    "SourceString": "迦楼罗成员已被治安官控制",
+                    "LocalizedString": "迦楼罗成员已被治安官控制"
+                  }
+                },
+                {
+                  "Key": "ECityEventAIDeadSource::Monster",
+                  "Value": {
+                    "TableId": "/Game/Text/ST_Dialogue_WorldRandomCriminal_Chat.ST_Dialogue_WorldRandomCriminal_Chat",
+                    "Key": "CityEvent_Crime_WarningByMon",
+                    "SourceString": "迦楼罗成员已被怪物惊散",
+                    "LocalizedString": "迦楼罗成员已被怪物惊散"
+                  }
+                }
+              ]
             },
             {
               "Type": "Crimes::RecklessChase",
@@ -62,7 +143,27 @@
                 "SourceString": "存在恶意行车干扰",
                 "LocalizedString": "存在恶意行车干扰"
               },
-              "StageTriggerTitle": []
+              "StageTriggerTitle": [],
+              "AIKillSelfSourceText": [
+                {
+                  "Key": "ECityEventAIDeadSource::Police",
+                  "Value": {
+                    "TableId": "/Game/Text/ST_Dialogue_WorldRandomCriminal_Chat.ST_Dialogue_WorldRandomCriminal_Chat",
+                    "Key": "CityEvent_Crime_WarningByPolice_Des",
+                    "SourceString": "迦楼罗成员已被治安官控制",
+                    "LocalizedString": "迦楼罗成员已被治安官控制"
+                  }
+                },
+                {
+                  "Key": "ECityEventAIDeadSource::Monster",
+                  "Value": {
+                    "TableId": "/Game/Text/ST_Dialogue_WorldRandomCriminal_Chat.ST_Dialogue_WorldRandomCriminal_Chat",
+                    "Key": "CityEvent_Crime_WarningByMon",
+                    "SourceString": "迦楼罗成员已被怪物惊散",
+                    "LocalizedString": "迦楼罗成员已被怪物惊散"
+                  }
+                }
+              ]
             },
             {
               "Type": "Crimes::VehiclePlunder",
@@ -84,6 +185,26 @@
                   "Key": "CityEvent_Crime_VT_Des02",
                   "SourceString": "已开上车，需要把车辆开到指定地点",
                   "LocalizedString": "已开上车，需要把车辆开到指定地点"
+                }
+              ],
+              "AIKillSelfSourceText": [
+                {
+                  "Key": "ECityEventAIDeadSource::Police",
+                  "Value": {
+                    "TableId": "/Game/Text/ST_Dialogue_WorldRandomCriminal_Chat.ST_Dialogue_WorldRandomCriminal_Chat",
+                    "Key": "CityEvent_Crime_WarningByPolice_Des",
+                    "SourceString": "迦楼罗成员已被治安官控制",
+                    "LocalizedString": "迦楼罗成员已被治安官控制"
+                  }
+                },
+                {
+                  "Key": "ECityEventAIDeadSource::Monster",
+                  "Value": {
+                    "TableId": "/Game/Text/ST_Dialogue_WorldRandomCriminal_Chat.ST_Dialogue_WorldRandomCriminal_Chat",
+                    "Key": "CityEvent_Crime_WarningByMon",
+                    "SourceString": "迦楼罗成员已被怪物惊散",
+                    "LocalizedString": "迦楼罗成员已被怪物惊散"
+                  }
                 }
               ]
             }
@@ -114,6 +235,25 @@
               "X": 0.0,
               "Y": 0.0,
               "Z": 0.0
+            },
+            "CenterTipsIcon": {
+              "AssetPathName": "/Game/UI/UI/common/function/SubfunctionEntrance/YH_UI_Icon_BZZ.YH_UI_Icon_BZZ",
+              "SubPathString": ""
+            },
+            "CenterTipsTitle": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "CityEvent_Crime_Name",
+              "SourceString": "附近发现城市违规行径",
+              "LocalizedString": "附近发现城市违规行径"
+            },
+            "CenterTipsDesc": {
+              "CultureInvariantString": "<!>Center Tips Desc"
+            },
+            "CenterTipsShowTime": 3.0,
+            "CenterTipsShowInterval": 3.0,
+            "CenterTipsMessageItemClass": {
+              "AssetPathName": "/Game/UI/Blueprints/Message/BPUI_CityEventPlayingMessageItem.BPUI_CityEventPlayingMessageItem_C",
+              "SubPathString": ""
             }
           }
         }

@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_MonsterDropBox",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Monster/DT_MonsterDropBox",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'MonsterDropBoxData'",
@@ -68,7 +69,7 @@
         "ConsumeStaminaCount": 60,
         "IsReceiveLimit": false,
         "ReceiveCount": 6,
-        "ResetMonsterRefreshTime": 6.0,
+        "ResetMonsterRefreshTime": 10.0,
         "AreaId": "002",
         "Icon": {
           "AssetPathName": "",
@@ -119,7 +120,8 @@
           "Key": "DT_AdventureManualBoss_Sairunniti",
           "SourceString": "完成番外任务「言毒庭花之家主」后解锁",
           "LocalizedString": "完成番外任务「言毒庭花之家主」后解锁"
-        }
+        },
+        "BossReceiveTime": 2
       },
       "boss_13_BP_WorldBoss": {
         "AISpawnManagerGuid": "E599B5944A931B295773EF8B38A1CA71",
@@ -178,7 +180,7 @@
         "ConsumeStaminaCount": 60,
         "IsReceiveLimit": false,
         "ReceiveCount": 6,
-        "ResetMonsterRefreshTime": 6.0,
+        "ResetMonsterRefreshTime": 10.0,
         "AreaId": "002",
         "Icon": {
           "AssetPathName": "",
@@ -229,7 +231,8 @@
           "Key": "DT_AdventureManualBoss_WuShoutieyu",
           "SourceString": "泯除异象「铁驭强袭」后解锁",
           "LocalizedString": "泯除异象「铁驭强袭」后解锁"
-        }
+        },
+        "BossReceiveTime": 2
       },
       "boss_09_BP_WorldBoss": {
         "AISpawnManagerGuid": "6DECEC4C41A11E813BFB3990C90B87ED",
@@ -237,16 +240,16 @@
           "Rotation": {
             "X": 0.0,
             "Y": -0.0,
-            "Z": 0.965926,
-            "W": 0.258819,
+            "Z": 0.06825558,
+            "W": 0.99766785,
             "IsNormalized": true,
-            "Size": 1.0000001,
-            "SizeSquared": 1.0000004
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
           },
           "Translation": {
-            "X": -155320.0,
-            "Y": 220860.0,
-            "Z": -15980.0
+            "X": 401.65512,
+            "Y": 72774.02,
+            "Z": -40264.49
           },
           "Scale3D": {
             "X": 1.0,
@@ -288,7 +291,7 @@
         "ConsumeStaminaCount": 60,
         "IsReceiveLimit": false,
         "ReceiveCount": 6,
-        "ResetMonsterRefreshTime": 6.0,
+        "ResetMonsterRefreshTime": 10.0,
         "AreaId": "005",
         "Icon": {
           "AssetPathName": "",
@@ -339,7 +342,8 @@
           "Key": "DT_AdventureManualBoss_Heizhishu",
           "SourceString": "泯除异象「后青春期的书」后解锁",
           "LocalizedString": "泯除异象「后青春期的书」后解锁"
-        }
+        },
+        "BossReceiveTime": 2
       },
       "boss_15_BP_WorldBoss": {
         "AISpawnManagerGuid": "B1F22D944D06034B2F4380A24C4DE7A6",
@@ -398,7 +402,7 @@
         "ConsumeStaminaCount": 60,
         "IsReceiveLimit": false,
         "ReceiveCount": 6,
-        "ResetMonsterRefreshTime": 6.0,
+        "ResetMonsterRefreshTime": 10.0,
         "AreaId": "003",
         "Icon": {
           "AssetPathName": "",
@@ -449,24 +453,25 @@
           "Key": "DT_AdventureManualBoss_yinbamowang",
           "SourceString": "泯除异象「律动大师」后解锁",
           "LocalizedString": "泯除异象「律动大师」后解锁"
-        }
+        },
+        "BossReceiveTime": 2
       },
       "boss_19_BP_WorldBoss": {
         "AISpawnManagerGuid": "96F1A2714DDA393C01BBC3BD302D4957",
         "MonsterStartTransform": {
           "Rotation": {
-            "X": 0.0,
-            "Y": -0.0,
-            "Z": 0.965926,
-            "W": 0.258819,
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.9996988,
+            "W": 0.02454122,
             "IsNormalized": true,
-            "Size": 1.0000001,
-            "SizeSquared": 1.0000004
+            "Size": 1.0,
+            "SizeSquared": 1.0
           },
           "Translation": {
-            "X": -155320.0,
-            "Y": 220860.0,
-            "Z": -15980.0
+            "X": 38041.0,
+            "Y": 127448.0,
+            "Z": -112262.0
           },
           "Scale3D": {
             "X": 1.0,
@@ -508,7 +513,7 @@
         "ConsumeStaminaCount": 60,
         "IsReceiveLimit": false,
         "ReceiveCount": 6,
-        "ResetMonsterRefreshTime": 6.0,
+        "ResetMonsterRefreshTime": 10.0,
         "AreaId": "005",
         "Icon": {
           "AssetPathName": "",
@@ -559,7 +564,8 @@
           "Key": "DT_AdventureManualBoss_haiqiu",
           "SourceString": "泯除异象「深蓝之恸」后解锁",
           "LocalizedString": "泯除异象「深蓝之恸」后解锁"
-        }
+        },
+        "BossReceiveTime": 2
       },
       "boss_33_BP_WorldBoss": {
         "AISpawnManagerGuid": "34DC6656404DD7FBA9678FAC3818CFCC",
@@ -610,7 +616,7 @@
           }
         },
         "MonsterDropID": "drop_worldboss_a05",
-        "MonsterRefreshTime": 0,
+        "MonsterRefreshTime": 120,
         "Des": {
           "CultureInvariantString": "大世界Boss-传送"
         },
@@ -618,7 +624,7 @@
         "ConsumeStaminaCount": 60,
         "IsReceiveLimit": false,
         "ReceiveCount": 6,
-        "ResetMonsterRefreshTime": 6.0,
+        "ResetMonsterRefreshTime": 10.0,
         "AreaId": "005",
         "Icon": {
           "AssetPathName": "",
@@ -669,7 +675,8 @@
           "Key": "DT_AdventureManualBoss_youchaoniao",
           "SourceString": "泯除异象「唤孤归」后解锁",
           "LocalizedString": "泯除异象「唤孤归」后解锁"
-        }
+        },
+        "BossReceiveTime": 2
       },
       "boss_08_BP_WorldBoss": {
         "AISpawnManagerGuid": "198833BE4485FD6C80B46A97BE53A7C6",
@@ -720,7 +727,7 @@
           }
         },
         "MonsterDropID": "drop_worldboss_a06",
-        "MonsterRefreshTime": 0,
+        "MonsterRefreshTime": 120,
         "Des": {
           "CultureInvariantString": "大世界Boss-传送"
         },
@@ -728,7 +735,7 @@
         "ConsumeStaminaCount": 60,
         "IsReceiveLimit": false,
         "ReceiveCount": 6,
-        "ResetMonsterRefreshTime": 6.0,
+        "ResetMonsterRefreshTime": 10.0,
         "AreaId": "005",
         "Icon": {
           "AssetPathName": "",
@@ -779,7 +786,8 @@
           "Key": "DT_AdventureManualBoss_bandie",
           "SourceString": "泯除异象「去看电影吧」后解锁",
           "LocalizedString": "泯除异象「去看电影吧」后解锁"
-        }
+        },
+        "BossReceiveTime": 2
       }
     }
   }

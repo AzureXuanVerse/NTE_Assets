@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_TycoonSimpleQuest",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/SimpleQuest/DT_TycoonSimpleQuest",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'SimpleQuestStaticData'",
@@ -43,15 +44,54 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1003": {
         "QuestId": "TY1003",
         "QuestName": {
           "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
           "Key": "TY1003",
-          "SourceString": "拥有1辆四轮载具",
-          "LocalizedString": "拥有1辆四轮载具"
+          "SourceString": "拥有1辆四轮汽车",
+          "LocalizedString": "拥有1辆四轮汽车"
         },
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
@@ -62,7 +102,10 @@
           "bUseItem": false,
           "ItemIDArray": [],
           "IsVehicleKey": true,
-          "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
+          "VehicleKeyTypeArray": [
+            "EVehicleKeyUseType::EKUT_Car",
+            "EVehicleKeyUseType::EKUT_Kart"
+          ],
           "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
           "Amount": 1
         },
@@ -81,7 +124,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1003_2": {
         "QuestId": "TY1003_2",
@@ -115,7 +197,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1004": {
         "QuestId": "TY1004",
@@ -147,7 +268,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1005": {
         "QuestId": "TY1005",
@@ -181,7 +341,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1006": {
         "QuestId": "TY1006",
@@ -213,7 +412,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1006_02": {
         "QuestId": "TY1006_02",
@@ -244,7 +482,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1006_03": {
         "QuestId": "TY1006_03",
@@ -276,26 +553,69 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1007": {
         "QuestId": "TY1007",
         "QuestName": {
           "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
           "Key": "TY1007",
-          "SourceString": "在「猎人交易所」购买1次「三重钥匙」",
-          "LocalizedString": "在「猎人交易所」购买1次「三重钥匙」"
+          "SourceString": "获得100方斯",
+          "LocalizedString": "获得100方斯"
         },
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
-          "ItemID": "WeaponGacha",
-          "Shops": [
-            "FonsLimitTimeShop1"
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_CAPITAL",
+          "bNeedNewAdd": true,
+          "bUseItem": false,
+          "ItemIDArray": [
+            "fons"
           ],
-          "bCityShop": false,
-          "ObjectiveType": "ESimpleQuestObjType::ShopBuy",
-          "Amount": 1
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 100
         },
         "QuestAwardData": {
           "AwardGroupID": "None",
@@ -312,7 +632,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1007_02": {
         "QuestId": "TY1007_02",
@@ -346,7 +705,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1008_02": {
         "QuestId": "TY1008_02",
@@ -377,7 +775,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1008_03": {
         "QuestId": "TY1008_03",
@@ -408,7 +845,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1009": {
         "QuestId": "TY1009",
@@ -440,7 +916,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1010": {
         "QuestId": "TY1010",
@@ -471,7 +986,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1011_02": {
         "QuestId": "TY1011_02",
@@ -505,7 +1059,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1012": {
         "QuestId": "TY1012",
@@ -537,21 +1130,60 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1012_02": {
         "QuestId": "TY1012_02",
         "QuestName": {
           "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
           "Key": "TY1012_02",
-          "SourceString": "经营等级达到4级",
-          "LocalizedString": "经营等级达到4级"
+          "SourceString": "经营等级达到3级",
+          "LocalizedString": "经营等级达到3级"
         },
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "ObjectiveType": "ESimpleQuestObjType::StoreManagerLevel",
-          "Amount": 4
+          "Amount": 3
         },
         "QuestAwardData": {
           "AwardGroupID": "None",
@@ -568,7 +1200,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1013": {
         "QuestId": "TY1013",
@@ -599,7 +1270,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1014": {
         "QuestId": "TY1014",
@@ -630,7 +1340,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1015": {
         "QuestId": "TY1015",
@@ -662,22 +1411,61 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1016": {
         "QuestId": "TY1016",
         "QuestName": {
           "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
           "Key": "TY1016",
-          "SourceString": "桥间地地区足迹点累计达到200",
-          "LocalizedString": "桥间地地区足迹点累计达到200"
+          "SourceString": "桥间地地区足迹点累计达到100",
+          "LocalizedString": "桥间地地区足迹点累计达到100"
         },
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "AreaId": "001",
           "ObjectiveType": "ESimpleQuestObjType::MapExploreValue",
-          "Amount": 200
+          "Amount": 100
         },
         "QuestAwardData": {
           "AwardGroupID": "None",
@@ -694,7 +1482,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1017_02": {
         "QuestId": "TY1017_02",
@@ -725,53 +1552,61 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
-      },
-      "TY1017_03": {
-        "QuestId": "TY1017_03",
-        "QuestName": {
-          "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
-          "Key": "TY1017_03",
-          "SourceString": "经营等级达到5级",
-          "LocalizedString": "经营等级达到5级"
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
         },
-        "SimpleQuestType": "ESimpleQuestType::CityTycoon",
-        "QuestRefreshType": "ESimpleQuestRefresh::None",
-        "ObjectiveInfo": {
-          "ObjectiveType": "ESimpleQuestObjType::StoreManagerLevel",
-          "Amount": 5
-        },
-        "QuestAwardData": {
-          "AwardGroupID": "None",
-          "SimpleAwards": [],
-          "bShowAwardWindow": false
-        },
-        "bAutoCommit": false,
-        "JumpPath": "store_brand_ui",
-        "QuestIcon": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "Comment": {
-          "CultureInvariantString": null
-        },
-        "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1018": {
         "QuestId": "TY1018",
         "QuestName": {
           "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
           "Key": "TY1018",
-          "SourceString": "未闻浦地区足迹点累计达到100",
-          "LocalizedString": "未闻浦地区足迹点累计达到100"
+          "SourceString": "未闻浦地区足迹点累计达到50",
+          "LocalizedString": "未闻浦地区足迹点累计达到50"
         },
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "AreaId": "002",
           "ObjectiveType": "ESimpleQuestObjType::MapExploreValue",
-          "Amount": 100
+          "Amount": 50
         },
         "QuestAwardData": {
           "AwardGroupID": "None",
@@ -788,7 +1623,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1019": {
         "QuestId": "TY1019",
@@ -819,7 +1693,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1020": {
         "QuestId": "TY1020",
@@ -851,7 +1764,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1021": {
         "QuestId": "TY1021",
@@ -883,22 +1835,61 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1021_02": {
         "QuestId": "TY1021_02",
         "QuestName": {
           "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
           "Key": "TY1021_02",
-          "SourceString": "绘空町地区足迹点累计达到200",
-          "LocalizedString": "绘空町地区足迹点累计达到200"
+          "SourceString": "绘空町地区足迹点累计达到100",
+          "LocalizedString": "绘空町地区足迹点累计达到100"
         },
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "AreaId": "003",
           "ObjectiveType": "ESimpleQuestObjType::MapExploreValue",
-          "Amount": 200
+          "Amount": 100
         },
         "QuestAwardData": {
           "AwardGroupID": "None",
@@ -915,22 +1906,61 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1022": {
         "QuestId": "TY1022",
         "QuestName": {
           "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
           "Key": "TY1022",
-          "SourceString": "米格尔地区足迹点累计达到200",
-          "LocalizedString": "米格尔地区足迹点累计达到200"
+          "SourceString": "米格尔地区足迹点累计达到100",
+          "LocalizedString": "米格尔地区足迹点累计达到100"
         },
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "AreaId": "004",
           "ObjectiveType": "ESimpleQuestObjType::MapExploreValue",
-          "Amount": 200
+          "Amount": 100
         },
         "QuestAwardData": {
           "AwardGroupID": "None",
@@ -947,7 +1977,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1022_02": {
         "QuestId": "TY1022_02",
@@ -978,21 +2047,60 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1022_03": {
         "QuestId": "TY1022_03",
         "QuestName": {
           "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
           "Key": "TY1022_03",
-          "SourceString": "经营等级达到6级",
-          "LocalizedString": "经营等级达到6级"
+          "SourceString": "经营等级达到4级",
+          "LocalizedString": "经营等级达到4级"
         },
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "ObjectiveType": "ESimpleQuestObjType::StoreManagerLevel",
-          "Amount": 6
+          "Amount": 4
         },
         "QuestAwardData": {
           "AwardGroupID": "None",
@@ -1009,7 +2117,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1023": {
         "QuestId": "TY1023",
@@ -1040,22 +2187,61 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1024": {
         "QuestId": "TY1024",
         "QuestName": {
           "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
           "Key": "TY1024",
-          "SourceString": "新赫兰德区地区足迹点累计达到200",
-          "LocalizedString": "新赫兰德区地区足迹点累计达到200"
+          "SourceString": "新赫兰德区地区足迹点累计达到100",
+          "LocalizedString": "新赫兰德区地区足迹点累计达到100"
         },
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "AreaId": "005",
           "ObjectiveType": "ESimpleQuestObjType::MapExploreValue",
-          "Amount": 200
+          "Amount": 100
         },
         "QuestAwardData": {
           "AwardGroupID": "None",
@@ -1072,7 +2258,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1024_02": {
         "QuestId": "TY1024_02",
@@ -1104,7 +2329,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1025": {
         "QuestId": "TY1025",
@@ -1135,22 +2399,61 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1026": {
         "QuestId": "TY1026",
         "QuestName": {
           "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
           "Key": "TY1026",
-          "SourceString": "未闻浦地区足迹点累计达到300",
-          "LocalizedString": "未闻浦地区足迹点累计达到300"
+          "SourceString": "未闻浦地区足迹点累计达到150",
+          "LocalizedString": "未闻浦地区足迹点累计达到150"
         },
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "AreaId": "002",
           "ObjectiveType": "ESimpleQuestObjType::MapExploreValue",
-          "Amount": 300
+          "Amount": 150
         },
         "QuestAwardData": {
           "AwardGroupID": "None",
@@ -1167,7 +2470,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1027": {
         "QuestId": "TY1027",
@@ -1198,53 +2540,61 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
-      },
-      "TY1027_02": {
-        "QuestId": "TY1027_02",
-        "QuestName": {
-          "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
-          "Key": "TY1027_02",
-          "SourceString": "经营等级达到7级",
-          "LocalizedString": "经营等级达到7级"
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
         },
-        "SimpleQuestType": "ESimpleQuestType::CityTycoon",
-        "QuestRefreshType": "ESimpleQuestRefresh::None",
-        "ObjectiveInfo": {
-          "ObjectiveType": "ESimpleQuestObjType::StoreManagerLevel",
-          "Amount": 7
-        },
-        "QuestAwardData": {
-          "AwardGroupID": "None",
-          "SimpleAwards": [],
-          "bShowAwardWindow": false
-        },
-        "bAutoCommit": false,
-        "JumpPath": "store_brand_ui",
-        "QuestIcon": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "Comment": {
-          "CultureInvariantString": null
-        },
-        "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1028": {
         "QuestId": "TY1028",
         "QuestName": {
           "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
           "Key": "TY1028",
-          "SourceString": "桥间地地区足迹点累计达到600",
-          "LocalizedString": "桥间地地区足迹点累计达到600"
+          "SourceString": "桥间地地区足迹点累计达到300",
+          "LocalizedString": "桥间地地区足迹点累计达到300"
         },
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "AreaId": "001",
           "ObjectiveType": "ESimpleQuestObjType::MapExploreValue",
-          "Amount": 600
+          "Amount": 300
         },
         "QuestAwardData": {
           "AwardGroupID": "None",
@@ -1261,7 +2611,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1028_02": {
         "QuestId": "TY1028_02",
@@ -1292,7 +2681,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1029": {
         "QuestId": "TY1029",
@@ -1323,22 +2751,61 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1030": {
         "QuestId": "TY1030",
         "QuestName": {
           "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
           "Key": "TY1030",
-          "SourceString": "绘空町地区足迹点累计达到600",
-          "LocalizedString": "绘空町地区足迹点累计达到600"
+          "SourceString": "绘空町地区足迹点累计达到300",
+          "LocalizedString": "绘空町地区足迹点累计达到300"
         },
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "AreaId": "003",
           "ObjectiveType": "ESimpleQuestObjType::MapExploreValue",
-          "Amount": 600
+          "Amount": 300
         },
         "QuestAwardData": {
           "AwardGroupID": "None",
@@ -1355,7 +2822,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1031": {
         "QuestId": "TY1031",
@@ -1386,22 +2892,61 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1032": {
         "QuestId": "TY1032",
         "QuestName": {
           "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
           "Key": "TY1032",
-          "SourceString": "米格尔地区足迹点累计达到600",
-          "LocalizedString": "米格尔地区足迹点累计达到600"
+          "SourceString": "米格尔地区足迹点累计达到300",
+          "LocalizedString": "米格尔地区足迹点累计达到300"
         },
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "AreaId": "004",
           "ObjectiveType": "ESimpleQuestObjType::MapExploreValue",
-          "Amount": 600
+          "Amount": 300
         },
         "QuestAwardData": {
           "AwardGroupID": "None",
@@ -1418,21 +2963,60 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1032_02": {
         "QuestId": "TY1032_02",
         "QuestName": {
           "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
           "Key": "TY1032_02",
-          "SourceString": "经营等级达到8级",
-          "LocalizedString": "经营等级达到8级"
+          "SourceString": "经营等级达到5级",
+          "LocalizedString": "经营等级达到5级"
         },
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "ObjectiveType": "ESimpleQuestObjType::StoreManagerLevel",
-          "Amount": 8
+          "Amount": 5
         },
         "QuestAwardData": {
           "AwardGroupID": "None",
@@ -1449,7 +3033,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1033": {
         "QuestId": "TY1033",
@@ -1480,22 +3103,61 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1034": {
         "QuestId": "TY1034",
         "QuestName": {
           "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
           "Key": "TY1034",
-          "SourceString": "新赫兰德区地区足迹点累计达到600",
-          "LocalizedString": "新赫兰德区地区足迹点累计达到600"
+          "SourceString": "新赫兰德区地区足迹点累计达到300",
+          "LocalizedString": "新赫兰德区地区足迹点累计达到300"
         },
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "AreaId": "005",
           "ObjectiveType": "ESimpleQuestObjType::MapExploreValue",
-          "Amount": 600
+          "Amount": 300
         },
         "QuestAwardData": {
           "AwardGroupID": "None",
@@ -1512,7 +3174,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1035": {
         "QuestId": "TY1035",
@@ -1543,7 +3244,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1036": {
         "QuestId": "TY1036",
@@ -1574,7 +3314,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1037": {
         "QuestId": "TY1037",
@@ -1605,38 +3384,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
-      },
-      "TY1037_02": {
-        "QuestId": "TY1037_02",
-        "QuestName": {
-          "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
-          "Key": "TY1037_02",
-          "SourceString": "经营等级达到9级",
-          "LocalizedString": "经营等级达到9级"
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
         },
-        "SimpleQuestType": "ESimpleQuestType::CityTycoon",
-        "QuestRefreshType": "ESimpleQuestRefresh::None",
-        "ObjectiveInfo": {
-          "ObjectiveType": "ESimpleQuestObjType::StoreManagerLevel",
-          "Amount": 9
-        },
-        "QuestAwardData": {
-          "AwardGroupID": "None",
-          "SimpleAwards": [],
-          "bShowAwardWindow": false
-        },
-        "bAutoCommit": false,
-        "JumpPath": "store_brand_ui",
-        "QuestIcon": {
-          "AssetPathName": "",
-          "SubPathString": ""
-        },
-        "Comment": {
-          "CultureInvariantString": null
-        },
-        "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1038": {
         "QuestId": "TY1038",
@@ -1667,7 +3454,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1038_02": {
         "QuestId": "TY1038_02",
@@ -1698,7 +3524,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1039": {
         "QuestId": "TY1039",
@@ -1729,7 +3594,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1039_02": {
         "QuestId": "TY1039_02",
@@ -1761,7 +3665,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1039_03": {
         "QuestId": "TY1039_03",
@@ -1792,7 +3735,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1040": {
         "QuestId": "TY1040",
@@ -1823,7 +3805,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1040_02": {
         "QuestId": "TY1040_02",
@@ -1854,7 +3875,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1041": {
         "QuestId": "TY1041",
@@ -1885,7 +3945,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1041_02": {
         "QuestId": "TY1041_02",
@@ -1917,7 +4016,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1041_03": {
         "QuestId": "TY1041_03",
@@ -1948,7 +4086,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1042": {
         "QuestId": "TY1042",
@@ -1979,7 +4156,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1042_02": {
         "QuestId": "TY1042_02",
@@ -2011,7 +4227,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1042_03": {
         "QuestId": "TY1042_03",
@@ -2043,21 +4298,60 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1042_04": {
         "QuestId": "TY1042_04",
         "QuestName": {
           "TableId": "/Game/Text/ST_Tycoon.ST_Tycoon",
           "Key": "TY1042_04",
-          "SourceString": "经营等级达到10级",
-          "LocalizedString": "经营等级达到10级"
+          "SourceString": "经营等级达到6级",
+          "LocalizedString": "经营等级达到6级"
         },
         "SimpleQuestType": "ESimpleQuestType::CityTycoon",
         "QuestRefreshType": "ESimpleQuestRefresh::None",
         "ObjectiveInfo": {
           "ObjectiveType": "ESimpleQuestObjType::StoreManagerLevel",
-          "Amount": 10
+          "Amount": 6
         },
         "QuestAwardData": {
           "AwardGroupID": "None",
@@ -2074,7 +4368,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1043": {
         "QuestId": "TY1043",
@@ -2105,7 +4438,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1043_02": {
         "QuestId": "TY1043_02",
@@ -2137,7 +4509,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1043_03": {
         "QuestId": "TY1043_03",
@@ -2168,7 +4579,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1044": {
         "QuestId": "TY1044",
@@ -2199,7 +4649,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1044_02": {
         "QuestId": "TY1044_02",
@@ -2231,7 +4720,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1044_03": {
         "QuestId": "TY1044_03",
@@ -2262,7 +4790,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1045": {
         "QuestId": "TY1045",
@@ -2293,7 +4860,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1045_02": {
         "QuestId": "TY1045_02",
@@ -2325,7 +4931,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       },
       "TY1045_03": {
         "QuestId": "TY1045_03",
@@ -2357,7 +5002,46 @@
           "CultureInvariantString": null
         },
         "ExtensionData": null,
-        "bPopAwardsWindow": false
+        "bPopAwardsWindow": false,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        }
       }
     }
   }

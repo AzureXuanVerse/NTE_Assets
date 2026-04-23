@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_MapExploreConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/MapExplore/DT_MapExploreConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'MapExploreData'",
@@ -60,27 +61,27 @@
         "MapShopData": [],
         "MapRewardData": [
           {
-            "Key": "125",
+            "Key": "130",
             "Value": "drop_ExploreReward_wwp_1"
           },
           {
-            "Key": "250",
+            "Key": "260",
             "Value": "drop_ExploreReward_wwp_2"
           },
           {
-            "Key": "375",
+            "Key": "390",
             "Value": "drop_ExploreReward_wwp_3"
           },
           {
-            "Key": "500",
+            "Key": "520",
             "Value": "drop_ExploreReward_wwp_4"
           },
           {
-            "Key": "625",
+            "Key": "650",
             "Value": "drop_ExploreReward_wwp_5"
           }
         ],
-        "MaxProgressValue": 625
+        "MaxProgressValue": 650
       },
       "003": {
         "RemarksName": "",

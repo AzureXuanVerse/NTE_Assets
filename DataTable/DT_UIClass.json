@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_UIClass",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/DT_UIClass",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'HTUIClassData'",
@@ -2918,7 +2919,7 @@
           "TagName": "Layer.FunctionUI"
         },
         "bIgnoreWhenPlayingDeadMontage": true,
-        "bIgnoreInput": false,
+        "bIgnoreInput": true,
         "bDelayShowWhenTransfering": false,
         "bIsDialogueUI": false,
         "bNeedOtherResources": false
@@ -4183,20 +4184,6 @@
         "bIsDialogueUI": false,
         "bNeedOtherResources": false
       },
-      "RacingRank": {
-        "UIClass": {
-          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_Racing_Rank.BPUI_Racing_Rank_C",
-          "SubPathString": ""
-        },
-        "LayerName": {
-          "TagName": "Layer.FunctionUI"
-        },
-        "bIgnoreWhenPlayingDeadMontage": true,
-        "bIgnoreInput": false,
-        "bDelayShowWhenTransfering": false,
-        "bIsDialogueUI": false,
-        "bNeedOtherResources": false
-      },
       "CityAbilityOverview": {
         "UIClass": {
           "AssetPathName": "/Game/UI/Blueprints/Character/Abilityies/BPUI_CityAbilityOverview.BPUI_CityAbilityOverview_C",
@@ -4931,7 +4918,7 @@
           "SubPathString": ""
         },
         "LayerName": {
-          "TagName": "Layer.FunctionUI"
+          "TagName": "Layer.FunctionSubUI"
         },
         "bIgnoreWhenPlayingDeadMontage": true,
         "bIgnoreInput": false,
@@ -4945,7 +4932,7 @@
           "SubPathString": ""
         },
         "LayerName": {
-          "TagName": "Layer.FunctionUI"
+          "TagName": "Layer.FunctionSubUI"
         },
         "bIgnoreWhenPlayingDeadMontage": true,
         "bIgnoreInput": false,
@@ -5639,6 +5626,20 @@
         "bIsDialogueUI": false,
         "bNeedOtherResources": false
       },
+      "shushuSkill_pc": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Skill/MediaPlayerSkill/shushuSkill_pc.shushuSkill_pc_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
       "RacingResetVehicle": {
         "UIClass": {
           "AssetPathName": "/Game/UI/Blueprints/Racing/UI_RacingResetVehicle_BP.UI_RacingResetVehicle_BP_C",
@@ -6117,7 +6118,7 @@
       },
       "AppearanceGoodsDetail": {
         "UIClass": {
-          "AssetPathName": "/Game/UI/Blueprints/Appearance/BPUI_AppearanceGoodsDetail.BPUI_AppearanceGoodsDetail_C",
+          "AssetPathName": "/Game/UI/Blueprints/Appearance/BPUI_AppearanceGoodsDetailNew.BPUI_AppearanceGoodsDetailNew_C",
           "SubPathString": ""
         },
         "LayerName": {
@@ -6152,7 +6153,7 @@
           "TagName": "Layer.FunctionUI"
         },
         "bIgnoreWhenPlayingDeadMontage": true,
-        "bIgnoreInput": false,
+        "bIgnoreInput": true,
         "bDelayShowWhenTransfering": false,
         "bIsDialogueUI": false,
         "bNeedOtherResources": false
@@ -6711,7 +6712,7 @@
         "LayerName": {
           "TagName": "Layer.FunctionUI"
         },
-        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreWhenPlayingDeadMontage": false,
         "bIgnoreInput": false,
         "bDelayShowWhenTransfering": false,
         "bIsDialogueUI": false,
@@ -6989,7 +6990,7 @@
           "SubPathString": ""
         },
         "LayerName": {
-          "TagName": "Layer.LowDialogue"
+          "TagName": "Layer.FunctionSecondUI"
         },
         "bIgnoreWhenPlayingDeadMontage": true,
         "bIgnoreInput": false,
@@ -7003,7 +7004,7 @@
           "SubPathString": ""
         },
         "LayerName": {
-          "TagName": "Layer.LowDialogue"
+          "TagName": "Layer.FunctionSecondUI"
         },
         "bIgnoreWhenPlayingDeadMontage": true,
         "bIgnoreInput": false,
@@ -7143,7 +7144,7 @@
           "SubPathString": ""
         },
         "LayerName": {
-          "TagName": "Layer.FunctionUI"
+          "TagName": "Layer.FunctionSubUI"
         },
         "bIgnoreWhenPlayingDeadMontage": true,
         "bIgnoreInput": false,
@@ -7243,7 +7244,7 @@
         "LayerName": {
           "TagName": "Layer.MessageBox"
         },
-        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreWhenPlayingDeadMontage": false,
         "bIgnoreInput": false,
         "bDelayShowWhenTransfering": false,
         "bIsDialogueUI": false,
@@ -7467,7 +7468,7 @@
         "LayerName": {
           "TagName": "Layer.FunctionSubUI"
         },
-        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreWhenPlayingDeadMontage": false,
         "bIgnoreInput": false,
         "bDelayShowWhenTransfering": false,
         "bIsDialogueUI": false,
@@ -7649,7 +7650,7 @@
         "LayerName": {
           "TagName": "Layer.FunctionSubUI"
         },
-        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreWhenPlayingDeadMontage": false,
         "bIgnoreInput": false,
         "bDelayShowWhenTransfering": false,
         "bIsDialogueUI": false,
@@ -8557,7 +8558,7 @@
           "SubPathString": ""
         },
         "LayerName": {
-          "TagName": "Layer.FunctionUI"
+          "TagName": "Layer.FunctionSubUI"
         },
         "bIgnoreWhenPlayingDeadMontage": true,
         "bIgnoreInput": false,
@@ -8627,7 +8628,7 @@
           "SubPathString": ""
         },
         "LayerName": {
-          "TagName": "Layer.FunctionSecondUI"
+          "TagName": "Layer.FunctionUI"
         },
         "bIgnoreWhenPlayingDeadMontage": true,
         "bIgnoreInput": false,
@@ -8691,13 +8692,13 @@
         "bIsDialogueUI": false,
         "bNeedOtherResources": false
       },
-      "TycoonXiaozhiGet": {
+      "TycoonRankAward": {
         "UIClass": {
-          "AssetPathName": "/Game/UI/Blueprints/Tycoon/BPUI_TycoonXiaozhiGet.BPUI_TycoonXiaozhiGet_C",
+          "AssetPathName": "/Game/UI/Blueprints/Tycoon/BPUI_TycoonRankAward.BPUI_TycoonRankAward_C",
           "SubPathString": ""
         },
         "LayerName": {
-          "TagName": "Layer.FunctionSecondUI"
+          "TagName": "Layer.FunctionSubUI"
         },
         "bIgnoreWhenPlayingDeadMontage": true,
         "bIgnoreInput": false,
@@ -8812,6 +8813,496 @@
           "TagName": "Layer.FunctionSubUI"
         },
         "bIgnoreWhenPlayingDeadMontage": false,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "CharacterFile": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Character/BPUI_CharacterFile.BPUI_CharacterFile_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "CDKCode": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CDKcode/BPUI_CDKCode.BPUI_CDKCode_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "ConsumableTreasureBoxPopup": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/ConsumableUse/UI_ConsumableTreasureBoxPopup.UI_ConsumableTreasureBoxPopup_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "TycoonRank": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Tycoon/BPUI_TycoonRank.BPUI_TycoonRank_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "TitleSystem": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/PlayerInformation/BPUI_TitleSystemFuncMain.BPUI_TitleSystemFuncMain_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "CityEventDeadSourcePopUp": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_CityEventDeadSourcePopUp.BPUI_CityEventDeadSourcePopUp_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "DrumSetting": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Drum/Setting/BPUI_DrumSetting.BPUI_DrumSetting_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": true,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "DrumChangeKey": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Drum/Setting/BPUI_DrumSetting_ChangeKey.BPUI_DrumSetting_ChangeKey_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionSecondUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "RoomMessageBox": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/MessageBox/BPUI_MessageBox_Room.BPUI_MessageBox_Room_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "MallShopVehiclePreviewDetail": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Shop/BPUI_ShopVehiclePreviewDetail.BPUI_ShopVehiclePreviewDetail_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "LotteryMessageBox": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Lottery/MessageBox/BPUI_LotteryMessageBox.BPUI_LotteryMessageBox_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.MessageBoxLow"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "Letter_Dunner_Quest_q110463": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Description/BPUI_Letter_sly_q110463.BPUI_Letter_sly_q110463_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "DialogueMsg_HZDYJend": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_DialogueMsg_HZDYJend.BPUI_DialogueMsg_HZDYJend_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "ActivityCollectingFork": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Activity/CollectingFork/BPUI_ActivityCollectingForkMainForm.BPUI_ActivityCollectingForkMainForm_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "ActivityCollectingForkCompendium": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Activity/CollectingFork/BPUI_ActivityCollectingForkCompendium.BPUI_ActivityCollectingForkCompendium_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "DateMenu": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Date/UI_DateMenu_BP.UI_DateMenu_BP_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "MahjongChatEmoji": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CardGame/Mahjong/BPUI_MahjongChatEmojiPanel.BPUI_MahjongChatEmojiPanel_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "HospitalEntrance": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneHospitalEntrance.UI_CloneHospitalEntrance_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "FadeInOutEffectRoom": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/UI_FadeInOutEffect_Room_BP.UI_FadeInOutEffect_Room_BP_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.Effect"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "RacingSeasonScoreChange": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Racing/BPUI_Racing_SeasonScoreChange.BPUI_Racing_SeasonScoreChange_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "HospitalAwardInfo": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneHospitalAwardInfo.UI_CloneHospitalAwardInfo_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "HospitalSettlement": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/CloneSystem/UI_CloneHospitalSettlement.UI_CloneHospitalSettlement_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "DialogueMsg_q110400_1": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_DialogueMsg_q110400_1.BPUI_DialogueMsg_q110400_1_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.LowDialogue"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "UI_kaleido_Target_BP": {
+        "UIClass": {
+          "AssetPathName": "/Game/Blueprints/Level/Quest/WZY/U1C5_q110500_SpiralDreams/Room_nanally/UI/UI_kaleido_Target_BP.UI_kaleido_Target_BP_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.BossHP"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "OpActMultiCityGameplayMessage": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Message/BPUI_FightMessageWithBg.BPUI_FightMessageWithBg_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.Message"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "RobBankTeamIncome": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Robbank/BPUI_RobBankTeamIncome.BPUI_RobBankTeamIncome_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "VehiclePreviewGoodsDetail": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Shop/BPUI_VehiclePreviewGoodsDetail.BPUI_VehiclePreviewGoodsDetail_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "OpActBondResonanceQuestMain": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/ActivityOp/BondResonance/BPUI_OpActBondResonanceQuestMain.BPUI_OpActBondResonanceQuestMain_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "BPUI_RobbankTipsPopUp": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Robbank/BPUI_RobbankTipsPopUp.BPUI_RobbankTipsPopUp_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.PopUp"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "OpActFriendlyCitizen": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/ActivityOp/FriendlyCitizen/BPUI_OpActFriendlyAwardmain.BPUI_OpActFriendlyAwardmain_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "Description_Photo_Big": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Description/BPUI_Description_Photo_Big.BPUI_Description_Photo_Big_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "RoomVehicle": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Vehicle/BP_RoomVehicle.BP_RoomVehicle_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionSubUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "DebtDescription": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Description/BPUI_DebtDescription.BPUI_DebtDescription_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "DialogueMsg_AutoClose3S": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/BPUI_DialogueMsg_AutoClose3S.BPUI_DialogueMsg_AutoClose3S_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.DialogueMsg"
+        },
+        "bIgnoreWhenPlayingDeadMontage": false,
+        "bIgnoreInput": false,
+        "bDelayShowWhenTransfering": false,
+        "bIsDialogueUI": false,
+        "bNeedOtherResources": false
+      },
+      "KoShopLaw": {
+        "UIClass": {
+          "AssetPathName": "/Game/UI/Blueprints/Shop/UI_KoShopLawTips.UI_KoShopLawTips_C",
+          "SubPathString": ""
+        },
+        "LayerName": {
+          "TagName": "Layer.FunctionSecondUI"
+        },
+        "bIgnoreWhenPlayingDeadMontage": true,
         "bIgnoreInput": false,
         "bDelayShowWhenTransfering": false,
         "bIsDialogueUI": false,

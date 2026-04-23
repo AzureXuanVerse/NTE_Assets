@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_TrialCharacterCloneMonsterConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Character/Trial/DT_TrialCharacterCloneMonsterConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'AISpawnerChangeAllConfig'",
@@ -70,7 +71,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -147,7 +149,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -214,7 +217,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -284,7 +288,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -347,14 +352,15 @@
                   "ObjectPath": "/Game/Blueprints/Character/Monster/mon_01/Trial/mon_01_ControllerBP_ParryNoAggro.0"
                 },
                 "AdditionalTags": [],
-                "AISettingsOverrideID": "mon_01_BP_Clone_Gold_DataPack0",
+                "AISettingsOverrideID": "None",
                 "AIConfigOverrideID": "None",
                 "FleeTargetPoints": [],
                 "AILeaveBattleType": "EAILeaveBattleType::AILBNormal",
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -463,7 +469,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -533,7 +540,213 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
+              }
+            ],
+            "WaveDelayTime": 0.0,
+            "Weight": 1.0,
+            "ChangeSpawnEntriesID": "None",
+            "ChangeEntryType": "EDynamicChangeEntryType::None",
+            "bNeedAdditionalDropItem": false
+          }
+        ]
+      },
+      "AttackTestShow": {
+        "SpawnWaveEntriesOverride": [
+          {
+            "WaveName": "None",
+            "SpawnEntries": [
+              {
+                "AITemplate": {
+                  "AssetPathName": "/Game/Blueprints/Character/Monster/mon_01/AttackTestShow.AttackTestShow_C",
+                  "SubPathString": ""
+                },
+                "Count": 1,
+                "SpawnTransformPointsOverride": [],
+                "SpawnTransformPointsTags": [],
+                "bOverrideLevelType": false,
+                "SpawnLevelTypeOverride": "EAISpawnLevelType::PermanentLevel",
+                "LevelOverride": 0,
+                "LevelMin": 0,
+                "LevelMax": 0,
+                "QuestSpawnPointOverrideIDs": [],
+                "SpawnOnlyWhenDeadNumExceeds": 0,
+                "SpawnDelayTime": 0.0,
+                "SpawnIntervalTime": 0.0,
+                "IdleStatesOverride": [],
+                "IdleStateTargetPointsContainer": [],
+                "SpawnProbability": 1.0,
+                "AIControllerOverride": null,
+                "AdditionalTags": [],
+                "AISettingsOverrideID": "None",
+                "AIConfigOverrideID": "None",
+                "FleeTargetPoints": [],
+                "AILeaveBattleType": "EAILeaveBattleType::AILBNormal",
+                "bUseDataTable": false,
+                "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
+                "bUseRangeForPassiveAggro": false,
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
+              }
+            ],
+            "WaveDelayTime": 0.0,
+            "Weight": 1.0,
+            "ChangeSpawnEntriesID": "None",
+            "ChangeEntryType": "EDynamicChangeEntryType::None",
+            "bNeedAdditionalDropItem": false
+          }
+        ]
+      },
+      "mon_04_attacktest": {
+        "SpawnWaveEntriesOverride": [
+          {
+            "WaveName": "None",
+            "SpawnEntries": [
+              {
+                "AITemplate": {
+                  "AssetPathName": "/Game/Blueprints/Character/Monster/mon_04/mon_04_attacktest.mon_04_attacktest_C",
+                  "SubPathString": ""
+                },
+                "Count": 1,
+                "SpawnTransformPointsOverride": [],
+                "SpawnTransformPointsTags": [],
+                "bOverrideLevelType": false,
+                "SpawnLevelTypeOverride": "EAISpawnLevelType::PermanentLevel",
+                "LevelOverride": 0,
+                "LevelMin": 0,
+                "LevelMax": 0,
+                "QuestSpawnPointOverrideIDs": [],
+                "SpawnOnlyWhenDeadNumExceeds": 0,
+                "SpawnDelayTime": 0.0,
+                "SpawnIntervalTime": 0.0,
+                "IdleStatesOverride": [],
+                "IdleStateTargetPointsContainer": [],
+                "SpawnProbability": 1.0,
+                "AIControllerOverride": null,
+                "AdditionalTags": [],
+                "AISettingsOverrideID": "None",
+                "AIConfigOverrideID": "None",
+                "FleeTargetPoints": [],
+                "AILeaveBattleType": "EAILeaveBattleType::AILBNormal",
+                "bUseDataTable": false,
+                "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
+                "bUseRangeForPassiveAggro": false,
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
+              }
+            ],
+            "WaveDelayTime": 0.0,
+            "Weight": 1.0,
+            "ChangeSpawnEntriesID": "None",
+            "ChangeEntryType": "EDynamicChangeEntryType::None",
+            "bNeedAdditionalDropItem": false
+          }
+        ]
+      },
+      "TrailTeach01_Monster3": {
+        "SpawnWaveEntriesOverride": [
+          {
+            "WaveName": "None",
+            "SpawnEntries": [
+              {
+                "AITemplate": {
+                  "AssetPathName": "/Game/Blueprints/Character/Monster/mon_01/Trial/mon_01_BP_Trial.mon_01_BP_Trial_C",
+                  "SubPathString": ""
+                },
+                "Count": 3,
+                "SpawnTransformPointsOverride": [
+                  {
+                    "Rotation": {
+                      "X": 0.0,
+                      "Y": -0.0,
+                      "Z": 0.70710677,
+                      "W": 0.70710677,
+                      "IsNormalized": true,
+                      "Size": 0.99999994,
+                      "SizeSquared": 0.99999994
+                    },
+                    "Translation": {
+                      "X": -185.0,
+                      "Y": 65.0,
+                      "Z": 0.0
+                    },
+                    "Scale3D": {
+                      "X": 1.0,
+                      "Y": 1.0,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Rotation": {
+                      "X": 0.0,
+                      "Y": -0.0,
+                      "Z": 0.707107,
+                      "W": 0.707107,
+                      "IsNormalized": true,
+                      "Size": 1.0000002,
+                      "SizeSquared": 1.0000006
+                    },
+                    "Translation": {
+                      "X": -185.0,
+                      "Y": 65.0,
+                      "Z": 0.0
+                    },
+                    "Scale3D": {
+                      "X": 1.0,
+                      "Y": 1.0,
+                      "Z": 1.0
+                    }
+                  },
+                  {
+                    "Rotation": {
+                      "X": 0.0,
+                      "Y": -0.0,
+                      "Z": 0.707107,
+                      "W": 0.707107,
+                      "IsNormalized": true,
+                      "Size": 1.0000002,
+                      "SizeSquared": 1.0000006
+                    },
+                    "Translation": {
+                      "X": -185.0,
+                      "Y": 65.0,
+                      "Z": 0.0
+                    },
+                    "Scale3D": {
+                      "X": 1.0,
+                      "Y": 1.0,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SpawnTransformPointsTags": [],
+                "bOverrideLevelType": false,
+                "SpawnLevelTypeOverride": "EAISpawnLevelType::PermanentLevel",
+                "LevelOverride": 0,
+                "LevelMin": 0,
+                "LevelMax": 0,
+                "QuestSpawnPointOverrideIDs": [],
+                "SpawnOnlyWhenDeadNumExceeds": 0,
+                "SpawnDelayTime": 0.0,
+                "SpawnIntervalTime": 0.0,
+                "IdleStatesOverride": [],
+                "IdleStateTargetPointsContainer": [],
+                "SpawnProbability": 1.0,
+                "AIControllerOverride": {
+                  "ObjectName": "BlueprintGeneratedClass'mon_01ControllerBP_C'",
+                  "ObjectPath": "/Game/Blueprints/Character/Monster/mon_01/mon_01ControllerBP.3"
+                },
+                "AdditionalTags": [],
+                "AISettingsOverrideID": "None",
+                "AIConfigOverrideID": "None",
+                "FleeTargetPoints": [],
+                "AILeaveBattleType": "EAILeaveBattleType::AILBNormal",
+                "bUseDataTable": true,
+                "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
+                "bUseRangeForPassiveAggro": false,
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,

@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "OfferPropDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Inventory/OfferPropDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'OfferPropData'",
@@ -53,7 +54,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": false
       },
       "L110044": {
         "OfferPropTag": [
@@ -98,7 +100,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": false
       },
       "Mu_Lamp01_Key": {
         "OfferPropTag": [
@@ -123,7 +126,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": false
       },
       "Mu_Lamp01_RedBear": {
         "OfferPropTag": [
@@ -168,7 +172,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": false
       },
       "Mu_Lamp01_DesignDrawing": {
         "OfferPropTag": [
@@ -203,7 +208,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": false
       },
       "Mu_Lamp01_Story_01": {
         "OfferPropTag": [
@@ -238,7 +244,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": false
       },
       "Mu_Lamp01_Story_02": {
         "OfferPropTag": [
@@ -283,7 +290,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": false
       },
       "Mu_Lamp01_Story_03": {
         "OfferPropTag": [
@@ -318,7 +326,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": false
       },
       "Mu_Lamp01_Story_04": {
         "OfferPropTag": [
@@ -353,7 +362,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": false
       },
       "Test_key": {
         "OfferPropTag": [
@@ -378,7 +388,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": false
       },
       "WishingTree": {
         "OfferPropTag": [
@@ -433,7 +444,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": false,
-        "bIsAutoUse": true
+        "bIsAutoUse": true,
+        "bServerBroadcast": false
       },
       "BankVault_Imp_01": {
         "OfferPropTag": [
@@ -458,7 +470,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
       },
       "Bank_Card_Temporary": {
         "OfferPropTag": [
@@ -483,7 +496,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
       },
       "BankVault_01": {
         "OfferPropTag": [
@@ -508,7 +522,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
       },
       "BankVault_02": {
         "OfferPropTag": [
@@ -533,7 +548,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
       },
       "BankVault_03": {
         "OfferPropTag": [
@@ -558,7 +574,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
       },
       "BankVault_04": {
         "OfferPropTag": [
@@ -583,7 +600,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
       },
       "BankVault_05": {
         "OfferPropTag": [
@@ -608,7 +626,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
       },
       "BankVault_06": {
         "OfferPropTag": [
@@ -633,7 +652,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
       },
       "BankVault_07": {
         "OfferPropTag": [
@@ -658,7 +678,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
       },
       "BankVault_08": {
         "OfferPropTag": [
@@ -683,7 +704,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
       },
       "BankVault_09": {
         "OfferPropTag": [
@@ -708,7 +730,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
       },
       "BankVault_10": {
         "OfferPropTag": [
@@ -733,7 +756,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
       },
       "Bank_Card_Employee_ID": {
         "OfferPropTag": [
@@ -758,7 +782,8 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
       },
       "Bank_Card_Employee_ID_0": {
         "OfferPropTag": [
@@ -783,23 +808,36 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
       },
       "BankVault_Imp_03": {
         "OfferPropTag": [
-          "BankVault_Imp_03"
+          "BankVault_Imp_03",
+          "BankVault_Imp_01"
         ],
         "OfferName": {
-          "CultureInvariantString": "魔方钥匙"
+          "CultureInvariantString": "魔方和钥匙"
         },
         "TypeNums": [
+          1,
           1
         ],
         "ResultMaps": [
           {
             "InfoSets": [
               {
-                "PropID": "RobBankItem_001",
+                "PropID": "RobBankItem_G016",
+                "Num": 1
+              }
+            ],
+            "Effect": 0,
+            "bIsDeduct": true
+          },
+          {
+            "InfoSets": [
+              {
+                "PropID": "RobBankItem_G004",
                 "Num": 1
               }
             ],
@@ -808,7 +846,242 @@
           }
         ],
         "bCanOfferUnmatchedProps": true,
-        "bIsAutoUse": false
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
+      },
+      "BankVault_Imp_04": {
+        "OfferPropTag": [
+          "BankVault_Imp_04"
+        ],
+        "OfferName": {
+          "CultureInvariantString": "办公层娱乐室门禁卡"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "RobBankItem_G017",
+                "Num": 1
+              }
+            ],
+            "Effect": 0,
+            "bIsDeduct": true
+          }
+        ],
+        "bCanOfferUnmatchedProps": true,
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
+      },
+      "BankVault_Imp_05": {
+        "OfferPropTag": [
+          "BankVault_Imp_05"
+        ],
+        "OfferName": {
+          "CultureInvariantString": "收藏层会议室门禁卡"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "RobBankItem_G018",
+                "Num": 1
+              }
+            ],
+            "Effect": 0,
+            "bIsDeduct": true
+          }
+        ],
+        "bCanOfferUnmatchedProps": true,
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
+      },
+      "BankVault_Imp_06": {
+        "OfferPropTag": [
+          "BankVault_Imp_06"
+        ],
+        "OfferName": {
+          "CultureInvariantString": "副行长会客室"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "RobBankItem_G019",
+                "Num": 1
+              }
+            ],
+            "Effect": 0,
+            "bIsDeduct": true
+          }
+        ],
+        "bCanOfferUnmatchedProps": true,
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
+      },
+      "BankVault_Imp_07": {
+        "OfferPropTag": [
+          "BankVault_Imp_07"
+        ],
+        "OfferName": {
+          "CultureInvariantString": "收藏层配电间"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "RobBankItem_G020",
+                "Num": 1
+              }
+            ],
+            "Effect": 0,
+            "bIsDeduct": true
+          }
+        ],
+        "bCanOfferUnmatchedProps": true,
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
+      },
+      "BankVault_Imp_08": {
+        "OfferPropTag": [
+          "BankVault_Imp_08"
+        ],
+        "OfferName": {
+          "CultureInvariantString": "收藏层监控室"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "RobBankItem_G021",
+                "Num": 1
+              }
+            ],
+            "Effect": 0,
+            "bIsDeduct": true
+          }
+        ],
+        "bCanOfferUnmatchedProps": true,
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
+      },
+      "BankVault_Imp_09": {
+        "OfferPropTag": [
+          "BankVault_Imp_09"
+        ],
+        "OfferName": {
+          "CultureInvariantString": "办公层经理办公室"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "RobBankItem_G022",
+                "Num": 1
+              }
+            ],
+            "Effect": 0,
+            "bIsDeduct": true
+          }
+        ],
+        "bCanOfferUnmatchedProps": true,
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
+      },
+      "BankVault_Imp_10": {
+        "OfferPropTag": [
+          "BankVault_Imp_10"
+        ],
+        "OfferName": {
+          "CultureInvariantString": "收藏层经理储物间"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "RobBankItem_G023",
+                "Num": 1
+              }
+            ],
+            "Effect": 0,
+            "bIsDeduct": true
+          }
+        ],
+        "bCanOfferUnmatchedProps": true,
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
+      },
+      "BankVault_Imp_11": {
+        "OfferPropTag": [
+          "BankVault_Imp_11"
+        ],
+        "OfferName": {
+          "CultureInvariantString": "收藏层直通卡"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "RobBankItem_G024",
+                "Num": 1
+              }
+            ],
+            "Effect": 0,
+            "bIsDeduct": true
+          }
+        ],
+        "bCanOfferUnmatchedProps": true,
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
+      },
+      "BankVault_Imp_12": {
+        "OfferPropTag": [
+          "BankVault_Imp_12"
+        ],
+        "OfferName": {
+          "CultureInvariantString": "金库直通卡"
+        },
+        "TypeNums": [
+          1
+        ],
+        "ResultMaps": [
+          {
+            "InfoSets": [
+              {
+                "PropID": "RobBankItem_G025",
+                "Num": 1
+              }
+            ],
+            "Effect": 0,
+            "bIsDeduct": true
+          }
+        ],
+        "bCanOfferUnmatchedProps": true,
+        "bIsAutoUse": false,
+        "bServerBroadcast": true
       }
     }
   }

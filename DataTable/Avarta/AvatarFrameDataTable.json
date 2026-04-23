@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "AvatarFrameDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Avarta/AvatarFrameDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'HTAvatarFrameConfig'",
@@ -40,7 +41,11 @@
           "Key": "Avatar_003",
           "SourceString": "默认获得",
           "LocalizedString": "默认获得"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_1003": {
         "Name": {
@@ -61,17 +66,21 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1003_desc",
+          "SourceString": "被鬼抓到的话……会被吃掉！",
+          "LocalizedString": "被鬼抓到的话……会被吃掉！"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_1004": {
         "Name": {
@@ -92,17 +101,21 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1004_desc",
+          "SourceString": "番茄！请赐给我们永远的美味。",
+          "LocalizedString": "番茄！请赐给我们永远的美味。"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_1008": {
         "Name": {
@@ -123,17 +136,21 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1008_desc",
+          "SourceString": "我的鼻子可比工作表好使。",
+          "LocalizedString": "我的鼻子可比工作表好使。"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_1010": {
         "Name": {
@@ -154,17 +171,21 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1010_desc",
+          "SourceString": "翻转吧！这个世界！",
+          "LocalizedString": "翻转吧！这个世界！"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_1019": {
         "Name": {
@@ -185,17 +206,21 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1019_desc",
+          "SourceString": "迟迟不下的雷雨，和一杯冒着冷气的薄荷柠檬水。",
+          "LocalizedString": "迟迟不下的雷雨，和一杯冒着冷气的薄荷柠檬水。"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_1020": {
         "Name": {
@@ -216,17 +241,21 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1020_desc",
+          "SourceString": "蜂蜜流淌成五线谱，糖果点缀成音符。",
+          "LocalizedString": "蜂蜜流淌成五线谱，糖果点缀成音符。"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_1021": {
         "Name": {
@@ -247,17 +276,21 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1021_desc",
+          "SourceString": "献给上帝的花束中，有一朵已枯萎。",
+          "LocalizedString": "献给上帝的花束中，有一朵已枯萎。"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_1023": {
         "Name": {
@@ -278,17 +311,21 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1023_desc",
+          "SourceString": "一叶凋灭，一叶新生。",
+          "LocalizedString": "一叶凋灭，一叶新生。"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_1025": {
         "Name": {
@@ -309,17 +346,21 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1025_desc",
+          "SourceString": "我见是我，而我非我。",
+          "LocalizedString": "我见是我，而我非我。"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_1033": {
         "Name": {
@@ -340,17 +381,21 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1033_desc",
+          "SourceString": "过去，现在，未来，我即是我。",
+          "LocalizedString": "过去，现在，未来，我即是我。"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_1039": {
         "Name": {
@@ -371,17 +416,21 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1039_desc",
+          "SourceString": "一只鸟飞出了窗户，然后被关进了笼子里。",
+          "LocalizedString": "一只鸟飞出了窗户，然后被关进了笼子里。"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_1052": {
         "Name": {
@@ -402,17 +451,21 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1029_desc",
+          "SourceString": "沉沉山眠中，簌簌落雪声。",
+          "LocalizedString": "沉沉山眠中，簌簌落雪声。"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_1054": {
         "Name": {
@@ -433,17 +486,21 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1005_desc",
+          "SourceString": "在湖中央或许有一朵小水仙，或许没有。",
+          "LocalizedString": "在湖中央或许有一朵小水仙，或许没有。"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_1055": {
         "Name": {
@@ -464,17 +521,21 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1014_desc",
+          "SourceString": "再为我唱一支歌吧，神圣的小鸟。",
+          "LocalizedString": "再为我唱一支歌吧，神圣的小鸟。"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_1057": {
         "Name": {
@@ -495,17 +556,21 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1057_desc",
+          "SourceString": "昨日的曲调彻底粉碎前，伸出手吧。",
+          "LocalizedString": "昨日的曲调彻底粉碎前，伸出手吧。"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_Tajiduo": {
         "Name": {
@@ -526,17 +591,56 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_Tajiduo_desc",
+          "SourceString": "维修%……&中#……",
+          "LocalizedString": "维修%……&中#……"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
+      },
+      "Frame_1070": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1070_name",
+          "SourceString": "夜海洄游",
+          "LocalizedString": "夜海洄游"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/UI_IMG_Frame_1070.UI_IMG_Frame_1070",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_IMG_Frame_1070_100.UI_IMG_Frame_1070_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1070_desc",
+          "SourceString": "但那未尽的心愿将化作灯盏，照亮长夜的海。",
+          "LocalizedString": "但那未尽的心愿将化作灯盏，照亮长夜的海。"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "角色羁遇奖励"
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
       },
       "Frame_1073": {
         "Name": {
@@ -557,17 +661,301 @@
           "SubPathString": ""
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Avatar_004",
-          "SourceString": "角色羁遇奖励",
-          "LocalizedString": "角色羁遇奖励"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_frame_1073_desc",
+          "SourceString": "朝露里裹着世界的倒影，然而，然而。",
+          "LocalizedString": "朝露里裹着世界的倒影，然而，然而。"
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Avatar_004",
           "SourceString": "角色羁遇奖励",
           "LocalizedString": "角色羁遇奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
+      },
+      "Universal_frame_bilibili": {
+        "Name": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Universal_frame_bilibili_Name",
+          "SourceString": "电力满分",
+          "LocalizedString": "电力满分"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/Universal_frame_bilibili_216.Universal_frame_bilibili_216",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/AvatarFrame/Universal_frame_bilibili_100.Universal_frame_bilibili_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Universal_frame_bilibili_Desc",
+          "SourceString": "和小电视一起穿梭海特洛的都市街巷！",
+          "LocalizedString": "和小电视一起穿梭海特洛的都市街巷！"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Universal_frame_bilibili_Obtain",
+          "SourceString": "B站预约奖励",
+          "LocalizedString": "B站预约奖励"
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": true,
+        "ShowLinkCharacterID": "None"
+      },
+      "Universal_frame_taptap": {
+        "Name": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Universal_frame_taptap_Name",
+          "SourceString": "发现未来",
+          "LocalizedString": "发现未来"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/Universal_frame_taptap_216.Universal_frame_taptap_216",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/AvatarFrame/Universal_frame_taptap_100.Universal_frame_taptap_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Universal_frame_taptap_Desc",
+          "SourceString": "嗒啦啦~今日份消息速递请注意查收。",
+          "LocalizedString": "嗒啦啦~今日份消息速递请注意查收。"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Universal_frame_taptap_Obtain",
+          "SourceString": "TAP预约奖励",
+          "LocalizedString": "TAP预约奖励"
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": true,
+        "ShowLinkCharacterID": "None"
+      },
+      "Universal_frame_goodgame": {
+        "Name": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Universal_frame_goodgame_Name",
+          "SourceString": "爆米花猎手",
+          "LocalizedString": "爆米花猎手"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/Universal_frame_goodgame_216.Universal_frame_goodgame_216",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/AvatarFrame/Universal_frame_goodgame_100.Universal_frame_goodgame_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Universal_frame_goodgame_Desc",
+          "SourceString": "要来一桶新口味爆米花吗？",
+          "LocalizedString": "要来一桶新口味爆米花吗？"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Universal_frame_goodgame_Obtain",
+          "SourceString": "好游预约奖励",
+          "LocalizedString": "好游预约奖励"
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": true,
+        "ShowLinkCharacterID": "None"
+      },
+      "Universal_frame_huawei": {
+        "Name": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Universal_frame_huawei_Name",
+          "SourceString": "星河",
+          "LocalizedString": "星河"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/Universal_frame_huawei_216.Universal_frame_huawei_216",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/AvatarFrame/Universal_frame_huawei_100.Universal_frame_huawei_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Universal_frame_huawei_Desc",
+          "SourceString": "星河璀璨，千帆起航。",
+          "LocalizedString": "星河璀璨，千帆起航。"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Universal_frame_huawei_Obtain",
+          "SourceString": "鸿蒙预约奖励",
+          "LocalizedString": "鸿蒙预约奖励"
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": true,
+        "ShowLinkCharacterID": "None"
+      },
+      "Frame_SNv10_Apple": {
+        "Name": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Frame_SNv10_Apple_Name",
+          "SourceString": "铭刻鉴心",
+          "LocalizedString": "铭刻鉴心"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/Frame_SNv10_Apple_216.Frame_SNv10_Apple_216",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/AvatarFrame/Frame_SNv10_Apple_100.Frame_SNv10_Apple_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Frame_SNv10_Apple_Desc",
+          "SourceString": "从零开始的鉴定师生活。",
+          "LocalizedString": "从零开始的鉴定师生活。"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Frame_SNv10_Apple_Obtain",
+          "SourceString": "Apple授权专营店主题活动",
+          "LocalizedString": "Apple授权专营店主题活动"
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": true,
+        "ShowLinkCharacterID": "None"
+      },
+      "Frame_SNv10_Oversea_GS25": {
+        "Name": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Frame_SNv10_Oversea_GS25_Name",
+          "SourceString": "美好生活",
+          "LocalizedString": "美好生活"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/Frame_SNv10_Oversea_GS25_216.Frame_SNv10_Oversea_GS25_216",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Frame_SNv10_Oversea_GS25_100.Frame_SNv10_Oversea_GS25_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Frame_SNv10_Oversea_GS25_Desc",
+          "SourceString": "便利，从手边开始。",
+          "LocalizedString": "便利，从手边开始。"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Frame_SNv10_Oversea_GS25_Obtain",
+          "SourceString": "GS25线下门店联动奖励",
+          "LocalizedString": "GS25线下门店联动奖励"
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": true,
+        "ShowLinkCharacterID": "None"
+      },
+      "Frame_SNv10_Oversea_CC01": {
+        "Name": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Frame_SNv10_Oversea_CC01_Name",
+          "SourceString": "小小梦想",
+          "LocalizedString": "小小梦想"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/Frame_SNv10_Oversea_CC01_216.Frame_SNv10_Oversea_CC01_216",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Frame_SNv10_Oversea_CC01_100.Frame_SNv10_Oversea_CC01_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Frame_SNv10_Oversea_CC01_Desc",
+          "SourceString": "创作，永不停歇。",
+          "LocalizedString": "创作，永不停歇。"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Frame_SNv10_Oversea_CC01_Obtain",
+          "SourceString": "内容创作者激励活动奖励",
+          "LocalizedString": "内容创作者激励活动奖励"
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": true,
+        "ShowLinkCharacterID": "None"
+      },
+      "Frame_SNv10_Oversea_nico": {
+        "Name": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Frame_SNv10_Oversea_nico_Name",
+          "SourceString": "又一台？",
+          "LocalizedString": "又一台？"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/Frame_SNv10_Oversea_nico_216.Frame_SNv10_Oversea_nico_216",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Frame_SNv10_Oversea_nico_100.Frame_SNv10_Oversea_nico_100",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Frame_SNv10_Oversea_nico_Desc",
+          "SourceString": "在地面上再现幻想的一切！",
+          "LocalizedString": "在地面上再现幻想的一切！"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Frame_SNv10_Oversea_nico_Obtain",
+          "SourceString": "Niconico展会联动奖励",
+          "LocalizedString": "Niconico展会联动奖励"
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": true,
+        "ShowLinkCharacterID": "None"
       },
       "Combat_Frame_01": {
         "Name": {
@@ -584,7 +972,7 @@
           "SubPathString": ""
         },
         "Icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarFrame/Combat_Frame_01.Combat_Frame_01",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Combat_Frame_01_100.Combat_Frame_01_100",
           "SubPathString": ""
         },
         "Description": {
@@ -598,7 +986,11 @@
           "Key": "Combat_Avatar_01_obtain",
           "SourceString": "「环期赏令」奖励",
           "LocalizedString": "「环期赏令」奖励"
-        }
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": true,
+        "ShowLinkCharacterID": "None"
       }
     }
   }

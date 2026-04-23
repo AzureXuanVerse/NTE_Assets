@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "ShopDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Shop/ShopDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'ShopData'",
@@ -4017,6 +4018,27 @@
           "SubPathString": ""
         }
       },
+      "Shop_030_03_sp": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/Minimap/ST_MinimapiconDec.ST_MinimapiconDec",
+          "Key": "Map_Shop_030_name",
+          "SourceString": "超规格",
+          "LocalizedString": "超规格"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
       "Shop_030_03_01": {
         "ChainShopID": "None",
         "ShopType": "EShopType::NPC_SHOP",
@@ -4805,20 +4827,20 @@
       },
       "GameBackendGiftShop": {
         "ChainShopID": "None",
-        "ShopType": "EShopType::MALL_SHOP",
+        "ShopType": "EShopType::GIFT_SHOP",
         "CurrencyID": [
           "Riftcrystaladd",
           "AnnulithAdd"
         ],
         "UnLockID": "None",
-        "SwitchType": "ESwitchType::Shop",
+        "SwitchType": "ESwitchType::GiftShop",
         "CanBuyDistance": -1.0,
         "UIClass": "MallShop",
         "ShopName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "GameBackendGiftShop",
-          "SourceString": "运营礼包",
-          "LocalizedString": "运营礼包"
+          "SourceString": "新潮限定",
+          "LocalizedString": "新潮限定"
         },
         "ShopIcon": {
           "AssetPathName": "",
@@ -4827,7 +4849,7 @@
       },
       "GiftShop": {
         "ChainShopID": "None",
-        "ShopType": "EShopType::MALL_SHOP",
+        "ShopType": "EShopType::GIFT_SHOP",
         "CurrencyID": [
           "Riftcrystaladd",
           "AnnulithAdd"
@@ -4839,8 +4861,8 @@
         "ShopName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "GiftShop",
-          "SourceString": "常驻礼包",
-          "LocalizedString": "常驻礼包"
+          "SourceString": "珍藏好物",
+          "LocalizedString": "珍藏好物"
         },
         "ShopIcon": {
           "AssetPathName": "",
@@ -4945,8 +4967,8 @@
         "ShopName": {
           "TableId": "/Game/Text/ST_UI_J.ST_UI_J",
           "Key": "AppearanceShop_1",
-          "SourceString": "载具涂装",
-          "LocalizedString": "载具涂装"
+          "SourceString": "载具外观",
+          "LocalizedString": "载具外观"
         },
         "ShopIcon": {
           "AssetPathName": "",
@@ -5117,6 +5139,128 @@
           "Key": "Map_Shop_032_name",
           "SourceString": "豆风庵",
           "LocalizedString": "豆风庵"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "FonsLimitTimeShop2": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::FONS_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "FonsLimitTimeShop",
+        "ShopName": {
+          "CultureInvariantString": null
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "FonsLimitTimeShop3": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::FONS_SHOP",
+        "CurrencyID": [
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "FonsLimitTimeShop",
+        "ShopName": {
+          "CultureInvariantString": null
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "SpecialOfferGiftShop": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::GIFT_SHOP",
+        "CurrencyID": [
+          "Riftcrystaladd",
+          "AnnulithAdd"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::GiftShop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "MallShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "SpecialOfferGiftShop",
+          "SourceString": "启程特惠",
+          "LocalizedString": "启程特惠"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "VehicleShop": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::MALL_SHOP",
+        "CurrencyID": [
+          "RiftcrystalAdd",
+          "Fons"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "MallShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "DT_CharacterAbilityCityGroupUI_zaiju",
+          "SourceString": "载具",
+          "LocalizedString": "载具"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "testshop": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::MALL_SHOP",
+        "CurrencyID": [
+          "AnnulithAdd"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "MallShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Mall_5_name",
+          "SourceString": "环石加工",
+          "LocalizedString": "环石加工"
+        },
+        "ShopIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "RobbankShop": {
+        "ChainShopID": "None",
+        "ShopType": "EShopType::NPC_SHOP",
+        "CurrencyID": [
+          "RobbankCoin"
+        ],
+        "UnLockID": "None",
+        "SwitchType": "ESwitchType::Shop",
+        "CanBuyDistance": -1.0,
+        "UIClass": "NPCShop",
+        "ShopName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "RobbankShop_name",
+          "SourceString": "粉爪猫窝",
+          "LocalizedString": "粉爪猫窝"
         },
         "ShopIcon": {
           "AssetPathName": "",

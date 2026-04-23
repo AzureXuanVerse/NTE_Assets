@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_MailModel",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Mail/DT_MailModel",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'HTMailModel'",
@@ -39,7 +40,6 @@
         "MailAttachStr": "",
         "DropID": "None",
         "MailConditions": "",
-        "MailExpiryTimeDays": 30,
         "MailPath": 900,
         "bIsPermanent": false,
         "Hyperlinks": ""
@@ -75,7 +75,6 @@
         "MailAttachStr": "",
         "DropID": "None",
         "MailConditions": "",
-        "MailExpiryTimeDays": 30,
         "MailPath": 0,
         "bIsPermanent": false,
         "Hyperlinks": ""
@@ -111,7 +110,6 @@
         "MailAttachStr": "",
         "DropID": "None",
         "MailConditions": "",
-        "MailExpiryTimeDays": 30,
         "MailPath": 0,
         "bIsPermanent": false,
         "Hyperlinks": ""
@@ -144,7 +142,6 @@
         "MailAttachStr": "",
         "DropID": "None",
         "MailConditions": "",
-        "MailExpiryTimeDays": 30,
         "MailPath": 0,
         "bIsPermanent": false,
         "Hyperlinks": ""
@@ -180,7 +177,6 @@
         "MailAttachStr": "",
         "DropID": "None",
         "MailConditions": "",
-        "MailExpiryTimeDays": 30,
         "MailPath": 0,
         "bIsPermanent": false,
         "Hyperlinks": ""
@@ -216,7 +212,6 @@
         "MailAttachStr": "",
         "DropID": "None",
         "MailConditions": "",
-        "MailExpiryTimeDays": 30,
         "MailPath": 0,
         "bIsPermanent": false,
         "Hyperlinks": ""
@@ -252,7 +247,6 @@
         "MailAttachStr": "",
         "DropID": "None",
         "MailConditions": "",
-        "MailExpiryTimeDays": 30,
         "MailPath": 0,
         "bIsPermanent": false,
         "Hyperlinks": ""
@@ -288,7 +282,6 @@
         "MailAttachStr": "",
         "DropID": "None",
         "MailConditions": "",
-        "MailExpiryTimeDays": 30,
         "MailPath": 0,
         "bIsPermanent": false,
         "Hyperlinks": ""
@@ -311,8 +304,8 @@
         "MailContent": {
           "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
           "Key": "Mail_MonthCard_002",
-          "SourceString": "亲爱的异象猎人，因异常现象干扰，您在购买「异晶开采凭证」时，发生了重复购买现象，现已将重复支付的环石退还至您的账户。异象猎人公会感谢您的支持，期待与您的再次合作。",
-          "LocalizedString": "亲爱的异象猎人，因异常现象干扰，您在购买「异晶开采凭证」时，发生了重复购买现象，现已将重复支付的环石退还至您的账户。异象猎人公会感谢您的支持，期待与您的再次合作。"
+          "SourceString": "亲爱的异象猎人，因异常现象干扰，您在购买「异晶开采凭证」时，发生了重复购买现象，现已将重复支付的异晶退还至您的账户。异象猎人公会感谢您的支持，期待与您的再次合作。",
+          "LocalizedString": "亲爱的异象猎人，因异常现象干扰，您在购买「异晶开采凭证」时，发生了重复购买现象，现已将重复支付的异晶退还至您的账户。异象猎人公会感谢您的支持，期待与您的再次合作。"
         },
         "MailParams": "",
         "MailSender": {
@@ -324,7 +317,6 @@
         "MailAttachStr": "",
         "DropID": "drop_MonthlyCardCompensation_30",
         "MailConditions": "",
-        "MailExpiryTimeDays": 30,
         "MailPath": 0,
         "bIsPermanent": false,
         "Hyperlinks": ""
@@ -347,8 +339,8 @@
         "MailContent": {
           "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
           "Key": "Mail_CombatAwards_003",
-          "SourceString": "亲爱的异象猎人，因异常现象干扰，您在购买「精锐猎人补给」时，发生了重复购买现象，现已将重复支付的环石退还至您的账户。异象猎人公会感谢您的支持，期待与您的再次合作。",
-          "LocalizedString": "亲爱的异象猎人，因异常现象干扰，您在购买「精锐猎人补给」时，发生了重复购买现象，现已将重复支付的环石退还至您的账户。异象猎人公会感谢您的支持，期待与您的再次合作。"
+          "SourceString": "亲爱的异象猎人，因异常现象干扰，您在购买「精锐猎人补给」时，发生了重复购买现象，现已将重复支付的异晶退还至您的账户。异象猎人公会感谢您的支持，期待与您的再次合作。",
+          "LocalizedString": "亲爱的异象猎人，因异常现象干扰，您在购买「精锐猎人补给」时，发生了重复购买现象，现已将重复支付的异晶退还至您的账户。异象猎人公会感谢您的支持，期待与您的再次合作。"
         },
         "MailParams": "",
         "MailSender": {
@@ -360,7 +352,6 @@
         "MailAttachStr": "",
         "DropID": "drop_BPCompensation_68",
         "MailConditions": "",
-        "MailExpiryTimeDays": 30,
         "MailPath": 0,
         "bIsPermanent": false,
         "Hyperlinks": ""
@@ -383,8 +374,8 @@
         "MailContent": {
           "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
           "Key": "Mail_CombatAwards_004",
-          "SourceString": "亲爱的异象猎人，因异常现象干扰，您在购买「荣誉猎人补给」时，发生了重复购买现象，现已将重复支付的环石退还至您的账户。异象猎人公会感谢您的支持，期待与您的再次合作。",
-          "LocalizedString": "亲爱的异象猎人，因异常现象干扰，您在购买「荣誉猎人补给」时，发生了重复购买现象，现已将重复支付的环石退还至您的账户。异象猎人公会感谢您的支持，期待与您的再次合作。"
+          "SourceString": "亲爱的异象猎人，因异常现象干扰，您在购买「荣誉猎人补给」时，发生了重复购买现象，现已将重复支付的异晶退还至您的账户。异象猎人公会感谢您的支持，期待与您的再次合作。",
+          "LocalizedString": "亲爱的异象猎人，因异常现象干扰，您在购买「荣誉猎人补给」时，发生了重复购买现象，现已将重复支付的异晶退还至您的账户。异象猎人公会感谢您的支持，期待与您的再次合作。"
         },
         "MailParams": "",
         "MailSender": {
@@ -396,7 +387,6 @@
         "MailAttachStr": "",
         "DropID": "drop_BPCompensation_128",
         "MailConditions": "",
-        "MailExpiryTimeDays": 30,
         "MailPath": 0,
         "bIsPermanent": false,
         "Hyperlinks": ""
@@ -419,8 +409,8 @@
         "MailContent": {
           "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
           "Key": "Mail_CombatAwards_005",
-          "SourceString": "亲爱的异象猎人，因异常现象干扰，您在将「精锐猎人补给」升级至「荣誉猎人补给」时，发生了重复购买现象，现已将重复支付的环石退还至您的账户。异象猎人公会感谢您的支持，期待与您的再次合作。",
-          "LocalizedString": "亲爱的异象猎人，因异常现象干扰，您在将「精锐猎人补给」升级至「荣誉猎人补给」时，发生了重复购买现象，现已将重复支付的环石退还至您的账户。异象猎人公会感谢您的支持，期待与您的再次合作。"
+          "SourceString": "亲爱的异象猎人，因异常现象干扰，您在将「精锐猎人补给」升级至「荣誉猎人补给」时，发生了重复购买现象，现已将重复支付的异晶退还至您的账户。异象猎人公会感谢您的支持，期待与您的再次合作。",
+          "LocalizedString": "亲爱的异象猎人，因异常现象干扰，您在将「精锐猎人补给」升级至「荣誉猎人补给」时，发生了重复购买现象，现已将重复支付的异晶退还至您的账户。异象猎人公会感谢您的支持，期待与您的再次合作。"
         },
         "MailParams": "",
         "MailSender": {
@@ -432,7 +422,6 @@
         "MailAttachStr": "",
         "DropID": "drop_BPCompensation_60",
         "MailConditions": "",
-        "MailExpiryTimeDays": 30,
         "MailPath": 0,
         "bIsPermanent": false,
         "Hyperlinks": ""
@@ -468,79 +457,6 @@
         "MailAttachStr": "",
         "DropID": "None",
         "MailConditions": "",
-        "MailExpiryTimeDays": 30,
-        "MailPath": 0,
-        "bIsPermanent": false,
-        "Hyperlinks": ""
-      },
-      "Mail_gachaunlock": {
-        "MailType": "EHTMailType::MT_PLAYER",
-        "MailSubType": "EHTMailSubType::MT_Sub_Mail_Star",
-        "MailTitle": {
-          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-          "Key": "Mail_gachaunlock_title",
-          "SourceString": "【共存测试】特别补给（1/2）",
-          "LocalizedString": "【共存测试】特别补给（1/2）"
-        },
-        "MailSubTitle": {
-          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-          "Key": "Mail_gachaunlock_title",
-          "SourceString": "【共存测试】特别补给（1/2）",
-          "LocalizedString": "【共存测试】特别补给（1/2）"
-        },
-        "MailContent": {
-          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-          "Key": "Mail_gachaunlock_desc",
-          "SourceString": "感谢您参与本次共存测试！为助力您获得更流畅的游戏体验，我们特此为您准备了专属奖励「捏造骰子」*20，愿您在游戏中畅享精彩！",
-          "LocalizedString": "感谢您参与本次共存测试！为助力您获得更流畅的游戏体验，我们特此为您准备了专属奖励「捏造骰子」*20，愿您在游戏中畅享精彩！"
-        },
-        "MailParams": "",
-        "MailSender": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "MonthlyPassExpire_Sender",
-          "SourceString": "异象猎人公会",
-          "LocalizedString": "异象猎人公会"
-        },
-        "MailAttachStr": "",
-        "DropID": "drop_Mail_gachaunlock",
-        "MailConditions": "",
-        "MailExpiryTimeDays": 30,
-        "MailPath": 0,
-        "bIsPermanent": false,
-        "Hyperlinks": ""
-      },
-      "Mail_hunterlv10": {
-        "MailType": "EHTMailType::MT_PLAYER",
-        "MailSubType": "EHTMailSubType::MT_Sub_Mail_Star",
-        "MailTitle": {
-          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-          "Key": "Mail_hunterlv10_title",
-          "SourceString": "【共存测试】特别补给（2/2）",
-          "LocalizedString": "【共存测试】特别补给（2/2）"
-        },
-        "MailSubTitle": {
-          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-          "Key": "Mail_hunterlv10_title",
-          "SourceString": "【共存测试】特别补给（2/2）",
-          "LocalizedString": "【共存测试】特别补给（2/2）"
-        },
-        "MailContent": {
-          "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
-          "Key": "Mail_hunterlv10_desc",
-          "SourceString": "感谢您参与本次共存测试！为助力您获得更流畅的游戏体验，我们特此为您准备了专属奖励「捏造骰子」*10，愿您在游戏中畅享精彩！",
-          "LocalizedString": "感谢您参与本次共存测试！为助力您获得更流畅的游戏体验，我们特此为您准备了专属奖励「捏造骰子」*10，愿您在游戏中畅享精彩！"
-        },
-        "MailParams": "",
-        "MailSender": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "MonthlyPassExpire_Sender",
-          "SourceString": "异象猎人公会",
-          "LocalizedString": "异象猎人公会"
-        },
-        "MailAttachStr": "",
-        "DropID": "drop_Mail_hunterlv10",
-        "MailConditions": "",
-        "MailExpiryTimeDays": 30,
         "MailPath": 0,
         "bIsPermanent": false,
         "Hyperlinks": ""
@@ -576,43 +492,6 @@
         "MailAttachStr": "",
         "DropID": "None",
         "MailConditions": "",
-        "MailExpiryTimeDays": 30,
-        "MailPath": 0,
-        "bIsPermanent": false,
-        "Hyperlinks": ""
-      },
-      "Mail_SecretTest_1/2": {
-        "MailType": "EHTMailType::MT_PLAYER",
-        "MailSubType": "EHTMailSubType::MT_Sub_Mail_Star",
-        "MailTitle": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Mail_SecretTest_1/2_Title",
-          "SourceString": "线上保密测试养成补给(1/2)",
-          "LocalizedString": "线上保密测试养成补给(1/2)"
-        },
-        "MailSubTitle": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Mail_SecretTest_1/2_Title",
-          "SourceString": "线上保密测试养成补给(1/2)",
-          "LocalizedString": "线上保密测试养成补给(1/2)"
-        },
-        "MailContent": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Mail_SecretTest_1/2_Content",
-          "SourceString": "亲爱的鉴定师： 欢迎参加本次《异环》线上保密测试。",
-          "LocalizedString": "亲爱的鉴定师： 欢迎参加本次《异环》线上保密测试。"
-        },
-        "MailParams": "",
-        "MailSender": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Mail_SecretTest_1/2_Sender",
-          "SourceString": "《异环》运营团队",
-          "LocalizedString": "《异环》运营团队"
-        },
-        "MailAttachStr": "",
-        "DropID": "None",
-        "MailConditions": "",
-        "MailExpiryTimeDays": 30,
         "MailPath": 0,
         "bIsPermanent": false,
         "Hyperlinks": ""
@@ -648,43 +527,41 @@
         "MailAttachStr": "",
         "DropID": "None",
         "MailConditions": "",
-        "MailExpiryTimeDays": 30,
         "MailPath": 0,
         "bIsPermanent": false,
         "Hyperlinks": ""
       },
-      "Mail_3rdTestMail": {
+      "Mail_Lotteryreissue": {
         "MailType": "EHTMailType::MT_PLAYER",
-        "MailSubType": "EHTMailSubType::MT_Sub_Default",
+        "MailSubType": "EHTMailSubType::MT_Sub_Mail_Star",
         "MailTitle": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Mail_3rdTestMail_Title",
-          "SourceString": "「共存测试」物资补给",
-          "LocalizedString": "「共存测试」物资补给"
+          "Key": "DT_MailModel_Mail_Lotteryreissue_Title",
+          "SourceString": "活动遗失奖励补发",
+          "LocalizedString": "活动遗失奖励补发"
         },
         "MailSubTitle": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Mail_3rdTestMail_Title",
-          "SourceString": "「共存测试」物资补给",
-          "LocalizedString": "「共存测试」物资补给"
+          "Key": "DT_MailModel_Mail_Lotteryreissue_Title",
+          "SourceString": "活动遗失奖励补发",
+          "LocalizedString": "活动遗失奖励补发"
         },
         "MailContent": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Mail_3rdTestMail_Content",
-          "SourceString": "亲爱的鉴定师：\r\n欢迎来到海特洛市！为助您在此开启一段精彩的旅程，我们特此准备了补给。祝您游戏愉快！",
-          "LocalizedString": "亲爱的鉴定师：\r\n欢迎来到海特洛市！为助您在此开启一段精彩的旅程，我们特此准备了补给。祝您游戏愉快！"
+          "Key": "DT_MailModel_Mail_Lotteryreissue_Content",
+          "SourceString": "亲爱的市民，查询到您有活动完成奖励尚未领取，已为您补发至邮箱，请及时领取。感谢您参与每一次活动，希望您游玩愉快。",
+          "LocalizedString": "亲爱的市民，查询到您有活动完成奖励尚未领取，已为您补发至邮箱，请及时领取。感谢您参与每一次活动，希望您游玩愉快。"
         },
         "MailParams": "",
         "MailSender": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "Mail_3rdTestMail_Sender",
-          "SourceString": "《异环》项目组",
-          "LocalizedString": "《异环》项目组"
+          "Key": "Mail_Fork_Sender",
+          "SourceString": "巡警蚁",
+          "LocalizedString": "巡警蚁"
         },
         "MailAttachStr": "",
         "DropID": "None",
         "MailConditions": "",
-        "MailExpiryTimeDays": 30,
         "MailPath": 0,
         "bIsPermanent": false,
         "Hyperlinks": ""

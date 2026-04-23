@@ -2,8 +2,9 @@
   {
     "Type": "StringTable",
     "Name": "Skia_SkillDes",
-    "Class": "UScriptClass'StringTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'StringTable'",
+    "Package": "/Game/Text/PlayerSkillDes/Skia_SkillDes",
     "StringTable": {
       "TableNamespace": "Skia_SkillDes",
       "KeysToEntries": {
@@ -94,7 +95,7 @@
         "GA_Skia_Melee1_name": "<Title>普通攻击：拘管格斗术</>",
         "GA_Skia_Melee1_des": "翳以稳健的格斗技法，进行至多<NumGreen>5</>段的连续攻击，造成<Xiang>相属性异能伤害</>。\r\n每当命中<NumGreen>1</>个目标，便从自己的影子中分裂出<NumGreen>1</>个 <hot textstyle=\"TextEXPL\" param=\"nouns&skiamelee1\">「兽牙影刺」</>对其追击，每个目标最多可同时被<NumGreen>3</>个 <hot textstyle=\"TextEXPL\" param=\"nouns&skiamelee1\">「兽牙影刺」</>锁定。",
         "GA_Skia_Melee2_name": "<Title>普通攻击：就地执管</>",
-        "GA_Skia_Melee2_des": "翳在空中挥舞拳脚，并迅速下落冲击地面，落地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升200%。",
+        "GA_Skia_Melee2_des": "翳在空中挥舞拳脚，并迅速下落冲击地面，落地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升1倍。",
         "GA_Skia_Melee3_name": "<Title>「兽牙影刺」</>",
         "GA_Skia_Melee3_des": "从翳的影子中分裂而出，如巨兽利牙般的破碎阴影。会自动追踪并<hot textstyle=\"TextEXPL\" param=\"nouns&attach\">附着</>在目标身上，造成<NumGreen>1</>次<Xiang>相属性异能伤害</>后消失。",
         "GA_Skia_UtraSkill1_name": "<Title>群犬吠形</>",

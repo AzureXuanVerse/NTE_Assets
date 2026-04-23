@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "StaticFishBaitData",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Fish/StaticFishBaitData",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'StaticItemData'",
@@ -30,10 +31,10 @@
         "ItemName": {
           "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
           "Key": "FishBait01_Name",
-          "SourceString": "新手鱼饵",
-          "LocalizedString": "新手鱼饵"
+          "SourceString": "万能鱼饵",
+          "LocalizedString": "万能鱼饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_WHITE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -64,7 +65,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -106,7 +107,7 @@
           "SourceString": "杂谷饵",
           "LocalizedString": "杂谷饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_GREEN",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -137,7 +138,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -200,7 +201,7 @@
           "SourceString": "果渍饵",
           "LocalizedString": "果渍饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_GREEN",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -231,7 +232,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -294,7 +295,7 @@
           "SourceString": "酒糟饵",
           "LocalizedString": "酒糟饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -325,7 +326,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -388,7 +389,7 @@
           "SourceString": "甜麦饵",
           "LocalizedString": "甜麦饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -419,7 +420,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -482,7 +483,7 @@
           "SourceString": "八珍饵",
           "LocalizedString": "八珍饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -513,7 +514,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -564,7 +565,7 @@
           "SourceString": "秘酿饵",
           "LocalizedString": "秘酿饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -595,7 +596,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -646,7 +647,7 @@
           "SourceString": "芳泽饵",
           "LocalizedString": "芳泽饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -677,7 +678,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -728,7 +729,7 @@
           "SourceString": "虾籽饵",
           "LocalizedString": "虾籽饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_GREEN",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -759,7 +760,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -822,7 +823,7 @@
           "SourceString": "鲜腴饵",
           "LocalizedString": "鲜腴饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_GREEN",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -853,7 +854,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -916,7 +917,7 @@
           "SourceString": "蠕须饵",
           "LocalizedString": "蠕须饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_GREEN",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -947,7 +948,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -1010,7 +1011,7 @@
           "SourceString": "螺腥饵",
           "LocalizedString": "螺腥饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -1041,7 +1042,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -1104,7 +1105,7 @@
           "SourceString": "连竿饵",
           "LocalizedString": "连竿饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -1135,7 +1136,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -1198,7 +1199,7 @@
           "SourceString": "诱食饵",
           "LocalizedString": "诱食饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -1229,7 +1230,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -1292,7 +1293,7 @@
           "SourceString": "丰藻饵",
           "LocalizedString": "丰藻饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -1323,7 +1324,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -1378,7 +1379,7 @@
           "SourceString": "骨渣饵",
           "LocalizedString": "骨渣饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -1409,7 +1410,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -1464,7 +1465,7 @@
           "SourceString": "甘脂饵",
           "LocalizedString": "甘脂饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -1495,7 +1496,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -1550,7 +1551,7 @@
           "SourceString": "金髓饵",
           "LocalizedString": "金髓饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -1581,7 +1582,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -1632,7 +1633,7 @@
           "SourceString": "沉香饵",
           "LocalizedString": "沉香饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -1663,7 +1664,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },
@@ -1714,7 +1715,7 @@
           "SourceString": "玉引饵",
           "LocalizedString": "玉引饵"
         },
-        "MaxAmount": 999999999,
+        "MaxAmount": 99999,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -1745,7 +1746,7 @@
         "CanDestory": true,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "None",
-        "OutputSourceID": "None",
+        "OutputSourceID": "FishingShop",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
         },

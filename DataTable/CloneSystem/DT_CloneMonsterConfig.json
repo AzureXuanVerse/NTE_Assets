@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_CloneMonsterConfig",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/CloneSystem/DT_CloneMonsterConfig",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'AISpawnerChangeAllConfig'",
@@ -135,7 +136,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -226,7 +228,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -303,7 +306,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -460,7 +464,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -573,7 +578,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -650,7 +656,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -705,7 +712,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -796,7 +804,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -851,7 +860,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -928,7 +938,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -983,7 +994,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -1052,7 +1064,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -1129,7 +1142,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -1184,7 +1198,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -1275,7 +1290,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -1352,7 +1368,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -1407,7 +1424,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -1462,7 +1480,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -1517,7 +1536,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -1586,7 +1606,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -1641,7 +1662,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -1696,7 +1718,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -1773,7 +1796,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -1850,7 +1874,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -1963,7 +1988,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -2062,7 +2088,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -2117,7 +2144,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -2230,7 +2258,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -2285,7 +2314,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -2362,7 +2392,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -2475,7 +2506,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -2530,7 +2562,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -2607,7 +2640,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -2720,7 +2754,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -2797,7 +2832,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -2852,7 +2888,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -2943,7 +2980,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -3020,7 +3058,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -3097,7 +3136,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -3166,7 +3206,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -3221,7 +3262,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -3276,7 +3318,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -3375,7 +3418,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -3510,7 +3554,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -3587,7 +3632,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               },
               {
                 "AITemplate": {
@@ -3664,7 +3710,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -3731,7 +3778,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -3798,7 +3846,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -3865,7 +3914,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -3932,7 +3982,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -3999,7 +4050,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -4066,7 +4118,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -4133,7 +4186,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -4200,7 +4254,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -4267,7 +4322,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -4334,7 +4390,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -4401,7 +4458,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -4468,7 +4526,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -4535,7 +4594,76 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
+              }
+            ],
+            "WaveDelayTime": 0.0,
+            "Weight": 1.0,
+            "ChangeSpawnEntriesID": "None",
+            "ChangeEntryType": "EDynamicChangeEntryType::None",
+            "bNeedAdditionalDropItem": false
+          }
+        ]
+      },
+      "WeeklyClone_Boss10_Lv7": {
+        "SpawnWaveEntriesOverride": [
+          {
+            "WaveName": "None",
+            "SpawnEntries": [
+              {
+                "AITemplate": {
+                  "AssetPathName": "/Game/Blueprints/Character/Monster/boss_10/boss_10_BP_Weekly.boss_10_BP_Weekly_C",
+                  "SubPathString": ""
+                },
+                "Count": 1,
+                "SpawnTransformPointsOverride": [
+                  {
+                    "Rotation": {
+                      "X": -0.0,
+                      "Y": 0.0,
+                      "Z": -1.0,
+                      "W": 0.0,
+                      "IsNormalized": true,
+                      "Size": 1.0,
+                      "SizeSquared": 1.0
+                    },
+                    "Translation": {
+                      "X": 2815.9126,
+                      "Y": -2191.7122,
+                      "Z": 12087.964
+                    },
+                    "Scale3D": {
+                      "X": 1.0,
+                      "Y": 1.0,
+                      "Z": 1.0
+                    }
+                  }
+                ],
+                "SpawnTransformPointsTags": [],
+                "bOverrideLevelType": false,
+                "SpawnLevelTypeOverride": "EAISpawnLevelType::PermanentLevel",
+                "LevelOverride": 0,
+                "LevelMin": 0,
+                "LevelMax": 0,
+                "QuestSpawnPointOverrideIDs": [],
+                "SpawnOnlyWhenDeadNumExceeds": 0,
+                "SpawnDelayTime": 0.0,
+                "SpawnIntervalTime": 0.0,
+                "IdleStatesOverride": [],
+                "IdleStateTargetPointsContainer": [],
+                "SpawnProbability": 1.0,
+                "AIControllerOverride": null,
+                "AdditionalTags": [],
+                "AISettingsOverrideID": "None",
+                "AIConfigOverrideID": "boss_10_BP_Weekly_Lv7",
+                "FleeTargetPoints": [],
+                "AILeaveBattleType": "EAILeaveBattleType::AILBNormal",
+                "bUseDataTable": true,
+                "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
+                "bUseRangeForPassiveAggro": false,
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -4580,7 +4708,8 @@
                 "bUseDataTable": false,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -4628,7 +4757,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,
@@ -4716,7 +4846,8 @@
                 "bUseDataTable": true,
                 "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
                 "bUseRangeForPassiveAggro": false,
-                "PassiveAggroNotifyRange": 0.0
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
               }
             ],
             "WaveDelayTime": 0.0,

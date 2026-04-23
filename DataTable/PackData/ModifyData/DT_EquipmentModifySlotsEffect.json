@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_EquipmentModifySlotsEffect",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/PackData/ModifyData/DT_EquipmentModifySlotsEffect",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'ModifyStaticData'",
@@ -137,7 +138,7 @@
         "ModifyData": [
           {
             "PropName": "CritBase",
-            "PropValue": 0.08,
+            "PropValue": 0.075,
             "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
             "SortKey": 0
           }
@@ -181,6 +182,17 @@
         "ModifyData": [
           {
             "PropName": "DamageUpCosmosBase",
+            "PropValue": 0.1,
+            "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
+            "SortKey": 0
+          }
+        ]
+      },
+      "SlotsEffect_mitsuki": {
+        "ConditionArray": [],
+        "ModifyData": [
+          {
+            "PropName": "AtkUp",
             "PropValue": 0.1,
             "ModifierOp": "EModifyModOp::MODIFY_MODOP_ADDITIVE",
             "SortKey": 0

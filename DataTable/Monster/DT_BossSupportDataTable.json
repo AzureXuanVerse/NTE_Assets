@@ -2,8 +2,9 @@
   {
     "Type": "DataTable",
     "Name": "DT_BossSupportDataTable",
-    "Class": "UScriptClass'DataTable'",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/Monster/DT_BossSupportDataTable",
     "Properties": {
       "RowStruct": {
         "ObjectName": "Class'BossSupportData'",
@@ -15,7 +16,8 @@
         "Desc": "测试",
         "WeightValue": 1.0,
         "SupportCharacters": [
-          "1051"
+          "1073",
+          "1070"
         ],
         "ForbidQuestID": "WJ102001",
         "ConditionData": {
@@ -120,16 +122,29 @@
         "WeightValue": 1.0,
         "SupportCharacters": [
           "1010",
-          "1020"
+          "1020",
+          "1021"
         ],
-        "ForbidQuestID": "None",
+        "ForbidQuestID": "WJ102401",
         "ConditionData": {
           "FightMinTime": 60.0,
           "HPNeedPercent": 0.7,
           "TriggerType": "ESupportTriggerType::Skill"
         },
         "MinDistance": 3000.0,
-        "SpecialQuestSupportCharacters": []
+        "SpecialQuestSupportCharacters": [
+          {
+            "Key": "WJ102401",
+            "Value": {
+              "ConditionData": {
+                "FightMinTime": 1.0,
+                "HPNeedPercent": 0.9,
+                "TriggerType": "ESupportTriggerType::Auto"
+              },
+              "SupportCharacterID": "WJ1004"
+            }
+          }
+        ]
       },
       "boss_08_BP_WorldBoss": {
         "Desc": "【世界BOSS】斑蝶",
@@ -137,7 +152,8 @@
         "SupportCharacters": [
           "1003",
           "1023",
-          "1055"
+          "1055",
+          "1073"
         ],
         "ForbidQuestID": "None",
         "ConditionData": {
@@ -153,7 +169,8 @@
         "WeightValue": 1.0,
         "SupportCharacters": [
           "1019",
-          "1054"
+          "1054",
+          "1070"
         ],
         "ForbidQuestID": "None",
         "ConditionData": {
@@ -482,7 +499,7 @@
         "ConditionData": {
           "FightMinTime": 120.0,
           "HPNeedPercent": 0.7,
-          "TriggerType": "ESupportTriggerType::Auto"
+          "TriggerType": "ESupportTriggerType::Skill"
         },
         "MinDistance": 3000.0,
         "SpecialQuestSupportCharacters": []
@@ -499,7 +516,7 @@
         "ConditionData": {
           "FightMinTime": 120.0,
           "HPNeedPercent": 0.7,
-          "TriggerType": "ESupportTriggerType::Auto"
+          "TriggerType": "ESupportTriggerType::Skill"
         },
         "MinDistance": 3000.0,
         "SpecialQuestSupportCharacters": []
@@ -516,7 +533,7 @@
         "ConditionData": {
           "FightMinTime": 120.0,
           "HPNeedPercent": 0.7,
-          "TriggerType": "ESupportTriggerType::Auto"
+          "TriggerType": "ESupportTriggerType::Skill"
         },
         "MinDistance": 3000.0,
         "SpecialQuestSupportCharacters": []
@@ -533,7 +550,7 @@
         "ConditionData": {
           "FightMinTime": 120.0,
           "HPNeedPercent": 0.7,
-          "TriggerType": "ESupportTriggerType::Auto"
+          "TriggerType": "ESupportTriggerType::Skill"
         },
         "MinDistance": 3000.0,
         "SpecialQuestSupportCharacters": []
@@ -550,7 +567,7 @@
         "ConditionData": {
           "FightMinTime": 120.0,
           "HPNeedPercent": 0.7,
-          "TriggerType": "ESupportTriggerType::Auto"
+          "TriggerType": "ESupportTriggerType::Skill"
         },
         "MinDistance": 3000.0,
         "SpecialQuestSupportCharacters": []
@@ -567,7 +584,7 @@
         "ConditionData": {
           "FightMinTime": 120.0,
           "HPNeedPercent": 0.7,
-          "TriggerType": "ESupportTriggerType::Auto"
+          "TriggerType": "ESupportTriggerType::Skill"
         },
         "MinDistance": 3000.0,
         "SpecialQuestSupportCharacters": []
@@ -585,7 +602,7 @@
         "ConditionData": {
           "FightMinTime": 120.0,
           "HPNeedPercent": 0.7,
-          "TriggerType": "ESupportTriggerType::Auto"
+          "TriggerType": "ESupportTriggerType::Skill"
         },
         "MinDistance": 3000.0,
         "SpecialQuestSupportCharacters": []
@@ -603,7 +620,7 @@
         "ConditionData": {
           "FightMinTime": 120.0,
           "HPNeedPercent": 0.7,
-          "TriggerType": "ESupportTriggerType::Auto"
+          "TriggerType": "ESupportTriggerType::Skill"
         },
         "MinDistance": 3000.0,
         "SpecialQuestSupportCharacters": []
@@ -621,7 +638,7 @@
         "ConditionData": {
           "FightMinTime": 120.0,
           "HPNeedPercent": 0.7,
-          "TriggerType": "ESupportTriggerType::Auto"
+          "TriggerType": "ESupportTriggerType::Skill"
         },
         "MinDistance": 3000.0,
         "SpecialQuestSupportCharacters": []
@@ -639,7 +656,7 @@
         "ConditionData": {
           "FightMinTime": 120.0,
           "HPNeedPercent": 0.7,
-          "TriggerType": "ESupportTriggerType::Auto"
+          "TriggerType": "ESupportTriggerType::Skill"
         },
         "MinDistance": 3000.0,
         "SpecialQuestSupportCharacters": []
@@ -657,7 +674,7 @@
         "ConditionData": {
           "FightMinTime": 120.0,
           "HPNeedPercent": 0.7,
-          "TriggerType": "ESupportTriggerType::Auto"
+          "TriggerType": "ESupportTriggerType::Skill"
         },
         "MinDistance": 3000.0,
         "SpecialQuestSupportCharacters": []
@@ -675,7 +692,7 @@
         "ConditionData": {
           "FightMinTime": 120.0,
           "HPNeedPercent": 0.7,
-          "TriggerType": "ESupportTriggerType::Auto"
+          "TriggerType": "ESupportTriggerType::Skill"
         },
         "MinDistance": 3000.0,
         "SpecialQuestSupportCharacters": []
@@ -778,6 +795,216 @@
           "FightMinTime": 120.0,
           "HPNeedPercent": 0.7,
           "TriggerType": "ESupportTriggerType::Auto"
+        },
+        "MinDistance": 3000.0,
+        "SpecialQuestSupportCharacters": []
+      },
+      "boss_33_ChallengeLv1_BP": {
+        "Desc": "【高难】囿巢鸟",
+        "WeightValue": 1.0,
+        "SupportCharacters": [
+          "1019",
+          "1054",
+          "1070"
+        ],
+        "ForbidQuestID": "None",
+        "ConditionData": {
+          "FightMinTime": 120.0,
+          "HPNeedPercent": 0.7,
+          "TriggerType": "ESupportTriggerType::Skill"
+        },
+        "MinDistance": 3000.0,
+        "SpecialQuestSupportCharacters": []
+      },
+      "boss_33_ChallengeLv2_BP": {
+        "Desc": "【高难】囿巢鸟",
+        "WeightValue": 1.0,
+        "SupportCharacters": [
+          "1019",
+          "1054",
+          "1070"
+        ],
+        "ForbidQuestID": "None",
+        "ConditionData": {
+          "FightMinTime": 120.0,
+          "HPNeedPercent": 0.7,
+          "TriggerType": "ESupportTriggerType::Skill"
+        },
+        "MinDistance": 3000.0,
+        "SpecialQuestSupportCharacters": []
+      },
+      "boss_33_ChallengeLv3_BP": {
+        "Desc": "【高难】囿巢鸟",
+        "WeightValue": 1.0,
+        "SupportCharacters": [
+          "1019",
+          "1054",
+          "1070"
+        ],
+        "ForbidQuestID": "None",
+        "ConditionData": {
+          "FightMinTime": 120.0,
+          "HPNeedPercent": 0.7,
+          "TriggerType": "ESupportTriggerType::Skill"
+        },
+        "MinDistance": 3000.0,
+        "SpecialQuestSupportCharacters": []
+      },
+      "boss_33_ChallengeLv4_BP": {
+        "Desc": "【高难】囿巢鸟",
+        "WeightValue": 1.0,
+        "SupportCharacters": [
+          "1019",
+          "1054",
+          "1070"
+        ],
+        "ForbidQuestID": "None",
+        "ConditionData": {
+          "FightMinTime": 120.0,
+          "HPNeedPercent": 0.7,
+          "TriggerType": "ESupportTriggerType::Skill"
+        },
+        "MinDistance": 3000.0,
+        "SpecialQuestSupportCharacters": []
+      },
+      "boss_33_ChallengeLv5_BP": {
+        "Desc": "【高难】囿巢鸟",
+        "WeightValue": 1.0,
+        "SupportCharacters": [
+          "1019",
+          "1054",
+          "1070"
+        ],
+        "ForbidQuestID": "None",
+        "ConditionData": {
+          "FightMinTime": 120.0,
+          "HPNeedPercent": 0.7,
+          "TriggerType": "ESupportTriggerType::Skill"
+        },
+        "MinDistance": 3000.0,
+        "SpecialQuestSupportCharacters": []
+      },
+      "boss_33_ChallengeLv6_BP": {
+        "Desc": "【高难】囿巢鸟",
+        "WeightValue": 1.0,
+        "SupportCharacters": [
+          "1019",
+          "1054",
+          "1070"
+        ],
+        "ForbidQuestID": "None",
+        "ConditionData": {
+          "FightMinTime": 120.0,
+          "HPNeedPercent": 0.7,
+          "TriggerType": "ESupportTriggerType::Skill"
+        },
+        "MinDistance": 3000.0,
+        "SpecialQuestSupportCharacters": []
+      },
+      "Boss_08_ChallengeLv1_BP": {
+        "Desc": "【高难】斑蝶",
+        "WeightValue": 1.0,
+        "SupportCharacters": [
+          "1003",
+          "1023",
+          "1055",
+          "1073"
+        ],
+        "ForbidQuestID": "None",
+        "ConditionData": {
+          "FightMinTime": 120.0,
+          "HPNeedPercent": 0.7,
+          "TriggerType": "ESupportTriggerType::Skill"
+        },
+        "MinDistance": 3000.0,
+        "SpecialQuestSupportCharacters": []
+      },
+      "Boss_08_ChallengeLv2_BP": {
+        "Desc": "【高难】斑蝶",
+        "WeightValue": 1.0,
+        "SupportCharacters": [
+          "1003",
+          "1023",
+          "1055",
+          "1073"
+        ],
+        "ForbidQuestID": "None",
+        "ConditionData": {
+          "FightMinTime": 120.0,
+          "HPNeedPercent": 0.7,
+          "TriggerType": "ESupportTriggerType::Skill"
+        },
+        "MinDistance": 3000.0,
+        "SpecialQuestSupportCharacters": []
+      },
+      "Boss_08_ChallengeLv3_BP": {
+        "Desc": "【高难】斑蝶",
+        "WeightValue": 1.0,
+        "SupportCharacters": [
+          "1003",
+          "1023",
+          "1055",
+          "1073"
+        ],
+        "ForbidQuestID": "None",
+        "ConditionData": {
+          "FightMinTime": 120.0,
+          "HPNeedPercent": 0.7,
+          "TriggerType": "ESupportTriggerType::Skill"
+        },
+        "MinDistance": 3000.0,
+        "SpecialQuestSupportCharacters": []
+      },
+      "Boss_08_ChallengeLv4_BP": {
+        "Desc": "【高难】斑蝶",
+        "WeightValue": 1.0,
+        "SupportCharacters": [
+          "1003",
+          "1023",
+          "1055",
+          "1073"
+        ],
+        "ForbidQuestID": "None",
+        "ConditionData": {
+          "FightMinTime": 120.0,
+          "HPNeedPercent": 0.7,
+          "TriggerType": "ESupportTriggerType::Skill"
+        },
+        "MinDistance": 3000.0,
+        "SpecialQuestSupportCharacters": []
+      },
+      "Boss_08_ChallengeLv5_BP": {
+        "Desc": "【高难】斑蝶",
+        "WeightValue": 1.0,
+        "SupportCharacters": [
+          "1003",
+          "1023",
+          "1055",
+          "1073"
+        ],
+        "ForbidQuestID": "None",
+        "ConditionData": {
+          "FightMinTime": 120.0,
+          "HPNeedPercent": 0.7,
+          "TriggerType": "ESupportTriggerType::Skill"
+        },
+        "MinDistance": 3000.0,
+        "SpecialQuestSupportCharacters": []
+      },
+      "Boss_08_ChallengeLv6_BP": {
+        "Desc": "【高难】斑蝶",
+        "WeightValue": 1.0,
+        "SupportCharacters": [
+          "1003",
+          "1023",
+          "1055",
+          "1073"
+        ],
+        "ForbidQuestID": "None",
+        "ConditionData": {
+          "FightMinTime": 120.0,
+          "HPNeedPercent": 0.7,
+          "TriggerType": "ESupportTriggerType::Skill"
         },
         "MinDistance": 3000.0,
         "SpecialQuestSupportCharacters": []
