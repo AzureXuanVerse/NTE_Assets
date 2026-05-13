@@ -15272,6 +15272,148 @@
           "SubPathString": ""
         }
       },
+      "Dicelimite_lacrimosa": {
+        "ItemType": "EItemType::ITEM_TYPE_Lottery",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Dicelimite_Jin_256.Dicelimite_Jin_256",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Dicelimite_Jin_100.Dicelimite_Jin_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Dicelimite_lacrimosa_name",
+          "SourceString": "白日梦骰子 ",
+          "LocalizedString": "Daydream Dice "
+        },
+        "MaxAmount": 999999999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Dicelimite_lacrimosa_usedesc",
+          "SourceString": "仅可在限定棋盘「久梦初醒时」中进行投掷获得所需物品。",
+          "LocalizedString": "Only usable on the Limited Board, \"Fading Reverie,\" to obtain items."
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Dicelimite_lacrimosa_desc",
+          "SourceString": "「恰似一枕恬静的梦，一曲悠长的歌。」",
+          "LocalizedString": "A serene dream upon a quiet pillow, accompanied by a lingering song."
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "Dicelimite_Special",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Dicelimite_kaesi": {
+        "ItemType": "EItemType::ITEM_TYPE_Lottery",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Dicelimite_Jin_256.Dicelimite_Jin_256",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Dicelimite_Jin_100.Dicelimite_Jin_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Dicelimite_kaesi_name",
+          "SourceString": "沉雾骰子",
+          "LocalizedString": "Fogshroud Dice"
+        },
+        "MaxAmount": 999999999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Dicelimite_kaesi_usedesc",
+          "SourceString": "仅可在限定棋盘「无归路」中进行投掷获得所需物品。",
+          "LocalizedString": "Only usable on the Limited Board, \"Forsaken Path,\" to obtain items."
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Dicelimite_kaesi_desc",
+          "SourceString": "「为一片烟尘构筑秩序。」",
+          "LocalizedString": "Where smoke and dust wander, order is written."
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "Dicelimite_Special",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
       "WeaponGacha": {
         "ItemType": "EItemType::ITEM_TYPE_Lottery",
         "ItemClassOverride": null,
@@ -66758,11 +66900,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/PlayerCard/YH_UI_bg_card_icon_24.YH_UI_bg_card_icon_24",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/PlayerCard/YH_UI_bg_card_show_strip_37.YH_UI_bg_card_show_strip_37",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/PlayerCard/YH_UI_bg_card_icon_24_100.YH_UI_bg_card_icon_24_100",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/PlayerCard/YH_UI_bg_card_show_strip_37_100.YH_UI_bg_card_show_strip_37_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -75079,7 +75221,7 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/Fashion_vehicleSkin_1052_V016.Fashion_vehicleSkin_1052_V016",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/ItemIcon_V016_Decal_002.ItemIcon_V016_Decal_002",
           "SubPathString": ""
         },
         "ItemIconSmall": {
@@ -76153,7 +76295,7 @@
         "Description": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1052_1_Desc",
-          "SourceString": "以鬼兰花为主题的高级定制套装，浔刚开店资金还充裕时所购置。至于后来……即使卖掉了自己的车也没有考虑转售掉这件，看来是相当喜欢。",
+          "SourceString": "以鬼兰花为主题的高级定制套装，这套在影楼非常容易出效果。\r\n不过从价格角度来考虑的话，大概只有在伊波恩开店前、资金还充裕的那时候才有商量余地。",
           "LocalizedString": "A custom couture outfit themed after the Ghost Orchid, purchased when Hotori still had plenty of startup funds after opening her shop.As for later… even after selling her car, she never once considered parting with this piece. She must really love it."
         },
         "LimitScenes": [],
@@ -76174,7 +76316,7 @@
         "BagFunctions": 0,
         "CanDestory": false,
         "bUseSuccessWhenNotDeduct": false,
-        "MeltPackID": "None",
+        "MeltPackID": "melt_Fashion_character",
         "OutputSourceID": "None",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
@@ -78655,6 +78797,12 @@
                 "Height": 100,
                 "Max": 50,
                 "Min": 50
+              },
+              {
+                "LikeabilityID": "1029",
+                "Height": 100,
+                "Max": 50,
+                "Min": 50
               }
             ]
           }
@@ -78814,6 +78962,12 @@
               },
               {
                 "LikeabilityID": "1070",
+                "Height": 100,
+                "Max": 50,
+                "Min": 50
+              },
+              {
+                "LikeabilityID": "1029",
                 "Height": 100,
                 "Max": 50,
                 "Min": 50
@@ -78979,6 +79133,12 @@
                 "Height": 100,
                 "Max": 50,
                 "Min": 50
+              },
+              {
+                "LikeabilityID": "1029",
+                "Height": 100,
+                "Max": 50,
+                "Min": 50
               }
             ]
           }
@@ -79138,6 +79298,12 @@
               },
               {
                 "LikeabilityID": "1070",
+                "Height": 100,
+                "Max": 50,
+                "Min": 50
+              },
+              {
+                "LikeabilityID": "1029",
                 "Height": 100,
                 "Max": 50,
                 "Min": 50
@@ -94312,7 +94478,7 @@
         "Description": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1052_1_Desc",
-          "SourceString": "以鬼兰花为主题的高级定制套装，浔刚开店资金还充裕时所购置。至于后来……即使卖掉了自己的车也没有考虑转售掉这件，看来是相当喜欢。",
+          "SourceString": "以鬼兰花为主题的高级定制套装，这套在影楼非常容易出效果。\r\n不过从价格角度来考虑的话，大概只有在伊波恩开店前、资金还充裕的那时候才有商量余地。",
           "LocalizedString": "A custom couture outfit themed after the Ghost Orchid, purchased when Hotori still had plenty of startup funds after opening her shop.As for later… even after selling her car, she never once considered parting with this piece. She must really love it."
         },
         "LimitScenes": [],
@@ -101333,6 +101499,154 @@
           {
             "TreasureBoxType": "EItemTreasureBoxType::ITEM_TREASURE_BOX_TYPE_RAND",
             "DropID": "drop_frokchoose",
+            "OpenUIName": ""
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "fork_choosebox_Jin": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/treasure.treasure",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/treasure.treasure",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "fork_choosebox_Jin_name",
+          "SourceString": "「名月特刊」S弧盘随机箱",
+          "LocalizedString": "S-Class Arc Random Box (Bright Moon Special)"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "fork_choosebox_Jin_des",
+          "SourceString": "25%概率获得限定S级弧盘「行进于时间之外」，15%概率获得S级弧盘「现实避难所」、15%概率获得S级弧盘「漆黑青春妄想」、15%概率获得S级弧盘「好狗狗走四方」、15%概率获得S级弧盘「茶花会」、15%概率获得S级弧盘「焰魂狂飙」。",
+          "LocalizedString": "Grants 1 S-Class Arc: Marching Beyond Time (25%); Reality Refuge, Youthful Fantasy, Good Boy’s Grand Adventure, Camellia Society, or Raging Flames (15% each)"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "TreasureBoxType": "EItemTreasureBoxType::ITEM_TREASURE_BOX_TYPE_RAND",
+            "DropID": "drop_forkchoose_Jin",
+            "OpenUIName": ""
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "fork_choosebox_lacrimosa": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/treasure.treasure",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/treasure.treasure",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "fork_choosebox_lacrimosa_name",
+          "SourceString": "「夜曲特刊」S弧盘随机箱",
+          "LocalizedString": "S-Class Arc Random Box (Nocturne Special)"
+        },
+        "MaxAmount": 999,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "fork_choosebox_lacrimosa_des",
+          "SourceString": "25%概率获得限定S级弧盘「最后一朵玫瑰」，15%概率获得S级弧盘「现实避难所」、15%概率获得S级弧盘「漆黑青春妄想」、15%概率获得S级弧盘「好狗狗走四方」、15%概率获得S级弧盘「茶花会」、15%概率获得S级弧盘「焰魂狂飙」。",
+          "LocalizedString": "Grants 1 S-Class Arc: The Last Rose (25%); Reality Refuge, Youthful Fantasy, Good Boy’s Grand Adventure, Camellia Society, or Raging Flames (15% each)"
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "TreasureBoxType": "EItemTreasureBoxType::ITEM_TREASURE_BOX_TYPE_RAND",
+            "DropID": "drop_forkchoose_lacrimosa",
             "OpenUIName": ""
           }
         ],

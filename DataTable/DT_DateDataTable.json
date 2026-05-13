@@ -1790,9 +1790,9 @@
                   "SubPathString": ""
                 },
                 "Location": {
-                  "X": -5745.4673,
-                  "Y": 103038.71,
-                  "Z": 7412.0
+                  "X": -5747.7896,
+                  "Y": 103043.14,
+                  "Z": 7413.0
                 },
                 "Rotation": {
                   "Pitch": 0.0,
@@ -1922,14 +1922,14 @@
                   "SubPathString": ""
                 },
                 "Location": {
-                  "X": -110.07262,
-                  "Y": -53.457367,
-                  "Z": -272.58234
+                  "X": -105.0,
+                  "Y": -51.0,
+                  "Z": -270.0
                 },
                 "Rotation": {
-                  "Pitch": 23.0,
-                  "Yaw": 15.019002,
-                  "Roll": 0.43688
+                  "Pitch": 10.0,
+                  "Yaw": 18.0,
+                  "Roll": 0.0
                 },
                 "UseSpecialLocationOffset": false
               }
@@ -2008,6 +2008,257 @@
           ],
           "NeedClearLastParticipant": true,
           "bNeedFadeInOut": true,
+          "bNeedFirstPerson": false,
+          "TargetTag": "None"
+        }
+      },
+      "D0061052": {
+        "LikeabilityAwardID": "Friendship_4_1029",
+        "CharacterID": "1052",
+        "AddLikeabilityValue": 200,
+        "Steps": [
+          {
+            "PlayerSitIndex": 0,
+            "ExtensionID": "BigWorldMeeting",
+            "bShowCameraSwitch": true,
+            "BuffList": [],
+            "Participants": [
+              {
+                "MontageName": "None",
+                "CollisionProfileName": "None",
+                "bNeedBreakAllMontage": true,
+                "Location": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "UseSpecialLocationOffset": false
+              },
+              {
+                "AITemplate": {
+                  "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_009/Dating/D0061052/BP_NPC_009_D0061052.BP_NPC_009_D0061052_C",
+                  "SubPathString": ""
+                },
+                "DlgIdleState": {
+                  "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_009/Dating/D0061052/Idle_NPC_009_D0061052_S00_Snow.Idle_NPC_009_D0061052_S00_Snow_C",
+                  "SubPathString": ""
+                },
+                "Location": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 87.0
+                },
+                "Rotation": {
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "UseSpecialLocationOffset": false
+              }
+            ],
+            "NeedClearLastParticipant": true,
+            "bNeedFadeInOut": true,
+            "bNeedFirstPerson": true,
+            "TargetTag": "D006"
+          }
+        ],
+        "UnSatisfiedText": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_36",
+          "SourceString": "获取LV.8羁遇等级奖励解锁",
+          "LocalizedString": "Unlocked by claiming Bond Lvl 8 reward"
+        },
+        "TextData": {
+          "TableId": "/Game/Text/ST_Date.ST_Date",
+          "Key": "D006_Name",
+          "SourceString": "庭中声",
+          "LocalizedString": "Courtyard Echoes"
+        },
+        "TextDesc": {
+          "TableId": "/Game/Text/ST_Date.ST_Date",
+          "Key": "D006_Des",
+          "SourceString": "无论雨雪，落雨庭的美景总是令人沉醉，尤其是在你身边。",
+          "LocalizedString": "Rain or snow, Raindrop Court is always breathtaking, especially with you here."
+        },
+        "SoftIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_016.YH_UI_Mapicon_016",
+          "SubPathString": ""
+        },
+        "SoftImg": {
+          "AssetPathName": "/Game/UI/UI/likeability/Date/MeetingUI/UI_YH_Bond_Date_Details_Position_007.UI_YH_Bond_Date_Details_Position_007",
+          "SubPathString": ""
+        },
+        "EndStep": {
+          "Participants": [
+            {
+              "MontageName": "None",
+              "CollisionProfileName": "None",
+              "bNeedBreakAllMontage": true,
+              "Location": {
+                "X": -129894.164,
+                "Y": 120194.87,
+                "Z": 7084.9424
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 179.10999,
+                "Roll": 0.0
+              },
+              "UseSpecialLocationOffset": false
+            },
+            {
+              "AITemplate": {
+                "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_009/Dating/BP_CompanionCharacter_009_Date.BP_CompanionCharacter_009_Date_C",
+                "SubPathString": ""
+              },
+              "DlgIdleState": {
+                "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_009/Dating/D0061052/Idle_NPC_009_D0061052_SE.Idle_NPC_009_D0061052_SE_C",
+                "SubPathString": ""
+              },
+              "Location": {
+                "X": -130006.0,
+                "Y": 120196.0,
+                "Z": 7082.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "UseSpecialLocationOffset": false
+            }
+          ],
+          "NeedClearLastParticipant": true,
+          "bNeedFadeInOut": true,
+          "bNeedFirstPerson": false,
+          "TargetTag": "None"
+        }
+      },
+      "D0071052": {
+        "LikeabilityAwardID": "Friendship_4_1029",
+        "CharacterID": "1052",
+        "AddLikeabilityValue": 200,
+        "Steps": [
+          {
+            "StorySequenceID": "Wishtree_Date",
+            "Participants": [
+              {
+                "MontageName": "Date_Pray",
+                "CollisionProfileName": "None",
+                "bNeedBreakAllMontage": true,
+                "Location": {
+                  "X": 51737.758,
+                  "Y": 105801.47,
+                  "Z": 13688.059
+                },
+                "Rotation": {
+                  "Pitch": 0.0,
+                  "Yaw": -90.0,
+                  "Roll": 0.0
+                },
+                "UseSpecialLocationOffset": false
+              },
+              {
+                "AITemplate": {
+                  "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_009/Dating/D0071052/BP_NPC_009_D0071052.BP_NPC_009_D0071052_C",
+                  "SubPathString": ""
+                },
+                "DlgIdleState": {
+                  "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_009/Dating/D0071052/Idle_NPC_009_D0071052_Stand.Idle_NPC_009_D0071052_Stand_C",
+                  "SubPathString": ""
+                },
+                "Location": {
+                  "X": 51837.758,
+                  "Y": 105801.47,
+                  "Z": 13688.059
+                },
+                "Rotation": {
+                  "Pitch": 0.0,
+                  "Yaw": -90.0,
+                  "Roll": 0.0
+                },
+                "UseSpecialLocationOffset": false
+              }
+            ],
+            "NeedClearLastParticipant": true,
+            "bNeedFadeInOut": false,
+            "bNeedFirstPerson": false,
+            "TargetTag": "None"
+          }
+        ],
+        "UnSatisfiedText": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_36",
+          "SourceString": "获取LV.8羁遇等级奖励解锁",
+          "LocalizedString": "Unlocked by claiming Bond Lvl 8 reward"
+        },
+        "TextData": {
+          "TableId": "/Game/Text/ST_Date.ST_Date",
+          "Key": "D007_Name",
+          "SourceString": "福荫树下",
+          "LocalizedString": "Beneath the Fortune Tree"
+        },
+        "TextDesc": {
+          "TableId": "/Game/Text/ST_Date.ST_Date",
+          "Key": "D007_Des",
+          "SourceString": "听说在福荫木下许愿很灵，不过比起愿望，和伙伴一起许愿时的心境，更值得留念。",
+          "LocalizedString": "Wishes beneath the Fortune Shades are said to come true. But sharing that moment with someone matters more."
+        },
+        "SoftIcon": {
+          "AssetPathName": "/Game/UI/UI/minimap/minimapicon/Normal/small/YH_UI_Mapicon_103.YH_UI_Mapicon_103",
+          "SubPathString": ""
+        },
+        "SoftImg": {
+          "AssetPathName": "/Game/UI/UI/likeability/Date/MeetingUI/UI_YH_Bond_Date_Details_Position_006.UI_YH_Bond_Date_Details_Position_006",
+          "SubPathString": ""
+        },
+        "EndStep": {
+          "Participants": [
+            {
+              "MontageName": "None",
+              "CollisionProfileName": "None",
+              "bNeedBreakAllMontage": true,
+              "Location": {
+                "X": 54422.01,
+                "Y": 107398.93,
+                "Z": 13669.73
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": 41.424995,
+                "Roll": 0.0
+              },
+              "UseSpecialLocationOffset": false
+            },
+            {
+              "AITemplate": {
+                "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_009/Dating/BP_CompanionCharacter_009_Date.BP_CompanionCharacter_009_Date_C",
+                "SubPathString": ""
+              },
+              "DlgIdleState": {
+                "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_009/Dating/D0071052/Idle_NPC_009_D0071052_SE.Idle_NPC_009_D0071052_SE_C",
+                "SubPathString": ""
+              },
+              "Location": {
+                "X": 54547.66,
+                "Y": 107506.66,
+                "Z": 13688.0
+              },
+              "Rotation": {
+                "Pitch": 0.0,
+                "Yaw": -135.0,
+                "Roll": 0.0
+              },
+              "UseSpecialLocationOffset": false
+            }
+          ],
+          "NeedClearLastParticipant": true,
+          "bNeedFadeInOut": false,
           "bNeedFirstPerson": false,
           "TargetTag": "None"
         }

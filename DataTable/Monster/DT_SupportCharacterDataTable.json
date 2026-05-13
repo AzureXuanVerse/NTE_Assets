@@ -1334,13 +1334,16 @@
         "HideUITime": 1.5
       },
       "1052": {
-        "Desc": "浔-三测不上-任务没配",
+        "Desc": "浔",
         "Conditions": [
           {
             "CharacterID": "1052"
+          },
+          {
+            "QuestId": "q110066"
           }
         ],
-        "ConditionType": "ESupportConditionType::And",
+        "ConditionType": "ESupportConditionType::Or",
         "CharacterClass": {
           "AssetPathName": "/Game/Blueprints/Character/Player/Player_052_Jin.Player_052_Jin_C",
           "SubPathString": ""

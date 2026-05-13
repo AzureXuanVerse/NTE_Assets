@@ -17233,7 +17233,7 @@
       },
       "Vehicle016_Skin002": {
         "ModuleID": "Vehicle016_Skin002",
-        "VehicleID": "Vehicle016_999",
+        "VehicleID": "Vehicle016",
         "ModuleName": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V016_Decal_002_name",
@@ -17276,15 +17276,15 @@
               "MaxValue": 1,
               "UnlockGuide": {
                 "TableId": "/Game/Text/ST_Output.ST_Output",
-                "Key": "CardDraw_name",
-                "SourceString": "斯卡布罗集市",
-                "LocalizedString": "Scarborough Fair"
+                "Key": "FashionShop",
+                "SourceString": "商城购买获取",
+                "LocalizedString": "Purchase from Mall"
               },
               "ID": "Fashion_vehicleSkin_1052_V016"
             }
           ]
         },
-        "JumpToUISourceId": "Monopoly",
+        "JumpToUISourceId": "VehicleShop",
         "RegionShowType": "ETitleDisplayRegion::All",
         "IsLockHide": false
       },

@@ -7236,7 +7236,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_006/Date/BP_NPC_006_Date01_WJ1019.BP_NPC_006_Date01_WJ1019_C",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_006/Date/BP_NPC_006_Date01_WJ1019_Loop.BP_NPC_006_Date01_WJ1019_Loop_C",
               "SubPathString": ""
             },
             "MonsterTrackIcon": {
@@ -7257,7 +7257,29 @@
             "NeedShowProgress": false,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
-            "TrackInfo": null,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -28776.0,
+                "Y": -2196.0,
+                "Z": 8566.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
             "CompleteTeleportID": "None",
             "CompleteTeleport": null,
             "CompleteCameraRotation": null,
@@ -12937,9 +12959,9 @@
               "ShowCenter": false,
               "MulTrackLocationArray": [],
               "TrackOffLocation": {
-                "X": -95170.805,
-                "Y": -15541.719,
-                "Z": 15635.0
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
               },
               "TrackMapName": "",
               "bNeedCrossBox": false,
