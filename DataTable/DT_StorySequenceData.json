@@ -14,6 +14,9 @@
     "Rows": {
       "q110001": {
         "Desc": "序章异象管理局-视频：开场开车到异象管理局",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "MediaId": "q110001",
@@ -99,13 +102,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110005_1": {
         "Desc": "",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110005_1_SumUp_S",
+          "SourceString": "三人同乘电梯，薄荷喜欢用自己闻到的味道称呼他人，她似乎决定叫你「可可」。",
+          "LocalizedString": "三人同乘电梯，薄荷喜欢用自己闻到的味道称呼他人，她似乎决定叫你「可可」。"
+        },
         "SequenceInfo": [
           {
             "MediaId": "q110005_1",
@@ -191,13 +201,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110002": {
         "Desc": "序章异象管理局-sequence：异象管理局大厅白藏三人组",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110002_SumUp_S",
+          "SourceString": "「维特海默值」——衡量目标对象背离现实浓度的数值，管理局会持续监测城市各区数值，快速做出反应。",
+          "LocalizedString": "「维特海默值」——衡量目标对象背离现实浓度的数值，管理局会持续监测城市各区数值，快速做出反应。"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -230,6 +247,7 @@
             "IntMusicState": "None",
             "CaptionsID": "q110002",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -312,13 +330,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110009": {
         "Desc": "",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110009_SumUp_S",
+          "SourceString": "薄荷收容的异象意外解离，你同薄荷一起进入异象空间重新收容。",
+          "LocalizedString": "薄荷收容的异象意外解离，你同薄荷一起进入异象空间重新收容。"
+        },
         "SequenceInfo": [
           {
             "MediaId": "q110009",
@@ -404,7 +429,8 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           },
           {
@@ -438,6 +464,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -484,7 +511,7 @@
               "bBestViewDistanceQuality": true,
               "CantSkipTime": -1.0,
               "bSkipNeedConfirm": true,
-              "bCanFinishWhenFadeInOut": false,
+              "bCanFinishWhenFadeInOut": true,
               "bIsSequenceFadeIn": false,
               "bIsSequenceFadeOut": false,
               "FadeOutSequenceTime": 0.8,
@@ -520,13 +547,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110024": {
         "Desc": "",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -562,6 +593,7 @@
             "IntMusicState": "Music_Battle_Boss",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -644,13 +676,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110026": {
         "Desc": "",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "MediaId": "q110026",
@@ -736,13 +772,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110048": {
         "Desc": "序章照相馆-sequence：初到伊波恩蟹铃",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110048_SumUp_S",
+          "SourceString": "店里看上去没人，叫出店员似乎需要……一些特殊的方式？",
+          "LocalizedString": "店里看上去没人，叫出店员似乎需要……一些特殊的方式？"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -775,6 +818,7 @@
             "IntMusicState": "None",
             "CaptionsID": "q110048",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -857,13 +901,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110051": {
         "Desc": "序章照相馆-视频：薄荷打开好客屋",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110051_SumUp_S",
+          "SourceString": "薄荷意外触发「好客屋」，众人缩小，在塔吉多的眼中变成了三只……蟑螂。努力在杀虫剂下坚持到恢复原状吧！",
+          "LocalizedString": "薄荷意外触发「好客屋」，众人缩小，在塔吉多的眼中变成了三只……蟑螂。努力在杀虫剂下坚持到恢复原状吧！"
+        },
         "SequenceInfo": [
           {
             "MediaId": "q110051",
@@ -949,13 +1000,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110053": {
         "Desc": "序章照相馆-sequence：战胜塔吉多，加入伊波恩",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110053_SumUp_S",
+          "SourceString": "你加入伊波恩，与店内众人相识。",
+          "LocalizedString": "你加入伊波恩，与店内众人相识。"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -988,6 +1046,7 @@
             "IntMusicState": "None",
             "CaptionsID": "q110053",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -1070,13 +1129,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110082": {
         "Desc": "序章照相馆-视频：暗房胶卷boss登场",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110082_SumUp_S",
+          "SourceString": "众人来到暗房，异象R-5791「胶卷-MANISH」现身。",
+          "LocalizedString": "众人来到暗房，异象R-5791「胶卷-MANISH」现身。"
+        },
         "SequenceInfo": [
           {
             "MediaId": "q110082",
@@ -1162,13 +1228,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110084": {
         "Desc": "序章照相馆-sequence：击败胶卷boss，拍全家福",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110084_SumUp_S",
+          "SourceString": "收容成功，作为新成员，你和大家一同拍摄了欢乐的全家福。",
+          "LocalizedString": "收容成功，作为新成员，你和大家一同拍摄了欢乐的全家福。"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -1201,6 +1274,7 @@
             "IntMusicState": "None",
             "CaptionsID": "q110084",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -1283,13 +1357,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110112": {
         "Desc": "主线月光当铺-sequence：调香师公寓捉鸟",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110112_SumUp_S",
+          "SourceString": "一只怪鸟和一只怪狗先后乱入调查并带走了一具香炉，就连埃德嘉都没能查到它们的资料。",
+          "LocalizedString": "一只怪鸟和一只怪狗先后乱入调查并带走了一具香炉，就连埃德嘉都没能查到它们的资料。"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -1322,6 +1403,7 @@
             "IntMusicState": "None",
             "CaptionsID": "q110112",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -1404,13 +1486,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110127_3": {
         "Desc": "",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -1443,6 +1529,7 @@
             "IntMusicState": "None",
             "CaptionsID": "q110127_3",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -1525,13 +1612,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110128": {
         "Desc": "",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110128_SumUp_S",
+          "SourceString": "或许是有什么缘由，早雾不顾劝阻攻击双子之一的奥托，直到弟弟弥斯墨带着失踪已久的冬司和蒲公英现身……",
+          "LocalizedString": "或许是有什么缘由，早雾不顾劝阻攻击双子之一的奥托，直到弟弟弥斯墨带着失踪已久的冬司和蒲公英现身……"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -1564,6 +1658,7 @@
             "IntMusicState": "None",
             "CaptionsID": "q110128",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -1646,13 +1741,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110130": {
         "Desc": "",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110129_SumUp_S",
+          "SourceString": "节外生枝，鬼郎丸当众吐出了不知何时又偷偷吞下的蒲公英项圈，让蒲公英误以为主人嘭嘭也被吃掉了……",
+          "LocalizedString": "节外生枝，鬼郎丸当众吐出了不知何时又偷偷吞下的蒲公英项圈，让蒲公英误以为主人嘭嘭也被吃掉了……"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -1685,6 +1787,7 @@
             "IntMusicState": "None",
             "CaptionsID": "q110130",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -1767,13 +1870,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110134": {
         "Desc": "",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110134_SumUp_S",
+          "SourceString": "紧要关头，达芙蒂尔带着嘭嘭及时赶到了众人面前……",
+          "LocalizedString": "紧要关头，达芙蒂尔带着嘭嘭及时赶到了众人面前……"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -1806,6 +1916,7 @@
             "IntMusicState": "None",
             "CaptionsID": "q110134",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -1888,13 +1999,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110124": {
         "Desc": "",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -1927,6 +2042,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -2009,13 +2125,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110327": {
         "Desc": "主线拍卖会-视频：西汀飞车",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110327_SumUp_S",
+          "SourceString": "确认目标持有邀请函，哈索尔出现，载上你飙车接近西汀。保证接近时长以完成邀请函替换。",
+          "LocalizedString": "确认目标持有邀请函，哈索尔出现，载上你飙车接近西汀。保证接近时长以完成邀请函替换。"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -2048,6 +2171,7 @@
             "IntMusicState": "None",
             "CaptionsID": "q110327",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -2130,13 +2254,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q1103432": {
         "Desc": "主线拍卖会-sequence：电梯认证",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -2169,6 +2297,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -2251,13 +2380,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110377": {
         "Desc": "主线拍卖会-sequence：出电梯见异象",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -2290,6 +2423,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -2372,13 +2506,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q1103501": {
         "Desc": "主线拍卖会-sequence：宝可梦-对战河田",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -2411,6 +2549,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -2493,13 +2632,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q1103541": {
         "Desc": "主线拍卖会-sequence：宝可梦-对战美人鱼",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -2532,6 +2675,7 @@
             "IntMusicState": "None",
             "CaptionsID": "q1103541",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -2614,13 +2758,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110360": {
         "Desc": "主线拍卖会-sequence：小红帽夺走”第一枝“",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110360_SumUp_S",
+          "SourceString": "落锤瞬间，画面突然定格。在静止的时空中，一名神秘少女出现，仅用一方斯取得了拍品，径直离场。唯有你们的时停提前解除了，你发觉出了意外。",
+          "LocalizedString": "落锤瞬间，画面突然定格。在静止的时空中，一名神秘少女出现，仅用一方斯取得了拍品，径直离场。唯有你们的时停提前解除了，你发觉出了意外。"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -2653,6 +2804,7 @@
             "IntMusicState": "None",
             "CaptionsID": "q110360",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -2735,13 +2887,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q1103801": {
         "Desc": "主线拍卖会-sequence：大厅异象",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -2774,6 +2930,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -2856,13 +3013,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110388": {
         "Desc": "主线拍卖会-视频：宴会厅礼服Boss",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110388_SumUp_S",
+          "SourceString": "进入瑰丽宴会厅，众多共舞的异象中，神秘优雅的Ⅴ级异象「永不谢幕的阿拉克涅」登场，那便共舞一曲吧。",
+          "LocalizedString": "进入瑰丽宴会厅，众多共舞的异象中，神秘优雅的Ⅴ级异象「永不谢幕的阿拉克涅」登场，那便共舞一曲吧。"
+        },
         "SequenceInfo": [
           {
             "MediaId": "q110388",
@@ -2948,13 +3112,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q1103891": {
         "Desc": "主线拍卖会-sequence：击败礼服BOSS",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q1103891_SumUp_S",
+          "SourceString": "击败异象，阿拉克涅迎来谢幕。",
+          "LocalizedString": "击败异象，阿拉克涅迎来谢幕。"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -2987,6 +3158,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -3069,13 +3241,1022 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
+            }
+          }
+        ]
+      },
+      "q110545": {
+        "Desc": "主线洄廊1-sequence：桀桀熊变身",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110545_SumUp_S",
+          "SourceString": "你试图控制住桀桀熊，却被它挣脱。不好，桀桀熊似乎发生了异变。",
+          "LocalizedString": "你试图控制住桀桀熊，却被它挣脱。不好，桀桀熊似乎发生了异变。"
+        },
+        "SequenceInfo": [
+          {
+            "SequenceTemple": {
+              "AssetPathName": "/Game/sequence_pack/cutscenes/HM_U01C05_001/all.all",
+              "SubPathString": ""
+            },
+            "SoundSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/SpiralDreams/HM_U01C05_01/Play_Sfx_Music_CG_HM_U01C05_01.Play_Sfx_Music_CG_HM_U01C05_01",
+              "SubPathString": ""
+            },
+            "SoundStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
+              "SubPathString": ""
+            },
+            "VoiceSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/SpiralDreams/HM_U01C05_01/Play_Vo_CG_HM_U01C05_01.Play_Vo_CG_HM_U01C05_01",
+              "SubPathString": ""
+            },
+            "VoiceStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
+              "SubPathString": ""
+            },
+            "bUnlockManualPostAtEnd": false,
+            "InteractiveMusicEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IntMusicStateValue": null,
+            "IntMusicStateGroup": "None",
+            "IntMusicState": "None",
+            "CaptionsID": "q110545",
+            "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": true,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": true,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": true,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
+            }
+          }
+        ]
+      },
+      "q110547": {
+        "Desc": "主线洄廊2-1-sequence：战胜桀桀熊",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110547_SumUp_S",
+          "SourceString": "战胜异化的桀桀熊，你与众人分散，在茫茫雾气中登上一艘神秘的船。\n一段思绪闯入你的脑海，你无法抗拒……「一切新奇事物只是忘却」。",
+          "LocalizedString": "战胜异化的桀桀熊，你与众人分散，在茫茫雾气中登上一艘神秘的船。\n一段思绪闯入你的脑海，你无法抗拒……「一切新奇事物只是忘却」。"
+        },
+        "SequenceInfo": [
+          {
+            "SequenceTemple": {
+              "AssetPathName": "/Game/sequence_pack/cutscenes/HM_U01C05_002a/HM_U01C05_002aa.HM_U01C05_002aa",
+              "SubPathString": ""
+            },
+            "SoundSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/SpiralDreams/HM_U01C05_02a/Play_Sfx_Music_CG_HM_U01C05_02a.Play_Sfx_Music_CG_HM_U01C05_02a",
+              "SubPathString": ""
+            },
+            "SoundStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
+              "SubPathString": ""
+            },
+            "VoiceSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/SpiralDreams/HM_U01C05_02a/Play_Vo_CG_HM_U01C05_02a.Play_Vo_CG_HM_U01C05_02a",
+              "SubPathString": ""
+            },
+            "VoiceStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
+              "SubPathString": ""
+            },
+            "bUnlockManualPostAtEnd": false,
+            "InteractiveMusicEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IntMusicStateValue": null,
+            "IntMusicStateGroup": "None",
+            "IntMusicState": "None",
+            "CaptionsID": "q110547",
+            "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": true,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": true,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": true,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
+            }
+          }
+        ]
+      },
+      "q110550": {
+        "Desc": "主线洄廊2-2-sequence：进入洄廊",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110550_SumUp_S",
+          "SourceString": "大雾散去，你进入一个奇妙的海域，岸边正进行着一场盛大的游行。\n你推断这就是娜娜莉走失的异象空间，手机信号在此中断，一名神秘女子正望向你……",
+          "LocalizedString": "大雾散去，你进入一个奇妙的海域，岸边正进行着一场盛大的游行。\n你推断这就是娜娜莉走失的异象空间，手机信号在此中断，一名神秘女子正望向你……"
+        },
+        "SequenceInfo": [
+          {
+            "SequenceTemple": {
+              "AssetPathName": "/Game/sequence_pack/cutscenes/HM_U01C05_002b/HM_U01C05_002b.HM_U01C05_002b",
+              "SubPathString": ""
+            },
+            "SoundSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/SpiralDreams/HM_U01C05_02b/Play_Sfx_Music_CG_HM_U01C05_02b.Play_Sfx_Music_CG_HM_U01C05_02b",
+              "SubPathString": ""
+            },
+            "SoundStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
+              "SubPathString": ""
+            },
+            "VoiceSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/SpiralDreams/HM_U01C05_02b/Play_Vo_CG_HM_U01C05_02b.Play_Vo_CG_HM_U01C05_02b",
+              "SubPathString": ""
+            },
+            "VoiceStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
+              "SubPathString": ""
+            },
+            "bUnlockManualPostAtEnd": false,
+            "InteractiveMusicEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IntMusicStateValue": null,
+            "IntMusicStateGroup": "None",
+            "IntMusicState": "None",
+            "CaptionsID": "q110550",
+            "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": true,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": true,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": true,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
+            }
+          }
+        ]
+      },
+      "q110580": {
+        "Desc": "主线洄廊3-视频：红字阴谋",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110580_SumUp_S",
+          "SourceString": "你追赶娜娜虎，而另一边「红字」势力的计划正逐步推进，唯独「你」在意料之外。在「红字」的威胁下，达芙蒂尔抱着某种目的进入了洄廊。",
+          "LocalizedString": "你追赶娜娜虎，而另一边「红字」势力的计划正逐步推进，唯独「你」在意料之外。在「红字」的威胁下，达芙蒂尔抱着某种目的进入了洄廊。"
+        },
+        "SequenceInfo": [
+          {
+            "MediaId": "q110580",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": false,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": false,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": false,
+              "bIsSequenceFadeOut": false,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
+            }
+          }
+        ]
+      },
+      "q110591": {
+        "Desc": "主线洄廊4-视频：巨象活化",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110591_SumUp_S",
+          "SourceString": "你察觉到莳作为洄廊的创造者也有其逃避之事。你决定打破规则，让本来只能驶向「过去」的忒修斯之舵调转方向。就由你带所有人，包括莳——离开洄廊。",
+          "LocalizedString": "你察觉到莳作为洄廊的创造者也有其逃避之事。你决定打破规则，让本来只能驶向「过去」的忒修斯之舵调转方向。就由你带所有人，包括莳——离开洄廊。"
+        },
+        "SequenceInfo": [
+          {
+            "MediaId": "q110591",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": false,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": false,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": false,
+              "bIsSequenceFadeOut": false,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
+            }
+          }
+        ]
+      },
+      "q1105921": {
+        "Desc": "主线洄廊Boss转阶段-sequence：BoosQTE",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q1105921_SumUp_S",
+          "SourceString": "「忒修斯之舵」倒转，旧日种种纷纷再现，你穿越过往，击溃了巨像，与莳直接交战。",
+          "LocalizedString": "「忒修斯之舵」倒转，旧日种种纷纷再现，你穿越过往，击溃了巨像，与莳直接交战。"
+        },
+        "SequenceInfo": [
+          {
+            "SequenceTemple": {
+              "AssetPathName": "/Game/sequence_pack/cutscenes/HM_U01C05_BossQte_03/HM_U01C05_BossQte_new.HM_U01C05_BossQte_new",
+              "SubPathString": ""
+            },
+            "SoundSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/SpiralDreams/HM_U01C05_BossQte_all/Play_Sfx_Music_HM_U01C05_BossQte_all.Play_Sfx_Music_HM_U01C05_BossQte_all",
+              "SubPathString": ""
+            },
+            "SoundStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/SpiralDreams/HM_U01C05_BossQte_all/Stop_Sfx_Music_HM_U01C05_BossQte_all.Stop_Sfx_Music_HM_U01C05_BossQte_all",
+              "SubPathString": ""
+            },
+            "VoiceSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/SpiralDreams/HM_U01C05_BossQte_all/Play_Vo_CG_HM_U01C05_BossQte_all.Play_Vo_CG_HM_U01C05_BossQte_all",
+              "SubPathString": ""
+            },
+            "VoiceStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/SpiralDreams/HM_U01C05_BossQte_all/Stop_Vo_CG_HM_U01C05_BossQte_all.Stop_Vo_CG_HM_U01C05_BossQte_all",
+              "SubPathString": ""
+            },
+            "bUnlockManualPostAtEnd": false,
+            "InteractiveMusicEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IntMusicStateValue": null,
+            "IntMusicStateGroup": "None",
+            "IntMusicState": "None",
+            "CaptionsID": "q1105921",
+            "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": true,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": true,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": true,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
+            }
+          }
+        ]
+      },
+      "q110593": {
+        "Desc": "主线洄廊5-视频：达芙蒂尔补刀",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110593_SumUp_S",
+          "SourceString": "莳的意识体被泯除，来者竟是达芙蒂尔。莳陷入痛苦，「游梦人」纷纷消散，娜娜莉的身体也逐渐变得透明。混乱之际，「红字」众人出现，夺走了「忒修斯之舵」。",
+          "LocalizedString": "莳的意识体被泯除，来者竟是达芙蒂尔。莳陷入痛苦，「游梦人」纷纷消散，娜娜莉的身体也逐渐变得透明。混乱之际，「红字」众人出现，夺走了「忒修斯之舵」。"
+        },
+        "SequenceInfo": [
+          {
+            "MediaId": "q110593",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": false,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": false,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": false,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
+            }
+          }
+        ]
+      },
+      "q110504": {
+        "Desc": "主线洄廊去向阳岛航行视频",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
+        "SequenceInfo": [
+          {
+            "MediaId": "q110504",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": false,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": false,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": false,
+              "bIsSequenceFadeOut": false,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
+            }
+          }
+        ]
+      },
+      "q110523": {
+        "Desc": "主线洄廊向阳岛航行视频返程",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
+        "SequenceInfo": [
+          {
+            "MediaId": "q110523",
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": false,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": false,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": false,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": false,
+              "bIsSequenceFadeOut": false,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 60,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "TempVedio": {
         "Desc": "",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "MediaId": "TempVedio",
@@ -3161,13 +4342,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110022_2": {
         "Desc": "",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -3203,6 +4388,7 @@
             "IntMusicState": "Music_Sence_Boss_Before",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -3285,13 +4471,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110111_2": {
         "Desc": "主线月光当铺-sequence：sly_niao",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -3324,6 +4514,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -3406,13 +4597,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "L110011": {
         "Desc": "白藏番外-sequence：花店偶遇白藏",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "L110011_SumUp_S",
+          "SourceString": "在花店门口，你偶遇了潜伏于此的E.T.D四队队长白藏，而他伪装成了……一朵花。",
+          "LocalizedString": "在花店门口，你偶遇了潜伏于此的E.T.D四队队长白藏，而他伪装成了……一朵花。"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -3445,6 +4643,7 @@
             "IntMusicState": "None",
             "CaptionsID": "L110011",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -3527,13 +4726,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "L110046": {
         "Desc": "白藏番外-sequence：温室花房遇见boss",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "L110046_SumUp_S",
+          "SourceString": "面对利用麦月仅存的语言能力吐露拒绝之意的异象，白藏上前以言语挑拨激怒——麦月的真实想法与庄园所展露出的恶意是同步的吗？",
+          "LocalizedString": "面对利用麦月仅存的语言能力吐露拒绝之意的异象，白藏上前以言语挑拨激怒——麦月的真实想法与庄园所展露出的恶意是同步的吗？"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -3566,6 +4772,7 @@
             "IntMusicState": "None",
             "CaptionsID": "L110046",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -3648,13 +4855,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "L110048": {
         "Desc": "白藏番外-视频：战胜boss，白藏手语交流",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "L110048_SumUp_S",
+          "SourceString": "为隔绝异象的阻挠，白藏用手语搭建了仅限麦月的沟通桥梁，在终于成功了解到麦月的真心话后，白藏便发动言灵异能，宣判了整座庄园所有植物的枯萎，带来了「秋天」。",
+          "LocalizedString": "为隔绝异象的阻挠，白藏用手语搭建了仅限麦月的沟通桥梁，在终于成功了解到麦月的真心话后，白藏便发动言灵异能，宣判了整座庄园所有植物的枯萎，带来了「秋天」。"
+        },
         "SequenceInfo": [
           {
             "MediaId": "L110048",
@@ -3740,13 +4954,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "L110109": {
         "Desc": "安魂曲番外-seq1：安魂曲出场",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "L110109_SumUp_S",
+          "SourceString": "塔吉多在第三台自动售卖机旁被一具迷你棺材被吓到失魂落魄，一只睡眼惺忪的小蝙蝠从棺木中出现并变成了少女的模样。从赶来的薄荷口中，你们听到了眼前少女的名字——安魂曲。",
+          "LocalizedString": "塔吉多在第三台自动售卖机旁被一具迷你棺材被吓到失魂落魄，一只睡眼惺忪的小蝙蝠从棺木中出现并变成了少女的模样。从赶来的薄荷口中，你们听到了眼前少女的名字——安魂曲。"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -3779,6 +5000,7 @@
             "IntMusicState": "None",
             "CaptionsID": "L110109",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -3861,13 +5083,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "L110115": {
         "Desc": "安魂曲番外-seq2：boss出场",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "L110115_SumUp_S",
+          "SourceString": "异象的骚乱让安魂曲一直都没能好好摄入番茄酱，忍不住被售货机吸引的她刚好碰上了前来破坏的「番茄酱恶魔」。第一轮交锋中，番茄酱售卖机被意外卷入了她们的攻击……",
+          "LocalizedString": "异象的骚乱让安魂曲一直都没能好好摄入番茄酱，忍不住被售货机吸引的她刚好碰上了前来破坏的「番茄酱恶魔」。第一轮交锋中，番茄酱售卖机被意外卷入了她们的攻击……"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -3900,6 +5129,7 @@
             "IntMusicState": "None",
             "CaptionsID": "L110115",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -3982,13 +5212,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "L110133_change": {
         "Desc": "安魂曲番外-转阶段",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -4021,6 +5255,7 @@
             "IntMusicState": "None",
             "CaptionsID": "L110133",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -4103,13 +5338,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "L110136": {
         "Desc": "安魂曲番外-seq3：大战",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "L110136_SumUp_S",
+          "SourceString": "「番茄酱恶魔」无路可退，最终在你和安魂曲的携手攻击下化为番茄酱消失了。",
+          "LocalizedString": "「番茄酱恶魔」无路可退，最终在你和安魂曲的携手攻击下化为番茄酱消失了。"
+        },
         "SequenceInfo": [
           {
             "MediaId": "L110136",
@@ -4195,13 +5437,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "L110221": {
         "Desc": "明音番外-seq1：录像",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "L110221_SumUp_S",
+          "SourceString": "尽管看起来好像有点不知天高地厚，但两人练习的热情确实无可指摘，乐队也肉眼可见地有了进步……",
+          "LocalizedString": "尽管看起来好像有点不知天高地厚，但两人练习的热情确实无可指摘，乐队也肉眼可见地有了进步……"
+        },
         "SequenceInfo": [
           {
             "MediaId": "L110221",
@@ -4287,13 +5536,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "L110235": {
         "Desc": "明音番外-seq2：初登场",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "L110235_SumUp_S",
+          "SourceString": "演奏渐入佳境，但面对台下聚集的观众，哈尼娅还是因为紧张而出现了失误。所幸明音及时救场，最终帮你们顺利完成了演出。",
+          "LocalizedString": "演奏渐入佳境，但面对台下聚集的观众，哈尼娅还是因为紧张而出现了失误。所幸明音及时救场，最终帮你们顺利完成了演出。"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -4326,6 +5582,7 @@
             "IntMusicState": "None",
             "CaptionsID": "L110235",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -4408,13 +5665,20 @@
               "bIgnoreWeatherInRoom": true,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "L110253": {
         "Desc": "明音番外-seq3：照片",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "L110253_SumUp_S",
+          "SourceString": "从最初的「陪小孩过家家」到后来的沉浸其中，这段街头练习的时光让明音的心态也逐渐发生了转变。或许现在的「猫头音！！！！」真的有了足以登上「月亮狗之夜」演出的实力……",
+          "LocalizedString": "从最初的「陪小孩过家家」到后来的沉浸其中，这段街头练习的时光让明音的心态也逐渐发生了转变。或许现在的「猫头音！！！！」真的有了足以登上「月亮狗之夜」演出的实力……"
+        },
         "SequenceInfo": [
           {
             "MediaId": "L110253",
@@ -4500,13 +5764,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "L110264": {
         "Desc": "明音番外-seq4：MV",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "L110264_SumUp_S",
+          "SourceString": "舞台上的明音久违地全身心投入到演出中，星空下极光般的幻景也代表了「月亮狗之夜」对你们的认可。",
+          "LocalizedString": "舞台上的明音久违地全身心投入到演出中，星空下极光般的幻景也代表了「月亮狗之夜」对你们的认可。"
+        },
         "SequenceInfo": [
           {
             "MediaId": "L110264",
@@ -4592,13 +5863,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "L110260": {
         "Desc": "明音番外-seq月亮狗入口",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -4631,6 +5906,7 @@
             "IntMusicState": "None",
             "CaptionsID": "L110260",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -4713,13 +5989,20 @@
               "bIgnoreWeatherInRoom": true,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q1101711": {
         "Desc": "",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q1101711_SumUp_S",
+          "SourceString": "一行人与塔可汇合，娜娜莉等人冒充手下，为塔吉多塑造「老大」人设。",
+          "LocalizedString": "一行人与塔可汇合，娜娜莉等人冒充手下，为塔吉多塑造「老大」人设。"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -4752,6 +6035,7 @@
             "IntMusicState": "None",
             "CaptionsID": "q1101711",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -4834,13 +6118,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110137": {
         "Desc": "",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "MediaId": "q110137",
@@ -4926,13 +6214,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q1101801": {
         "Desc": "",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q1101801_SumUp_S",
+          "SourceString": "娜娜莉和早雾扮演反派出场，声称要收拾「活在城市阴暗面的幕后老大」塔吉多。",
+          "LocalizedString": "娜娜莉和早雾扮演反派出场，声称要收拾「活在城市阴暗面的幕后老大」塔吉多。"
+        },
         "SequenceInfo": [
           {
             "MediaId": "q1101801",
@@ -5018,13 +6313,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q1101811": {
         "Desc": "",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110182_SumUp_S",
+          "SourceString": "娜娜莉二人败退，治安所赶来查看情况，众人姑且「低调隐蔽」。",
+          "LocalizedString": "娜娜莉二人败退，治安所赶来查看情况，众人姑且「低调隐蔽」。"
+        },
         "SequenceInfo": [
           {
             "MediaId": "q1101811",
@@ -5110,13 +6412,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110189": {
         "Desc": "",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110189_SumUp_S",
+          "SourceString": "塔吉多将随心泥捏成自己与塔可手牵手的形状作为表演，并准备顺势告白。此时随心泥却突然失控，胡乱攻击周遭。阿德勒及时救下塔可，你准备出手应对。",
+          "LocalizedString": "塔吉多将随心泥捏成自己与塔可手牵手的形状作为表演，并准备顺势告白。此时随心泥却突然失控，胡乱攻击周遭。阿德勒及时救下塔可，你准备出手应对。"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -5149,6 +6458,7 @@
             "IntMusicState": "None",
             "CaptionsID": "q110189",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -5231,13 +6541,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "S110801A": {
         "Desc": "",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -5270,6 +6584,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -5352,13 +6667,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "S110801B": {
         "Desc": "",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -5391,6 +6710,7 @@
             "IntMusicState": "None",
             "CaptionsID": "S110801B",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -5473,13 +6793,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "S110801C": {
         "Desc": "",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -5512,6 +6836,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -5594,13 +6919,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "CR_Battle_Part1": {
         "Desc": "创角之后新手战场第一段黑幕",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "MediaId": "CR_Battle_Part1",
@@ -5686,7 +7015,8 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           },
           {
@@ -5720,6 +7050,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -5802,13 +7133,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "CR_Fadia_FightEnd": {
         "Desc": "新手战场法蒂亚战斗结束黑幕",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "MediaId": "CR_Battle_Part2",
@@ -5894,13 +7229,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "CR_Lacrimosa": {
         "Desc": "",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -5933,6 +7272,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": true,
               "LoopCount": {
@@ -6015,13 +7355,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "CR_Skia": {
         "Desc": "",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -6054,6 +7398,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": true,
               "LoopCount": {
@@ -6136,13 +7481,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "NewRow": {
         "Desc": "",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "MediaId": "CR_Battle_Part1",
@@ -6228,7 +7577,8 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           },
           {
@@ -6315,7 +7665,8 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           },
           {
@@ -6349,6 +7700,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -6431,13 +7783,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "World_BlackBird": {
         "Desc": "【大世界】占卜屋-黑羽",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "MediaId": "World_BlackBird",
@@ -6523,13 +7879,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "World_BlackBook_Into": {
         "Desc": "【大世界】黑之书进入",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -6562,6 +7922,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -6644,13 +8005,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "Boss_18_endchase": {
         "Desc": "",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -6683,6 +8048,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -6765,13 +8131,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "K110428_Sequence": {
         "Desc": "",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -6804,6 +8174,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -6886,13 +8257,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "S111134_Sequence": {
         "Desc": "",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -6925,6 +8300,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -7007,13 +8383,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SE_World_WishWell_01_all": {
         "Desc": "【大世界】许愿池-奖励",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -7046,6 +8426,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -7128,13 +8509,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SE_World_WishWell_02_all": {
         "Desc": "【大世界】许愿池-惩罚",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -7167,6 +8552,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -7249,13 +8635,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "K110216_SunRise": {
         "Desc": "浔羁遇第二天：日出",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -7288,6 +8678,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -7370,13 +8761,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110418": {
         "Desc": "初遇讨债人",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110418_SumUp_S",
+          "SourceString": "九点整，讨债人现身，风花似乎早有期待。蕾妮被讨债人的武器贯穿，却并未有所损伤，你出手应对。",
+          "LocalizedString": "九点整，讨债人现身，风花似乎早有期待。蕾妮被讨债人的武器贯穿，却并未有所损伤，你出手应对。"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -7384,7 +8782,7 @@
               "SubPathString": ""
             },
             "SoundSource": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/Debt_Collector/HM_U01C04_01/Play_Sfx_Music_CG_HM_U01C04_01.Play_Sfx_Music_CG_HM_U01C04_01",
               "SubPathString": ""
             },
             "SoundStopSource": {
@@ -7401,7 +8799,7 @@
             },
             "bUnlockManualPostAtEnd": true,
             "InteractiveMusicEvent": {
-              "AssetPathName": "/Game/WwiseAudio/Events/CG/Debt_Collector/HM_U01C04_01/Play_Sfx_Music_CG_HM_U01C04_01.Play_Sfx_Music_CG_HM_U01C04_01",
+              "AssetPathName": "",
               "SubPathString": ""
             },
             "IntMusicStateValue": null,
@@ -7409,6 +8807,7 @@
             "IntMusicState": "None",
             "CaptionsID": "q110418",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -7491,13 +8890,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110430": {
         "Desc": "讨债人餐厅",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110425_SumUp_S",
+          "SourceString": "富丽堂皇的大厅中，一场诡异的晚宴正在进行。神秘的女人点亮烛火，你和蕾妮似乎被她发现，宴会消散，异象出现。",
+          "LocalizedString": "富丽堂皇的大厅中，一场诡异的晚宴正在进行。神秘的女人点亮烛火，你和蕾妮似乎被她发现，宴会消散，异象出现。"
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -7530,6 +8936,7 @@
             "IntMusicState": "None",
             "CaptionsID": "q110430",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -7612,13 +9019,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "boss_19": {
         "Desc": "【异象】海囚黑幕入场",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -7651,6 +9062,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": true,
               "LoopCount": {
@@ -7733,13 +9145,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SE_World_Abyss_FirstEntry": {
         "Desc": "【大世界】异象车站-首次进入",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "MediaId": "SE_World_Abyss_FirstEntry",
@@ -7825,13 +9241,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ100101": {
         "Desc": "偶遇任务-「新」买的电驴？  ",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -7864,6 +9284,7 @@
             "IntMusicState": "None",
             "CaptionsID": "WJ100101",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -7946,13 +9367,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ100201": {
         "Desc": "偶遇任务-鱼来！",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -7985,6 +9410,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -8067,13 +9493,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ100401": {
         "Desc": "偶遇任务-有效练习！",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -8106,6 +9536,7 @@
             "IntMusicState": "None",
             "CaptionsID": "WJ100401",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -8188,13 +9619,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ100501": {
         "Desc": "偶遇任务-露天观影",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -8227,6 +9662,7 @@
             "IntMusicState": "None",
             "CaptionsID": "WJ100501",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -8309,13 +9745,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ101001": {
         "Desc": "偶遇任务-工作时间",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -8348,6 +9788,7 @@
             "IntMusicState": "None",
             "CaptionsID": "WJ101001",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -8430,13 +9871,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ101201": {
         "Desc": "偶遇任务-我开动了！",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -8469,6 +9914,7 @@
             "IntMusicState": "None",
             "CaptionsID": "WJ101201",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -8551,13 +9997,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ101301": {
         "Desc": "偶遇任务-回忆是樱花味的",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -8590,6 +10040,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -8672,13 +10123,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ101401": {
         "Desc": "偶遇任务-蛋糕是薄巧味的",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -8711,6 +10166,7 @@
             "IntMusicState": "None",
             "CaptionsID": "WJ101401",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -8793,13 +10249,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ101601": {
         "Desc": "偶遇任务-旅程是海盐味的",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -8832,6 +10292,7 @@
             "IntMusicState": "None",
             "CaptionsID": "WJ101601",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -8914,13 +10375,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ101801": {
         "Desc": "偶遇任务-萤火之夜",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -8953,6 +10418,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -9035,13 +10501,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ102101": {
         "Desc": "偶遇任务-番茄巨无霸",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -9074,6 +10544,7 @@
             "IntMusicState": "None",
             "CaptionsID": "WJ102101",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -9156,13 +10627,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ102201": {
         "Desc": "偶遇任务-再向前一步",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -9195,6 +10670,7 @@
             "IntMusicState": "None",
             "CaptionsID": "WJ102201",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -9277,13 +10753,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ102301": {
         "Desc": "偶遇任务-群星之夜",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -9316,6 +10796,7 @@
             "IntMusicState": "None",
             "CaptionsID": "WJ102301",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -9398,13 +10879,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ102501": {
         "Desc": "偶遇任务-今夜月光倾斜",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -9437,6 +10922,7 @@
             "IntMusicState": "None",
             "CaptionsID": "WJ102501",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -9519,13 +11005,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ103001": {
         "Desc": "偶遇任务-浔的祈愿",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -9558,6 +11048,7 @@
             "IntMusicState": "None",
             "CaptionsID": "WJ103001",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -9640,13 +11131,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ103101": {
         "Desc": "偶遇任务-雪中雅兴",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -9679,6 +11174,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -9761,13 +11257,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ103201": {
         "Desc": "偶遇任务-小憩时间",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -9800,6 +11300,7 @@
             "IntMusicState": "None",
             "CaptionsID": "WJ103201",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -9882,13 +11383,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ104201": {
         "Desc": "偶遇任务-「难得的景致」",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -9921,6 +11426,7 @@
             "IntMusicState": "None",
             "CaptionsID": "WJ104201",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -10003,13 +11509,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ104401": {
         "Desc": "偶遇任务-「夜空下的邀请」",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -10042,6 +11552,7 @@
             "IntMusicState": "None",
             "CaptionsID": "WJ104401",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -10124,13 +11635,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110408": {
         "Desc": "收容层展示黑幕",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -10163,6 +11678,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": true,
               "LoopCount": {
@@ -10245,13 +11761,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110457": {
         "Desc": "讨债人德洛莉丝创造人偶黑幕",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110457_SumUp_S",
+          "SourceString": "樱花树下，一家人欢乐相聚的旧日景象重现，「贝拉」现身揭开背后隐藏的秘密：为回应德洛莉丝的愿望，木偶作为「孩子」苏醒，然而她的愿望未能圆满，因为小女儿蕾妮为家族带来了诅咒与毁灭。",
+          "LocalizedString": "樱花树下，一家人欢乐相聚的旧日景象重现，「贝拉」现身揭开背后隐藏的秘密：为回应德洛莉丝的愿望，木偶作为「孩子」苏醒，然而她的愿望未能圆满，因为小女儿蕾妮为家族带来了诅咒与毁灭。"
+        },
         "SequenceInfo": [
           {
             "MediaId": "q110457",
@@ -10337,13 +11860,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110485": {
         "Desc": "残虹PUA蕾妮放弃恒今时",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110485_SumUp_S",
+          "SourceString": "蕾妮深信自己是背叛者，是自己害死了家人，她在重压下精神崩溃，放弃了「恒今时」，被「残虹」夺走。",
+          "LocalizedString": "蕾妮深信自己是背叛者，是自己害死了家人，她在重压下精神崩溃，放弃了「恒今时」，被「残虹」夺走。"
+        },
         "SequenceInfo": [
           {
             "MediaId": "q110485",
@@ -10429,13 +11959,20 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "q110489": {
         "Desc": "讨债人剧情，残虹借由讨债人的出现脱身",
+        "SkipDesc": {
+          "TableId": "/Game/Text/Dialogue/ST_DialogueSumUp.ST_DialogueSumUp",
+          "Key": "q110489_SumUp_S",
+          "SourceString": "在你与残虹激战正酣时，卡厄斯撕开空间现身，娜娜莉和达芙蒂尔也破墙而入。九点钟声响起，讨债人再次到来。临撤退前，残虹转向达芙蒂尔，轻轻道出「母亲」的问候。",
+          "LocalizedString": "在你与残虹激战正酣时，卡厄斯撕开空间现身，娜娜莉和达芙蒂尔也破墙而入。九点钟声响起，讨债人再次到来。临撤退前，残虹转向达芙蒂尔，轻轻道出「母亲」的问候。"
+        },
         "SequenceInfo": [
           {
             "MediaId": "q110489",
@@ -10521,13 +12058,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "W107905": {
         "Desc": "越狱03",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -10560,6 +12101,7 @@
             "IntMusicState": "None",
             "CaptionsID": "W107905",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -10642,13 +12184,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": true,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "W108002": {
         "Desc": "越狱04",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -10681,6 +12227,7 @@
             "IntMusicState": "None",
             "CaptionsID": "W108002",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -10763,13 +12310,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": true,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "Hospital_Ending_01": {
         "Desc": "医院结局1",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -10802,6 +12353,7 @@
             "IntMusicState": "None",
             "CaptionsID": "Hospital_Ending_01",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -10884,13 +12436,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "Hospital_Ending_02": {
         "Desc": "医院结局2",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -10923,6 +12479,7 @@
             "IntMusicState": "None",
             "CaptionsID": "Hospital_Ending_02",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -11005,13 +12562,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "Hospital_Ending_03": {
         "Desc": "医院结局3",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -11044,6 +12605,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -11126,7 +12688,8 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           },
           {
@@ -11213,13 +12776,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "Hospital_Ending_04": {
         "Desc": "医院结局4",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -11252,6 +12819,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -11334,7 +12902,8 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           },
           {
@@ -11421,13 +12990,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "Hospital_Ending_05": {
         "Desc": "医院结局5",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -11460,6 +13033,7 @@
             "IntMusicState": "None",
             "CaptionsID": "Hospital_Ending_05",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -11542,13 +13116,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "Hospital_Ending_06": {
         "Desc": "医院结局6",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -11581,6 +13159,7 @@
             "IntMusicState": "None",
             "CaptionsID": "Hospital_Ending_06",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -11663,13 +13242,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "Dunner_BossBattle": {
         "Desc": "讨债人和残虹战斗的时候的氛围SEQ",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -11702,6 +13285,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": true,
               "LoopCount": {
@@ -11784,13 +13368,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ103901": {
         "Desc": "偶遇任务-骑士姿态",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -11823,6 +13411,7 @@
             "IntMusicState": "None",
             "CaptionsID": "WJ103901",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -11905,13 +13494,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ104601": {
         "Desc": "偶遇任务-晴转雪，宜打雪仗",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -11944,6 +13537,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -12026,13 +13620,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ102401": {
         "Desc": "偶遇任务-安魂曲战斗",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -12065,6 +13663,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -12147,13 +13746,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "Dunner_Sly": {
         "Desc": "讨债人进大厅的Sequence",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -12186,6 +13789,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 13.13,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -12268,13 +13872,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "W108103": {
         "Desc": "越狱05",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -12307,6 +13915,7 @@
             "IntMusicState": "None",
             "CaptionsID": "W108103",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -12389,13 +13998,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": true,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "W107702": {
         "Desc": "越狱01",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -12428,6 +14041,7 @@
             "IntMusicState": "None",
             "CaptionsID": "W107702",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -12510,13 +14124,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": true,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "W107802": {
         "Desc": "越狱02",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -12549,6 +14167,7 @@
             "IntMusicState": "None",
             "CaptionsID": "W107802",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -12631,13 +14250,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": true,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJ103301": {
         "Desc": "偶遇任务-浔BOSS",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -12670,6 +14293,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -12752,13 +14376,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "SQ_WJBoss013": {
         "Desc": "偶遇任务-真红无头",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -12791,6 +14419,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -12873,13 +14502,17 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]
       },
       "Wishtree_Date": {
         "Desc": "浔-祈愿约会",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
         "SequenceInfo": [
           {
             "SequenceTemple": {
@@ -12912,6 +14545,7 @@
             "IntMusicState": "None",
             "CaptionsID": "None",
             "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
             "Settings": {
               "bAutoPlay": false,
               "LoopCount": {
@@ -12994,7 +14628,260 @@
               "bIgnoreWeatherInRoom": false,
               "bNeverSilent": true,
               "bHandlePause": false,
-              "bInvitedNpcHidden": true
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
+            }
+          }
+        ]
+      },
+      "SQ_WJ104801": {
+        "Desc": "坏蛋禁止戴面罩！",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
+        "SequenceInfo": [
+          {
+            "SequenceTemple": {
+              "AssetPathName": "/Game/sequence_pack/Favor/SQ_WJ104801/shot/All.all",
+              "SubPathString": ""
+            },
+            "SoundSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "SoundStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
+              "SubPathString": ""
+            },
+            "VoiceSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VoiceStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
+              "SubPathString": ""
+            },
+            "bUnlockManualPostAtEnd": false,
+            "InteractiveMusicEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IntMusicStateValue": null,
+            "IntMusicStateGroup": "None",
+            "IntMusicState": "None",
+            "CaptionsID": "None",
+            "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": true,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": true,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": true,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 50,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
+            }
+          }
+        ]
+      },
+      "SQ_WJ104901": {
+        "Desc": "可疑人员禁止入校！",
+        "SkipDesc": {
+          "CultureInvariantString": null
+        },
+        "SequenceInfo": [
+          {
+            "SequenceTemple": {
+              "AssetPathName": "/Game/sequence_pack/Favor/SQ_WJ104901/SQ_WJ104901.SQ_WJ104901",
+              "SubPathString": ""
+            },
+            "SoundSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "SoundStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
+              "SubPathString": ""
+            },
+            "VoiceSource": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "VoiceStopSource": {
+              "AssetPathName": "/Game/WwiseAudio/Events/CG/CG_Cmn/Stop_CG_Delay_2S.Stop_CG_Delay_2S",
+              "SubPathString": ""
+            },
+            "bUnlockManualPostAtEnd": false,
+            "InteractiveMusicEvent": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "IntMusicStateValue": null,
+            "IntMusicStateGroup": "None",
+            "IntMusicState": "None",
+            "CaptionsID": "None",
+            "FeedBackEffectID": "None",
+            "fSkipActiveCameraTargetTime": 2.0,
+            "Settings": {
+              "bAutoPlay": false,
+              "LoopCount": {
+                "Value": 0
+              },
+              "TickInterval": {
+                "TickIntervalSeconds": 0.0,
+                "EvaluationBudgetMicroseconds": 0.0,
+                "bTickWhenPaused": false,
+                "bAllowRounding": true
+              },
+              "PlayRate": 1.0,
+              "StartTime": 0.0,
+              "bRandomStartTime": false,
+              "bDisableMovementInput": false,
+              "bDisableLookAtInput": false,
+              "bHidePlayer": true,
+              "bHideHud": false,
+              "bDisableCameraCuts": false,
+              "FinishCompletionStateOverride": "EMovieSceneCompletionModeOverride::None",
+              "bPauseAtEnd": false,
+              "bInheritTickIntervalFromOwner": true,
+              "bDynamicWeighting": false
+            },
+            "GameplaySettings": {
+              "bDisableKeyboardInput": true,
+              "bHideUI": true,
+              "bHideCursor": true,
+              "bRecoverAllUIWhenEnd": true,
+              "bHideHeadUpInfo": true,
+              "bPauseCameraSwitch": true,
+              "bHideSpawnedNpc": true,
+              "bStopBehaviorTree": true,
+              "bHideVehicle": true,
+              "SpawnedNpcHideDistance": 3000.0,
+              "bHideSpawnedVisualActor": false,
+              "SpawnedVisualActorHideDistance": 3000.0,
+              "bStopToEnd": true,
+              "BackwardFrameStopTo": 6,
+              "bCheckSafeDistanceToPlayer": true,
+              "bDontSendClientSideCameraUpdatesToServer": true,
+              "bShowBulletScreen": true,
+              "bPauseGameSound": true,
+              "bBestViewDistanceQuality": true,
+              "CantSkipTime": 2.0,
+              "bSkipNeedConfirm": true,
+              "bCanFinishWhenFadeInOut": false,
+              "bIsSequenceFadeIn": true,
+              "bIsSequenceFadeOut": true,
+              "FadeOutSequenceTime": 0.8,
+              "bUseTransformOrigin": false,
+              "TransformOriginActor": null,
+              "TransformOrigin": {
+                "Rotation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0,
+                  "W": 1.0,
+                  "IsNormalized": true,
+                  "Size": 1.0,
+                  "SizeSquared": 1.0
+                },
+                "Translation": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Scale3D": {
+                  "X": 1.0,
+                  "Y": 1.0,
+                  "Z": 1.0
+                }
+              },
+              "bBreakAllSkillMontange": true,
+              "bActuallyStopBeforeAnim": false,
+              "bResetCamera": true,
+              "bSyncCameraYaw": false,
+              "bForceAddToNewSpawnedTickGroup": true,
+              "ShowSimpleActorNum": 50,
+              "bIgnoreWeatherInRoom": false,
+              "bNeverSilent": true,
+              "bHandlePause": false,
+              "bInvitedNpcHidden": true,
+              "bCanInterruptWhenTransfer": false
             }
           }
         ]

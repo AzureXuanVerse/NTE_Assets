@@ -32,9 +32,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_003",
           "SourceString": "早雾",
-          "LocalizedString": "Sakiri"
+          "LocalizedString": "早雾"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -43,13 +44,13 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "ZERO_F_homeplace",
           "SourceString": "伊波恩古董店",
-          "LocalizedString": "Eibon Antique Shop"
+          "LocalizedString": "伊波恩古董店"
         },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "NPC008_introduction",
           "SourceString": "看起来不太好惹实际也不太好惹的伊波恩一霸。",
-          "LocalizedString": "Unrivaled at Eibon and as scary as she looks."
+          "LocalizedString": "看起来不太好惹实际也不太好惹的伊波恩一霸。"
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -59,6 +60,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -291,7 +294,8 @@
               "Key": "6",
               "Value": "drop_BusinessCard_Characterawaken_Sagiri"
             }
-          ]
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -301,7 +305,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Sagiri_tag_0",
               "SourceString": "增益",
-              "LocalizedString": "Buff"
+              "LocalizedString": "增益"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -330,7 +334,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Sagiri_tag_1",
               "SourceString": "控制",
-              "LocalizedString": "Control"
+              "LocalizedString": "控制"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -359,7 +363,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Haniel_tag_2",
               "SourceString": "输出增益",
-              "LocalizedString": "DMG Boost"
+              "LocalizedString": "输出增益"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -413,9 +417,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_004",
           "SourceString": "安魂曲",
-          "LocalizedString": "Lacrimosa"
+          "LocalizedString": "安魂曲"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -424,13 +429,13 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "NPC004_homeplace",
           "SourceString": "异象管理局禁制机动队四队",
-          "LocalizedString": "Bureau of Anomaly Control, ETD-4"
+          "LocalizedString": "异象管理局禁制机动队四队"
         },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "NPC004_introduction",
           "SourceString": "异象管理局员工后勤报修次数最多记录保持者。",
-          "LocalizedString": "Holds the record for most maintenance requests submitted by BAC staff."
+          "LocalizedString": "异象管理局员工后勤报修次数最多记录保持者。"
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -440,6 +445,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -587,38 +594,76 @@
             "SubPathString": ""
           },
           "bIsHoldWeapon": false,
-          "MotionData": [],
-          "FashionList": [],
-          "DefaultFashionID": "None",
-          "UnlockLevel": 0,
-          "bTeachingEnable": false,
+          "MotionData": [
+            "anhunqu_0001",
+            "anhunqu_0002",
+            "anhunqu_0003",
+            "anhunqu_0004",
+            "anhunqu_0005",
+            "anhunqu_0006",
+            "anhunqu_0008",
+            "anhunqu_0009",
+            "anhunqu_0010",
+            "anhunqu_0011",
+            "anhunqu_0012",
+            "anhunqu_0013",
+            "anhunqu_jh_0001",
+            "anhunqu_jh_0002",
+            "anhunqu_jh_0003",
+            "anhunqu_jh_0004"
+          ],
+          "FashionList": [
+            {
+              "FashionID": "Fashion_1004_nighty",
+              "FashionItemID": "EquipmentUpMaterial_lv3",
+              "FashionIconInviteForm": {
+                "AssetPathName": "/Game/UI/Blueprints/Room/yaoqing/UI_Mask_Fashion_Character_anhunqu.UI_Mask_Fashion_Character_anhunqu",
+                "SubPathString": ""
+              },
+              "FashionIconNpcForm": {
+                "AssetPathName": "/Game/UI/Blueprints/Room/yaoqing/UI_Mask_Fashion_UI_anhunqu.UI_Mask_Fashion_UI_anhunqu",
+                "SubPathString": ""
+              },
+              "FashionSmallIcon": {
+                "AssetPathName": "/Game/UI/Blueprints/Room/yaoqing/BPUI_CharacterChange6.BPUI_CharacterChange6",
+                "SubPathString": ""
+              },
+              "CharacterClass": {
+                "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_004/BP_CompanionCharacter_004.BP_CompanionCharacter_004_C",
+                "SubPathString": ""
+              }
+            }
+          ],
+          "DefaultFashionID": "Fashion_1004_nighty",
+          "UnlockLevel": 4,
+          "bTeachingEnable": true,
           "CharacterIllustration": {
             "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_anhunqu.YH_UI_shizhuang_big_anhunqu",
             "SubPathString": ""
           },
-          "CharacterTrackId": "None",
+          "CharacterTrackId": "Likeability_008",
           "TrackOffset": {
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
           },
           "LikeabilityID": "1004",
-          "bCheckShowTime": true,
+          "bCheckShowTime": false,
           "ShowTime": {
             "MainlandTime": {
-              "Year": 2026,
-              "Month": 5,
-              "Day": 28,
-              "Hour": 6,
-              "minute": 30,
+              "Year": 1,
+              "Month": 1,
+              "Day": 1,
+              "Hour": 0,
+              "minute": 0,
               "Second": 0
             },
             "OverseaTime": {
-              "Year": 2026,
-              "Month": 6,
-              "Day": 2,
-              "Hour": 22,
-              "minute": 30,
+              "Year": 1,
+              "Month": 1,
+              "Day": 1,
+              "Hour": 0,
+              "minute": 0,
               "Second": 0
             },
             "OverseaUseUTCTime": true
@@ -628,7 +673,8 @@
               "Key": "6",
               "Value": "drop_BusinessCard_Characterawaken_lacrimosa"
             }
-          ]
+          ],
+          "CharGenderType": "ECharGenderType::female"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -638,7 +684,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_0",
               "SourceString": "输出",
-              "LocalizedString": "Damage"
+              "LocalizedString": "输出"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -667,7 +713,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_1",
               "SourceString": "主力输出",
-              "LocalizedString": "Main DPS"
+              "LocalizedString": "主力输出"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -696,7 +742,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_2",
               "SourceString": "持续伤害",
-              "LocalizedString": "DoT"
+              "LocalizedString": "持续伤害"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -722,8 +768,8 @@
           }
         ],
         "bIsLimitAmount": false,
-        "bIsManual": false,
-        "bIsInvite": false,
+        "bIsManual": true,
+        "bIsInvite": true,
         "bIsDropActor": false,
         "DropActorClass": {
           "AssetPathName": "",
@@ -750,9 +796,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_008",
           "SourceString": "翳",
-          "LocalizedString": "Skia"
+          "LocalizedString": "翳"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -761,13 +808,13 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "NPC005_homeplace",
           "SourceString": "异象管理局禁制机动队四队",
-          "LocalizedString": "Bureau of Anomaly Control, ETD-4"
+          "LocalizedString": "异象管理局禁制机动队四队"
         },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "NPC005_introduction",
           "SourceString": "常被认为是E.T.D四队队长的副队长。",
-          "LocalizedString": "Often mistaken for Squad 4's captain, despite being the lieutenant."
+          "LocalizedString": "常被认为是E.T.D四队队长的副队长。"
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -777,6 +824,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -892,7 +941,7 @@
             "Y": 1.0,
             "Z": 1.0
           },
-          "CameraUpHeight": 48.0,
+          "CameraUpHeight": 46.0,
           "CameraOffsets": 30.0,
           "ForkMeshOffsets": 41.0,
           "EquipmentHandMeshOffsets": 31.0,
@@ -965,7 +1014,8 @@
               "Key": "6",
               "Value": "drop_BusinessCard_Characterawaken_skia"
             }
-          ]
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -975,7 +1025,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_0",
               "SourceString": "输出",
-              "LocalizedString": "Damage"
+              "LocalizedString": "输出"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -1004,7 +1054,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_1",
               "SourceString": "主力输出",
-              "LocalizedString": "Main DPS"
+              "LocalizedString": "主力输出"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -1058,9 +1108,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_010",
           "SourceString": "娜娜莉",
-          "LocalizedString": "Nanally"
+          "LocalizedString": "娜娜莉"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -1069,13 +1120,13 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "ZERO_F_homeplace",
           "SourceString": "伊波恩古董店",
-          "LocalizedString": "Eibon Antique Shop"
+          "LocalizedString": "伊波恩古董店"
         },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "F_NPC011_007",
           "SourceString": "尚在扩招中的「柯林斯家族」的一代目。",
-          "LocalizedString": "The Ichi-daime of the Coluccis—currently seeking new recruits!"
+          "LocalizedString": "尚在扩招中的「柯林斯家族」的一代目。"
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -1085,6 +1136,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -1315,7 +1368,8 @@
               "Key": "6",
               "Value": "drop_BusinessCard_Characterawaken_Nanally"
             }
-          ]
+          ],
+          "CharGenderType": "ECharGenderType::female"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -1325,7 +1379,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_0",
               "SourceString": "输出",
-              "LocalizedString": "Damage"
+              "LocalizedString": "输出"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -1354,7 +1408,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_1",
               "SourceString": "主力输出",
-              "LocalizedString": "Main DPS"
+              "LocalizedString": "主力输出"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -1383,7 +1437,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Nanally_tag_2",
               "SourceString": "追加攻击",
-              "LocalizedString": "Follow-up Attack"
+              "LocalizedString": "追加攻击"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -1437,9 +1491,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_019",
           "SourceString": "薄荷",
-          "LocalizedString": "Mint"
+          "LocalizedString": "薄荷"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -1448,13 +1503,13 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "NPC001_homeplace",
           "SourceString": "异象管理局收容二组",
-          "LocalizedString": "Bureau of Anomaly Control, CSU-2"
+          "LocalizedString": "异象管理局收容二组"
         },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "NPC001_introduction",
           "SourceString": "如果能有评定，应该会是收容组内「被异象骗最多次」的人。",
-          "LocalizedString": "If there was such a ranking, I'd probably hold the record for \"Most Times Tricked by Anomalies\" in the Containment Units…"
+          "LocalizedString": "如果能有评定，应该会是收容组内「被异象骗最多次」的人。"
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -1464,6 +1519,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -1693,7 +1750,8 @@
               "Key": "6",
               "Value": "drop_BusinessCard_Characterawaken_Mint"
             }
-          ]
+          ],
+          "CharGenderType": "ECharGenderType::female"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -1703,7 +1761,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_0",
               "SourceString": "输出",
-              "LocalizedString": "Damage"
+              "LocalizedString": "输出"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -1732,7 +1790,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_1",
               "SourceString": "主力输出",
-              "LocalizedString": "Main DPS"
+              "LocalizedString": "主力输出"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -1786,9 +1844,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_020",
           "SourceString": "哈尼娅",
-          "LocalizedString": "Haniel"
+          "LocalizedString": "哈尼娅"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -1797,13 +1856,13 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "F_NPC014_006",
           "SourceString": "斯特利速递",
-          "LocalizedString": "Sterry Express"
+          "LocalizedString": "斯特利速递"
         },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "F_NPC014_007",
           "SourceString": "梦想是成为拯救世界的美少女高中生！",
-          "LocalizedString": "My dream is to become a beautiful high school girl who saves the world!"
+          "LocalizedString": "梦想是成为拯救世界的美少女高中生！"
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -1813,6 +1872,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -2001,7 +2062,8 @@
               "Key": "6",
               "Value": "drop_BusinessCard_Characterawaken_Haniel"
             }
-          ]
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -2011,7 +2073,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Sagiri_tag_0",
               "SourceString": "增益",
-              "LocalizedString": "Buff"
+              "LocalizedString": "增益"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -2040,7 +2102,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Haniel_tag_2",
               "SourceString": "输出增益",
-              "LocalizedString": "DMG Boost"
+              "LocalizedString": "输出增益"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -2094,9 +2156,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_021",
           "SourceString": "埃德嘉",
-          "LocalizedString": "Edgar"
+          "LocalizedString": "埃德嘉"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -2105,13 +2168,13 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "ZERO_F_homeplace",
           "SourceString": "伊波恩古董店",
-          "LocalizedString": "Eibon Antique Shop"
+          "LocalizedString": "伊波恩古董店"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_003_des",
           "SourceString": "伊波恩古董店成员",
-          "LocalizedString": "Eibon Antique Shop Member"
+          "LocalizedString": "伊波恩古董店成员"
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -2121,6 +2184,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -2309,7 +2374,8 @@
               "Key": "6",
               "Value": "drop_BusinessCard_Characterawaken_edgar"
             }
-          ]
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -2319,7 +2385,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Adler_tag_0",
               "SourceString": "生存",
-              "LocalizedString": "Survival"
+              "LocalizedString": "生存"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -2348,7 +2414,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Jin_tag_1",
               "SourceString": "治疗",
-              "LocalizedString": "Healing"
+              "LocalizedString": "治疗"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -2402,9 +2468,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_023",
           "SourceString": "白藏",
-          "LocalizedString": "Baicang"
+          "LocalizedString": "白藏"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -2413,13 +2480,13 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "NPC006_homeplace",
           "SourceString": "异象管理局禁制机动队四队",
-          "LocalizedString": "Bureau of Anomaly Control, ETD-4"
+          "LocalizedString": "异象管理局禁制机动队四队"
         },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "F_NPC006_007",
           "SourceString": "在「最不像队长」票选中名列前茅的E.T.D四队队长。",
-          "LocalizedString": "The widely recognized \"least captain-like captain\" from ETD-4."
+          "LocalizedString": "在「最不像队长」票选中名列前茅的E.T.D四队队长。"
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -2429,6 +2496,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -2641,7 +2710,8 @@
               "Key": "6",
               "Value": "drop_BusinessCard_Characterawaken_cang"
             }
-          ]
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -2651,7 +2721,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_0",
               "SourceString": "输出",
-              "LocalizedString": "Damage"
+              "LocalizedString": "输出"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -2680,7 +2750,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_1",
               "SourceString": "主力输出",
-              "LocalizedString": "Main DPS"
+              "LocalizedString": "主力输出"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -2709,7 +2779,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_2",
               "SourceString": "持续伤害",
-              "LocalizedString": "DoT"
+              "LocalizedString": "持续伤害"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -2763,9 +2833,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_025",
           "SourceString": "哈索尔",
-          "LocalizedString": "Hathor"
+          "LocalizedString": "哈索尔"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -2774,13 +2845,13 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "F_NPC016_006",
           "SourceString": "斯特利速递",
-          "LocalizedString": "Sterry Express"
+          "LocalizedString": "斯特利速递"
         },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "F_NPC016_007",
           "SourceString": "爱好制作任务全时间表并严格执行落地的高效快递员。",
-          "LocalizedString": "An efficient courier who enjoys creating comprehensive task schedules and strictly executing them to completion."
+          "LocalizedString": "爱好制作任务全时间表并严格执行落地的高效快递员。"
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -2790,6 +2861,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -2978,7 +3051,8 @@
               "Key": "6",
               "Value": "drop_BusinessCard_Characterawaken_Hathor"
             }
-          ]
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -2988,7 +3062,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_0",
               "SourceString": "输出",
-              "LocalizedString": "Damage"
+              "LocalizedString": "输出"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -3017,7 +3091,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Female_tag_1",
               "SourceString": "爆发输出",
-              "LocalizedString": "Burst DPS"
+              "LocalizedString": "爆发输出"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -3071,9 +3145,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_033",
           "SourceString": "阿德勒",
-          "LocalizedString": "Adler"
+          "LocalizedString": "阿德勒"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -3082,13 +3157,13 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "NPC010_homeplace",
           "SourceString": "伊波恩古董店",
-          "LocalizedString": "Eibon Antique Shop"
+          "LocalizedString": "伊波恩古董店"
         },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "NPC010_introduction",
           "SourceString": "令伊波恩众人和街坊邻居感到安心的完美管家。",
-          "LocalizedString": "The perfect butler who brings peace of mind to everyone at Eibon and the neighborhood."
+          "LocalizedString": "令伊波恩众人和街坊邻居感到安心的完美管家。"
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -3098,6 +3173,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -3286,7 +3363,8 @@
               "Key": "6",
               "Value": "drop_BusinessCard_Characterawaken_Adler"
             }
-          ]
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -3296,7 +3374,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Adler_tag_0",
               "SourceString": "生存",
-              "LocalizedString": "Survival"
+              "LocalizedString": "生存"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -3325,7 +3403,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Adler_tag_1",
               "SourceString": "护盾",
-              "LocalizedString": "Shield"
+              "LocalizedString": "护盾"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -3354,7 +3432,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Adler_tag_2",
               "SourceString": "持续伤害",
-              "LocalizedString": "DoT"
+              "LocalizedString": "持续伤害"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -3408,9 +3486,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_039",
           "SourceString": "法帝娅",
-          "LocalizedString": "Fadia"
+          "LocalizedString": "法帝娅"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -3419,13 +3498,13 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "NPC003_homeplace",
           "SourceString": "异象管理局禁制机动队四队",
-          "LocalizedString": "Bureau of Anomaly Control, ETD-4"
+          "LocalizedString": "异象管理局禁制机动队四队"
         },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "F_NPC003_007",
           "SourceString": "危险又迷人的E.T.D成员，代表局长令人捉摸不定的择人标准。",
-          "LocalizedString": "A dangerous yet captivating ETD member who represents the director's unpredictable hiring standards."
+          "LocalizedString": "危险又迷人的E.T.D成员，代表局长令人捉摸不定的择人标准。"
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -3435,6 +3514,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -3661,7 +3742,8 @@
               "Key": "6",
               "Value": "drop_BusinessCard_Characterawaken_fadia"
             }
-          ]
+          ],
+          "CharGenderType": "ECharGenderType::female"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -3671,7 +3753,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Adler_tag_0",
               "SourceString": "生存",
-              "LocalizedString": "Survival"
+              "LocalizedString": "生存"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -3700,7 +3782,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Fadia_tag_1",
               "SourceString": "伤害分摊",
-              "LocalizedString": "DMG Redirection"
+              "LocalizedString": "伤害分摊"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -3754,9 +3836,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_009",
           "SourceString": "「零」",
-          "LocalizedString": "Zero"
+          "LocalizedString": "「零」"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -3765,18 +3848,20 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "ZERO_F_homeplace",
           "SourceString": "伊波恩古董店",
-          "LocalizedString": "Eibon Antique Shop"
+          "LocalizedString": "伊波恩古董店"
         },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "ZERO_F_introduction",
           "SourceString": "迄今唯一一位无法检测出维特海默值的异能者。",
-          "LocalizedString": "The only esper in history without a detectable Wertheimer Index."
+          "LocalizedString": "迄今唯一一位无法检测出维特海默值的异能者。"
         },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -3960,7 +4045,8 @@
             },
             "OverseaUseUTCTime": true
           },
-          "AwakenAwards": []
+          "AwakenAwards": [],
+          "CharGenderType": "ECharGenderType::male"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -3970,7 +4056,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_0",
               "SourceString": "输出",
-              "LocalizedString": "Damage"
+              "LocalizedString": "输出"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -3999,7 +4085,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Female_tag_2",
               "SourceString": "即瞬环合",
-              "LocalizedString": "Instant Cycle"
+              "LocalizedString": "即瞬环合"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -4028,7 +4114,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Female_tag_1",
               "SourceString": "爆发输出",
-              "LocalizedString": "Burst DPS"
+              "LocalizedString": "爆发输出"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -4082,9 +4168,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_009",
           "SourceString": "「零」",
-          "LocalizedString": "Zero"
+          "LocalizedString": "「零」"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -4093,18 +4180,20 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "ZERO_F_homeplace",
           "SourceString": "伊波恩古董店",
-          "LocalizedString": "Eibon Antique Shop"
+          "LocalizedString": "伊波恩古董店"
         },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "ZERO_F_introduction",
           "SourceString": "迄今唯一一位无法检测出维特海默值的异能者。",
-          "LocalizedString": "The only esper in history without a detectable Wertheimer Index."
+          "LocalizedString": "迄今唯一一位无法检测出维特海默值的异能者。"
         },
         "LimitScenes": [],
         "ToolDatas": [],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -4288,7 +4377,8 @@
             },
             "OverseaUseUTCTime": true
           },
-          "AwakenAwards": []
+          "AwakenAwards": [],
+          "CharGenderType": "ECharGenderType::female"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -4298,7 +4388,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_0",
               "SourceString": "输出",
-              "LocalizedString": "Damage"
+              "LocalizedString": "输出"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -4327,7 +4417,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Female_tag_2",
               "SourceString": "即瞬环合",
-              "LocalizedString": "Instant Cycle"
+              "LocalizedString": "即瞬环合"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -4356,7 +4446,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Female_tag_1",
               "SourceString": "爆发输出",
-              "LocalizedString": "Burst DPS"
+              "LocalizedString": "爆发输出"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -4410,9 +4500,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_052",
           "SourceString": "浔",
-          "LocalizedString": "Hotori"
+          "LocalizedString": "浔"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -4421,13 +4512,13 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "NPC008_homeplace",
           "SourceString": "伊波恩古董店",
-          "LocalizedString": "Eibon Antique Shop"
+          "LocalizedString": "伊波恩古董店"
         },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "F_NPC009_007",
           "SourceString": "似乎不怎么识货、整天醉醺醺的伊波恩店主。",
-          "LocalizedString": "The Boss of Eibon, who doesn't seem to be very sober."
+          "LocalizedString": "似乎不怎么识货、整天醉醺醺的伊波恩店主。"
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -4437,6 +4528,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -4636,12 +4729,12 @@
             "Z": 0.0
           },
           "LikeabilityID": "1029",
-          "bCheckShowTime": true,
+          "bCheckShowTime": false,
           "ShowTime": {
             "MainlandTime": {
               "Year": 2026,
               "Month": 5,
-              "Day": 5,
+              "Day": 7,
               "Hour": 6,
               "minute": 30,
               "Second": 0
@@ -4661,7 +4754,8 @@
               "Key": "6",
               "Value": "drop_BusinessCard_Characterawaken_Jin"
             }
-          ]
+          ],
+          "CharGenderType": "ECharGenderType::female"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -4671,7 +4765,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Sagiri_tag_0",
               "SourceString": "增益",
-              "LocalizedString": "Buff"
+              "LocalizedString": "增益"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -4700,7 +4794,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Female_tag_1",
               "SourceString": "爆发输出",
-              "LocalizedString": "Burst DPS"
+              "LocalizedString": "爆发输出"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -4729,7 +4823,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Haniel_tag_2",
               "SourceString": "输出增益",
-              "LocalizedString": "DMG Boost"
+              "LocalizedString": "输出增益"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -4783,9 +4877,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_005",
           "SourceString": "达芙蒂尔",
-          "LocalizedString": "Daffodill"
+          "LocalizedString": "达芙蒂尔"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -4804,6 +4899,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -4992,7 +5089,8 @@
               "Key": "6",
               "Value": "drop_BusinessCard_Characterawaken_daffodill"
             }
-          ]
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -5002,7 +5100,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_0",
               "SourceString": "输出",
-              "LocalizedString": "Damage"
+              "LocalizedString": "输出"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -5031,7 +5129,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Female_tag_1",
               "SourceString": "爆发输出",
-              "LocalizedString": "Burst DPS"
+              "LocalizedString": "爆发输出"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -5060,7 +5158,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Daffodill_tag_1",
               "SourceString": "倾陷增益",
-              "LocalizedString": "Break Boost"
+              "LocalizedString": "倾陷增益"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -5114,9 +5212,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_055",
           "SourceString": "九原",
-          "LocalizedString": "Jiuyuan"
+          "LocalizedString": "九原"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -5135,6 +5234,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -5323,7 +5424,7 @@
           ],
           "DefaultFashionID": "Fashion_1055_nighty",
           "UnlockLevel": 4,
-          "bTeachingEnable": true,
+          "bTeachingEnable": false,
           "CharacterIllustration": {
             "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_jiuyuan.YH_UI_shizhuang_big_jiuyuan",
             "SubPathString": ""
@@ -5360,7 +5461,8 @@
               "Key": "6",
               "Value": "drop_BusinessCard_Characterawaken_Kuhara"
             }
-          ]
+          ],
+          "CharGenderType": "ECharGenderType::female"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -5370,7 +5472,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_0",
               "SourceString": "输出",
-              "LocalizedString": "Damage"
+              "LocalizedString": "输出"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -5399,7 +5501,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Female_tag_1",
               "SourceString": "爆发输出",
-              "LocalizedString": "Burst DPS"
+              "LocalizedString": "爆发输出"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -5428,7 +5530,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "Sagiri_tag_1",
               "SourceString": "控制",
-              "LocalizedString": "Control"
+              "LocalizedString": "控制"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -5482,9 +5584,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_004",
           "SourceString": "安魂曲",
-          "LocalizedString": "Lacrimosa"
+          "LocalizedString": "安魂曲"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -5493,13 +5596,13 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "NPC004_homeplace",
           "SourceString": "异象管理局禁制机动队四队",
-          "LocalizedString": "Bureau of Anomaly Control, ETD-4"
+          "LocalizedString": "异象管理局禁制机动队四队"
         },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "NPC004_introduction",
           "SourceString": "异象管理局员工后勤报修次数最多记录保持者。",
-          "LocalizedString": "Holds the record for most maintenance requests submitted by BAC staff."
+          "LocalizedString": "异象管理局员工后勤报修次数最多记录保持者。"
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -5509,6 +5612,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -5665,7 +5770,7 @@
             "AssetPathName": "/Game/UI/UI/Appearance/Fashion/2160/YH_UI_shizhuang_big_anhunqu.YH_UI_shizhuang_big_anhunqu",
             "SubPathString": ""
           },
-          "CharacterTrackId": "None",
+          "CharacterTrackId": "Likeability_008",
           "TrackOffset": {
             "X": 0.0,
             "Y": 0.0,
@@ -5692,7 +5797,13 @@
             },
             "OverseaUseUTCTime": true
           },
-          "AwakenAwards": []
+          "AwakenAwards": [
+            {
+              "Key": "6",
+              "Value": "drop_BusinessCard_Characterawaken_lacrimosa"
+            }
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -5702,7 +5813,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_0",
               "SourceString": "输出",
-              "LocalizedString": "Damage"
+              "LocalizedString": "输出"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -5731,7 +5842,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_1",
               "SourceString": "主力输出",
-              "LocalizedString": "Main DPS"
+              "LocalizedString": "主力输出"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -5760,7 +5871,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_2",
               "SourceString": "持续伤害",
-              "LocalizedString": "DoT"
+              "LocalizedString": "持续伤害"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -5814,9 +5925,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_070",
           "SourceString": "海月",
-          "LocalizedString": "Aurelia"
+          "LocalizedString": "海月"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -5825,13 +5937,13 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "F_NPC1029_006",
           "SourceString": "玉饼街居民协会",
-          "LocalizedString": "/"
+          "LocalizedString": "玉饼街居民协会"
         },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "F_NPC1029_007",
           "SourceString": "认识海月后才知道的海特洛市冷知识其一：驾驶水母上路不算违章。",
-          "LocalizedString": "A fun fact about Hethereau, thanks to meeting Aurelia: cruising the streets on a jellyfish isn't a traffic violation."
+          "LocalizedString": "认识海月后才知道的海特洛市冷知识其一：驾驶水母上路不算违章。"
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -5841,6 +5953,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -6029,7 +6143,8 @@
               "Key": "6",
               "Value": "drop_BusinessCard_Characterawaken_mitsuki"
             }
-          ]
+          ],
+          "CharGenderType": "ECharGenderType::NoneGender"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -6039,7 +6154,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_0",
               "SourceString": "输出",
-              "LocalizedString": "Damage"
+              "LocalizedString": "输出"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -6068,7 +6183,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_1",
               "SourceString": "主力输出",
-              "LocalizedString": "Main DPS"
+              "LocalizedString": "主力输出"
             },
             "TagBgIcon": {
               "AssetPathName": "",
@@ -6122,9 +6237,10 @@
           "TableId": "/Game/Text/ST_Player.ST_Player",
           "Key": "Role_Name_073",
           "SourceString": "小吱",
-          "LocalizedString": "Chiz"
+          "LocalizedString": "小吱"
         },
         "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
         "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
         "ItemCD": 0.0,
         "TimeLimit": null,
@@ -6133,13 +6249,13 @@
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "F_NPC026_006",
           "SourceString": "德沃夏克家族",
-          "LocalizedString": "Dvořák Family"
+          "LocalizedString": "德沃夏克家族"
         },
         "Description": {
           "TableId": "/Game/Text/ST_File.ST_File",
           "Key": "F_NPC026_007",
           "SourceString": "虽然看起来有些胆小却是粉爪银行最靠谱的经理。",
-          "LocalizedString": "Though she may seem a bit timid, she's the Pink Paws Bank's most dependable manager."
+          "LocalizedString": "虽然看起来有些胆小却是粉爪银行最靠谱的经理。"
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -6149,6 +6265,8 @@
         ],
         "ItemUseCount": 1,
         "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
         "SellData": [],
         "bDisplayedWhenObtain": false,
         "bUndisplayFirstAddMessageTips": false,
@@ -6374,7 +6492,8 @@
               "Key": "6",
               "Value": "drop_BusinessCard_Characterawaken_chiichan"
             }
-          ]
+          ],
+          "CharGenderType": "ECharGenderType::female"
         },
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
@@ -6384,7 +6503,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_0",
               "SourceString": "输出",
-              "LocalizedString": "Damage"
+              "LocalizedString": "输出"
             },
             "TagBgIcon": {
               "AssetPathName": "/Game/UI/UI/player/YH_UI_icon_TagBG.YH_UI_icon_TagBG",
@@ -6413,7 +6532,7 @@
               "TableId": "/Game/Text/ST_CharacterTag.ST_CharacterTag",
               "Key": "lacrimosa_tag_1",
               "SourceString": "主力输出",
-              "LocalizedString": "Main DPS"
+              "LocalizedString": "主力输出"
             },
             "TagBgIcon": {
               "AssetPathName": "",

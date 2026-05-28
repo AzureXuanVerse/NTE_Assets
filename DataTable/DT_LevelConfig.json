@@ -62,6 +62,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -130,6 +131,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -177,7 +179,10 @@
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
-          }
+          },
+          "EnterSpecLoadingID": "",
+          "EnterTransformID": "None",
+          "ExitSpecLoadingID": ""
         },
         "MapEntranceList": [],
         "ShieldUIFlags": 0,
@@ -206,6 +211,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -270,6 +276,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -290,13 +297,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_FilmOrbit_map_Title",
           "SourceString": "「菲林轨迹」照相馆",
-          "LocalizedString": "Film Orbit Studio"
+          "LocalizedString": "「菲林轨迹」照相馆"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_FilmOrbit_map_Title",
           "SourceString": "「菲林轨迹」照相馆",
-          "LocalizedString": "Film Orbit Studio"
+          "LocalizedString": "「菲林轨迹」照相馆"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -323,7 +330,10 @@
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
-          }
+          },
+          "EnterSpecLoadingID": "DLC_filmorbit_map_Entry",
+          "EnterTransformID": "DLC_FilmOrbit_Entrance",
+          "ExitSpecLoadingID": "DLC_filmorbit_map_Exit"
         },
         "MapEntranceList": [
           "BigWorld_To_FilmOrbit"
@@ -354,6 +364,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -374,13 +385,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_hotel",
           "SourceString": "「卡佩」大酒店",
-          "LocalizedString": "The Kapé"
+          "LocalizedString": "「卡佩」大酒店"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_hotel",
           "SourceString": "「卡佩」大酒店",
-          "LocalizedString": "The Kapé"
+          "LocalizedString": "「卡佩」大酒店"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -407,7 +418,10 @@
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
-          }
+          },
+          "EnterSpecLoadingID": "DLC_Hotel_Entry",
+          "EnterTransformID": "DLC_Hotel_entrance",
+          "ExitSpecLoadingID": "DLC_Hotel_Exit"
         },
         "MapEntranceList": [
           "BigWorld_To_Hotel"
@@ -438,6 +452,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -458,13 +473,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_SpiralDreams",
           "SourceString": "「游梦洄廊」",
-          "LocalizedString": "Dreamwalk Corridor"
+          "LocalizedString": "「游梦洄廊」"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_SpiralDreams",
           "SourceString": "「游梦洄廊」",
-          "LocalizedString": "Dreamwalk Corridor"
+          "LocalizedString": "「游梦洄廊」"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -491,9 +506,14 @@
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
-          }
+          },
+          "EnterSpecLoadingID": "DLC_SpiralDreams_Entry",
+          "EnterTransformID": "DLC_SpiralDreams_Entrance",
+          "ExitSpecLoadingID": "DLC_SpiralDreams_Exit"
         },
-        "MapEntranceList": [],
+        "MapEntranceList": [
+          "BigWorld_To_SpiralDreams"
+        ],
         "ShieldUIFlags": 1,
         "ShieldFunctionID": "StoryClone",
         "bLimitCloneEffect": true,
@@ -520,6 +540,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -587,6 +608,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -607,13 +629,13 @@
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DLC_Hockshop_Name",
           "SourceString": "月光当铺",
-          "LocalizedString": "Pawn Moonlight"
+          "LocalizedString": "月光当铺"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DLC_Hockshop_Introduce",
           "SourceString": "月光当铺是异象墨菲克斯产生的单独空间，只有拥有强烈愿望的人才能进入。",
-          "LocalizedString": "Pawn Moonlight is a separate space created by the Anomaly Morphix; only those with strong desires can enter."
+          "LocalizedString": "月光当铺是异象墨菲克斯产生的单独空间，只有拥有强烈愿望的人才能进入。"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -640,7 +662,10 @@
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
-          }
+          },
+          "EnterSpecLoadingID": "DLC_Hockshop_Entry",
+          "EnterTransformID": "DLC_Hockshop",
+          "ExitSpecLoadingID": "DLC_Hockshop_Exit"
         },
         "MapEntranceList": [
           "DLC_Hockshop"
@@ -671,6 +696,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -691,13 +717,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_MoonDog",
           "SourceString": "「月亮狗之夜」",
-          "LocalizedString": "Night of Moondog"
+          "LocalizedString": "「月亮狗之夜」"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_MoonDog",
           "SourceString": "「月亮狗之夜」",
-          "LocalizedString": "Night of Moondog"
+          "LocalizedString": "「月亮狗之夜」"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -724,7 +750,10 @@
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
-          }
+          },
+          "EnterSpecLoadingID": "DLC_MoonDog_Entry",
+          "EnterTransformID": "DLC_MoonDog_Entrance",
+          "ExitSpecLoadingID": "DLC_MoonDog_Exit"
         },
         "MapEntranceList": [
           "BigWorld_To_MoonDog"
@@ -755,6 +784,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -819,6 +849,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -883,6 +914,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -947,6 +979,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -1011,6 +1044,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -1075,6 +1109,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -1139,6 +1174,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -1203,6 +1239,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -1267,6 +1304,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -1331,6 +1369,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -1351,13 +1390,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_FilmOrbit_map_Title",
           "SourceString": "「菲林轨迹」照相馆",
-          "LocalizedString": "Film Orbit Studio"
+          "LocalizedString": "「菲林轨迹」照相馆"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_FilmOrbit_map_Title",
           "SourceString": "「菲林轨迹」照相馆",
-          "LocalizedString": "Film Orbit Studio"
+          "LocalizedString": "「菲林轨迹」照相馆"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -1384,7 +1423,10 @@
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
-          }
+          },
+          "EnterSpecLoadingID": "",
+          "EnterTransformID": "None",
+          "ExitSpecLoadingID": ""
         },
         "MapEntranceList": [
           "BigWorld_To_FilmOrbit_World"
@@ -1415,6 +1457,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -1479,6 +1522,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -1499,13 +1543,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_RT_C1",
           "SourceString": "城际巡回",
-          "LocalizedString": "Intercity Tour"
+          "LocalizedString": "城际巡回"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_RT_C1",
           "SourceString": "城际巡回",
-          "LocalizedString": "Intercity Tour"
+          "LocalizedString": "城际巡回"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -1524,7 +1568,7 @@
         "SingleExtensionData": null,
         "MapEntranceList": [],
         "ShieldUIFlags": 1,
-        "ShieldFunctionID": "RacingPVP",
+        "ShieldFunctionID": "Racing",
         "bLimitCloneEffect": false,
         "bLimitCanVault": false,
         "bLimitCanVines": false,
@@ -1549,6 +1593,220 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
+        "bShowSoundMuteButton": false,
+        "ResetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ResetRotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
+      },
+      "DLC_RT_C2": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_RACING_PVP",
+        "Title": {
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_RT_C2",
+          "SourceString": "日落霓虹",
+          "LocalizedString": "日落霓虹"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_RT_C2",
+          "SourceString": "日落霓虹",
+          "LocalizedString": "日落霓虹"
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bDisableSwitchTrack": false,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false,
+          "LimitTrackChapterID": "None"
+        },
+        "bShowTeammateTrack": false,
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [],
+        "ShieldUIFlags": 1,
+        "ShieldFunctionID": "Racing",
+        "bLimitCloneEffect": false,
+        "bLimitCanVault": false,
+        "bLimitCanVines": false,
+        "bLimitCanMelee": false,
+        "bLimitCanAbility": false,
+        "bLimitCanEvade": false,
+        "bLimitCanJump": false,
+        "bLimitCanSecondJump": false,
+        "bLimitCanUltSkill": false,
+        "bLimitCanRun": false,
+        "bLimitCanSprint": false,
+        "bLimitCanGliding": false,
+        "bLimitCanDynamicGravity": false,
+        "bLimitCanCantChangePlayer": false,
+        "bLimitCanAnim": false,
+        "bLimitCanDriving": true,
+        "bLimitCanForkAbility": false,
+        "bLimitCanSneak": false,
+        "bLimitCanJinEffect": false,
+        "bLimitCanCloseMainUI": false,
+        "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
+        "bLimitCanCloseChase": true,
+        "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
+        "bShowSoundMuteButton": false,
+        "ResetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ResetRotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
+      },
+      "DLC_RT_C1_clone": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
+        "Title": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_RT_C1_clone_name",
+          "SourceString": "试驾中心",
+          "LocalizedString": "试驾中心"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_RT_C1_clone_name",
+          "SourceString": "试驾中心",
+          "LocalizedString": "试驾中心"
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bDisableSwitchTrack": false,
+          "bUseNavPathEffect": false,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false,
+          "LimitTrackChapterID": "None"
+        },
+        "bShowTeammateTrack": false,
+        "bCanVines": false,
+        "bGuideNPCEnabled": false,
+        "SingleExtensionData": null,
+        "MapEntranceList": [],
+        "ShieldUIFlags": 1,
+        "ShieldFunctionID": "NormalClone",
+        "bLimitCloneEffect": false,
+        "bLimitCanVault": false,
+        "bLimitCanVines": false,
+        "bLimitCanMelee": false,
+        "bLimitCanAbility": false,
+        "bLimitCanEvade": false,
+        "bLimitCanJump": false,
+        "bLimitCanSecondJump": false,
+        "bLimitCanUltSkill": false,
+        "bLimitCanRun": false,
+        "bLimitCanSprint": false,
+        "bLimitCanGliding": false,
+        "bLimitCanDynamicGravity": false,
+        "bLimitCanCantChangePlayer": false,
+        "bLimitCanAnim": false,
+        "bLimitCanDriving": true,
+        "bLimitCanForkAbility": false,
+        "bLimitCanSneak": false,
+        "bLimitCanJinEffect": false,
+        "bLimitCanCloseMainUI": false,
+        "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
+        "bLimitCanCloseChase": true,
+        "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
+        "bShowSoundMuteButton": false,
+        "ResetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ResetRotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
+      },
+      "DLC_RT_C2_Racing": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_RACING_PVP",
+        "Title": {
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_RT_C2",
+          "SourceString": "日落霓虹",
+          "LocalizedString": "日落霓虹"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Level.ST_Level",
+          "Key": "DLC_RT_C2",
+          "SourceString": "日落霓虹",
+          "LocalizedString": "日落霓虹"
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bDisableSwitchTrack": false,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false,
+          "LimitTrackChapterID": "None"
+        },
+        "bShowTeammateTrack": false,
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [],
+        "ShieldUIFlags": 1,
+        "ShieldFunctionID": "Racing",
+        "bLimitCloneEffect": true,
+        "bLimitCanVault": false,
+        "bLimitCanVines": false,
+        "bLimitCanMelee": false,
+        "bLimitCanAbility": false,
+        "bLimitCanEvade": false,
+        "bLimitCanJump": false,
+        "bLimitCanSecondJump": false,
+        "bLimitCanUltSkill": false,
+        "bLimitCanRun": false,
+        "bLimitCanSprint": false,
+        "bLimitCanGliding": false,
+        "bLimitCanDynamicGravity": false,
+        "bLimitCanCantChangePlayer": false,
+        "bLimitCanAnim": false,
+        "bLimitCanDriving": false,
+        "bLimitCanForkAbility": false,
+        "bLimitCanSneak": false,
+        "bLimitCanJinEffect": false,
+        "bLimitCanCloseMainUI": false,
+        "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
+        "bLimitCanCloseChase": true,
+        "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": true,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -1613,6 +1871,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -1677,6 +1936,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -1697,13 +1957,13 @@
           "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
           "Key": "NPC_1004_Lamp_Name",
           "SourceString": "钨丝",
-          "LocalizedString": "Tungsten"
+          "LocalizedString": "钨丝"
         },
         "Description": {
           "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
           "Key": "NPC_1004_Lamp_Name",
           "SourceString": "钨丝",
-          "LocalizedString": "Tungsten"
+          "LocalizedString": "钨丝"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -1719,7 +1979,22 @@
         "bShowTeammateTrack": false,
         "bCanVines": false,
         "bGuideNPCEnabled": true,
-        "SingleExtensionData": null,
+        "SingleExtensionData": {
+          "ExitMapName": "",
+          "Rotator": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "EnterSpecLoadingID": "DLC_Museum_Lamp_Entry",
+          "EnterTransformID": "Museum_Lamp_Entrance_Store",
+          "ExitSpecLoadingID": "DLC_Museum_Lamp_Exit"
+        },
         "MapEntranceList": [
           "BigWorld_to_Museum_Story1"
         ],
@@ -1749,6 +2024,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -1769,13 +2045,13 @@
           "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
           "Key": "NPC_1004_Lamp_Name",
           "SourceString": "钨丝",
-          "LocalizedString": "Tungsten"
+          "LocalizedString": "钨丝"
         },
         "Description": {
           "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
           "Key": "NPC_1004_Lamp_Name",
           "SourceString": "钨丝",
-          "LocalizedString": "Tungsten"
+          "LocalizedString": "钨丝"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -1791,7 +2067,22 @@
         "bShowTeammateTrack": false,
         "bCanVines": false,
         "bGuideNPCEnabled": true,
-        "SingleExtensionData": null,
+        "SingleExtensionData": {
+          "ExitMapName": "",
+          "Rotator": {
+            "Pitch": 0.0,
+            "Yaw": 0.0,
+            "Roll": 0.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "EnterSpecLoadingID": "DLC_Museum_Lamp_Story2_Entry",
+          "EnterTransformID": "LampShop_Story2_Museum_S111301",
+          "ExitSpecLoadingID": "DLC_Museum_Lamp_Story2_Exit"
+        },
         "MapEntranceList": [
           "BigWorld_to_Museum_Story2"
         ],
@@ -1821,6 +2112,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": true,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -1885,6 +2177,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -1949,6 +2242,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -2013,6 +2307,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -2077,6 +2372,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -2141,6 +2437,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -2188,7 +2485,10 @@
             "X": 0.0,
             "Y": 0.0,
             "Z": 0.0
-          }
+          },
+          "EnterSpecLoadingID": "DLC_DunnerHouse_Entry",
+          "EnterTransformID": "DLC_DunnerHouse",
+          "ExitSpecLoadingID": "DLC_DunnerHouse_Exit"
         },
         "MapEntranceList": [
           "DLC_DunnerHouse"
@@ -2213,12 +2513,13 @@
         "bLimitCanDriving": true,
         "bLimitCanForkAbility": false,
         "bLimitCanSneak": true,
-        "bLimitCanJinEffect": false,
+        "bLimitCanJinEffect": true,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -2283,6 +2584,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -2347,6 +2649,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -2411,6 +2714,7 @@
         "bLimitCanPassThroughWalls": true,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -2475,6 +2779,7 @@
         "bLimitCanPassThroughWalls": true,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": true,
         "ResetLocation": {
           "X": -2666.9587,
@@ -2539,6 +2844,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -2603,6 +2909,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -2667,6 +2974,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -2731,6 +3039,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -2795,6 +3104,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -2809,19 +3119,143 @@
         "bUseEmptyQuickBar": false,
         "bCanUIOpenPauseTime": true
       },
-      "DLC_RT_C2": {
-        "SceneType": "ELevelSceneType::LEVEL_TYPE_RACING_PVP",
+      "Maps_4N": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_FINAL_TOWER",
         "Title": {
-          "TableId": "/Game/Text/ST_Level.ST_Level",
-          "Key": "DLC_RT_C2",
-          "SourceString": "日落霓虹",
-          "LocalizedString": "Sunset Neon"
+          "CultureInvariantString": null
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Level.ST_Level",
-          "Key": "DLC_RT_C2",
-          "SourceString": "日落霓虹",
-          "LocalizedString": "Sunset Neon"
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": true,
+          "bDisableSwitchTrack": false,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false,
+          "LimitTrackChapterID": "None"
+        },
+        "bShowTeammateTrack": false,
+        "bCanVines": false,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [],
+        "ShieldUIFlags": 0,
+        "ShieldFunctionID": "None",
+        "bLimitCloneEffect": false,
+        "bLimitCanVault": false,
+        "bLimitCanVines": false,
+        "bLimitCanMelee": false,
+        "bLimitCanAbility": false,
+        "bLimitCanEvade": false,
+        "bLimitCanJump": false,
+        "bLimitCanSecondJump": false,
+        "bLimitCanUltSkill": false,
+        "bLimitCanRun": false,
+        "bLimitCanSprint": false,
+        "bLimitCanGliding": false,
+        "bLimitCanDynamicGravity": false,
+        "bLimitCanCantChangePlayer": false,
+        "bLimitCanAnim": false,
+        "bLimitCanDriving": true,
+        "bLimitCanForkAbility": false,
+        "bLimitCanSneak": false,
+        "bLimitCanJinEffect": false,
+        "bLimitCanCloseMainUI": false,
+        "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
+        "bLimitCanCloseChase": true,
+        "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
+        "bShowSoundMuteButton": false,
+        "ResetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ResetRotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
+      },
+      "Maps_4NT": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_FINAL_TOWER",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": true,
+          "bDisableSwitchTrack": false,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false,
+          "LimitTrackChapterID": "None"
+        },
+        "bShowTeammateTrack": false,
+        "bCanVines": false,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [],
+        "ShieldUIFlags": 1,
+        "ShieldFunctionID": "FinalTower",
+        "bLimitCloneEffect": false,
+        "bLimitCanVault": false,
+        "bLimitCanVines": false,
+        "bLimitCanMelee": false,
+        "bLimitCanAbility": false,
+        "bLimitCanEvade": false,
+        "bLimitCanJump": false,
+        "bLimitCanSecondJump": false,
+        "bLimitCanUltSkill": false,
+        "bLimitCanRun": false,
+        "bLimitCanSprint": false,
+        "bLimitCanGliding": false,
+        "bLimitCanDynamicGravity": false,
+        "bLimitCanCantChangePlayer": false,
+        "bLimitCanAnim": false,
+        "bLimitCanDriving": true,
+        "bLimitCanForkAbility": false,
+        "bLimitCanSneak": false,
+        "bLimitCanJinEffect": false,
+        "bLimitCanCloseMainUI": false,
+        "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
+        "bLimitCanCloseChase": true,
+        "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
+        "bShowSoundMuteButton": false,
+        "ResetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ResetRotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseEmptyQuickBar": false,
+        "bCanUIOpenPauseTime": true
+      },
+      "Map_JudianTestMap": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_FINAL_TOWER",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -2839,8 +3273,8 @@
         "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
         "MapEntranceList": [],
-        "ShieldUIFlags": 1,
-        "ShieldFunctionID": "RacingPVP",
+        "ShieldUIFlags": 0,
+        "ShieldFunctionID": "None",
         "bLimitCloneEffect": false,
         "bLimitCanVault": false,
         "bLimitCanVines": false,
@@ -2865,6 +3299,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -2879,19 +3314,13 @@
         "bUseEmptyQuickBar": false,
         "bCanUIOpenPauseTime": true
       },
-      "DLC_RT_C1_clone": {
+      "DLC_DunnerHouse_Week": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
         "Title": {
-          "TableId": "/Game/Text/ST_Clone.ST_Clone",
-          "Key": "DLC_RT_C1_clone_name",
-          "SourceString": "试驾中心",
-          "LocalizedString": "Test Drive Center"
+          "CultureInvariantString": null
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Clone.ST_Clone",
-          "Key": "DLC_RT_C1_clone_name",
-          "SourceString": "试驾中心",
-          "LocalizedString": "Test Drive Center"
+          "CultureInvariantString": null
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -2899,21 +3328,21 @@
         "TrackLimit": {
           "bEnableCrossMapTrack": false,
           "bDisableSwitchTrack": false,
-          "bUseNavPathEffect": false,
+          "bUseNavPathEffect": true,
           "bForceNoNavPathEffect": false,
           "bEnableTrackTeammate": false,
           "LimitTrackChapterID": "None"
         },
         "bShowTeammateTrack": false,
-        "bCanVines": false,
-        "bGuideNPCEnabled": false,
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
         "SingleExtensionData": null,
         "MapEntranceList": [],
-        "ShieldUIFlags": 1,
-        "ShieldFunctionID": "NormalClone",
-        "bLimitCloneEffect": false,
+        "ShieldUIFlags": 0,
+        "ShieldFunctionID": "None",
+        "bLimitCloneEffect": true,
         "bLimitCanVault": false,
-        "bLimitCanVines": false,
+        "bLimitCanVines": true,
         "bLimitCanMelee": false,
         "bLimitCanAbility": false,
         "bLimitCanEvade": false,
@@ -2935,6 +3364,7 @@
         "bLimitCanPassThroughWalls": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
