@@ -6,8 +6,29 @@
     "Class": "UScriptClass'DataTable'",
     "Package": "/Game/DataTable/DT_DiceConfIDTable",
     "Properties": {
-      "RowStruct": null
+      "RowStruct": {
+        "ObjectName": "Class'HTDiceConfigRow'",
+        "ObjectPath": "/Script/HTGame"
+      }
     },
-    "Rows": {}
+    "Rows": {
+      "Dice_Test_01": {
+        "DiceConfigID": "Dice_Test_01",
+        "ResultTableID": "Test_ResultTable",
+        "UIClassID": "DiceMain",
+        "OpenTitle": {
+          "TableId": "/Game/Text/ST_Bagel.ST_Bagel",
+          "Key": "Bagel_Chat_Content1",
+          "SourceString": "<!>聊天描述1",
+          "LocalizedString": "<!>聊天描述1"
+        },
+        "OpenHint": {
+          "TableId": "/Game/Text/ST_Bubble_Chat.ST_Bubble_Chat",
+          "Key": "BWF_001_NPC05501_001",
+          "SourceString": "欢迎来到卜多力！章鱼烧刚出锅，快来趁热吃！",
+          "LocalizedString": "欢迎来到卜多力！章鱼烧刚出锅，快来趁热吃！"
+        }
+      }
+    }
   }
 ]

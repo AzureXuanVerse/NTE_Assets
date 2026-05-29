@@ -10038,7 +10038,107 @@
             "bStateMonsterNeedAttack": false,
             "bMonsterDeadDontRefresh": false,
             "bNoShowProgressCount": false,
-            "TeachSateges": null
+            "TeachSateges": {
+              "TriggerBeParryGuideID": "None",
+              "GaCounterTeachStages": [
+                {
+                  "SlotContent": {
+                    "Title": {
+                      "CultureInvariantString": null
+                    },
+                    "SlotClass": {
+                      "AssetPathName": "",
+                      "SubPathString": ""
+                    }
+                  },
+                  "AbilityName": "GA_Lacrimosa_Melee",
+                  "AbilitySectionName": "Melee1.MeleePre",
+                  "FinishCount": 1,
+                  "DetailConditionType": "ETrialTeachFinishDetailConditionType::FinisDetailCondition_Trigger",
+                  "DelayFinishTime": -1.0
+                },
+                {
+                  "SlotContent": {
+                    "Title": {
+                      "CultureInvariantString": null
+                    },
+                    "SlotClass": {
+                      "AssetPathName": "",
+                      "SubPathString": ""
+                    }
+                  },
+                  "AbilityName": "GA_Lacrimosa_Melee",
+                  "AbilitySectionName": "Melee2",
+                  "FinishCount": 1,
+                  "DetailConditionType": "ETrialTeachFinishDetailConditionType::FinisDetailCondition_None",
+                  "DelayFinishTime": -1.0
+                },
+                {
+                  "SlotContent": {
+                    "Title": {
+                      "CultureInvariantString": null
+                    },
+                    "SlotClass": {
+                      "AssetPathName": "",
+                      "SubPathString": ""
+                    }
+                  },
+                  "AbilityName": "GA_Lacrimosa_Melee",
+                  "AbilitySectionName": "Melee3",
+                  "FinishCount": 1,
+                  "DetailConditionType": "ETrialTeachFinishDetailConditionType::FinisDetailCondition_None",
+                  "DelayFinishTime": -1.0
+                },
+                {
+                  "SlotContent": {
+                    "Title": {
+                      "CultureInvariantString": null
+                    },
+                    "SlotClass": {
+                      "AssetPathName": "",
+                      "SubPathString": ""
+                    }
+                  },
+                  "AbilityName": "GA_Lacrimosa_Melee",
+                  "AbilitySectionName": "Melee4",
+                  "FinishCount": 1,
+                  "DetailConditionType": "ETrialTeachFinishDetailConditionType::FinisDetailCondition_None",
+                  "DelayFinishTime": -1.0
+                },
+                {
+                  "SlotContent": {
+                    "Title": {
+                      "CultureInvariantString": null
+                    },
+                    "SlotClass": {
+                      "AssetPathName": "",
+                      "SubPathString": ""
+                    }
+                  },
+                  "AbilityName": "GA_Lacrimosa_Melee",
+                  "AbilitySectionName": "Melee5",
+                  "FinishCount": 1,
+                  "DetailConditionType": "ETrialTeachFinishDetailConditionType::FinisDetailCondition_None",
+                  "DelayFinishTime": -1.0
+                }
+              ],
+              "PeriodGAName": "GA_Lacrimosa_Melee",
+              "IndependentShowUI": false,
+              "SlotContent": {
+                "Title": {
+                  "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+                  "Key": "Lacrimosa_Phase1",
+                  "SourceString": "进行连续的5次普通攻击",
+                  "LocalizedString": "进行连续的5次普通攻击"
+                },
+                "SlotClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                }
+              },
+              "StageFinishWaitTime": 0.0,
+              "TeachApplyEffects": []
+            }
           },
           {
             "bStateMonsterNeedAttack": false,
@@ -10215,7 +10315,75 @@
                     }
                   ]
                 },
-                null
+                {
+                  "JumpMelleSectionGE": {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Lacrimosa_SkillJumpMelee5Section_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_004_Lacrimosa/MontageSelect/Buff_Lacrimosa_SkillJumpMelee5Section.0"
+                  },
+                  "BeforeJumpMelleGaNames": [
+                    "GA_Lacrimosa_Skill"
+                  ],
+                  "BreakSkillCondition": 16,
+                  "Operation": "EStagesOperation::OR",
+                  "TeachStageNeedFinishCount": 1,
+                  "GaCounterTeachStages": [
+                    {
+                      "SlotContent": {
+                        "Title": {
+                          "CultureInvariantString": null
+                        },
+                        "SlotClass": {
+                          "AssetPathName": "",
+                          "SubPathString": ""
+                        }
+                      },
+                      "AbilityName": "GA_Lacrimosa_Melee",
+                      "AbilitySectionName": "Melee5",
+                      "FinishCount": 1,
+                      "DetailConditionType": "ETrialTeachFinishDetailConditionType::FinisDetailCondition_Trigger",
+                      "DelayFinishTime": -1.0
+                    },
+                    {
+                      "SlotContent": {
+                        "Title": {
+                          "CultureInvariantString": null
+                        },
+                        "SlotClass": {
+                          "AssetPathName": "",
+                          "SubPathString": ""
+                        }
+                      },
+                      "AbilityName": "GA_Lacrimosa_MeleeModA",
+                      "AbilitySectionName": "Melee5",
+                      "FinishCount": 1,
+                      "DetailConditionType": "ETrialTeachFinishDetailConditionType::FinisDetailCondition_Trigger",
+                      "DelayFinishTime": -1.0
+                    }
+                  ],
+                  "IndependentShowUI": false,
+                  "SlotContent": {
+                    "Title": {
+                      "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+                      "Key": "Lacrimosa_Phase3",
+                      "SourceString": "释放一次变轨技能后，立刻衔接普通攻击",
+                      "LocalizedString": "释放一次变轨技能后，立刻衔接普通攻击"
+                    },
+                    "SlotClass": {
+                      "AssetPathName": "",
+                      "SubPathString": ""
+                    }
+                  },
+                  "StageFinishWaitTime": 0.0,
+                  "TeachApplyEffects": [
+                    {
+                      "GuideID": "TeachLacrimosa4",
+                      "ApplyTargetType": "ETeachApplyTargetType::Player",
+                      "ApplyOperation": "ETeachApplyOperation::Add",
+                      "ApplyTime": 8,
+                      "ApplyNetPolicy": "ETeachApplyNetPolicy::Client"
+                    }
+                  ]
+                }
               ],
               "IndependentShowUI": true,
               "SlotContent": {
@@ -10263,8 +10431,72 @@
               "bEndNestStage": true,
               "bStartListenAllNestStage": false,
               "TeachSateges": [
-                null,
-                null
+                {
+                  "StealAbilityName": "GA_mon_023_Skill03Steal",
+                  "StealCount": 1,
+                  "IndependentShowUI": false,
+                  "SlotContent": {
+                    "Title": {
+                      "CultureInvariantString": "偷取长明灯技能"
+                    },
+                    "SlotClass": {
+                      "AssetPathName": "",
+                      "SubPathString": ""
+                    }
+                  },
+                  "StageFinishWaitTime": 0.0,
+                  "TeachApplyEffects": [
+                    {
+                      "GuideID": "TeachLacrimosa5",
+                      "ApplyTargetType": "ETeachApplyTargetType::Player",
+                      "ApplyOperation": "ETeachApplyOperation::Add",
+                      "ApplyTime": 1,
+                      "ApplyNetPolicy": "ETeachApplyNetPolicy::Client"
+                    }
+                  ]
+                },
+                {
+                  "bRecoverStealAbility": true,
+                  "GaCounterTeachStages": [
+                    {
+                      "SlotContent": {
+                        "Title": {
+                          "CultureInvariantString": null
+                        },
+                        "SlotClass": {
+                          "AssetPathName": "",
+                          "SubPathString": ""
+                        }
+                      },
+                      "AbilityName": "GA_mon_023_Skill03Steal",
+                      "AbilitySectionName": "None",
+                      "FinishCount": 1,
+                      "DetailConditionType": "ETrialTeachFinishDetailConditionType::FinisDetailCondition_End",
+                      "DelayFinishTime": -1.0
+                    }
+                  ],
+                  "PeriodGAName": "None",
+                  "IndependentShowUI": false,
+                  "SlotContent": {
+                    "Title": {
+                      "CultureInvariantString": "释放一次偷取的技能"
+                    },
+                    "SlotClass": {
+                      "AssetPathName": "",
+                      "SubPathString": ""
+                    }
+                  },
+                  "StageFinishWaitTime": 0.0,
+                  "TeachApplyEffects": [
+                    {
+                      "GuideID": "TeachLacrimosa6",
+                      "ApplyTargetType": "ETeachApplyTargetType::Player",
+                      "ApplyOperation": "ETeachApplyOperation::Add",
+                      "ApplyTime": 1,
+                      "ApplyNetPolicy": "ETeachApplyNetPolicy::Client"
+                    }
+                  ]
+                }
               ],
               "IndependentShowUI": true,
               "SlotContent": {
@@ -10325,13 +10557,161 @@
             "bStateMonsterNeedAttack": false,
             "bMonsterDeadDontRefresh": false,
             "bNoShowProgressCount": false,
-            "TeachSateges": null
+            "TeachSateges": {
+              "bRecoverStealAbility": true,
+              "GaCounterTeachStages": [
+                {
+                  "SlotContent": {
+                    "Title": {
+                      "CultureInvariantString": null
+                    },
+                    "SlotClass": {
+                      "AssetPathName": "",
+                      "SubPathString": ""
+                    }
+                  },
+                  "AbilityName": "GA_mon_35_act02_Red_Steal",
+                  "AbilitySectionName": "None",
+                  "FinishCount": 1,
+                  "DetailConditionType": "ETrialTeachFinishDetailConditionType::FinisDetailCondition_End",
+                  "DelayFinishTime": -1.0
+                }
+              ],
+              "PeriodGAName": "None",
+              "IndependentShowUI": false,
+              "SlotContent": {
+                "Title": {
+                  "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+                  "Key": "Lacrimosa_Phase6",
+                  "SourceString": "记忆并释放罐头锡兵的技能",
+                  "LocalizedString": "记忆并释放罐头锡兵的技能"
+                },
+                "SlotClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                }
+              },
+              "StageFinishWaitTime": 0.0,
+              "TeachApplyEffects": [
+                {
+                  "SpawnMonsterID": "TeachClone_Lacrimosa_mon35",
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::Add",
+                  "ApplyTime": 1,
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server"
+                },
+                {
+                  "ApplyGEClass": {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_CantUseSkill_TA_Infinity_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/TA/Buff_CantUseSkill_TA_Infinity.1"
+                  },
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::FillOrRemove",
+                  "ApplyTime": 1,
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server"
+                },
+                {
+                  "ApplyGEClass": {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_ClearSkillCD_TA_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/TA/Buff_ClearSkillCD_TA.0"
+                  },
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::Add",
+                  "ApplyTime": 5,
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server"
+                },
+                {
+                  "ApplyGEClass": {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_CantUseAim_TA_Infinity_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/TA/Buff_CantUseAim_TA_Infinity.1"
+                  },
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::FillOrRemove",
+                  "ApplyTime": 1,
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server"
+                }
+              ]
+            }
           },
           {
             "bStateMonsterNeedAttack": false,
             "bMonsterDeadDontRefresh": false,
             "bNoShowProgressCount": false,
-            "TeachSateges": null
+            "TeachSateges": {
+              "bRecoverStealAbility": true,
+              "GaCounterTeachStages": [
+                {
+                  "SlotContent": {
+                    "Title": {
+                      "CultureInvariantString": null
+                    },
+                    "SlotClass": {
+                      "AssetPathName": "",
+                      "SubPathString": ""
+                    }
+                  },
+                  "AbilityName": "GA_boss_13_act02_Steal",
+                  "AbilitySectionName": "None",
+                  "FinishCount": 1,
+                  "DetailConditionType": "ETrialTeachFinishDetailConditionType::FinisDetailCondition_End",
+                  "DelayFinishTime": -1.0
+                }
+              ],
+              "PeriodGAName": "None",
+              "IndependentShowUI": false,
+              "SlotContent": {
+                "Title": {
+                  "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+                  "Key": "Lacrimosa_Phase7",
+                  "SourceString": "记忆并释放无首铁驭的技能",
+                  "LocalizedString": "记忆并释放无首铁驭的技能"
+                },
+                "SlotClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                }
+              },
+              "StageFinishWaitTime": 0.0,
+              "TeachApplyEffects": [
+                {
+                  "SpawnMonsterID": "TeachClone_Lacrimosa_boss13",
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::Add",
+                  "ApplyTime": 1,
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server"
+                },
+                {
+                  "ApplyGEClass": {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_CantUseSkill_TA_Infinity_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/TA/Buff_CantUseSkill_TA_Infinity.1"
+                  },
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::FillOrRemove",
+                  "ApplyTime": 1,
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server"
+                },
+                {
+                  "ApplyGEClass": {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_ClearSkillCD_TA_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/TA/Buff_ClearSkillCD_TA.0"
+                  },
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::Add",
+                  "ApplyTime": 5,
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server"
+                },
+                {
+                  "ApplyGEClass": {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_CantUseAim_TA_Infinity_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Buff/Level/TA/Buff_CantUseAim_TA_Infinity.1"
+                  },
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::FillOrRemove",
+                  "ApplyTime": 1,
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Server"
+                }
+              ]
+            }
           },
           {
             "bStateMonsterNeedAttack": false,
@@ -10744,7 +11124,59 @@
             "bStateMonsterNeedAttack": false,
             "bMonsterDeadDontRefresh": false,
             "bNoShowProgressCount": false,
-            "TeachSateges": null
+            "TeachSateges": {
+              "GuideNames": [
+                "TeachChaos3",
+                "TeachChaos4"
+              ],
+              "ConditionGeClass": {
+                "ObjectName": "BlueprintGeneratedClass'Buff_Chaos_GE_BranchChargeComplete_C'",
+                "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_071_Chaos/Buff/Buff_Chaos_GE_BranchChargeComplete.1"
+              },
+              "JumpSectionName": "Branch2",
+              "GaCounterTeachStages": [
+                {
+                  "SlotContent": {
+                    "Title": {
+                      "CultureInvariantString": null
+                    },
+                    "SlotClass": {
+                      "AssetPathName": "",
+                      "SubPathString": ""
+                    }
+                  },
+                  "AbilityName": "GA_Chaos071_Melee",
+                  "AbilitySectionName": "Branch2",
+                  "FinishCount": 1,
+                  "DetailConditionType": "ETrialTeachFinishDetailConditionType::FinisDetailCondition_None",
+                  "DelayFinishTime": -1.0
+                }
+              ],
+              "PeriodGAName": "None",
+              "IndependentShowUI": false,
+              "SlotContent": {
+                "Title": {
+                  "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+                  "Key": "Chaos_Phase4",
+                  "SourceString": "积攒「罪状」至上限时释放1次强化普通攻击及其衍生攻击",
+                  "LocalizedString": "积攒「罪状」至上限时释放1次强化普通攻击及其衍生攻击"
+                },
+                "SlotClass": {
+                  "AssetPathName": "",
+                  "SubPathString": ""
+                }
+              },
+              "StageFinishWaitTime": 0.0,
+              "TeachApplyEffects": [
+                {
+                  "ChargeCountPercent": 90.0,
+                  "ApplyTargetType": "ETeachApplyTargetType::Player",
+                  "ApplyOperation": "ETeachApplyOperation::Add",
+                  "ApplyTime": 8,
+                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Client"
+                }
+              ]
+            }
           },
           {
             "bStateMonsterNeedAttack": false,
@@ -10864,7 +11296,45 @@
                     }
                   ]
                 },
-                null
+                {
+                  "GuideNames": [],
+                  "ConditionGeClass": {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Chaos_Ultraskill_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_071_Chaos/Buff/Buff_Chaos_Ultraskill.0"
+                  },
+                  "JumpSectionName": "Branch2_Ultra",
+                  "GaCounterTeachStages": [
+                    {
+                      "SlotContent": {
+                        "Title": {
+                          "CultureInvariantString": null
+                        },
+                        "SlotClass": {
+                          "AssetPathName": "",
+                          "SubPathString": ""
+                        }
+                      },
+                      "AbilityName": "GA_Chaos071_Melee",
+                      "AbilitySectionName": "Branch2_Ultra",
+                      "FinishCount": 1,
+                      "DetailConditionType": "ETrialTeachFinishDetailConditionType::FinisDetailCondition_None",
+                      "DelayFinishTime": -1.0
+                    }
+                  ],
+                  "PeriodGAName": "None",
+                  "IndependentShowUI": false,
+                  "SlotContent": {
+                    "Title": {
+                      "CultureInvariantString": "释放2次强化攻击及其衍生攻击"
+                    },
+                    "SlotClass": {
+                      "AssetPathName": "",
+                      "SubPathString": ""
+                    }
+                  },
+                  "StageFinishWaitTime": 0.0,
+                  "TeachApplyEffects": []
+                }
               ],
               "IndependentShowUI": true,
               "SlotContent": {

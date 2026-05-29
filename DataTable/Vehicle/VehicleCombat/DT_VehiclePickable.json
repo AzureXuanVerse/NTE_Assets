@@ -6,8 +6,33 @@
     "Class": "UScriptClass'DataTable'",
     "Package": "/Game/DataTable/Vehicle/VehicleCombat/DT_VehiclePickable",
     "Properties": {
-      "RowStruct": null
+      "RowStruct": {
+        "ObjectName": "Class'VehiclePickableData'",
+        "ObjectPath": "/Script/HTGame"
+      }
     },
-    "Rows": {}
+    "Rows": {
+      "TestFightData": {
+        "ItemType": "EVehiclePickableItem::EVPI_Weapon",
+        "WeaponID": "TestFightData",
+        "AudoDestroy": true,
+        "DisplayMesh": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DisplayParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TriggerParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TriggerAudio": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    }
   }
 ]

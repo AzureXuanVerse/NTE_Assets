@@ -2705,7 +2705,51 @@
         "CharacterID": "1004",
         "AddLikeabilityValue": 200,
         "Steps": [
-          null,
+          {
+            "Participants": [
+              {
+                "MontageName": "None",
+                "CollisionProfileName": "None",
+                "bNeedBreakAllMontage": true,
+                "Location": {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                },
+                "Rotation": {
+                  "Pitch": 0.0,
+                  "Yaw": 0.0,
+                  "Roll": 0.0
+                },
+                "UseSpecialLocationOffset": false
+              },
+              {
+                "AITemplate": {
+                  "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_004/Dating/D0111004/BP_NPC_004_D0111004.BP_NPC_004_D0111004_C",
+                  "SubPathString": ""
+                },
+                "DlgIdleState": {
+                  "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_004/Dating/D0111004/Idle_NPC_001_D0111004_S00.Idle_NPC_001_D0111004_S00_C",
+                  "SubPathString": ""
+                },
+                "Location": {
+                  "X": -131297.31,
+                  "Y": 154521.62,
+                  "Z": 6827.0
+                },
+                "Rotation": {
+                  "Pitch": 0.0,
+                  "Yaw": -28.0,
+                  "Roll": 0.0
+                },
+                "UseSpecialLocationOffset": false
+              }
+            ],
+            "NeedClearLastParticipant": true,
+            "bNeedFadeInOut": true,
+            "bNeedFirstPerson": false,
+            "TargetTag": "D011"
+          },
           {
             "DialogueAsset": {
               "AssetPathName": "/Game/Dialogue/DateDialogue/D0111004/NPC_004_D0111004_01.NPC_004_D0111004_01",
@@ -3215,7 +3259,51 @@
         "CharacterID": "1071",
         "AddLikeabilityValue": 200,
         "Steps": [
-          null
+          {
+            "Participants": [
+              {
+                "MontageName": "None",
+                "CollisionProfileName": "None",
+                "bNeedBreakAllMontage": true,
+                "Location": {
+                  "X": -278934.06,
+                  "Y": 336458.62,
+                  "Z": 2464.8103
+                },
+                "Rotation": {
+                  "Pitch": 0.0,
+                  "Yaw": 34.65296,
+                  "Roll": 0.0
+                },
+                "UseSpecialLocationOffset": false
+              },
+              {
+                "AITemplate": {
+                  "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_024/Dating/BP_NPC_024_Date.BP_NPC_024_Date_C",
+                  "SubPathString": ""
+                },
+                "DlgIdleState": {
+                  "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_024/Dating/D0091071/Idle_NPC_024_Date_D0081071_S00.Idle_NPC_024_Date_D0081071_S00_C",
+                  "SubPathString": ""
+                },
+                "Location": {
+                  "X": -278997.0,
+                  "Y": 336549.28,
+                  "Z": 2472.8982
+                },
+                "Rotation": {
+                  "Pitch": 0.0,
+                  "Yaw": 32.27394,
+                  "Roll": 0.0
+                },
+                "UseSpecialLocationOffset": false
+              }
+            ],
+            "NeedClearLastParticipant": true,
+            "bNeedFadeInOut": true,
+            "bNeedFirstPerson": false,
+            "TargetTag": "D013"
+          }
         ],
         "UnSatisfiedText": {
           "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",

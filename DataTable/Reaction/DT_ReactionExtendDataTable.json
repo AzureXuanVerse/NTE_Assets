@@ -537,7 +537,20 @@
           "CultureInvariantString": "真红"
         },
         "ReactionDataArray": [
-          null
+          {
+            "BackChargeMul": 1.0,
+            "ReactionAbilityID": "GA_Shinku_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Shinku076_Passive1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_076_Shinku/PassiveEffect/Buff_Shinku076_Passive1.0"
+                  }
+                ]
+              }
+            ]
+          }
         ],
         "Desc": {
           "CultureInvariantString": "前台角色获得充能时，后台角色获得等量充能。"
@@ -575,7 +588,23 @@
           "CultureInvariantString": "卡厄斯"
         },
         "ReactionDataArray": [
-          null
+          {
+            "DamageTargetGEClass": {
+              "ObjectName": "BlueprintGeneratedClass'GE_Reaction_3_new_1071_Damage_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Buff/element/Reaction/ReactionEffect/Reaction3/New/GE_Reaction_3_new_1071_Damage.1"
+            },
+            "ReactionAbilityID": "GA_Chaos_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Chaos071_Passive1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_071_Chaos/PassiveEffect/Buff_Chaos071_Passive1.1"
+                  }
+                ]
+              }
+            ]
+          }
         ],
         "Desc": {
           "CultureInvariantString": "解除迟缓时，卡厄斯根据本次迟缓持续时间对目标造成高额伤害，每持续1秒提升x%，上限x%"
