@@ -24237,6 +24237,1103 @@
           "AssetPathName": "",
           "SubPathString": ""
         }
+      },
+      "GA_Chaos_Passive_1": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+          "Key": "GA_Chaos_Passive_1_name",
+          "SourceString": "未迟到的正义",
+          "LocalizedString": "Justice in Time"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Passive_1_des",
+              "SourceString": "<TextHLT>「延滞」强化</>：当目标的「延滞」状态解除时，卡厄斯将会根据本次「延滞」持续时间对目标造成高额伤害，每持续<NumGreen>1</>秒提升<NumGreen>x%</>，上限<NumGreen>x%</>。",
+              "LocalizedString": "<TextHLT>Remora Enhancement</>: Remora Enhancement: Deals heavy damage to the target when their Remora state ends, based on Remora's duration. Increases DMG by <NumGreen>x%</> for every <NumGreen>1</>s of duration, up to <NumGreen>x%</>."
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Passive_1_background",
+              "SourceString": "<Italic>所以你仍旧相信，正确的答案一定能带来光明的结局？</>",
+              "LocalizedString": "<Italic>Do you still believe every right answer leads to light? </>"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Chaos_Passive1.Chaos_Passive1",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Chaos_Passive_2": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+          "Key": "GA_Chaos_Passive_2_name",
+          "SourceString": "重点关注！",
+          "LocalizedString": "Prime Target"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Passive_2_des",
+              "SourceString": "<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>的伤害增加效果提升至<NumGreen>x%</>。",
+              "LocalizedString": "Increases the damage bonus from <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</> to <NumGreen>x%</>."
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Passive_2_background",
+              "SourceString": "<Italic>「我已经走完流程和审批了！」</>",
+              "LocalizedString": "<Italic>\"All forms filed. All approvals granted.\" </>"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Chaos_Passive2.Chaos_Passive2",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Chaos_Melee": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+          "Key": "GA_Chaos_Melee_name",
+          "SourceString": "追猎",
+          "LocalizedString": "Pursuit"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee1_name",
+              "SourceString": "<Title>普通攻击：追猎</>",
+              "LocalizedString": "<Title>Basic Attack: Pursuit</>"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee1_des",
+              "SourceString": "卡厄斯挥动武器，进行至多<NumGreen>5</>段的连续攻击，造成<Xiang>相属性异能伤害</>。",
+              "LocalizedString": "Wields his weapon and performs up to <NumGreen>5</> consecutive attacks, dealing <Xiang>Lakshana DMG</>."
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee1_des_tidy",
+              "SourceString": "造成<Xiang>相属性异能伤害</>。",
+              "LocalizedString": "Deals <Xiang>Lakshana DMG</>."
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee2_name",
+              "SourceString": "<Title>普通攻击：裁断</>",
+              "LocalizedString": "<Title>Basic Attack: Final Verdict</>"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee2_des",
+              "SourceString": "你的罪状，已经一目了然。长按普通攻击，卡厄斯展开镰刀发动「普通攻击：裁断」。若当前<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>已达上限，则消耗全部<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>，追加第二段「裁断」，造成高额清算伤害；若<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>未达上限，则只进行第一段「裁断」，造成<NumGreen>1</>次伤害。",
+              "LocalizedString": "Your guilt is plain to see. Hold Basic Attack to trigger Final Verdict. Consumes all <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crimes</> to add a 2nd hit to Final Verdict and deal heavy Settlement DMG if current <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crime</> is at its cap. Performs only the 1st hit of Final Verdict, dealing <NumGreen>1</> instance of damage, if <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crime</> has not reached its cap."
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee2_des_tidy",
+              "SourceString": "长按普通攻击造成<Xiang>相属性异能伤害</>。若当前<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>已达上限100，则消耗全部<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>额外进行第二段攻击；否则只进行一段攻击。",
+              "LocalizedString": "长按普通攻击造成<Xiang>相属性异能伤害</>。若当前<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>已达上限100，则消耗全部<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>额外进行第二段攻击；否则只进行一段攻击。"
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee3_name",
+              "SourceString": "<Title>普通攻击：破局</>",
+              "LocalizedString": "<Title>Basic Attack: Overturn</>"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee3_des",
+              "SourceString": "卡厄斯滞空时点按普攻，落地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升<NumGreen>x%</>。",
+              "LocalizedString": "Press Basic Attack while airborne to plunge, dealing <NumGreen>1</> instance of <Xiang>Lakshana DMG</> to an area upon impact. Increases DMG based on fall height, up to <NumGreen>x%</>."
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_background",
+              "SourceString": "<Italic>经年累月的磨炼。</>",
+              "LocalizedString": "<Italic>Honed over countless years. </>"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Chaos_Melee.Chaos_Melee",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Chaos_Melee1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_1_des",
+              "SourceString": "一段伤害倍率",
+              "LocalizedString": "1st Instance DMG Ratio"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_1_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Chaos_Melee2_Damage",
+                "GE_Player_Chaos_Melee2_1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_2_des",
+              "SourceString": "二段伤害倍率",
+              "LocalizedString": "2nd Instance DMG Ratio"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_2_num",
+              "SourceString": "{0}%+{1}%",
+              "LocalizedString": "{0}%+{1}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Chaos_Melee3_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_3_des",
+              "SourceString": "三段伤害倍率",
+              "LocalizedString": "3rd Instance DMG Ratio"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_3_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Chaos_Melee4_Damage",
+                "GE_Player_Chaos_Melee4_1_Damage",
+                "GE_Player_Chaos_Melee4_2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_4_des",
+              "SourceString": "四段伤害倍率",
+              "LocalizedString": "4th Instance DMG Ratio"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_4_num",
+              "SourceString": "{0}%+{1}%*2+{2}%",
+              "LocalizedString": "{0}%+{1}%*2+{2}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Chaos_Melee5_Damage",
+                "GE_Player_Chaos_Melee5_1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_5_des",
+              "SourceString": "五段伤害倍率",
+              "LocalizedString": "5th Instance DMG Ratio"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_5_num",
+              "SourceString": "{0}%*2+{1}%",
+              "LocalizedString": "{0}%*2+{1}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Chaos_Airattack_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_AirAttack_1_des",
+              "SourceString": "下落伤害倍率",
+              "LocalizedString": "Plunge DMG Ratio"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_AirAttack_1_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Chaos_Branch1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Branch_1_des",
+              "SourceString": "分支一段伤害倍率",
+              "LocalizedString": "Branch 1st Instance DMG Ratio"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Branch_1_num",
+              "SourceString": "{0}%*2",
+              "LocalizedString": "{0}% *2"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Chaos_Branch2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_BranchPower_1_des",
+              "SourceString": "分支二段清算伤害倍率",
+              "LocalizedString": "Branch 2nd Instance Settlement DMG Ratio"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_BranchPower_1_num",
+              "SourceString": "{0}%*2",
+              "LocalizedString": "{0}% *2"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Chaos_PerfectEvadeAttack1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "Chaos_PerfectEvade_dmg_des",
+              "SourceString": "极限反击倍率",
+              "LocalizedString": "Critical Riposte Ratio"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "Chaos_PerfectEvade_dmg_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Melee_Heterochrome_Show",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_Heterochrome_des",
+              "SourceString": "环合值",
+              "LocalizedString": "Cycle Energy"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_Heterochrome_num",
+              "SourceString": "{0}",
+              "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Melee_engry_Show",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_engry_1_des",
+              "SourceString": "全套普通攻击积攒<TextEXPL>「罪状」</>。",
+              "LocalizedString": "全套普通攻击积攒<TextEXPL>「罪状」</>。"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_engry_1_num",
+              "SourceString": "{0}",
+              "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "PerfectEvade_engry_Show",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_engry_2_des",
+              "SourceString": "极限反击积攒<TextEXPL>「罪状」</>。",
+              "LocalizedString": "极限反击积攒<TextEXPL>「罪状」</>。"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_engry_2_num",
+              "SourceString": "{0}",
+              "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Airattack_engry_Show",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_engry_3_des",
+              "SourceString": "下落攻击积攒<TextEXPL>「罪状」</>。",
+              "LocalizedString": "下落攻击积攒<TextEXPL>「罪状」</>。"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee_engry_3_num",
+              "SourceString": "{0}",
+              "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          }
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Chaos_Skill": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+          "Key": "GA_Chaos_Skill_name",
+          "SourceString": "疑点锁定",
+          "LocalizedString": "Doubtmark"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill1_name",
+              "SourceString": "<Title>疑点锁定</>",
+              "LocalizedString": "<Title>Doubtmark</>"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill1_des",
+              "SourceString": "已确认目标特征。卡厄斯使用手枪对前方目标进行射击，并召唤猎犬扑向目标，猎犬对目标进行来回<NumGreen>2</>次撕咬攻击。技能命中目标后，为最多<NumGreen>2</>名敌人施加<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>，持续<NumGreen>8</>秒。卡厄斯攻击带有<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>的目标时，造成的伤害增加。",
+              "LocalizedString": "Target traits confirmed. Fires at enemies ahead and summons his hound to pounce on the target. The hound bites the target back and forth <NumGreen>twice</>. Inflicts <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</> on up to <NumGreen>2</> enemies for <NumGreen>8</>s when the skill hits. Increases damage dealt when attacking targets with <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</>."
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill1_des_tidy",
+              "SourceString": "造成<Xiang>相属性异能伤害</>，并为目标施加<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>。攻击带有<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>的目标时，造成的伤害增加。",
+              "LocalizedString": "Deals <Xiang>Lakshana DMG</> and inflicts <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</> on the target. Deals bonus damage to targets with <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</>."
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill_background",
+              "SourceString": "<Italic>卡厄斯不太记得这条猎犬是什么时候出现的了。似乎是某天，他突然开始想念从前家中的小狗，于是猎犬便出现了。</>",
+              "LocalizedString": "<Italic>Chaos can't remember when the hound first appeared. He only remembers missing the little dog from home, and then the hound was there. </>"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Chaos_Skill.Chaos_Skill",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Chaos_Skill1_Damage",
+                "GE_Player_Chaos_Skill2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill_2_des",
+              "SourceString": "猎犬撕咬伤害倍率",
+              "LocalizedString": "Bite DMG Ratio"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill_2_num",
+              "SourceString": "{0}%*2",
+              "LocalizedString": "{0}% *2"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Skill_Marknum_Show",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill_3_des",
+              "SourceString": "施加「追缉许可」目标数量",
+              "LocalizedString": "Targets with Warrant"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill_3_num",
+              "SourceString": "{0}",
+              "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "SkillCDName": "GA_Chaos_Skill"
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill_cooldown_des",
+              "SourceString": "冷却时间",
+              "LocalizedString": "Cooldown"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill_cooldown_num",
+              "SourceString": "{0}秒",
+              "LocalizedString": "{0}s"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Skill_Heterochrome_Show",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill_Heterochrome_des",
+              "SourceString": "环合值",
+              "LocalizedString": "Cycle Energy"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill_Heterochrome_num",
+              "SourceString": "{0}",
+              "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Skill_engry_Show",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill_engry_1_des",
+              "SourceString": "积攒<TextEXPL>「罪状」</>。",
+              "LocalizedString": "积攒<TextEXPL>「罪状」</>。"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill_engry_1_num",
+              "SourceString": "{0}",
+              "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          }
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Chaos_UltraSkill": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+          "Key": "GA_Chaos_UltraSkill_name",
+          "SourceString": "罪业清偿",
+          "LocalizedString": "Retribution"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_UltraSkill_des",
+              "SourceString": "卡厄斯召唤猎犬压制周围敌人，对范围内所有敌人施加<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>，并进入<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosInfamyCycle\">「恶名往复」</>状态。\r\n<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosInfamyCycle\">「恶名往复」</>期间，<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>会持续快速增长，可更频繁发动「裁断」造成高额清算伤害。",
+              "LocalizedString": "Summons his hound to suppress nearby enemies, inflicting <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</> on all enemies within range and entering the <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosInfamyCycle\">Dread Echo</> state.\r\nIncreases <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crime</> rapidly over time while <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosInfamyCycle\">Dread Echo</> is active, allowing Final Verdict to be cast more frequently to deal heavy Settlement DMG."
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_UltraSkill_des_tidy",
+              "SourceString": "进入<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosInfamyCycle\">「恶名往复」</>状态，期间范围内敌人均会被施加<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>，同时<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>持续快速增长。",
+              "LocalizedString": "Enters the <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosInfamyCycle\">Dread Echo</> state. Increases <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crime</> rapidly over time while active, and inflicts <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</> on all enemies within range."
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_UltraSkill_background",
+              "SourceString": "<Italic>其实你隐约明白，善恶循环往复，这一切永远不会有尽头。</>",
+              "LocalizedString": "<Italic>Deep down, you know good and evil cycle endlessly, and none of it ever truly ends. </>"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Chaos_UltraSkill.Chaos_UltraSkill",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Chaos_Skill1_Damage",
+                "GE_Player_Chaos_Skill2_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_UltraSkill_1_des",
+              "SourceString": "压制伤害倍率",
+              "LocalizedString": "Suppression DMG Ratio"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill_2_num",
+              "SourceString": "{0}%*2",
+              "LocalizedString": "{0}% *2"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Chaos_Ultraskill_Duration",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_UltraSkill_2_des",
+              "SourceString": "「恶名往复」持续时间",
+              "LocalizedString": "Dread Echo Duration"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_UltraSkill_2_num",
+              "SourceString": "{0}秒",
+              "LocalizedString": "{0}s"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "UltraAutoAddSinsCore_Show",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_UltraSkill_3_des",
+              "SourceString": "「罪状」增长速度",
+              "LocalizedString": "「罪状」增长速度"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_UltraSkill_3_num",
+              "SourceString": "{0}/秒",
+              "LocalizedString": "{0}/秒"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Chaos_UltraskillHuntMarkDuration",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_UltraSkill_4_des",
+              "SourceString": "「追缉许可」持续时间",
+              "LocalizedString": "Warrant Duration"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_UltraSkill_4_num",
+              "SourceString": "{0}秒",
+              "LocalizedString": "{0}s"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "SkillCDName": "GA_ Chaos_UltraSkill"
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_UltraSkill_cooldown_des",
+              "SourceString": "冷却时间",
+              "LocalizedString": "Cooldown"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_UltraSkill_cooldown_num",
+              "SourceString": "{0}秒",
+              "LocalizedString": "{0}s"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "SkillCostName": "GA_Chaos071_UltraSkill"
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_UltraSkill_ChargeCost_des",
+              "SourceString": "消耗终结能量",
+              "LocalizedString": "Costs Ultimate Energy"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_UltraSkill_ChargeCost_num",
+              "SourceString": "{0}",
+              "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          }
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Chaos_QTE": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+          "Key": "GA_Chaos_QTE_name",
+          "SourceString": "强袭",
+          "LocalizedString": "Onslaught"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_QTE1_name",
+              "SourceString": "<Title>强袭</>",
+              "LocalizedString": "<Title>Onslaught</>"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_QTE_des",
+              "SourceString": "别想逃跑！卡厄斯挥舞镰刀上劈，造成<NumGreen>1</>次<Xiang>相属性异能伤害</>。",
+              "LocalizedString": "Don't even think about running! Swings his scythe upward, dealing <NumGreen>1</> instance of <Xiang>Lakshana DMG</>."
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_QTE_des_tidy",
+              "SourceString": "造成<Xiang>相属性异能伤害</>。",
+              "LocalizedString": "Deals <Xiang>Lakshana DMG</>."
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_QTE_background",
+              "SourceString": "<Italic>齐心协力、风雨同舟，从前也是如此。</>",
+              "LocalizedString": "<Italic>United in purpose, through fair weather and foul, as they once were. </>"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Chaos_QTE.Chaos_QTE",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [
+          {
+            "LevelUpData": {
+              "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
+              "DamageGEList": [
+                "GE_Player_Chaos_QTE1_Damage"
+              ],
+              "DefGEList": [],
+              "HPGEList": []
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_QTE_dmg_des",
+              "SourceString": "伤害倍率",
+              "LocalizedString": "DMG Ratio"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_QTE_dmg_num",
+              "SourceString": "{0}%",
+              "LocalizedString": "{0}%"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          }
+        ],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Chaos_Passive_3": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+          "Key": "GA_Chaos_Passive_3_name",
+          "SourceString": "尘中影",
+          "LocalizedString": "Ashen Shade"
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Passive_3_des",
+              "SourceString": "在大世界中，卡厄斯能够留下猎犬作为传送锚点。需要传送时，猎犬将会撕咬出连通空间的门扉，卡厄斯由此回到锚点所在之处。",
+              "LocalizedString": "Leaves his hound behind as a teleport anchor in the open world. When teleporting, the hound tears open a doorway through space, allowing Chaos to return to the anchor's location."
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Passive_3_background",
+              "SourceString": "<Italic>但你追不上过去的影子。</>",
+              "LocalizedString": "<Italic>Yet the shadow of the past remains out of reach. </>"
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Chaos_Passive3.Chaos_Passive3",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
       }
     }
   }

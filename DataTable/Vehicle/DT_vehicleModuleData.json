@@ -18766,7 +18766,7 @@
           "MaxRPM": 9000,
           "IdleRPM": 1200,
           "MaxTorque": 900,
-          "TopSpeed": 197.0,
+          "TopSpeed": 198.0,
           "RPM_TorqueCurve": {
             "EditorCurveData": {
               "Keys": [
@@ -18911,7 +18911,7 @@
         "BasePropsScore": [
           {
             "Key": "EVehicleModuleScoreType::UI_TopSpeed",
-            "Value": 191.0
+            "Value": 197.0
           },
           {
             "Key": "EVehicleModuleScoreType::UI_SpeedUp",
@@ -28394,7 +28394,7 @@
           "MaxRPM": 9000,
           "IdleRPM": 1200,
           "MaxTorque": 900,
-          "TopSpeed": 200.0,
+          "TopSpeed": 205.0,
           "RPM_TorqueCurve": {
             "EditorCurveData": {
               "Keys": [
@@ -30839,17 +30839,17 @@
         "ModuleProps": {
           "bIsTireInited": false,
           "FrontTyreFriction": {
-            "FrictionMultiplier_Normal": 2.9,
-            "FrictionMultiplier_Wet": 2.6,
-            "FrictionMultiplier_Snow": 2.6,
+            "FrictionMultiplier_Normal": 3.5,
+            "FrictionMultiplier_Wet": 2.8,
+            "FrictionMultiplier_Snow": 2.7,
             "FrictionMultiplier_Broken": 0.1,
             "BrakeFrictionScale_Wet": 0.6,
             "BrakeFrictionScale_Snow": 0.6
           },
           "RearTyreFriction": {
-            "FrictionMultiplier_Normal": 3.0,
-            "FrictionMultiplier_Wet": 2.4,
-            "FrictionMultiplier_Snow": 2.4,
+            "FrictionMultiplier_Normal": 3.5,
+            "FrictionMultiplier_Wet": 2.8,
+            "FrictionMultiplier_Snow": 2.7,
             "FrictionMultiplier_Broken": 0.1,
             "BrakeFrictionScale_Wet": 0.6,
             "BrakeFrictionScale_Snow": 0.6
@@ -30899,17 +30899,17 @@
         "ModuleProps": {
           "bIsTireInited": false,
           "FrontTyreFriction": {
-            "FrictionMultiplier_Normal": 2.9,
-            "FrictionMultiplier_Wet": 2.9,
-            "FrictionMultiplier_Snow": 2.6,
+            "FrictionMultiplier_Normal": 3.5,
+            "FrictionMultiplier_Wet": 3.5,
+            "FrictionMultiplier_Snow": 2.8,
             "FrictionMultiplier_Broken": 0.1,
             "BrakeFrictionScale_Wet": 0.6,
             "BrakeFrictionScale_Snow": 0.6
           },
           "RearTyreFriction": {
-            "FrictionMultiplier_Normal": 3.0,
-            "FrictionMultiplier_Wet": 3.0,
-            "FrictionMultiplier_Snow": 2.4,
+            "FrictionMultiplier_Normal": 3.5,
+            "FrictionMultiplier_Wet": 3.5,
+            "FrictionMultiplier_Snow": 2.7,
             "FrictionMultiplier_Broken": 0.1,
             "BrakeFrictionScale_Wet": 0.6,
             "BrakeFrictionScale_Snow": 0.6
@@ -30959,17 +30959,17 @@
         "ModuleProps": {
           "bIsTireInited": false,
           "FrontTyreFriction": {
-            "FrictionMultiplier_Normal": 2.9,
-            "FrictionMultiplier_Wet": 2.8,
-            "FrictionMultiplier_Snow": 2.9,
+            "FrictionMultiplier_Normal": 3.5,
+            "FrictionMultiplier_Wet": 3.5,
+            "FrictionMultiplier_Snow": 3.5,
             "FrictionMultiplier_Broken": 0.1,
             "BrakeFrictionScale_Wet": 0.6,
             "BrakeFrictionScale_Snow": 0.6
           },
           "RearTyreFriction": {
-            "FrictionMultiplier_Normal": 3.0,
-            "FrictionMultiplier_Wet": 3.0,
-            "FrictionMultiplier_Snow": 3.0,
+            "FrictionMultiplier_Normal": 3.5,
+            "FrictionMultiplier_Wet": 3.5,
+            "FrictionMultiplier_Snow": 3.5,
             "FrictionMultiplier_Broken": 0.1,
             "BrakeFrictionScale_Wet": 0.6,
             "BrakeFrictionScale_Snow": 0.6
@@ -31888,14 +31888,14 @@
           "LocalizedString": "Suspension I"
         },
         "ModuleProps": {
-          "MaxRaise_Front": 9.0,
+          "MaxRaise_Front": 6.0,
           "MaxDrop_Front": 10.0,
-          "DamingRatio_Front": 0.95,
+          "DamingRatio_Front": 0.01,
           "SpringRate_Front": 360.0,
-          "MaxRaise_Rear": 12.0,
-          "MaxDrop_Rear": 14.0,
-          "DamingRatio_Rear": 0.95,
-          "SpringRate_Rear": 360.0
+          "MaxRaise_Rear": 9.0,
+          "MaxDrop_Rear": 10.0,
+          "DamingRatio_Rear": 0.01,
+          "SpringRate_Rear": 270.0
         },
         "ModuleProperties": {
           "ModuleType": "EVehicleModuleType::EVMT_None",
@@ -31948,14 +31948,14 @@
           "LocalizedString": "Suspension II"
         },
         "ModuleProps": {
-          "MaxRaise_Front": 9.0,
+          "MaxRaise_Front": 6.0,
           "MaxDrop_Front": 10.0,
-          "DamingRatio_Front": 0.12,
-          "SpringRate_Front": 340.0,
-          "MaxRaise_Rear": 12.0,
-          "MaxDrop_Rear": 14.0,
-          "DamingRatio_Rear": 0.12,
-          "SpringRate_Rear": 320.0
+          "DamingRatio_Front": 1.0,
+          "SpringRate_Front": 360.0,
+          "MaxRaise_Rear": 9.0,
+          "MaxDrop_Rear": 10.0,
+          "DamingRatio_Rear": 1.0,
+          "SpringRate_Rear": 270.0
         },
         "ModuleProperties": {
           "ModuleType": "EVehicleModuleType::EVMT_None",
