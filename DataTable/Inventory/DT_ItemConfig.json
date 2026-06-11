@@ -16753,6 +16753,74 @@
           "SubPathString": ""
         }
       },
+      "1071_LotteryShow_kaesi": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "1071_LotteryShow_kaesi",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
       "1008_LotteryShow_xun": {
         "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
         "ItemClassOverride": null,
@@ -19682,11 +19750,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/Characterawaken_misuki.Characterawaken_misuki",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Characterawaken_chaos.Characterawaken_chaos",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/Characterawaken_mitsuki.Characterawaken_mitsuki",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Characterawaken_chaos.Characterawaken_chaos",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -26129,11 +26197,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/CharacterCard_70.CharacterCard_70",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/CharacterCard_71.CharacterCard_71",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/CharacterCard_70.CharacterCard_70",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/CharacterCard_71.CharacterCard_71",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -78671,13 +78739,92 @@
         "Description": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1004_4_Desc",
-          "SourceString": "似乎有这样的说法：蝙蝠飞入窗棂，昭示着幸福将要从天而降。但安魂曲本人有不同意见：她每次飞进窗户，从天而降的只有碎玻璃。 不过，也许幸福有时就是这样迷迷糊糊、横冲直撞地降临的。",
-          "LocalizedString": "There’s a saying that when a bat flies through the window lattice, happiness is about to fall from the sky. Lacrimosa disagrees. Whenever she flies through a window, the only thing that falls from the sky is shattered glass. Still, perhaps happiness sometimes arrives in that same dazed, reckless way."
+          "SourceString": "幸福的降临或许总是毫无章法，宛如一场横冲直撞的「硬着陆」。就像昭示幸福来临的蝙蝠飞入窗棂时，也总伴着清脆的巨响和散落一地的碎玻璃那样。",
+          "LocalizedString": "Happiness sometimes arrives without rhyme or reason, like a reckless hard landing. Just as the bat that foretells good fortune flies through the window lattice, it always comes with a crisp crash and shattered glass strewn across the floor."
         },
         "LimitScenes": [],
         "ToolDatas": [
           {
             "AppearanceID": "Fashion_1004_4",
+            "MaleAppearanceID": "None"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "melt_Fashion_character",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Fashion_character_1071_01": {
+        "ItemType": "EItemType::ITEM_TYPE_FASHION",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_kaesi2_256.player_kaesi2_256",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/100/player_kaesi2_100.player_kaesi2_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/YH_UI_shizhuang_lihui_kaesi2.YH_UI_shizhuang_lihui_kaesi2",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1071_1_Name",
+          "SourceString": "放晴日",
+          "LocalizedString": "Clear Skies"
+        },
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1071_1_usedesc",
+          "SourceString": "获得「卡厄斯」专属角色时装「放晴日」及「头像-放晴日」。",
+          "LocalizedString": "Grants the exclusive Chaos Outfit & Avatar: Clear Skies."
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1071_1_Desc",
+          "SourceString": "休闲街头风格着装，简易单品与独特的配饰碰撞，亦能彰显个性。",
+          "LocalizedString": "A casual streetwear look that pairs simple pieces with bold accessories to express true individuality."
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "AppearanceID": "Fashion_1071_1",
             "MaleAppearanceID": "None"
           }
         ],
@@ -79108,6 +79255,85 @@
           "SubPathString": ""
         }
       },
+      "Fashion_vehicle_1071_V010": {
+        "ItemType": "EItemType::ITEM_TYPE_VEHICLE_SKIN",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Fashion_vehicle_1004_V021.Fashion_vehicle_1004_V021",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Fashion_vehicle_1004_V021_100.Fashion_vehicle_1004_V021_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V021_Decal_002_name",
+          "SourceString": "番茄酱巡航-涂装",
+          "LocalizedString": "Ketchup Cruise - Livery"
+        },
+        "MaxAmount": 999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V021_Decal_002_usedesc",
+          "SourceString": "获得载具「Pendragon」适用涂装「番茄酱巡航-涂装」。",
+          "LocalizedString": "Grants the \"Ketchup Cruise\" livery for the Pendragon vehicle."
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V021_Decal_002_desc",
+          "SourceString": "异象管理局特别联名涂装。黑色车身加以红色线条，使得整车宛如经过番茄酱洗礼。不知为何，在使用这款涂装之后，总觉得车上应该多装一些番茄酱……",
+          "LocalizedString": "Exclusive Bureau of Anomaly Control collaboration livery. The black body and red lines make the entire car look like it's been doused in ketchup. For some reason, you feel like you might need more ketchup…"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "OwnedVehicleID": "Vehicle010",
+            "VehicleSkinId": "V010_Decal_02"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "melt_Fashion_vehicle",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
       "Fashion_glide_1010": {
         "ItemType": "EItemType::ITEM_TYPE_GLIDE",
         "ItemClassOverride": null,
@@ -79301,6 +79527,79 @@
         "ToolDatas": [
           {
             "AppearanceID": "Fashion_glide_1004",
+            "MaleAppearanceID": "None"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "melt_Fashion_glide",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Fashion_glide_1071": {
+        "ItemType": "EItemType::ITEM_TYPE_GLIDE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI/Gacha/Lottery_Img/YH_UI_256_anhunqu1.YH_UI_256_anhunqu1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Glide_2_3_Name",
+          "SourceString": "好柿成双",
+          "LocalizedString": "Tomato Balloon"
+        },
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "AppearanceID": "Fashion_glide_1071",
             "MaleAppearanceID": "None"
           }
         ],
@@ -100370,8 +100669,8 @@
         "Description": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1004_4_Desc",
-          "SourceString": "似乎有这样的说法：蝙蝠飞入窗棂，昭示着幸福将要从天而降。但安魂曲本人有不同意见：她每次飞进窗户，从天而降的只有碎玻璃。 不过，也许幸福有时就是这样迷迷糊糊、横冲直撞地降临的。",
-          "LocalizedString": "There’s a saying that when a bat flies through the window lattice, happiness is about to fall from the sky. Lacrimosa disagrees. Whenever she flies through a window, the only thing that falls from the sky is shattered glass. Still, perhaps happiness sometimes arrives in that same dazed, reckless way."
+          "SourceString": "幸福的降临或许总是毫无章法，宛如一场横冲直撞的「硬着陆」。就像昭示幸福来临的蝙蝠飞入窗棂时，也总伴着清脆的巨响和散落一地的碎玻璃那样。",
+          "LocalizedString": "Happiness sometimes arrives without rhyme or reason, like a reckless hard landing. Just as the bat that foretells good fortune flies through the window lattice, it always comes with a crisp crash and shattered glass strewn across the floor."
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -103645,11 +103944,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/TitleSystem/TycoonRank_004.TycoonRank_004",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/TitleSystem/Title_PrisonFight_256.Title_PrisonFight_256",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/TitleStstem/TycoonRank_004_100.TycoonRank_004_100",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/TitleStstem/Title_PrisonFight_100.Title_PrisonFight_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -112277,8 +112576,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "Title_DarkRacing_001_usedesc",
-          "SourceString": "「黑暗赛车界」活动奖励称号。",
-          "LocalizedString": "Underground Circuit event reward title."
+          "SourceString": "「黑暗赛车界」活动奖励称号，称号限时60天。",
+          "LocalizedString": "Underground Circuit event reward title. Lasts for 60 days."
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -113564,11 +113863,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_IMG_Frame_Bagel_256.UI_IMG_Frame_Bagel_256",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_IMG_Frame_PrisonFight_256.UI_IMG_Frame_PrisonFight_256",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_IMG_Frame_Bagel_100.UI_IMG_Frame_Bagel_100",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_IMG_Frame_PrisonFight_100.UI_IMG_Frame_PrisonFight_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -113642,11 +113941,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/PlayerCard/YH_UI_bg_card_show_strip_39.YH_UI_bg_card_show_strip_39",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/PlayerCard/YH_UI_bg_card_show_strip_44.YH_UI_bg_card_show_strip_44",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/PlayerCard/YH_UI_bg_card_show_strip_39_100.YH_UI_bg_card_show_strip_39_100",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/PlayerCard/YH_UI_bg_card_show_strip_44_100.YH_UI_bg_card_show_strip_44_100",
           "SubPathString": ""
         },
         "ItemIconBig": {

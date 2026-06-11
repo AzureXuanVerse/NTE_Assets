@@ -2518,8 +2518,8 @@
         "Description": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
           "Key": "Fashion_1004_4_Desc",
-          "SourceString": "似乎有这样的说法：蝙蝠飞入窗棂，昭示着幸福将要从天而降。但安魂曲本人有不同意见：她每次飞进窗户，从天而降的只有碎玻璃。 不过，也许幸福有时就是这样迷迷糊糊、横冲直撞地降临的。",
-          "LocalizedString": "There’s a saying that when a bat flies through the window lattice, happiness is about to fall from the sky. Lacrimosa disagrees. Whenever she flies through a window, the only thing that falls from the sky is shattered glass. Still, perhaps happiness sometimes arrives in that same dazed, reckless way."
+          "SourceString": "幸福的降临或许总是毫无章法，宛如一场横冲直撞的「硬着陆」。就像昭示幸福来临的蝙蝠飞入窗棂时，也总伴着清脆的巨响和散落一地的碎玻璃那样。",
+          "LocalizedString": "Happiness sometimes arrives without rhyme or reason, like a reckless hard landing. Just as the bat that foretells good fortune flies through the window lattice, it always comes with a crisp crash and shattered glass strewn across the floor."
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_UI_J.ST_UI_J",
@@ -2728,7 +2728,7 @@
           "SubPathString": ""
         },
         "Icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/100/YH_UI_biaoqing_pic7_100.YH_UI_biaoqing_pic7_100",
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/YH_UI_biaoqing_pic7.YH_UI_biaoqing_pic7",
           "SubPathString": ""
         },
         "Description": {
@@ -2742,6 +2742,42 @@
           "Key": "Avatar_Bagel_001_Obtain",
           "SourceString": "「呗果商店」兑换获得。",
           "LocalizedString": "Redeem at the Bagel Shop."
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
+      },
+      "1071": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Player.ST_Player",
+          "Key": "Role_Name_071",
+          "SourceString": "卡厄斯",
+          "LocalizedString": "Chaos"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_kaesi1_256.player_kaesi1_256",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_kaesi1.player_kaesi1",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_001",
+          "SourceString": "解锁角色获得",
+          "LocalizedString": "Unlock the corresponding character to claim"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_001",
+          "SourceString": "解锁角色获得",
+          "LocalizedString": "Unlock the corresponding character to claim"
         },
         "bHide": false,
         "DisplayRegion": "ETitleDisplayRegion::All",

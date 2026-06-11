@@ -310,6 +310,38 @@
         "RefreshHour": -1,
         "RelatedNPCArray": []
       },
+      "MU01_07": {
+        "ChapterIndex": 156,
+        "ChapterName": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "MU01_07",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "ChapterBaseID": "Main",
+        "ChapterValue": 7.5,
+        "ChapterDesc": {
+          "TableId": "/Game/Text/ST_Chapter.ST_Chapter",
+          "Key": "MU01_07_des",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "ChapterBaseDesc": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "Main",
+          "SourceString": "正篇",
+          "LocalizedString": "Episodes"
+        },
+        "LockDesc": {
+          "CultureInvariantString": null
+        },
+        "ChapterParticle": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "RefreshHour": -1,
+        "RelatedNPCArray": []
+      },
       "MU01_06": {
         "ChapterIndex": 140,
         "ChapterName": {
@@ -4599,7 +4631,10 @@
       "WQ1004": {
         "ChapterIndex": 155,
         "ChapterName": {
-          "CultureInvariantString": "龙卷风任务线"
+          "TableId": "/Game/Text/ST_SideQuest_World.ST_SideQuest_World",
+          "Key": "WQ1004_chaptername",
+          "SourceString": "囚笼里的新风",
+          "LocalizedString": "A Breeze Through the Cage"
         },
         "ChapterBaseID": "None",
         "ChapterValue": -1.0,
@@ -4607,7 +4642,10 @@
           "CultureInvariantString": null
         },
         "ChapterBaseDesc": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "Side",
+          "SourceString": "支线",
+          "LocalizedString": "Sides"
         },
         "LockDesc": {
           "CultureInvariantString": null

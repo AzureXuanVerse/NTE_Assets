@@ -19942,9 +19942,9 @@
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
-              "Key": "GA_Oneiroi_Melee_des_tidy",
-              "SourceString": "1",
-              "LocalizedString": "1"
+              "Key": "GA_Oneiroi_Melee2_des_tidy",
+              "SourceString": null,
+              "LocalizedString": null
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -20002,31 +20002,6 @@
             }
           },
           {
-            "AbilityDesType": "EAbilityDesType::ADT_DES",
-            "DescriptionTitle": {
-              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
-              "Key": "GA_Oneiroi_PerfectEvade_name",
-              "SourceString": "1",
-              "LocalizedString": "1"
-            },
-            "Description": {
-              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
-              "Key": "GA_Oneiroi_PerfectEvade_des",
-              "SourceString": "1",
-              "LocalizedString": "1"
-            },
-            "ShortDescription": {
-              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
-              "Key": "GA_Oneiroi_PerfectEvade_des_tidy",
-              "SourceString": "1",
-              "LocalizedString": "1"
-            },
-            "UnLockID": "None",
-            "UnlockDesc": {
-              "CultureInvariantString": null
-            }
-          },
-          {
             "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
             "DescriptionTitle": {
               "CultureInvariantString": null
@@ -20047,7 +20022,7 @@
           }
         ],
         "Icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/Haniel_Melee.Haniel_Melee",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Oneiroi_Melee.Oneiroi_Melee",
           "SubPathString": ""
         },
         "ExtendIcon": {
@@ -20289,10 +20264,7 @@
           {
             "AbilityDesType": "EAbilityDesType::ADT_DES",
             "DescriptionTitle": {
-              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
-              "Key": "GA_Oneiroi_Skill_name",
-              "SourceString": "1",
-              "LocalizedString": "1"
+              "CultureInvariantString": null
             },
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
@@ -20332,7 +20304,7 @@
           }
         ],
         "Icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/Haniel_Skill.Haniel_Skill",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Oneiroi_Skill.Oneiroi_Skill",
           "SubPathString": ""
         },
         "ExtendIcon": {
@@ -20516,10 +20488,29 @@
             "UnlockDesc": {
               "CultureInvariantString": null
             }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_QTE_background",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
           }
         ],
         "Icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/Haniel_QTE.Haniel_QTE",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Oneiroi_QTE.Oneiroi_QTE",
           "SubPathString": ""
         },
         "ExtendIcon": {
@@ -20609,7 +20600,7 @@
           }
         ],
         "Icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/Haniel_UltraSkill.Haniel_UltraSkill",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Oneiroi_UltraSkill.Oneiroi_UltraSkill",
           "SubPathString": ""
         },
         "ExtendIcon": {
@@ -20782,7 +20773,7 @@
           "SubPathString": ""
         }
       },
-      "Buff_Oneiroi075_Passive1": {
+      "GA_Oneiroi_Passive_1": {
         "Name": {
           "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
           "Key": "GA_Oneiroi_Passive_1_name",
@@ -20830,7 +20821,7 @@
           }
         ],
         "Icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/Haniel_Pas1.Haniel_Pas1",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Oneiroi_Pas1.Oneiroi_Pas1",
           "SubPathString": ""
         },
         "ExtendIcon": {
@@ -20844,7 +20835,7 @@
           "SubPathString": ""
         }
       },
-      "Buff_Oneiroi075_Passive2": {
+      "GA_Oneiroi_Passive_2": {
         "Name": {
           "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
           "Key": "GA_Oneiroi_Passive_2_name",
@@ -20892,7 +20883,69 @@
           }
         ],
         "Icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Skill/Haniel_Pas1.Haniel_Pas1",
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Oneiroi_Pas2.Oneiroi_Pas2",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Oneiroi_Passive_3": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+          "Key": "GA_Oneiroi_Passive_3_name",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "AbilityDescription": [
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Passive_3_des",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_AFFIX",
+            "DescriptionTitle": {
+              "CultureInvariantString": null
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
+              "Key": "GA_Oneiroi_Passive_3_background",
+              "SourceString": null,
+              "LocalizedString": null
+            },
+            "ShortDescription": {
+              "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          }
+        ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Oneiroi_Pas3.Oneiroi_Pas3",
           "SubPathString": ""
         },
         "ExtendIcon": {
@@ -24238,7 +24291,7 @@
           "SubPathString": ""
         }
       },
-      "GA_Chaos_Passive_1": {
+      "GA_Chaos071_Passive_1": {
         "Name": {
           "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
           "Key": "GA_Chaos_Passive_1_name",
@@ -24255,7 +24308,7 @@
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Passive_1_des",
               "SourceString": "<TextHLT>「延滞」强化</>：当目标的「延滞」状态解除时，卡厄斯将会根据本次「延滞」持续时间对目标造成高额伤害，每持续<NumGreen>1</>秒提升<NumGreen>x%</>，上限<NumGreen>x%</>。",
-              "LocalizedString": "<TextHLT>Remora Enhancement</>: Remora Enhancement: Deals heavy damage to the target when their Remora state ends, based on Remora's duration. Increases DMG by <NumGreen>x%</> for every <NumGreen>1</>s of duration, up to <NumGreen>x%</>."
+              "LocalizedString": "<TextHLT>Remora Enhancement</>: Deals heavy damage to the target when their Remora state ends, based on Remora's duration. Increases DMG by <NumGreen>x%</> for every <NumGreen>1</>s of duration, up to <NumGreen>x%</>."
             },
             "ShortDescription": {
               "CultureInvariantString": null
@@ -24300,7 +24353,7 @@
           "SubPathString": ""
         }
       },
-      "GA_Chaos_Passive_2": {
+      "GA_Chaos071_Passive_2": {
         "Name": {
           "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
           "Key": "GA_Chaos_Passive_2_name",
@@ -24316,8 +24369,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Passive_2_des",
-              "SourceString": "<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>的伤害增加效果提升至<NumGreen>x%</>。",
-              "LocalizedString": "Increases the damage bonus from <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</> to <NumGreen>x%</>."
+              "SourceString": "<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>的伤害增加效果提升至<NumGreen>30%</>。",
+              "LocalizedString": "Increases the damage bonus from <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</> to <NumGreen>30%</>."
             },
             "ShortDescription": {
               "CultureInvariantString": null
@@ -24362,7 +24415,7 @@
           "SubPathString": ""
         }
       },
-      "GA_Chaos_Melee": {
+      "GA_Chaos071_Melee": {
         "Name": {
           "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
           "Key": "GA_Chaos_Melee_name",
@@ -24412,8 +24465,8 @@
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Melee2_des_tidy",
-              "SourceString": "长按普通攻击造成<Xiang>相属性异能伤害</>。若当前<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>已达上限100，则消耗全部<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>额外进行第二段攻击；否则只进行一段攻击。",
-              "LocalizedString": "长按普通攻击造成<Xiang>相属性异能伤害</>。若当前<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>已达上限100，则消耗全部<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>额外进行第二段攻击；否则只进行一段攻击。"
+              "SourceString": "长按普通攻击造成<Xiang>相属性异能伤害</>。若当前<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>已达上限1000，则消耗全部<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>额外进行第二段攻击；否则只进行一段攻击。",
+              "LocalizedString": "Hold Basic Attack to deal <Xiang>Lakshana DMG</>. Consumes all <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crimes</> to perform an additional 2nd strike if current <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crime</> is at its cap (1000). Otherwise, performs only the 1st strike."
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -24431,8 +24484,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Melee3_des",
-              "SourceString": "卡厄斯滞空时点按普攻，落地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升<NumGreen>x%</>。",
-              "LocalizedString": "Press Basic Attack while airborne to plunge, dealing <NumGreen>1</> instance of <Xiang>Lakshana DMG</> to an area upon impact. Increases DMG based on fall height, up to <NumGreen>x%</>."
+              "SourceString": "卡厄斯滞空时点按普攻，落地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升<NumGreen>1</>倍。",
+              "LocalizedString": "Press Basic Attack while airborne to plunge, dealing <NumGreen>1</> instance of <Xiang>Lakshana DMG</> to an area upon impact. Increases DMG based on fall height, up to <NumGreen>1×</>."
             },
             "ShortDescription": {
               "CultureInvariantString": null
@@ -24516,7 +24569,7 @@
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Melee_2_num",
               "SourceString": "{0}%+{1}%",
-              "LocalizedString": "{0}%+{1}%"
+              "LocalizedString": "{0}% + {1}%"
             },
             "CLGlobalCommonDataCurveID": "None"
           },
@@ -24566,7 +24619,7 @@
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Melee_4_num",
               "SourceString": "{0}%+{1}%*2+{2}%",
-              "LocalizedString": "{0}%+{1}%*2+{2}%"
+              "LocalizedString": "{0}% + {1}% *2 + {2}%"
             },
             "CLGlobalCommonDataCurveID": "None"
           },
@@ -24591,7 +24644,7 @@
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Melee_5_num",
               "SourceString": "{0}%*2+{1}%",
-              "LocalizedString": "{0}%*2+{1}%"
+              "LocalizedString": "{0}% *2 + {1}%"
             },
             "CLGlobalCommonDataCurveID": "None"
           },
@@ -24728,8 +24781,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Melee_engry_1_des",
-              "SourceString": "全套普通攻击积攒<TextEXPL>「罪状」</>。",
-              "LocalizedString": "全套普通攻击积攒<TextEXPL>「罪状」</>。"
+              "SourceString": "全套普通攻击积攒「罪状」",
+              "LocalizedString": "Full Basic Attack combo: Builds up Crime."
             },
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
@@ -24752,8 +24805,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Melee_engry_2_des",
-              "SourceString": "极限反击积攒<TextEXPL>「罪状」</>。",
-              "LocalizedString": "极限反击积攒<TextEXPL>「罪状」</>。"
+              "SourceString": "极限反击积攒「罪状」",
+              "LocalizedString": "Critical Riposte: Builds up Crime."
             },
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
@@ -24776,8 +24829,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Melee_engry_3_des",
-              "SourceString": "下落攻击积攒<TextEXPL>「罪状」</>。",
-              "LocalizedString": "下落攻击积攒<TextEXPL>「罪状」</>。"
+              "SourceString": "下落攻击积攒「罪状」",
+              "LocalizedString": "Plunge Attack: Builds up Crime."
             },
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
@@ -24794,7 +24847,7 @@
           "SubPathString": ""
         }
       },
-      "GA_Chaos_Skill": {
+      "GA_Chaos071_Skill": {
         "Name": {
           "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
           "Key": "GA_Chaos_Skill_name",
@@ -24813,8 +24866,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Skill1_des",
-              "SourceString": "已确认目标特征。卡厄斯使用手枪对前方目标进行射击，并召唤猎犬扑向目标，猎犬对目标进行来回<NumGreen>2</>次撕咬攻击。技能命中目标后，为最多<NumGreen>2</>名敌人施加<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>，持续<NumGreen>8</>秒。卡厄斯攻击带有<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>的目标时，造成的伤害增加。",
-              "LocalizedString": "Target traits confirmed. Fires at enemies ahead and summons his hound to pounce on the target. The hound bites the target back and forth <NumGreen>twice</>. Inflicts <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</> on up to <NumGreen>2</> enemies for <NumGreen>8</>s when the skill hits. Increases damage dealt when attacking targets with <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</>."
+              "SourceString": "已确认目标特征。卡厄斯使用手枪对前方目标进行射击，并召唤猎犬扑向目标，猎犬对目标进行来回<NumGreen>2</>次撕咬攻击。技能命中目标后，为最多<NumGreen>2</>名敌人施加<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>，持续<NumGreen>15</>秒。卡厄斯攻击带有<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>的目标时，造成的伤害增加<NumGreen>20%</>。",
+              "LocalizedString": "Target traits confirmed. Fires at enemies ahead and summons his hound to pounce on the target. The hound bites the target back and forth <NumGreen>twice</>. Inflicts <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</> on up to <NumGreen>2</> enemies for <NumGreen>15</>s when the skill hits. Increases damage dealt by <NumGreen>20%</> when attacking targets with <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</>."
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
@@ -24876,8 +24929,8 @@
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Skill_2_num",
-              "SourceString": "{0}%*2",
-              "LocalizedString": "{0}% *2"
+              "SourceString": "{0}%+{1}%",
+              "LocalizedString": "{0}% + {1}%"
             },
             "CLGlobalCommonDataCurveID": "None"
           },
@@ -24907,7 +24960,7 @@
           },
           {
             "LevelUpData": {
-              "SkillCDName": "GA_Chaos_Skill"
+              "SkillCDName": "GA_Chaos071_Skill"
             },
             "Name": "None",
             "Desc": {
@@ -24961,14 +25014,38 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Skill_engry_1_des",
-              "SourceString": "积攒<TextEXPL>「罪状」</>。",
-              "LocalizedString": "积攒<TextEXPL>「罪状」</>。"
+              "SourceString": "积攒「罪状」",
+              "LocalizedString": "Builds up Crime."
             },
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Skill_engry_1_num",
               "SourceString": "{0}",
               "LocalizedString": "{0}"
+            },
+            "CLGlobalCommonDataCurveID": "None"
+          },
+          {
+            "LevelUpData": {
+              "EffectFigureDataList": [
+                {
+                  "NameID": "Chaos_HuntMark_Duration",
+                  "bIsPercent": false
+                }
+              ]
+            },
+            "Name": "None",
+            "Desc": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill_4_des",
+              "SourceString": "「追缉许可」持续时间",
+              "LocalizedString": "Warrant Duration"
+            },
+            "DescValue": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Skill_4_num",
+              "SourceString": "{0}秒",
+              "LocalizedString": "{0}s"
             },
             "CLGlobalCommonDataCurveID": "None"
           }
@@ -24979,7 +25056,7 @@
           "SubPathString": ""
         }
       },
-      "GA_Chaos_UltraSkill": {
+      "GA_Chaos071_UltraSkill": {
         "Name": {
           "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
           "Key": "GA_Chaos_UltraSkill_name",
@@ -25042,8 +25119,8 @@
             "LevelUpData": {
               "LevelUpGESourceType": "ELevelUpGESourceType::UseGEDamageType",
               "DamageGEList": [
-                "GE_Player_Chaos_Skill1_Damage",
-                "GE_Player_Chaos_Skill2_Damage"
+                "GE_Player_Chaos_UltraSkill1_Damage",
+                "GE_Player_Chaos_UltraSkill2_Damage"
               ],
               "DefGEList": [],
               "HPGEList": []
@@ -25057,9 +25134,9 @@
             },
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
-              "Key": "GA_Chaos_Skill_2_num",
-              "SourceString": "{0}%*2",
-              "LocalizedString": "{0}% *2"
+              "Key": "GA_Chaos_UltraSkill_1_num",
+              "SourceString": "{0}%*4+{1}%",
+              "LocalizedString": "{0}% *4 + {1}%"
             },
             "CLGlobalCommonDataCurveID": "None"
           },
@@ -25101,13 +25178,13 @@
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_UltraSkill_3_des",
               "SourceString": "「罪状」增长速度",
-              "LocalizedString": "「罪状」增长速度"
+              "LocalizedString": "Crime generation rate"
             },
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_UltraSkill_3_num",
               "SourceString": "{0}/秒",
-              "LocalizedString": "{0}/秒"
+              "LocalizedString": "{0}/s"
             },
             "CLGlobalCommonDataCurveID": "None"
           },
@@ -25137,7 +25214,7 @@
           },
           {
             "LevelUpData": {
-              "SkillCDName": "GA_ Chaos_UltraSkill"
+              "SkillCDName": "GA_Chaos071_UltraSkill"
             },
             "Name": "None",
             "Desc": {
@@ -25180,7 +25257,7 @@
           "SubPathString": ""
         }
       },
-      "GA_Chaos_QTE": {
+      "GA_Chaos071_QTE": {
         "Name": {
           "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
           "Key": "GA_Chaos_QTE_name",
@@ -25273,7 +25350,7 @@
           "SubPathString": ""
         }
       },
-      "GA_Chaos_Passive_3": {
+      "GA_Chaos071_Passive_3": {
         "Name": {
           "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
           "Key": "GA_Chaos_Passive_3_name",

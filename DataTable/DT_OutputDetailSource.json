@@ -17466,6 +17466,90 @@
           "bCloseBigMap": true,
           "PreCloseUI": []
         }
+      },
+      "Figure_kaesi_01": {
+        "Type": "EItemOutputSource::OS_TEXT",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Figure_kaesi_01_name",
+          "SourceString": "卡厄斯-6级觉醒后获得",
+          "LocalizedString": "Available after Chaos reaches Awakening Lvl 6."
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_None",
+          "UIParaming": [],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
+      },
+      "Likeability_Chaos": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Output.ST_Output",
+          "Key": "Likeability_Chaos",
+          "SourceString": "「卡厄斯」羁遇等级达到10级获得",
+          "LocalizedString": "Available at Lvl 10 Chaos Bond"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "Likeability",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "LikeabilityMain",
+            "1071",
+            "Fashion_1071_nighty"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "None",
+          "UnlockNoticeMessage": {
+            "CultureInvariantString": null
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
       }
     }
   }
