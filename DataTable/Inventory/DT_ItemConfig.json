@@ -16051,11 +16051,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/Dicelimite_Jin_256.Dicelimite_Jin_256",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Dicelimite_Kaesi_256.Dicelimite_Kaesi_256",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/Dicelimite_Jin_100.Dicelimite_Jin_100",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Dicelimite_Kaesi_100.Dicelimite_Kaesi_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -16772,8 +16772,8 @@
         "ItemName": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "1071_LotteryShow_kaesi",
-          "SourceString": null,
-          "LocalizedString": null
+          "SourceString": "卡厄斯（1.8700%）",
+          "LocalizedString": "Chaos (1.8700%)"
         },
         "MaxAmount": 1,
         "bUseMaxAmountLimitID": false,
@@ -19750,11 +19750,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/Characterawaken_chaos.Characterawaken_chaos",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Characterawaken_chaos.Characterawaken_chaos",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/Characterawaken_chaos.Characterawaken_chaos",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Characterawaken_chaos.Characterawaken_chaos",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -20237,7 +20237,7 @@
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item_100/HighresScreenshot00001.HighresScreenshot00001",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/HighresScreenshot00001.HighresScreenshot00001",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -30079,7 +30079,7 @@
           "FIGURES"
         ],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Furniture/Arrange_furniture/256/anhunqu_xiao.anhunqu_xiao",
+          "AssetPathName": "/Game/UI/UI_Icon/Furniture/Arrange_furniture/256/anhunqu_256.anhunqu_256",
           "SubPathString": ""
         },
         "ItemIconSmall": {
@@ -30143,6 +30143,93 @@
         "ElementData": {
           "HandmadeActorClass": {
             "AssetPathName": "/Game/Blueprints/Level/World/Home/Collection/BP_Collection_anhunqu01.BP_Collection_anhunqu01_C",
+            "SubPathString": ""
+          },
+          "SeriesID": 0
+        },
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Figure_kaesi_01": {
+        "ItemType": "EItemType::ITEM_TYPE_SHOWCASE",
+        "ItemClassOverride": null,
+        "ItemTags": [
+          "FIGURES"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Furniture/Arrange_furniture/256/chaos_256.chaos_256",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Furniture/Arrange_furniture/100/chaos_100.chaos_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Figure_kaesi_01_name",
+          "SourceString": "危机时刻！",
+          "LocalizedString": "Just in Time!"
+        },
+        "MaxAmount": 999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Figure_anhunqu_01_usedesc",
+          "SourceString": "摆放在家里的手办柜中并增加舒适度，收录后增加收藏值",
+          "LocalizedString": "Place in your cabinet to increase Comfort. Increases Collection with each piece."
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Figure_kaesi_01_desc",
+          "SourceString": "看到这张相片被制作成手办后，卡厄斯本人脸上出现了和手办相同的表情。",
+          "LocalizedString": "When Chaos saw that the photo had been turned into a figurine, he ended up making the exact same face."
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "Figure_kaesi_01",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": {
+          "HandmadeActorClass": {
+            "AssetPathName": "/Game/Blueprints/Level/World/Home/Collection/BP_Collection_Huilim002.BP_Collection_Huilim002_C",
+            "SubPathString": ""
+          }
+        },
+        "ElementData": {
+          "HandmadeActorClass": {
+            "AssetPathName": "/Game/Blueprints/Level/World/Home/Collection/BP_Collection_kaesi01.BP_Collection_kaesi01_C",
             "SubPathString": ""
           },
           "SeriesID": 0
@@ -30261,7 +30348,7 @@
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item_100/Figure_eri_01_002_100.Figure_eri_01_002_100",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Figure_eri_01_002_100.Figure_eri_01_002_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -70368,11 +70455,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_bg_card_show_strip_36.YH_UI_bg_card_show_strip_36",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_bg_card_show_strip_41.YH_UI_bg_card_show_strip_41",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_bg_card_show_strip_36_100.YH_UI_bg_card_show_strip_36_100",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_bg_card_show_strip_41_100.YH_UI_bg_card_show_strip_41_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -70381,9 +70468,9 @@
         },
         "ItemName": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
-          "Key": "BusinessCard_Characterawaken_haiyue_name",
-          "SourceString": "往日的回声",
-          "LocalizedString": "Echoes of the Past"
+          "Key": "BusinessCard_Characterawaken_kaese_name",
+          "SourceString": "真智能吗？",
+          "LocalizedString": "Smart? Says Who?"
         },
         "MaxAmount": 1,
         "bUseMaxAmountLimitID": false,
@@ -70393,20 +70480,20 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
-          "Key": "BusinessCard_Characterawaken_haiyue_usedesc",
-          "SourceString": "获得名片：往日的回声",
-          "LocalizedString": "Namecard: Echoes of the Past"
+          "Key": "BusinessCard_Characterawaken_kaese_usedesc",
+          "SourceString": "获得名片：真智能吗？",
+          "LocalizedString": "Namecard: Smart? Says Who?"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
-          "Key": "BusinessCard_Characterawaken_haiyue_desc",
-          "SourceString": "海月被抓拍到的一张照片。有时候，海月仍会思念她最好的朋友们：就像踏上旅程的人，偶尔也会回望故乡。",
-          "LocalizedString": "A candid photo of Aurelia. She still sometimes thinks of her closest friends, like a traveler glancing back at home."
+          "Key": "BusinessCard_Characterawaken_kaese_desc",
+          "SourceString": "卡厄斯被抓拍到的一张照片。异象管理局为许多特殊员工开办了「现代智能设备常识课」，尽管如此，卡厄斯还是需要队长私下为他开小灶，以免挂科。",
+          "LocalizedString": "A candid photo of Chaos. The Bureau of Anomaly Control runs a \"Modern Smart Device Basics\" course for many of its special employees. Chaos, however, still needs Captain to tutor him on the side if he has any hope of passing."
         },
         "LimitScenes": [],
         "ToolDatas": [
           {
-            "ItemID": "1070_Q"
+            "ItemID": "1071_0"
           }
         ],
         "ItemUseCount": 1,
@@ -79260,11 +79347,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/Fashion_vehicle_1004_V021.Fashion_vehicle_1004_V021",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Fashion_vehicle_1071_V010.Fashion_vehicle_1071_V010",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/Fashion_vehicle_1004_V021_100.Fashion_vehicle_1004_V021_100",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Fashion_vehicle_1071_V010_100.Fashion_vehicle_1071_V010_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -79273,9 +79360,9 @@
         },
         "ItemName": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
-          "Key": "V021_Decal_002_name",
-          "SourceString": "番茄酱巡航-涂装",
-          "LocalizedString": "Ketchup Cruise - Livery"
+          "Key": "V010_Decal_002_name",
+          "SourceString": "猎犬奔袭-涂装",
+          "LocalizedString": "Hound Blitz - Livery"
         },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
@@ -79285,21 +79372,21 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
-          "Key": "V021_Decal_002_usedesc",
-          "SourceString": "获得载具「Pendragon」适用涂装「番茄酱巡航-涂装」。",
-          "LocalizedString": "Grants the \"Ketchup Cruise\" livery for the Pendragon vehicle."
+          "Key": "V010_Decal_002_usedesc",
+          "SourceString": "获得载具「Novis ST-X 950」适用涂装「猎犬奔袭-涂装」。",
+          "LocalizedString": "Grants the \"Hound Blitz\" livery for the Novis ST-X 950 vehicle."
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
-          "Key": "V021_Decal_002_desc",
-          "SourceString": "异象管理局特别联名涂装。黑色车身加以红色线条，使得整车宛如经过番茄酱洗礼。不知为何，在使用这款涂装之后，总觉得车上应该多装一些番茄酱……",
-          "LocalizedString": "Exclusive Bureau of Anomaly Control collaboration livery. The black body and red lines make the entire car look like it's been doused in ketchup. For some reason, you feel like you might need more ketchup…"
+          "Key": "V010_Decal_002_desc",
+          "SourceString": "「我之前还一直在担心，这玩意会不会把我的脸印上去……因为之前在大街上看到过别人的款式。幸好没有，这下我自己也能用上啦！这配色真帅啊！」",
+          "LocalizedString": "\"I was actually kinda worried this thing would print my face on it… I’ve seen other people’s versions out on the street before. Thank god it doesn’t! Now I can finally use it myself! This colorway looks awesome!\""
         },
         "LimitScenes": [],
         "ToolDatas": [
           {
             "OwnedVehicleID": "Vehicle010",
-            "VehicleSkinId": "V010_Decal_02"
+            "VehicleSkinId": "V010_Color_99"
           }
         ],
         "ItemUseCount": 1,
@@ -79567,7 +79654,7 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI/Gacha/Lottery_Img/YH_UI_256_anhunqu1.YH_UI_256_anhunqu1",
+          "AssetPathName": "/Game/UI/UI/Appearance/Glider/Fashion_Glide_1071.Fashion_Glide_1071",
           "SubPathString": ""
         },
         "ItemIconSmall": {
@@ -79580,9 +79667,9 @@
         },
         "ItemName": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
-          "Key": "Glide_2_3_Name",
-          "SourceString": "好柿成双",
-          "LocalizedString": "Tomato Balloon"
+          "Key": "Glide_4_Name",
+          "SourceString": "天际猎手",
+          "LocalizedString": "Skyrider"
         },
         "MaxAmount": 1,
         "bUseMaxAmountLimitID": false,
@@ -90727,7 +90814,7 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "Skin_V003_Addon_04_usedesc",
-          "SourceString": "获得载具「TerraX」的适用附件「ST999」，获得后可前往车辆改装店「暴走玩家 」进行改装。",
+          "SourceString": "获得载具「TerraX」的适用附件「ST999」，获得后可前往车辆改装店「暴走玩家」进行改装。",
           "LocalizedString": "The \"ST999\" accessory for the TerraX vehicle. Allows modifications at Rampage Players."
         },
         "Description": {
@@ -90806,7 +90893,7 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "Skin_Vehicle015_Skin002_usedesc",
-          "SourceString": "获得载具「Rover A1」的适用皮肤「城市行迹」，获得后可前往车辆改装店「暴走玩家 」进行改装。",
+          "SourceString": "获得载具「Rover A1」的适用皮肤「城市行迹」，获得后可前往车辆改装店「暴走玩家」进行改装。",
           "LocalizedString": "The \"City Trails\" accessory for the Rover A1 vehicle. Allows modifications at Rampage Players."
         },
         "Description": {
@@ -90885,7 +90972,7 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "Skin_V006_Decal_002_usedesc",
-          "SourceString": "获得载具「B100」的适用涂装「粉粉粉爪」，获得后可前往车辆改装店「暴走玩家 」进行改装。",
+          "SourceString": "获得载具「B100」的适用涂装「粉粉粉爪」，获得后可前往车辆改装店「暴走玩家」进行改装。",
           "LocalizedString": "The \"Pinky Paws\" accessory for the B100 vehicle. Allows modifications at Rampage Players."
         },
         "Description": {
@@ -90964,7 +91051,7 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "Skin_V018_Decal_02_usedesc",
-          "SourceString": "获得载具「ST79」的适用涂装「速度传说」，获得后可前往车辆改装店「暴走玩家 」进行改装。",
+          "SourceString": "获得载具「ST79」的适用涂装「速度传说」，获得后可前往车辆改装店「暴走玩家」进行改装。",
           "LocalizedString": "The \"Speed Legendary\" livery for the ST79 vehicle. Allows modifications at Rampage Players."
         },
         "Description": {
@@ -90978,6 +91065,85 @@
           {
             "OwnedVehicleID": "Vehicle018",
             "VehicleSkinId": "V018_Decal_02"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "melt_Fashion_vehicle",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Skin_V010_Decal_02": {
+        "ItemType": "EItemType::ITEM_TYPE_VEHICLE_SKIN",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/ItemIcon_V010_Decal_02.ItemIcon_V010_Decal_02",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/ItemIcon_V010_Decal_02_100.ItemIcon_V010_Decal_02_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V010_Decal_002_name",
+          "SourceString": "猎犬奔袭-涂装",
+          "LocalizedString": "Hound Blitz - Livery"
+        },
+        "MaxAmount": 999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Skin_V010_Decal_02_usedesc",
+          "SourceString": "获得载具「Novis ST-X 950」的适用涂装「猎犬奔袭」，获得后可前往车辆改装店「暴走玩家」进行改装。",
+          "LocalizedString": "The \"Hound Blitz\" livery for the Novis ST-X 950 vehicle. Allows modifications at Rampage Players."
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "V010_Decal_002_desc",
+          "SourceString": "「我之前还一直在担心，这玩意会不会把我的脸印上去……因为之前在大街上看到过别人的款式。幸好没有，这下我自己也能用上啦！这配色真帅啊！」",
+          "LocalizedString": "\"I was actually kinda worried this thing would print my face on it… I’ve seen other people’s versions out on the street before. Thank god it doesn’t! Now I can finally use it myself! This colorway looks awesome!\""
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "OwnedVehicleID": "Vehicle018",
+            "VehicleSkinId": "V010_Decal_02"
           }
         ],
         "ItemUseCount": 1,
@@ -100897,8 +101063,8 @@
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "Fashion_1071_nighty_Avatar",
-          "SourceString": "获得头像：自律时间",
-          "LocalizedString": "Avatar: Self-Discipline Time"
+          "SourceString": "获得头像：保持锻炼",
+          "LocalizedString": "Avatar: Never Skip"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
@@ -100909,7 +101075,85 @@
         "LimitScenes": [],
         "ToolDatas": [
           {
-            "AvatarId": "Fashion_1004_1"
+            "AvatarId": "Fashion_1071_nighty"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Fashion_1071_1_Avatar": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/FashionAvatar/256/Fashion_1071_0_Avatar.Fashion_1071_0_Avatar",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/100/player_kaesi2_100.player_kaesi2_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1071_1_Avatar",
+          "SourceString": "头像-放晴日",
+          "LocalizedString": "Avatar: Clear Skies"
+        },
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Fashion_1071_1_Avatar",
+          "SourceString": "获得头像：放晴日",
+          "LocalizedString": "Avatar: Clear Skies"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1071_1_Desc",
+          "SourceString": "休闲街头风格着装，简易单品与独特的配饰碰撞，亦能彰显个性。",
+          "LocalizedString": "A casual streetwear look that pairs simple pieces with bold accessories to express true individuality."
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "AvatarId": "Fashion_1071_1"
           }
         ],
         "ItemUseCount": 1,
@@ -107839,6 +108083,97 @@
           "SubPathString": ""
         }
       },
+      "Furniture_Ornament_038": {
+        "ItemType": "EItemType::ITEM_TYPE_FURNITURE",
+        "ItemClassOverride": null,
+        "ItemTags": [
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Furniture/Arrange_furniture/256/Furniture_Ornament_038.Furniture_Ornament_038",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Furniture/Arrange_furniture/100/Furniture_Ornament_038_100.Furniture_Ornament_038_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Ornament_038_name",
+          "SourceString": "「九百九十九夜」",
+          "LocalizedString": "999 Nights"
+        },
+        "MaxAmount": 999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Ornament_038_usedesc",
+          "SourceString": "可以增加幸福感的家装，收录后增加收藏值，摆放在家中可增加舒适度。",
+          "LocalizedString": "Furniture that boosts your mood. Increases Collection with each piece. Display at home to increase Comfort."
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Ornament_038_desc",
+          "SourceString": "当下最热门最受欢迎的桌游，给你最沉浸式的游玩体验！还在担心聚会冷场吗？即刻来一把「九百九十九夜」！",
+          "LocalizedString": "The hottest tabletop game around, delivering a fully immersive experience. Party feeling a little awkward? Start a round of 999 Nights and turn things around!"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "Furniture_Ornament_038",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": {
+          "FurnitureShowType": "EFurnitureShowType::EDisplayItem",
+          "FurnitureType": "EFurnitureType::EOrnament",
+          "FurnitureActorClass": {
+            "AssetPathName": "/Game/Blueprints/Level/World/Common/Room/BP_FurnitureActorBase_baishi06.BP_FurnitureActorBase_baishi06_C",
+            "SubPathString": ""
+          },
+          "FurniturePart": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FurnitureLoad": 0,
+          "bIsNotRelease": false,
+          "FurnitureSizeType": "EFurnitureSizeType::EMiddle",
+          "AttributeShowType": "EAttributeShowType::EDisplayItem"
+        },
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
       "Testeqbox_Chaos_orange": {
         "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
         "ItemClassOverride": null,
@@ -113087,11 +113422,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Likeability_Medal_1071_256_png.Likeability_Medal_1071_256_png",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Likeability_Medal_1071_100.Likeability_Medal_1071_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -113165,11 +113500,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/BagelAvatar/player_071.player_071",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/BagelAvatar/player_071.player_071",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -113243,11 +113578,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_Icon_Frame_1071_256.UI_Icon_Frame_1071_256",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1071_100.UI_Icon_Frame_1071_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -113321,11 +113656,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_bg_card_show_strip_45.YH_UI_bg_card_show_strip_45",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_bg_card_show_strip_45_100.YH_UI_bg_card_show_strip_45_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -113399,11 +113734,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_lihui_KaESi_01.YH_lihui_KaESi_01",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -113476,7 +113811,7 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_lihui_KaESi_02.YH_lihui_KaESi_02",
           "SubPathString": ""
         },
         "ItemIconSmall": {
@@ -113553,7 +113888,7 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_lihui_KaESi_03.YH_lihui_KaESi_03",
           "SubPathString": ""
         },
         "ItemIconSmall": {
@@ -113630,7 +113965,7 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_lihui_KaESi_04.YH_lihui_KaESi_04",
           "SubPathString": ""
         },
         "ItemIconSmall": {
@@ -113876,9 +114211,9 @@
         },
         "ItemName": {
           "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
-          "Key": "Frame_Bagel_001_Name",
-          "SourceString": "来一口",
-          "LocalizedString": "Grab a Bite"
+          "Key": "Frame_PrisonFight_Name",
+          "SourceString": "力量的真谛",
+          "LocalizedString": "True Strength"
         },
         "MaxAmount": 1,
         "bUseMaxAmountLimitID": false,
@@ -113954,9 +114289,9 @@
         },
         "ItemName": {
           "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
-          "Key": "BusinessCard_Bagel_001_Name",
-          "SourceString": "新鲜出炉",
-          "LocalizedString": "Freshly Baked"
+          "Key": "Businesscard_PrisonFight_Name",
+          "SourceString": "定风波",
+          "LocalizedString": "Storm Calmer"
         },
         "MaxAmount": 1,
         "bUseMaxAmountLimitID": false,
@@ -114241,11 +114576,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/Prison_Spoon_256.Prison_Spoon_256",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Prison_SpoonMax_256.Prison_SpoonMax_256",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/Prison_Spoon_100.Prison_Spoon_100",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Prison_SpoonMax_100.Prison_SpoonMax_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -114253,10 +114588,10 @@
           "SubPathString": ""
         },
         "ItemName": {
-          "Namespace": "",
-          "Key": "27BED9B94FD5B2817F07A889E2AEA1D6",
-          "SourceString": "<!>大力勺",
-          "LocalizedString": "<!>大力勺"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Prison_SpoonMax_name",
+          "SourceString": "坚如磐匙",
+          "LocalizedString": "Rock-Solid Spoon"
         },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
@@ -114266,15 +114601,12 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
-          "Key": "Prison_Spoon_usedesc",
-          "SourceString": "食堂配发的金属汤匙，结实耐用，但多次用于挖掘后也可能断裂。",
-          "LocalizedString": "A metal spoon issued by the cafeteria. Sturdy and durable, but may break after repeated digging attempts."
+          "Key": "Prison_SpoonMax_usedec",
+          "SourceString": "异常坚韧的汤匙。只需一击，即可粉碎一切砖墙。",
+          "LocalizedString": "An impossibly tough spoon. One strike can smash through any brick wall."
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Item.ST_Item",
-          "Key": "Prison_Spoon_desc",
-          "SourceString": "不少在押人员坚信：「得汤匙者得自由。」正因如此，食堂的汤匙常常不翼而飞，其流失率堪比医生的蓝色签字笔。但显然，真正靠一把汤匙逃出生天的例子寥寥无几。合理怀疑，默许人们持有汤匙，或许正是管教用来消磨在押人员出逃积极性的潜在策略之一。",
-          "LocalizedString": "Many inmates firmly believe that \"he who holds the spoon holds freedom.\" Because of this, cafeteria spoons vanish constantly, at a rate rivaling that of doctors' blue pens. Obviously, the number of successful spoon-based escapes is next to none. One might reasonably suspect that allowing inmates to keep spoons is actually a deliberate strategy by the guards to drain their enthusiasm for escape attempts."
+          "CultureInvariantString": null
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -114283,7 +114615,7 @@
         "bCanDiscard": false,
         "DiscardDropID": "None",
         "SellData": [],
-        "bDisplayedWhenObtain": false,
+        "bDisplayedWhenObtain": true,
         "bUndisplayFirstAddMessageTips": false,
         "bUndisplayCommonAddMessageTips": false,
         "bUseAddMessageTips": true,
@@ -114315,11 +114647,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/Prison_walkman_256.Prison_walkman_256",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Prison_EMP_256.Prison_EMP_256",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/Prison_walkman_100.Prison_walkman_100",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Prison_EMP_100.Prison_EMP_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -114327,10 +114659,10 @@
           "SubPathString": ""
         },
         "ItemName": {
-          "Namespace": "",
-          "Key": "1C19A95D43288A6BF474C8A130DE0D89",
-          "SourceString": "<!>干扰器",
-          "LocalizedString": "<!>干扰器"
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Prison_EMP_name",
+          "SourceString": "电波干扰器",
+          "LocalizedString": "Signal Jammer"
         },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
@@ -114340,15 +114672,12 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
-          "Key": "Prison_walkman_usedesc",
-          "SourceString": "一台随身听，收录了不少流行金曲和经典老歌。有些在押人员或许愿意用珍藏的宝贝来换一个。",
-          "LocalizedString": "A Portable Player loaded with popular hits and classic oldies. Some inmates might be willing to trade their treasured belongings for one."
+          "Key": "Prison_EMP_usedec",
+          "SourceString": "某种特殊的电子设备，能让使用者在探照灯的光芒下隐匿踪迹。",
+          "LocalizedString": "A specialized electronic device that hides the user's presence while under searchlight beams."
         },
         "Description": {
-          "TableId": "/Game/Text/ST_Item.ST_Item",
-          "Key": "Prison_walkman_desc",
-          "SourceString": "拥有一台随身听，并不仅仅意味着拥有了一件稀罕货、一种身份的象征。最重要的是，你有了自己的专属BGM——尽管只有你自己能听到。",
-          "LocalizedString": "Owning a Portable Player isn't just about having a rare treasure or a status symbol. Most importantly, you now have your very own personal BGM… even if you're the only one who can hear it."
+          "CultureInvariantString": null
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -114357,7 +114686,7 @@
         "bCanDiscard": false,
         "DiscardDropID": "None",
         "SellData": [],
-        "bDisplayedWhenObtain": false,
+        "bDisplayedWhenObtain": true,
         "bUndisplayFirstAddMessageTips": false,
         "bUndisplayCommonAddMessageTips": false,
         "bUseAddMessageTips": true,
@@ -114747,6 +115076,392 @@
         "ElementData": null,
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Quest_eri_01": {
+        "ItemType": "EItemType::ITEM_TYPE_QUEST",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/HighresScreenshot00001.HighresScreenshot00001",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/HighresScreenshot00001.HighresScreenshot00001",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Quest_eri_01_name",
+          "SourceString": "<!>2",
+          "LocalizedString": "<!>2"
+        },
+        "MaxAmount": 999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Quest_eri_01_usedesc",
+          "SourceString": "<!>3",
+          "LocalizedString": "<!>3"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Quest_eri_01_desc",
+          "SourceString": "<!>1",
+          "LocalizedString": "<!>1"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "QuestReward",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Quest_eri_02": {
+        "ItemType": "EItemType::ITEM_TYPE_QUEST",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Furniture_Figues_002_256.Furniture_Figues_002_256",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Furniture_Figues_002_100.Furniture_Figues_002_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Quest_eri_02_name",
+          "SourceString": "<!>5",
+          "LocalizedString": "<!>5"
+        },
+        "MaxAmount": 999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Quest_eri_02_usedesc",
+          "SourceString": "<!>6",
+          "LocalizedString": "<!>6"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Quest_eri_02_desc",
+          "SourceString": "<!>4",
+          "LocalizedString": "<!>4"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "QuestReward",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Quest_eri_03": {
+        "ItemType": "EItemType::ITEM_TYPE_QUEST",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Figure_eri_01_002_256.Figure_eri_01_002_256",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Figure_eri_01_002_100.Figure_eri_01_002_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Quest_eri_03_name",
+          "SourceString": "<!>8",
+          "LocalizedString": "<!>8"
+        },
+        "MaxAmount": 999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_BLUE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Quest_eri_03_usedesc",
+          "SourceString": "<!>9",
+          "LocalizedString": "<!>9"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Quest_eri_03_desc",
+          "SourceString": "<!>7",
+          "LocalizedString": "<!>7"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "QuestReward",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Affection_50_1070": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Icon_HaoGan_256.UI_YH_Icon_HaoGan_256",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_YH_Icon_HaoGan_100.UI_YH_Icon_HaoGan_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Affection_name",
+          "SourceString": "好感度",
+          "LocalizedString": "Affection"
+        },
+        "MaxAmount": 999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Affection_usedesc",
+          "SourceString": "与伙伴同行时的友谊见证，增进感情的同时或许也会收到同伴的回礼。",
+          "LocalizedString": "A token of friendship shared while traveling with your companions. Strengthen your bond, and you might even receive a gift in return."
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "AddValueInfos": [
+              {
+                "LikeabilityID": "1070",
+                "Height": 1,
+                "Max": 1,
+                "Min": 1
+              }
+            ]
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": true,
+        "bUseAddMessageTips": false,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "Affection_50_1071": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_YH_Icon_HaoGan_256.UI_YH_Icon_HaoGan_256",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_YH_Icon_HaoGan_100.UI_YH_Icon_HaoGan_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Affection_name",
+          "SourceString": "好感度",
+          "LocalizedString": "Affection"
+        },
+        "MaxAmount": 999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Affection_usedesc",
+          "SourceString": "与伙伴同行时的友谊见证，增进感情的同时或许也会收到同伴的回礼。",
+          "LocalizedString": "A token of friendship shared while traveling with your companions. Strengthen your bond, and you might even receive a gift in return."
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "AddValueInfos": [
+              {
+                "LikeabilityID": "1071",
+                "Height": 1,
+                "Max": 1,
+                "Min": 1
+              }
+            ]
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": true,
+        "bUseAddMessageTips": false,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
         "PlayerViewTagArray": [],
         "bIsLimitAmount": false,
         "bIsManual": false,

@@ -17550,6 +17550,51 @@
           "bCloseBigMap": true,
           "PreCloseUI": []
         }
+      },
+      "PrisonMatch": {
+        "Type": "EItemOutputSource::OS_UI_PATH",
+        "Icon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ContentDesc": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "UI_JailFight",
+          "SourceString": "格斗俱乐部",
+          "LocalizedString": "Fight Club"
+        },
+        "Location": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "LevelName": "",
+        "Path": "",
+        "UnlockFuncID": "None",
+        "FindPathid": "None",
+        "FindMapFixedIcon": "None",
+        "JumpToUIData": {
+          "QuestUIType": "EQuestUIType::QUT_CommonUI",
+          "UIParaming": [
+            "prisonmatch"
+          ],
+          "JumpConfig": null,
+          "UnlockFunctionID": "JailFight",
+          "UnlockNoticeMessage": {
+            "TableId": "/Game/Text/ST_Output.ST_Output",
+            "Key": "PrisonMatch_UnlockDesc",
+            "SourceString": "猎人等级到达到11级并完成拘留所任务「囚笼里的新风」后解锁",
+            "LocalizedString": "Unlocked after reaching Hunter Level 11 and completing the Detention Facility quest \"A Breeze Through the Cage\"."
+          },
+          "SwitchArray": [],
+          "DynamicParam": {
+            "ParameterWrappers": []
+          },
+          "bShowBlackEffect": false,
+          "EffectStayTime": 0.5,
+          "bCloseBigMap": true,
+          "PreCloseUI": []
+        }
       }
     }
   }

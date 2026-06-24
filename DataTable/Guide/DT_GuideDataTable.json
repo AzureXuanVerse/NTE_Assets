@@ -34736,8 +34736,8 @@
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
                     "Key": "TeachLacrimosa4_m",
-                    "SourceString": "成功释放变轨技能后，立刻衔接普通攻击，可以直接释放威力强大的第五段普通攻击",
-                    "LocalizedString": "Chain into the powerful 5th Basic Attack immediately after casting a Redirect Skill."
+                    "SourceString": "成功释放变轨技能后，立刻<Orange>衔接普通攻击</>，可以直接释放威力强大的第五段普通攻击",
+                    "LocalizedString": "Chain into the powerful 5th <Orange>Basic Attack</> immediately after successfully casting a Redirect Skill."
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -34778,7 +34778,7 @@
                 "X": 0.0,
                 "Y": 0.0
               },
-              "ResponseTime": 0.0,
+              "ResponseTime": 1.5,
               "WidgetID": "GuideCP",
               "Desc": {
                 "CultureInvariantString": null
@@ -34786,8 +34786,8 @@
               "Context": {
                 "TableId": "/Game/Text/ST_Guide.ST_Guide",
                 "Key": "TeachLacrimosa5",
-                "SourceString": "长按<img id=\"1001\"/>可以瞄准并记忆部分敌人的技能",
-                "LocalizedString": "Hold <img id=\"1001\"/> to aim at and memorize certain enemy skills."
+                "SourceString": "长按<img id=\"1001\"/>可以<Orange>瞄准并记忆</>部分敌人的技能",
+                "LocalizedString": "Hold <img id=\"1001\"/> to <Orange>target and memorize</> a certain enemy's skill."
               },
               "CurUIActions": [
                 {
@@ -34825,13 +34825,13 @@
                     "X": 0.0,
                     "Y": 0.0
                   },
-                  "ResponseTime": 0.0,
+                  "ResponseTime": 1.5,
                   "WidgetID": "ButtonMelee_Gamepad",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
                     "Key": "TeachLacrimosa5",
-                    "SourceString": "长按<img id=\"1001\"/>可以瞄准并记忆部分敌人的技能",
-                    "LocalizedString": "Hold <img id=\"1001\"/> to aim at and memorize certain enemy skills."
+                    "SourceString": "长按<img id=\"1001\"/>可以<Orange>瞄准并记忆</>部分敌人的技能",
+                    "LocalizedString": "Hold <img id=\"1001\"/> to <Orange>target and memorize</> a certain enemy's skill."
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -34872,13 +34872,13 @@
                     "X": 0.0,
                     "Y": 0.0
                   },
-                  "ResponseTime": 0.0,
+                  "ResponseTime": 1.5,
                   "WidgetID": "ButtonMelee_Mobile",
                   "Desc": {
                     "TableId": "/Game/Text/ST_Guide.ST_Guide",
                     "Key": "TeachLacrimosa5_m",
-                    "SourceString": "长按可以瞄准并记忆部分敌人的技能",
-                    "LocalizedString": "Hold to aim at and memorize certain enemy skills."
+                    "SourceString": "长按可以<Orange>瞄准并记忆</>部分敌人的技能",
+                    "LocalizedString": "Hold to <Orange>target and memorize</> a certain enemy's skill."
                   },
                   "Context": {
                     "CultureInvariantString": null
@@ -36127,6 +36127,2217 @@
                     "Image_91"
                   ],
                   "GuardTime": 8.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": [],
+        "bCanRepeat": true,
+        "BeforeGuideStartAddQuestArray": [],
+        "AfterGuideEndAddQuestArray": []
+      },
+      "TeachShinku1": {
+        "GuideAnnottation": "（教学副本）真红普攻分支",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "bNeedAllComplete": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "GuideCP",
+              "Desc": {
+                "CultureInvariantString": null
+              },
+              "Context": {
+                "Namespace": "",
+                "Key": "A0329BD045445871D23A849C3F363688",
+                "SourceString": "真红的第3、4、5段普攻后长按普攻，会触发衍生攻击",
+                "LocalizedString": "真红的第3、4、5段普攻后长按普攻，会触发衍生攻击"
+              },
+              "CurUIActions": [
+                {
+                  "ImageID": "1001",
+                  "CurUIAction": {
+                    "ObjectName": "InputAction'IA_MeleeAttack'",
+                    "ObjectPath": "/Game/Input/IA_MeleeAttack.1"
+                  },
+                  "TrigInputEvent": "EInputEvent::IE_Pressed"
+                }
+              ],
+              "GuideTriggerEvents": [
+                "GuideCP"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "EUINavigationInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonMelee_Gamepad",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "08B46BDA4F9D5E863E5F468EA796DCA6",
+                    "SourceString": "真红的第3、4、5段普攻后长按普攻，会触发衍生攻击",
+                    "LocalizedString": "真红的第3、4、5段普攻后长按普攻，会触发衍生攻击"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_Melee_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_Melee_Gamepad.0"
+                      },
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+                    }
+                  ],
+                  "GuideTriggerEvents": [
+                    "ButtonMelee"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "EUINavigationInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonMeleel_Mobile",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "2A3F1F1D463E196C42D77BABC1486F06",
+                    "SourceString": "真红的第3、4、5段普攻后长按普攻，会触发衍生攻击",
+                    "LocalizedString": "真红的第3、4、5段普攻后长按普攻，会触发衍生攻击"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "ButtonMelee"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": [],
+        "bCanRepeat": true,
+        "BeforeGuideStartAddQuestArray": [],
+        "AfterGuideEndAddQuestArray": []
+      },
+      "TeachShinku2": {
+        "GuideAnnottation": "（教学副本）真红「威慑凝视」介绍（UI控件还没好）",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "bNeedAllComplete": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "GuideCP",
+              "Desc": {
+                "CultureInvariantString": null
+              },
+              "Context": {
+                "Namespace": "",
+                "Key": "ABC9DA114168EEA4A3F77CB23E5A9745",
+                "SourceString": "当真红在场上且进入战斗状态下超过x秒未主动发动攻击时进入「威慑凝视」状态，每秒叠加「威慑凝视」层数；通过闪避敌人攻击也可以获得「威慑凝视」层数",
+                "LocalizedString": "当真红在场上且进入战斗状态下超过x秒未主动发动攻击时进入「威慑凝视」状态，每秒叠加「威慑凝视」层数；通过闪避敌人攻击也可以获得「威慑凝视」层数"
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "GuideCP"
+              ],
+              "GuardTime": 5.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "EUINavigationInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "GuideCP",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "Namespace": "",
+                    "Key": "AFF29C314ED43838F4DF12BAC9F97D2D",
+                    "SourceString": "当真红在场上且进入战斗状态下超过x秒未主动发动攻击时进入「威慑凝视」状态，每秒叠加「威慑凝视」层数；通过闪避敌人攻击也可以获得「威慑凝视」层数",
+                    "LocalizedString": "当真红在场上且进入战斗状态下超过x秒未主动发动攻击时进入「威慑凝视」状态，每秒叠加「威慑凝视」层数；通过闪避敌人攻击也可以获得「威慑凝视」层数"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCP"
+                  ],
+                  "GuardTime": 5.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "EUINavigationInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "GuideCP",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "Namespace": "",
+                    "Key": "15FB8BFC4E38B51635521B8AEA8040B2",
+                    "SourceString": "当真红在场上且进入战斗状态下超过x秒未主动发动攻击时进入「威慑凝视」状态，每秒叠加「威慑凝视」层数；通过闪避敌人攻击也可以获得「威慑凝视」层数",
+                    "LocalizedString": "当真红在场上且进入战斗状态下超过x秒未主动发动攻击时进入「威慑凝视」状态，每秒叠加「威慑凝视」层数；通过闪避敌人攻击也可以获得「威慑凝视」层数"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCP"
+                  ],
+                  "GuardTime": 5.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": [],
+        "bCanRepeat": true,
+        "BeforeGuideStartAddQuestArray": [],
+        "AfterGuideEndAddQuestArray": []
+      },
+      "TeachShinku3": {
+        "GuideAnnottation": "（教学副本）真红解除「威慑凝视」发动「即瞬猛袭」",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "bNeedAllComplete": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "GuideCP",
+              "Desc": {
+                "CultureInvariantString": null
+              },
+              "Context": {
+                "Namespace": "",
+                "Key": "939CA91949D67221EBD1C299B05D5656",
+                "SourceString": "主动发动攻击时解除「威慑凝视」状态，进行「即瞬猛袭」",
+                "LocalizedString": "主动发动攻击时解除「威慑凝视」状态，进行「即瞬猛袭」"
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "GuideCP"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "EUINavigationInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonMelee_Gamepad",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "D9EB4371402D3BB6447A52AF89FDB0C0",
+                    "SourceString": "主动发动攻击时解除「威慑凝视」状态，进行「即瞬猛袭」",
+                    "LocalizedString": "主动发动攻击时解除「威慑凝视」状态，进行「即瞬猛袭」"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_Melee_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_Melee_Gamepad.0"
+                      },
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+                    }
+                  ],
+                  "GuideTriggerEvents": [
+                    "ButtonMelee"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "EUINavigationInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonMeleel_Mobile",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "C0E35ADE444B521F49DC54868AD2355B",
+                    "SourceString": "主动发动攻击时解除「威慑凝视」状态，进行「即瞬猛袭」",
+                    "LocalizedString": "主动发动攻击时解除「威慑凝视」状态，进行「即瞬猛袭」"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "ButtonMelee"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": [],
+        "bCanRepeat": true,
+        "BeforeGuideStartAddQuestArray": [],
+        "AfterGuideEndAddQuestArray": []
+      },
+      "TeachShinku4": {
+        "GuideAnnottation": "（教学副本）真红终结技",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "bNeedAllComplete": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "ButtonUltimateSkill",
+              "Desc": {
+                "Namespace": "",
+                "Key": "0AF5F4EA488A52E90D6E79A16F6BE9A7",
+                "SourceString": "释放终结技，会进入「升腾之赤」状态",
+                "LocalizedString": "释放终结技，会进入「升腾之赤」状态"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [
+                {
+                  "ImageID": "1001",
+                  "CurUIAction": {
+                    "ObjectName": "InputAction'IA_UltSkillAttack'",
+                    "ObjectPath": "/Game/Input/IA_UltSkillAttack.1"
+                  },
+                  "TrigInputEvent": "EInputEvent::IE_Pressed"
+                }
+              ],
+              "GuideTriggerEvents": [
+                "ButtonUltimateSkill"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "EUINavigationInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonUltimateSkill_Gamepad",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "3B95D7574C51E9D8B1267EB14771BC51",
+                    "SourceString": "释放终结技，会进入「升腾之赤」状态",
+                    "LocalizedString": "释放终结技，会进入「升腾之赤」状态"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_UltSkill_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_UltSkill_Gamepad.0"
+                      },
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+                    }
+                  ],
+                  "GuideTriggerEvents": [
+                    "ButtonUltimateSkill"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "EUINavigationInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonUltimateSkill_Mobile",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "CB09EA9743E598F5D79A3A88D8D4E528",
+                    "SourceString": "释放终结技，会进入「升腾之赤」状态",
+                    "LocalizedString": "释放终结技，会进入「升腾之赤」状态"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "ButtonUltimateSkill"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": [],
+        "bCanRepeat": true,
+        "BeforeGuideStartAddQuestArray": [],
+        "AfterGuideEndAddQuestArray": []
+      },
+      "TeachShinku5": {
+        "GuideAnnottation": "（教学副本）真红强化状态普攻积攒E技能能量",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "bNeedAllComplete": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "GuideCP",
+              "Desc": {
+                "CultureInvariantString": null
+              },
+              "Context": {
+                "Namespace": "",
+                "Key": "ABBCFF0149EA3AF8E67C109D19581E1F",
+                "SourceString": "「升腾之赤」状态下，进行普攻可以积攒技能能量",
+                "LocalizedString": "「升腾之赤」状态下，进行普攻可以积攒技能能量"
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "GuideCP"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "EUINavigationInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonMelee_Gamepad",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "56C37C8247D5402F0528788D738C4667",
+                    "SourceString": "「升腾之赤」状态下，进行普攻可以积攒技能能量",
+                    "LocalizedString": "「升腾之赤」状态下，进行普攻可以积攒技能能量"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_Melee_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_Melee_Gamepad.0"
+                      },
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+                    }
+                  ],
+                  "GuideTriggerEvents": [
+                    "ButtonMelee"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "EUINavigationInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonMeleel_Mobile",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "F873EE684CA554668169D6A72B14F323",
+                    "SourceString": "「升腾之赤」状态下，进行普攻可以积攒技能能量",
+                    "LocalizedString": "「升腾之赤」状态下，进行普攻可以积攒技能能量"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "ButtonMeleel"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": [],
+        "bCanRepeat": true,
+        "BeforeGuideStartAddQuestArray": [],
+        "AfterGuideEndAddQuestArray": []
+      },
+      "TeachShinku6": {
+        "GuideAnnottation": "（教学副本）真红强化状态释放E技能",
+        "bForceGuide": true,
+        "GuideFunctionID": "None",
+        "bNeedAllComplete": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "bGuard": true,
+              "bCanClickNextStep": false,
+              "CustomNextStepKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUIActionsIgnoreNextStep": false,
+              "WidgetID": "ButtonSkill",
+              "Desc": {
+                "Namespace": "",
+                "Key": "97F9EAC24D6CF8A8BA5992AA782B6017",
+                "SourceString": "普攻积攒的能量足以释放1次技能，按下释放",
+                "LocalizedString": "普攻积攒的能量足以释放1次技能，按下释放"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "ButtonSkill"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "EUINavigationInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUIActionsIgnoreNextStep": false,
+                  "WidgetID": "ButtonSkill_Gamepad",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "F268CF474AA9F5C6E2B191AA3E6101D1",
+                    "SourceString": "普攻积攒的能量足以释放1次技能，按下释放",
+                    "LocalizedString": "普攻积攒的能量足以释放1次技能，按下释放"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_Skill_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_Skill_Gamepad.0"
+                      },
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+                    }
+                  ],
+                  "GuideTriggerEvents": [
+                    "ButtonSkill"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "EUINavigationInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUIActionsIgnoreNextStep": false,
+                  "WidgetID": "ButtonSkill_Mobile",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "42DF062749D08E3603F2A7AFF191AF60",
+                    "SourceString": "普攻积攒的能量足以释放1次技能，按下释放",
+                    "LocalizedString": "普攻积攒的能量足以释放1次技能，按下释放"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "ButtonSkill"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": [],
+        "bCanRepeat": true,
+        "BeforeGuideStartAddQuestArray": [],
+        "AfterGuideEndAddQuestArray": []
+      },
+      "TeachShinku7": {
+        "GuideAnnottation": "（教学副本）真红强化状态释放Q技能",
+        "bForceGuide": true,
+        "GuideFunctionID": "None",
+        "bNeedAllComplete": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "bGuard": true,
+              "bCanClickNextStep": false,
+              "CustomNextStepKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUIActionsIgnoreNextStep": false,
+              "WidgetID": "ButtonUltimateSkill",
+              "Desc": {
+                "Namespace": "",
+                "Key": "D1A3D4DA4F5F2A21EF9C34BD3C76B8D0",
+                "SourceString": "「极轨终结：赤红的处决」已可以释放，多次按下可以消耗终结技能量，连续释放；终结技能量消耗完毕后，将释放「极轨终结：处决的龙炎」",
+                "LocalizedString": "「极轨终结：赤红的处决」已可以释放，多次按下可以消耗终结技能量，连续释放；终结技能量消耗完毕后，将释放「极轨终结：处决的龙炎」"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [
+                {
+                  "ImageID": "1001",
+                  "CurUIAction": {
+                    "ObjectName": "InputAction'IA_UltSkillAttack'",
+                    "ObjectPath": "/Game/Input/IA_UltSkillAttack.1"
+                  },
+                  "TrigInputEvent": "EInputEvent::IE_Pressed"
+                }
+              ],
+              "GuideTriggerEvents": [
+                "ButtonUltimateSkill"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "EUINavigationInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUIActionsIgnoreNextStep": false,
+                  "WidgetID": "ButtonUltimateSkill_Gamepad",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "AB2005114C0437FCE25999BDEB00A617",
+                    "SourceString": "「极轨终结：赤红的处决」已可以释放，多次按下可以消耗终结技能量，连续释放；终结技能量消耗完毕后，将释放「极轨终结：处决的龙炎」",
+                    "LocalizedString": "「极轨终结：赤红的处决」已可以释放，多次按下可以消耗终结技能量，连续释放；终结技能量消耗完毕后，将释放「极轨终结：处决的龙炎」"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_UltSkill_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_UltSkill_Gamepad.0"
+                      },
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+                    }
+                  ],
+                  "GuideTriggerEvents": [
+                    "ButtonUltimateSkill"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "EUINavigationInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUIActionsIgnoreNextStep": false,
+                  "WidgetID": "ButtonUltimateSkill_Mobile",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "3D6BD9944A60151A67560BBB3DD8372E",
+                    "SourceString": "「极轨终结：赤红的处决」已可以释放，多次按下可以消耗终结技能量，连续释放；终结技能量消耗完毕后，将释放「极轨终结：处决的龙炎」",
+                    "LocalizedString": "「极轨终结：赤红的处决」已可以释放，多次按下可以消耗终结技能量，连续释放；终结技能量消耗完毕后，将释放「极轨终结：处决的龙炎」"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "ButtonUltimateSkill"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": [],
+        "bCanRepeat": true,
+        "BeforeGuideStartAddQuestArray": [],
+        "AfterGuideEndAddQuestArray": []
+      },
+      "TeachIroi1": {
+        "GuideAnnottation": "（教学副本）伊洛伊臆想槽介绍（UI控件还没好）",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "bNeedAllComplete": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "GuideCP",
+              "Desc": {
+                "CultureInvariantString": null
+              },
+              "Context": {
+                "Namespace": "",
+                "Key": "F7B47B034A3690AE5D478A932A0D568F",
+                "SourceString": "伊洛伊的普攻命中敌人会积攒“臆想”",
+                "LocalizedString": "伊洛伊的普攻命中敌人会积攒“臆想”"
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "GuideCP"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "EUINavigationInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "GuideCP",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "Namespace": "",
+                    "Key": "C9DCA0A948A4D1D4D00B6BB93707CDC8",
+                    "SourceString": "伊洛伊的普攻命中敌人会积攒“臆想”",
+                    "LocalizedString": "伊洛伊的普攻命中敌人会积攒“臆想”"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCP"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "EUINavigationInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "GuideCP",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "Namespace": "",
+                    "Key": "294FBD434B0385C21055CCBAC08A411F",
+                    "SourceString": "伊洛伊的普攻命中敌人会积攒“臆想”",
+                    "LocalizedString": "伊洛伊的普攻命中敌人会积攒“臆想”"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCP"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": [],
+        "bCanRepeat": true,
+        "BeforeGuideStartAddQuestArray": [],
+        "AfterGuideEndAddQuestArray": []
+      },
+      "TeachIroi2": {
+        "GuideAnnottation": "（教学副本）伊洛伊长按普攻释放分支攻击",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "bNeedAllComplete": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "GuideCP",
+              "Desc": {
+                "CultureInvariantString": null
+              },
+              "Context": {
+                "Namespace": "",
+                "Key": "B893F26C49F267B69482DFB68600AF1B",
+                "SourceString": "长按普攻会进行蓄力，根据蓄力时间会召唤最多三只小羊进行攻击",
+                "LocalizedString": "长按普攻会进行蓄力，根据蓄力时间会召唤最多三只小羊进行攻击"
+              },
+              "CurUIActions": [
+                {
+                  "ImageID": "1001",
+                  "CurUIAction": {
+                    "ObjectName": "InputAction'IA_MeleeAttack'",
+                    "ObjectPath": "/Game/Input/IA_MeleeAttack.1"
+                  },
+                  "TrigInputEvent": "EInputEvent::IE_Pressed"
+                }
+              ],
+              "GuideTriggerEvents": [
+                "GuideCP"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "EUINavigationInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonMelee_Gamepad",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "200C11324AF3C99DBA63D5BA6015FBE4",
+                    "SourceString": "长按普攻会进行蓄力，根据蓄力时间会召唤最多三只小羊进行攻击",
+                    "LocalizedString": "长按普攻会进行蓄力，根据蓄力时间会召唤最多三只小羊进行攻击"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_Melee_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_Melee_Gamepad.0"
+                      },
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+                    }
+                  ],
+                  "GuideTriggerEvents": [
+                    "ButtonMelee"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "EUINavigationInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonMeleel_Mobile",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "5785D87348884DDF0585CD8E1B7B641F",
+                    "SourceString": "长按普攻会进行蓄力，根据蓄力时间会召唤最多三只小羊进行攻击",
+                    "LocalizedString": "长按普攻会进行蓄力，根据蓄力时间会召唤最多三只小羊进行攻击"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "ButtonMelee"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": [],
+        "bCanRepeat": true,
+        "BeforeGuideStartAddQuestArray": [],
+        "AfterGuideEndAddQuestArray": []
+      },
+      "TeachIroi3": {
+        "GuideAnnottation": "（教学副本）伊洛伊点按e技能",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "bNeedAllComplete": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "ButtonSkill",
+              "Desc": {
+                "Namespace": "",
+                "Key": "7D022AA343308AAF9AF25796783C97DE",
+                "SourceString": "点按e技能会发动一次攻击，并恢复全队血量",
+                "LocalizedString": "点按e技能会发动一次攻击，并恢复全队血量"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [
+                {
+                  "ImageID": "1001",
+                  "CurUIAction": {
+                    "ObjectName": "InputAction'IA_SkillAttack'",
+                    "ObjectPath": "/Game/Input/IA_SkillAttack.1"
+                  },
+                  "TrigInputEvent": "EInputEvent::IE_Pressed"
+                }
+              ],
+              "GuideTriggerEvents": [
+                "ButtonSkill"
+              ],
+              "GuardTime": 8.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "EUINavigationInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonSkill_Gamepad",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "1734A02C4459A65833449081A722449D",
+                    "SourceString": "点按e技能会发动一次攻击，并恢复全队血量",
+                    "LocalizedString": "点按e技能会发动一次攻击，并恢复全队血量"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_Skill_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_Skill_Gamepad.0"
+                      },
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+                    }
+                  ],
+                  "GuideTriggerEvents": [
+                    "ButtonSkill"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "EUINavigationInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonSkill_Mobile",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "C5825290461E5000A2206492590305DB",
+                    "SourceString": "点按e技能会发动一次攻击，并恢复全队血量",
+                    "LocalizedString": "点按e技能会发动一次攻击，并恢复全队血量"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "ButtonSkill"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": [],
+        "bCanRepeat": true,
+        "BeforeGuideStartAddQuestArray": [],
+        "AfterGuideEndAddQuestArray": []
+      },
+      "TeachIroi4": {
+        "GuideAnnottation": "（教学副本）伊洛伊e技能期间释放普攻",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "bNeedAllComplete": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "GuideCP",
+              "Desc": {
+                "CultureInvariantString": null
+              },
+              "Context": {
+                "Namespace": "",
+                "Key": "5759C0FE4C60EFF8AFE037A654543D2A",
+                "SourceString": "技能持续期间，长按普攻可以直接召唤3只小羊进行攻击",
+                "LocalizedString": "技能持续期间，长按普攻可以直接召唤3只小羊进行攻击"
+              },
+              "CurUIActions": [
+                {
+                  "ImageID": "1001",
+                  "CurUIAction": {
+                    "ObjectName": "InputAction'IA_MeleeAttack'",
+                    "ObjectPath": "/Game/Input/IA_MeleeAttack.1"
+                  },
+                  "TrigInputEvent": "EInputEvent::IE_Pressed"
+                }
+              ],
+              "GuideTriggerEvents": [
+                "GuideCP"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "EUINavigationInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonMelee_Gamepad",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "E6F8381A494C74AFB1453EA06DBEB23E",
+                    "SourceString": "技能持续期间，长按普攻可以直接召唤3只小羊进行攻击",
+                    "LocalizedString": "技能持续期间，长按普攻可以直接召唤3只小羊进行攻击"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_Melee_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_Melee_Gamepad.0"
+                      },
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+                    }
+                  ],
+                  "GuideTriggerEvents": [
+                    "ButtonMelee"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "EUINavigationInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonMeleel_Mobile",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "13B7C167489304036BA4CB920B5C9E24",
+                    "SourceString": "技能持续期间，长按普攻可以直接召唤3只小羊进行攻击",
+                    "LocalizedString": "技能持续期间，长按普攻可以直接召唤3只小羊进行攻击"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "ButtonMelee"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": [],
+        "bCanRepeat": true,
+        "BeforeGuideStartAddQuestArray": [],
+        "AfterGuideEndAddQuestArray": []
+      },
+      "TeachIroi5": {
+        "GuideAnnottation": "（教学副本）伊洛伊长按e技能让队友全体退行",
+        "bForceGuide": false,
+        "GuideFunctionID": "None",
+        "bNeedAllComplete": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "DescPos": {
+                "X": 0.0,
+                "Y": 0.0
+              },
+              "ResponseTime": 0.0,
+              "WidgetID": "ButtonSkill",
+              "Desc": {
+                "Namespace": "",
+                "Key": "8A3C1CFF472469B2447E088FA20C44E4",
+                "SourceString": "长按技能，会让队伍内除自己外的所有角色进入退行状态，变成小羊协助战斗",
+                "LocalizedString": "长按技能，会让队伍内除自己外的所有角色进入退行状态，变成小羊协助战斗"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [
+                {
+                  "ImageID": "1001",
+                  "CurUIAction": {
+                    "ObjectName": "InputAction'IA_SkillAttack'",
+                    "ObjectPath": "/Game/Input/IA_SkillAttack.1"
+                  },
+                  "TrigInputEvent": "EInputEvent::IE_Pressed"
+                }
+              ],
+              "GuideTriggerEvents": [
+                "ButtonSkill"
+              ],
+              "GuardTime": 8.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "EUINavigationInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonSkill_Gamepad",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "1734A02C4459A65833449081A722449D",
+                    "SourceString": "点按e技能会发动一次攻击，并恢复全队血量",
+                    "LocalizedString": "点按e技能会发动一次攻击，并恢复全队血量"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_Skill_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_Skill_Gamepad.0"
+                      },
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+                    }
+                  ],
+                  "GuideTriggerEvents": [
+                    "ButtonSkill"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "EUINavigationInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "DescPos": {
+                    "X": 0.0,
+                    "Y": 0.0
+                  },
+                  "ResponseTime": 0.0,
+                  "WidgetID": "ButtonSkill_Mobile",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "C5825290461E5000A2206492590305DB",
+                    "SourceString": "点按e技能会发动一次攻击，并恢复全队血量",
+                    "LocalizedString": "点按e技能会发动一次攻击，并恢复全队血量"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "ButtonSkill"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": [],
+        "bCanRepeat": true,
+        "BeforeGuideStartAddQuestArray": [],
+        "AfterGuideEndAddQuestArray": []
+      },
+      "TeachIroi6": {
+        "GuideAnnottation": "（教学副本）队友退行状态解除提示",
+        "bForceGuide": true,
+        "GuideFunctionID": "None",
+        "bNeedAllComplete": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "bGuard": true,
+              "bCanClickNextStep": true,
+              "CustomNextStepKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUIActionsIgnoreNextStep": false,
+              "WidgetID": "GuideCP",
+              "Desc": {
+                "CultureInvariantString": null
+              },
+              "Context": {
+                "Namespace": "",
+                "Key": "DA03A2AB4B1296328ED20681A6E562D7",
+                "SourceString": "脱战后队友的退行状态会自动解除",
+                "LocalizedString": "脱战后队友的退行状态会自动解除"
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "GuideCP"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            },
+            {
+              "bGuard": true,
+              "bCanClickNextStep": true,
+              "CustomNextStepKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUIActionsIgnoreNextStep": false,
+              "WidgetID": "GuideCP",
+              "Desc": {
+                "CultureInvariantString": null
+              },
+              "Context": {
+                "Namespace": "",
+                "Key": "AF00DC3C44324B260545A3B64CD3D9A5",
+                "SourceString": "在下一步教学中，系统会为您解除队友的退行状态",
+                "LocalizedString": "在下一步教学中，系统会为您解除队友的退行状态"
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "GuideCP"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "EUINavigationInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "bGuard": true,
+                  "bCanClickNextStep": true,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUIActionsIgnoreNextStep": false,
+                  "WidgetID": "GuideCP",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "Namespace": "",
+                    "Key": "71A0EEE642AFAEEABF7221938CC2FE62",
+                    "SourceString": "脱战后队友的退行状态会自动解除",
+                    "LocalizedString": "脱战后队友的退行状态会自动解除"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCP"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                },
+                {
+                  "bGuard": true,
+                  "bCanClickNextStep": true,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUIActionsIgnoreNextStep": false,
+                  "WidgetID": "GuideCP",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "Namespace": "",
+                    "Key": "10E4DDEA4CDF7A18EB83968E9A24522F",
+                    "SourceString": "在下一步教学中，系统会为您解除队友的退行状态",
+                    "LocalizedString": "在下一步教学中，系统会为您解除队友的退行状态"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCP"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": true,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "EUINavigationInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "bGuard": true,
+                  "bCanClickNextStep": true,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUIActionsIgnoreNextStep": false,
+                  "WidgetID": "GuideCP",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "Namespace": "",
+                    "Key": "79969C96421BCB72720F30BDEAC0F32B",
+                    "SourceString": "脱战后队友的退行状态会自动解除",
+                    "LocalizedString": "脱战后队友的退行状态会自动解除"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCP"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                },
+                {
+                  "bGuard": true,
+                  "bCanClickNextStep": true,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUIActionsIgnoreNextStep": false,
+                  "WidgetID": "GuideCP",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "Namespace": "",
+                    "Key": "ADF335AE4FD1B3213CC3E288B2F5A168",
+                    "SourceString": "在下一步教学中，系统会为您解除队友的退行状态",
+                    "LocalizedString": "在下一步教学中，系统会为您解除队友的退行状态"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCP"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": [],
+        "bCanRepeat": true,
+        "BeforeGuideStartAddQuestArray": [],
+        "AfterGuideEndAddQuestArray": []
+      },
+      "TeachIroi7": {
+        "GuideAnnottation": "（教学副本）队友死亡进入退行状态",
+        "bForceGuide": true,
+        "GuideFunctionID": "None",
+        "bNeedAllComplete": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "bGuard": true,
+              "bCanClickNextStep": true,
+              "CustomNextStepKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUIActionsIgnoreNextStep": false,
+              "WidgetID": "CharacterSlot2",
+              "Desc": {
+                "Namespace": "",
+                "Key": "B228EC0A41231D050FC2B39853BE8213",
+                "SourceString": "如果战斗中队伍中的其它角色进入了无法战斗状态，也会自动进入退行状态",
+                "LocalizedString": "如果战斗中队伍中的其它角色进入了无法战斗状态，也会自动进入退行状态"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "CharacterSlot2"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            },
+            {
+              "bGuard": true,
+              "bCanClickNextStep": true,
+              "CustomNextStepKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUIActionsIgnoreNextStep": false,
+              "WidgetID": "GuideCP",
+              "Desc": {
+                "CultureInvariantString": null
+              },
+              "Context": {
+                "Namespace": "",
+                "Key": "07554D29496289F7B8BB9AA58B6833D0",
+                "SourceString": "不用担心，伊洛伊可以释放终结技来复活队友",
+                "LocalizedString": "不用担心，伊洛伊可以释放终结技来复活队友"
+              },
+              "CurUIActions": [],
+              "GuideTriggerEvents": [
+                "GuideCP"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": false,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "EUINavigationInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "bGuard": true,
+                  "bCanClickNextStep": true,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUIActionsIgnoreNextStep": false,
+                  "WidgetID": "CharacterSlot2",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "F045DC44441ACDFA807B6D8B8C493F88",
+                    "SourceString": "如果战斗中队伍中的其它角色进入了无法战斗状态，也会自动进入退行状态",
+                    "LocalizedString": "如果战斗中队伍中的其它角色进入了无法战斗状态，也会自动进入退行状态"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "CharacterSlot2"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                },
+                {
+                  "bGuard": true,
+                  "bCanClickNextStep": true,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUIActionsIgnoreNextStep": false,
+                  "WidgetID": "GuideCP",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "Namespace": "",
+                    "Key": "AB0B6AAA48B7AFADD12E618492283A33",
+                    "SourceString": "不用担心，伊洛伊可以释放终结技来复活队友",
+                    "LocalizedString": "不用担心，伊洛伊可以释放终结技来复活队友"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCP"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "EUINavigationInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUIActionsIgnoreNextStep": false,
+                  "WidgetID": "CharacterSlot2",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "67B84D9F46C998D2725759853A50C041",
+                    "SourceString": "如果战斗中队伍中的其它角色进入了无法战斗状态，也会自动进入退行状态",
+                    "LocalizedString": "如果战斗中队伍中的其它角色进入了无法战斗状态，也会自动进入退行状态"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "CharacterSlot2"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": true,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                },
+                {
+                  "bGuard": true,
+                  "bCanClickNextStep": true,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUIActionsIgnoreNextStep": false,
+                  "WidgetID": "GuideCP",
+                  "Desc": {
+                    "CultureInvariantString": null
+                  },
+                  "Context": {
+                    "Namespace": "",
+                    "Key": "72F3BAC9412C6A8093B17EBF304FD461",
+                    "SourceString": "不用担心，伊洛伊可以释放终结技来复活队友",
+                    "LocalizedString": "不用担心，伊洛伊可以释放终结技来复活队友"
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "GuideCP"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": false,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          }
+        ],
+        "GuideEffectArray": [],
+        "bCanRepeat": false,
+        "BeforeGuideStartAddQuestArray": [],
+        "AfterGuideEndAddQuestArray": []
+      },
+      "TeachIroi8": {
+        "GuideAnnottation": "（教学副本）伊洛伊Q技能",
+        "bForceGuide": true,
+        "GuideFunctionID": "None",
+        "bNeedAllComplete": false,
+        "DefaultGuide": {
+          "MutualExclusionGuideIDs": [],
+          "GuideStepDatas": [
+            {
+              "bGuard": true,
+              "bCanClickNextStep": false,
+              "CustomNextStepKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUIActionsIgnoreNextStep": false,
+              "WidgetID": "ButtonUltimateSkill",
+              "Desc": {
+                "Namespace": "",
+                "Key": "AE6815804365DE7CBB3AB19E9E657F7C",
+                "SourceString": "当臆想积攒到一定值以上时，伊洛伊释放终结技可以回复全队生命，并解除一名队友的退行状态",
+                "LocalizedString": "当臆想积攒到一定值以上时，伊洛伊释放终结技可以回复全队生命，并解除一名队友的退行状态"
+              },
+              "Context": {
+                "CultureInvariantString": null
+              },
+              "CurUIActions": [
+                {
+                  "ImageID": "1001",
+                  "CurUIAction": {
+                    "ObjectName": "InputAction'IA_UltSkillAttack'",
+                    "ObjectPath": "/Game/Input/IA_UltSkillAttack.1"
+                  },
+                  "TrigInputEvent": "EInputEvent::IE_Pressed"
+                }
+              ],
+              "GuideTriggerEvents": [
+                "ButtonUltimateSkill"
+              ],
+              "GuardTime": 10.0,
+              "CustomKey": {
+                "KeyName": "Gamepad_FaceButton_Bottom"
+              },
+              "bUseFastNextStep": true,
+              "bEnableKeyIcon": true,
+              "ExWidgetID": "None",
+              "IgnoreListViewStep": false
+            }
+          ],
+          "TeachGuideIDs": []
+        },
+        "PlatformGuideInfo": [
+          {
+            "Key": "EUINavigationInputType::Gamepad",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUIActionsIgnoreNextStep": false,
+                  "WidgetID": "ButtonUltimateSkill_Gamepad",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "5D27B62840D2291AF2D889B64064B0EC",
+                    "SourceString": "当臆想积攒到一定值以上时，伊洛伊释放终结技可以回复全队生命，并解除一名队友的退行状态",
+                    "LocalizedString": "当臆想积攒到一定值以上时，伊洛伊释放终结技可以回复全队生命，并解除一名队友的退行状态"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [
+                    {
+                      "ImageID": "1001",
+                      "CurUIAction": {
+                        "ObjectName": "InputAction'IA_UltSkill_Gamepad'",
+                        "ObjectPath": "/Game/Input/Gamepad/IA_UltSkill_Gamepad.0"
+                      },
+                      "TrigInputEvent": "EInputEvent::IE_Pressed"
+                    }
+                  ],
+                  "GuideTriggerEvents": [
+                    "ButtonUltimateSkill"
+                  ],
+                  "GuardTime": 10.0,
+                  "CustomKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUseFastNextStep": true,
+                  "bEnableKeyIcon": true,
+                  "ExWidgetID": "None",
+                  "IgnoreListViewStep": false
+                }
+              ],
+              "TeachGuideIDs": []
+            }
+          },
+          {
+            "Key": "EUINavigationInputType::Touch",
+            "Value": {
+              "MutualExclusionGuideIDs": [],
+              "GuideStepDatas": [
+                {
+                  "bGuard": true,
+                  "bCanClickNextStep": false,
+                  "CustomNextStepKey": {
+                    "KeyName": "Gamepad_FaceButton_Bottom"
+                  },
+                  "bUIActionsIgnoreNextStep": false,
+                  "WidgetID": "ButtonUltimateSkill_Mobile",
+                  "Desc": {
+                    "Namespace": "",
+                    "Key": "6F85BEF745C23010583E6FB8D4E86D7A",
+                    "SourceString": "当臆想积攒到一定值以上时，伊洛伊释放终结技可以回复全队生命，并解除一名队友的退行状态",
+                    "LocalizedString": "当臆想积攒到一定值以上时，伊洛伊释放终结技可以回复全队生命，并解除一名队友的退行状态"
+                  },
+                  "Context": {
+                    "CultureInvariantString": null
+                  },
+                  "CurUIActions": [],
+                  "GuideTriggerEvents": [
+                    "ButtonUltimateSkill"
+                  ],
+                  "GuardTime": 10.0,
                   "CustomKey": {
                     "KeyName": "Gamepad_FaceButton_Bottom"
                   },

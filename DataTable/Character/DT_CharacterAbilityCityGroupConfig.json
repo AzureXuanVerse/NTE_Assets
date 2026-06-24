@@ -4416,8 +4416,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
               "Key": "City_Ability_Chaos_01_lv1",
-              "SourceString": "「海上钓客」中每日高额收购数量增加<Green2>1</>次。",
-              "LocalizedString": "Increases the daily premium purchase limit in Sea Angler by <Green2>1</>."
+              "SourceString": "「海上钓客」中渔获市场每日额外增加<Green2>1</>种鱼的高价收购。",
+              "LocalizedString": "Increases the daily high-value order limit in the Fish Market in Sea Angler by <Green2>1</>."
             },
             "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
             "AbilityCityAttribute": [
@@ -4440,13 +4440,13 @@
             "Description": {
               "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
               "Key": "City_Ability_Chaos_01_lv2",
-              "SourceString": "「海上钓客」中使用特制鱼饵的效果提升<Green2>40%</>。",
-              "LocalizedString": "Increases special bait effects in Sea Angler by <Green2>40%</>."
+              "SourceString": "「海上钓客」中使用特制鱼饵的效果提升<Green2>25%</>。",
+              "LocalizedString": "Increases special bait effects in Sea Angler by <Green2>25%</>."
             },
             "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
             "AbilityCityAttribute": [
               {
-                "AddWeightPercent": 0.4,
+                "AddWeightPercent": 0.25,
                 "bInFormation": false
               }
             ]
@@ -4464,8 +4464,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
               "Key": "City_Ability_Chaos_01_lv3",
-              "SourceString": "「海上钓客」中贵重和珍稀品质的鱼的耐力减少<Green2>1</>点。",
-              "LocalizedString": "Reduces the Stamina of valuable and rare fish in Sea Angler by <Green2>1</>."
+              "SourceString": "「海上钓客」中<purple>贵重</>和<orange>珍稀</>品质的鱼的耐力减少<Green2>1</>点。",
+              "LocalizedString": "Reduces the Stamina of <purple>valuable</> and <orange>rare</> fish in Sea Angler by <Green2>1</>."
             },
             "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
             "AbilityCityAttribute": [
@@ -4488,8 +4488,8 @@
             "Description": {
               "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
               "Key": "City_Ability_Chaos_01_lv4",
-              "SourceString": "「海上钓客」中每日高额收购数量增加<Green2>1</>次。",
-              "LocalizedString": "Increases the daily premium purchase limit in Sea Angler by <Green2>1</>."
+              "SourceString": "「海上钓客」中渔获市场每日额外增加<Green2>1</>种鱼的高价收购。",
+              "LocalizedString": "Increases the daily high-value order limit in the Fish Market in Sea Angler by <Green2>1</>."
             },
             "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
             "AbilityCityAttribute": [
@@ -4639,6 +4639,51 @@
         ],
         "AbilityGroupType": [
           "ECharacterCityAbilityGroupType::GROUP_OTHER"
+        ]
+      },
+      "City_Ability_Chaos_sp01": {
+        "GroupId": "City_Ability_Chaos_sp01",
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/YINeng/CityAbilityIcon/YH_UI_Skill_kes_jycm.YH_UI_Skill_kes_jycm",
+          "SubPathString": ""
+        },
+        "Description": {
+          "CultureInvariantString": "<!>卡厄斯觉醒-1-x"
+        },
+        "AbilityName": {
+          "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+          "Key": "City_Ability_Chaos_sp01_name",
+          "SourceString": "记忆/船锚",
+          "LocalizedString": "Memory / Anchor"
+        },
+        "AbilityCityAttributeArray": [
+          {
+            "AttributeID": "City_Ability_Chaos_sp01",
+            "AttributeLevel": 1,
+            "Icon": {
+              "AssetPathName": "/Game/UI/UI/font/tiaozi1/Anhun_H_1.Anhun_H_1",
+              "SubPathString": ""
+            },
+            "Name": {
+              "CultureInvariantString": "<！>城市属性2"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_CityCharacterAbility.ST_CityCharacterAbility",
+              "Key": "City_Ability_Chaos_sp01_lv1",
+              "SourceString": "传送锚点的放置上限增加至<Green2>2</>个。",
+              "LocalizedString": "Increases the Teleport Anchor placement limit to <Green2>2</>."
+            },
+            "AbilityAttributeType": "ECharacterCityAbilityType::NONE",
+            "AbilityCityAttribute": [
+              {
+                "ExtraBeacons": 1,
+                "bInFormation": false
+              }
+            ]
+          }
+        ],
+        "AbilityGroupType": [
+          "ECharacterCityAbilityGroupType::GROUP_EXPLORE"
         ]
       }
     }

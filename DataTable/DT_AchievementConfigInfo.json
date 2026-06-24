@@ -11981,7 +11981,7 @@
         "ContentID": {
           "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
           "Key": "Playstation_035_Content",
-          "SourceString": "累计释放300次「变轨攻击」。",
+          "SourceString": "累计释放300次「变轨技能」。",
           "LocalizedString": "Cast Redirect Skill ×300."
         },
         "Icon": {
@@ -22961,6 +22961,363 @@
           "Key": "Play_47_Content",
           "SourceString": "在「呗果」中累计获得10万个「过奖果酱」。",
           "LocalizedString": "Earn a total of 100,000 Praise Jams on Bagel."
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/5_3.5_3",
+          "SubPathString": ""
+        },
+        "Quality": "EHTAchievementQuality::EXECELLENT",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+        },
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+      },
+      "Play_43": {
+        "Amout": 1,
+        "AchievementMainType": "AchievementMainType::MainTypePlay",
+        "Type": "EAchievementTask::CustomParamTag",
+        "ConditionData": [
+          {
+            "Tag": "Play_43",
+            "Type": "EHTAchievement::TAG"
+          }
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Annulith",
+            "Amount": 5,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "Play_43_Title",
+          "SourceString": "格斗俱乐部",
+          "LocalizedString": "Fight Club"
+        },
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "Play_43_Content",
+          "SourceString": "首次参加「格斗俱乐部」。",
+          "LocalizedString": "Participate in Fight Club for the first time."
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/5.5",
+          "SubPathString": ""
+        },
+        "Quality": "EHTAchievementQuality::Normal",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+        },
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+      },
+      "Play_44": {
+        "Amout": 1,
+        "AchievementMainType": "AchievementMainType::MainTypePlay",
+        "Type": "EAchievementTask::CustomParamTag",
+        "ConditionData": [
+          {
+            "Tag": "Play_44",
+            "Type": "EHTAchievement::TAG"
+          }
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Annulith",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          },
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Title_PrisonFight_001",
+            "Amount": 1,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "Play_44_Title",
+          "SourceString": "海特洛地下拳王",
+          "LocalizedString": "Hethereau Brawler King"
+        },
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "Play_44_Content",
+          "SourceString": "首次在「格斗俱乐部」中获得冠军。",
+          "LocalizedString": "Win the championship in Fight Club for the first time."
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/5_2.5_2",
+          "SubPathString": ""
+        },
+        "Quality": "EHTAchievementQuality::High",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+        },
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+      },
+      "quest_30": {
+        "Amout": 1,
+        "AchievementMainType": "AchievementMainType::MainTypeQuest",
+        "Type": "EAchievementTask::SubmitQuest",
+        "ConditionData": [
+          {
+            "Tag": "WQ100406",
+            "Type": "EHTAchievement::TAG"
+          }
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Annulith",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "quest_30_Title",
+          "SourceString": "拘留所风云",
+          "LocalizedString": "Detention Blues"
+        },
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "quest_30_Content",
+          "SourceString": "完成「囚笼里的新风」系列任务。",
+          "LocalizedString": "Complete the \"A Breeze Through the Cage\" questline."
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/4_2.4_2",
+          "SubPathString": ""
+        },
+        "Quality": "EHTAchievementQuality::High",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+        },
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+      },
+      "Play_48": {
+        "Amout": 1,
+        "AchievementMainType": "AchievementMainType::MainTypePlay",
+        "Type": "EAchievementTask::CustomParamTag",
+        "ConditionData": [
+          {
+            "Tag": "Play_48",
+            "Type": "EHTAchievement::TAG"
+          }
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Annulith",
+            "Amount": 5,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "Play_48_Title",
+          "SourceString": "抵御风暴",
+          "LocalizedString": "Stormwall"
+        },
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "Play_48_Content",
+          "SourceString": "战胜简单比划难度下的「小旋风」",
+          "LocalizedString": "Defeat Lil' Nado on Easy Sparring."
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/5.5",
+          "SubPathString": ""
+        },
+        "Quality": "EHTAchievementQuality::Normal",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+        },
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+      },
+      "Play_49": {
+        "Amout": 1,
+        "AchievementMainType": "AchievementMainType::MainTypePlay",
+        "Type": "EAchievementTask::CustomParamTag",
+        "ConditionData": [
+          {
+            "Tag": "Play_49",
+            "Type": "EHTAchievement::TAG"
+          }
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Annulith",
+            "Amount": 10,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "Play_49_Title",
+          "SourceString": "平息风暴",
+          "LocalizedString": "Stormbreaker"
+        },
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "Play_49_Content",
+          "SourceString": "战胜认真较量难度下的「小旋风」",
+          "LocalizedString": "Defeat Lil' Nado on Serious Match."
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/Achievement/5_2.5_2",
+          "SubPathString": ""
+        },
+        "Quality": "EHTAchievementQuality::High",
+        "bIsHideNotAchieve": false,
+        "bIsHost": false,
+        "bRecordHistoryProgress": false,
+        "InitialDisplayAmount": 0,
+        "ProgressUnitSuffix": {
+          "CultureInvariantString": null
+        },
+        "ProgressScaleValue": 1.0,
+        "ProgressDigitsCount": 0
+      },
+      "Play_50": {
+        "Amout": 1,
+        "AchievementMainType": "AchievementMainType::MainTypePlay",
+        "Type": "EAchievementTask::CustomParamTag",
+        "ConditionData": [
+          {
+            "Tag": "Play_50",
+            "Type": "EHTAchievement::TAG"
+          }
+        ],
+        "ConditionGroups": [],
+        "UpdateType": "EAchievementProgressUpdate::SUM",
+        "bIsConditionValueUpdateProgress": false,
+        "AwardInfo": [
+          {
+            "UniqueID": {
+              "solt": 0,
+              "serial": 0
+            },
+            "ItemID": "Annulith",
+            "Amount": 20,
+            "bHiddenAmount": false,
+            "bIsReplaceItem": false,
+            "ExtraItemNetInfo": {
+              "RandomBaseModifyData": [],
+              "RandomModifyData": []
+            },
+            "AwardItemType": "EItemType::ITEM_TYPE_NONE"
+          }
+        ],
+        "TitleId": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "Play_50_Title",
+          "SourceString": "我才是那迫近的风暴！",
+          "LocalizedString": "I Am the Storm"
+        },
+        "ContentID": {
+          "TableId": "/Game/Text/ST_Achievement.ST_Achievement",
+          "Key": "Play_50_Content",
+          "SourceString": "战胜血战到底难度下的「小旋风」",
+          "LocalizedString": "Defeat Lil' Nado on Final Bout."
         },
         "Icon": {
           "AssetPathName": "/Game/UI/UI/Achievement/5_3.5_3",

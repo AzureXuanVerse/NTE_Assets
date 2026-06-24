@@ -1380,6 +1380,42 @@
         "bActivateVisible": false,
         "ShowLinkCharacterID": "None"
       },
+      "Like_1071": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_avatar1_1071_name",
+          "SourceString": "卡好斯",
+          "LocalizedString": "Khaos"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/BagelAvatar/player_071.player_071",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/BagelAvatar/player_071.player_071",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_avatar1_1071_desc",
+          "SourceString": "戴面罩的，也不一定都是坏人嘛。",
+          "LocalizedString": "Not everyone behind a mask is a bad guy."
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Avatar_004",
+          "SourceString": "角色羁遇奖励",
+          "LocalizedString": "Character Bond Rewards"
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
+      },
       "Combat_Avatar_01": {
         "Name": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -2620,7 +2656,7 @@
           "SubPathString": ""
         },
         "Icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_kaesi.player_kaesi",
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_kaesi_256.player_kaesi_256",
           "SubPathString": ""
         },
         "Description": {
@@ -2628,6 +2664,42 @@
           "Key": "Fashion_1071_nighty_Desc",
           "SourceString": "即使是休息日，也不能松懈锻炼！",
           "LocalizedString": "Even on days off, training never stops!"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/ST_UI_J.ST_UI_J",
+          "Key": "Appearance_6",
+          "SourceString": "解锁对应时装获得",
+          "LocalizedString": "Unlock by obtaining the outfit."
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None"
+      },
+      "Fashion_1071_1": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1071_1_Name",
+          "SourceString": "放晴日",
+          "LocalizedString": "Clear Skies"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "bNeedMatchSex": false,
+        "RoleSex": "ERoleSex::Female",
+        "BigImage": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_kaesi2_256.player_kaesi2_256",
+          "SubPathString": ""
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_kaesi2_256.player_kaesi2_256",
+          "SubPathString": ""
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
+          "Key": "Fashion_1071_1_Desc",
+          "SourceString": "休闲街头风格着装，简易单品与独特的配饰碰撞，亦能彰显个性。",
+          "LocalizedString": "A casual streetwear look that pairs simple pieces with bold accessories to express true individuality."
         },
         "UnlockDescription": {
           "TableId": "/Game/Text/ST_UI_J.ST_UI_J",
@@ -2764,7 +2836,7 @@
           "SubPathString": ""
         },
         "Icon": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_kaesi1.player_kaesi1",
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_kaesi1_256.player_kaesi1_256",
           "SubPathString": ""
         },
         "Description": {

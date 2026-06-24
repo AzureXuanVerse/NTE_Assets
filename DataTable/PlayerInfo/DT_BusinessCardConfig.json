@@ -726,6 +726,48 @@
         "bActivateVisible": false,
         "ShowLinkCharacterID": "1070"
       },
+      "1071": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_BusinessCard_1071_name",
+          "SourceString": "新身份",
+          "LocalizedString": "New Identity"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_card_1071",
+          "SourceString": "卡厄斯羁遇等级10级奖励",
+          "LocalizedString": "Lvl 10 Chaos Bond Reward"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Universal_BusinessCard_1071_desc",
+          "SourceString": "「异象管理局」E.T.D六队队员卡厄斯的名片。\n为数不多仅存着的完好的一张名片，与它同时印刷的那些名片其中有一半成为廷达罗斯的玩具，毕竟狗狗的天性就是搞破坏；还有一半随机遗失在城市各处，变成了打进卡厄斯手机里的推销电话。还好异象管理局印发员工名片是免费的。",
+          "LocalizedString": "A namecard belonging to Chaos, a member of ETD-6.\nOne of the few copies still intact. Half of the original batch became Tindalos's toys—dogs are born to destroy things, after all. The other half were scattered across the city and somehow turned into telemarketing calls to Chaos's phone. Good thing Bureau of Anomaly Control employee namecards are free."
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_46_s.YH_UI_bg_card_show_strip_46_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_46.YH_UI_bg_card_show_strip_46",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_46.YH_UI_bg_information_card_show_strip_46",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1071"
+      },
       "Combat_BussinessCard_01": {
         "Name": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
@@ -1440,6 +1482,48 @@
         "bActivateVisible": false,
         "ShowLinkCharacterID": "1070"
       },
+      "1071_0": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_kaese_name",
+          "SourceString": "真智能吗？",
+          "LocalizedString": "Smart? Says Who?"
+        },
+        "bIsDefault": false,
+        "bAutoUnlock": false,
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_UI_W.ST_UI_W",
+          "Key": "likeability_Qcard_1071",
+          "SourceString": "卡厄斯觉醒等级6级奖励",
+          "LocalizedString": "Lvl 6 Chaos Awakening Reward"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Characterawaken_kaese_desc",
+          "SourceString": "卡厄斯被抓拍到的一张照片。异象管理局为许多特殊员工开办了「现代智能设备常识课」，尽管如此，卡厄斯还是需要队长私下为他开小灶，以免挂科。",
+          "LocalizedString": "A candid photo of Chaos. The Bureau of Anomaly Control runs a \"Modern Smart Device Basics\" course for many of its special employees. Chaos, however, still needs Captain to tutor him on the side if he has any hope of passing."
+        },
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Small/YH_UI_bg_card_show_strip_43_s.YH_UI_bg_card_show_strip_43_s",
+          "SubPathString": ""
+        },
+        "IconSourceBig": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Big/YH_UI_bg_card_show_strip_43.YH_UI_bg_card_show_strip_43",
+          "SubPathString": ""
+        },
+        "IconSourceLong": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/BusinessCards/Card_Long/YH_UI_bg_information_card_show_strip_43.YH_UI_bg_information_card_show_strip_43",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHide": false,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "1070"
+      },
       "Businesscard_SNv10_Taygedo": {
         "Name": {
           "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
@@ -1645,7 +1729,7 @@
           "AssetPathName": "",
           "SubPathString": ""
         },
-        "bHide": true,
+        "bHide": false,
         "DisplayRegion": "ETitleDisplayRegion::All",
         "bActivateVisible": false,
         "ShowLinkCharacterID": "None"

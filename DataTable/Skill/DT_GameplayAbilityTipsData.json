@@ -24291,7 +24291,7 @@
           "SubPathString": ""
         }
       },
-      "GA_Chaos071_Passive_1": {
+      "GA_Chaos_Passive_1": {
         "Name": {
           "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
           "Key": "GA_Chaos_Passive_1_name",
@@ -24307,8 +24307,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Passive_1_des",
-              "SourceString": "<TextHLT>「延滞」强化</>：当目标的「延滞」状态解除时，卡厄斯将会根据本次「延滞」持续时间对目标造成高额伤害，每持续<NumGreen>1</>秒提升<NumGreen>x%</>，上限<NumGreen>x%</>。",
-              "LocalizedString": "<TextHLT>Remora Enhancement</>: Deals heavy damage to the target when their Remora state ends, based on Remora's duration. Increases DMG by <NumGreen>x%</> for every <NumGreen>1</>s of duration, up to <NumGreen>x%</>."
+              "SourceString": "<TextHLT>「延滞」强化</>：当目标的「延滞」状态解除时，卡厄斯将会根据本次「延滞」持续时间对目标造成800%*攻击力的<Xiang>相属性异能伤害</>，基础5秒外，每额外持续1秒整体伤害提升45%，上限300%。重复施加「延滞」状态将重置持续时间。",
+              "LocalizedString": "<TextHLT>Remora Enhancement</>: Deals <Xiang>Lakshana DMG</> equal to 800% of ATK to the target when Remora ends, based on Remora's duration. Each second beyond the base 5s duration increases total DMG by 45%, up to 300%. Resets Remora's duration when reapplied."
             },
             "ShortDescription": {
               "CultureInvariantString": null
@@ -24353,7 +24353,7 @@
           "SubPathString": ""
         }
       },
-      "GA_Chaos071_Passive_2": {
+      "GA_Chaos_Passive_2": {
         "Name": {
           "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
           "Key": "GA_Chaos_Passive_2_name",
@@ -24434,8 +24434,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Melee1_des",
-              "SourceString": "卡厄斯挥动武器，进行至多<NumGreen>5</>段的连续攻击，造成<Xiang>相属性异能伤害</>。",
-              "LocalizedString": "Wields his weapon and performs up to <NumGreen>5</> consecutive attacks, dealing <Xiang>Lakshana DMG</>."
+              "SourceString": "卡厄斯挥动武器，进行至多<NumGreen>5</>段的连续攻击，造成<Xiang>相属性异能伤害</>的同时积累<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>。",
+              "LocalizedString": "Wields his weapon and performs up to <NumGreen>5</> consecutive attacks, dealing <Xiang>Lakshana DMG</> and building up <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crime</>."
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
@@ -24459,8 +24459,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Melee2_des",
-              "SourceString": "你的罪状，已经一目了然。长按普通攻击，卡厄斯展开镰刀发动「普通攻击：裁断」。若当前<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>已达上限，则消耗全部<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>，追加第二段「裁断」，造成高额清算伤害；若<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>未达上限，则只进行第一段「裁断」，造成<NumGreen>1</>次伤害。",
-              "LocalizedString": "Your guilt is plain to see. Hold Basic Attack to trigger Final Verdict. Consumes all <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crimes</> to add a 2nd hit to Final Verdict and deal heavy Settlement DMG if current <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crime</> is at its cap. Performs only the 1st hit of Final Verdict, dealing <NumGreen>1</> instance of damage, if <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crime</> has not reached its cap."
+              "SourceString": "你的罪状，已经一目了然。长按普通攻击，卡厄斯展开镰刀发动「普通攻击：裁断」。若当前<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>已达上限1000，则消耗全部<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>，追加第二段「裁断」，造成高额清算伤害；若<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>未达上限，则只进行第一段「裁断」，造成<NumGreen>2</>次伤害。",
+              "LocalizedString": "Your guilt is plain to see. Hold Basic Attack to trigger Final Verdict. Consumes all <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crime</> to add a 2nd hit to Final Verdict and deal heavy Settlement DMG if current <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crime</> is at its cap (1000). Performs only the 1st hit of Final Verdict, dealing <NumGreen>2</> instances of damage, if <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crime</> has not reached its cap."
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
@@ -24484,11 +24484,36 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Melee3_des",
-              "SourceString": "卡厄斯滞空时点按普攻，落地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升<NumGreen>1</>倍。",
-              "LocalizedString": "Press Basic Attack while airborne to plunge, dealing <NumGreen>1</> instance of <Xiang>Lakshana DMG</> to an area upon impact. Increases DMG based on fall height, up to <NumGreen>1×</>."
+              "SourceString": "卡厄斯滞空时点按普攻，落地后造成<NumGreen>1</>次范围性的<Xiang>相属性异能伤害</>，伤害随下落高度升高而提升，最高提升<NumGreen>1</>倍。 与此同时卡厄斯集中精神，开启猎人般的觉察，短时间内能够感知到一定范围内的敌方单位。被感知目标会以特殊轮廓高亮显示。",
+              "LocalizedString": "Press Basic Attack while airborne to plunge, dealing <NumGreen>1</> instance of <Xiang>Lakshana DMG</> to an area upon impact. Increases DMG based on fall height, up to <NumGreen>1×</>. Focuses his mind and awakens a hunter's perception, sensing nearby enemies for a short time. Sensed targets are highlighted with a special outline."
             },
             "ShortDescription": {
               "CultureInvariantString": null
+            },
+            "UnLockID": "None",
+            "UnlockDesc": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "AbilityDesType": "EAbilityDesType::ADT_DES",
+            "DescriptionTitle": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_PerfectEvade_name",
+              "SourceString": "<Title>极限反击:直觉/本能</>",
+              "LocalizedString": "<Title>Critical Riposte: Intuition / Instinct</>"
+            },
+            "Description": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_PerfectEvade_des",
+              "SourceString": "触发极限闪避后使用「普通攻击：追猎」触发。卡厄斯挥动尖斧劈向目标，造成<NumGreen>1</>次<Xiang>相属性异能伤害</>并额外扣除一定倾陷值。",
+              "LocalizedString": "Triggers when using Pursuit after performing a Critical Dodge. Swings his hatchet at the target, dealing <NumGreen>1</> instance of <Xiang>Lakshana DMG</> and reducing Break."
+            },
+            "ShortDescription": {
+              "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+              "Key": "GA_Chaos_Melee1_des_tidy",
+              "SourceString": "造成<Xiang>相属性异能伤害</>。",
+              "LocalizedString": "Deals <Xiang>Lakshana DMG</>."
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -24592,8 +24617,8 @@
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Melee_3_num",
-              "SourceString": "{0}%",
-              "LocalizedString": "{0}%"
+              "SourceString": "{0}%*2",
+              "LocalizedString": "{0}% *2"
             },
             "CLGlobalCommonDataCurveID": "None"
           },
@@ -24782,7 +24807,7 @@
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Melee_engry_1_des",
               "SourceString": "全套普通攻击积攒「罪状」",
-              "LocalizedString": "Full Basic Attack combo: Builds up Crime."
+              "LocalizedString": "Full Basic Attack combo: Builds up Crime"
             },
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
@@ -24806,7 +24831,7 @@
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Melee_engry_2_des",
               "SourceString": "极限反击积攒「罪状」",
-              "LocalizedString": "Critical Riposte: Builds up Crime."
+              "LocalizedString": "Critical Riposte: Builds up Crime"
             },
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
@@ -24830,7 +24855,7 @@
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Melee_engry_3_des",
               "SourceString": "下落攻击积攒「罪状」",
-              "LocalizedString": "Plunge Attack: Builds up Crime."
+              "LocalizedString": "Plunge Attack: Builds up Crime"
             },
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
@@ -25015,7 +25040,7 @@
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Skill_engry_1_des",
               "SourceString": "积攒「罪状」",
-              "LocalizedString": "Builds up Crime."
+              "LocalizedString": "Builds up Crime"
             },
             "DescValue": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
@@ -25072,14 +25097,14 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_UltraSkill_des",
-              "SourceString": "卡厄斯召唤猎犬压制周围敌人，对范围内所有敌人施加<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>，并进入<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosInfamyCycle\">「恶名往复」</>状态。\r\n<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosInfamyCycle\">「恶名往复」</>期间，<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>会持续快速增长，可更频繁发动「裁断」造成高额清算伤害。",
-              "LocalizedString": "Summons his hound to suppress nearby enemies, inflicting <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</> on all enemies within range and entering the <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosInfamyCycle\">Dread Echo</> state.\r\nIncreases <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crime</> rapidly over time while <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosInfamyCycle\">Dread Echo</> is active, allowing Final Verdict to be cast more frequently to deal heavy Settlement DMG."
+              "SourceString": "卡厄斯召唤猎犬压制周围敌人，对范围内所有敌人施加<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>，并进入<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosInfamyCycle\">「恶名往复」</>状态。卡厄斯在场上且处于「恶名往复」状态时，<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>会持续快速增长，可更频繁发动「裁断」造成高额清算伤害。",
+              "LocalizedString": "Summons his hound to suppress nearby enemies, inflicting <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</> on all enemies within range and entering the <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosInfamyCycle\">Dread Echo</> state. Rapidly increases <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crime</> over time while Chaos and Dread Echo are active, allowing Final Verdict to be cast more often and deal heavy Settlement DMG."
             },
             "ShortDescription": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_UltraSkill_des_tidy",
-              "SourceString": "进入<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosInfamyCycle\">「恶名往复」</>状态，期间范围内敌人均会被施加<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>，同时<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>持续快速增长。",
-              "LocalizedString": "Enters the <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosInfamyCycle\">Dread Echo</> state. Increases <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crime</> rapidly over time while active, and inflicts <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</> on all enemies within range."
+              "SourceString": "进入<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosInfamyCycle\">「恶名往复」</>状态，期间范围内敌人均会被施加<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">「追缉许可」</>，卡厄斯位于前台时<hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">「罪状」</>持续快速增长。",
+              "LocalizedString": "Enters the <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosInfamyCycle\">Dread Echo</> state. Rapidly increases <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosGuilt\">Crime</> over time while Dread Echo is active and Chaos is on the field, and inflicts <hot textstyle=\"TextEXPL\" param=\"nouns&ChaosHuntPermit\">Warrant</> on all enemies within range."
             },
             "UnLockID": "None",
             "UnlockDesc": {
@@ -25366,8 +25391,8 @@
             "Description": {
               "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
               "Key": "GA_Chaos_Passive_3_des",
-              "SourceString": "在大世界中，卡厄斯能够留下猎犬作为传送锚点。需要传送时，猎犬将会撕咬出连通空间的门扉，卡厄斯由此回到锚点所在之处。",
-              "LocalizedString": "Leaves his hound behind as a teleport anchor in the open world. When teleporting, the hound tears open a doorway through space, allowing Chaos to return to the anchor's location."
+              "SourceString": "在大世界中，卡厄斯能够留下猎犬作为传送锚点。长按瞄准键在当前位置留下猎犬；需要传送时，猎犬将撕咬出连通空间的门扉，卡厄斯由此回到锚点所在之处。短按瞄准键时，卡厄斯可以选择戴上或摘下面罩。",
+              "LocalizedString": "Leaves his hound behind as a teleport anchor in the open world. Hold Aim to leave the hound at the current location. When teleporting, the hound tears open a doorway through space, allowing Chaos to return to the anchor's location. Press Aim to toggle the mask on or off."
             },
             "ShortDescription": {
               "CultureInvariantString": null
@@ -25397,6 +25422,26 @@
             }
           }
         ],
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Skill/Chaos_Passive3.Chaos_Passive3",
+          "SubPathString": ""
+        },
+        "ExtendIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "GALevelUpArray": [],
+        "bStolenAbility": false,
+        "GameplayAbility": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "GA_Chaos071_WorldTransport": {
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "AbilityDescription": [],
         "Icon": {
           "AssetPathName": "/Game/UI/UI_Icon/Skill/Chaos_Passive3.Chaos_Passive3",
           "SubPathString": ""

@@ -4250,6 +4250,102 @@
         "IsValueOnlyAndCustomDesc": false,
         "IsShowCustomModifierInfo": false,
         "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Chaos_skill_Huntmark": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+          "Key": "ChaosHuntPermit_name",
+          "SourceString": "追缉许可",
+          "LocalizedString": "Warrant"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Player/bufficon_kaesi1.bufficon_kaesi1",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+          "Key": "ChaosHuntPermit_des",
+          "SourceString": "被标记目标受到卡厄斯攻击时，卡厄斯对其造成的伤害增加。",
+          "LocalizedString": "Deals increased damage to marked targets."
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::BUFF_PROP_LAKSHANA",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Chaos_skill_Huntmark",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Chaos_Ultraskill": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+          "Key": "GA_Chaos_UltraSkill_1_des",
+          "SourceString": "压制伤害倍率",
+          "LocalizedString": "Suppression DMG Ratio"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Player/bufficon_kaesi2.bufficon_kaesi2",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+          "Key": "GA_Chaos_UltraSkill_2_des",
+          "SourceString": "「恶名往复」持续时间",
+          "LocalizedString": "Dread Echo Duration"
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::BUFF_PROP_LAKSHANA",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": true,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Chaos_Ultraskill",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
+      },
+      "Buff_Chaos_Level3DamageUp": {
+        "Name": {
+          "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+          "Key": "ChaosHuntPermit_name",
+          "SourceString": "追缉许可",
+          "LocalizedString": "Warrant"
+        },
+        "Icon": {
+          "AssetPathName": "/Game/UI/UI/WishingFountain/Buff/Player/bufficon_kaesi4.bufficon_kaesi4",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/PlayerSkillDes/Chaos_SkillDes.Chaos_SkillDes",
+          "Key": "GA_Chaos_star3_des",
+          "SourceString": "卡厄斯使用「极轨终结：罪业清偿」后，暴击伤害提升<NumGreen>30%</>，持续<NumGreen>20</>秒。重复触发刷新持续时间。",
+          "LocalizedString": "Increases Crit DMG by <NumGreen>30%</> for <NumGreen>20</>s after casting Retribution. Resets the duration when triggered again."
+        },
+        "BuffType": "BuffInfoType::StateBuff",
+        "Hierarchy": -1,
+        "BuffPropType": "BuffPropType::BUFF_PROP_LAKSHANA",
+        "IsShowInBuffMaganger": true,
+        "IsMajorBuff": false,
+        "ReplaceBufferID": "None",
+        "IsShowInHeadUpBattleMark": false,
+        "IsShowOnlySenderClient": false,
+        "DescParam": [],
+        "GEParamName": "Buff_Chaos_Level3DamageUp",
+        "GEParamNum": 0,
+        "IsValueOnlyAndCustomDesc": false,
+        "IsShowCustomModifierInfo": false,
+        "IsValueOnlyAndStackCountReplaceLevel": false
       }
     }
   }
