@@ -539,6 +539,11 @@
         "ReactionDataArray": [
           {
             "BackChargeMul": 1.0,
+            "RangeDamageGE": {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Shinku_ReactionAOE_C'",
+              "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_076_Shinku/Buff/Buff_Shinku_ReactionAOE.0"
+            },
+            "PlayerCharacterID": "1076",
             "ReactionAbilityID": "GA_Shinku_Passive_1",
             "ConditionArray": [
               {
@@ -608,6 +613,30 @@
         ],
         "Desc": {
           "CultureInvariantString": "解除迟缓时，卡厄斯根据本次迟缓持续时间对目标造成高额伤害，每持续1秒提升x%，上限x%"
+        }
+      },
+      "1075": {
+        "Name": {
+          "CultureInvariantString": "伊洛伊"
+        },
+        "ReactionDataArray": [
+          {
+            "RespawnCount": 1,
+            "ReactionAbilityID": "GA_Oneiroi_Passive_1",
+            "ConditionArray": [
+              {
+                "GEConditionArray": [
+                  {
+                    "ObjectName": "BlueprintGeneratedClass'Buff_Oneiroi075_Passive1_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_075_Oneiroi/PassiveEffect/Buff_Oneiroi075_Passive1.1"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "Desc": {
+          "CultureInvariantString": "创生株发射完小球消失后，再次生成一株复制体创生株（复制体消失不能再次复制）"
         }
       }
     }

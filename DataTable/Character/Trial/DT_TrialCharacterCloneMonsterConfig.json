@@ -159,7 +159,8 @@
             "ChangeEntryType": "EDynamicChangeEntryType::ChangeByRowID",
             "bNeedAdditionalDropItem": false
           }
-        ]
+        ],
+        "OverrideLevelName": "None"
       },
       "Teach_Monster01_Test": {
         "SpawnWaveEntriesOverride": [
@@ -227,7 +228,8 @@
             "ChangeEntryType": "EDynamicChangeEntryType::None",
             "bNeedAdditionalDropItem": false
           }
-        ]
+        ],
+        "OverrideLevelName": "None"
       },
       "Teach_Loop_Monster_Test": {
         "SpawnWaveEntriesOverride": [
@@ -298,7 +300,8 @@
             "ChangeEntryType": "EDynamicChangeEntryType::None",
             "bNeedAdditionalDropItem": false
           }
-        ]
+        ],
+        "OverrideLevelName": "None"
       },
       "TrailTeach01_MonsterWood_01": {
         "SpawnWaveEntriesOverride": [
@@ -369,7 +372,8 @@
             "ChangeEntryType": "EDynamicChangeEntryType::None",
             "bNeedAdditionalDropItem": false
           }
-        ]
+        ],
+        "OverrideLevelName": "None"
       },
       "TrailTeach01_MonsterLoop_01": {
         "SpawnWaveEntriesOverride": [
@@ -479,7 +483,8 @@
             "ChangeEntryType": "EDynamicChangeEntryType::None",
             "bNeedAdditionalDropItem": false
           }
-        ]
+        ],
+        "OverrideLevelName": "None"
       },
       "ParryAttack_Monster": {
         "SpawnWaveEntriesOverride": [
@@ -550,7 +555,8 @@
             "ChangeEntryType": "EDynamicChangeEntryType::None",
             "bNeedAdditionalDropItem": false
           }
-        ]
+        ],
+        "OverrideLevelName": "None"
       },
       "AttackTestShow": {
         "SpawnWaveEntriesOverride": [
@@ -596,7 +602,8 @@
             "ChangeEntryType": "EDynamicChangeEntryType::None",
             "bNeedAdditionalDropItem": false
           }
-        ]
+        ],
+        "OverrideLevelName": "None"
       },
       "mon_04_attacktest": {
         "SpawnWaveEntriesOverride": [
@@ -642,7 +649,8 @@
             "ChangeEntryType": "EDynamicChangeEntryType::None",
             "bNeedAdditionalDropItem": false
           }
-        ]
+        ],
+        "OverrideLevelName": "None"
       },
       "TrailTeach01_Monster3": {
         "SpawnWaveEntriesOverride": [
@@ -755,7 +763,8 @@
             "ChangeEntryType": "EDynamicChangeEntryType::None",
             "bNeedAdditionalDropItem": false
           }
-        ]
+        ],
+        "OverrideLevelName": "None"
       },
       "mon_13_BP_Show": {
         "SpawnWaveEntriesOverride": [
@@ -801,7 +810,8 @@
             "ChangeEntryType": "EDynamicChangeEntryType::None",
             "bNeedAdditionalDropItem": false
           }
-        ]
+        ],
+        "OverrideLevelName": "None"
       },
       "mon_17_BP_Show": {
         "SpawnWaveEntriesOverride": [
@@ -847,7 +857,8 @@
             "ChangeEntryType": "EDynamicChangeEntryType::None",
             "bNeedAdditionalDropItem": false
           }
-        ]
+        ],
+        "OverrideLevelName": "None"
       },
       "mon_46_BP_Show": {
         "SpawnWaveEntriesOverride": [
@@ -893,7 +904,8 @@
             "ChangeEntryType": "EDynamicChangeEntryType::None",
             "bNeedAdditionalDropItem": false
           }
-        ]
+        ],
+        "OverrideLevelName": "None"
       },
       "TeachClone_Lacrimosa_mon023": {
         "SpawnWaveEntriesOverride": [
@@ -961,7 +973,8 @@
             "ChangeEntryType": "EDynamicChangeEntryType::None",
             "bNeedAdditionalDropItem": false
           }
-        ]
+        ],
+        "OverrideLevelName": "None"
       },
       "TeachClone_Lacrimosa_mon35": {
         "SpawnWaveEntriesOverride": [
@@ -1029,7 +1042,8 @@
             "ChangeEntryType": "EDynamicChangeEntryType::None",
             "bNeedAdditionalDropItem": false
           }
-        ]
+        ],
+        "OverrideLevelName": "None"
       },
       "TeachClone_Lacrimosa_boss13": {
         "SpawnWaveEntriesOverride": [
@@ -1097,7 +1111,102 @@
             "ChangeEntryType": "EDynamicChangeEntryType::None",
             "bNeedAdditionalDropItem": false
           }
-        ]
+        ],
+        "OverrideLevelName": "None"
+      },
+      "mon_04_BP_PV": {
+        "SpawnWaveEntriesOverride": [
+          {
+            "WaveName": "None",
+            "SpawnEntries": [
+              {
+                "AITemplate": {
+                  "AssetPathName": "/Game/Blueprints/Character/Monster/mon_04/mon_04_BP_PV.mon_04_BP_PV_C",
+                  "SubPathString": ""
+                },
+                "Count": 1,
+                "SpawnTransformPointsOverride": [],
+                "SpawnTransformPointsTags": [],
+                "bOverrideLevelType": false,
+                "SpawnLevelTypeOverride": "EAISpawnLevelType::PermanentLevel",
+                "LevelOverride": 0,
+                "LevelMin": 0,
+                "LevelMax": 0,
+                "QuestSpawnPointOverrideIDs": [],
+                "SpawnOnlyWhenDeadNumExceeds": 0,
+                "SpawnDelayTime": 0.0,
+                "SpawnIntervalTime": 0.0,
+                "IdleStatesOverride": [],
+                "IdleStateTargetPointsContainer": [],
+                "SpawnProbability": 1.0,
+                "AIControllerOverride": null,
+                "AdditionalTags": [],
+                "AISettingsOverrideID": "None",
+                "AIConfigOverrideID": "None",
+                "FleeTargetPoints": [],
+                "AILeaveBattleType": "EAILeaveBattleType::AILBNormal",
+                "bUseDataTable": false,
+                "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
+                "bUseRangeForPassiveAggro": false,
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
+              }
+            ],
+            "WaveDelayTime": 0.0,
+            "Weight": 1.0,
+            "ChangeSpawnEntriesID": "None",
+            "ChangeEntryType": "EDynamicChangeEntryType::None",
+            "bNeedAdditionalDropItem": false
+          }
+        ],
+        "OverrideLevelName": "None"
+      },
+      "mon_04_BP_parray": {
+        "SpawnWaveEntriesOverride": [
+          {
+            "WaveName": "None",
+            "SpawnEntries": [
+              {
+                "AITemplate": {
+                  "AssetPathName": "/Game/Blueprints/Character/Monster/mon_04/mon_04_BP_parray.mon_04_BP_parray_C",
+                  "SubPathString": ""
+                },
+                "Count": 1,
+                "SpawnTransformPointsOverride": [],
+                "SpawnTransformPointsTags": [],
+                "bOverrideLevelType": false,
+                "SpawnLevelTypeOverride": "EAISpawnLevelType::PermanentLevel",
+                "LevelOverride": 0,
+                "LevelMin": 0,
+                "LevelMax": 0,
+                "QuestSpawnPointOverrideIDs": [],
+                "SpawnOnlyWhenDeadNumExceeds": 0,
+                "SpawnDelayTime": 0.0,
+                "SpawnIntervalTime": 0.0,
+                "IdleStatesOverride": [],
+                "IdleStateTargetPointsContainer": [],
+                "SpawnProbability": 1.0,
+                "AIControllerOverride": null,
+                "AdditionalTags": [],
+                "AISettingsOverrideID": "None",
+                "AIConfigOverrideID": "None",
+                "FleeTargetPoints": [],
+                "AILeaveBattleType": "EAILeaveBattleType::AILBNormal",
+                "bUseDataTable": false,
+                "PlatformManagerOverride": "ESpawnerPlatformManagerOverride::NotOverride",
+                "bUseRangeForPassiveAggro": false,
+                "PassiveAggroNotifyRange": 0.0,
+                "CheckMonsterLocationLegalityZOverride": -1.0
+              }
+            ],
+            "WaveDelayTime": 0.0,
+            "Weight": 1.0,
+            "ChangeSpawnEntriesID": "None",
+            "ChangeEntryType": "EDynamicChangeEntryType::None",
+            "bNeedAdditionalDropItem": false
+          }
+        ],
+        "OverrideLevelName": "None"
       }
     }
   }

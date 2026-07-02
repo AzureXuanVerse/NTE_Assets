@@ -1,0 +1,53 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_BidKingEvaluate",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/BidKing/DT_BidKingEvaluate",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'BidKingEvaluateConfigData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "B": {
+        "ImageIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BPUI_BidKingResultForm_BRank",
+          "SourceString": "非常可惜，再接再厉",
+          "LocalizedString": "非常可惜，再接再厉"
+        }
+      },
+      "A": {
+        "ImageIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BPUI_BidKingResultForm_ARank",
+          "SourceString": "再接再厉，小赚小赚~",
+          "LocalizedString": "再接再厉，小赚小赚~"
+        }
+      },
+      "S": {
+        "ImageIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Desc": {
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BPUI_PrisonBoxingResult_CityStamina",
+          "SourceString": "消耗都市活力",
+          "LocalizedString": "消耗都市活力"
+        }
+      }
+    }
+  }
+]

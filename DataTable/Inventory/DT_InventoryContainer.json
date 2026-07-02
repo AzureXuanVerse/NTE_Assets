@@ -43,7 +43,8 @@
         },
         "bShowAllType": false,
         "ContainSortTypes": 0,
-        "bCanRepeat": true
+        "bCanRepeat": true,
+        "SyncToClientConditions": []
       },
       "CONSUMABLE": {
         "ContainItemTypes": [
@@ -55,7 +56,8 @@
           "EItemType::ITEM_TYPE_EXCHANGE_TICKET",
           "EItemType::ITEM_TYPE_SHOP_POINT",
           "EItemType::ITEM_TYPE_LOCKER_KEY",
-          "EItemType::ITEM_TYPE_FISH_BAIT"
+          "EItemType::ITEM_TYPE_FISH_BAIT",
+          "EItemType::ITEM_TYPE_FISH_KEEP"
         ],
         "ExtraDisplayItemTypes": [],
         "ExtraDisplayItemIDs": [],
@@ -97,11 +99,12 @@
           "TableId": "/Game/Text/ST_Common.ST_Common",
           "Key": "item_type_2",
           "SourceString": "道具",
-          "LocalizedString": "Item"
+          "LocalizedString": "道具"
         },
         "bShowAllType": true,
         "ContainSortTypes": 4,
-        "bCanRepeat": false
+        "bCanRepeat": false,
+        "SyncToClientConditions": []
       },
       "CAPITAL": {
         "ContainItemTypes": [
@@ -134,7 +137,8 @@
         },
         "bShowAllType": false,
         "ContainSortTypes": 0,
-        "bCanRepeat": false
+        "bCanRepeat": false,
+        "SyncToClientConditions": []
       },
       "EQUIP": {
         "ContainItemTypes": [
@@ -181,11 +185,12 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_characterinfo_table_04",
           "SourceString": "空幕",
-          "LocalizedString": "Console"
+          "LocalizedString": "空幕"
         },
         "bShowAllType": true,
         "ContainSortTypes": 12,
-        "bCanRepeat": true
+        "bCanRepeat": true,
+        "SyncToClientConditions": []
       },
       "FORK": {
         "ContainItemTypes": [
@@ -231,11 +236,12 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_characterinfo_table_02",
           "SourceString": "弧盘",
-          "LocalizedString": "Arc"
+          "LocalizedString": "弧盘"
         },
         "bShowAllType": true,
         "ContainSortTypes": 12,
-        "bCanRepeat": true
+        "bCanRepeat": true,
+        "SyncToClientConditions": []
       },
       "STORE": {
         "ContainItemTypes": [
@@ -282,11 +288,12 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "bag_15",
           "SourceString": "物料",
-          "LocalizedString": "Material"
+          "LocalizedString": "物料"
         },
         "bShowAllType": false,
         "ContainSortTypes": 4,
-        "bCanRepeat": false
+        "bCanRepeat": false,
+        "SyncToClientConditions": []
       },
       "FOOD": {
         "ContainItemTypes": [
@@ -332,11 +339,12 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "bag_16",
           "SourceString": "食物",
-          "LocalizedString": "Food"
+          "LocalizedString": "食物"
         },
         "bShowAllType": false,
         "ContainSortTypes": 4,
-        "bCanRepeat": false
+        "bCanRepeat": false,
+        "SyncToClientConditions": []
       },
       "IMPORTANT": {
         "ContainItemTypes": [
@@ -397,11 +405,12 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "bag_03",
           "SourceString": "重要物品",
-          "LocalizedString": "Important Items"
+          "LocalizedString": "重要物品"
         },
         "bShowAllType": true,
         "ContainSortTypes": 4,
-        "bCanRepeat": false
+        "bCanRepeat": false,
+        "SyncToClientConditions": []
       },
       "HOME": {
         "ContainItemTypes": [
@@ -413,7 +422,10 @@
           "EItemType::ITEM_TYPE_FIGURES",
           "EItemType::ITEM_TYPE_FLOWER",
           "EItemType::ITEM_TYPE_BIG_FLOWER",
-          "EItemType::ITEM_TYPE_LANDSPACE_CIRCLE"
+          "EItemType::ITEM_TYPE_LANDSPACE_CIRCLE",
+          "EItemType::ITEM_TYPE_LANDSPACE_BIG",
+          "EItemType::ITEM_TYPE_MAX",
+          "EItemType::ITEM_TYPE_LANDSPACE_CIRCLE_BIG"
         ],
         "ExtraDisplayItemTypes": [],
         "ExtraDisplayItemIDs": [],
@@ -455,11 +467,12 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "bag_14",
           "SourceString": "家具",
-          "LocalizedString": "Furniture"
+          "LocalizedString": "家具"
         },
         "bShowAllType": true,
         "ContainSortTypes": 4,
-        "bCanRepeat": false
+        "bCanRepeat": false,
+        "SyncToClientConditions": []
       },
       "AUTOUSE": {
         "ContainItemTypes": [
@@ -495,7 +508,8 @@
         },
         "bShowAllType": false,
         "ContainSortTypes": 0,
-        "bCanRepeat": false
+        "bCanRepeat": false,
+        "SyncToClientConditions": []
       },
       "INVISIBLE": {
         "ContainItemTypes": [
@@ -529,7 +543,8 @@
         },
         "bShowAllType": false,
         "ContainSortTypes": 0,
-        "bCanRepeat": false
+        "bCanRepeat": false,
+        "SyncToClientConditions": []
       },
       "FISH": {
         "ContainItemTypes": [
@@ -561,11 +576,12 @@
           "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
           "Key": "ItemType_Fish",
           "SourceString": "鱼",
-          "LocalizedString": "Fish"
+          "LocalizedString": "鱼"
         },
         "bShowAllType": false,
         "ContainSortTypes": 0,
-        "bCanRepeat": true
+        "bCanRepeat": true,
+        "SyncToClientConditions": []
       },
       "ROBBANK": {
         "ContainItemTypes": [],
@@ -604,11 +620,12 @@
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DLC_bank_Safety_Name",
           "SourceString": "粉爪大劫案",
-          "LocalizedString": "Pink Paws Heist"
+          "LocalizedString": "粉爪大劫案"
         },
         "bShowAllType": false,
         "ContainSortTypes": 0,
-        "bCanRepeat": false
+        "bCanRepeat": false,
+        "SyncToClientConditions": []
       },
       "FIGURES_FIRST": {
         "ContainItemTypes": [
@@ -641,7 +658,8 @@
         },
         "bShowAllType": false,
         "ContainSortTypes": 0,
-        "bCanRepeat": false
+        "bCanRepeat": false,
+        "SyncToClientConditions": []
       },
       "HOSPITAL": {
         "ContainItemTypes": [
@@ -714,11 +732,12 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Achievement_Play_Nickname",
           "SourceString": "玩法",
-          "LocalizedString": "Gameplay"
+          "LocalizedString": "玩法"
         },
         "bShowAllType": true,
         "ContainSortTypes": 0,
-        "bCanRepeat": false
+        "bCanRepeat": false,
+        "SyncToClientConditions": []
       },
       "PRISON": {
         "ContainItemTypes": [
@@ -777,11 +796,12 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Achievement_Play_Nickname",
           "SourceString": "玩法",
-          "LocalizedString": "Gameplay"
+          "LocalizedString": "玩法"
         },
         "bShowAllType": true,
         "ContainSortTypes": 0,
-        "bCanRepeat": false
+        "bCanRepeat": false,
+        "SyncToClientConditions": []
       },
       "FINAL_TOWER_WEAPON": {
         "ContainItemTypes": [
@@ -789,7 +809,7 @@
         ],
         "ExtraDisplayItemTypes": [],
         "ExtraDisplayItemIDs": [],
-        "ContainerCapacity": 200,
+        "ContainerCapacity": 100,
         "ShowInBagTabConditions": [
           {
             "LimitLevels": [
@@ -800,31 +820,38 @@
         ],
         "IconData": {
           "NormalImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_wuqi.YH_UI_icon_top_Type_wuqi",
             "SubPathString": ""
           },
           "HoverImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_wuqi.YH_UI_icon_top_Type_wuqi",
             "SubPathString": ""
           },
           "CheckedImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_wuqi.YH_UI_icon_top_Type_wuqi",
             "SubPathString": ""
           },
           "CheckedHoverImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_wuqi.YH_UI_icon_top_Type_wuqi",
             "SubPathString": ""
           }
         },
         "Showname": {
-          "Namespace": "",
-          "Key": "41899EEC42529F5221ADAF8CD7AD3917",
-          "SourceString": "<!>真红武器",
-          "LocalizedString": "<!>真红武器"
+          "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
+          "Key": "Armor_Weapon",
+          "SourceString": "武器",
+          "LocalizedString": "武器"
         },
         "bShowAllType": true,
         "ContainSortTypes": 12,
-        "bCanRepeat": true
+        "bCanRepeat": true,
+        "SyncToClientConditions": [
+          {
+            "LimitSceneTypes": [
+              "ELevelSceneType::LEVEL_TYPE_FINAL_TOWER"
+            ]
+          }
+        ]
       },
       "FINAL_TOWER_CHEST": {
         "ContainItemTypes": [
@@ -832,7 +859,7 @@
         ],
         "ExtraDisplayItemTypes": [],
         "ExtraDisplayItemIDs": [],
-        "ContainerCapacity": 200,
+        "ContainerCapacity": 100,
         "ShowInBagTabConditions": [
           {
             "LimitLevels": [
@@ -843,31 +870,38 @@
         ],
         "IconData": {
           "NormalImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_kuijia.YH_UI_icon_top_Type_kuijia",
             "SubPathString": ""
           },
           "HoverImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_kuijia.YH_UI_icon_top_Type_kuijia",
             "SubPathString": ""
           },
           "CheckedImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_kuijia.YH_UI_icon_top_Type_kuijia",
             "SubPathString": ""
           },
           "CheckedHoverImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_kuijia.YH_UI_icon_top_Type_kuijia",
             "SubPathString": ""
           }
         },
         "Showname": {
-          "Namespace": "",
-          "Key": "42369621463E0A6BAB8A83B3628FC8CE",
-          "SourceString": "<!>真红上衣",
-          "LocalizedString": "<!>真红上衣"
+          "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
+          "Key": "Armor_Chest",
+          "SourceString": "上衣",
+          "LocalizedString": "上衣"
         },
         "bShowAllType": true,
         "ContainSortTypes": 12,
-        "bCanRepeat": true
+        "bCanRepeat": true,
+        "SyncToClientConditions": [
+          {
+            "LimitSceneTypes": [
+              "ELevelSceneType::LEVEL_TYPE_FINAL_TOWER"
+            ]
+          }
+        ]
       },
       "FINAL_TOWER_LEGS": {
         "ContainItemTypes": [
@@ -875,7 +909,7 @@
         ],
         "ExtraDisplayItemTypes": [],
         "ExtraDisplayItemIDs": [],
-        "ContainerCapacity": 200,
+        "ContainerCapacity": 100,
         "ShowInBagTabConditions": [
           {
             "LimitLevels": [
@@ -886,31 +920,38 @@
         ],
         "IconData": {
           "NormalImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_kuzi.YH_UI_icon_top_Type_kuzi",
             "SubPathString": ""
           },
           "HoverImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_kuzi.YH_UI_icon_top_Type_kuzi",
             "SubPathString": ""
           },
           "CheckedImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_kuzi.YH_UI_icon_top_Type_kuzi",
             "SubPathString": ""
           },
           "CheckedHoverImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_kuzi.YH_UI_icon_top_Type_kuzi",
             "SubPathString": ""
           }
         },
         "Showname": {
-          "Namespace": "",
-          "Key": "55F6EBD24C66A21D4AD59882A6A7CD7B",
-          "SourceString": "<!>真红下装",
-          "LocalizedString": "<!>真红下装"
+          "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
+          "Key": "Armor_Legs",
+          "SourceString": "下装",
+          "LocalizedString": "下装"
         },
         "bShowAllType": true,
         "ContainSortTypes": 12,
-        "bCanRepeat": true
+        "bCanRepeat": true,
+        "SyncToClientConditions": [
+          {
+            "LimitSceneTypes": [
+              "ELevelSceneType::LEVEL_TYPE_FINAL_TOWER"
+            ]
+          }
+        ]
       },
       "FINAL_TOWER_SHOULDER": {
         "ContainItemTypes": [
@@ -918,7 +959,7 @@
         ],
         "ExtraDisplayItemTypes": [],
         "ExtraDisplayItemIDs": [],
-        "ContainerCapacity": 200,
+        "ContainerCapacity": 100,
         "ShowInBagTabConditions": [
           {
             "LimitLevels": [
@@ -929,31 +970,38 @@
         ],
         "IconData": {
           "NormalImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_jianjia.YH_UI_icon_top_Type_jianjia",
             "SubPathString": ""
           },
           "HoverImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_jianjia.YH_UI_icon_top_Type_jianjia",
             "SubPathString": ""
           },
           "CheckedImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_jianjia.YH_UI_icon_top_Type_jianjia",
             "SubPathString": ""
           },
           "CheckedHoverImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_jianjia.YH_UI_icon_top_Type_jianjia",
             "SubPathString": ""
           }
         },
         "Showname": {
-          "Namespace": "",
-          "Key": "7A12A8974488A1E12EE929B9727027CE",
-          "SourceString": "<!>真红肩膀",
-          "LocalizedString": "<!>真红肩膀"
+          "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
+          "Key": "Armor_Shoulder",
+          "SourceString": "肩甲",
+          "LocalizedString": "肩甲"
         },
         "bShowAllType": true,
         "ContainSortTypes": 12,
-        "bCanRepeat": true
+        "bCanRepeat": true,
+        "SyncToClientConditions": [
+          {
+            "LimitSceneTypes": [
+              "ELevelSceneType::LEVEL_TYPE_FINAL_TOWER"
+            ]
+          }
+        ]
       },
       "FINAL_TOWER_SHOES": {
         "ContainItemTypes": [
@@ -961,7 +1009,7 @@
         ],
         "ExtraDisplayItemTypes": [],
         "ExtraDisplayItemIDs": [],
-        "ContainerCapacity": 200,
+        "ContainerCapacity": 100,
         "ShowInBagTabConditions": [
           {
             "LimitLevels": [
@@ -972,31 +1020,38 @@
         ],
         "IconData": {
           "NormalImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_xiezi.YH_UI_icon_top_Type_xiezi",
             "SubPathString": ""
           },
           "HoverImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_xiezi.YH_UI_icon_top_Type_xiezi",
             "SubPathString": ""
           },
           "CheckedImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_xiezi.YH_UI_icon_top_Type_xiezi",
             "SubPathString": ""
           },
           "CheckedHoverImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_xiezi.YH_UI_icon_top_Type_xiezi",
             "SubPathString": ""
           }
         },
         "Showname": {
-          "Namespace": "",
-          "Key": "DD634C4549A31782D4B0089600BCE093",
-          "SourceString": "<!>真红鞋子",
-          "LocalizedString": "<!>真红鞋子"
+          "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
+          "Key": "Armor_Shoes",
+          "SourceString": "鞋子",
+          "LocalizedString": "鞋子"
         },
         "bShowAllType": true,
         "ContainSortTypes": 12,
-        "bCanRepeat": true
+        "bCanRepeat": true,
+        "SyncToClientConditions": [
+          {
+            "LimitSceneTypes": [
+              "ELevelSceneType::LEVEL_TYPE_FINAL_TOWER"
+            ]
+          }
+        ]
       },
       "FINAL_TOWER_ACCESSORY": {
         "ContainItemTypes": [
@@ -1005,7 +1060,7 @@
         ],
         "ExtraDisplayItemTypes": [],
         "ExtraDisplayItemIDs": [],
-        "ContainerCapacity": 200,
+        "ContainerCapacity": 100,
         "ShowInBagTabConditions": [
           {
             "LimitLevels": [
@@ -1016,39 +1071,47 @@
         ],
         "IconData": {
           "NormalImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_jiezhi.YH_UI_icon_top_Type_jiezhi",
             "SubPathString": ""
           },
           "HoverImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_jiezhi.YH_UI_icon_top_Type_jiezhi",
             "SubPathString": ""
           },
           "CheckedImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_jiezhi.YH_UI_icon_top_Type_jiezhi",
             "SubPathString": ""
           },
           "CheckedHoverImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/FinalTower/Bag/YH_UI_icon_top_Type_jiezhi.YH_UI_icon_top_Type_jiezhi",
             "SubPathString": ""
           }
         },
         "Showname": {
-          "Namespace": "",
-          "Key": "970C674D4ACDA51F56EAE0A896EBB88F",
-          "SourceString": "<!>真红饰品",
-          "LocalizedString": "<!>真红饰品"
+          "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
+          "Key": "Armor_Accessory",
+          "SourceString": "饰品",
+          "LocalizedString": "饰品"
         },
         "bShowAllType": true,
         "ContainSortTypes": 12,
-        "bCanRepeat": true
+        "bCanRepeat": true,
+        "SyncToClientConditions": [
+          {
+            "LimitSceneTypes": [
+              "ELevelSceneType::LEVEL_TYPE_FINAL_TOWER"
+            ]
+          }
+        ]
       },
       "FINAL_TOWER_CONSUMABLE": {
         "ContainItemTypes": [
-          "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE"
+          "EItemType::ITEM_TYPE_FINAL_TOWER_CONSUMABLE",
+          "EItemType::ITEM_TYPE_FINAL_TOWER_COOK_FOOD"
         ],
         "ExtraDisplayItemTypes": [],
         "ExtraDisplayItemIDs": [],
-        "ContainerCapacity": 200,
+        "ContainerCapacity": 1000,
         "ShowInBagTabConditions": [
           {
             "LimitLevels": [
@@ -1059,31 +1122,38 @@
         ],
         "IconData": {
           "NormalImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/common/function/jiaoxue_jichu.jiaoxue_jichu",
             "SubPathString": ""
           },
           "HoverImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/common/function/jiaoxue_jichu.jiaoxue_jichu",
             "SubPathString": ""
           },
           "CheckedImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/common/function/jiaoxue_jichu.jiaoxue_jichu",
             "SubPathString": ""
           },
           "CheckedHoverImage": {
-            "AssetPathName": "/Game/UI/UI/common/function/YH_UI_icon_top_hupan.YH_UI_icon_top_hupan",
+            "AssetPathName": "/Game/UI/UI/common/function/jiaoxue_jichu.jiaoxue_jichu",
             "SubPathString": ""
           }
         },
         "Showname": {
-          "Namespace": "",
-          "Key": "3CFCE4694AA8D250BB9E0CA6A171976A",
-          "SourceString": "<!>真红消耗品",
-          "LocalizedString": "<!>真红消耗品"
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "item_type_2",
+          "SourceString": "道具",
+          "LocalizedString": "道具"
         },
         "bShowAllType": true,
         "ContainSortTypes": 12,
-        "bCanRepeat": true
+        "bCanRepeat": true,
+        "SyncToClientConditions": [
+          {
+            "LimitSceneTypes": [
+              "ELevelSceneType::LEVEL_TYPE_FINAL_TOWER"
+            ]
+          }
+        ]
       },
       "FINAL_TOWER_CHARACTER": {
         "ContainItemTypes": [
@@ -1119,7 +1189,14 @@
         },
         "bShowAllType": true,
         "ContainSortTypes": 12,
-        "bCanRepeat": true
+        "bCanRepeat": true,
+        "SyncToClientConditions": [
+          {
+            "LimitSceneTypes": [
+              "ELevelSceneType::LEVEL_TYPE_FINAL_TOWER"
+            ]
+          }
+        ]
       }
     }
   }

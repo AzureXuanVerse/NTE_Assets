@@ -12,21 +12,217 @@
       }
     },
     "Rows": {
-      "1": {
-        "Point": 1,
-        "DropID": "None"
+      "Test1": {
+        "RangeConfigs": [
+          {
+            "UpperBound": 30,
+            "DropID": "CityAbility_UpMaterial",
+            "OptionText": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "UpperBound": 60,
+            "DropID": "CityAbility_UpMaterial",
+            "OptionText": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "UpperBound": 100,
+            "DropID": "CityAbility_UpMaterial",
+            "OptionText": {
+              "CultureInvariantString": null
+            }
+          }
+        ]
       },
-      "2": {
-        "Point": 2,
-        "DropID": "None"
+      "NPC_01": {
+        "RangeConfigs": [
+          {
+            "UpperBound": 30,
+            "DropID": "1",
+            "OptionText": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_Melee_name",
+              "SourceString": "柯林斯秘传技法",
+              "LocalizedString": "柯林斯秘传技法"
+            }
+          },
+          {
+            "UpperBound": 50,
+            "DropID": "2",
+            "OptionText": {
+              "TableId": "/Game/Text/Bagel/ST_Bagel_Reply.ST_Bagel_Reply",
+              "Key": "!呗果回复表（占位）",
+              "SourceString": "角色、店铺的回复",
+              "LocalizedString": "角色、店铺的回复"
+            }
+          },
+          {
+            "UpperBound": 100,
+            "DropID": "3",
+            "OptionText": {
+              "Namespace": "",
+              "Key": "F8626D464F8EBFB8945C56A63C8E3745",
+              "SourceString": "aaaaaaa",
+              "LocalizedString": "aaaaaaa"
+            }
+          }
+        ]
       },
-      "3": {
-        "Point": 3,
-        "DropID": "None"
+      "NPC_02": {
+        "RangeConfigs": [
+          {
+            "UpperBound": 40,
+            "DropID": "1",
+            "OptionText": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_Melee_name",
+              "SourceString": "柯林斯秘传技法",
+              "LocalizedString": "柯林斯秘传技法"
+            }
+          },
+          {
+            "UpperBound": 70,
+            "DropID": "2",
+            "OptionText": {
+              "TableId": "/Game/Text/Bagel/ST_Bagel_Reply.ST_Bagel_Reply",
+              "Key": "!呗果回复表（占位）",
+              "SourceString": "角色、店铺的回复",
+              "LocalizedString": "角色、店铺的回复"
+            }
+          },
+          {
+            "UpperBound": 100,
+            "DropID": "3",
+            "OptionText": {
+              "TableId": "/Game/DataTable/PackData/ModifyData/ST_Attribute.ST_Attribute",
+              "Key": "HPMax",
+              "SourceString": "生命值",
+              "LocalizedString": "生命值"
+            }
+          }
+        ]
       },
-      "4": {
-        "Point": 4,
-        "DropID": "None"
+      "NPC_03": {
+        "RangeConfigs": [
+          {
+            "UpperBound": 30,
+            "DropID": "1",
+            "OptionText": {
+              "TableId": "/Game/Text/PlayerSkillDes/Nanally_SkillDes.Nanally_SkillDes",
+              "Key": "GA_Nanally_Melee_name",
+              "SourceString": "柯林斯秘传技法",
+              "LocalizedString": "柯林斯秘传技法"
+            }
+          },
+          {
+            "UpperBound": 50,
+            "DropID": "2",
+            "OptionText": {
+              "TableId": "/Game/Text/Bagel/ST_Bagel_Reply.ST_Bagel_Reply",
+              "Key": "!呗果回复表（占位）",
+              "SourceString": "角色、店铺的回复",
+              "LocalizedString": "角色、店铺的回复"
+            }
+          },
+          {
+            "UpperBound": 75,
+            "DropID": "3",
+            "OptionText": {
+              "TableId": "/Game/DataTable/PackData/ModifyData/ST_Attribute.ST_Attribute",
+              "Key": "HPMax",
+              "SourceString": "生命值",
+              "LocalizedString": "生命值"
+            }
+          },
+          {
+            "UpperBound": 100,
+            "DropID": "4",
+            "OptionText": {
+              "TableId": "/Game/Text/PlayerSkillDes/Mint_SkillDes.Mint_SkillDes",
+              "Key": "GA_Mint_Melee_name",
+              "SourceString": "满分收容术",
+              "LocalizedString": "满分收容术"
+            }
+          }
+        ]
+      },
+      "DiceResult_Chest_Test": {
+        "RangeConfigs": [
+          {
+            "UpperBound": 30,
+            "DropID": "drop_gold_1000",
+            "OptionText": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "UpperBound": 70,
+            "DropID": "drop_gold_2000",
+            "OptionText": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "UpperBound": 100,
+            "DropID": "drop_gold_5000",
+            "OptionText": {
+              "CultureInvariantString": null
+            }
+          }
+        ]
+      },
+      "Dice_Chest_Lv2": {
+        "RangeConfigs": [
+          {
+            "UpperBound": 34,
+            "DropID": "drop_DiceTreasureChest_Lv2_Bad",
+            "OptionText": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "UpperBound": 67,
+            "DropID": "drop_DiceTreasureChest_Lv2_Common",
+            "OptionText": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "UpperBound": 100,
+            "DropID": "drop_DiceTreasureChest_Lv2_Good",
+            "OptionText": {
+              "CultureInvariantString": null
+            }
+          }
+        ]
+      },
+      "Dice_Chest_Lv3": {
+        "RangeConfigs": [
+          {
+            "UpperBound": 34,
+            "DropID": "drop_DiceTreasureChest_Lv3_Bad",
+            "OptionText": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "UpperBound": 67,
+            "DropID": "drop_DiceTreasureChest_Lv3_Common",
+            "OptionText": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "UpperBound": 100,
+            "DropID": "drop_DiceTreasureChest_Lv3_Good",
+            "OptionText": {
+              "CultureInvariantString": null
+            }
+          }
+        ]
       }
     }
   }

@@ -38,15 +38,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_008_des",
           "SourceString": "新越M1000，紧凑车身设计，极致灵活操纵体验，让你在城市拥堵中也游刃有余。",
-          "LocalizedString": "Novus M1000 features a compact body design with exceptional agile handling, letting you navigate through city traffic with ease."
+          "LocalizedString": "新越M1000，紧凑车身设计，极致灵活操纵体验，让你在城市拥堵中也游刃有余。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -351,6 +351,30 @@
                 "Z": 1.0
               }
             }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_VehicleHook",
+            "Value": {
+              "Rotation": {
+                "X": 0.07899,
+                "Y": 0.036834,
+                "Z": -0.902859,
+                "W": 0.42101,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+              },
+              "Translation": {
+                "X": 1000.0,
+                "Y": 300.0,
+                "Z": 60.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
           }
         ],
         "UnLockID": "None",
@@ -397,7 +421,396 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": true
+      },
+      "Vehicle008fish": {
+        "VehicleID": "Vehicle008fish",
+        "PreVehicleNumId": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Vehicle008_uid",
+          "SourceString": "NW-M1K-",
+          "LocalizedString": "NW-M1K-"
+        },
+        "IsUseNameplate": false,
+        "NameplateBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "NameplateBgMaterialIndex": 0,
+        "IsUseNameplateSpecialShow": false,
+        "GetVehicleSourceType": "EGetVehicleSourceType::GetVehicle_Shop",
+        "Name": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Vehicle_008_name",
+          "SourceString": "M1000",
+          "LocalizedString": "M1000"
+        },
+        "Brand": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Trademark_003_name",
+          "SourceString": "新越",
+          "LocalizedString": "新越"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Vehicle_008_des",
+          "SourceString": "新越M1000，紧凑车身设计，极致灵活操纵体验，让你在城市拥堵中也游刃有余。",
+          "LocalizedString": "新越M1000，紧凑车身设计，极致灵活操纵体验，让你在城市拥堵中也游刃有余。"
+        },
+        "bDefaultUnlock": false,
+        "bCanModified": true,
+        "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
+        "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
+        "DriveAnimType": "EVehicleDriveAnimType::VDAT_Car",
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_car_ICON09.YH_UI_car_ICON09",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_car_ICON09.YH_UI_car_ICON09",
+          "SubPathString": ""
+        },
+        "InVehicleTemple": {
+          "AssetPathName": "/Game/Blueprints/Vehicle/Vehicle_008/BP_Vehicle_008_FishHooktest.BP_Vehicle_008_FishHooktest_C",
+          "SubPathString": ""
+        },
+        "ModulePreviewCamera": [
+          {
+            "Key": "EVehicleModuleType::EVMT_Engine",
+            "Value": {
+              "Rotation": {
+                "X": 0.015134,
+                "Y": 0.085832,
+                "Z": -0.172987,
+                "W": 0.98106,
+                "IsNormalized": true,
+                "Size": 0.9999997,
+                "SizeSquared": 0.9999994
+              },
+              "Translation": {
+                "X": 200.0,
+                "Y": 200.0,
+                "Z": 60.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Brake",
+            "Value": {
+              "Rotation": {
+                "X": 0.014919,
+                "Y": 0.040989,
+                "Z": -0.341695,
+                "W": 0.938798,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+              },
+              "Translation": {
+                "X": 300.0,
+                "Y": 400.0,
+                "Z": -10.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Gearbox",
+            "Value": {
+              "Rotation": {
+                "X": 0.033134,
+                "Y": 0.170458,
+                "Z": -0.18791,
+                "W": 0.966714,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.99999994
+              },
+              "Translation": {
+                "X": 200.0,
+                "Y": 200.0,
+                "Z": 106.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Suspension",
+            "Value": {
+              "Rotation": {
+                "X": 0.014919,
+                "Y": 0.040989,
+                "Z": -0.341695,
+                "W": 0.938798,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+              },
+              "Translation": {
+                "X": 300.0,
+                "Y": 400.0,
+                "Z": -10.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Color",
+            "Value": {
+              "Rotation": {
+                "X": 0.015134,
+                "Y": 0.085832,
+                "Z": -0.172987,
+                "W": 0.98106,
+                "IsNormalized": true,
+                "Size": 0.9999997,
+                "SizeSquared": 0.9999994
+              },
+              "Translation": {
+                "X": 200.0,
+                "Y": 200.0,
+                "Z": 80.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_FrontBodyKit",
+            "Value": {
+              "Rotation": {
+                "X": 0.015134,
+                "Y": 0.085832,
+                "Z": -0.172987,
+                "W": 0.98106,
+                "IsNormalized": true,
+                "Size": 0.9999997,
+                "SizeSquared": 0.9999994
+              },
+              "Translation": {
+                "X": 200.0,
+                "Y": 200.0,
+                "Z": 80.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_BackBodyKit",
+            "Value": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.891007,
+                "W": 0.45399,
+                "IsNormalized": true,
+                "Size": 1.0000001,
+                "SizeSquared": 1.0000004
+              },
+              "Translation": {
+                "X": 1106.0,
+                "Y": 500.0,
+                "Z": -40.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Spoiler",
+            "Value": {
+              "Rotation": {
+                "X": 0.07899,
+                "Y": 0.036834,
+                "Z": -0.902859,
+                "W": 0.42101,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+              },
+              "Translation": {
+                "X": 1000.0,
+                "Y": 300.0,
+                "Z": 60.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Decal",
+            "Value": {
+              "Rotation": {
+                "X": 0.015134,
+                "Y": 0.085832,
+                "Z": -0.172987,
+                "W": 0.98106,
+                "IsNormalized": true,
+                "Size": 0.9999997,
+                "SizeSquared": 0.9999994
+              },
+              "Translation": {
+                "X": 200.0,
+                "Y": 200.0,
+                "Z": 80.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Wheel",
+            "Value": {
+              "Rotation": {
+                "X": 0.014919,
+                "Y": 0.040989,
+                "Z": -0.341695,
+                "W": 0.938798,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+              },
+              "Translation": {
+                "X": 300.0,
+                "Y": 400.0,
+                "Z": -10.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_EditNumberPlate",
+            "Value": {
+              "Rotation": {
+                "X": 0.085625,
+                "Y": 0.059955,
+                "Z": -0.814665,
+                "W": 0.570434,
+                "IsNormalized": true,
+                "Size": 1.0000001,
+                "SizeSquared": 1.0000002
+              },
+              "Translation": {
+                "X": 1000.0,
+                "Y": 600.0,
+                "Z": 90.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Tyre",
+            "Value": {
+              "Rotation": {
+                "X": 0.014919,
+                "Y": 0.040989,
+                "Z": -0.341695,
+                "W": 0.938798,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+              },
+              "Translation": {
+                "X": 300.0,
+                "Y": 400.0,
+                "Z": -10.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        ],
+        "UnLockID": "None",
+        "TrackGoalOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 100.0
+        },
+        "RepairCurrentId": "Fons",
+        "EnduranceProps": {
+          "ObjectName": "CurveTable'CV_Vehicle008'",
+          "ObjectPath": "/Game/DataTable/Vehicle/CV_Vehicle008.0"
+        },
+        "RepairTireCost": 180.0,
+        "RepairSpecialGlassCost": 320.0,
+        "ExplosionExtraCost": 1210.0,
+        "IsSpawnNear": false,
+        "SpawnDirection": "ESpawnActorByPlayerDirection::Right",
+        "SpawnDistance": 150.0,
+        "WholeVehiclePreviewTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "JumpToUISourceId": "VehicleShop01",
+        "BasePropsScore": [],
+        "SortLevel": 2,
+        "IsUseCustomPlate": true,
+        "IsShowEndurance": true,
+        "CanTryDrive": true,
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": true
       },
       "Vehicle006": {
         "VehicleID": "Vehicle006",
@@ -422,15 +835,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_006_des",
           "SourceString": "新越新品B100，轻量化车身和低重心布局，让你感受稳健而灵敏的驾驶回应。",
-          "LocalizedString": "The new Novus B100, featuring lightweight construction and low center of gravity, delivers stable yet responsive driving feedback."
+          "LocalizedString": "新越新品B100，轻量化车身和低重心布局，让你感受稳健而灵敏的驾驶回应。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -687,6 +1100,30 @@
                 "Z": 1.0
               }
             }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_VehicleHook",
+            "Value": {
+              "Rotation": {
+                "X": 0.07898993,
+                "Y": 0.036833607,
+                "Z": -0.90285903,
+                "W": 0.42101008,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 978.28375,
+                "Y": 328.47256,
+                "Z": 61.384575
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
           }
         ],
         "UnLockID": "None",
@@ -733,7 +1170,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": true
       },
       "Vehicle007": {
         "VehicleID": "Vehicle007",
@@ -761,15 +1199,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_007_des",
           "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
-          "LocalizedString": "Novus C2000, a perfect blend of economy and exceptional performance. With its spacious and comfortable ride and efficient power system, every journey is stable and reliable."
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -1050,6 +1488,30 @@
                 "Z": 1.0
               }
             }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_VehicleHook",
+            "Value": {
+              "Rotation": {
+                "X": 0.06905965,
+                "Y": 0.05316849,
+                "Z": -0.97292733,
+                "W": 0.21404731,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 1115.0272,
+                "Y": 200.41006,
+                "Z": 59.58524
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
           }
         ],
         "UnLockID": "None",
@@ -1096,7 +1558,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": true
       },
       "vehicle018": {
         "VehicleID": "vehicle018",
@@ -1124,15 +1587,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_018_des",
           "SourceString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。",
-          "LocalizedString": "ST79, featuring a simple and practical mechanical structure, and a retro appearance paired with a mechanical manual transmission full of character. Pure driving pleasure begins here."
+          "LocalizedString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -1485,6 +1948,30 @@
                 "Z": 1.0
               }
             }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_VehicleHook",
+            "Value": {
+              "Rotation": {
+                "X": 0.06906,
+                "Y": 0.053168,
+                "Z": -0.972927,
+                "W": 0.214047,
+                "IsNormalized": true,
+                "Size": 0.9999996,
+                "SizeSquared": 0.99999917
+              },
+              "Translation": {
+                "X": 1115.0272,
+                "Y": 200.41006,
+                "Z": 59.58524
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
           }
         ],
         "UnLockID": "vehicle018",
@@ -1531,7 +2018,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": true
       },
       "Vehicle020": {
         "VehicleID": "Vehicle020",
@@ -1559,15 +2047,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_020_desc",
           "SourceString": "Enforcer，充满力量感的车身线条配合以强劲马力，坚固耐用，助你成为道路的掌控者。",
-          "LocalizedString": "Enforcer. Bold body lines and raw horsepower combine in a tough, reliable design built to help you dominate the road."
+          "LocalizedString": "Enforcer，充满力量感的车身线条配合以强劲马力，坚固耐用，助你成为道路的掌控者。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -1872,6 +2360,30 @@
                 "Z": 1.0
               }
             }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_VehicleHook",
+            "Value": {
+              "Rotation": {
+                "X": 0.07899,
+                "Y": 0.036834,
+                "Z": -0.90285903,
+                "W": 0.42101002,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 1100.0,
+                "Y": 308.84833,
+                "Z": 61.384575
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
           }
         ],
         "UnLockID": "Vehicle020",
@@ -1918,7 +2430,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": true
       },
       "Vehicle002": {
         "VehicleID": "Vehicle002",
@@ -1946,15 +2459,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_001_name",
           "SourceString": "雷加利亚",
-          "LocalizedString": "Regalia"
+          "LocalizedString": "雷加利亚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_002_des",
           "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
-          "LocalizedString": "Griffin, a masterpiece of craftsmanship and technology from Regalia, is equipped with the latest driver assistance system and intelligent infotainment system. The sleek body and signature pop-up headlights perfectly reflect Regalia's pursuit of excellence in detail."
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -2259,6 +2772,30 @@
                 "Z": 1.0
               }
             }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_VehicleHook",
+            "Value": {
+              "Rotation": {
+                "X": 0.06906,
+                "Y": 0.053168,
+                "Z": -0.972927,
+                "W": 0.214047,
+                "IsNormalized": true,
+                "Size": 0.9999996,
+                "SizeSquared": 0.99999917
+              },
+              "Translation": {
+                "X": 1115.0272,
+                "Y": 200.41006,
+                "Z": 59.58524
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
           }
         ],
         "UnLockID": "Vehicle002",
@@ -2305,7 +2842,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": true
       },
       "Vehicle004": {
         "VehicleID": "Vehicle004",
@@ -2333,15 +2871,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_001_name",
           "SourceString": "雷加利亚",
-          "LocalizedString": "Regalia"
+          "LocalizedString": "雷加利亚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_004_des",
           "SourceString": "雷加利亚最新敞篷汽车，无可比拟的流线外形，将空气动力学与美学推至极致，敞篷设计让都市喧嚣也成为最自由的风。",
-          "LocalizedString": "Regalia's latest convertible, with unmatched streamlined styling that pushes aerodynamics and aesthetics to their limits. The convertible design transforms even the urban bustle into the most liberating breeze."
+          "LocalizedString": "雷加利亚最新敞篷汽车，无可比拟的流线外形，将空气动力学与美学推至极致，敞篷设计让都市喧嚣也成为最自由的风。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -2622,6 +3160,30 @@
                 "Z": 1.0
               }
             }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_VehicleHook",
+            "Value": {
+              "Rotation": {
+                "X": 0.06906,
+                "Y": 0.053168,
+                "Z": -0.972927,
+                "W": 0.214047,
+                "IsNormalized": true,
+                "Size": 0.9999996,
+                "SizeSquared": 0.99999917
+              },
+              "Translation": {
+                "X": 1115.0272,
+                "Y": 200.41006,
+                "Z": 59.58524
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
           }
         ],
         "UnLockID": "None",
@@ -2668,7 +3230,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": true
       },
       "Vehicle012": {
         "VehicleID": "Vehicle012",
@@ -2696,15 +3259,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_001_name",
           "SourceString": "雷加利亚",
-          "LocalizedString": "Regalia"
+          "LocalizedString": "雷加利亚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_012_des",
           "SourceString": "Dominus S，宽敞车身和降噪轮胎，私享世界的宁静与尊贵。",
-          "LocalizedString": "Dominus S, with its spacious body and noise-reducing tires, offers the tranquility and prestige of your own private world."
+          "LocalizedString": "Dominus S，宽敞车身和降噪轮胎，私享世界的宁静与尊贵。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -2766,7 +3329,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
       },
       "Vehicle016": {
         "VehicleID": "Vehicle016",
@@ -2794,15 +3358,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_001_name",
           "SourceString": "雷加利亚",
-          "LocalizedString": "Regalia"
+          "LocalizedString": "雷加利亚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_016_des",
           "SourceString": "LaVelox，搭载混合动力系统，结合尖端引擎和最新科技材料，重新定义，什么是超跑。",
-          "LocalizedString": "LaVelox, equipped with a hybrid power system, combining cutting-edge engines and the latest technological materials, redefining what it means to be a supercar."
+          "LocalizedString": "LaVelox，搭载混合动力系统，结合尖端引擎和最新科技材料，重新定义，什么是超跑。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -3179,6 +3743,30 @@
                 "Z": 1.0
               }
             }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_VehicleHook",
+            "Value": {
+              "Rotation": {
+                "X": 0.0596676,
+                "Y": 0.06352874,
+                "Z": -0.99463665,
+                "W": 0.055693444,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 1124.8774,
+                "Y": 63.499973,
+                "Z": 42.20863
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
           }
         ],
         "UnLockID": "Vehicle016",
@@ -3225,7 +3813,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": true
       },
       "vehicle017": {
         "VehicleID": "vehicle017",
@@ -3253,15 +3842,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_001_name",
           "SourceString": "雷加利亚",
-          "LocalizedString": "Regalia"
+          "LocalizedString": "雷加利亚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_017_des",
           "SourceString": "Pursuit V8，精准调校的四驱系统，启动时的低沉轰鸣声浪，感受纯粹机械魅力。",
-          "LocalizedString": "Pursuit V8, with its precisely tuned all-wheel drive system and deep rumbling sound upon startup, you'll experience the pure appeal of mechanical engineering."
+          "LocalizedString": "Pursuit V8，精准调校的四驱系统，启动时的低沉轰鸣声浪，感受纯粹机械魅力。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -3614,6 +4203,30 @@
                 "Z": 1.0
               }
             }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_VehicleHook",
+            "Value": {
+              "Rotation": {
+                "X": 0.075849,
+                "Y": 0.042931,
+                "Z": -0.933168,
+                "W": 0.348713,
+                "IsNormalized": true,
+                "Size": 0.9999997,
+                "SizeSquared": 0.9999994
+              },
+              "Translation": {
+                "X": 1036.1774,
+                "Y": 286.54727,
+                "Z": 32.479946
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
           }
         ],
         "UnLockID": "vehicle017",
@@ -3660,7 +4273,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": true
       },
       "Vehicle021": {
         "VehicleID": "Vehicle021",
@@ -3688,15 +4302,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_001_name",
           "SourceString": "雷加利亚",
-          "LocalizedString": "Regalia"
+          "LocalizedString": "雷加利亚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_021_desc",
           "SourceString": "Pendragon，雷加利亚对未来探索的最新力作，用科技缔造新的超跑传奇。",
-          "LocalizedString": "Pendragon. Regalia's latest masterpiece for future exploration, forging new supercar legends with cutting-edge technology."
+          "LocalizedString": "Pendragon，雷加利亚对未来探索的最新力作，用科技缔造新的超跑传奇。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -4049,6 +4663,30 @@
                 "Z": 1.0
               }
             }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_VehicleHook",
+            "Value": {
+              "Rotation": {
+                "X": 0.08170253,
+                "Y": 0.03034501,
+                "Z": -0.8659751,
+                "W": 0.49243376,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 943.20306,
+                "Y": 403.39716,
+                "Z": 37.725582
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
           }
         ],
         "UnLockID": "Vehicle021",
@@ -4095,7 +4733,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": true
       },
       "Vehicle010": {
         "VehicleID": "Vehicle010",
@@ -4123,15 +4762,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_001_name",
           "SourceString": "雷加利亚",
-          "LocalizedString": "Regalia"
+          "LocalizedString": "雷加利亚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_010_des",
           "SourceString": "雷加利亚的得意之作，传承超跑血统，搭配高性能发动机，每次加速都是对极限发起挑战。",
-          "LocalizedString": "Regalia's masterpiece. Supercar DNA with high-performance engine. Every acceleration is a push to the limits."
+          "LocalizedString": "雷加利亚的得意之作，传承超跑血统，搭配高性能发动机，每次加速都是对极限发起挑战。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Motocycle",
@@ -4218,7 +4857,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
       },
       "Vehicle024": {
         "VehicleID": "Vehicle024",
@@ -4246,15 +4886,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_001_name",
           "SourceString": "雷加利亚",
-          "LocalizedString": "Regalia"
+          "LocalizedString": "雷加利亚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_024_desc",
           "SourceString": "雷加利亚新款摩托，拥有独特的空气动力学外形与高性能动力系统，专为职业赛车手打造。",
-          "LocalizedString": "Regalia's new motorcycle features a unique aerodynamic design and a high-performance power system, crafted specifically for professional racers."
+          "LocalizedString": "雷加利亚新款摩托，拥有独特的空气动力学外形与高性能动力系统，专为职业赛车手打造。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Motocycle",
@@ -4389,7 +5029,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
       },
       "Vehicle003": {
         "VehicleID": "Vehicle003",
@@ -4423,9 +5064,9 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_003_des",
           "SourceString": "G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
-          "LocalizedString": "G3, with its unmatched robust look, paired with the most advanced four-wheel drive system and luxurious interior, ensures your confidence and poise in any setting, whether it's for business or leisure."
+          "LocalizedString": "G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -4730,6 +5371,30 @@
                 "Z": 1.0
               }
             }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_VehicleHook",
+            "Value": {
+              "Rotation": {
+                "X": 0.075896665,
+                "Y": 0.042846467,
+                "Z": -0.9327807,
+                "W": 0.3497486,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 1100.0,
+                "Y": 274.08255,
+                "Z": 40.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
           }
         ],
         "UnLockID": "None",
@@ -4776,7 +5441,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": true
       },
       "Vehicle015": {
         "VehicleID": "Vehicle015",
@@ -4807,9 +5473,9 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_015_des",
           "SourceString": "Rover A1，轻巧车身，节能环保，短途通勤的最佳伴侣。",
-          "LocalizedString": "Rover A1, with its lightweight body, energy-efficient and eco-friendly design, is the perfect companion for short commutes."
+          "LocalizedString": "Rover A1，轻巧车身，节能环保，短途通勤的最佳伴侣。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Moped",
@@ -4898,6 +5564,30 @@
                 "Z": 1.0
               }
             }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_VehicleHook",
+            "Value": {
+              "Rotation": {
+                "X": 0.075896665,
+                "Y": 0.042846467,
+                "Z": -0.9327807,
+                "W": 0.3497486,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 874.53394,
+                "Y": 210.90039,
+                "Z": 18.574883
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
           }
         ],
         "UnLockID": "None",
@@ -4944,7 +5634,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": false,
         "CanTryDrive": false,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": true
       },
       "Vehicle007c": {
         "VehicleID": "Vehicle007c",
@@ -4969,15 +5660,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_007_c_des",
           "SourceString": "C2000系列产品，短车身结合高效动力系统，转向灵敏精准，专为城市驾驶而生。",
-          "LocalizedString": "C2000 series vehicle, combining a compact body with an efficient powertrain. Responsive and precise steering, designed specifically for city driving."
+          "LocalizedString": "C2000系列产品，短车身结合高效动力系统，转向灵敏精准，专为城市驾驶而生。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -5280,7 +5971,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle009": {
         "VehicleID": "Vehicle009",
@@ -5299,21 +5991,21 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_009_name",
           "SourceString": "Ori-LV01",
-          "LocalizedString": "Ori - LV01"
+          "LocalizedString": "Ori-LV01"
         },
         "Brand": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_004_name",
           "SourceString": "奥利哈刚",
-          "LocalizedString": "Orichalcos"
+          "LocalizedString": "奥利哈刚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_009_des",
           "SourceString": "奥利哈刚城市建设的秘密武器，坚固车架由高强度钢材打造，轻松承载城市运输任务，安全、稳定、可靠。",
-          "LocalizedString": "Orichalcos' secret weapon, featuring a robust frame built from high-strength steel that easily handles urban transport duties. Safe, stable, and reliable."
+          "LocalizedString": "奥利哈刚城市建设的秘密武器，坚固车架由高强度钢材打造，轻松承载城市运输任务，安全、稳定、可靠。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -5375,7 +6067,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle009a": {
         "VehicleID": "Vehicle009a",
@@ -5394,21 +6087,21 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_009_name",
           "SourceString": "Ori-LV01",
-          "LocalizedString": "Ori - LV01"
+          "LocalizedString": "Ori-LV01"
         },
         "Brand": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_004_name",
           "SourceString": "奥利哈刚",
-          "LocalizedString": "Orichalcos"
+          "LocalizedString": "奥利哈刚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_009_des",
           "SourceString": "奥利哈刚城市建设的秘密武器，坚固车架由高强度钢材打造，轻松承载城市运输任务，安全、稳定、可靠。",
-          "LocalizedString": "Orichalcos' secret weapon, featuring a robust frame built from high-strength steel that easily handles urban transport duties. Safe, stable, and reliable."
+          "LocalizedString": "奥利哈刚城市建设的秘密武器，坚固车架由高强度钢材打造，轻松承载城市运输任务，安全、稳定、可靠。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -5470,7 +6163,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle009b": {
         "VehicleID": "Vehicle009b",
@@ -5489,21 +6183,21 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_009_name",
           "SourceString": "Ori-LV01",
-          "LocalizedString": "Ori - LV01"
+          "LocalizedString": "Ori-LV01"
         },
         "Brand": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_004_name",
           "SourceString": "奥利哈刚",
-          "LocalizedString": "Orichalcos"
+          "LocalizedString": "奥利哈刚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_009_des",
           "SourceString": "奥利哈刚城市建设的秘密武器，坚固车架由高强度钢材打造，轻松承载城市运输任务，安全、稳定、可靠。",
-          "LocalizedString": "Orichalcos' secret weapon, featuring a robust frame built from high-strength steel that easily handles urban transport duties. Safe, stable, and reliable."
+          "LocalizedString": "奥利哈刚城市建设的秘密武器，坚固车架由高强度钢材打造，轻松承载城市运输任务，安全、稳定、可靠。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -5565,7 +6259,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle009c": {
         "VehicleID": "Vehicle009c",
@@ -5584,21 +6279,21 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_009_name",
           "SourceString": "Ori-LV01",
-          "LocalizedString": "Ori - LV01"
+          "LocalizedString": "Ori-LV01"
         },
         "Brand": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_004_name",
           "SourceString": "奥利哈刚",
-          "LocalizedString": "Orichalcos"
+          "LocalizedString": "奥利哈刚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_009_des",
           "SourceString": "奥利哈刚城市建设的秘密武器，坚固车架由高强度钢材打造，轻松承载城市运输任务，安全、稳定、可靠。",
-          "LocalizedString": "Orichalcos' secret weapon, featuring a robust frame built from high-strength steel that easily handles urban transport duties. Safe, stable, and reliable."
+          "LocalizedString": "奥利哈刚城市建设的秘密武器，坚固车架由高强度钢材打造，轻松承载城市运输任务，安全、稳定、可靠。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -5660,7 +6355,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle009a_toq": {
         "VehicleID": "Vehicle009a_toq",
@@ -5679,21 +6375,21 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_009_name",
           "SourceString": "Ori-LV01",
-          "LocalizedString": "Ori - LV01"
+          "LocalizedString": "Ori-LV01"
         },
         "Brand": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_004_name",
           "SourceString": "奥利哈刚",
-          "LocalizedString": "Orichalcos"
+          "LocalizedString": "奥利哈刚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_009_des",
           "SourceString": "奥利哈刚城市建设的秘密武器，坚固车架由高强度钢材打造，轻松承载城市运输任务，安全、稳定、可靠。",
-          "LocalizedString": "Orichalcos' secret weapon, featuring a robust frame built from high-strength steel that easily handles urban transport duties. Safe, stable, and reliable."
+          "LocalizedString": "奥利哈刚城市建设的秘密武器，坚固车架由高强度钢材打造，轻松承载城市运输任务，安全、稳定、可靠。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -5755,7 +6451,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle018_Quest_K110000": {
         "VehicleID": "Vehicle018_Quest_K110000",
@@ -5780,15 +6477,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_018_des",
           "SourceString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。",
-          "LocalizedString": "ST79, featuring a simple and practical mechanical structure, and a retro appearance paired with a mechanical manual transmission full of character. Pure driving pleasure begins here."
+          "LocalizedString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -5863,7 +6560,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle018ghost": {
         "VehicleID": "Vehicle018ghost",
@@ -5888,15 +6586,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_018_des",
           "SourceString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。",
-          "LocalizedString": "ST79, featuring a simple and practical mechanical structure, and a retro appearance paired with a mechanical manual transmission full of character. Pure driving pleasure begins here."
+          "LocalizedString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -6223,7 +6921,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle018_K110000": {
         "VehicleID": "Vehicle018_K110000",
@@ -6248,15 +6947,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_018_des",
           "SourceString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。",
-          "LocalizedString": "ST79, featuring a simple and practical mechanical structure, and a retro appearance paired with a mechanical manual transmission full of character. Pure driving pleasure begins here."
+          "LocalizedString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -6583,7 +7282,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle018_K110027": {
         "VehicleID": "Vehicle018_K110027",
@@ -6608,15 +7308,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_018_des",
           "SourceString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。",
-          "LocalizedString": "ST79, featuring a simple and practical mechanical structure, and a retro appearance paired with a mechanical manual transmission full of character. Pure driving pleasure begins here."
+          "LocalizedString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -6943,7 +7643,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle018_K110045": {
         "VehicleID": "Vehicle018_K110045",
@@ -6968,15 +7669,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_018_des",
           "SourceString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。",
-          "LocalizedString": "ST79, featuring a simple and practical mechanical structure, and a retro appearance paired with a mechanical manual transmission full of character. Pure driving pleasure begins here."
+          "LocalizedString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -7303,7 +8004,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle002_q110116": {
         "VehicleID": "Vehicle002_q110116",
@@ -7328,15 +8030,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_018_des",
           "SourceString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。",
-          "LocalizedString": "ST79, featuring a simple and practical mechanical structure, and a retro appearance paired with a mechanical manual transmission full of character. Pure driving pleasure begins here."
+          "LocalizedString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -7663,7 +8365,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle004_q110320": {
         "VehicleID": "Vehicle004_q110320",
@@ -7688,15 +8391,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_018_des",
           "SourceString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。",
-          "LocalizedString": "ST79, featuring a simple and practical mechanical structure, and a retro appearance paired with a mechanical manual transmission full of character. Pure driving pleasure begins here."
+          "LocalizedString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -8023,7 +8726,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle010_q110328": {
         "VehicleID": "Vehicle010_q110328",
@@ -8048,15 +8752,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_001_name",
           "SourceString": "雷加利亚",
-          "LocalizedString": "Regalia"
+          "LocalizedString": "雷加利亚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_010_des",
           "SourceString": "雷加利亚的得意之作，传承超跑血统，搭配高性能发动机，每次加速都是对极限发起挑战。",
-          "LocalizedString": "Regalia's masterpiece. Supercar DNA with high-performance engine. Every acceleration is a push to the limits."
+          "LocalizedString": "雷加利亚的得意之作，传承超跑血统，搭配高性能发动机，每次加速都是对极限发起挑战。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Motocycle",
@@ -8118,7 +8822,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle007_v2": {
         "VehicleID": "Vehicle007_v2",
@@ -8143,15 +8848,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_007_des",
           "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
-          "LocalizedString": "Novus C2000, a perfect blend of economy and exceptional performance. With its spacious and comfortable ride and efficient power system, every journey is stable and reliable."
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -8454,7 +9159,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle_015_Hight_WJ100105": {
         "VehicleID": "Vehicle_015_Hight_WJ100105",
@@ -8482,9 +9188,9 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_015_des",
           "SourceString": "Rover A1，轻巧车身，节能环保，短途通勤的最佳伴侣。",
-          "LocalizedString": "Rover A1, with its lightweight body, energy-efficient and eco-friendly design, is the perfect companion for short commutes."
+          "LocalizedString": "Rover A1，轻巧车身，节能环保，短途通勤的最佳伴侣。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Moped",
@@ -8546,7 +9252,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle_010_Mods": {
         "VehicleID": "Vehicle_010_Mods",
@@ -8573,7 +9280,7 @@
         "Description": {
           "CultureInvariantString": null
         },
-        "bDefaultUnLock": true,
+        "bDefaultUnlock": true,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Motocycle",
@@ -8632,7 +9339,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle007a": {
         "VehicleID": "Vehicle007a",
@@ -8657,15 +9365,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_007_des",
           "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
-          "LocalizedString": "Novus C2000, a perfect blend of economy and exceptional performance. With its spacious and comfortable ride and efficient power system, every journey is stable and reliable."
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -8968,7 +9676,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle020Police": {
         "VehicleID": "Vehicle020Police",
@@ -8993,15 +9702,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_007_des",
           "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
-          "LocalizedString": "Novus C2000, a perfect blend of economy and exceptional performance. With its spacious and comfortable ride and efficient power system, every journey is stable and reliable."
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -9304,7 +10013,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle007_s111601": {
         "VehicleID": "Vehicle007_s111601",
@@ -9329,15 +10039,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_007_des",
           "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
-          "LocalizedString": "Novus C2000, a perfect blend of economy and exceptional performance. With its spacious and comfortable ride and efficient power system, every journey is stable and reliable."
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -9640,7 +10350,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle007_s111601_race": {
         "VehicleID": "Vehicle007_s111601_race",
@@ -9665,15 +10376,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_007_des",
           "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
-          "LocalizedString": "Novus C2000, a perfect blend of economy and exceptional performance. With its spacious and comfortable ride and efficient power system, every journey is stable and reliable."
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -9989,7 +10700,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle002_oneoff": {
         "VehicleID": "Vehicle002_oneoff",
@@ -10014,15 +10726,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_001_name",
           "SourceString": "雷加利亚",
-          "LocalizedString": "Regalia"
+          "LocalizedString": "雷加利亚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_002_des",
           "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
-          "LocalizedString": "Griffin, a masterpiece of craftsmanship and technology from Regalia, is equipped with the latest driver assistance system and intelligent infotainment system. The sleek body and signature pop-up headlights perfectly reflect Regalia's pursuit of excellence in detail."
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -10349,7 +11061,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle003_oneoff": {
         "VehicleID": "Vehicle003_oneoff",
@@ -10380,9 +11093,9 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_003_des",
           "SourceString": "G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
-          "LocalizedString": "G3, with its unmatched robust look, paired with the most advanced four-wheel drive system and luxurious interior, ensures your confidence and poise in any setting, whether it's for business or leisure."
+          "LocalizedString": "G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -10709,7 +11422,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle004_oneoff": {
         "VehicleID": "Vehicle004_oneoff",
@@ -10734,15 +11448,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_001_name",
           "SourceString": "雷加利亚",
-          "LocalizedString": "Regalia"
+          "LocalizedString": "雷加利亚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_004_des",
           "SourceString": "雷加利亚最新敞篷汽车，无可比拟的流线外形，将空气动力学与美学推至极致，敞篷设计让都市喧嚣也成为最自由的风。",
-          "LocalizedString": "Regalia's latest convertible, with unmatched streamlined styling that pushes aerodynamics and aesthetics to their limits. The convertible design transforms even the urban bustle into the most liberating breeze."
+          "LocalizedString": "雷加利亚最新敞篷汽车，无可比拟的流线外形，将空气动力学与美学推至极致，敞篷设计让都市喧嚣也成为最自由的风。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -11045,7 +11759,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle007_oneoff": {
         "VehicleID": "Vehicle007_oneoff",
@@ -11070,15 +11785,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_007_des",
           "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
-          "LocalizedString": "Novus C2000, a perfect blend of economy and exceptional performance. With its spacious and comfortable ride and efficient power system, every journey is stable and reliable."
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -11381,7 +12096,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle008_oneoff": {
         "VehicleID": "Vehicle008_oneoff",
@@ -11406,15 +12122,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_008_des",
           "SourceString": "新越M1000，紧凑车身设计，极致灵活操纵体验，让你在城市拥堵中也游刃有余。",
-          "LocalizedString": "Novus M1000 features a compact body design with exceptional agile handling, letting you navigate through city traffic with ease."
+          "LocalizedString": "新越M1000，紧凑车身设计，极致灵活操纵体验，让你在城市拥堵中也游刃有余。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -11476,7 +12192,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle008_K111801": {
         "VehicleID": "Vehicle008_K111801",
@@ -11501,15 +12218,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_008_des",
           "SourceString": "新越M1000，紧凑车身设计，极致灵活操纵体验，让你在城市拥堵中也游刃有余。",
-          "LocalizedString": "Novus M1000 features a compact body design with exceptional agile handling, letting you navigate through city traffic with ease."
+          "LocalizedString": "新越M1000，紧凑车身设计，极致灵活操纵体验，让你在城市拥堵中也游刃有余。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -11836,7 +12553,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle005": {
         "VehicleID": "Vehicle005",
@@ -11860,7 +12578,7 @@
         "Description": {
           "CultureInvariantString": null
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -11919,7 +12637,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle005a": {
         "VehicleID": "Vehicle005a",
@@ -11943,7 +12662,7 @@
         "Description": {
           "CultureInvariantString": null
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -12002,7 +12721,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle024_Mods": {
         "VehicleID": "Vehicle024_Mods",
@@ -12030,15 +12750,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_001_name",
           "SourceString": "雷加利亚",
-          "LocalizedString": "Regalia"
+          "LocalizedString": "雷加利亚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_024_desc",
           "SourceString": "雷加利亚新款摩托，拥有独特的空气动力学外形与高性能动力系统，专为职业赛车手打造。",
-          "LocalizedString": "Regalia's new motorcycle features a unique aerodynamic design and a high-performance power system, crafted specifically for professional racers."
+          "LocalizedString": "雷加利亚新款摩托，拥有独特的空气动力学外形与高性能动力系统，专为职业赛车手打造。"
         },
-        "bDefaultUnLock": true,
+        "bDefaultUnlock": true,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Motocycle",
@@ -12100,7 +12820,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle015A": {
         "VehicleID": "Vehicle015A",
@@ -12131,9 +12852,9 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_015_des",
           "SourceString": "Rover A1，轻巧车身，节能环保，短途通勤的最佳伴侣。",
-          "LocalizedString": "Rover A1, with its lightweight body, energy-efficient and eco-friendly design, is the perfect companion for short commutes."
+          "LocalizedString": "Rover A1，轻巧车身，节能环保，短途通勤的最佳伴侣。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Moped",
@@ -12195,7 +12916,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": false,
         "CanTryDrive": false,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle031": {
         "VehicleID": "Vehicle031",
@@ -12219,7 +12941,7 @@
         "Description": {
           "CultureInvariantString": null
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -12570,7 +13292,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle023": {
         "VehicleID": "Vehicle023",
@@ -12598,9 +13321,9 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_023_desc",
           "SourceString": "休闲型卡丁车，操纵灵活，强劲的引擎搭载氮气加速系统，让你充分感受到速度的乐趣！",
-          "LocalizedString": "A hobbyist go-kart with superb handling and a powerful engine fitted with a nitrous acceleration system—put pedal to the metal and feel the wind on your face!"
+          "LocalizedString": "休闲型卡丁车，操纵灵活，强劲的引擎搭载氮气加速系统，让你充分感受到速度的乐趣！"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Kart",
@@ -12711,7 +13434,8 @@
         "IsUseCustomPlate": false,
         "IsShowEndurance": false,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
       },
       "Vehicle030": {
         "VehicleID": "Vehicle030",
@@ -12730,7 +13454,7 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_030_name",
           "SourceString": "「冲向明天！」",
-          "LocalizedString": "Tomorrow Rush"
+          "LocalizedString": "「冲向明天！」"
         },
         "Brand": {
           "CultureInvariantString": null
@@ -12739,9 +13463,9 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_030_desc",
           "SourceString": "由「管家」大卫先生驱动的次世代新概念载具。在下次迭代中，我们预计将其改为燃料驱动，使用大小相等的四轮，以及更安全的封闭轿厢。这是载具界的一次重大突破！",
-          "LocalizedString": "Next-gen concept vehicle driven by Mr. David, the Butler. Future models will use fuel, four equal wheels, and a safer enclosed cabin—a major leap in vehicle design!"
+          "LocalizedString": "由「管家」大卫先生驱动的次世代新概念载具。在下次迭代中，我们预计将其改为燃料驱动，使用大小相等的四轮，以及更安全的封闭轿厢。这是载具界的一次重大突破！"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Kart",
@@ -13046,6 +13770,30 @@
                 "Z": 1.0
               }
             }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_VehicleHook",
+            "Value": {
+              "Rotation": {
+                "X": 0.07028946,
+                "Y": 0.051531695,
+                "Z": -0.9676312,
+                "W": 0.23684117,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 933.23535,
+                "Y": 205.23672,
+                "Z": 28.962097
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
           }
         ],
         "UnLockID": "None",
@@ -13092,7 +13840,8 @@
         "IsUseCustomPlate": false,
         "IsShowEndurance": false,
         "CanTryDrive": false,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": true
       },
       "Vehicle032": {
         "VehicleID": "Vehicle032",
@@ -13116,7 +13865,7 @@
         "Description": {
           "CultureInvariantString": null
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -13467,7 +14216,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle034": {
         "VehicleID": "Vehicle034",
@@ -13491,7 +14241,7 @@
         "Description": {
           "CultureInvariantString": null
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -13842,7 +14592,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle027": {
         "VehicleID": "Vehicle027",
@@ -13869,7 +14620,7 @@
         "Description": {
           "CultureInvariantString": null
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -13883,7 +14634,7 @@
           "SubPathString": ""
         },
         "InVehicleTemple": {
-          "AssetPathName": "/Game/Blueprints/Vehicle/Vehicle_020/BP_Vehicle_020_Module.BP_Vehicle_020_Module_C",
+          "AssetPathName": "/Game/Blueprints/Vehicle/Vehicle_027/BP_Vehicle_027_Hight.BP_Vehicle_027_Hight_C",
           "SubPathString": ""
         },
         "ModulePreviewCamera": [
@@ -14220,7 +14971,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle040": {
         "VehicleID": "Vehicle040",
@@ -14244,7 +14996,7 @@
         "Description": {
           "CultureInvariantString": null
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -14306,7 +15058,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle041": {
         "VehicleID": "Vehicle041",
@@ -14330,7 +15083,7 @@
         "Description": {
           "CultureInvariantString": null
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -14392,7 +15145,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle026": {
         "VehicleID": "Vehicle026",
@@ -14420,15 +15174,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_005_name",
           "SourceString": "保时捷",
-          "LocalizedString": "Porsche"
+          "LocalizedString": "保时捷"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_026_desc",
           "SourceString": "Porsche 918 Spyder，超凡脱俗的未来感外形，无与伦比的驾驶动态，助力您的非凡人生。",
-          "LocalizedString": "Porsche 918 Spyder - sculpted for the future, engineered to perform. Built for those who never settle for ordinary."
+          "LocalizedString": "Porsche 918 Spyder，超凡脱俗的未来感外形，无与伦比的驾驶动态，助力您的非凡人生。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -14827,7 +15581,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
       },
       "Vehicle005_Player": {
         "VehicleID": "Vehicle005_Player",
@@ -14851,7 +15606,7 @@
         "Description": {
           "CultureInvariantString": null
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": false,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -14910,7 +15665,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "None"
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
       },
       "Vehicle003Combat": {
         "VehicleID": "Vehicle003Combat",
@@ -14944,9 +15700,9 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_003_des",
           "SourceString": "G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 ",
-          "LocalizedString": "G3, with its unmatched robust look, paired with the most advanced four-wheel drive system and luxurious interior, ensures your confidence and poise in any setting, whether it's for business or leisure."
+          "LocalizedString": "G3，无可比拟的硬朗外形，搭配最先进的四轮驱动系统和豪华内饰，无论是商务还是休闲场合，让您在任何环境都从容自信。 "
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -15297,7 +16053,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
       },
       "Vehicle017Combat": {
         "VehicleID": "Vehicle017Combat",
@@ -15325,15 +16082,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_001_name",
           "SourceString": "雷加利亚",
-          "LocalizedString": "Regalia"
+          "LocalizedString": "雷加利亚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_017_des",
           "SourceString": "Pursuit V8，精准调校的四驱系统，启动时的低沉轰鸣声浪，感受纯粹机械魅力。",
-          "LocalizedString": "Pursuit V8, with its precisely tuned all-wheel drive system and deep rumbling sound upon startup, you'll experience the pure appeal of mechanical engineering."
+          "LocalizedString": "Pursuit V8，精准调校的四驱系统，启动时的低沉轰鸣声浪，感受纯粹机械魅力。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -15732,7 +16489,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
       },
       "Vehicle002Combat": {
         "VehicleID": "Vehicle002Combat",
@@ -15760,15 +16518,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_001_name",
           "SourceString": "雷加利亚",
-          "LocalizedString": "Regalia"
+          "LocalizedString": "雷加利亚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_002_des",
           "SourceString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。",
-          "LocalizedString": "Griffin, a masterpiece of craftsmanship and technology from Regalia, is equipped with the latest driver assistance system and intelligent infotainment system. The sleek body and signature pop-up headlights perfectly reflect Regalia's pursuit of excellence in detail."
+          "LocalizedString": "Griffin，雷加利亚旗下工艺与科技的结晶，配置最新的驾驶辅助系统和智能信息娱乐系统，流线型车身与标志性跳灯的完美融合，彰显了雷加利亚对于细节的极致追求。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -16119,7 +16877,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
       },
       "Vehicle007Combat": {
         "VehicleID": "Vehicle007Combat",
@@ -16147,15 +16906,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_007_des",
           "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
-          "LocalizedString": "Novus C2000, a perfect blend of economy and exceptional performance. With its spacious and comfortable ride and efficient power system, every journey is stable and reliable."
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -16482,7 +17241,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
       },
       "Vehicle018Combat": {
         "VehicleID": "Vehicle018Combat",
@@ -16510,15 +17270,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_018_des",
           "SourceString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。",
-          "LocalizedString": "ST79, featuring a simple and practical mechanical structure, and a retro appearance paired with a mechanical manual transmission full of character. Pure driving pleasure begins here."
+          "LocalizedString": "ST79，简洁实用的机械结构，复古外形搭配充满机械感的手动变速箱，纯粹的驾驶乐趣，就此启程。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -16917,7 +17677,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
       },
       "Vehicle020Combat": {
         "VehicleID": "Vehicle020Combat",
@@ -16945,15 +17706,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_020_desc",
           "SourceString": "Enforcer，充满力量感的车身线条配合以强劲马力，坚固耐用，助你成为道路的掌控者。",
-          "LocalizedString": "Enforcer. Bold body lines and raw horsepower combine in a tough, reliable design built to help you dominate the road."
+          "LocalizedString": "Enforcer，充满力量感的车身线条配合以强劲马力，坚固耐用，助你成为道路的掌控者。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -17304,7 +18065,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
       },
       "Vehicle016Combat": {
         "VehicleID": "Vehicle016Combat",
@@ -17332,15 +18094,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_001_name",
           "SourceString": "雷加利亚",
-          "LocalizedString": "Regalia"
+          "LocalizedString": "雷加利亚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_016_des",
           "SourceString": "LaVelox，搭载混合动力系统，结合尖端引擎和最新科技材料，重新定义，什么是超跑。",
-          "LocalizedString": "LaVelox, equipped with a hybrid power system, combining cutting-edge engines and the latest technological materials, redefining what it means to be a supercar."
+          "LocalizedString": "LaVelox，搭载混合动力系统，结合尖端引擎和最新科技材料，重新定义，什么是超跑。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -17763,7 +18525,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
       },
       "Vehicle008Combat": {
         "VehicleID": "Vehicle008Combat",
@@ -17791,15 +18554,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_008_des",
           "SourceString": "新越M1000，紧凑车身设计，极致灵活操纵体验，让你在城市拥堵中也游刃有余。",
-          "LocalizedString": "Novus M1000 features a compact body design with exceptional agile handling, letting you navigate through city traffic with ease."
+          "LocalizedString": "新越M1000，紧凑车身设计，极致灵活操纵体验，让你在城市拥堵中也游刃有余。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -18150,7 +18913,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
       },
       "Vehicle021Combat": {
         "VehicleID": "Vehicle021Combat",
@@ -18178,15 +18942,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_001_name",
           "SourceString": "雷加利亚",
-          "LocalizedString": "Regalia"
+          "LocalizedString": "雷加利亚"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_021_desc",
           "SourceString": "Pendragon，雷加利亚对未来探索的最新力作，用科技缔造新的超跑传奇。",
-          "LocalizedString": "Pendragon. Regalia's latest masterpiece for future exploration, forging new supercar legends with cutting-edge technology."
+          "LocalizedString": "Pendragon，雷加利亚对未来探索的最新力作，用科技缔造新的超跑传奇。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -18585,7 +19349,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
       },
       "Vehicle006Combat": {
         "VehicleID": "Vehicle006Combat",
@@ -18610,15 +19375,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Vehicle_006_des",
           "SourceString": "新越新品B100，轻量化车身和低重心布局，让你感受稳健而灵敏的驾驶回应。",
-          "LocalizedString": "The new Novus B100, featuring lightweight construction and low center of gravity, delivers stable yet responsive driving feedback."
+          "LocalizedString": "新越新品B100，轻量化车身和低重心布局，让你感受稳健而灵敏的驾驶回应。"
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -18921,7 +19686,556 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
+      },
+      "Vehicle035": {
+        "VehicleID": "Vehicle035",
+        "PreVehicleNumId": {
+          "CultureInvariantString": null
+        },
+        "IsUseNameplate": false,
+        "NameplateBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "NameplateBgMaterialIndex": 0,
+        "IsUseNameplateSpecialShow": false,
+        "GetVehicleSourceType": "EGetVehicleSourceType::GetVehicle_Shop",
+        "Name": {
+          "CultureInvariantString": null
+        },
+        "Brand": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "bDefaultUnlock": false,
+        "bCanModified": true,
+        "VehicleType": "EVehicleTemplateType::EVTT_Rent_template",
+        "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
+        "DriveAnimType": "EVehicleDriveAnimType::VDAT_Car",
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_ICON02.YH_UI_car_ICON02",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI/Vehicle/icon/YH_UI_car_ICON02.YH_UI_car_ICON02",
+          "SubPathString": ""
+        },
+        "InVehicleTemple": {
+          "AssetPathName": "/Game/Blueprints/Vehicle/Vehicle_035/BP_Vehicle_035_Hight.BP_Vehicle_035_Hight_C",
+          "SubPathString": ""
+        },
+        "ModulePreviewCamera": [
+          {
+            "Key": "EVehicleModuleType::EVMT_Engine",
+            "Value": {
+              "Rotation": {
+                "X": 0.033134,
+                "Y": 0.170458,
+                "Z": -0.18791,
+                "W": 0.966714,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.99999994
+              },
+              "Translation": {
+                "X": 200.0,
+                "Y": 200.0,
+                "Z": 106.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Brake",
+            "Value": {
+              "Rotation": {
+                "X": 0.014919,
+                "Y": 0.040989,
+                "Z": -0.341695,
+                "W": 0.938798,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+              },
+              "Translation": {
+                "X": 300.0,
+                "Y": 400.0,
+                "Z": -10.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Gearbox",
+            "Value": {
+              "Rotation": {
+                "X": 0.033134,
+                "Y": 0.170458,
+                "Z": -0.18791,
+                "W": 0.966714,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.99999994
+              },
+              "Translation": {
+                "X": 200.0,
+                "Y": 200.0,
+                "Z": 106.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Suspension",
+            "Value": {
+              "Rotation": {
+                "X": 0.014919,
+                "Y": 0.040989,
+                "Z": -0.341695,
+                "W": 0.938798,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+              },
+              "Translation": {
+                "X": 300.0,
+                "Y": 400.0,
+                "Z": -10.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Color",
+            "Value": {
+              "Rotation": {
+                "X": 0.015134,
+                "Y": 0.085832,
+                "Z": -0.172987,
+                "W": 0.98106,
+                "IsNormalized": true,
+                "Size": 0.9999997,
+                "SizeSquared": 0.9999994
+              },
+              "Translation": {
+                "X": 50.0,
+                "Y": 310.0,
+                "Z": 80.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_FrontBodyKit",
+            "Value": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0,
+                "W": 1.0,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 100.0,
+                "Y": 30.0,
+                "Z": -50.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_BackBodyKit",
+            "Value": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.891007,
+                "W": 0.45399,
+                "IsNormalized": true,
+                "Size": 1.0000001,
+                "SizeSquared": 1.0000004
+              },
+              "Translation": {
+                "X": 1106.0,
+                "Y": 500.0,
+                "Z": -40.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Spoiler",
+            "Value": {
+              "Rotation": {
+                "X": 0.085625,
+                "Y": 0.059955,
+                "Z": -0.814665,
+                "W": 0.570434,
+                "IsNormalized": true,
+                "Size": 1.0000001,
+                "SizeSquared": 1.0000002
+              },
+              "Translation": {
+                "X": 1000.0,
+                "Y": 600.0,
+                "Z": 90.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Decal",
+            "Value": {
+              "Rotation": {
+                "X": 0.015134,
+                "Y": 0.085832,
+                "Z": -0.172987,
+                "W": 0.98106,
+                "IsNormalized": true,
+                "Size": 0.9999997,
+                "SizeSquared": 0.9999994
+              },
+              "Translation": {
+                "X": 50.0,
+                "Y": 310.0,
+                "Z": 80.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Wheel",
+            "Value": {
+              "Rotation": {
+                "X": 0.014919,
+                "Y": 0.040989,
+                "Z": -0.341695,
+                "W": 0.938798,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+              },
+              "Translation": {
+                "X": 300.0,
+                "Y": 400.0,
+                "Z": -10.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Attachment",
+            "Value": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.8910069,
+                "W": 0.45398977,
+                "IsNormalized": true,
+                "Size": 1.0,
+                "SizeSquared": 1.0
+              },
+              "Translation": {
+                "X": 1106.0,
+                "Y": 500.0,
+                "Z": 0.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Tyre",
+            "Value": {
+              "Rotation": {
+                "X": 0.014919,
+                "Y": 0.040989,
+                "Z": -0.341695,
+                "W": 0.938798,
+                "IsNormalized": true,
+                "Size": 0.99999994,
+                "SizeSquared": 0.9999999
+              },
+              "Translation": {
+                "X": 300.0,
+                "Y": 400.0,
+                "Z": -10.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        ],
+        "UnLockID": "None",
+        "TrackGoalOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 150.0
+        },
+        "RepairCurrentId": "Fons",
+        "EnduranceProps": {
+          "ObjectName": "CurveTable'CV_Vehicle003'",
+          "ObjectPath": "/Game/DataTable/Vehicle/CV_Vehicle003.0"
+        },
+        "RepairTireCost": 150.0,
+        "RepairSpecialGlassCost": 250.0,
+        "ExplosionExtraCost": 1300.0,
+        "IsSpawnNear": false,
+        "SpawnDirection": "ESpawnActorByPlayerDirection::Right",
+        "SpawnDistance": 150.0,
+        "WholeVehiclePreviewTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "JumpToUISourceId": "VehicleShop02",
+        "BasePropsScore": [],
+        "SortLevel": 14,
+        "IsUseCustomPlate": true,
+        "IsShowEndurance": true,
+        "CanTryDrive": true,
+        "CanTryDriveCloneID": "None",
+        "CanFishHook": false
+      },
+      "Vehicle039": {
+        "VehicleID": "Vehicle039",
+        "PreVehicleNumId": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Vehicle024_uid",
+          "SourceString": "REG-BV4-",
+          "LocalizedString": "REG-BV4-"
+        },
+        "IsUseNameplate": false,
+        "NameplateBg": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "NameplateBgMaterialIndex": 0,
+        "IsUseNameplateSpecialShow": false,
+        "GetVehicleSourceType": "EGetVehicleSourceType::GetVehicle_GashaponLottery",
+        "Name": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Vehicle_039_name",
+          "SourceString": "Draco",
+          "LocalizedString": "Draco"
+        },
+        "Brand": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Trademark_001_name",
+          "SourceString": "雷加利亚",
+          "LocalizedString": "雷加利亚"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
+          "Key": "Vehicle_039_desc",
+          "SourceString": "颠覆想象的设计，突破道路的局限。若穿着特定装备驾驶，则会变化为更具幻想色彩的特殊形态。",
+          "LocalizedString": "颠覆想象的设计，突破道路的局限。若穿着特定装备驾驶，则会变化为更具幻想色彩的特殊形态。"
+        },
+        "bDefaultUnlock": false,
+        "bCanModified": false,
+        "VehicleType": "EVehicleTemplateType::EVTT_Buy_Template",
+        "VehicleKeyType": "EVehicleKeyUseType::EKUT_Motocycle",
+        "DriveAnimType": "EVehicleDriveAnimType::VDAT_Motor",
+        "UnLockNormalIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_car_ICON22.YH_UI_car_ICON22",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_car_ICON22.YH_UI_car_ICON22",
+          "SubPathString": ""
+        },
+        "InVehicleTemple": {
+          "AssetPathName": "/Game/Blueprints/Vehicle/Vehicle_039/BP_Vehicle_039_Hight.BP_Vehicle_039_Hight_C",
+          "SubPathString": ""
+        },
+        "ModulePreviewCamera": [
+          {
+            "Key": "EVehicleModuleType::EVMT_Color",
+            "Value": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.130526,
+                "W": 0.991445,
+                "IsNormalized": true,
+                "Size": 1.0000001,
+                "SizeSquared": 1.0000002
+              },
+              "Translation": {
+                "X": 350.0,
+                "Y": 150.0,
+                "Z": -30.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Skin",
+            "Value": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.130526,
+                "W": 0.991445,
+                "IsNormalized": true,
+                "Size": 1.0000001,
+                "SizeSquared": 1.0000002
+              },
+              "Translation": {
+                "X": 350.0,
+                "Y": 150.0,
+                "Z": -30.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          },
+          {
+            "Key": "EVehicleModuleType::EVMT_Decal",
+            "Value": {
+              "Rotation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": -0.130526,
+                "W": 0.991445,
+                "IsNormalized": true,
+                "Size": 1.0000001,
+                "SizeSquared": 1.0000002
+              },
+              "Translation": {
+                "X": 350.0,
+                "Y": 150.0,
+                "Z": -30.0
+              },
+              "Scale3D": {
+                "X": 1.0,
+                "Y": 1.0,
+                "Z": 1.0
+              }
+            }
+          }
+        ],
+        "UnLockID": "Vehicle039",
+        "TrackGoalOffset": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 100.0
+        },
+        "RepairCurrentId": "Fons",
+        "EnduranceProps": {
+          "ObjectName": "CurveTable'CV_Vehicle024'",
+          "ObjectPath": "/Game/DataTable/Vehicle/CV_Vehicle024.0"
+        },
+        "RepairTireCost": 1000.0,
+        "RepairSpecialGlassCost": 0.0,
+        "ExplosionExtraCost": 4250.0,
+        "IsSpawnNear": true,
+        "SpawnDirection": "ESpawnActorByPlayerDirection::Right",
+        "SpawnDistance": 100.0,
+        "WholeVehiclePreviewTransform": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.13052602,
+            "W": 0.9914449,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 250.0,
+            "Y": 150.0,
+            "Z": -30.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "JumpToUISourceId": "None",
+        "BasePropsScore": [],
+        "SortLevel": 13,
+        "IsUseCustomPlate": false,
+        "IsShowEndurance": false,
+        "CanTryDrive": true,
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
       },
       "Vehicle007_drivingschool": {
         "VehicleID": "Vehicle007_drivingschool",
@@ -18949,15 +20263,15 @@
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "Trademark_003_name",
           "SourceString": "新越",
-          "LocalizedString": "Novus"
+          "LocalizedString": "新越"
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
           "Key": "V002_car_007_des",
           "SourceString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 ",
-          "LocalizedString": "Novus C2000, a perfect blend of economy and exceptional performance. With its spacious and comfortable ride and efficient power system, every journey is stable and reliable."
+          "LocalizedString": "新越-C2000，经济适用与卓越性能的完美结合，宽敞舒适的驾乘体验，高效运转的动力系统，让每一次出行，都安稳可靠。 "
         },
-        "bDefaultUnLock": false,
+        "bDefaultUnlock": false,
         "bCanModified": true,
         "VehicleType": "EVehicleTemplateType::EVTT_Quest_template",
         "VehicleKeyType": "EVehicleKeyUseType::EKUT_Car",
@@ -19284,7 +20598,8 @@
         "IsUseCustomPlate": true,
         "IsShowEndurance": true,
         "CanTryDrive": true,
-        "CanTryDriveCloneID": "DLC_RT_C1_clone"
+        "CanTryDriveCloneID": "DLC_RT_C1_clone",
+        "CanFishHook": false
       }
     }
   }
