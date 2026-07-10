@@ -1,0 +1,5818 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_FinalTowerAdventureSimpleQuest",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/Maps_4N/DataTable/AdventureManual/DT_FinalTowerAdventureSimpleQuest",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'SimpleQuestStaticData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "FT1001": {
+        "QuestId": "FT1001",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1001",
+          "SourceString": "点燃5个篝火",
+          "LocalizedString": "Light 5 Bonfires"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MapIconID": "FT_bonfire",
+          "ObjectiveType": "ESimpleQuestObjType::ActiveTeleport",
+          "Amount": 5
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1001",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1002": {
+        "QuestId": "FT1002",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1002",
+          "SourceString": "开启8个宝箱",
+          "LocalizedString": "Open 8 chests"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "TreasureBoxIDArray": [],
+          "TreasureBoxAreaArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::OpenTreasureBox",
+          "Amount": 8
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1002",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1003": {
+        "QuestId": "FT1003",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1003",
+          "SourceString": "击杀200只怪物",
+          "LocalizedString": "Defeat 200 monsters"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 200
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1003",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1004": {
+        "QuestId": "FT1004",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1004",
+          "SourceString": "获得蓝品质以上的装备30件",
+          "LocalizedString": "Obtain 30 pieces of Blue-rarity or higher equipment"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_BLUE",
+            "ITEM_QUALITY_PURPLE",
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 30
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1004",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1005": {
+        "QuestId": "FT1005",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1005",
+          "SourceString": "击败「巧克力火山」的首领地龙",
+          "LocalizedString": "Defeat the Terra Dragon in Chocolate Volcano"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": false,
+          "MonsterIDArray": [
+            "FT_mon_57_BP_boss_lv1",
+            "FT_mon_57_BP_boss_lv2",
+            "FT_mon_57_BP_boss_lv3"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1005",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1006": {
+        "QuestId": "FT1006",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1006",
+          "SourceString": "解锁12个篝火点",
+          "LocalizedString": "Unlock 12 Bonfire Points"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MapIconID": "FT_bonfire",
+          "ObjectiveType": "ESimpleQuestObjType::ActiveTeleport",
+          "Amount": 12
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1006",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1007": {
+        "QuestId": "FT1007",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1007",
+          "SourceString": "开启20个宝箱",
+          "LocalizedString": "Open 20 chests"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "TreasureBoxIDArray": [],
+          "TreasureBoxAreaArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::OpenTreasureBox",
+          "Amount": 20
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1007",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1008": {
+        "QuestId": "FT1008",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1008",
+          "SourceString": "击杀360只怪物",
+          "LocalizedString": "Defeat 360 monsters"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 360
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1008",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1009": {
+        "QuestId": "FT1009",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1009",
+          "SourceString": "获得蓝品质以上的装备80件",
+          "LocalizedString": "Obtain 80 pieces of Blue-rarity or higher equipment"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_BLUE",
+            "ITEM_QUALITY_PURPLE",
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 80
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1009",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1010": {
+        "QuestId": "FT1010",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1010",
+          "SourceString": "击败「牛奶雪冰山」的首领蓝色恶龙",
+          "LocalizedString": "Defeat the Blue Dragon in Milk Ice Mountain"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [
+            "FT_mon_60_BP_Boss_Seal_R1",
+            "FT_mon_60_BP_Boss_Seal_R2",
+            "FT_mon_60_BP_Boss_Seal_R3"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1010",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1011": {
+        "QuestId": "FT1011",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1011",
+          "SourceString": "点燃18个篝火",
+          "LocalizedString": "Light 18 Bonfires"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MapIconID": "FT_bonfire",
+          "ObjectiveType": "ESimpleQuestObjType::ActiveTeleport",
+          "Amount": 18
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1011",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1012": {
+        "QuestId": "FT1012",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1012",
+          "SourceString": "开启36个宝箱",
+          "LocalizedString": "Open 36 chests"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "TreasureBoxIDArray": [],
+          "TreasureBoxAreaArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::OpenTreasureBox",
+          "Amount": 36
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1012",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1013": {
+        "QuestId": "FT1013",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1013",
+          "SourceString": "击杀540只怪物",
+          "LocalizedString": "Defeat 540 monsters"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 540
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1013",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1014": {
+        "QuestId": "FT1014",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1014",
+          "SourceString": "获得蓝品质以上的装备130件",
+          "LocalizedString": "Obtain 130 pieces of Blue-rarity or higher equipment"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_BLUE",
+            "ITEM_QUALITY_PURPLE",
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 130
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1014",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1015": {
+        "QuestId": "FT1015",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1015",
+          "SourceString": "角色等级最高达到40级",
+          "LocalizedString": "Reach Character Lvl 40"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "CharacterIDArray": [
+            "ft_character_mint",
+            "ft_character_1051",
+            "ft_character_1046",
+            "ft_character_1075",
+            "ft_character_1076"
+          ],
+          "Level": 40,
+          "ObjectiveType": "ESimpleQuestObjType::CharacterGroupLevelCount",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1015",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1016": {
+        "QuestId": "FT1016",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1016",
+          "SourceString": "击败「琥珀湖」的首领草蝎",
+          "LocalizedString": "Defeat the Grass Scorpion in Amber Syrup Lake."
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [
+            "FT_mon_61_BP_Big_Lake_Lv1",
+            "FT_mon_61_BP_Big_Lake_Lv2",
+            "FT_mon_61_BP_Big_Lake_Lv3"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1016",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1017": {
+        "QuestId": "FT1017",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1017",
+          "SourceString": "点燃30个篝火",
+          "LocalizedString": "Light 30 Bonfires"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MapIconID": "FT_bonfire",
+          "ObjectiveType": "ESimpleQuestObjType::ActiveTeleport",
+          "Amount": 30
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1017",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1018": {
+        "QuestId": "FT1018",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1018",
+          "SourceString": "开启50个宝箱",
+          "LocalizedString": "Open 50 chests"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "TreasureBoxIDArray": [],
+          "TreasureBoxAreaArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::OpenTreasureBox",
+          "Amount": 50
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1018",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1019": {
+        "QuestId": "FT1019",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1019",
+          "SourceString": "击杀760只怪物",
+          "LocalizedString": "Defeat 760 monsters"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 760
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1019",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1020": {
+        "QuestId": "FT1020",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1020",
+          "SourceString": "获得蓝品质以上的装备180件",
+          "LocalizedString": "Obtain 180 pieces of Blue-rarity or higher equipment"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_BLUE",
+            "ITEM_QUALITY_PURPLE",
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 180
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1020",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1021": {
+        "QuestId": "FT1021",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1021",
+          "SourceString": "获得紫品质以上的装备40件",
+          "LocalizedString": "Obtain 40 pieces of Purple-rarity or higher equipment"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_PURPLE",
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 40
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1021",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT1022": {
+        "QuestId": "FT1022",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT1022",
+          "SourceString": "击败「赤龙古堡」的首领赤龙",
+          "LocalizedString": "Defeat the Crimson Dragon in Crimson Castle"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [
+            "FT_BP_Boss_37_L110352",
+            "FT_BP_Boss_37_Castle_lv2",
+            "FT_BP_Boss_37_Castle_lv3"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT1022",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2001": {
+        "QuestId": "FT2001",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2001",
+          "SourceString": "在挑战难度及以上击败300只怪物",
+          "LocalizedString": "Defeat 300 monsters on Challenge difficulty or higher"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 300
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2001",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": [
+          {
+            "PlayThroughArray": [
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "FT2002": {
+        "QuestId": "FT2002",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2002",
+          "SourceString": "造成一次不小于200,000点的伤害",
+          "LocalizedString": "Deal at least 200,000 DMG in a single hit"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::SingleDamage",
+          "Amount": 200000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2002",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2003": {
+        "QuestId": "FT2003",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2003",
+          "SourceString": "共计获得80件紫品质以上的装备",
+          "LocalizedString": "Obtain 80 pieces of Purple-rarity or higher equipment in total"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_PURPLE",
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 80
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2003",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2004": {
+        "QuestId": "FT2004",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2004",
+          "SourceString": "获得紫品质以上的武器5件",
+          "LocalizedString": "Obtain 5 pieces of Purple-rarity or higher weapons"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_PURPLE",
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [
+            "EItemType::ITEM_TYPE_FINAL_TOWER_WEAPON"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 5
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2004",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2005": {
+        "QuestId": "FT2005",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2005",
+          "SourceString": "角色等级达到70级",
+          "LocalizedString": "Reach Character Lvl 70"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "CharacterIDArray": [
+            "ft_character_mint",
+            "ft_character_1051",
+            "ft_character_1046",
+            "ft_character_1075",
+            "ft_character_1076"
+          ],
+          "Level": 70,
+          "ObjectiveType": "ESimpleQuestObjType::CharacterGroupLevelCount",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2005",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2006": {
+        "QuestId": "FT2006",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2006",
+          "SourceString": "在挑战难度及以上击败「巧克力火山」的首领地龙2次",
+          "LocalizedString": "Defeat the Terra Dragon 2 times in Chocolate Volcano on Challenge difficulty or higher."
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [
+            "FT_mon_57_BP_boss_lv2",
+            "FT_mon_57_BP_boss_lv3"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 2
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2006",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": [
+          {
+            "PlayThroughArray": [
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "FT2007": {
+        "QuestId": "FT2007",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2007",
+          "SourceString": "在挑战难度及以上击败700只怪物",
+          "LocalizedString": "Defeat 700 monsters on Challenge difficulty or higher"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 700
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2007",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": [
+          {
+            "PlayThroughArray": [
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "FT2008": {
+        "QuestId": "FT2008",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2008",
+          "SourceString": "激活2个套装效果",
+          "LocalizedString": "Activate 2 Set Effects"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "CharacterIDArray": [],
+          "SuitIDArray": [],
+          "EquipType": "ESimpleQuestCharacterGroupArmorEquipType::Total",
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerCharacterGroupArmorSuitActivate",
+          "Amount": 2
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2008",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2009": {
+        "QuestId": "FT2009",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2009",
+          "SourceString": "采集100个采集物",
+          "LocalizedString": "Gather 100 resources"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_NONE",
+          "bNeedNewAdd": true,
+          "bUseItem": false,
+          "ItemIDArray": [
+            "FT_CollectingMaterial_0001",
+            "FT_CollectingMaterial_1001",
+            "FT_CollectingMaterial_1002",
+            "FT_CollectingMaterial_2001",
+            "FT_CollectingMaterial_2002",
+            "FT_CollectingMaterial_3001",
+            "FT_CollectingMaterial_1101",
+            "FT_CollectingMaterial_2101",
+            "FT_CollectingMaterial_3101",
+            "FT_CollectingMaterial_3102",
+            "FT_CollectingMaterial_4101",
+            "FT_CollectingMaterial_4102",
+            "FT_CollectingMaterial_4103"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 100
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2009",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2010": {
+        "QuestId": "FT2010",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2010",
+          "SourceString": "获得紫品质以上的装备240件",
+          "LocalizedString": "Obtain 240 pieces of Purple-rarity or higher equipment"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_PURPLE",
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 240
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2010",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2011": {
+        "QuestId": "FT2011",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2011",
+          "SourceString": "累计获得2,000,000枚沃伦金币",
+          "LocalizedString": "Earn 2,000,000 Warren Gold Coins in total"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_NONE",
+          "bNeedNewAdd": true,
+          "bUseItem": false,
+          "ItemIDArray": [
+            "FTGoldCoin"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 2000000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2011",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2012": {
+        "QuestId": "FT2012",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2012",
+          "SourceString": "在挑战难度及以上击败「牛奶雪冰山」的首领蓝色恶龙2次",
+          "LocalizedString": "Defeat the Blue Dragon 2 times in Milk Ice Mountain on Challenge difficulty or higher."
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [
+            "FT_mon_60_BP_Boss_Seal_R2",
+            "FT_mon_60_BP_Boss_Seal_R3"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 2
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2012",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": [
+          {
+            "PlayThroughArray": [
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "FT2013": {
+        "QuestId": "FT2013",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2013",
+          "SourceString": "在挑战难度及以上击败1200只怪物",
+          "LocalizedString": "Defeat 1,200 monsters on Challenge difficulty or higher"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 1200
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2013",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": [
+          {
+            "PlayThroughArray": [
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "FT2014": {
+        "QuestId": "FT2014",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2014",
+          "SourceString": "激活5个套装效果",
+          "LocalizedString": "Activate 5 Set Effects"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "CharacterIDArray": [],
+          "SuitIDArray": [],
+          "EquipType": "ESimpleQuestCharacterGroupArmorEquipType::Total",
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerCharacterGroupArmorSuitActivate",
+          "Amount": 5
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2014",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2015": {
+        "QuestId": "FT2015",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2015",
+          "SourceString": "造成一次不小于1,800,000点的伤害",
+          "LocalizedString": "Deal at least 1,800,000 DMG in a single hit"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::SingleDamage",
+          "Amount": 1800000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2015",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2016": {
+        "QuestId": "FT2016",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2016",
+          "SourceString": "获得紫品质以上的装备400件",
+          "LocalizedString": "Obtain 400 pieces of Purple-rarity or higher equipment"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_PURPLE",
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 400
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2016",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2017": {
+        "QuestId": "FT2017",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2017",
+          "SourceString": "获得橙品质以上的装备40件",
+          "LocalizedString": "Obtain 40 pieces of Orange-rarity or higher equipment"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 40
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2017",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2018": {
+        "QuestId": "FT2018",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2018",
+          "SourceString": "在挑战难度及以上击败「琥珀湖」的首领草蝎2次",
+          "LocalizedString": "Defeat the Grass Scorpion 2 times in Amber Syrup Lake on Challenge difficulty or higher."
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [
+            "FT_mon_61_BP_Big_Lake_Lv2",
+            "FT_mon_61_BP_Big_Lake_Lv3"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 2
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2018",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": [
+          {
+            "PlayThroughArray": [
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "FT2019": {
+        "QuestId": "FT2019",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2019",
+          "SourceString": "在挑战难度以上击败1800只怪物",
+          "LocalizedString": "Defeat 1,800 monsters on Challenge difficulty or higher"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 1800
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2019",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": [
+          {
+            "PlayThroughArray": [
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "FT2020": {
+        "QuestId": "FT2020",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2020",
+          "SourceString": "激活8个套装效果",
+          "LocalizedString": "Activate 8 Set Effects"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "CharacterIDArray": [],
+          "SuitIDArray": [],
+          "EquipType": "ESimpleQuestCharacterGroupArmorEquipType::Total",
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerCharacterGroupArmorSuitActivate",
+          "Amount": 8
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2020",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2021": {
+        "QuestId": "FT2021",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2021",
+          "SourceString": "角色等级达到100级",
+          "LocalizedString": "Reach Character Lvl 100"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "CharacterIDArray": [
+            "ft_character_mint",
+            "ft_character_1051",
+            "ft_character_1046",
+            "ft_character_1075",
+            "ft_character_1076"
+          ],
+          "Level": 100,
+          "ObjectiveType": "ESimpleQuestObjType::CharacterGroupLevelCount",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2021",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2022": {
+        "QuestId": "FT2022",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2022",
+          "SourceString": "获得紫品质以上的装备750件",
+          "LocalizedString": "Obtain 750 pieces of Purple-rarity or higher equipment"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_PURPLE",
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 750
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2022",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2023": {
+        "QuestId": "FT2023",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2023",
+          "SourceString": "获得橙品质以上的装备100件",
+          "LocalizedString": "Obtain 100 pieces of Orange-rarity or higher equipment"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 100
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2023",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT2024": {
+        "QuestId": "FT2024",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT2024",
+          "SourceString": "在挑战难度及以上击败「赤龙古堡」的首领赤龙2次",
+          "LocalizedString": "Defeat the Crimson Dragon 2 times in Crimson Castle on Challenge difficulty or higher."
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [
+            "FT_BP_Boss_37_Castle_lv2",
+            "FT_BP_Boss_37_Castle_lv3"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 2
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT2024",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": [
+          {
+            "PlayThroughArray": [
+              2,
+              3
+            ]
+          }
+        ]
+      },
+      "FT3001": {
+        "QuestId": "FT3001",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT3001",
+          "SourceString": "共计开启50个宝箱",
+          "LocalizedString": "Open a total of 50 chests"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "TreasureBoxIDArray": [],
+          "TreasureBoxAreaArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::OpenTreasureBox",
+          "Amount": 50
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT3001",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT3002": {
+        "QuestId": "FT3002",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT3002",
+          "SourceString": "采集500个采集物",
+          "LocalizedString": "Gather 500 resources"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_NONE",
+          "bNeedNewAdd": true,
+          "bUseItem": false,
+          "ItemIDArray": [
+            "FT_CollectingMaterial_0001",
+            "FT_CollectingMaterial_1001",
+            "FT_CollectingMaterial_1002",
+            "FT_CollectingMaterial_2001",
+            "FT_CollectingMaterial_2002",
+            "FT_CollectingMaterial_3001",
+            "FT_CollectingMaterial_1101",
+            "FT_CollectingMaterial_2101",
+            "FT_CollectingMaterial_3101",
+            "FT_CollectingMaterial_3102",
+            "FT_CollectingMaterial_4101",
+            "FT_CollectingMaterial_4102",
+            "FT_CollectingMaterial_4103"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 500
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT3002",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT3003": {
+        "QuestId": "FT3003",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT3003",
+          "SourceString": "鉴定10件评分60以上装备",
+          "LocalizedString": "Identify 10 pieces of equipment with a score of 60 or higher"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [],
+          "MinScore": 60,
+          "ObjectiveType": "ESimpleQuestObjType::FTArmorIdentify",
+          "Amount": 10
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT3003",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT3004": {
+        "QuestId": "FT3004",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT3004",
+          "SourceString": "累计消耗10,000,000枚沃伦金币",
+          "LocalizedString": "Spend 10,000,000 Warren Gold Coins in total"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "bNeedItemsByType": false,
+          "ItemType": "EItemType::ITEM_TYPE_NONE",
+          "bNeedNewAdd": true,
+          "bUseItem": true,
+          "ItemIDArray": [
+            "FTGoldCoin"
+          ],
+          "IsVehicleKey": false,
+          "VehicleKeyTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::ItemInBag",
+          "Amount": 10000000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT3004",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT3005": {
+        "QuestId": "FT3005",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT3005",
+          "SourceString": "在噩梦难度击败1000只怪物",
+          "LocalizedString": "Defeat 1,000 monsters on Nightmare difficulty"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 1000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT3005",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": [
+          {
+            "PlayThroughArray": [
+              3
+            ]
+          }
+        ]
+      },
+      "FT3006": {
+        "QuestId": "FT3006",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT3006",
+          "SourceString": "在噩梦难度击败「巧克力火山」的首领地龙3次",
+          "LocalizedString": "Defeat the Terra Dragon 3 times in Chocolate Volcano on Nightmare difficulty."
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [
+            "FT_mon_57_BP_boss_lv3"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 3
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT3006",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": [
+          {
+            "PlayThroughArray": [
+              3
+            ]
+          }
+        ]
+      },
+      "FT3007": {
+        "QuestId": "FT3007",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT3007",
+          "SourceString": "在噩梦难度击败「牛奶雪冰山」的首领蓝色恶龙3次",
+          "LocalizedString": "Defeat the Blue Dragon 3 times in Milk Ice Mountain on Nightmare difficulty."
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [
+            "FT_mon_60_BP_Boss_Seal_R3"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 3
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT3007",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": [
+          {
+            "PlayThroughArray": [
+              3
+            ]
+          }
+        ]
+      },
+      "FT3008": {
+        "QuestId": "FT3008",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT3008",
+          "SourceString": "在噩梦难度击败「琥珀湖」的首领草蝎3次",
+          "LocalizedString": "Defeat the Grass Scorpion 3 times in Amber Syrup Lake on Nightmare difficulty."
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [
+            "FT_mon_61_BP_Big_Lake_Lv3"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 3
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT3008",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": [
+          {
+            "PlayThroughArray": [
+              3
+            ]
+          }
+        ]
+      },
+      "FT3009": {
+        "QuestId": "FT3009",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT3009",
+          "SourceString": "在噩梦难度击败「赤龙古堡」的首领赤龙3次",
+          "LocalizedString": "Defeat the Crimson Dragon 3 times in Crimson Castle on Nightmare difficulty."
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [
+            "FT_BP_Boss_37_Castle_lv3"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 3
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT3009",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": [
+          {
+            "PlayThroughArray": [
+              3
+            ]
+          }
+        ]
+      },
+      "FT3010": {
+        "QuestId": "FT3010",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT3010",
+          "SourceString": "完成15个特殊玩法挑战",
+          "LocalizedString": "Complete 15 Special Mode Challenges"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "YahahaIDArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::CompleteYahaha",
+          "Amount": 15
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT3010",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT3011": {
+        "QuestId": "FT3011",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT3011",
+          "SourceString": "获得暗金的装备20件",
+          "LocalizedString": "Obtain 20 pieces of Mythic-rarity equipment"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 20
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT3011",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT3012": {
+        "QuestId": "FT3012",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT3012",
+          "SourceString": "每名角色均装备4件橙品质以上的装备",
+          "LocalizedString": "Equip each character with 4 pieces of Orange-rarity or higher equipment"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "CharacterIDArray": [
+            "ft_character_mint",
+            "ft_character_1051",
+            "ft_character_1046",
+            "ft_character_1075",
+            "ft_character_1076"
+          ],
+          "QualityArray": [
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "EquipType": "ESimpleQuestCharacterGroupArmorEquipType::EachCharacter",
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerCharacterGroupArmorEquip",
+          "Amount": 4
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT3012",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT3013": {
+        "QuestId": "FT3013",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT3013",
+          "SourceString": "鉴定5件评分80分以上橙品质以上的装备",
+          "LocalizedString": "Identify 5 pieces of Orange-rarity or higher equipment with a score of 80 or higher"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "MinScore": 80,
+          "ObjectiveType": "ESimpleQuestObjType::FTArmorIdentify",
+          "Amount": 5
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT4006",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT4001": {
+        "QuestId": "FT4001",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT4001",
+          "SourceString": "获得400件橙品质以上的装备",
+          "LocalizedString": "Obtain 400 pieces of Orange-rarity or higher equipment"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 400
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT4001",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT4002": {
+        "QuestId": "FT4002",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT4002",
+          "SourceString": "获得1000件橙品质以上的装备",
+          "LocalizedString": "Obtain 1,000 pieces of Orange-rarity or higher equipment"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 1000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT4002",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT4003": {
+        "QuestId": "FT4003",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT4003",
+          "SourceString": "获得50件暗金品质的装备",
+          "LocalizedString": "Obtain 50 pieces of Mythic-rarity equipment"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 50
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT4003",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT4004": {
+        "QuestId": "FT4004",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT4004",
+          "SourceString": "获得100件暗金品质的装备",
+          "LocalizedString": "Obtain 100 pieces of Mythic-rarity equipment"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_RED"
+          ],
+          "ArmorTypeArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerArmorGet",
+          "Amount": 100
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT4004",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT4005": {
+        "QuestId": "FT4005",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT4005",
+          "SourceString": "鉴定10件评分90分以上橙品质以上的装备",
+          "LocalizedString": "Identify 10 pieces of Orange-rarity or higher equipment with a score of 90 or higher"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "MinScore": 90,
+          "ObjectiveType": "ESimpleQuestObjType::FTArmorIdentify",
+          "Amount": 10
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT4005",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT4006": {
+        "QuestId": "FT4006",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT4006",
+          "SourceString": "鉴定20件评分90分以上橙品质以上的装备",
+          "LocalizedString": "Identify 20 pieces of Orange-rarity or higher equipment with a score of 90 or higher"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_ORANGE",
+            "ITEM_QUALITY_RED"
+          ],
+          "MinScore": 90,
+          "ObjectiveType": "ESimpleQuestObjType::FTArmorIdentify",
+          "Amount": 20
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT4006",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT4007": {
+        "QuestId": "FT4007",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT4007",
+          "SourceString": "鉴定5件评分80以上暗金装备",
+          "LocalizedString": "Identify 5 pieces of Mythic-rarity equipment with a score of 80 or higher"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_RED"
+          ],
+          "MinScore": 80,
+          "ObjectiveType": "ESimpleQuestObjType::FTArmorIdentify",
+          "Amount": 5
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT4007",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT4008": {
+        "QuestId": "FT4008",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT4008",
+          "SourceString": "鉴定10件评分80以上暗金装备",
+          "LocalizedString": "Identify 10 pieces of Mythic-rarity equipment with a score of 80 or higher"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "QualityArray": [
+            "ITEM_QUALITY_RED"
+          ],
+          "MinScore": 80,
+          "ObjectiveType": "ESimpleQuestObjType::FTArmorIdentify",
+          "Amount": 10
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT4008",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT4009": {
+        "QuestId": "FT4009",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT4009",
+          "SourceString": "在噩梦难度击败2000只怪物",
+          "LocalizedString": "Defeat 2,000 monsters on Nightmare difficulty"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 2000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT4009",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": [
+          {
+            "PlayThroughArray": [
+              3
+            ]
+          }
+        ]
+      },
+      "FT4010": {
+        "QuestId": "FT4010",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT4010",
+          "SourceString": "在噩梦难度击败5000只怪物",
+          "LocalizedString": "Defeat 5,000 monsters on Nightmare difficulty"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "MonsterTagList": [],
+          "bNeedShowKillMark": false,
+          "bWorldBoss": false,
+          "bOnlyFinaTowerScene": true,
+          "MonsterIDArray": [],
+          "ObjectiveType": "ESimpleQuestObjType::Kill",
+          "Amount": 5000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT4010",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": [
+          {
+            "PlayThroughArray": [
+              3
+            ]
+          }
+        ]
+      },
+      "FT4011": {
+        "QuestId": "FT4011",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT4011",
+          "SourceString": "造成一次不小于9,999,999点的伤害",
+          "LocalizedString": "Deal at least 9,999,999 DMG in a single hit"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::SingleDamage",
+          "Amount": 100000000
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT4011",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT4012": {
+        "QuestId": "FT4012",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT4012",
+          "SourceString": "完成30个特殊玩法挑战",
+          "LocalizedString": "Complete 30 Special Mode Challenges"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "YahahaIDArray": [
+            "GoldenPig_Completed_001",
+            "GoldenPig_Completed_002",
+            "GoldenPig_Completed_003",
+            "GoldenPig_Completed_004",
+            "GoldenPig_Completed_005",
+            "GoldenPig_Completed_006",
+            "GoldenPig_Completed_007",
+            "GoldenPig_Completed_008",
+            "SaveLoseSheep_001_Finished",
+            "SaveLoseSheep_002_Finished",
+            "SaveLoseSheep_003_Finished",
+            "SaveBalloonSheep001_Finish",
+            "SaveBalloonSheep002_Finish",
+            "SaveBalloonSheep003_Finish",
+            "SaveBalloonSheep004_Finish",
+            "RescueSheep_001_Finished",
+            "RescueSheep_002_Finished",
+            "RescueSheep_003_Finished",
+            "RescueSheep_004_Finished",
+            "DefenseSheep_Volcano_Completed",
+            "DefenseSheep_Icefield_Completed",
+            "DefenseSheep_Lake_Completed",
+            "DefenseSheep_Dragon_Completed",
+            "Yahaha_SheepStrongholdDefence_01",
+            "Yahaha_SheepStrongholdDefence_02",
+            "Yahaha_SheepStrongholdDefence_03",
+            "Yahaha_SheepStrongholdDefence_04",
+            "Yahaha_TakeFire_Finish_01",
+            "Yahaha_TakeFire_Finish_02",
+            "Yahaha_TakeFire_Finish_03",
+            "Yahaha_TakeFire_Finish_04",
+            "Yahaha_TakeFire_Finish_05",
+            "Yahaha_TakeFire_Finish_06",
+            "Yahaha_TakeFire_Finish_07",
+            "Yahaha_TakeFire_Finish_08",
+            "ArmorKnight_Completed_001",
+            "Bounceback_Completed_001",
+            "JumpFun01_Completed_001",
+            "JumpFun02_Completed_001",
+            "Bounceback_Completed_001",
+            "Yahaha_Chess_Knight_001",
+            "FT_ShinkuFight_Completed"
+          ],
+          "ObjectiveType": "ESimpleQuestObjType::CompleteYahaha",
+          "Amount": 30
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT4012",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT4013": {
+        "QuestId": "FT4013",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT4013",
+          "SourceString": "激活15个套装效果",
+          "LocalizedString": "Activate 15 Set Effects"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "CharacterIDArray": [],
+          "SuitIDArray": [],
+          "EquipType": "ESimpleQuestCharacterGroupArmorEquipType::Total",
+          "ObjectiveType": "ESimpleQuestObjType::FinalTowerCharacterGroupArmorSuitActivate",
+          "Amount": 15
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT4013",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      },
+      "FT4014": {
+        "QuestId": "FT4014",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT4014",
+          "SourceString": "连杀达到100次以上",
+          "LocalizedString": "Reach a kill streak of 100 or more"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "KillStreakCount": 100,
+          "ObjectiveType": "ESimpleQuestObjType::KillStreak",
+          "Amount": 1
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT4014",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": [
+          {
+            "PlayThroughArray": [
+              3
+            ]
+          }
+        ]
+      },
+      "FT4015": {
+        "QuestId": "FT4015",
+        "QuestName": {
+          "TableId": "/Game/Text/ST_FinalTower.ST_FinalTower",
+          "Key": "FT4011",
+          "SourceString": "造成一次不小于9,999,999点的伤害",
+          "LocalizedString": "Deal at least 9,999,999 DMG in a single hit"
+        },
+        "SimpleQuestType": "ESimpleQuestType::FinalTowerAdventure",
+        "QuestRefreshType": "ESimpleQuestRefresh::None",
+        "ObjectiveInfo": {
+          "ObjectiveType": "ESimpleQuestObjType::SingleDamage",
+          "Amount": 9999999
+        },
+        "QuestAwardData": {
+          "AwardGroupID": "drop_Quest_FT4011",
+          "SimpleAwards": [],
+          "bShowAwardWindow": false
+        },
+        "bAutoCommit": false,
+        "JumpPath": "None",
+        "QuestIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Comment": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null,
+        "bPopAwardsWindow": true,
+        "bTimeLimitQuest": false,
+        "QuestStartTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "QuestEndTime": {
+          "MainlandTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaTime": {
+            "Year": 1,
+            "Month": 1,
+            "Day": 1,
+            "Hour": 0,
+            "minute": 0,
+            "Second": 0
+          },
+          "OverseaUseUTCTime": true
+        },
+        "ConditionArray": []
+      }
+    }
+  }
+]
