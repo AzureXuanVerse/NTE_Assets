@@ -40,8 +40,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_star1_des",
-              "SourceString": "「臆想」的积攒效率增加。\r\n伊洛伊处于后台时，可以缓慢恢复「臆想」。",
-              "LocalizedString": "Increases Imagination gain efficiency.\r\nWhile Iroi is off-field, Imagination slowly regenerates."
+              "SourceString": "伊洛伊处于后台时，可以缓慢以0.5秒恢复1点「臆想」。并且所有「臆想」的积攒效率增加25%。",
+              "LocalizedString": "Restores 1 Imagination every 0.5s while Iroi is off-field. Increases all Imagination gain efficiency by 25%."
             },
             "GEIdArray": []
           },
@@ -71,8 +71,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_star2_des",
-              "SourceString": "任意队友释放技能时，伊洛伊将随机召唤莫尔甫斯/伊刻洛斯/方塔苏斯中的一名，协助攻击1次（造成伤害），有冷却。",
-              "LocalizedString": "Summons Morpheus, Icelos, or Phantasos at random when any ally casts a skill, assisting with 1 attack that deals DMG. Cooldown applies."
+              "SourceString": "任意队友释放技能时，伊洛伊将随机召唤莫尔甫斯/伊刻洛斯/方塔苏斯中的一名，协助攻击1次造成150%的伤害，冷却时间5秒。",
+              "LocalizedString": "Summons Morpheus, Icelos, or Phantasos at random whenever an ally casts a skill, assisting with 1 attack that deals DMG equal to 150%. Cooldown: 5s."
             },
             "GEIdArray": []
           },
@@ -102,8 +102,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_star3_des",
-              "SourceString": "伊洛伊对生命值低的友方角色，治疗效果提升。",
-              "LocalizedString": "Increases healing received by allies with low HP."
+              "SourceString": "伊洛伊对生命值低于50%的友方角色，治疗效果提升25%。",
+              "LocalizedString": "Increases healing effects by 25% on allies with HP below 50%."
             },
             "GEIdArray": []
           },
@@ -133,8 +133,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_star4_des",
-              "SourceString": "「退行」状态的队友攻击倍率提升\r\n莫尔甫斯：\r\n攻击1增加倍率\r\n攻击2增加倍率\r\n\r\n伊刻洛斯：\r\n攻击1增加倍率\r\n攻击2增加倍率\r\n\r\n方塔苏斯：\r\n攻击1增加倍率\r\n攻击2增加倍率",
-              "LocalizedString": "Increases ATK Ratio for allies in the Regression state.\r\nMorpheus:\r\nAttack 1 - +ATK Ratio\r\nAttack 2 - +ATK Ratio\r\n\r\nIcelos:\r\nAttack 1 - +ATK Ratio\r\nAttack 2 - +ATK Ratio\r\n\r\nPhantasos:\r\nAttack 1 - +ATK Ratio\r\nAttack 2 - +ATK Ratio"
+              "SourceString": "「退行」状态小羊们的攻击倍率提升\r\n莫尔甫斯：\r\n再睡会吧增加20%的倍率\r\n多睡会吧增加20%的倍率\r\n\r\n伊刻洛斯：\r\n打一针吧增加20%的倍率\r\n多打几针增加20%的倍率\r\n\r\n方塔苏斯：\r\n来首歌吧增加20%的倍率\r\n不好听吗增加20%的倍率",
+              "LocalizedString": "Increases the ATK Ratio of lambs in the Regression state.\r\nMorpheus:\r\nSweet Dreams - +20% ATK Ratio\r\nDeep Slumber - +20% ATK Ratio\r\n\r\nIcelos:\r\nLittle Prick - +20% ATK Ratio\r\nDouble Dose - +20% ATK Ratio\r\n\r\nPhantasos:\r\nLullaby Time - +20% ATK Ratio\r\nOff-Key - +20% ATK Ratio"
             },
             "GEIdArray": []
           },
@@ -164,8 +164,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_star5_des",
-              "SourceString": "「交感性神经系统」效果追加：基于伊洛伊基础攻击力，提高队伍中其他角色的攻击力（最多不超过），持续一段时间。",
-              "LocalizedString": "Additional Sympathetic Nerves Effect: Increases allies' ATK based on Iroi's Base ATK for a period of time, up to XX ATK."
+              "SourceString": "「交感性神经系统」效果追加：基于伊洛伊基础攻击力的12.5%，提高队伍中角色的攻击力，持续20秒。",
+              "LocalizedString": "Additional Sympathetic Nerves Effect: Increases allies' ATK by 12.5% of Iroi's Base ATK for 20s."
             },
             "GEIdArray": []
           },
@@ -195,8 +195,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_star6_des",
-              "SourceString": "伊洛伊释放「极轨终结：三十八亿年的海市蜃楼」后复活的角色，获得生命值、环合值、极轨终结能量。",
-              "LocalizedString": "Grants HP, Cycle Energy, and Ultimate Energy to characters revived after she casts 3.8-Billion-Year Mirage."
+              "SourceString": "伊洛伊释放「极轨终结：三十八亿年的海市蜃楼」后复活的角色，获得100%生命值、50点环合值、50点极轨终结能量。",
+              "LocalizedString": "Grants 100% HP, 50 Cycle Energy, and 50 Ultimate Energy to characters revived after Iroi casts 3.8-Billion-Year Mirage."
             },
             "GEIdArray": []
           },
@@ -262,8 +262,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_starExtra2_des",
-              "SourceString": "全队暴击伤害提升；队伍中每存在一名「退行」状态的队友，伊洛伊造成的伤害额外加。",
-              "LocalizedString": "Increases allies' Crit DMG. Iroi deals additional DMG for each ally in the Regression state."
+              "SourceString": "全队暴击伤害提升25%；队伍中每存在一名「退行」状态的队友，伊洛伊造成的伤害额外加15%。",
+              "LocalizedString": "Increases allies' Crit DMG by 25%. Iroi deals an additional 15% DMG for each ally in the Regression state."
             },
             "GEIdArray": []
           }

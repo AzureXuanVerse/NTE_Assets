@@ -24,7 +24,7 @@
           "SubPathString": ""
         },
         "BigImage": {
-          "AssetPathName": "/Game/UI/UI/Characterinfo/CharacterImage/YH_UI_img_role_adejia.YH_UI_img_role_adejia",
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_lihui_character_adele.YH_lihui_character_adele",
           "SubPathString": ""
         },
         "CharacterDesc": {
@@ -49,7 +49,7 @@
         "UnlockDesc": {
           "CultureInvariantString": null
         },
-        "bDefaultUnlock": true,
+        "bDefaultUnLock": true,
         "SortIndex": 1,
         "SkillListID": [
           "Character1_Skill_1",
@@ -70,7 +70,7 @@
           "SubPathString": ""
         },
         "BigImage": {
-          "AssetPathName": "/Game/UI/UI/Characterinfo/CharacterImage/YH_UI_img_role_haniya.YH_UI_img_role_haniya",
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_lihui_character_haniya.YH_lihui_character_haniya",
           "SubPathString": ""
         },
         "CharacterDesc": {
@@ -95,7 +95,7 @@
         "UnlockDesc": {
           "CultureInvariantString": null
         },
-        "bDefaultUnlock": true,
+        "bDefaultUnLock": true,
         "SortIndex": 2,
         "SkillListID": [
           "Character2_Skill_1",
@@ -117,7 +117,7 @@
           "SubPathString": ""
         },
         "BigImage": {
-          "AssetPathName": "/Game/UI/UI/Characterinfo/CharacterImage/YH_UI_img_role_dafudier.YH_UI_img_role_dafudier",
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_lihui_character_dafudier.YH_lihui_character_dafudier",
           "SubPathString": ""
         },
         "CharacterDesc": {
@@ -138,12 +138,15 @@
           "SourceString": "竞拍开始时，显示紫色，金色和红色品质藏品的总件数。",
           "LocalizedString": "Reveals the total number of Purple-, Gold-, and Red-rarity collectibles at auction start."
         },
-        "UnlockQuestID": "None",
+        "UnlockQuestID": "CO_05",
         "UnlockDesc": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BidKingSimpleQuest_CharacterLock_02",
+          "SourceString": "累计解锁50个藏品的图鉴后解锁",
+          "LocalizedString": "Unlocks after unlocking 50 Collectible Index entries"
         },
-        "bDefaultUnlock": true,
-        "SortIndex": 3,
+        "bDefaultUnLock": false,
+        "SortIndex": 7,
         "SkillListID": [
           "Character3_Skill_1"
         ]
@@ -160,7 +163,7 @@
           "SubPathString": ""
         },
         "BigImage": {
-          "AssetPathName": "/Game/UI/UI/Characterinfo/CharacterImage/YH_UI_img_role_jiuyuan.YH_UI_img_role_jiuyuan",
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_lihui_character_jiuyuan.YH_lihui_character_jiuyuan",
           "SubPathString": ""
         },
         "CharacterDesc": {
@@ -185,8 +188,8 @@
         "UnlockDesc": {
           "CultureInvariantString": null
         },
-        "bDefaultUnlock": true,
-        "SortIndex": 4,
+        "bDefaultUnLock": true,
+        "SortIndex": 3,
         "SkillListID": [
           "Character4_Skill_1",
           "Character4_Skill_2",
@@ -207,7 +210,7 @@
           "SubPathString": ""
         },
         "BigImage": {
-          "AssetPathName": "/Game/UI/UI/Characterinfo/CharacterImage/YH_UI_img_role_xiaozhi.YH_UI_img_role_xiaozhi",
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_lihui_character_xiaozhi.YH_lihui_character_xiaozhi",
           "SubPathString": ""
         },
         "CharacterDesc": {
@@ -232,8 +235,8 @@
         "UnlockDesc": {
           "CultureInvariantString": null
         },
-        "bDefaultUnlock": true,
-        "SortIndex": 5,
+        "bDefaultUnLock": true,
+        "SortIndex": 4,
         "SkillListID": [
           "Character5_Skill_1",
           "Character5_Skill_2"
@@ -251,7 +254,7 @@
           "SubPathString": ""
         },
         "BigImage": {
-          "AssetPathName": "/Game/UI/UI/Characterinfo/CharacterImage/YH_UI_img_role_hasuoer.YH_UI_img_role_hasuoer",
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_lihui_character_hahuosuoer.YH_lihui_character_hahuosuoer",
           "SubPathString": ""
         },
         "CharacterDesc": {
@@ -272,15 +275,12 @@
           "SourceString": "第五回合开始时，展示全部藏品的品质。",
           "LocalizedString": "Reveals the rarity of all collectibles at the start of Round 5."
         },
-        "UnlockQuestID": "CO_05",
+        "UnlockQuestID": "None",
         "UnlockDesc": {
-          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingSimpleQuest_CharacterLock_02",
-          "SourceString": "累计解锁50个藏品的图鉴后解锁",
-          "LocalizedString": "Unlocks after unlocking 50 Collectible Index entries"
+          "CultureInvariantString": null
         },
-        "bDefaultUnlock": false,
-        "SortIndex": 6,
+        "bDefaultUnLock": true,
+        "SortIndex": 5,
         "SkillListID": [
           "Character6_Skill_1"
         ]
@@ -297,7 +297,7 @@
           "SubPathString": ""
         },
         "BigImage": {
-          "AssetPathName": "/Game/UI/UI/Characterinfo/CharacterImage/YH_UI_img_role_aidejia.YH_UI_img_role_aidejia",
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_lihui_character_aidejia.YH_lihui_character_aidejia",
           "SubPathString": ""
         },
         "CharacterDesc": {
@@ -322,8 +322,8 @@
         "UnlockDesc": {
           "CultureInvariantString": null
         },
-        "bDefaultUnlock": true,
-        "SortIndex": 7,
+        "bDefaultUnLock": true,
+        "SortIndex": 6,
         "SkillListID": [
           "Character7_Skill_1"
         ]
@@ -340,7 +340,7 @@
           "SubPathString": ""
         },
         "BigImage": {
-          "AssetPathName": "/Game/UI/UI/Characterinfo/CharacterImage/YH_UI_img_role_laobanniang.YH_UI_img_role_laobanniang",
+          "AssetPathName": "/Game/UI/UI/Gacha/YH_lihui_character_xun.YH_lihui_character_xun",
           "SubPathString": ""
         },
         "CharacterDesc": {
@@ -368,7 +368,7 @@
           "SourceString": "累计盈利1,000,000金贝铢后解锁",
           "LocalizedString": "Unlocks after earning a total of 1,000,000 Gold Shells"
         },
-        "bDefaultUnlock": false,
+        "bDefaultUnLock": false,
         "SortIndex": 8,
         "SkillListID": [
           "Character8_Skill_1",
