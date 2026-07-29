@@ -951,6 +951,53 @@
         "bActivateVisible": false,
         "ShowLinkCharacterID": "None",
         "bAutoUnlock": false
+      },
+      "Title_Bidking": {
+        "Name": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Title_BidKing_001",
+          "SourceString": "价高者得",
+          "LocalizedString": "Highest Bidder Wins"
+        },
+        "UnlockDescription": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Title_BidKing_001_Obtain",
+          "SourceString": "在「即刻落槌」中完成图鉴收集任务获得。",
+          "LocalizedString": "Reward for completing Index Collection quests in Going, Going, Gone!"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Title_BidKing_001_desc",
+          "SourceString": "拍卖成功的秘诀只有一个：价高者得。",
+          "LocalizedString": "The one rule of any auction: the lot goes to the highest bidder."
+        },
+        "TextColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "bHide": false,
+        "TitleDisplayMode": "ETitleDisplayType::PICTURE",
+        "IconSource": {
+          "AssetPathName": "/Game/UI/UI/PlayerInfo/TitleSystem/Title/Tycoon/YH_UI_TitleSystem_BidKing_444.YH_UI_TitleSystem_BidKing_444",
+          "SubPathString": ""
+        },
+        "IconSourceMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "TitleBlueprint": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bLimitedtime": false,
+        "Hour": 0,
+        "DisplayRegion": "ETitleDisplayRegion::All",
+        "bActivateVisible": false,
+        "ShowLinkCharacterID": "None",
+        "bAutoUnlock": false
       }
     }
   }

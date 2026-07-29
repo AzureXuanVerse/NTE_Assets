@@ -56,7 +56,23 @@
           "Character1_Skill_2",
           "Character1_Skill_3",
           "Character1_Skill_4"
-        ]
+        ],
+        "SkillSound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC010_Skill'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC010/Play_Vo_BidKing_CharacterVoice_NPC010_Skill.0"
+        },
+        "GetBidSound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC010_Success'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC010/Play_Vo_BidKing_CharacterVoice_NPC010_Success.0"
+        },
+        "MakeMoneySound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC010_Win'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC010/Play_Vo_BidKing_CharacterVoice_NPC010_Win.0"
+        },
+        "LoseMoneySound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC010_Lose'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC010/Play_Vo_BidKing_CharacterVoice_NPC010_Lose.0"
+        }
       },
       "Char2": {
         "Name": {
@@ -88,8 +104,8 @@
         "SkillDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
           "Key": "Character2_SkillDescFull",
-          "SourceString": "竞拍开始时，随机揭示5件藏品的品质。之后每回合揭示2件信息完全未知藏品的品质。",
-          "LocalizedString": "Reveals the rarity of 5 random collectibles at auction start, then 2 unknown collectibles each round after."
+          "SourceString": "竞拍开始时，随机展示5件藏品的品质和轮廓。之后每回合展示2件信息完全未知藏品的品质。",
+          "LocalizedString": "Reveals the rarity and silhouettes of 5 random collectibles at auction start, then reveals the rarity of 2 unknown collectibles each round after."
         },
         "UnlockQuestID": "None",
         "UnlockDesc": {
@@ -103,7 +119,23 @@
           "Character2_Skill_3",
           "Character2_Skill_4",
           "Character2_Skill_5"
-        ]
+        ],
+        "SkillSound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC014_Skill'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC014/Play_Vo_BidKing_CharacterVoice_NPC014_Skill.0"
+        },
+        "GetBidSound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC014_Success'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC014/Play_Vo_BidKing_CharacterVoice_NPC014_Success.0"
+        },
+        "MakeMoneySound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC014_Win'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC014/Play_Vo_BidKing_CharacterVoice_NPC014_Win.0"
+        },
+        "LoseMoneySound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC014_Lose'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC014/Play_Vo_BidKing_CharacterVoice_NPC014_Lose.0"
+        }
       },
       "Char3": {
         "Name": {
@@ -138,18 +170,34 @@
           "SourceString": "竞拍开始时，显示紫色，金色和红色品质藏品的总件数。",
           "LocalizedString": "Reveals the total number of Purple-, Gold-, and Red-rarity collectibles at auction start."
         },
-        "UnlockQuestID": "CO_05",
+        "UnlockQuestID": "JP_03",
         "UnlockDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingSimpleQuest_CharacterLock_02",
-          "SourceString": "累计解锁50个藏品的图鉴后解锁",
-          "LocalizedString": "Unlocks after unlocking 50 Collectible Index entries"
+          "Key": "BidKingSimpleQuest_JP_03",
+          "SourceString": "累计参加3场竞拍",
+          "LocalizedString": "Join 3 Auctions"
         },
         "bDefaultUnLock": false,
         "SortIndex": 7,
         "SkillListID": [
           "Character3_Skill_1"
-        ]
+        ],
+        "SkillSound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC013_Skill'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC013/Play_Vo_BidKing_CharacterVoice_NPC013_Skill.0"
+        },
+        "GetBidSound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC013_Success'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC013/Play_Vo_BidKing_CharacterVoice_NPC013_Success.0"
+        },
+        "MakeMoneySound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC013_Win'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC013/Play_Vo_BidKing_CharacterVoice_NPC013_Win.0"
+        },
+        "LoseMoneySound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC013_Lose'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC013/Play_Vo_BidKing_CharacterVoice_NPC013_Lose.0"
+        }
       },
       "Char4": {
         "Name": {
@@ -196,7 +244,23 @@
           "Character4_Skill_3",
           "Character4_Skill_4",
           "Character4_Skill_5"
-        ]
+        ],
+        "SkillSound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC015_Skill'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC015/Play_Vo_BidKing_CharacterVoice_NPC015_Skill.0"
+        },
+        "GetBidSound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC015_Success'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC015/Play_Vo_BidKing_CharacterVoice_NPC015_Success.0"
+        },
+        "MakeMoneySound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC015_Win'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC015/Play_Vo_BidKing_CharacterVoice_NPC015_Win.0"
+        },
+        "LoseMoneySound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC015_Lose'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC015/Play_Vo_BidKing_CharacterVoice_NPC015_Lose.0"
+        }
       },
       "Char5": {
         "Name": {
@@ -240,7 +304,23 @@
         "SkillListID": [
           "Character5_Skill_1",
           "Character5_Skill_2"
-        ]
+        ],
+        "SkillSound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC026_Skill'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC026/Play_Vo_BidKing_CharacterVoice_NPC026_Skill.0"
+        },
+        "GetBidSound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC026_Success'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC026/Play_Vo_BidKing_CharacterVoice_NPC026_Success.0"
+        },
+        "MakeMoneySound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC026_Win'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC026/Play_Vo_BidKing_CharacterVoice_NPC026_Win.0"
+        },
+        "LoseMoneySound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC026_Lose'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC026/Play_Vo_BidKing_CharacterVoice_NPC026_Lose.0"
+        }
       },
       "Char6": {
         "Name": {
@@ -283,7 +363,23 @@
         "SortIndex": 5,
         "SkillListID": [
           "Character6_Skill_1"
-        ]
+        ],
+        "SkillSound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC016_Skill'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC016/Play_Vo_BidKing_CharacterVoice_NPC016_Skill.0"
+        },
+        "GetBidSound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC016_Success'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC016/Play_Vo_BidKing_CharacterVoice_NPC016_Success.0"
+        },
+        "MakeMoneySound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC016_Win'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC016/Play_Vo_BidKing_CharacterVoice_NPC016_Win.0"
+        },
+        "LoseMoneySound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC016_Lose'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC016/Play_Vo_BidKing_CharacterVoice_NPC016_Lose.0"
+        }
       },
       "Char7": {
         "Name": {
@@ -315,8 +411,8 @@
         "SkillDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
           "Key": "Character7_SkillDescFull",
-          "SourceString": "竞拍开始时，显示白色，绿色和蓝色品质藏品的总价值和品质。",
-          "LocalizedString": "Reveals the combined value and rarity of all White-, Green-, and Blue-rarity collectibles at auction start."
+          "SourceString": "竞拍开始时，显示白色，绿色和蓝色品质藏品的品质和轮廓。",
+          "LocalizedString": "Reveals the rarity and silhouettes of all White-, Green-, and Blue-rarity collectibles at auction start."
         },
         "UnlockQuestID": "None",
         "UnlockDesc": {
@@ -326,7 +422,23 @@
         "SortIndex": 6,
         "SkillListID": [
           "Character7_Skill_1"
-        ]
+        ],
+        "SkillSound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC012_Skill'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC012/Play_Vo_BidKing_CharacterVoice_NPC012_Skill.0"
+        },
+        "GetBidSound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC012_Success'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC012/Play_Vo_BidKing_CharacterVoice_NPC012_Success.0"
+        },
+        "MakeMoneySound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC012_Win'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC012/Play_Vo_BidKing_CharacterVoice_NPC012_Win.0"
+        },
+        "LoseMoneySound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC012_Lose'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC012/Play_Vo_BidKing_CharacterVoice_NPC012_Lose.0"
+        }
       },
       "Char8": {
         "Name": {
@@ -358,15 +470,15 @@
         "SkillDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
           "Key": "Character8_SkillDescFull",
-          "SourceString": "竞拍开始时，展示2种随机类型藏品的轮廓，之后每个回合展示所有品质已知的藏品的轮廓。",
-          "LocalizedString": "Reveals the silhouettes of 2 random collectible types at auction start. Each following round reveals the silhouettes of all collectibles with known rarity."
+          "SourceString": "在第一到第三回合中，每回合展示1种未知的随机类型藏品的轮廓。在第五回合展示所有品质已知的藏品的轮廓。",
+          "LocalizedString": "In Rounds 1–3, reveals the silhouette of 1 random collectible of unknown type. In Round 5, reveals the silhouettes of all collectibles with known rarity."
         },
-        "UnlockQuestID": "BN_05",
+        "UnlockQuestID": "SC_06",
         "UnlockDesc": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
-          "Key": "BidKingSimpleQuest_CharacterLock_01",
-          "SourceString": "累计盈利1,000,000金贝铢后解锁",
-          "LocalizedString": "Unlocks after earning a total of 1,000,000 Gold Shells"
+          "Key": "BidKingSimpleQuest_SC_06",
+          "SourceString": "成功拍下5件红色藏品",
+          "LocalizedString": "Win 5 bids on Red Collectibles"
         },
         "bDefaultUnLock": false,
         "SortIndex": 8,
@@ -374,9 +486,24 @@
           "Character8_Skill_1",
           "Character8_Skill_2",
           "Character8_Skill_3",
-          "Character8_Skill_4",
           "Character8_Skill_5"
-        ]
+        ],
+        "SkillSound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC009_Skill'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC009/Play_Vo_BidKing_CharacterVoice_NPC009_Skill.0"
+        },
+        "GetBidSound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC009_Success'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC009/Play_Vo_BidKing_CharacterVoice_NPC009_Success.0"
+        },
+        "MakeMoneySound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC009_Win'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC009/Play_Vo_BidKing_CharacterVoice_NPC009_Win.0"
+        },
+        "LoseMoneySound": {
+          "ObjectName": "AkAudioEvent'Play_Vo_BidKing_CharacterVoice_NPC009_Lose'",
+          "ObjectPath": "/Game/WwiseAudio/Events/Voice/Bubble/BidKing/NPC009/Play_Vo_BidKing_CharacterVoice_NPC009_Lose.0"
+        }
       }
     }
   }

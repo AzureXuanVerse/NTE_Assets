@@ -8773,7 +8773,7 @@
               "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
               "Key": "Iroi_Des",
               "SourceString": "伊洛伊是一位兼具<red>持续输出</>与<red>团队支援</>能力的<red>生存型角色</>。\r\n普通攻击命中敌人后可以积攒<red>「臆想」</>。\r\n长按<red>普通攻击</>可以释放分支攻击，消耗<red>「臆想」</>召唤小羊协助战斗；释放<red>技能</>期间长按普攻，分支攻击会直接召唤最大数量的小羊。\r\n点按<red>技能</>可以回复全队生命值，长按<red>技能</>则会使除自己外的队友进入<red>「退行」</>状态，化身小羊协助战斗。\r\n当<red>「臆想」</>达到一定值后，释放<red>极轨终结</>会开启<red>「象牙门的梦境」</>，持续对范围内敌人造成伤害，长按对应头像可复活一名处于<red>「退行」</>状态的队友。",
-              "LocalizedString": "Iroi is a <red>Survival Character</> who provides both <red>sustained DMG</> and <red>team support</>.\r\nBasic Attacks build <red>Imagination</> when they hit enemies.\r\nHold <red>Basic Attack</> to unleash a Branch Attack, consuming <red>Imagination</> to summon lambs that assist in battle. Hold Basic Attack while using <red>skill</> to make the Branch Attack immediately summon the maximum number of lambs.\r\nPress <red>skill</> to restore HP to the whole team. Hold <red>skill</> to put all allies except Iroi into <red>Regression</>, transforming them into lamb that assist in battle.\r\nOnce <red>Imagination</> reaches a certain amount, casting <red>Ultimate</> activates <red>Dream of the Ivory Gate</>, continuously dealing DMG to enemies in the area. Hold the corresponding avatar to revive 1 ally in <red>Regression</>."
+              "LocalizedString": "Iroi is a <red>Survival Character</> who provides both <red>sustained DMG</> and <red>team support</>.\r\nBasic Attacks build <red>Imagination</> when they hit enemies.\r\nHold <red>Basic Attack</> to unleash a Branch Attack, consuming <red>Imagination</> to summon lambs that assist in battle. Hold Basic Attack while using <red>Skill</> to make the Branch Attack immediately summon the maximum number of lambs.\r\nPress <red>Skill</> to restore all team members’ HP. Hold <red>Skill</> to put all team members except Iroi into <red>Regression</>, transforming them into lamb that assist in battle.\r\nOnce <red>Imagination</> reaches a certain amount, casting <red>Ultimate</> activates <red>Dream of the Ivory Gate</>, continuously dealing DMG to enemies in the area. Hold the corresponding avatar to revive 1 ally in <red>Regression</>."
             },
             "PlatformDescription": [],
             "GamepadDescription": [],
@@ -8920,6 +8920,410 @@
           "SubPathString": ""
         },
         "UnLockID": "Appraisal",
+        "IsPSShow": true,
+        "bShowMainGuide": true,
+        "bFirstClickAward": true,
+        "bBackendUnlock": false,
+        "IsInTrialCharacter": false,
+        "ShortcutItemID": "None",
+        "QuestId": "None"
+      },
+      "BidKing_0": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "BidKing_InGame_01_name",
+          "SourceString": "「即刻落槌」局内玩法说明",
+          "LocalizedString": "Going, Going, Gone! In-Match Guide"
+        },
+        "TeachGuideType": "ETeachGuideType::PlayMethod",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_InGame_01_title",
+              "SourceString": "布局操作说明",
+              "LocalizedString": "Interface Guide"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_InGame_01_des",
+              "SourceString": "在对局中，共有三块信息展示区域需要留意：\r\n\r\n1.左侧：玩家信息列表\r\n用于展示玩家的<red>历史出价记录</>和<red>仪器使用记录</>；\r\n2.中间：情报显示板\r\n用于展示当前已获得的<red>情报信息</>；\r\n3.右侧：藏品仓库视图\r\n用于展示当前已获知的<red>藏品信息</>。",
+              "LocalizedString": "During each match, keep an eye on these three panels:\r\n\r\n1. Left: Player List\r\nShows each player's <red>bid history</> and <red>device usage</>.\r\n2. Center: Intel Panel\r\nShows all <red>intel</> you have gathered.\r\n3. Right: Collectibles Warehouse\r\nShows all known <red>collectible details</>."
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0159.UI_YH_Guide_Banner_0159",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0159.UI_YH_Guide_Banner_0159",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0159.UI_YH_Guide_Banner_0159",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_InGame_02_title",
+              "SourceString": "查看历史信息",
+              "LocalizedString": "View History"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_InGame_02_des",
+              "SourceString": "玩家信息列表中，将显示玩家在前几回合使用过的<red>仪器</>及<red>历史出价记录</>。点击仪器图标或竞拍帮手头像，可以查看详细历史信息。",
+              "LocalizedString": "The Player List shows the <red>devices</> each player used and the <red>bids</> they placed in previous rounds. Click a device icon or an Auction Assistant portrait to view the full history."
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0160.UI_YH_Guide_Banner_0160",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0160.UI_YH_Guide_Banner_0160",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0160.UI_YH_Guide_Banner_0160",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_InGame_03_title",
+              "SourceString": "藏品信息",
+              "LocalizedString": "Collectible Intel"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_InGame_03_des",
+              "SourceString": "1.展示藏品的<red>轮廓</>时，对应位置将显示灰色的矩形块。\r\n2.展示藏品的<red>品质</>时，将显示其中一格的品质颜色。\r\n3.同时展示藏品的<red>轮廓与品质</>时，对应位置将出现带有流光特效的矩形块。",
+              "LocalizedString": "1. When a collectible's <red>silhouette</> is revealed, a gray block appears in the corresponding slot.\r\n2. When a collectible's <red>rarity</> is revealed, one section displays the matching rarity color.\r\n3. When both its <red>silhouette and rarity</> are revealed, the corresponding slot appears with a shimmering effect."
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0161.UI_YH_Guide_Banner_0161",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0161.UI_YH_Guide_Banner_0161",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0161.UI_YH_Guide_Banner_0161",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_InGame_04_title",
+              "SourceString": "决定出价范围",
+              "LocalizedString": "Choose Your Bid Range"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_InGame_04_des",
+              "SourceString": "当不确定该如何出价时，可以点按藏品仓库视图中的<red>已知信息</>唤出藏品图鉴，利用自动筛选的结果进行鉴定；也可以参考当前估价作为依据。在犹豫不决时，与竞拍对手出相近的价格，也不失为一种可行的策略。",
+              "LocalizedString": "Not sure how much to bid? Click any <red>known intel</> in the Collectibles Warehouse to open the Collectibles Index. Its automatic filters will help narrow down the possibilities. You can also use the current estimated value as a guide. When in doubt, matching your opponents' bids can be a viable strategy."
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0162.UI_YH_Guide_Banner_0162",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0162.UI_YH_Guide_Banner_0162",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0162.UI_YH_Guide_Banner_0162",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_InGame_05_title",
+              "SourceString": "观察对手动向",
+              "LocalizedString": "Watch Your Opponents"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_InGame_05_des",
+              "SourceString": "竞拍场总是风起云涌。请善用选定的仪器组合，并多多观察其他对手的动向，随时调整自己的决策。若对手突然一反常态，做出出人意料的举动，或许是收获了某些意想不到的信息。",
+              "LocalizedString": "The tide of an auction can turn at any moment. Make good use of your selected Device Set, watch your opponents closely, and adjust your strategy as needed. If an opponent suddenly acts out of character, they may have uncovered valuable new intel."
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0163.UI_YH_Guide_Banner_0163",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0163.UI_YH_Guide_Banner_0163",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0163.UI_YH_Guide_Banner_0163",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": true,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockID": "BidKing_0",
+        "IsPSShow": true,
+        "bShowMainGuide": true,
+        "bFirstClickAward": true,
+        "bBackendUnlock": false,
+        "IsInTrialCharacter": false,
+        "ShortcutItemID": "None",
+        "QuestId": "None"
+      },
+      "BidKing_1": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "BidKing_OutGame_01_name",
+          "SourceString": "「即刻落槌」局外玩法说明",
+          "LocalizedString": "Going, Going, Gone! Out-of-Match Guide"
+        },
+        "TeachGuideType": "ETeachGuideType::PlayMethod",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_OutGame_01_title",
+              "SourceString": "欢迎来到「即刻落槌」",
+              "LocalizedString": "Welcome to Going, Going, Gone!"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_OutGame_01_des",
+              "SourceString": " 在宝船拍卖会，你的核心目标是通过精明的竞拍获取更多金贝铢，不断积累你的财富。在竞拍中获得的藏品，将存入你的藏品仓库。",
+              "LocalizedString": "In the Treasure Ship Auction, your goal is to build your fortune by bidding wisely and earning more Gold Shells. Any collectibles you win will be added to your Collectibles Warehouse."
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0164.UI_YH_Guide_Banner_0164",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0164.UI_YH_Guide_Banner_0164",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0164.UI_YH_Guide_Banner_0164",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_OutGame_03_title",
+              "SourceString": "竞拍帮手与仪器组合",
+              "LocalizedString": "Auction Assistant & Device Set"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_OutGame_03_des",
+              "SourceString": "要想在竞拍中占据优势，必须选择合适的竞拍帮手与仪器组合。不同的竞拍帮手各有其优势领域，而在仪器组合的辅助下，往往能获得意想不到的有利信息。",
+              "LocalizedString": "To gain an edge at auction, choose the right Auction Assistant and Device Set. Each Auction Assistant has their own specialty, while Device Sets can uncover valuable intel that may turn the auction in your favor."
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0166.UI_YH_Guide_Banner_0166",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0166.UI_YH_Guide_Banner_0166",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0166.UI_YH_Guide_Banner_0166",
+              "SubPathString": ""
+            }
+          },
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_OutGame_04_title",
+              "SourceString": "低保金",
+              "LocalizedString": "Safety Fund"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_OutGame_04_des",
+              "SourceString": "当处于破产边缘时，可点击低保金按钮领取低保金，重新投入竞拍。每日最多领取5次。",
+              "LocalizedString": "When you are on the verge of bankruptcy, click the Safety Fund button to receive emergency funds and get back in the game. The Safety Fund can be claimed up to 5 times per day."
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0167.UI_YH_Guide_Banner_0167",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0167.UI_YH_Guide_Banner_0167",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0167.UI_YH_Guide_Banner_0167",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": true,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockID": "BidKing_1",
+        "IsPSShow": true,
+        "bShowMainGuide": true,
+        "bFirstClickAward": true,
+        "bBackendUnlock": false,
+        "IsInTrialCharacter": false,
+        "ShortcutItemID": "None",
+        "QuestId": "None"
+      },
+      "BidKing_0_0": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "BidKing_InGame_02_name",
+          "SourceString": "「即刻落槌」竞拍结算",
+          "LocalizedString": "Going, Going, Gone! Auction Results"
+        },
+        "TeachGuideType": "ETeachGuideType::PlayMethod",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_InGame_02_name",
+              "SourceString": "「即刻落槌」竞拍结算",
+              "LocalizedString": "Going, Going, Gone! Auction Results"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_InGame_06_des",
+              "SourceString": "此刻，你已经成功完成了一次竞拍。原本神秘的藏品将一件件展示给所有玩家，并公布中拍者的盈亏情况。如果中拍者亏损，其他三名玩家将获得其亏损金额10%的金贝铢作为奖励金。",
+              "LocalizedString": "You've completed your first auction! The mystery collectibles will now be revealed one by one, along with the winner's profit or loss. If the winner suffers a loss, each of the other three players receives a bonus equal to 10% of that loss."
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0168.UI_YH_Guide_Banner_0168",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0168.UI_YH_Guide_Banner_0168",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0168.UI_YH_Guide_Banner_0168",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": true,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockID": "BidKing_0_0",
+        "IsPSShow": true,
+        "bShowMainGuide": true,
+        "bFirstClickAward": true,
+        "bBackendUnlock": false,
+        "IsInTrialCharacter": false,
+        "ShortcutItemID": "None",
+        "QuestId": "None"
+      },
+      "BidKing_1_0": {
+        "GuideName": {
+          "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+          "Key": "BidKing_OutGame_02_name",
+          "SourceString": "「即刻落槌」藏品仓库与展览柜",
+          "LocalizedString": "Going, Going, Gone! Collectibles Warehouse & Display Case"
+        },
+        "TeachGuideType": "ETeachGuideType::PlayMethod",
+        "ShowType": "EContentShowType::ST_IMAGE",
+        "MediaNodeArray": [],
+        "PictureNodeArray": [
+          {
+            "Title": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_OutGame_02_name",
+              "SourceString": "「即刻落槌」藏品仓库与展览柜",
+              "LocalizedString": "Going, Going, Gone! Collectibles Warehouse & Display Case"
+            },
+            "Description": {
+              "TableId": "/Game/Text/ST_TeachAndIllustrate.ST_TeachAndIllustrate",
+              "Key": "BidKing_OutGame_02_des",
+              "SourceString": "藏品仓库中存放着你在对局中成功拍下的所有藏品。你可以将藏品变卖，以获取更多竞拍资金；也可以将心仪的顶级藏品放入展览柜，尽情欣赏你的战利品，同时从中赚取展览收益。",
+              "LocalizedString": "The Collectibles Warehouse holds every collectible you have won at auction. Sell them to gain more bidding funds, or place your favorite high-value pieces in the Display Case to admire your prizes and earn income over time."
+            },
+            "PlatformDescription": [],
+            "GamepadDescription": [],
+            "Photo": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0165.UI_YH_Guide_Banner_0165",
+              "SubPathString": ""
+            },
+            "PCPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0165.UI_YH_Guide_Banner_0165",
+              "SubPathString": ""
+            },
+            "PSPhoto": {
+              "AssetPathName": "/Game/UI/UI/teachguide/image/UI_YH_Guide_Banner_0165.UI_YH_Guide_Banner_0165",
+              "SubPathString": ""
+            }
+          }
+        ],
+        "bForceWatch": true,
+        "bDefaultUnLock": false,
+        "UnLockNormalIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockSelectedIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "UnLockID": "BidKing_1_0",
         "IsPSShow": true,
         "bShowMainGuide": true,
         "bFirstClickAward": true,

@@ -24,7 +24,7 @@
               "LocalizedString": "Iterated Prisoner's Dilemma"
             },
             "AwakenIcon": {
-              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1021_1.1021_1",
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1075_1.1075_1",
               "SubPathString": ""
             },
             "ModifyDataList": [
@@ -40,8 +40,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_star1_des",
-              "SourceString": "伊洛伊处于后台时，可以缓慢以0.5秒恢复1点「臆想」。并且所有「臆想」的积攒效率增加25%。",
-              "LocalizedString": "Restores 1 Imagination every 0.5s while Iroi is off-field. Increases all Imagination gain efficiency by 25%."
+              "SourceString": "伊洛伊处于后台时，每秒恢复3点「臆想」。\r\n同时「臆想」积攒效率提升30% ，并且入战后获得满额「臆想」。",
+              "LocalizedString": "Restores 3 Imagination per second while Iroi is off-field.\r\nIncreases Imagination gain by 30% and grants Iroi maximum Imagination upon entering battle."
             },
             "GEIdArray": []
           },
@@ -55,7 +55,7 @@
               "LocalizedString": "Strategy: Tit for Tat"
             },
             "AwakenIcon": {
-              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1021_2.1021_2",
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1075_2.1075_2",
               "SubPathString": ""
             },
             "ModifyDataList": [
@@ -71,8 +71,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_star2_des",
-              "SourceString": "任意队友释放技能时，伊洛伊将随机召唤莫尔甫斯/伊刻洛斯/方塔苏斯中的一名，协助攻击1次造成150%的伤害，冷却时间5秒。",
-              "LocalizedString": "Summons Morpheus, Icelos, or Phantasos at random whenever an ally casts a skill, assisting with 1 attack that deals DMG equal to 150%. Cooldown: 5s."
+              "SourceString": "任意队友释放技能时，伊洛伊将随机召唤莫尔甫斯/伊刻洛斯/方塔苏斯中的一名，协助攻击1次造成共计200%*伊洛伊自身攻击力的伤害，并使全体友方获得相当于伊洛伊自身攻击力*120%的生命值回复，冷却时间5秒。",
+              "LocalizedString": "Summons Morpheus, Icelos, or Phantasos at random when any ally casts a skill, performing 1 assist attack that deals DMG equal to 200% of Iroi's ATK. Restores all team members' HP by 120% of Iroi's ATK. Cooldown: 5s."
             },
             "GEIdArray": []
           },
@@ -86,7 +86,7 @@
               "LocalizedString": "Trait: Cooperative"
             },
             "AwakenIcon": {
-              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1021_3.1021_3",
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1075_3.1075_3",
               "SubPathString": ""
             },
             "ModifyDataList": [
@@ -102,8 +102,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_star3_des",
-              "SourceString": "伊洛伊对生命值低于50%的友方角色，治疗效果提升25%。",
-              "LocalizedString": "Increases healing effects by 25% on allies with HP below 50%."
+              "SourceString": "伊洛伊的治疗效果提升36% 。",
+              "LocalizedString": "Increases Iroi's healing effects by 36%."
             },
             "GEIdArray": []
           },
@@ -117,7 +117,7 @@
               "LocalizedString": "Trait: Retaliatory"
             },
             "AwakenIcon": {
-              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1021_4.1021_4",
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1075_4.1075_4",
               "SubPathString": ""
             },
             "ModifyDataList": [
@@ -133,8 +133,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_star4_des",
-              "SourceString": "「退行」状态小羊们的攻击倍率提升\r\n莫尔甫斯：\r\n再睡会吧增加20%的倍率\r\n多睡会吧增加20%的倍率\r\n\r\n伊刻洛斯：\r\n打一针吧增加20%的倍率\r\n多打几针增加20%的倍率\r\n\r\n方塔苏斯：\r\n来首歌吧增加20%的倍率\r\n不好听吗增加20%的倍率",
-              "LocalizedString": "Increases the ATK Ratio of lambs in the Regression state.\r\nMorpheus:\r\nSweet Dreams - +20% ATK Ratio\r\nDeep Slumber - +20% ATK Ratio\r\n\r\nIcelos:\r\nLittle Prick - +20% ATK Ratio\r\nDouble Dose - +20% ATK Ratio\r\n\r\nPhantasos:\r\nLullaby Time - +20% ATK Ratio\r\nOff-Key - +20% ATK Ratio"
+              "SourceString": "「退行」状态下的小羊们攻击倍率提升\r\n莫尔甫斯：\r\n「再睡会儿」的倍率，提升值相当于基础倍率的30% 。\r\n「多睡会儿」的倍率，提升值相当于基础倍率的30% 。\r\n\r\n伊刻洛斯：\r\n「打一针吧」的倍率提升，提升值相当于基础倍率的30% 。\r\n「多打几针」的倍率提升，提升值相当于基础倍率的30% 。\r\n\r\n方塔苏斯：\r\n「来首歌吧」的倍率提升，提升值相当于基础倍率的30% 。\r\n「不好听吗」的倍率提升，提升值相当于基础倍率的30% 。",
+              "LocalizedString": "Increases the ATK Ratio of lambs that replace allies in the Regression state:\r\nMorpheus:\r\nSweet Dreams: up by 30%\r\nDeep Slumber: up by 30%.\r\n\r\nIcelos:\r\nLittle Prick: up by 30%\r\nDouble Dose: up by 30%.\r\n\r\nPhantasos:\r\nLullaby Time: up by 30%\r\nOff-Key: up by 30%."
             },
             "GEIdArray": []
           },
@@ -148,7 +148,7 @@
               "LocalizedString": "Trait: Transparent"
             },
             "AwakenIcon": {
-              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1021_5.1021_5",
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1075_5.1075_5",
               "SubPathString": ""
             },
             "ModifyDataList": [
@@ -164,8 +164,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_star5_des",
-              "SourceString": "「交感性神经系统」效果追加：基于伊洛伊基础攻击力的12.5%，提高队伍中角色的攻击力，持续20秒。",
-              "LocalizedString": "Additional Sympathetic Nerves Effect: Increases allies' ATK by 12.5% of Iroi's Base ATK for 20s."
+              "SourceString": "「交感性神经系统」效果追加：基于伊洛伊基础攻击力的15%，提高队伍中角色的攻击力，持续20秒。",
+              "LocalizedString": "Additional Sympathetic Nerves Effect: Increases all team members' ATK by 15% of Iroi's Base ATK for 20s."
             },
             "GEIdArray": []
           },
@@ -179,7 +179,7 @@
               "LocalizedString": "Trait: Forgiving"
             },
             "AwakenIcon": {
-              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1021_6.1021_6",
+              "AssetPathName": "/Game/UI/UI/player/YH_UI_juexingICON/1075_6.1075_6",
               "SubPathString": ""
             },
             "ModifyDataList": [
@@ -196,7 +196,7 @@
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_star6_des",
               "SourceString": "伊洛伊释放「极轨终结：三十八亿年的海市蜃楼」后复活的角色，获得100%生命值、50点环合值、50点极轨终结能量。",
-              "LocalizedString": "Grants 100% HP, 50 Cycle Energy, and 50 Ultimate Energy to characters revived after Iroi casts 3.8-Billion-Year Mirage."
+              "LocalizedString": "Grants 100% HP, 50 Cycle Energy, and 50 Ultimate Energy to the character revived after Iroi casts 3.8-Billion-Year Mirage."
             },
             "GEIdArray": []
           },
@@ -225,14 +225,21 @@
               {
                 "SkillName": "GA_Oneiroi_UltraSkill",
                 "SkillLevel": 1
+              },
+              {
+                "Buff": {
+                  "AssetPathName": "/Game/Blueprints/Abilities/Player/Ability_075_Oneiroi/Upgrade/Buff_Oneiroi075_Level2_Def.Buff_Oneiroi075_Level2_Def_C",
+                  "SubPathString": ""
+                },
+                "bReliveNeedAddAgain": false
               }
             ],
             "AwakenType": "EAwakenEffect::Awaken_Resonance",
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_starExtra1_des",
-              "SourceString": "「普通攻击：分工合作」「变轨技能：未来自我连续性假设」「极轨终结：三十八亿年的海市蜃楼」的技能等级提升1级。",
-              "LocalizedString": "Increases the skill level of Collaboration, Future Self Continuity, and 3.8-Billion-Year Mirage by 1."
+              "SourceString": "「普通攻击：分工合作」「变轨技能：未来自我连续性假设」「极轨终结：三十八亿年的海市蜃楼」的技能等级提升1级。\r\n伊洛伊在队伍中时，全队的防御力提升30% 。",
+              "LocalizedString": "Increases the skill level of Collaboration, Future Self Continuity, and 3.8-Billion-Year Mirage by 1.\r\nIncreases all team members' DEF by 30% while Iroi is on the team."
             },
             "GEIdArray": []
           },
@@ -262,8 +269,8 @@
             "Desc": {
               "TableId": "/Game/Text/PlayerSkillDes/Oneiror_SkillDes.Oneiror_SkillDes",
               "Key": "GA_Oneiroi_starExtra2_des",
-              "SourceString": "全队暴击伤害提升25%；队伍中每存在一名「退行」状态的队友，伊洛伊造成的伤害额外加15%。",
-              "LocalizedString": "Increases allies' Crit DMG by 25%. Iroi deals an additional 15% DMG for each ally in the Regression state."
+              "SourceString": "伊洛伊在队伍中时，全队暴击伤害提升25%；队伍中每存在一名「退行」状态的队友，伊洛伊造成的伤害提升15%，暴击率提升5% 。",
+              "LocalizedString": "Increases all team members' Crit DMG by 25% while Iroi is on the team. Increases Iroi's DMG dealt by 15% and Crit Rate by 5% for each ally in the Regression state."
             },
             "GEIdArray": []
           }

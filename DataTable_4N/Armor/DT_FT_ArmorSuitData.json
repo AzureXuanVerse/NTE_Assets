@@ -552,7 +552,7 @@
               "TableId": "/Game/Maps_4N/DataTable/ST_FinalTowerSuitDes.ST_FinalTowerSuitDes",
               "Key": "1075_Shoot_Purple_Des1",
               "SourceString": "伊洛伊小羊们的攻击有25%的几率会给目标施加「梦羊」 ，同时每只小羊施加「梦羊」时会造成额外200%倍率的伤害 。\r\n初始「梦羊」：怪物抗性减少5%，持续2秒，至多叠加5层。 ",
-              "LocalizedString": "There's a 25% chance that Iroi's sheep attacks inflict Dreamwool on the target. Each sheep deals 200% additional DMG when inflicting Dreamwool.\r\nDefault Dreamwool: Reduces the monster's Resistance by 5% for 2s, up to 5 stacks."
+              "LocalizedString": "There's a 25% chance that attacks from Iroi's sheep inflict Dreamwool on the target. Each sheep deals 200% additional DMG when inflicting Dreamwool.\r\nDefault Dreamwool: Reduces the monster's Resistance by 5% for 2s, up to 5 stacks."
             }
           },
           {
@@ -951,8 +951,8 @@
             "SuitDesc": {
               "TableId": "/Game/Maps_4N/DataTable/ST_FinalTowerSuitDes.ST_FinalTowerSuitDes",
               "Key": "mint_Shoot_Dark_Orange_Des1",
-              "SourceString": "队伍中角色对怪物造成暴击时，有5%的几率对目标施加「猎标」：持续5秒，至多叠加10层。「猎标」达到10层或怪物死亡时，造成【80000+30000*层数】的范围伤害并清除标记。",
-              "LocalizedString": "There's a 5% chance to inflict Hunter's Mark on the target for 5s when an ally lands a Critical Hit on a monster. Hunter's Mark stacks up to 10 times. Deals AoE DMG equal to (80,000 + 30,000 × stacks) and clears the mark at 10 stacks or when the monster is defeated."
+              "SourceString": "队伍中角色对怪物造成暴击时，有60%的几率对目标施加「猎标」：持续5秒，至多叠加10层。「猎标」达到10层或怪物死亡时，造成【250000+100000*层数】的范围伤害并清除标记。「猎标」对同一个目标1秒内只会造成1次伤害。",
+              "LocalizedString": "There's a 60% chance to inflict Hunter's Mark on the target for 5s when an ally lands a Critical Hit on a monster. Hunter's Mark stacks up to 10 times. Deals AoE DMG equal to (250,000 + 100,000 × stacks) and clears the mark at 10 stacks or when the monster is defeated. Hunter's Mark can damage the same target only once per second."
             }
           },
           {
@@ -966,8 +966,8 @@
             "SuitDesc": {
               "TableId": "/Game/Maps_4N/DataTable/ST_FinalTowerSuitDes.ST_FinalTowerSuitDes",
               "Key": "mint_Shoot_Dark_Orange_Des2",
-              "SourceString": "「猎标」造成的范围伤害会给命中的目标额外施加2层「猎标」。爆炸的伤害提升400% 。",
-              "LocalizedString": "Inflicts 2 additional stacks of Hunter's Mark on targets hit by Hunter's Mark AoE DMG and increases Explosion DMG by 400%."
+              "SourceString": "「猎标」造成的爆炸的伤害提升500% 。",
+              "LocalizedString": "Increases Hunter's Mark explosion DMG by 500%."
             }
           }
         ]

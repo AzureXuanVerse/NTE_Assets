@@ -343,7 +343,7 @@
           "TableId": "/Game/Maps_4N/DataTable/ST_FinalTowerEffectDes.ST_FinalTowerEffectDes",
           "Key": "ft_armor_mint_orange1_pink_weapon_Burn_Light_orange_Des",
           "SourceString": "装备者施加「赤焰」时，转为施加「白焰圣火」。目标拥有「白焰圣火」时受到的伤害提升300%。",
-          "LocalizedString": "Converts Crimson Flame inflicted by the wearer into White Lightflame. Increases the target's DMG taken by 300% for each stack of White Lightflame on them."
+          "LocalizedString": "Converts Crimson Flame inflicted by the wearer into White Lightflame. DMG taken by targets afflicted with White Lightflame increases by 300%."
         },
         "Buff": {
           "ObjectName": "BlueprintGeneratedClass'Buff_DragonFire_16_C'",
@@ -483,7 +483,7 @@
           "TableId": "/Game/Maps_4N/DataTable/ST_FinalTowerEffectDes.ST_FinalTowerEffectDes",
           "Key": "ft_armor_1051_orange1_red_weapon_Burn_Light_red_Des",
           "SourceString": "全队施加「白焰圣火」时，有10%概率触发「爆燃」。目标每拥有1层「白焰圣火」，受到20%*层数的倍率伤害。",
-          "LocalizedString": "There's a 10% chance to trigger Blastfire when allies inflict White Lightflame. Deals DMG equal to 20% × the target's White Lightflame stack count per White Lightflame stack on the target."
+          "LocalizedString": "When any team member inflicts White Lightflame, there is a 10% chance to trigger Blastfire, dealing DMG equal to 20% ATK per stack of White Lightflame on the target."
         },
         "Buff": {
           "ObjectName": "BlueprintGeneratedClass'Buff_DragonFire_24_C'",
@@ -1283,7 +1283,7 @@
           "TableId": "/Game/Maps_4N/DataTable/ST_FinalTowerEffectDes.ST_FinalTowerEffectDes",
           "Key": "ft_armor_1076_orange3_platinum_weapon_Shoot_Light_orange_Des",
           "SourceString": "全队无视怪物9%的防御力，每有一只小羊额外无视2%的防御力。",
-          "LocalizedString": "Causes allies to ignore 9% of monsters' DEF. Further increases the amount of monsters' DEF ignored by allies by 2% for each active lamb."
+          "LocalizedString": "Causes allies to ignore 9% of monsters' DEF and grants them an additional 2% DEF Ignore for each active lamb."
         },
         "Buff": {
           "ObjectName": "BlueprintGeneratedClass'Buff_Shinku_Light_SheepWeapon_C'",

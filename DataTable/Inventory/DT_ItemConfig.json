@@ -19406,13 +19406,13 @@
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "Dicelimite_onerioi_usedesc",
           "SourceString": "仅可在限定棋盘「生命线」中进行投掷获得所需物品。",
-          "LocalizedString": "Only usable on the Limited Board, \"The Lifeline,\" to obtain items."
+          "LocalizedString": "Only usable on the Limited Board, \"The Lifeline\", to obtain items."
         },
         "Description": {
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "Dicelimite_onerioi_desc",
           "SourceString": "「骰子向前滚落停下，它给出回答。」",
-          "LocalizedString": "\"The die tumbles forth, comes to rest, and reveals its answer.\""
+          "LocalizedString": "\"The dice tumbles forth, comes to rest, and reveals its answer.\""
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -19679,7 +19679,7 @@
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "WeaponGacha_Oneiroi_desc",
           "SourceString": "「瞧啊，钥匙上写着『安全出口』。」",
-          "LocalizedString": "Look, the key says \"Emergency Exit.\""
+          "LocalizedString": "Look, the key says \"Emergency Exit\"."
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -24437,6 +24437,188 @@
         "CanDestory": false,
         "bUseSuccessWhenNotDeduct": false,
         "MeltPackID": "melt_Characterawaken_oneiroi",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
+      "Characterawaken_zankou": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER_FRAGMENT",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Characterawaken_oneiroi.Characterawaken_oneiroi",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Characterawaken_oneiroi.Characterawaken_oneiroi",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Characterawaken_zankou_name",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "MaxAmount": 6,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Characterawaken_zankou_usedesc",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "CharacterID": "1036",
+            "IsCard": false
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "melt_Characterawaken_zankou",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
+      "Characterawaken_radio": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER_FRAGMENT",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Characterawaken_oneiroi.Characterawaken_oneiroi",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Characterawaken_oneiroi.Characterawaken_oneiroi",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Characterawaken_radio_name",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "MaxAmount": 6,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Characterawaken_radio_usedesc",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "CharacterID": "1072",
+            "IsCard": false
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "melt_Characterawaken_radio",
         "OutputSourceID": "None",
         "ExpandableAttributes": {
           "ExpandedAttributes": []
@@ -32325,6 +32507,192 @@
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
       },
+      "CharacterCard_1036": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER_CARD",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/CharacterCard.CharacterCard",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/CharacterCard_1075_100.CharacterCard_1075_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "CharacterCard_1036",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "MaxAmount": 999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "CharacterCard_1036_usedesc",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "CharacterID": "1036",
+            "IsCard": true
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": {
+          "CharacterID": "1036"
+        },
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
+      "CharacterCard_1072": {
+        "ItemType": "EItemType::ITEM_TYPE_CHARACTER_CARD",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/CharacterCard.CharacterCard",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/CharacterCard_1075_100.CharacterCard_1075_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "CharacterCard_1072",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "MaxAmount": 999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "CharacterCard_1072_usedesc",
+          "SourceString": null,
+          "LocalizedString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "CharacterID": "1072",
+            "IsCard": true
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": {
+          "CharacterID": "1072"
+        },
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
       "disc_0001": {
         "ItemType": "EItemType::ITEM_TYPE_MUSIC",
         "ItemClassOverride": null,
@@ -37163,7 +37531,7 @@
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "Figure_yiluoyi_01_name",
           "SourceString": "软绵绵罐头",
-          "LocalizedString": "软绵绵罐头"
+          "LocalizedString": "Fuzzy-in-a-Can"
         },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
@@ -37181,7 +37549,7 @@
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "Figure_yiluoyi_01_desc",
           "SourceString": "这个罐头不可以用来装饮料哦~",
-          "LocalizedString": "这个罐头不可以用来装饮料哦~"
+          "LocalizedString": "Not for beverages, no matter how tempting."
         },
         "LimitScenes": [],
         "ToolDatas": [],
@@ -63592,6 +63960,110 @@
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
       },
+      "Furniture_carpet_001": {
+        "ItemType": "EItemType::ITEM_TYPE_FURNITURE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/wanju601.wanju601",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/wanju601_100.wanju601_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Ornament_050_name",
+          "SourceString": "「强身好伙伴！」",
+          "LocalizedString": "Your Fitness Buddy!"
+        },
+        "MaxAmount": 999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Ornament_050_use",
+          "SourceString": "可以装饰家里的摆件，增加舒适度和收藏值。",
+          "LocalizedString": "A home decor item. Increases Comfort and Collection with each piece."
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Ornament_050_des",
+          "SourceString": "结实耐用的沙袋。外形可爱吸睛，是锻炼身体的不错选择，兼有晾衣服，猫爬架等多种功能，娜娜莉似乎对它情有独钟。",
+          "LocalizedString": "A sturdy and durable punching bag. Its cute and eye-catching appearance makes it a great choice for exercise, with multiple other functions including clothes drying and cat climbing. Nanally seems particularly fond of it."
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "Furniture_Ornament_050",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": {
+          "FurnitureShowType": "EFurnitureShowType::EDisplayItem",
+          "FurnitureType": "EFurnitureType::EPingFeng",
+          "FurnitureActorClass": {
+            "AssetPathName": "/Game/Blueprints/Level/World/Common/Room/BP_FurnitureActorBase_carpet01.BP_FurnitureActorBase_carpet01_C",
+            "SubPathString": ""
+          },
+          "FurniturePart": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FurnitureLoad": 0,
+          "bIsNotRelease": false,
+          "FurnitureSizeType": "EFurnitureSizeType::ESmall",
+          "AttributeShowType": "EAttributeShowType::EDisplayItem"
+        },
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
       "Universal_stickers": {
         "ItemType": "EItemType::ITEM_TYPE_LIKEABILITY_GIFT",
         "ItemClassOverride": null,
@@ -87319,6 +87791,98 @@
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
       },
+      "weeklycloneboss_selectbox_02": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/treasure.treasure",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/treasure.treasure",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "weeklycloneboss_selectbox_01_name",
+          "SourceString": "异象巡礼材料自选箱",
+          "LocalizedString": "Anomaly Pilgrimage Material Selection Box"
+        },
+        "MaxAmount": 999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "weeklycloneboss_selectbox_02_usedesc",
+          "SourceString": "使用后可从好狗狗印章、名为炫耀的裙袂、记忆的永恒中自选一件。",
+          "LocalizedString": "Grants one from the following: Good Boy Stamp, Dress Sleeves of Vanity or Eternal Memory."
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "TreasureBoxType": "EItemTreasureBoxType::ITEM_TREASURE_BOX_TYPE_OPTIONAL",
+            "DropID": "drop_weeklycloneboss_selectbox_02",
+            "OpenUIName": "ConsumableUseTreasureBox"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
       "characterbox_permanentSSR": {
         "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
         "ItemClassOverride": null,
@@ -96922,22 +97486,22 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/Fashion_vehicle_1052_V024.Fashion_vehicle_1052_V024",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Fashion_vehicle_1075_V006.Fashion_vehicle_1075_V006",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/ItemIcon_V024_Decal_003_100.ItemIcon_V024_Decal_003_100",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Fashion_vehicle_1075_V006_100.Fashion_vehicle_1075_V006_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
-          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/1024/YH_lihui_character_cai5.YH_lihui_character_cai5",
+          "AssetPathName": "",
           "SubPathString": ""
         },
         "ItemName": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
-          "Key": "V024_Decal_005_name",
-          "SourceString": "赤炎龙影-涂装",
-          "LocalizedString": "Hidden Dragon - Livery"
+          "Key": "V006_Decal_003_name",
+          "SourceString": "我们仨-涂装",
+          "LocalizedString": "Three's Company - Livery"
         },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
@@ -96947,15 +97511,15 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
-          "Key": "V024_Decal_005_usedesc",
-          "SourceString": "获得载具「Blizzard-V4」适用涂装「赤炎龙影」。",
-          "LocalizedString": "Grants the \"Hidden Dragon\" livery for the Blizzard-V4 vehicle."
+          "Key": "V006_Decal_003_uesedesc",
+          "SourceString": "获得载具「B100」适用涂装「我们仨-涂装」。",
+          "LocalizedString": "Grants the \"Three's Company\" livery for the B100 vehicle."
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
-          "Key": "V024_Decal_005_desc",
-          "SourceString": "紫红色的火焰在车身燃烧——本涂装的配色与花纹由真红本人选择。",
-          "LocalizedString": "Purple-red flames blaze across the car body. This livery's colors and patterns were chosen by Shinku herself."
+          "Key": "V006_Decal_003_desc",
+          "SourceString": "小羊有三只，收容二组的好朋友是三个。真巧呀~",
+          "LocalizedString": "Three little lambs, three best friends for CSU-2. Funny how that works."
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -97465,7 +98029,7 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI/Appearance/Glider/Fashion_Glide_1071.Fashion_glide_1071",
+          "AssetPathName": "/Game/UI/UI/Appearance/Glider/Fashion_Glide_1075.Fashion_Glide_1075",
           "SubPathString": ""
         },
         "ItemIconSmall": {
@@ -97478,9 +98042,9 @@
         },
         "ItemName": {
           "TableId": "/Game/Text/ST_Appearance.ST_Appearance",
-          "Key": "Glide_4_Name",
-          "SourceString": "天际猎手",
-          "LocalizedString": "Skyrider"
+          "Key": "Glide_6_Name",
+          "SourceString": "小羊直升机",
+          "LocalizedString": "Sheepcopter"
         },
         "MaxAmount": 1,
         "bUseMaxAmountLimitID": false,
@@ -99248,15 +99812,15 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_zhenhong1_256.player_zhenhong1_256",
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_yiluoyi4_256.player_yiluoyi4_256",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_zhenhong1.player_zhenhong1",
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/200/player_yiluoy4.player_yiluoy4",
           "SubPathString": ""
         },
         "ItemIconBig": {
-          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/1024/YH_lihui_fashionshop_zhenhong1.YH_lihui_fashionshop_zhenhong1",
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/1024/YH_lihui_fashionshop_yiluoyi_swimsuit.YH_lihui_fashionshop_yiluoyi_swimsuit",
           "SubPathString": ""
         },
         "ItemName": {
@@ -102228,15 +102792,15 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_yiluoyi_256.player_yiluoyi_256",
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_yiluoyi5_256.player_yiluoyi5_256",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_yiluoyi_256.player_yiluoyi_256",
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/256/player_yiluoyi5_256.player_yiluoyi5_256",
           "SubPathString": ""
         },
         "ItemIconBig": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/1024/YH_lihui_fashionshop_yiluoyi2.YH_lihui_fashionshop_yiluoyi2",
           "SubPathString": ""
         },
         "ItemName": {
@@ -102330,7 +102894,7 @@
           "SubPathString": ""
         },
         "ItemIconBig": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/1024/YH_lihui_fashionshop_yiluoyi2.YH_lihui_fashionshop_yiluoyi2",
           "SubPathString": ""
         },
         "ItemName": {
@@ -102427,7 +102991,7 @@
           "SubPathString": ""
         },
         "ItemIconBig": {
-          "AssetPathName": "",
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/1024/YH_lihui_fashionshop_yiluoyi2.YH_lihui_fashionshop_yiluoyi2",
           "SubPathString": ""
         },
         "ItemName": {
@@ -117528,6 +118092,94 @@
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
       },
+      "CityStamina_giftpackage_01_ex": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_512/CityStamina_giftpackage_01.CityStamina_giftpackage_01",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/CityStamina_giftpackage_01.CityStamina_giftpackage_01",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_512/CityStamina_giftpackage_01.CityStamina_giftpackage_01",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "CityStamina_giftpackage_01_ex_name",
+          "SourceString": "轻量资金续装箱",
+          "LocalizedString": "Light Fund Box"
+        },
+        "MaxAmount": 999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "DropID": "drop_CityStamina_giftpackage_01",
+            "ExtraDropID": "None"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
       "CityStamina_giftpackage_02": {
         "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
         "ItemClassOverride": null,
@@ -117548,6 +118200,94 @@
           "TableId": "/Game/Text/ST_Item.ST_Item",
           "Key": "CityStamina_giftpackage_02_name",
           "SourceString": "后备资金储蓄箱",
+          "LocalizedString": "Reserve Fund Box"
+        },
+        "MaxAmount": 999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "DropID": "drop_CityStamina_giftpackage_02",
+            "ExtraDropID": "None"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
+      "CityStamina_giftpackage_02_ex": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_512/CityStamina_giftpackage_02.CityStamina_giftpackage_02",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/CityStamina_giftpackage_02.CityStamina_giftpackage_02",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_512/CityStamina_giftpackage_02.CityStamina_giftpackage_02",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "CityStamina_giftpackage_02_ex_name",
+          "SourceString": "后备资金续装箱",
           "LocalizedString": "Reserve Fund Box"
         },
         "MaxAmount": 999,
@@ -123232,6 +123972,99 @@
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
       },
+      "Combat_Avatar_05": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Combat_Avatar_08_256.Combat_Avatar_08_256",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Combat_Avatar_08_100.Combat_Avatar_08_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Combat_Avatar_04_Name",
+          "SourceString": "绵绵",
+          "LocalizedString": "Fuzzy"
+        },
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Combat_Avatar_04_UseDesc",
+          "SourceString": "获得头像：绵绵",
+          "LocalizedString": "Obtain avatar: Fuzzy"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Combat_Avatar_04_Desc",
+          "SourceString": "「想尝尝绵的味道吗？」",
+          "LocalizedString": "Wanna have a taste of Fuzzies?"
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "AvatarId": "Combat_Avatar_05"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
       "Combat_Frame_01": {
         "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
         "ItemClassOverride": null,
@@ -123511,6 +124344,99 @@
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
       },
+      "Combat_Frame_05": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_IMG_Frame_hqsl3_256.UI_IMG_Frame_hqsl3_256",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_IMG_Frame_hqsl3_100.UI_IMG_Frame_hqsl3_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Combat_Frame_04_Name",
+          "SourceString": "X周目开启",
+          "LocalizedString": "Cycle X Begins"
+        },
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Combat_Frame_04_UseDesc",
+          "SourceString": "获得头像框：X周目开启",
+          "LocalizedString": "Frame: Cycle X Begins"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Combat_Frame_04_Desc",
+          "SourceString": "「这一次，你的选择是什么？」",
+          "LocalizedString": "\"What will you chose this time?\""
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "AvatarFrameID": "Combat_Frame_05"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
       "Combat_BussinessCard_01": {
         "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
         "ItemClassOverride": null,
@@ -123741,6 +124667,99 @@
         "ToolDatas": [
           {
             "ItemID": "Combat_BussinessCard_04"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
+      "Combat_BussinessCard_05": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/PlayerCard/YH_UI_bg_card_show_strip_48.YH_UI_bg_card_show_strip_48",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/PlayerCard/YH_UI_bg_card_show_strip_48_100.YH_UI_bg_card_show_strip_48_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Combat_BussinessCard_04_Name",
+          "SourceString": "夏日进行时",
+          "LocalizedString": "Summer Time"
+        },
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Combat_BussinessCard_04_UseDesc",
+          "SourceString": "获得名片：夏日进行时",
+          "LocalizedString": "Namecard: Summer Time"
+        },
+        "Description": {
+          "TableId": "/Game/Text/UI/ST_PlayerInfoThreepieceSet.ST_PlayerInfoThreepieceSet",
+          "Key": "Combat_Frame_04_Desc",
+          "SourceString": "「这一次，你的选择是什么？」",
+          "LocalizedString": "\"What will you chose this time?\""
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "ItemID": "Combat_BussinessCard_05"
           }
         ],
         "ItemUseCount": 1,
@@ -136139,6 +137158,112 @@
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
       },
+      "Furniture_Ornament_040": {
+        "ItemType": "EItemType::ITEM_TYPE_FURNITURE",
+        "ItemClassOverride": null,
+        "ItemTags": [
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Furniture/Arrange_furniture/256/Furniture_Ornament_039.Furniture_Ornament_039",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/Furniture/Arrange_furniture/100/Furniture_Ornament_039_100.Furniture_Ornament_039_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "Namespace": "",
+          "Key": "52957F854F421F1733AE3EBACEC57725",
+          "SourceString": "赛车奖杯",
+          "LocalizedString": "赛车奖杯"
+        },
+        "MaxAmount": 999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Ornament_039_usedesc",
+          "SourceString": "可以增加幸福感的家装，收录后增加收藏值，摆放在家中可增加舒适度。",
+          "LocalizedString": "Furniture that boosts your mood. Increases Collection with each piece. Display at home to increase Comfort."
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Furniture_Ornament_039_desc",
+          "SourceString": "质量极佳的家用瑜伽球，可以放开了手脚锻炼。",
+          "LocalizedString": "A premium home yoga ball, perfect for workouts without limits."
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "Furniture_Ornament_039",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": {
+          "FurnitureShowType": "EFurnitureShowType::EDisplayItem",
+          "FurnitureType": "EFurnitureType::EOrnament",
+          "FurnitureActorClass": {
+            "AssetPathName": "/Game/Blueprints/Level/World/Common/Room/BP_FurnitureActorBase_baishi33.BP_FurnitureActorBase_baishi33_C",
+            "SubPathString": ""
+          },
+          "FurniturePart": {
+            "AssetPathName": "",
+            "SubPathString": ""
+          },
+          "FurnitureLoad": 0,
+          "bIsNotRelease": false,
+          "FurnitureSizeType": "EFurnitureSizeType::EMiddle",
+          "AttributeShowType": "EAttributeShowType::EDisplayItem"
+        },
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
       "Testeqbox_Chaos_orange": {
         "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
         "ItemClassOverride": null,
@@ -147705,6 +148830,264 @@
         "bApplyQualityColorToDropEffect": true,
         "DropHeightOffset": 0.0
       },
+      "ScratchCard_06": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_Item_SpecialGift_Book3.YH_UI_Item_SpecialGift_Book3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_Item_SpecialGift_Book3_100.YH_UI_Item_SpecialGift_Book3_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "ScratchCard_06_name",
+          "SourceString": "奖励",
+          "LocalizedString": "Reward"
+        },
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "ScratchCard_05_shop",
+          "SourceString": "购买好感度道具《在书本之外》\r\n赠送奖券「采风时间」\r\n最高可得250w方斯\r\n\r\n刮开奖券覆盖膜\r\n如果出现纳库佩达标志 \"纳库佩达图标\"\r\n即中得该标志下方所示的奖金",
+          "LocalizedString": "Purchase the Affection Item \"Beyond the Book\"\r\nGift: Inspiration Time Ticket\r\nWin up to 2,500,000 Fons\r\n\r\nScratch off the covering film.\r\nIf the \"Nacupeda Icon\" appears,\r\nyou win the prize shown beneath that symbol."
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
+      "ScratchCard_07": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_Item_SpecialGift_Book3.YH_UI_Item_SpecialGift_Book3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_Item_SpecialGift_Book3_100.YH_UI_Item_SpecialGift_Book3_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "ScratchCard_07_name",
+          "SourceString": "奖励",
+          "LocalizedString": "Reward"
+        },
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "ScratchCard_05_shop",
+          "SourceString": "购买好感度道具《在书本之外》\r\n赠送奖券「采风时间」\r\n最高可得250w方斯\r\n\r\n刮开奖券覆盖膜\r\n如果出现纳库佩达标志 \"纳库佩达图标\"\r\n即中得该标志下方所示的奖金",
+          "LocalizedString": "Purchase the Affection Item \"Beyond the Book\"\r\nGift: Inspiration Time Ticket\r\nWin up to 2,500,000 Fons\r\n\r\nScratch off the covering film.\r\nIf the \"Nacupeda Icon\" appears,\r\nyou win the prize shown beneath that symbol."
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
+      "ScratchCard_08": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_Item_SpecialGift_Book3.YH_UI_Item_SpecialGift_Book3",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_Item_SpecialGift_Book3_100.YH_UI_Item_SpecialGift_Book3_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "ScratchCard_08_name",
+          "SourceString": "奖励",
+          "LocalizedString": "Reward"
+        },
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_PURPLE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "ScratchCard_05_shop",
+          "SourceString": "购买好感度道具《在书本之外》\r\n赠送奖券「采风时间」\r\n最高可得250w方斯\r\n\r\n刮开奖券覆盖膜\r\n如果出现纳库佩达标志 \"纳库佩达图标\"\r\n即中得该标志下方所示的奖金",
+          "LocalizedString": "Purchase the Affection Item \"Beyond the Book\"\r\nGift: Inspiration Time Ticket\r\nWin up to 2,500,000 Fons\r\n\r\nScratch off the covering film.\r\nIf the \"Nacupeda Icon\" appears,\r\nyou win the prize shown beneath that symbol."
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
       "SpecialGift_Paper1": {
         "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
         "ItemClassOverride": null,
@@ -148135,6 +149518,655 @@
         "ElementData": null,
         "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
         "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
+      "Scratch_bookmark": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [
+          "Gift"
+        ],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_Item_SpecialGift_Paper1.YH_UI_Item_SpecialGift_Paper1",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_Item_SpecialGift_Paper1_100.YH_UI_Item_SpecialGift_Paper1_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Scratch_bookmark_name",
+          "SourceString": "书签",
+          "LocalizedString": "Bookmark"
+        },
+        "MaxAmount": 9999,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_GREEN",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "SpecialGift_Paper1_usedesc",
+          "SourceString": "可作为礼物赠送给角色并增加50点好感度。",
+          "LocalizedString": "Can be given to characters as a gift, increasing Affection by 50."
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "SpecialGift_Paper1_des",
+          "SourceString": "比包包蚊更热闹的八卦杂志，你想看的这里都有。\n「德沃夏克长子又结婚了？！最豪华的一场婚礼，但背后竟另有隐情？过激粉丝于噗卡乐园再次聚众抗议，我们想要的偶像究竟是什么？……」",
+          "LocalizedString": "A gossip magazine even wilder than Pouch Mosquito. For those hungry for scandal, this issue has it all.\n\"Dvořák's eldest son got married again?! The most lavish wedding in history—but is there more to the story? Overzealous fans have gathered at Pukaland to protest once more. What kind of idol do we truly want?…\""
+        },
+        "LimitScenes": [],
+        "ToolDatas": [],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": false,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": true,
+        "bUndisplayCommonAddMessageTips": true,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 0,
+        "CanDestory": true,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": true,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
+      "Scratch_Title_01": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Title_Bidking_001.Title_Bidking_001",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Title_Bidking_001_100.Title_Bidking_001_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Scratch_Title_01_name",
+          "SourceString": "奖励",
+          "LocalizedString": "Reward"
+        },
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Title_Bidking_001_usedesc",
+          "SourceString": "累计解锁100件藏品图鉴",
+          "LocalizedString": "Unlock 100 Collectibles Index entries"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Title_Bidking_001_desc",
+          "SourceString": "拍卖成功的秘诀只有一个：价高者得。",
+          "LocalizedString": "The one rule of any auction: the lot goes to the highest bidder."
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "TitleConfigID": "Title_Bidking"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
+      "Scratch_Frame_01": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Frame_Bidking_001.Frame_Bidking_001",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Frame_Bidking_001_100.Frame_Bidking_001_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Scratch_Frame_01_name",
+          "SourceString": "奖励",
+          "LocalizedString": "Reward"
+        },
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Frame_Bidking_001_usedesc",
+          "SourceString": "获得头像框：抉择",
+          "LocalizedString": "Frame: Choice"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Frame_Bidking_001_des",
+          "SourceString": "不要放弃每一次选择的机会。",
+          "LocalizedString": "When fate offers a choice, do not let it slip from your grasp."
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "AvatarFrameID": "Frame_Bidking"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
+      "Scratch_Businesscard_01": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/PlayerCard/YH_UI_bg_card_show_strip_50.YH_UI_bg_card_show_strip_50",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/PlayerCard/YH_UI_bg_card_show_strip_50_100.YH_UI_bg_card_show_strip_50_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Scratch_Businesscard_01_name",
+          "SourceString": "奖励",
+          "LocalizedString": "Reward"
+        },
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Bidking_001_usedesc",
+          "SourceString": "获得名片：成交！",
+          "LocalizedString": "Namecard: Deal!"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Bidking_001_desc",
+          "SourceString": "最后一次出价……成交！恭喜，这份拍品属于您了。",
+          "LocalizedString": "Final bid… sold! Congratulations, this lot is yours."
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "ItemID": "BussinessCard_Bidking"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
+      "Scratch_Title_02": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Title_Bidking_001.Title_Bidking_001",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Title_Bidking_001_100.Title_Bidking_001_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Scratch_Title_02_name",
+          "SourceString": "奖励",
+          "LocalizedString": "Reward"
+        },
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Title_Bidking_001_usedesc",
+          "SourceString": "累计解锁100件藏品图鉴",
+          "LocalizedString": "Unlock 100 Collectibles Index entries"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Title_Bidking_001_desc",
+          "SourceString": "拍卖成功的秘诀只有一个：价高者得。",
+          "LocalizedString": "The one rule of any auction: the lot goes to the highest bidder."
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "TitleConfigID": "Title_Bidking"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
+      "Scratch_Frame_02": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Frame_Bidking_001.Frame_Bidking_001",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Frame_Bidking_001_100.Frame_Bidking_001_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Scratch_Frame_02_name",
+          "SourceString": "奖励",
+          "LocalizedString": "Reward"
+        },
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Frame_Bidking_001_usedesc",
+          "SourceString": "获得头像框：抉择",
+          "LocalizedString": "Frame: Choice"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Frame_Bidking_001_des",
+          "SourceString": "不要放弃每一次选择的机会。",
+          "LocalizedString": "When fate offers a choice, do not let it slip from your grasp."
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "AvatarFrameID": "Frame_Bidking"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
+        "PlayerViewTagArray": [],
+        "bIsLimitAmount": false,
+        "bIsManual": false,
+        "bIsInvite": false,
+        "bIsDropActor": false,
+        "DropActorClass": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupType": "EItemDropPickupType::Pickup_Auto",
+        "DropSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "PickupSoundOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "DropEffectNiagaraOverride": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bApplyQualityColorToDropEffect": true,
+        "DropHeightOffset": 0.0
+      },
+      "Scratch_Businesscard_02": {
+        "ItemType": "EItemType::ITEM_TYPE_CONSUMABLE",
+        "ItemClassOverride": null,
+        "ItemTags": [],
+        "ItemIcon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Item/PlayerCard/YH_UI_bg_card_show_strip_50.YH_UI_bg_card_show_strip_50",
+          "SubPathString": ""
+        },
+        "ItemIconSmall": {
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/PlayerCard/YH_UI_bg_card_show_strip_50_100.YH_UI_bg_card_show_strip_50_100",
+          "SubPathString": ""
+        },
+        "ItemIconBig": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "ItemName": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "Scratch_Businesscard_02_name",
+          "SourceString": "奖励",
+          "LocalizedString": "Reward"
+        },
+        "MaxAmount": 1,
+        "bUseMaxAmountLimitID": false,
+        "ItemQuality": "EItemQuality::ITEM_QUALITY_ORANGE",
+        "ItemCD": 0.0,
+        "TimeLimit": null,
+        "ItemEffectType": "EItemEffectType::NoEffect",
+        "UseContext": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Bidking_001_usedesc",
+          "SourceString": "获得名片：成交！",
+          "LocalizedString": "Namecard: Deal!"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Item.ST_Item",
+          "Key": "BusinessCard_Bidking_001_desc",
+          "SourceString": "最后一次出价……成交！恭喜，这份拍品属于您了。",
+          "LocalizedString": "Final bid… sold! Congratulations, this lot is yours."
+        },
+        "LimitScenes": [],
+        "ToolDatas": [
+          {
+            "ItemID": "BussinessCard_Bidking"
+          }
+        ],
+        "ItemUseCount": 1,
+        "bAutoUseWhenAdd": true,
+        "bCanDiscard": false,
+        "DiscardDropID": "None",
+        "SellData": [],
+        "bDisplayedWhenObtain": false,
+        "bUndisplayFirstAddMessageTips": false,
+        "bUndisplayCommonAddMessageTips": false,
+        "bUseAddMessageTips": true,
+        "AddMessageTipsIDs": [],
+        "BagFunctions": 1,
+        "CanDestory": false,
+        "bUseSuccessWhenNotDeduct": false,
+        "MeltPackID": "None",
+        "OutputSourceID": "None",
+        "ExpandableAttributes": {
+          "ExpandedAttributes": []
+        },
+        "ExtensionData": null,
+        "ElementData": null,
+        "QuickUseType": "EItemQuickUseType::QuickUse_Disabled",
+        "bIsShowAmount": false,
         "PlayerViewTagArray": [],
         "bIsLimitAmount": false,
         "bIsManual": false,
@@ -149281,11 +151313,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/Likeability_Medal_1075_256.Likeability_Medal_1075_256",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/Likeability_Medal_1075_100.Likeability_Medal_1075_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -149467,11 +151499,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/UI_Icon_Frame_1075_256.UI_Icon_Frame_1075_256",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_Icon_Frame_1075_100.UI_Icon_Frame_1075_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -149560,11 +151592,11 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/YH_UI_bg_card_show_strip_47.YH_UI_bg_card_show_strip_47",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/UI_YH_Item_Icon_linshi_Oversea.UI_YH_Item_Icon_linshi_Oversea",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/YH_UI_bg_card_show_strip_47_100.YH_UI_bg_card_show_strip_47_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
@@ -150377,22 +152409,22 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/Item/ItemIcon_V015_Decal_002.ItemIcon_V015_Decal_002",
+          "AssetPathName": "/Game/UI/UI_Icon/Item/ItemIcon_V015_Decal_003.ItemIcon_V015_Decal_003",
           "SubPathString": ""
         },
         "ItemIconSmall": {
-          "AssetPathName": "/Game/UI/UI_Icon/item_100/ItemIcon_V015_Decal_002_100.ItemIcon_V015_Decal_002_100",
+          "AssetPathName": "/Game/UI/UI_Icon/item_100/ItemIcon_V015_Decal_003_100.ItemIcon_V015_Decal_003_100",
           "SubPathString": ""
         },
         "ItemIconBig": {
-          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/1024/YH_lihui_character_cai8.YH_lihui_character_cai8",
+          "AssetPathName": "/Game/UI/UI/Appearance/Fashion/1024/YH_lihui_character_car18.YH_lihui_character_car18",
           "SubPathString": ""
         },
         "ItemName": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
-          "Key": "V015_Decal_002_name",
-          "SourceString": "出发咯早雾大人！-涂装",
-          "LocalizedString": "Sakiri Roll! - Livery"
+          "Key": "V015_Decal_003_name",
+          "SourceString": "抹茶心情-涂装",
+          "LocalizedString": "Matcha Mood - Livery"
         },
         "MaxAmount": 999,
         "bUseMaxAmountLimitID": false,
@@ -150402,15 +152434,15 @@
         "ItemEffectType": "EItemEffectType::NoEffect",
         "UseContext": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
-          "Key": "V015_Decal_002_usedesc",
-          "SourceString": "获得载具「Rover A1」适用涂装「出发咯早雾大人！-涂装」。",
-          "LocalizedString": "Grants the \"Sakiri Roll! \" livery for the Rover A1 vehicle."
+          "Key": "V015_Decal_003_uesedesc",
+          "SourceString": "获得载具「Rover A1」适用涂装「抹茶心情-涂装」。",
+          "LocalizedString": "Grants the \"Matcha Mood \" livery for the Rover A1 vehicle."
         },
         "Description": {
           "TableId": "/Game/Text/ST_VehicleData.ST_VehicleData",
-          "Key": "V015_Decal_002_desc",
-          "SourceString": "伊波恩特别联名涂装。车身的贴纸由早雾亲自设计（鬼郎丸贴纸除外）。",
-          "LocalizedString": "Exclusive Eibon collaboration livery. The decals were personally designed by Sakiri (excluding the Kiroumaru sticker)."
+          "Key": "V015_Decal_003_desc",
+          "SourceString": "给街道带来一片抹茶色的梦境吧。",
+          "LocalizedString": "Bring a matcha-colored dream to the streets."
         },
         "LimitScenes": [],
         "ToolDatas": [
@@ -151773,7 +153805,7 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/FashionAvatar/256/Fashion_1075_nighty_Avatar.Fashion_1075_nighty_Avatar",
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/FashionAvatar/256/Fashion_1075_1_Avatar.Fashion_1075_1_Avatar",
           "SubPathString": ""
         },
         "ItemIconSmall": {
@@ -152052,7 +154084,7 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/FashionAvatar/256/Fashion_1075_nighty_Avatar.Fashion_1075_nighty_Avatar",
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/FashionAvatar/256/Fashion_1075_rpg_level2_Avatar.Fashion_1075_rpg_level2_Avatar",
           "SubPathString": ""
         },
         "ItemIconSmall": {
@@ -152145,7 +154177,7 @@
         "ItemClassOverride": null,
         "ItemTags": [],
         "ItemIcon": {
-          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/FashionAvatar/256/Fashion_1075_nighty_Avatar.Fashion_1075_nighty_Avatar",
+          "AssetPathName": "/Game/UI/UI_Icon/AvatarImage/FashionAvatar/256/Fashion_1075_rpg_level3_Avatar.Fashion_1075_rpg_level3_Avatar",
           "SubPathString": ""
         },
         "ItemIconSmall": {
