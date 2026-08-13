@@ -1,0 +1,1651 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ConstructionSiteTask",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/ConstructionSite/DT_ConstructionSiteTask",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'ConstructionSiteTaskInfo'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "Task_A_easy_01": {
+        "QuestId": "C101001",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupEasy_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 6,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_001",
+              "SourceString": "油桶",
+              "LocalizedString": "油桶"
+            }
+          }
+        ]
+      },
+      "Task_A_easy_02": {
+        "QuestId": "C101002",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupEasy_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 4,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_002",
+              "SourceString": "油桶",
+              "LocalizedString": "油桶"
+            }
+          },
+          {
+            "GoodsTag": "2",
+            "GoodsTargetCount": 2,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_003",
+              "SourceString": "木板箱",
+              "LocalizedString": "木板箱"
+            }
+          }
+        ]
+      },
+      "Task_A_easy_03": {
+        "QuestId": "C101003",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupEasy_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "3",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_004",
+              "SourceString": "水泥",
+              "LocalizedString": "水泥"
+            }
+          },
+          {
+            "GoodsTag": "2",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_006",
+              "SourceString": "木板箱",
+              "LocalizedString": "木板箱"
+            }
+          }
+        ]
+      },
+      "Task_A_easy_04": {
+        "QuestId": "C101004",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupEasy_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "6",
+            "GoodsTargetCount": 2,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_005",
+              "SourceString": "石砖",
+              "LocalizedString": "石砖"
+            }
+          }
+        ]
+      },
+      "Task_A_easy_05": {
+        "QuestId": "C101006",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_03",
+          "SourceString": "铲除施工区域内的土堆",
+          "LocalizedString": "铲除施工区域内的土堆"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_03",
+          "SourceString": "铲除施工区域内的土堆",
+          "LocalizedString": "铲除施工区域内的土堆"
+        },
+        "TaskGroupID": "GroupEasy_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_EarthMoving",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 3,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_sandpile_001",
+              "SourceString": "土堆",
+              "LocalizedString": "土堆"
+            }
+          }
+        ]
+      },
+      "Task_A_easy_06": {
+        "QuestId": "C101005",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_03",
+          "SourceString": "铲除施工区域内的土堆",
+          "LocalizedString": "铲除施工区域内的土堆"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_03",
+          "SourceString": "铲除施工区域内的土堆",
+          "LocalizedString": "铲除施工区域内的土堆"
+        },
+        "TaskGroupID": "GroupEasy_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_EarthMoving",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 3,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_sandpile_001",
+              "SourceString": "土堆",
+              "LocalizedString": "土堆"
+            }
+          }
+        ]
+      },
+      "Task_A_easy_07": {
+        "QuestId": "C101007",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_01",
+          "SourceString": "驾驶渣土车前往指定地点",
+          "LocalizedString": "驾驶渣土车前往指定地点"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_01",
+          "SourceString": "驾驶渣土车前往指定地点",
+          "LocalizedString": "驾驶渣土车前往指定地点"
+        },
+        "TaskGroupID": "GroupEasy_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_DumperTruck",
+        "ForkliftGoodsArray": []
+      },
+      "Task_A_easy_08": {
+        "QuestId": "C101008",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_01",
+          "SourceString": "驾驶渣土车前往指定地点",
+          "LocalizedString": "驾驶渣土车前往指定地点"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_01",
+          "SourceString": "驾驶渣土车前往指定地点",
+          "LocalizedString": "驾驶渣土车前往指定地点"
+        },
+        "TaskGroupID": "GroupEasy_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_DumperTruck",
+        "ForkliftGoodsArray": []
+      },
+      "Task_A_easy_09": {
+        "QuestId": "C101009",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_04",
+          "SourceString": "清理施工区域内的杂物",
+          "LocalizedString": "清理施工区域内的杂物"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_04",
+          "SourceString": "清理施工区域内的杂物",
+          "LocalizedString": "清理施工区域内的杂物"
+        },
+        "TaskGroupID": "GroupEasy_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Clear",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 7,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_garbage_001",
+              "SourceString": "杂物",
+              "LocalizedString": "杂物"
+            }
+          }
+        ]
+      },
+      "Task_A_easy_10": {
+        "QuestId": "C101010",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_04",
+          "SourceString": "清理施工区域内的杂物",
+          "LocalizedString": "清理施工区域内的杂物"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_04",
+          "SourceString": "清理施工区域内的杂物",
+          "LocalizedString": "清理施工区域内的杂物"
+        },
+        "TaskGroupID": "GroupEasy_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Clear",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 7,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_garbage_001",
+              "SourceString": "杂物",
+              "LocalizedString": "杂物"
+            }
+          }
+        ]
+      },
+      "Task_A_normal_01": {
+        "QuestId": "C101011",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupNormal_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "2",
+            "GoodsTargetCount": 3,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_006",
+              "SourceString": "木板箱",
+              "LocalizedString": "木板箱"
+            }
+          },
+          {
+            "GoodsTag": "7",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_009",
+              "SourceString": "线材",
+              "LocalizedString": "线材"
+            }
+          },
+          {
+            "GoodsTag": "5",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_008",
+              "SourceString": "板材",
+              "LocalizedString": "板材"
+            }
+          }
+        ]
+      },
+      "Task_A_normal_02": {
+        "QuestId": "C101012",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupNormal_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "4",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_007",
+              "SourceString": "钢材",
+              "LocalizedString": "钢材"
+            }
+          },
+          {
+            "GoodsTag": "5",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_008",
+              "SourceString": "板材",
+              "LocalizedString": "板材"
+            }
+          },
+          {
+            "GoodsTag": "6",
+            "GoodsTargetCount": 2,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_005",
+              "SourceString": "石砖",
+              "LocalizedString": "石砖"
+            }
+          }
+        ]
+      },
+      "Task_A_normal_03": {
+        "QuestId": "C101013",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_05",
+          "SourceString": "压实施工区域内的路面",
+          "LocalizedString": "压实施工区域内的路面"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_05",
+          "SourceString": "压实施工区域内的路面",
+          "LocalizedString": "压实施工区域内的路面"
+        },
+        "TaskGroupID": "GroupNormal_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Roller",
+        "ForkliftGoodsArray": []
+      },
+      "Task_A_normal_04": {
+        "QuestId": "C101005",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_03",
+          "SourceString": "铲除施工区域内的土堆",
+          "LocalizedString": "铲除施工区域内的土堆"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_03",
+          "SourceString": "铲除施工区域内的土堆",
+          "LocalizedString": "铲除施工区域内的土堆"
+        },
+        "TaskGroupID": "GroupNormal_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_EarthMoving",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 3,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_sandpile_001",
+              "SourceString": "土堆",
+              "LocalizedString": "土堆"
+            }
+          }
+        ]
+      },
+      "Task_A_normal_06": {
+        "QuestId": "C101014",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_06",
+          "SourceString": "挖掘施工区域内的土方",
+          "LocalizedString": "挖掘施工区域内的土方"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_06",
+          "SourceString": "挖掘施工区域内的土方",
+          "LocalizedString": "挖掘施工区域内的土方"
+        },
+        "TaskGroupID": "GroupNormal_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Excavator",
+        "ForkliftGoodsArray": []
+      },
+      "Task_A_hard_01": {
+        "QuestId": "C101015",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupHard_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "4",
+            "GoodsTargetCount": 2,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_007",
+              "SourceString": "钢材",
+              "LocalizedString": "钢材"
+            }
+          },
+          {
+            "GoodsTag": "5",
+            "GoodsTargetCount": 2,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_008",
+              "SourceString": "板材",
+              "LocalizedString": "板材"
+            }
+          }
+        ]
+      },
+      "Task_A_hard_02": {
+        "QuestId": "C101016",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupHard_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "6",
+            "GoodsTargetCount": 2,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_005",
+              "SourceString": "石砖",
+              "LocalizedString": "石砖"
+            }
+          },
+          {
+            "GoodsTag": "2",
+            "GoodsTargetCount": 3,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_003",
+              "SourceString": "木板箱",
+              "LocalizedString": "木板箱"
+            }
+          },
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 6,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_001",
+              "SourceString": "油桶",
+              "LocalizedString": "油桶"
+            }
+          }
+        ]
+      },
+      "Task_A_hard_03": {
+        "QuestId": "C101013",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_05",
+          "SourceString": "压实施工区域内的路面",
+          "LocalizedString": "压实施工区域内的路面"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_05",
+          "SourceString": "压实施工区域内的路面",
+          "LocalizedString": "压实施工区域内的路面"
+        },
+        "TaskGroupID": "GroupHard_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Roller",
+        "ForkliftGoodsArray": []
+      },
+      "Task_A_hard_04": {
+        "QuestId": "C101014",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_06",
+          "SourceString": "挖掘施工区域内的土方",
+          "LocalizedString": "挖掘施工区域内的土方"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_06",
+          "SourceString": "挖掘施工区域内的土方",
+          "LocalizedString": "挖掘施工区域内的土方"
+        },
+        "TaskGroupID": "GroupHard_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Excavator",
+        "ForkliftGoodsArray": []
+      },
+      "Task_A_hard_05": {
+        "QuestId": "C101017",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_07",
+          "SourceString": "拆除施工区域内的建筑物",
+          "LocalizedString": "拆除施工区域内的建筑物"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_07",
+          "SourceString": "拆除施工区域内的建筑物",
+          "LocalizedString": "拆除施工区域内的建筑物"
+        },
+        "TaskGroupID": "GroupHard_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Demolition",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 8,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_destroy_001",
+              "SourceString": "墙面",
+              "LocalizedString": "墙面"
+            }
+          },
+          {
+            "GoodsTag": "2",
+            "GoodsTargetCount": 4,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_destroy_002",
+              "SourceString": "柱子",
+              "LocalizedString": "柱子"
+            }
+          }
+        ]
+      },
+      "Task_A_hard_06": {
+        "QuestId": "C101018",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_07",
+          "SourceString": "拆除施工区域内的建筑物",
+          "LocalizedString": "拆除施工区域内的建筑物"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_07",
+          "SourceString": "拆除施工区域内的建筑物",
+          "LocalizedString": "拆除施工区域内的建筑物"
+        },
+        "TaskGroupID": "GroupHard_A",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Demolition",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 10,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_destroy_001",
+              "SourceString": "墙面",
+              "LocalizedString": "墙面"
+            }
+          },
+          {
+            "GoodsTag": "2",
+            "GoodsTargetCount": 4,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_destroy_002",
+              "SourceString": "柱子",
+              "LocalizedString": "柱子"
+            }
+          }
+        ]
+      },
+      "Task_B_easy_01": {
+        "QuestId": "C101019",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupEasy_B",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "7",
+            "GoodsTargetCount": 2,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_009",
+              "SourceString": "线材",
+              "LocalizedString": "线材"
+            }
+          }
+        ]
+      },
+      "Task_B_easy_02": {
+        "QuestId": "C101020",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupEasy_B",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "3",
+            "GoodsTargetCount": 2,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_004",
+              "SourceString": "水泥",
+              "LocalizedString": "水泥"
+            }
+          }
+        ]
+      },
+      "Task_B_easy_03": {
+        "QuestId": "C101021",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_03",
+          "SourceString": "铲除施工区域内的土堆",
+          "LocalizedString": "铲除施工区域内的土堆"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_03",
+          "SourceString": "铲除施工区域内的土堆",
+          "LocalizedString": "铲除施工区域内的土堆"
+        },
+        "TaskGroupID": "GroupEasy_B",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_EarthMoving",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 3,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_sandpile_001",
+              "SourceString": "土堆",
+              "LocalizedString": "土堆"
+            }
+          }
+        ]
+      },
+      "Task_B_easy_04": {
+        "QuestId": "C101022",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_01",
+          "SourceString": "驾驶渣土车前往指定地点",
+          "LocalizedString": "驾驶渣土车前往指定地点"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_01",
+          "SourceString": "驾驶渣土车前往指定地点",
+          "LocalizedString": "驾驶渣土车前往指定地点"
+        },
+        "TaskGroupID": "GroupEasy_B",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_DumperTruck",
+        "ForkliftGoodsArray": []
+      },
+      "Task_B_easy_05": {
+        "QuestId": "C101023",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_04",
+          "SourceString": "清理施工区域内的杂物",
+          "LocalizedString": "清理施工区域内的杂物"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_04",
+          "SourceString": "清理施工区域内的杂物",
+          "LocalizedString": "清理施工区域内的杂物"
+        },
+        "TaskGroupID": "GroupEasy_B",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Clear",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 7,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_garbage_001",
+              "SourceString": "杂物",
+              "LocalizedString": "杂物"
+            }
+          }
+        ]
+      },
+      "Task_B_normal_01": {
+        "QuestId": "C101024",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupNormal_B",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 10,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_001",
+              "SourceString": "油桶",
+              "LocalizedString": "油桶"
+            }
+          },
+          {
+            "GoodsTag": "6",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_005",
+              "SourceString": "石砖",
+              "LocalizedString": "石砖"
+            }
+          }
+        ]
+      },
+      "Task_B_normal_02": {
+        "QuestId": "C101025",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_05",
+          "SourceString": "压实施工区域内的路面",
+          "LocalizedString": "压实施工区域内的路面"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_05",
+          "SourceString": "压实施工区域内的路面",
+          "LocalizedString": "压实施工区域内的路面"
+        },
+        "TaskGroupID": "GroupNormal_B",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Roller",
+        "ForkliftGoodsArray": []
+      },
+      "Task_B_normal_03": {
+        "QuestId": "C101026",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_06",
+          "SourceString": "挖掘施工区域内的土方",
+          "LocalizedString": "挖掘施工区域内的土方"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_06",
+          "SourceString": "挖掘施工区域内的土方",
+          "LocalizedString": "挖掘施工区域内的土方"
+        },
+        "TaskGroupID": "GroupNormal_B",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Excavator",
+        "ForkliftGoodsArray": []
+      },
+      "Task_B_hard_01": {
+        "QuestId": "C101024",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupHard_B",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 10,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_001",
+              "SourceString": "油桶",
+              "LocalizedString": "油桶"
+            }
+          },
+          {
+            "GoodsTag": "6",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_005",
+              "SourceString": "石砖",
+              "LocalizedString": "石砖"
+            }
+          }
+        ]
+      },
+      "Task_B_hard_03": {
+        "QuestId": "C101026",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_06",
+          "SourceString": "挖掘施工区域内的土方",
+          "LocalizedString": "挖掘施工区域内的土方"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_06",
+          "SourceString": "挖掘施工区域内的土方",
+          "LocalizedString": "挖掘施工区域内的土方"
+        },
+        "TaskGroupID": "GroupHard_B",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Excavator",
+        "ForkliftGoodsArray": []
+      },
+      "Task_B_hard_04": {
+        "QuestId": "C101027",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_07",
+          "SourceString": "拆除施工区域内的建筑物",
+          "LocalizedString": "拆除施工区域内的建筑物"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_07",
+          "SourceString": "拆除施工区域内的建筑物",
+          "LocalizedString": "拆除施工区域内的建筑物"
+        },
+        "TaskGroupID": "GroupHard_B",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Demolition",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 7,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_destroy_001",
+              "SourceString": "墙面",
+              "LocalizedString": "墙面"
+            }
+          },
+          {
+            "GoodsTag": "2",
+            "GoodsTargetCount": 4,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_destroy_002",
+              "SourceString": "柱子",
+              "LocalizedString": "柱子"
+            }
+          }
+        ]
+      },
+      "Task_C_easy_01": {
+        "QuestId": "C101028",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupEasy_C",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "2",
+            "GoodsTargetCount": 3,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_003",
+              "SourceString": "木板箱",
+              "LocalizedString": "木板箱"
+            }
+          }
+        ]
+      },
+      "Task_C_easy_02": {
+        "QuestId": "C101029",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupEasy_C",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "2",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_003",
+              "SourceString": "木板箱",
+              "LocalizedString": "木板箱"
+            }
+          },
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 4,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_001",
+              "SourceString": "油桶",
+              "LocalizedString": "油桶"
+            }
+          }
+        ]
+      },
+      "Task_C_easy_03": {
+        "QuestId": "C101030",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_03",
+          "SourceString": "铲除施工区域内的土堆",
+          "LocalizedString": "铲除施工区域内的土堆"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_03",
+          "SourceString": "铲除施工区域内的土堆",
+          "LocalizedString": "铲除施工区域内的土堆"
+        },
+        "TaskGroupID": "GroupEasy_C",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_EarthMoving",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 3,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_sandpile_001",
+              "SourceString": "土堆",
+              "LocalizedString": "土堆"
+            }
+          }
+        ]
+      },
+      "Task_C_easy_04": {
+        "QuestId": "C101031",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_01",
+          "SourceString": "驾驶渣土车前往指定地点",
+          "LocalizedString": "驾驶渣土车前往指定地点"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_01",
+          "SourceString": "驾驶渣土车前往指定地点",
+          "LocalizedString": "驾驶渣土车前往指定地点"
+        },
+        "TaskGroupID": "GroupEasy_C",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_DumperTruck",
+        "ForkliftGoodsArray": []
+      },
+      "Task_C_easy_05": {
+        "QuestId": "C101032",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_04",
+          "SourceString": "清理施工区域内的杂物",
+          "LocalizedString": "清理施工区域内的杂物"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_04",
+          "SourceString": "清理施工区域内的杂物",
+          "LocalizedString": "清理施工区域内的杂物"
+        },
+        "TaskGroupID": "GroupEasy_C",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Clear",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 7,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_garbage_001",
+              "SourceString": "杂物",
+              "LocalizedString": "杂物"
+            }
+          }
+        ]
+      },
+      "Task_C_normal_01": {
+        "QuestId": "C101033",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupNormal_C",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "6",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_005",
+              "SourceString": "石砖",
+              "LocalizedString": "石砖"
+            }
+          },
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 4,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_001",
+              "SourceString": "油桶",
+              "LocalizedString": "油桶"
+            }
+          },
+          {
+            "GoodsTag": "4",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_007",
+              "SourceString": "钢材",
+              "LocalizedString": "钢材"
+            }
+          }
+        ]
+      },
+      "Task_C_normal_02": {
+        "QuestId": "C101034",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_05",
+          "SourceString": "压实施工区域内的路面",
+          "LocalizedString": "压实施工区域内的路面"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_05",
+          "SourceString": "压实施工区域内的路面",
+          "LocalizedString": "压实施工区域内的路面"
+        },
+        "TaskGroupID": "GroupNormal_C",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Roller",
+        "ForkliftGoodsArray": []
+      },
+      "Task_C_normal_03": {
+        "QuestId": "C101035",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_06",
+          "SourceString": "挖掘施工区域内的土方",
+          "LocalizedString": "挖掘施工区域内的土方"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_06",
+          "SourceString": "挖掘施工区域内的土方",
+          "LocalizedString": "挖掘施工区域内的土方"
+        },
+        "TaskGroupID": "GroupNormal_C",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Excavator",
+        "ForkliftGoodsArray": []
+      },
+      "Task_C_hard_01": {
+        "QuestId": "C101033",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupHard_C",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "6",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_005",
+              "SourceString": "石砖",
+              "LocalizedString": "石砖"
+            }
+          },
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 4,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_001",
+              "SourceString": "油桶",
+              "LocalizedString": "油桶"
+            }
+          },
+          {
+            "GoodsTag": "4",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_007",
+              "SourceString": "钢材",
+              "LocalizedString": "钢材"
+            }
+          }
+        ]
+      },
+      "Task_C_hard_02": {
+        "QuestId": "C101035",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_06",
+          "SourceString": "挖掘施工区域内的土方",
+          "LocalizedString": "挖掘施工区域内的土方"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_06",
+          "SourceString": "挖掘施工区域内的土方",
+          "LocalizedString": "挖掘施工区域内的土方"
+        },
+        "TaskGroupID": "GroupHard_C",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Excavator",
+        "ForkliftGoodsArray": []
+      },
+      "Task_C_hard_03": {
+        "QuestId": "C101036",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_07",
+          "SourceString": "拆除施工区域内的建筑物",
+          "LocalizedString": "拆除施工区域内的建筑物"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_07",
+          "SourceString": "拆除施工区域内的建筑物",
+          "LocalizedString": "拆除施工区域内的建筑物"
+        },
+        "TaskGroupID": "GroupHard_C",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Demolition",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 4,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_destroy_001",
+              "SourceString": "墙面",
+              "LocalizedString": "墙面"
+            }
+          },
+          {
+            "GoodsTag": "2",
+            "GoodsTargetCount": 4,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_destroy_002",
+              "SourceString": "柱子",
+              "LocalizedString": "柱子"
+            }
+          }
+        ]
+      },
+      "Task_D_easy_01": {
+        "QuestId": "C101037",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupEasy_D",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 4,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_001",
+              "SourceString": "油桶",
+              "LocalizedString": "油桶"
+            }
+          },
+          {
+            "GoodsTag": "6",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_005",
+              "SourceString": "石砖",
+              "LocalizedString": "石砖"
+            }
+          }
+        ]
+      },
+      "Task_D_easy_02": {
+        "QuestId": "C101038",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_01",
+          "SourceString": "驾驶渣土车前往指定地点",
+          "LocalizedString": "驾驶渣土车前往指定地点"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_01",
+          "SourceString": "驾驶渣土车前往指定地点",
+          "LocalizedString": "驾驶渣土车前往指定地点"
+        },
+        "TaskGroupID": "GroupEasy_D",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_DumperTruck",
+        "ForkliftGoodsArray": []
+      },
+      "Task_D_normal_01": {
+        "QuestId": "C101039",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupNormal_D",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "3",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_004",
+              "SourceString": "水泥",
+              "LocalizedString": "水泥"
+            }
+          },
+          {
+            "GoodsTag": "2",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_003",
+              "SourceString": "木板箱",
+              "LocalizedString": "木板箱"
+            }
+          },
+          {
+            "GoodsTag": "7",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_009",
+              "SourceString": "线材",
+              "LocalizedString": "线材"
+            }
+          }
+        ]
+      },
+      "Task_D_normal_02": {
+        "QuestId": "C101040",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_07",
+          "SourceString": "拆除施工区域内的建筑物",
+          "LocalizedString": "拆除施工区域内的建筑物"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_07",
+          "SourceString": "拆除施工区域内的建筑物",
+          "LocalizedString": "拆除施工区域内的建筑物"
+        },
+        "TaskGroupID": "GroupNormal_D",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Demolition",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 4,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_destroy_001",
+              "SourceString": "墙面",
+              "LocalizedString": "墙面"
+            }
+          },
+          {
+            "GoodsTag": "2",
+            "GoodsTargetCount": 4,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_destroy_002",
+              "SourceString": "柱子",
+              "LocalizedString": "柱子"
+            }
+          }
+        ]
+      },
+      "Task_E_easy_01": {
+        "QuestId": "C101041",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupEasy_E",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 4,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_001",
+              "SourceString": "油桶",
+              "LocalizedString": "油桶"
+            }
+          },
+          {
+            "GoodsTag": "6",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_005",
+              "SourceString": "石砖",
+              "LocalizedString": "石砖"
+            }
+          }
+        ]
+      },
+      "Task_E_easy_02": {
+        "QuestId": "C101042",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_01",
+          "SourceString": "驾驶渣土车前往指定地点",
+          "LocalizedString": "驾驶渣土车前往指定地点"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_01",
+          "SourceString": "驾驶渣土车前往指定地点",
+          "LocalizedString": "驾驶渣土车前往指定地点"
+        },
+        "TaskGroupID": "GroupEasy_E",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_DumperTruck",
+        "ForkliftGoodsArray": []
+      },
+      "Task_E_normal_01": {
+        "QuestId": "C101043",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_02",
+          "SourceString": "将货物从货架搬运至载货区",
+          "LocalizedString": "将货物从货架搬运至载货区"
+        },
+        "TaskGroupID": "GroupNormal_E",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Forklift",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "3",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_004",
+              "SourceString": "水泥",
+              "LocalizedString": "水泥"
+            }
+          },
+          {
+            "GoodsTag": "2",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_003",
+              "SourceString": "木板箱",
+              "LocalizedString": "木板箱"
+            }
+          },
+          {
+            "GoodsTag": "7",
+            "GoodsTargetCount": 1,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_Forklift_009",
+              "SourceString": "线材",
+              "LocalizedString": "线材"
+            }
+          }
+        ]
+      },
+      "Task_E_normal_02": {
+        "QuestId": "C101044",
+        "TaskDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_07",
+          "SourceString": "拆除施工区域内的建筑物",
+          "LocalizedString": "拆除施工区域内的建筑物"
+        },
+        "TaskLongDesc": {
+          "TableId": "/Game/Text/ST_Construction.ST_Construction",
+          "Key": "Construction_task_desc_07",
+          "SourceString": "拆除施工区域内的建筑物",
+          "LocalizedString": "拆除施工区域内的建筑物"
+        },
+        "TaskGroupID": "GroupNormal_E",
+        "TaskWeight": 100,
+        "WorkType": "EHTConstructionSiteWorkType::Work_Demolition",
+        "ForkliftGoodsArray": [
+          {
+            "GoodsTag": "1",
+            "GoodsTargetCount": 4,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_destroy_001",
+              "SourceString": "墙面",
+              "LocalizedString": "墙面"
+            }
+          },
+          {
+            "GoodsTag": "2",
+            "GoodsTargetCount": 4,
+            "GoodsName": {
+              "TableId": "/Game/Text/ST_Construction.ST_Construction",
+              "Key": "Construction_destroy_002",
+              "SourceString": "柱子",
+              "LocalizedString": "柱子"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

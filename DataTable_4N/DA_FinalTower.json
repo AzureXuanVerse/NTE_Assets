@@ -261,7 +261,7 @@
               "TableId": "/Game/Text/ST_Ui.ST_Ui",
               "Key": "FT_Difficulty01",
               "SourceString": "故事",
-              "LocalizedString": "Story"
+              "LocalizedString": "故事"
             },
             "NeedCompleteQuestId": "L110303",
             "CharacterMaxLevel": 40
@@ -274,7 +274,7 @@
               "TableId": "/Game/Text/ST_Ui.ST_Ui",
               "Key": "FT_Difficulty02",
               "SourceString": "挑战",
-              "LocalizedString": "Challenge"
+              "LocalizedString": "挑战"
             },
             "NeedCompleteQuestId": "L110355",
             "CharacterMaxLevel": 100
@@ -287,7 +287,7 @@
               "TableId": "/Game/Text/ST_Ui.ST_Ui",
               "Key": "FT_Difficulty03",
               "SourceString": "噩梦",
-              "LocalizedString": "Nightmare"
+              "LocalizedString": "噩梦"
             },
             "NeedCompleteQuestId": "L110355_H1",
             "CharacterMaxLevel": 100
@@ -303,6 +303,587 @@
         "ObjectName": "Material'MM_Post_CaptureDistortion'",
         "ObjectPath": "/Game/CoreMaterials/PostEffects/CameraEffect/Color/CutTo/MM_Post_CaptureDistortion.0"
       },
+      "FloorChallengePortalId": "FloorChallenge",
+      "FloorChallengeTitleSystemID": "FinalTower_004",
+      "FloorChallengeDataTable": {
+        "ObjectName": "DataTable'DT_FT_FloorChallenge'",
+        "ObjectPath": "/Game/Maps_4N/DataTable/DT_FT_FloorChallenge.0"
+      },
+      "FloorChallengeRegularScaleInfo": [
+        {
+          "MaxFloorIndex": 1,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.0
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 0.0
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 5,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.045
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 0.045
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 10,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.055
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 0.116
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 15,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.067
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 0.17
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 20,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.082
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 0.257
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 25,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.1
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 0.403
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 30,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.123
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 0.657
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 35,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.151
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 1.045
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 40,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.185
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 1.705
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 45,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.227
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 2.856
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 50,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.278
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 4.921
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 55,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.341
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 8.732
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 60,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.418
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 15.979
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 65,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.512
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 24.047
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 70,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.627
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 34.018
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 75,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.768
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 45.482
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 80,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.941
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 57.771
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 85,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 1.153
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 70.064
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 90,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 1.412
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 81.512
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.006088
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 95,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 1.73
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 91.368
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 100,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 2.119
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 99.079
+            }
+          ]
+        }
+      ],
+      "FloorChallengeInfiniteScaleInfo": [
+        {
+          "MaxFloorIndex": 1,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 55.0
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 2500.0
+            },
+            {
+              "Key": "DefBase",
+              "Value": 0.536
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 20,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.05
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 22.509
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 40,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.053
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 25.04
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 70,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.056
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 27.856
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 100,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.059
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 32.912
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 150,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.062
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 38.504
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 200,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.065
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 49.986
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 275,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.068
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 64.021
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 350,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.071
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 90.998
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 600,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.075
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 127.198
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 750,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.079
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 301.213
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 1000,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.083
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 529.621
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 1500,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.084
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 994.483
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 2000,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.085
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 2196.631
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 3000,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.086
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 3306.567
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 5000,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.087
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 4646.687
+            }
+          ]
+        },
+        {
+          "MaxFloorIndex": 10000,
+          "PropertyAddScaleMap": [
+            {
+              "Key": "AtkBase",
+              "Value": 0.088
+            },
+            {
+              "Key": "HPMaxBase",
+              "Value": 6529.944
+            }
+          ]
+        }
+      ],
+      "FloorChallengeInfiniteMonsterLevel": 115,
       "CampPortalId": "CampDLC",
       "CampData": {
         "PlayerParticipant": {
@@ -484,7 +1065,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_WEAPON",
                 "Value": {
                   "IdentifyCostNum": 50,
-                  "BasePower": 10,
+                  "BasePower": 6,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 50,
                   "BaseScorePrice": 0,
@@ -495,7 +1076,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_CHEST",
                 "Value": {
                   "IdentifyCostNum": 50,
-                  "BasePower": 10,
+                  "BasePower": 6,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 50,
                   "BaseScorePrice": 0,
@@ -506,7 +1087,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_LEGS",
                 "Value": {
                   "IdentifyCostNum": 50,
-                  "BasePower": 10,
+                  "BasePower": 6,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 50,
                   "BaseScorePrice": 0,
@@ -517,7 +1098,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_SHOULDER",
                 "Value": {
                   "IdentifyCostNum": 50,
-                  "BasePower": 10,
+                  "BasePower": 6,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 50,
                   "BaseScorePrice": 0,
@@ -528,7 +1109,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_SHOES",
                 "Value": {
                   "IdentifyCostNum": 50,
-                  "BasePower": 10,
+                  "BasePower": 6,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 50,
                   "BaseScorePrice": 0,
@@ -539,7 +1120,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_ACCESSORY1",
                 "Value": {
                   "IdentifyCostNum": 50,
-                  "BasePower": 10,
+                  "BasePower": 6,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 50,
                   "BaseScorePrice": 0,
@@ -550,7 +1131,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_ACCESSORY2",
                 "Value": {
                   "IdentifyCostNum": 50,
-                  "BasePower": 10,
+                  "BasePower": 6,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 50,
                   "BaseScorePrice": 0,
@@ -568,7 +1149,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_WEAPON",
                 "Value": {
                   "IdentifyCostNum": 120,
-                  "BasePower": 10,
+                  "BasePower": 8,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 120,
                   "BaseScorePrice": 0,
@@ -579,7 +1160,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_CHEST",
                 "Value": {
                   "IdentifyCostNum": 120,
-                  "BasePower": 10,
+                  "BasePower": 8,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 120,
                   "BaseScorePrice": 0,
@@ -590,7 +1171,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_LEGS",
                 "Value": {
                   "IdentifyCostNum": 120,
-                  "BasePower": 10,
+                  "BasePower": 8,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 120,
                   "BaseScorePrice": 0,
@@ -601,7 +1182,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_SHOULDER",
                 "Value": {
                   "IdentifyCostNum": 120,
-                  "BasePower": 10,
+                  "BasePower": 8,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 120,
                   "BaseScorePrice": 0,
@@ -612,7 +1193,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_SHOES",
                 "Value": {
                   "IdentifyCostNum": 120,
-                  "BasePower": 10,
+                  "BasePower": 8,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 120,
                   "BaseScorePrice": 0,
@@ -623,7 +1204,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_ACCESSORY1",
                 "Value": {
                   "IdentifyCostNum": 120,
-                  "BasePower": 10,
+                  "BasePower": 8,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 120,
                   "BaseScorePrice": 0,
@@ -634,7 +1215,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_ACCESSORY2",
                 "Value": {
                   "IdentifyCostNum": 120,
-                  "BasePower": 10,
+                  "BasePower": 8,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 120,
                   "BaseScorePrice": 0,
@@ -736,7 +1317,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_WEAPON",
                 "Value": {
                   "IdentifyCostNum": 675,
-                  "BasePower": 10,
+                  "BasePower": 12,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 750,
                   "BaseScorePrice": 0,
@@ -747,7 +1328,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_CHEST",
                 "Value": {
                   "IdentifyCostNum": 675,
-                  "BasePower": 10,
+                  "BasePower": 12,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 750,
                   "BaseScorePrice": 0,
@@ -758,7 +1339,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_LEGS",
                 "Value": {
                   "IdentifyCostNum": 675,
-                  "BasePower": 10,
+                  "BasePower": 12,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 750,
                   "BaseScorePrice": 0,
@@ -769,7 +1350,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_SHOULDER",
                 "Value": {
                   "IdentifyCostNum": 675,
-                  "BasePower": 10,
+                  "BasePower": 12,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 750,
                   "BaseScorePrice": 0,
@@ -780,7 +1361,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_SHOES",
                 "Value": {
                   "IdentifyCostNum": 670,
-                  "BasePower": 10,
+                  "BasePower": 12,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 750,
                   "BaseScorePrice": 0,
@@ -791,7 +1372,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_ACCESSORY1",
                 "Value": {
                   "IdentifyCostNum": 675,
-                  "BasePower": 10,
+                  "BasePower": 12,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 750,
                   "BaseScorePrice": 0,
@@ -802,7 +1383,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_ACCESSORY2",
                 "Value": {
                   "IdentifyCostNum": 675,
-                  "BasePower": 10,
+                  "BasePower": 12,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 750,
                   "BaseScorePrice": 0,
@@ -820,7 +1401,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_WEAPON",
                 "Value": {
                   "IdentifyCostNum": 2700,
-                  "BasePower": 10,
+                  "BasePower": 15,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 3000,
                   "BaseScorePrice": 0,
@@ -831,7 +1412,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_CHEST",
                 "Value": {
                   "IdentifyCostNum": 2700,
-                  "BasePower": 10,
+                  "BasePower": 15,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 3000,
                   "BaseScorePrice": 0,
@@ -842,7 +1423,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_LEGS",
                 "Value": {
                   "IdentifyCostNum": 2700,
-                  "BasePower": 10,
+                  "BasePower": 15,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 3000,
                   "BaseScorePrice": 0,
@@ -853,7 +1434,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_SHOULDER",
                 "Value": {
                   "IdentifyCostNum": 2700,
-                  "BasePower": 10,
+                  "BasePower": 15,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 3000,
                   "BaseScorePrice": 0,
@@ -864,7 +1445,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_SHOES",
                 "Value": {
                   "IdentifyCostNum": 2700,
-                  "BasePower": 10,
+                  "BasePower": 15,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 3000,
                   "BaseScorePrice": 0,
@@ -875,7 +1456,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_ACCESSORY1",
                 "Value": {
                   "IdentifyCostNum": 2700,
-                  "BasePower": 10,
+                  "BasePower": 15,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 3000,
                   "BaseScorePrice": 0,
@@ -886,7 +1467,7 @@
                 "Key": "EItemType::ITEM_TYPE_FINAL_TOWER_ACCESSORY2",
                 "Value": {
                   "IdentifyCostNum": 2700,
-                  "BasePower": 10,
+                  "BasePower": 15,
                   "LevelPowerKey": "PowerMain",
                   "BasePrice": 3000,
                   "BaseScorePrice": 0,
@@ -920,7 +1501,7 @@
             "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
             "Key": "Career_Swordman",
             "SourceString": "剑士",
-            "LocalizedString": "Swordsman"
+            "LocalizedString": "剑士"
           }
         },
         {
@@ -929,7 +1510,7 @@
             "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
             "Key": "Career_Mage",
             "SourceString": "法师",
-            "LocalizedString": "Mage"
+            "LocalizedString": "法师"
           }
         },
         {
@@ -938,7 +1519,7 @@
             "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
             "Key": "Career_Warrior",
             "SourceString": "野蛮人",
-            "LocalizedString": "Barbarian"
+            "LocalizedString": "野蛮人"
           }
         },
         {
@@ -947,7 +1528,7 @@
             "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
             "Key": "Career_Civilian",
             "SourceString": "平民",
-            "LocalizedString": "Commoner"
+            "LocalizedString": "平民"
           }
         },
         {
@@ -956,7 +1537,7 @@
             "TableId": "/Game/Maps_4N/DataTable/ST_FinalTower_UI.ST_FinalTower_UI",
             "Key": "Career_DragonKnight",
             "SourceString": "龙骑士",
-            "LocalizedString": "Dragon Knight"
+            "LocalizedString": "龙骑士"
           }
         }
       ],
@@ -1048,6 +1629,7 @@
       },
       "EnterSpecLoadingID": "DLC_Maps_4N_Entry",
       "ExitSpecLoadingID": "DLC_Maps_4N_Exit",
+      "MaxRecycleCount": 50,
       "ShopRecycleCoin": "FTGoldCoin",
       "ShopRecycleSelectLevel": [
         {

@@ -1,0 +1,3538 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_LikeabilityChatItemData_1072",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Package": "/Game/DataTable/LikeabilitySystem/chatitem/DT_LikeabilityChatItemData_1072",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'LikeabilityChatItemData'",
+        "ObjectPath": "/Script/HTGame"
+      }
+    },
+    "Rows": {
+      "1072_a_1": {
+        "ChatID": "1072_a",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": true,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": true,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::DailyLife",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [
+          {
+            "ChatConditionType": "ELikeabilityChatConditionType::LikeabilityLevel",
+            "ConfigValue": 4,
+            "ConfigID": "1072"
+          }
+        ],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_a_1",
+          "SourceString": "鉴定师鉴定师，虽然可能会有点突然",
+          "LocalizedString": "鉴定师鉴定师，虽然可能会有点突然"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_a_2",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::Notice",
+        "LikeabilityID": "1072",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_a_2": {
+        "ChatID": "1072_a",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_a_2",
+          "SourceString": "要一起去找外星人吗<TypingImg id=\"Bagel_yanwenzi_002\"/>",
+          "LocalizedString": "要一起去找外星人吗<TypingImg id=\"Bagel_yanwenzi_002\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_a_2_a",
+              "SourceString": "还真是够突然的",
+              "LocalizedString": "还真是够突然的"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_a_3_1"
+          },
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_a_2_b",
+              "SourceString": "居然有外星人？！",
+              "LocalizedString": "居然有外星人？！"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_a_3_2"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_a_3_1": {
+        "ChatID": "1072_a",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_a_3_1",
+          "SourceString": "还真是够突然的。",
+          "LocalizedString": "还真是够突然的。"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_a_4_1",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_a_3_2": {
+        "ChatID": "1072_a",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_a_3_2",
+          "SourceString": "海特洛居然有外星人？！",
+          "LocalizedString": "海特洛居然有外星人？！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_a_4_2",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_a_4_1": {
+        "ChatID": "1072_a",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_a_4_1",
+          "SourceString": "因为是刚刚突然找到的",
+          "LocalizedString": "因为是刚刚突然找到的"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_a_5_1",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_a_4_2": {
+        "ChatID": "1072_a",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_a_4_2",
+          "SourceString": "没错<TypingImg id=\"Bagel_yanwenzi_002\"/>",
+          "LocalizedString": "没错<TypingImg id=\"Bagel_yanwenzi_002\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_a_5_2",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_a_5_1": {
+        "ChatID": "1072_a",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_a_5_1",
+          "SourceString": "外星人的飞船<TypingImg id=\"Bagel_yanwenzi_002\"/>",
+          "LocalizedString": "外星人的飞船<TypingImg id=\"Bagel_yanwenzi_002\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_a_5_a",
+              "SourceString": "不过",
+              "LocalizedString": "不过"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_a_6"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_a_5_2": {
+        "ChatID": "1072_a",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_a_5_2",
+          "SourceString": "我找到了他们的飞船",
+          "LocalizedString": "我找到了他们的飞船"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_a_5_a",
+              "SourceString": "不过",
+              "LocalizedString": "不过"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_a_6"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_a_6": {
+        "ChatID": "1072_a",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_a_6",
+          "SourceString": "不过，为什么会来邀请我呢？",
+          "LocalizedString": "不过，为什么会来邀请我呢？"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_a_7",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_a_7": {
+        "ChatID": "1072_a",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_a_7",
+          "SourceString": "因为对鉴定师的电波有印象",
+          "LocalizedString": "因为对鉴定师的电波有印象"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_a_8",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_a_8": {
+        "ChatID": "1072_a",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_a_8",
+          "SourceString": "有一种，会对外星人感兴趣的感觉<TypingImg id=\"Bagel_yanwenzi_002\"/>",
+          "LocalizedString": "有一种，会对外星人感兴趣的感觉<TypingImg id=\"Bagel_yanwenzi_002\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_a_9",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_a_9": {
+        "ChatID": "1072_a",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_a_9",
+          "SourceString": "鉴定师要一起来吗？",
+          "LocalizedString": "鉴定师要一起来吗？"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_a_9_a",
+              "SourceString": "来！",
+              "LocalizedString": "来！"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_a_10_1"
+          },
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_a_9_b",
+              "SourceString": "马上出发~",
+              "LocalizedString": "马上出发~"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_a_10_2"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_a_10_1": {
+        "ChatID": "1072_a",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_a_10_1",
+          "SourceString": "来！<TypingImg id=\"Bagel_yanwenzi_002\"/>",
+          "LocalizedString": "来！<TypingImg id=\"Bagel_yanwenzi_002\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_a_11",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_a_10_2": {
+        "ChatID": "1072_a",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_a_10_2",
+          "SourceString": "马上出发~",
+          "LocalizedString": "马上出发~"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_a_11",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_a_11": {
+        "ChatID": "1072_a",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_a_11",
+          "SourceString": "好耶<TypingImg id=\"Bagel_yanwenzi_002\"/>",
+          "LocalizedString": "好耶<TypingImg id=\"Bagel_yanwenzi_002\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_a_11end",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_a_11end": {
+        "ChatID": "1072_a",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": true,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": true,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": true,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::CancelActive",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Quest",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_a_11",
+          "SourceString": "好耶<TypingImg id=\"Bagel_yanwenzi_002\"/>",
+          "LocalizedString": "好耶<TypingImg id=\"Bagel_yanwenzi_002\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "K112401",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "1072",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_b_1": {
+        "ChatID": "1072_b",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": true,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": true,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::DailyLife",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [
+          {
+            "ChatConditionType": "ELikeabilityChatConditionType::LikeabilityLevel",
+            "ConfigValue": 5,
+            "ConfigID": "1072"
+          },
+          {
+            "ChatConditionType": "ELikeabilityChatConditionType::Quest",
+            "ConfigValue": 1,
+            "ConfigID": "K112403"
+          }
+        ],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_b_1",
+          "SourceString": "鉴定师鉴定师，虽然可能会有点突然",
+          "LocalizedString": "鉴定师鉴定师，虽然可能会有点突然"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_b_2",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::Notice",
+        "LikeabilityID": "1072",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_b_2": {
+        "ChatID": "1072_b",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_b_2",
+          "SourceString": "你认识能修理闹鬼电视机的人吗<TypingImg id=\"Bagel_yanwenzi_003\"/>",
+          "LocalizedString": "你认识能修理闹鬼电视机的人吗<TypingImg id=\"Bagel_yanwenzi_003\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_b_2_a",
+              "SourceString": "听着像是驱魔师的工作。",
+              "LocalizedString": "听着像是驱魔师的工作。"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_b_3_1"
+          },
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_b_2_b",
+              "SourceString": "难道是灵可平时背着的那台？",
+              "LocalizedString": "难道是灵可平时背着的那台？"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_b_3_2"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_b_3_1": {
+        "ChatID": "1072_b",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_b_3_1",
+          "SourceString": "修理闹鬼的电视机……听着像是驱魔师的工作。",
+          "LocalizedString": "修理闹鬼的电视机……听着像是驱魔师的工作。"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_b_4_1",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_b_3_2": {
+        "ChatID": "1072_b",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_b_3_2",
+          "SourceString": "闹鬼的电视……难道是灵可平时背着的那台？",
+          "LocalizedString": "闹鬼的电视……难道是灵可平时背着的那台？"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_b_4_2",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_b_4_1": {
+        "ChatID": "1072_b",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_b_4_1",
+          "SourceString": "不可以！会把小贞驱散的<TypingImg id=\"Bagel_yanwenzi_003\"/>",
+          "LocalizedString": "不可以！会把小贞驱散的<TypingImg id=\"Bagel_yanwenzi_003\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_b_4_1_a",
+              "SourceString": "原来是…",
+              "LocalizedString": "原来是…"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_b_5_1_1"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_b_4_2": {
+        "ChatID": "1072_b",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_b_4_2",
+          "SourceString": "嗯嗯，就是小贞的窝<TypingImg id=\"Bagel_yanwenzi_003\"/>",
+          "LocalizedString": "嗯嗯，就是小贞的窝<TypingImg id=\"Bagel_yanwenzi_003\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_b_6",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_b_5_1_1": {
+        "ChatID": "1072_b",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_b_5_1_1",
+          "SourceString": "原来是小贞住的那台吗！",
+          "LocalizedString": "原来是小贞住的那台吗！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_b_6",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_b_6": {
+        "ChatID": "1072_b",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_b_6",
+          "SourceString": "昨天执行任务的时候，我不小心掉进了海里，回家之后发现电视打不开了……",
+          "LocalizedString": "昨天执行任务的时候，我不小心掉进了海里，回家之后发现电视打不开了……"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_b_6_a",
+              "SourceString": "灵可没受伤吧？",
+              "LocalizedString": "灵可没受伤吧？"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_b_7_1"
+          },
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_b_6_b",
+              "SourceString": "小贞情况如何？",
+              "LocalizedString": "小贞情况如何？"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_b_7_2"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_b_7_1": {
+        "ChatID": "1072_b",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_b_7_1",
+          "SourceString": "掉进了海里？！你没受伤吧？",
+          "LocalizedString": "掉进了海里？！你没受伤吧？"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_b_8_1",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_b_7_2": {
+        "ChatID": "1072_b",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_b_7_2",
+          "SourceString": "电视打不开的话……那小贞怎么样了？",
+          "LocalizedString": "电视打不开的话……那小贞怎么样了？"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_b_8_2",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_b_8_1": {
+        "ChatID": "1072_b",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_b_8_1",
+          "SourceString": "我没有事，但自从电视坏掉之后，小贞就再没出现过了<TypingImg id=\"Bagel_yanwenzi_003\"/>",
+          "LocalizedString": "我没有事，但自从电视坏掉之后，小贞就再没出现过了<TypingImg id=\"Bagel_yanwenzi_003\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_b_8_a",
+              "SourceString": "或许我可以帮忙……",
+              "LocalizedString": "或许我可以帮忙……"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_b_9"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_b_8_2": {
+        "ChatID": "1072_b",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_b_8_2",
+          "SourceString": "我不知道，从那之后她一直没有出来<TypingImg id=\"Bagel_yanwenzi_003\"/>",
+          "LocalizedString": "我不知道，从那之后她一直没有出来<TypingImg id=\"Bagel_yanwenzi_003\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_b_8_a",
+              "SourceString": "或许我可以帮忙……",
+              "LocalizedString": "或许我可以帮忙……"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_b_9"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_b_9": {
+        "ChatID": "1072_b",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_b_9",
+          "SourceString": "如果是确认小贞的情况，我倒是可以帮上忙。",
+          "LocalizedString": "如果是确认小贞的情况，我倒是可以帮上忙。"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_b_10",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_b_10": {
+        "ChatID": "1072_b",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_b_10",
+          "SourceString": "真的吗！谢谢鉴定师！",
+          "LocalizedString": "真的吗！谢谢鉴定师！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_b_11",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_b_11": {
+        "ChatID": "1072_b",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_b_11",
+          "SourceString": "我们在旧电器店这边！",
+          "LocalizedString": "我们在旧电器店这边！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_b_11end",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_b_11end": {
+        "ChatID": "1072_b",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": true,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": true,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": true,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::CancelActive",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Quest",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_b_11",
+          "SourceString": "我们在旧电器店这边！",
+          "LocalizedString": "我们在旧电器店这边！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "K112404",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "1072",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_c_1": {
+        "ChatID": "1072_c",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": true,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": true,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::DailyLife",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [
+          {
+            "ChatConditionType": "ELikeabilityChatConditionType::LikeabilityLevel",
+            "ConfigValue": 6,
+            "ConfigID": "1072"
+          },
+          {
+            "ChatConditionType": "ELikeabilityChatConditionType::Quest",
+            "ConfigValue": 1,
+            "ConfigID": "K112406"
+          }
+        ],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_c_1",
+          "SourceString": "鉴定师鉴定师，虽然可能会有点突然",
+          "LocalizedString": "鉴定师鉴定师，虽然可能会有点突然"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_c_1_a",
+              "SourceString": "每次都很突然呢",
+              "LocalizedString": "每次都很突然呢"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_c_2_1"
+          },
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_c_1_b",
+              "SourceString": "灵可直接说吧~",
+              "LocalizedString": "灵可直接说吧~"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_c_2_2"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::Notice",
+        "LikeabilityID": "1072",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_c_2_1": {
+        "ChatID": "1072_c",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_c_2_1",
+          "SourceString": "每次都很突然呢",
+          "LocalizedString": "每次都很突然呢"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_c_3",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_c_2_2": {
+        "ChatID": "1072_c",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_c_2_2",
+          "SourceString": "灵可有什么事就直接说吧~",
+          "LocalizedString": "灵可有什么事就直接说吧~"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_c_3",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_c_3": {
+        "ChatID": "1072_c",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_c_3",
+          "SourceString": "也是呢",
+          "LocalizedString": "也是呢"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_c_4",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_c_4": {
+        "ChatID": "1072_c",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_c_4",
+          "SourceString": "我想给鉴定师介绍一个来自宇宙的朋友",
+          "LocalizedString": "我想给鉴定师介绍一个来自宇宙的朋友"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_c_4_a",
+              "SourceString": "这回真的有点突然了",
+              "LocalizedString": "这回真的有点突然了"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_c_5_1"
+          },
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_c_4_b",
+              "SourceString": "我也想认识一下灵可的朋友",
+              "LocalizedString": "我也想认识一下灵可的朋友"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_c_5_2"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_c_5_1": {
+        "ChatID": "1072_c",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_c_5_1",
+          "SourceString": "这回真的有点突然了，居然是来自宇宙的朋友！",
+          "LocalizedString": "这回真的有点突然了，居然是来自宇宙的朋友！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_c_6",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_c_5_2": {
+        "ChatID": "1072_c",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_c_5_2",
+          "SourceString": "好呀，我也想认识一下灵可的朋友。",
+          "LocalizedString": "好呀，我也想认识一下灵可的朋友。"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_c_6",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_c_6": {
+        "ChatID": "1072_c",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_c_6",
+          "SourceString": "它的行程很赶，和我们见一面就会离开",
+          "LocalizedString": "它的行程很赶，和我们见一面就会离开"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_c_7",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_c_7": {
+        "ChatID": "1072_c",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_c_7",
+          "SourceString": "我们就在……那个离宇宙最近的地方见面吧<TypingImg id=\"Bagel_yanwenzi_003\"/>",
+          "LocalizedString": "我们就在……那个离宇宙最近的地方见面吧<TypingImg id=\"Bagel_yanwenzi_003\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_c_8",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_c_8": {
+        "ChatID": "1072_c",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_c_8",
+          "SourceString": "一直以来谢谢你，鉴定师",
+          "LocalizedString": "一直以来谢谢你，鉴定师"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_c_8end",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_c_8end": {
+        "ChatID": "1072_c",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": true,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": true,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": true,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::CancelActive",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Quest",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_c_8",
+          "SourceString": "一直以来谢谢你，鉴定师",
+          "LocalizedString": "一直以来谢谢你，鉴定师"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "K112407",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "1072",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_1": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": true,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": true,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_1",
+          "SourceString": "鉴定师鉴定师<TypingImg id=\"Bagel_yanwenzi_002\"/>",
+          "LocalizedString": "鉴定师鉴定师<TypingImg id=\"Bagel_yanwenzi_002\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_2",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::NextDay",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::Notice",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_2": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_2",
+          "SourceString": "这次任务真是太惊险了，还好能顺利解决！",
+          "LocalizedString": "这次任务真是太惊险了，还好能顺利解决！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_2_2_a",
+              "SourceString": "也辛苦灵可了",
+              "LocalizedString": "也辛苦灵可了"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_2_3"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_3": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_3",
+          "SourceString": "也辛苦灵可了，还好管理局的大家合作无间，伊南娜的阴谋才没有得逞。",
+          "LocalizedString": "也辛苦灵可了，还好管理局的大家合作无间，伊南娜的阴谋才没有得逞。"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_4",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_4": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_4",
+          "SourceString": "灵可在里面，和妮夏一起打败了一条超级异象大蛇",
+          "LocalizedString": "灵可在里面，和妮夏一起打败了一条超级异象大蛇"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_5",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_5": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_5",
+          "SourceString": "按理说，它由我们首次发现，应该是我们来起名字<TypingImg id=\"Bagel_yanwenzi_002\"/>",
+          "LocalizedString": "按理说，它由我们首次发现，应该是我们来起名字<TypingImg id=\"Bagel_yanwenzi_002\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_6",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_6": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_6",
+          "SourceString": "当时还打算给它起个很帅的名字来着，但实在是来不及了",
+          "LocalizedString": "当时还打算给它起个很帅的名字来着，但实在是来不及了"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_7",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_7": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_7",
+          "SourceString": "噢！还有个新发现！小贞居然害怕蛇！",
+          "LocalizedString": "噢！还有个新发现！小贞居然害怕蛇！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_2_7_a",
+              "SourceString": "居然有这种事",
+              "LocalizedString": "居然有这种事"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_2_8_1"
+          },
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_2_7_b",
+              "SourceString": "其实我也怕",
+              "LocalizedString": "其实我也怕"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_2_8_2"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_8_1": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_8_1",
+          "SourceString": "你们那边居然是这样的经历……",
+          "LocalizedString": "你们那边居然是这样的经历……"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_9",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_8_2": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_8_2",
+          "SourceString": "如果是很大的蛇，那确实挺危险的……我见到我也怕。",
+          "LocalizedString": "如果是很大的蛇，那确实挺危险的……我见到我也怕。"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_9",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_9": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_9",
+          "SourceString": "……抛开危险的部分，其实还挺好玩的？让我想起以前玩过的游戏……是什么来着……",
+          "LocalizedString": "……抛开危险的部分，其实还挺好玩的？让我想起以前玩过的游戏……是什么来着……"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_10",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_10": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_10",
+          "SourceString": "不记得了，但总之挺有趣的！",
+          "LocalizedString": "不记得了，但总之挺有趣的！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_2_10_1",
+              "SourceString": "那就好",
+              "LocalizedString": "那就好"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_2_11"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_11": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_11",
+          "SourceString": "能留下美好的记忆那也不错……",
+          "LocalizedString": "能留下美好的记忆那也不错……"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_12",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_12": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_12",
+          "SourceString": "也有超级糟糕的回忆！在最后的仪式现场里，那个突然冒出来的家伙——",
+          "LocalizedString": "也有超级糟糕的回忆！在最后的仪式现场里，那个突然冒出来的家伙——"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_13",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_13": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_13",
+          "SourceString": "它的电波……很难去描述，像是锯片从钢管上刮过的声音，或者猫爪挠黑板的声音，或者说……",
+          "LocalizedString": "它的电波……很难去描述，像是锯片从钢管上刮过的声音，或者猫爪挠黑板的声音，或者说……"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_14",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_14": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_14",
+          "SourceString": "呃唔……光是回忆都感觉很难受——总之就是真的超级超级难听！难听到我甚至想把所有频带都切断的程度！",
+          "LocalizedString": "呃唔……光是回忆都感觉很难受——总之就是真的超级超级难听！难听到我甚至想把所有频带都切断的程度！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_2_14_a",
+              "SourceString": "我也难受",
+              "LocalizedString": "我也难受"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_2_15"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_15": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_15",
+          "SourceString": "光看描述我也能感觉到难受……",
+          "LocalizedString": "光看描述我也能感觉到难受……"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_16",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_16": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_16",
+          "SourceString": "把它和鉴定师的电波放在一起，完全就是两个极端！",
+          "LocalizedString": "把它和鉴定师的电波放在一起，完全就是两个极端！"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_17",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_17": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_17",
+          "SourceString": "希望再也不用听到那家伙的电波了<TypingImg id=\"Bagel_yanwenzi_003\"/>",
+          "LocalizedString": "希望再也不用听到那家伙的电波了<TypingImg id=\"Bagel_yanwenzi_003\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_2_17_a",
+              "SourceString": "希望如此",
+              "LocalizedString": "希望如此"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_2_18"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_18": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_18",
+          "SourceString": "我也希望如此……别再惹上那个麻烦了",
+          "LocalizedString": "我也希望如此……别再惹上那个麻烦了"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_19",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_19": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_19",
+          "SourceString": "但不管怎么说，记录对象电波的特征也是我的工作，虽然真的很难听，我还是专门写了一份关于它的观察报告……",
+          "LocalizedString": "但不管怎么说，记录对象电波的特征也是我的工作，虽然真的很难听，我还是专门写了一份关于它的观察报告……"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_20",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_20": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_20",
+          "SourceString": "说起来，我的记录本好像被局长收走了，到现在都没还给我",
+          "LocalizedString": "说起来，我的记录本好像被局长收走了，到现在都没还给我"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_21",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_21": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_21",
+          "SourceString": "噢！我还在上面画了大蛇的样子，还写了我起的名字，说不定是局长喜欢上了<TypingImg id=\"Bagel_yanwenzi_002\"/>",
+          "LocalizedString": "噢！我还在上面画了大蛇的样子，还写了我起的名字，说不定是局长喜欢上了<TypingImg id=\"Bagel_yanwenzi_002\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_2_21_a",
+              "SourceString": "但愿是这样",
+              "LocalizedString": "但愿是这样"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_2_22"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_22": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_22",
+          "SourceString": "但愿是这样把……也可能因为是大型任务，需要整理很久……",
+          "LocalizedString": "但愿是这样把……也可能因为是大型任务，需要整理很久……"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_23",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_23": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_23",
+          "SourceString": "不说这个了。灵可给大蛇起了什么名字？",
+          "LocalizedString": "不说这个了。灵可给大蛇起了什么名字？"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_24",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_24": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_24",
+          "SourceString": "「大力铁头蛇」<TypingImg id=\"Bagel_yanwenzi_002\"/>",
+          "LocalizedString": "「大力铁头蛇」<TypingImg id=\"Bagel_yanwenzi_002\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Text",
+        "Options": [
+          {
+            "OptionText": {
+              "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+              "Key": "1072_2_24_a",
+              "SourceString": "真是直白易懂",
+              "LocalizedString": "真是直白易懂"
+            },
+            "OptionIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "NextSetenceID": "1072_2_25"
+          }
+        ],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_25": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": true,
+        "bIsLastSetenceInDay": false,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": false,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": false,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": true,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_25",
+          "SourceString": "真是直白易懂的好名字，比管理局起的名字好懂多了。",
+          "LocalizedString": "真是直白易懂的好名字，比管理局起的名字好懂多了。"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "1072_2_26",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      },
+      "1072_2_26": {
+        "ChatID": "1072_2",
+        "RoleId": "1072",
+        "bIsPlayer": false,
+        "bIsLastSetenceInDay": true,
+        "bIsFirstSetenceInSequence": false,
+        "bIsLastSetenceInSequence": true,
+        "bActiveRedPoint": false,
+        "bUnActiveRedPoint": true,
+        "ChatFlagType": "ELikeabilityActiveChatFLagType::NoOperate",
+        "ChatType": "ELikeabilityChatType::Event",
+        "Conditions": [],
+        "bIsImmediatelyShow": false,
+        "ChatItemType": "ELikeabilityChatItemType::Normal",
+        "Content": {
+          "TableId": "/Game/Text/ST_Likeability.ST_Likeability",
+          "Key": "1072_2_26",
+          "SourceString": "嘿嘿，谢谢鉴定师<TypingImg id=\"Bagel_yanwenzi_002\"/>",
+          "LocalizedString": "嘿嘿，谢谢鉴定师<TypingImg id=\"Bagel_yanwenzi_002\"/>"
+        },
+        "ParaContent": "",
+        "IconSource": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "QuestId": "None",
+        "DropID": "None",
+        "OptionType": "ELikeabilityChatOptionType::Null",
+        "Options": [],
+        "NextSetenceID": "None",
+        "HideChatIDs": [],
+        "ForceRefreshChatDatas": [],
+        "ForceRefreshChatID": "None",
+        "AddLikeabilityValue": 0,
+        "ChatPushType": "ELikeabilityChatPushType::Immediately",
+        "PustGameTimeDay": 1,
+        "PustGameTimeHour": 8,
+        "DelayPushTime": 0.0,
+        "ChatNoticeType": "ELikeabilityChatNoticeType::None",
+        "LikeabilityID": "None",
+        "LivingEmojiMaterial": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        }
+      }
+    }
+  }
+]

@@ -42,6 +42,22 @@
         "ObjectName": "DataTable'DT_BidKingBot'",
         "ObjectPath": "/Game/DataTable/BidKing/DT_BidKingBot.0"
       },
+      "BidKingEffectConfigDataTable": {
+        "ObjectName": "DataTable'DT_BidKingEffect'",
+        "ObjectPath": "/Game/DataTable/BidKing/DT_BidKingEffect.0"
+      },
+      "BidKingSoundConfigDataTable": {
+        "ObjectName": "DataTable'DT_BidKingSound'",
+        "ObjectPath": "/Game/DataTable/BidKing/DT_BidKingSound.0"
+      },
+      "BidkingSeasonSimpleQuest": {
+        "ObjectName": "DataTable'DT_BidkingSeasonSimpleQuest'",
+        "ObjectPath": "/Game/DataTable/BidKing/DT_BidkingSeasonSimpleQuest.0"
+      },
+      "BidkingSeasonTime": {
+        "ObjectName": "DataTable'DT_BidkingSeasonTime'",
+        "ObjectPath": "/Game/DataTable/BidKing/DT_BidkingSeasonTime.0"
+      },
       "AllowanceCurrencyID": "BidkingCoin",
       "AllowanceGetCount": 5,
       "AllowanceThreshold": 100000,
@@ -55,6 +71,7 @@
       "BotBidPriceDelayTime": 10.0,
       "NewPlayerCoin": 100000,
       "NewPlayerPassCoin": 3000000,
+      "SoundShowCount": 2,
       "AnimMontageMap": [
         {
           "Key": "StartRound",
@@ -161,8 +178,53 @@
           "Value": 0.4
         }
       ],
-      "MaxExhibEarnings": 20000,
-      "MaxExhibTotalEarnings": 2000000
+      "ExhibCollectionAmount": 99,
+      "MaxExhibTotalEarnings": 9999999,
+      "MaxExhibTotalEarnings_Fons": 350000,
+      "CompendiumQualityIconMap": [
+        {
+          "Key": "ITEM_QUALITY_RED",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Bid/Handbook/YH_UI_Auction_Task_dot6.YH_UI_Auction_Task_dot6",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "ITEM_QUALITY_ORANGE",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Bid/Handbook/YH_UI_Auction_Task_dot5.YH_UI_Auction_Task_dot5",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "ITEM_QUALITY_PURPLE",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Bid/Handbook/YH_UI_Auction_Task_dot4.YH_UI_Auction_Task_dot4",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "ITEM_QUALITY_BLUE",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Bid/Handbook/YH_UI_Auction_Task_dot3.YH_UI_Auction_Task_dot3",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "ITEM_QUALITY_GREEN",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Bid/Handbook/YH_UI_Auction_Task_dot2.YH_UI_Auction_Task_dot2",
+            "SubPathString": ""
+          }
+        },
+        {
+          "Key": "ITEM_QUALITY_WHITE",
+          "Value": {
+            "AssetPathName": "/Game/UI/UI/Bid/Handbook/YH_UI_Auction_Task_dot1.YH_UI_Auction_Task_dot1",
+            "SubPathString": ""
+          }
+        }
+      ]
     }
   }
 ]

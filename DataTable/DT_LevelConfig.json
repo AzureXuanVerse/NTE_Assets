@@ -65,6 +65,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -81,8 +82,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "XL_map_bigworld_test": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -142,6 +142,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -158,8 +159,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Castle_Demo": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -229,6 +229,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -245,8 +246,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "TestMap_yaoql": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -301,6 +301,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -317,8 +318,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_FilmOrbit_map_WP": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -326,13 +326,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_FilmOrbit_map_Title",
           "SourceString": "「菲林轨迹」照相馆",
-          "LocalizedString": "Film Orbit Studio"
+          "LocalizedString": "「菲林轨迹」照相馆"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_FilmOrbit_map_Title",
           "SourceString": "「菲林轨迹」照相馆",
-          "LocalizedString": "Film Orbit Studio"
+          "LocalizedString": "「菲林轨迹」照相馆"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -376,7 +376,7 @@
         "MainFormThemeID": "None",
         "ShieldUIFlags": 1,
         "ShieldFunctionID": "StoryClone",
-        "bLimitCloneEffect": false,
+        "bLimitCloneEffect": true,
         "bLimitCanVault": false,
         "bLimitCanVines": false,
         "bLimitCanMelee": false,
@@ -398,6 +398,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": true,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -414,8 +415,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_hotel": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -423,13 +423,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_hotel",
           "SourceString": "「卡佩」大酒店",
-          "LocalizedString": "The Kapé"
+          "LocalizedString": "「卡佩」大酒店"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_hotel",
           "SourceString": "「卡佩」大酒店",
-          "LocalizedString": "The Kapé"
+          "LocalizedString": "「卡佩」大酒店"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -473,7 +473,7 @@
         "MainFormThemeID": "None",
         "ShieldUIFlags": 1,
         "ShieldFunctionID": "StoryClone",
-        "bLimitCloneEffect": false,
+        "bLimitCloneEffect": true,
         "bLimitCanVault": false,
         "bLimitCanVines": false,
         "bLimitCanMelee": false,
@@ -495,6 +495,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": true,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -511,8 +512,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_SpiralDreams": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -520,13 +520,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_SpiralDreams",
           "SourceString": "「游梦洄廊」",
-          "LocalizedString": "Dreamwalk Corridor"
+          "LocalizedString": "「游梦洄廊」"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_SpiralDreams",
           "SourceString": "「游梦洄廊」",
-          "LocalizedString": "Dreamwalk Corridor"
+          "LocalizedString": "「游梦洄廊」"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -592,6 +592,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": true,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -608,8 +609,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "testwyan": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -667,6 +667,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -683,8 +684,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Hockshop": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -692,13 +692,13 @@
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DLC_Hockshop_Name",
           "SourceString": "月光当铺",
-          "LocalizedString": "Pawn Moonlight"
+          "LocalizedString": "月光当铺"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DLC_Hockshop_Introduce",
           "SourceString": "月光当铺是异象墨菲克斯产生的单独空间，只有拥有强烈愿望的人才能进入。",
-          "LocalizedString": "Pawn Moonlight is a separate space created by the Anomaly Morphix; only those with strong desires can enter."
+          "LocalizedString": "月光当铺是异象墨菲克斯产生的单独空间，只有拥有强烈愿望的人才能进入。"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -764,6 +764,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": true,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -780,8 +781,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_MoonDog": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -789,13 +789,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_MoonDog",
           "SourceString": "「月亮狗之夜」",
-          "LocalizedString": "Night of Moondog"
+          "LocalizedString": "「月亮狗之夜」"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_MoonDog",
           "SourceString": "「月亮狗之夜」",
-          "LocalizedString": "Night of Moondog"
+          "LocalizedString": "「月亮狗之夜」"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -837,7 +837,7 @@
         "MainFormThemeID": "None",
         "ShieldUIFlags": 1,
         "ShieldFunctionID": "StoryClone",
-        "bLimitCloneEffect": false,
+        "bLimitCloneEffect": true,
         "bLimitCanVault": false,
         "bLimitCanVines": false,
         "bLimitCanMelee": false,
@@ -859,6 +859,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": true,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -875,8 +876,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "Zhuqing_level_WP": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -931,6 +931,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -947,8 +948,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "Testmap_liuyang": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -1003,6 +1003,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -1019,8 +1020,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Battle_WP": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -1075,6 +1075,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -1091,8 +1092,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Battle_WP1": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -1147,6 +1147,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -1163,8 +1164,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Battle_WP2": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -1219,6 +1219,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -1235,8 +1236,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Battle_WP3": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -1291,6 +1291,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -1307,8 +1308,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "Updater_P": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_UPDATER",
@@ -1363,6 +1363,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -1379,8 +1380,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "MassAI_wtao": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -1435,6 +1435,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -1451,8 +1452,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "Testmap_cc2": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -1507,6 +1507,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -1523,8 +1524,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "FilmOrbit_map_WP_World": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -1532,13 +1532,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_FilmOrbit_map_Title",
           "SourceString": "「菲林轨迹」照相馆",
-          "LocalizedString": "Film Orbit Studio"
+          "LocalizedString": "「菲林轨迹」照相馆"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_FilmOrbit_map_Title",
           "SourceString": "「菲林轨迹」照相馆",
-          "LocalizedString": "Film Orbit Studio"
+          "LocalizedString": "「菲林轨迹」照相馆"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -1602,6 +1602,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": true,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -1618,8 +1619,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Hockshop_week": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -1674,6 +1674,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -1690,8 +1691,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_RT_C1": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_RACING_PVP",
@@ -1699,13 +1699,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_RT_C1",
           "SourceString": "城际巡回",
-          "LocalizedString": "Intercity Tour"
+          "LocalizedString": "城际巡回"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_RT_C1",
           "SourceString": "城际巡回",
-          "LocalizedString": "Intercity Tour"
+          "LocalizedString": "城际巡回"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -1752,6 +1752,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -1768,8 +1769,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_RT_C2": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_RACING_PVP",
@@ -1777,13 +1777,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_RT_C2",
           "SourceString": "日落霓虹",
-          "LocalizedString": "Sunset Neon"
+          "LocalizedString": "日落霓虹"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_RT_C2",
           "SourceString": "日落霓虹",
-          "LocalizedString": "Sunset Neon"
+          "LocalizedString": "日落霓虹"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -1830,6 +1830,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -1846,8 +1847,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_RT_C1_clone": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -1855,13 +1855,13 @@
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DLC_RT_C1_clone_name",
           "SourceString": "试驾中心",
-          "LocalizedString": "Test Drive Center"
+          "LocalizedString": "试驾中心"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DLC_RT_C1_clone_name",
           "SourceString": "试驾中心",
-          "LocalizedString": "Test Drive Center"
+          "LocalizedString": "试驾中心"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -1908,6 +1908,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -1924,8 +1925,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_RT_C2_Racing": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_RACING_PVP",
@@ -1933,13 +1933,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_RT_C2",
           "SourceString": "日落霓虹",
-          "LocalizedString": "Sunset Neon"
+          "LocalizedString": "日落霓虹"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_RT_C2",
           "SourceString": "日落霓虹",
-          "LocalizedString": "Sunset Neon"
+          "LocalizedString": "日落霓虹"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -1986,6 +1986,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": true,
@@ -2002,8 +2003,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Hotel_Week": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -2058,6 +2058,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -2074,8 +2075,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Magic_TrialCharacte": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -2130,6 +2130,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -2146,8 +2147,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Museum_Lamp": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -2155,13 +2155,13 @@
           "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
           "Key": "NPC_1004_Lamp_Name",
           "SourceString": "钨丝",
-          "LocalizedString": "Tungsten"
+          "LocalizedString": "钨丝"
         },
         "Description": {
           "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
           "Key": "NPC_1004_Lamp_Name",
           "SourceString": "钨丝",
-          "LocalizedString": "Tungsten"
+          "LocalizedString": "钨丝"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -2227,6 +2227,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": true,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -2243,8 +2244,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Museum_Lamp_Story2": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -2252,13 +2252,13 @@
           "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
           "Key": "NPC_1004_Lamp_Name",
           "SourceString": "钨丝",
-          "LocalizedString": "Tungsten"
+          "LocalizedString": "钨丝"
         },
         "Description": {
           "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
           "Key": "NPC_1004_Lamp_Name",
           "SourceString": "钨丝",
-          "LocalizedString": "Tungsten"
+          "LocalizedString": "钨丝"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -2324,6 +2324,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": true,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": true,
         "bLimitSpawnVehicle": false,
@@ -2340,8 +2341,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "TestMap_Racing_WP": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -2396,6 +2396,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -2412,8 +2413,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "hz_level_wp": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -2468,6 +2468,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -2484,8 +2485,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "TestMap_Racing_PVP": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_RACING_PVP",
@@ -2540,6 +2540,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -2556,8 +2557,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "TeachCloneTest": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_MAX",
@@ -2612,6 +2612,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -2628,8 +2629,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_TrialCharacter_Rabbit": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -2684,6 +2684,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -2700,8 +2701,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_DunnerHouse": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -2775,6 +2775,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": true,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -2791,8 +2792,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "MassAI_WUJINGJING": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -2847,6 +2847,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -2863,8 +2864,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "TestMap_zhanghao": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -2919,6 +2919,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -2935,13 +2936,15 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Bank_Safety": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
         "Title": {
-          "CultureInvariantString": null
+          "TableId": "/Game/Text/ST_robbank.ST_robbank",
+          "Key": "Bank_floor_01",
+          "SourceString": "银行大厅",
+          "LocalizedString": "银行大厅"
         },
         "Description": {
           "CultureInvariantString": null
@@ -2968,7 +2971,7 @@
         "MapEntranceList": [],
         "MainFormThemeID": "None",
         "ShieldUIFlags": 1,
-        "ShieldFunctionID": "StoryClone",
+        "ShieldFunctionID": "Bank",
         "bLimitCloneEffect": true,
         "bLimitCanVault": true,
         "bLimitCanVines": true,
@@ -2991,6 +2994,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": true,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -3007,8 +3011,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": false,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": false
       },
       "DLC_Hospital_FB": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -3063,6 +3066,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": true,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -3079,8 +3083,7 @@
         },
         "bUseEmptyQuickBar": true,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "Map_Tetris_Connected": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -3135,6 +3138,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -3151,8 +3155,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "Map_MaruiTest": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -3207,6 +3210,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -3223,8 +3227,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "TestMap_Mahjong": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -3279,6 +3282,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -3295,8 +3299,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "Trinity_AcceptLayer_None": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -3351,6 +3354,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -3367,8 +3371,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "zhahonb_level": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -3423,6 +3426,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -3439,8 +3443,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "Maps_4N": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_FINAL_TOWER",
@@ -3448,7 +3451,7 @@
           "TableId": "/Game/Maps_4N/Text/ST_MapAreaDetails_4N.ST_MapAreaDetails_4N",
           "Key": "4N_Main",
           "SourceString": "沃伦大陆",
-          "LocalizedString": "Warren Continent"
+          "LocalizedString": "沃伦大陆"
         },
         "Description": {
           "CultureInvariantString": null
@@ -3521,6 +3524,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": true,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": true,
@@ -3537,8 +3541,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "FinalTower",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "TestMap_youjf": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
@@ -3597,6 +3600,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -3613,8 +3617,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "Map_JudianTestMap": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_FINAL_TOWER",
@@ -3669,6 +3672,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -3685,8 +3689,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_DunnerHouse_Week": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -3741,6 +3744,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -3757,99 +3761,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
-      },
-      "DLC_WuChao_Art": {
-        "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
-        "Title": {
-          "CultureInvariantString": null
-        },
-        "Description": {
-          "CultureInvariantString": null
-        },
-        "StrategyText": {
-          "CultureInvariantString": null
-        },
-        "TrackLimit": {
-          "bEnableCrossMapTrack": true,
-          "bDisableSwitchTrack": true,
-          "bEnableCrossBoxTrack": true,
-          "bUseNavPathEffect": true,
-          "bForceNoNavPathEffect": true,
-          "bEnableTrackTeammate": true,
-          "LimitTrackChapterID": "MU01_06",
-          "LimitTrackChapterList": [
-            "MU01_06"
-          ],
-          "bMiniMapIconNeedCrossBox": false,
-          "bShowQuestItemDistance": true
-        },
-        "bShowTeammateTrack": false,
-        "bCanVines": false,
-        "bGuideNPCEnabled": true,
-        "SingleExtensionData": {
-          "ExitMapName": "",
-          "Rotator": {
-            "Pitch": 0.0,
-            "Yaw": 0.0,
-            "Roll": 0.0
-          },
-          "Translation": {
-            "X": 0.0,
-            "Y": 0.0,
-            "Z": 0.0
-          },
-          "EnterSpecLoadingID": "",
-          "EnterTransformID": "DLC_Wuchao_Art_int",
-          "ExitSpecLoadingID": ""
-        },
-        "MapEntranceList": [
-          "To_DLC_Wuchao_Art"
-        ],
-        "MainFormThemeID": "None",
-        "ShieldUIFlags": 1,
-        "ShieldFunctionID": "StoryClone",
-        "bLimitCloneEffect": true,
-        "bLimitCanVault": false,
-        "bLimitCanVines": true,
-        "bLimitCanMelee": false,
-        "bLimitCanAbility": false,
-        "bLimitCanEvade": false,
-        "bLimitCanJump": false,
-        "bLimitCanSecondJump": false,
-        "bLimitCanUltSkill": false,
-        "bLimitCanRun": false,
-        "bLimitCanSprint": false,
-        "bLimitCanGliding": false,
-        "bLimitCanDynamicGravity": false,
-        "bLimitCanCantChangePlayer": false,
-        "bLimitCanAnim": false,
-        "bLimitCanDriving": true,
-        "bLimitCanForkAbility": false,
-        "bLimitCanSneak": false,
-        "bLimitCanJinEffect": false,
-        "bLimitCanCloseMainUI": false,
-        "bLimitCanForbiddenMainUIT": false,
-        "bLimitCanPassThroughWalls": false,
-        "bLimitCanCloseChase": true,
-        "bLimitLevelClock": false,
-        "bLimitSpawnVehicle": false,
-        "bShowSoundMuteButton": false,
-        "ResetLocation": {
-          "X": 0.0,
-          "Y": 0.0,
-          "Z": 0.0
-        },
-        "ResetRotator": {
-          "Pitch": 0.0,
-          "Yaw": 0.0,
-          "Roll": 0.0
-        },
-        "bUseEmptyQuickBar": false,
-        "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_WuChao": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_SINGLE_LEVEL",
@@ -3877,7 +3789,7 @@
           "bShowQuestItemDistance": true
         },
         "bShowTeammateTrack": false,
-        "bCanVines": false,
+        "bCanVines": true,
         "bGuideNPCEnabled": true,
         "SingleExtensionData": {
           "ExitMapName": "",
@@ -3891,19 +3803,19 @@
             "Y": 0.0,
             "Z": 0.0
           },
-          "EnterSpecLoadingID": "",
+          "EnterSpecLoadingID": "DLC_WuChao_Entry",
           "EnterTransformID": "DLC_Wuchao_int",
-          "ExitSpecLoadingID": ""
+          "ExitSpecLoadingID": "DLC_WuChao_Exit"
         },
         "MapEntranceList": [
-          "To_DLC_Wuchao"
+          "DLC_Wuchao"
         ],
         "MainFormThemeID": "None",
         "ShieldUIFlags": 1,
         "ShieldFunctionID": "StoryClone",
         "bLimitCloneEffect": true,
         "bLimitCanVault": false,
-        "bLimitCanVines": true,
+        "bLimitCanVines": false,
         "bLimitCanMelee": false,
         "bLimitCanAbility": false,
         "bLimitCanEvade": false,
@@ -3912,20 +3824,21 @@
         "bLimitCanUltSkill": false,
         "bLimitCanRun": false,
         "bLimitCanSprint": false,
-        "bLimitCanGliding": false,
+        "bLimitCanGliding": true,
         "bLimitCanDynamicGravity": false,
         "bLimitCanCantChangePlayer": false,
         "bLimitCanAnim": false,
         "bLimitCanDriving": true,
         "bLimitCanForkAbility": false,
         "bLimitCanSneak": false,
-        "bLimitCanJinEffect": false,
+        "bLimitCanJinEffect": true,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": true,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
-        "bLimitSpawnVehicle": false,
+        "bLimitSpawnVehicle": true,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -3939,8 +3852,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_School_HideAndSeek": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_PROPHUNT",
@@ -3995,6 +3907,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -4011,8 +3924,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_BidKing01": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -4067,6 +3979,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -4083,8 +3996,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": "BidkingMainForm"
+        "bCanUIOpenPauseTime": true
       },
       "DLC_BidKing02": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -4139,6 +4051,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -4155,8 +4068,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": "BidkingMainForm"
+        "bCanUIOpenPauseTime": true
       },
       "DLC_BidKing03": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -4211,6 +4123,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -4227,8 +4140,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": "BidkingMainForm"
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Volleyball": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
@@ -4236,13 +4148,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_RT_C2",
           "SourceString": "日落霓虹",
-          "LocalizedString": "Sunset Neon"
+          "LocalizedString": "日落霓虹"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_RT_C2",
           "SourceString": "日落霓虹",
-          "LocalizedString": "Sunset Neon"
+          "LocalizedString": "日落霓虹"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -4289,6 +4201,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": true,
@@ -4305,8 +4218,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_FilmOrbit_HideAndSeek": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_PROPHUNT",
@@ -4361,6 +4273,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -4377,8 +4290,7 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
       },
       "DLC_Hospital_HideAndSeek": {
         "SceneType": "ELevelSceneType::LEVEL_TYPE_PROPHUNT",
@@ -4433,6 +4345,7 @@
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": false,
@@ -4449,8 +4362,301 @@
         },
         "bUseEmptyQuickBar": false,
         "QuickBarProfileTag": "None",
-        "bCanUIOpenPauseTime": true,
-        "LeaveCloneOpenUIClass": ""
+        "bCanUIOpenPauseTime": true
+      },
+      "PVERoguelike": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bDisableSwitchTrack": false,
+          "bEnableCrossBoxTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false,
+          "LimitTrackChapterID": "None",
+          "LimitTrackChapterList": [],
+          "bMiniMapIconNeedCrossBox": false,
+          "bShowQuestItemDistance": true
+        },
+        "bShowTeammateTrack": false,
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [],
+        "MainFormThemeID": "None",
+        "ShieldUIFlags": 1,
+        "ShieldFunctionID": "Racing",
+        "bLimitCloneEffect": false,
+        "bLimitCanVault": false,
+        "bLimitCanVines": false,
+        "bLimitCanMelee": false,
+        "bLimitCanAbility": false,
+        "bLimitCanEvade": false,
+        "bLimitCanJump": false,
+        "bLimitCanSecondJump": false,
+        "bLimitCanUltSkill": false,
+        "bLimitCanRun": false,
+        "bLimitCanSprint": false,
+        "bLimitCanGliding": false,
+        "bLimitCanDynamicGravity": false,
+        "bLimitCanCantChangePlayer": false,
+        "bLimitCanAnim": false,
+        "bLimitCanDriving": true,
+        "bLimitCanForkAbility": false,
+        "bLimitCanSneak": false,
+        "bLimitCanJinEffect": false,
+        "bLimitCanCloseMainUI": false,
+        "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
+        "bLimitCanCloseChase": true,
+        "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
+        "bShowSoundMuteButton": false,
+        "ResetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ResetRotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseEmptyQuickBar": false,
+        "QuickBarProfileTag": "None",
+        "bCanUIOpenPauseTime": true
+      },
+      "DLC_WaterDrive": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
+        "Title": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_RT_C1_clone_name",
+          "SourceString": "试驾中心",
+          "LocalizedString": "试驾中心"
+        },
+        "Description": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_RT_C1_clone_name",
+          "SourceString": "试驾中心",
+          "LocalizedString": "试驾中心"
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bDisableSwitchTrack": false,
+          "bEnableCrossBoxTrack": true,
+          "bUseNavPathEffect": false,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false,
+          "LimitTrackChapterID": "None",
+          "LimitTrackChapterList": [],
+          "bMiniMapIconNeedCrossBox": false,
+          "bShowQuestItemDistance": true
+        },
+        "bShowTeammateTrack": false,
+        "bCanVines": false,
+        "bGuideNPCEnabled": false,
+        "SingleExtensionData": null,
+        "MapEntranceList": [],
+        "MainFormThemeID": "None",
+        "ShieldUIFlags": 1,
+        "ShieldFunctionID": "NormalClone",
+        "bLimitCloneEffect": false,
+        "bLimitCanVault": false,
+        "bLimitCanVines": false,
+        "bLimitCanMelee": false,
+        "bLimitCanAbility": false,
+        "bLimitCanEvade": false,
+        "bLimitCanJump": false,
+        "bLimitCanSecondJump": false,
+        "bLimitCanUltSkill": false,
+        "bLimitCanRun": false,
+        "bLimitCanSprint": false,
+        "bLimitCanGliding": false,
+        "bLimitCanDynamicGravity": false,
+        "bLimitCanCantChangePlayer": false,
+        "bLimitCanAnim": false,
+        "bLimitCanDriving": true,
+        "bLimitCanForkAbility": false,
+        "bLimitCanSneak": false,
+        "bLimitCanJinEffect": false,
+        "bLimitCanCloseMainUI": false,
+        "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
+        "bLimitCanCloseChase": true,
+        "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
+        "bShowSoundMuteButton": false,
+        "ResetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ResetRotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseEmptyQuickBar": false,
+        "QuickBarProfileTag": "None",
+        "bCanUIOpenPauseTime": true
+      },
+      "DLC_DunnerHouse_canhongdate": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bDisableSwitchTrack": false,
+          "bEnableCrossBoxTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false,
+          "LimitTrackChapterID": "None",
+          "LimitTrackChapterList": [],
+          "bMiniMapIconNeedCrossBox": false,
+          "bShowQuestItemDistance": true
+        },
+        "bShowTeammateTrack": false,
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [],
+        "MainFormThemeID": "None",
+        "ShieldUIFlags": 0,
+        "ShieldFunctionID": "None",
+        "bLimitCloneEffect": true,
+        "bLimitCanVault": false,
+        "bLimitCanVines": true,
+        "bLimitCanMelee": false,
+        "bLimitCanAbility": false,
+        "bLimitCanEvade": false,
+        "bLimitCanJump": false,
+        "bLimitCanSecondJump": false,
+        "bLimitCanUltSkill": false,
+        "bLimitCanRun": false,
+        "bLimitCanSprint": false,
+        "bLimitCanGliding": false,
+        "bLimitCanDynamicGravity": false,
+        "bLimitCanCantChangePlayer": false,
+        "bLimitCanAnim": false,
+        "bLimitCanDriving": true,
+        "bLimitCanForkAbility": false,
+        "bLimitCanSneak": false,
+        "bLimitCanJinEffect": false,
+        "bLimitCanCloseMainUI": false,
+        "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
+        "bLimitCanCloseChase": true,
+        "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
+        "bShowSoundMuteButton": false,
+        "ResetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ResetRotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseEmptyQuickBar": false,
+        "QuickBarProfileTag": "None",
+        "bCanUIOpenPauseTime": true
+      },
+      "HTFluxTestMap": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_OUTDOOR",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bDisableSwitchTrack": false,
+          "bEnableCrossBoxTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false,
+          "LimitTrackChapterID": "None",
+          "LimitTrackChapterList": [],
+          "bMiniMapIconNeedCrossBox": false,
+          "bShowQuestItemDistance": true
+        },
+        "bShowTeammateTrack": false,
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [],
+        "MainFormThemeID": "None",
+        "ShieldUIFlags": 0,
+        "ShieldFunctionID": "None",
+        "bLimitCloneEffect": false,
+        "bLimitCanVault": false,
+        "bLimitCanVines": false,
+        "bLimitCanMelee": false,
+        "bLimitCanAbility": false,
+        "bLimitCanEvade": false,
+        "bLimitCanJump": false,
+        "bLimitCanSecondJump": false,
+        "bLimitCanUltSkill": false,
+        "bLimitCanRun": false,
+        "bLimitCanSprint": false,
+        "bLimitCanGliding": false,
+        "bLimitCanDynamicGravity": false,
+        "bLimitCanCantChangePlayer": false,
+        "bLimitCanAnim": false,
+        "bLimitCanDriving": true,
+        "bLimitCanForkAbility": false,
+        "bLimitCanSneak": false,
+        "bLimitCanJinEffect": false,
+        "bLimitCanCloseMainUI": false,
+        "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
+        "bLimitCanLongPressFly": false,
+        "bLimitCanCloseChase": true,
+        "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
+        "bShowSoundMuteButton": false,
+        "ResetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ResetRotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseEmptyQuickBar": false,
+        "QuickBarProfileTag": "None",
+        "bCanUIOpenPauseTime": true
       }
     }
   }

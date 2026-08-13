@@ -19,7 +19,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_1_1",
           "SourceString": "画质",
-          "LocalizedString": "Graphics Quality"
+          "LocalizedString": "画质"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -61,7 +61,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_1_2",
           "SourceString": "分辨率",
-          "LocalizedString": "Resolution"
+          "LocalizedString": "分辨率"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -95,6 +95,48 @@
         "SliderValueEvent": null,
         "Condition": null,
         "bPlaystationShow": false
+      },
+      "Graphics_IosSimple": {
+        "Category": "ESettingCategory::Graphics",
+        "PlatformToDisplay": 1,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "setting_ios_simple",
+          "SourceString": "极简模式",
+          "LocalizedString": "极简模式"
+        },
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+          },
+          "RowName": "Graphics_IosSimple"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 100
+          }
+        },
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
+        "Condition": {},
+        "bPlaystationShow": true
       },
       "Graphics_FSR3Switch": {
         "Category": "ESettingCategory::Graphics",
@@ -187,7 +229,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_FSR_FrameGen",
           "SourceString": "FSR3 帧生成",
-          "LocalizedString": "FSR3 Frame Generation"
+          "LocalizedString": "FSR3 帧生成"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -271,7 +313,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Graphics_DLSS_Name",
           "SourceString": "超分",
-          "LocalizedString": "DLSS Super Resolution"
+          "LocalizedString": "超分"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -313,7 +355,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Graphics_DLSS_Strameline",
           "SourceString": "插帧",
-          "LocalizedString": "Frame Interpolation"
+          "LocalizedString": "插帧"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -355,7 +397,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_1_3",
           "SourceString": "抗锯齿",
-          "LocalizedString": "Anti-Aliasing"
+          "LocalizedString": "抗锯齿"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -397,7 +439,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_1_3",
           "SourceString": "抗锯齿",
-          "LocalizedString": "Anti-Aliasing"
+          "LocalizedString": "抗锯齿"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -439,7 +481,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Graphics_DLSS_Strameline",
           "SourceString": "插帧",
-          "LocalizedString": "Frame Interpolation"
+          "LocalizedString": "插帧"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -474,6 +516,90 @@
         "Condition": {},
         "bPlaystationShow": false
       },
+      "Graphics_QNSS_SR": {
+        "Category": "ESettingCategory::Graphics",
+        "PlatformToDisplay": 8,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_QNSS_SR",
+          "SourceString": "QNSS超分",
+          "LocalizedString": "QNSS超分"
+        },
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+          },
+          "RowName": "Graphics_QNSS_SR"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 100
+          }
+        },
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
+        "Condition": {},
+        "bPlaystationShow": true
+      },
+      "Graphics_QNSS_FI": {
+        "Category": "ESettingCategory::Graphics",
+        "PlatformToDisplay": 8,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_QNSS_FI",
+          "SourceString": "QNSS超帧",
+          "LocalizedString": "QNSS超帧"
+        },
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+          },
+          "RowName": "Graphics_QNSS_FI"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 100
+          }
+        },
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
+        "Condition": {},
+        "bPlaystationShow": true
+      },
       "Graphics_ScreenPercentage": {
         "Category": "ESettingCategory::Graphics",
         "PlatformToDisplay": 18,
@@ -481,7 +607,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_1_6",
           "SourceString": "渲染精度",
-          "LocalizedString": "Rendering Accuracy"
+          "LocalizedString": "渲染精度"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -523,7 +649,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_1_6",
           "SourceString": "渲染精度",
-          "LocalizedString": "Rendering Accuracy"
+          "LocalizedString": "渲染精度"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -607,7 +733,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_1_5",
           "SourceString": "帧数",
-          "LocalizedString": "Frame Rate"
+          "LocalizedString": "帧数"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -649,7 +775,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_GI_Name",
           "SourceString": "全局光照模式",
-          "LocalizedString": "Global Illumination Mode"
+          "LocalizedString": "全局光照模式"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -691,7 +817,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_GI_Name",
           "SourceString": "全局光照模式",
-          "LocalizedString": "Global Illumination Mode"
+          "LocalizedString": "全局光照模式"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -733,7 +859,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_Reflection_Name",
           "SourceString": "反射模式",
-          "LocalizedString": "Reflection Mode"
+          "LocalizedString": "反射模式"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -775,7 +901,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Graphics_RT_Title",
           "SourceString": "光线追踪",
-          "LocalizedString": "Ray Tracing"
+          "LocalizedString": "光线追踪"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -817,7 +943,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Graphics_DenoiserMode",
           "SourceString": "光线重构",
-          "LocalizedString": "Ray Reconstruction"
+          "LocalizedString": "光线重构"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -859,7 +985,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_1_7",
           "SourceString": "贴图纹理",
-          "LocalizedString": "Texture Mapping"
+          "LocalizedString": "贴图纹理"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -901,7 +1027,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_1_8",
           "SourceString": "材质",
-          "LocalizedString": "Texture"
+          "LocalizedString": "材质"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -943,7 +1069,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_1_9",
           "SourceString": "植被",
-          "LocalizedString": "Foliage"
+          "LocalizedString": "植被"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -985,7 +1111,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_1_10",
           "SourceString": "视距",
-          "LocalizedString": "View Distance"
+          "LocalizedString": "视距"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1027,7 +1153,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_1_11",
           "SourceString": "后处理",
-          "LocalizedString": "Post-Processing"
+          "LocalizedString": "后处理"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1069,7 +1195,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Graphics_VSync",
           "SourceString": "垂直同步",
-          "LocalizedString": "VSync"
+          "LocalizedString": "垂直同步"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1111,7 +1237,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Graphics_Sharpen",
           "SourceString": "锐化",
-          "LocalizedString": "Sharpening"
+          "LocalizedString": "锐化"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -1153,7 +1279,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_1_12",
           "SourceString": "饱和度",
-          "LocalizedString": "Saturation"
+          "LocalizedString": "饱和度"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -1195,7 +1321,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_1_13",
           "SourceString": "亮度",
-          "LocalizedString": "Brightness"
+          "LocalizedString": "亮度"
         },
         "ChooseType": "ESettingChooseType::OpenUI",
         "OptionDataRow": {
@@ -1222,7 +1348,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_1_14",
           "SourceString": "调整",
-          "LocalizedString": "Adjust"
+          "LocalizedString": "调整"
         },
         "ShowInputType": "ESettingInputType::All",
         "ComboBoxOptionEvent": null,
@@ -1237,7 +1363,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Graphics_MotionBlur",
           "SourceString": "动态模糊",
-          "LocalizedString": "Motion Blur"
+          "LocalizedString": "动态模糊"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1279,7 +1405,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "DefaultKey_36",
           "SourceString": "系统功能",
-          "LocalizedString": "System Features"
+          "LocalizedString": "系统功能"
         },
         "ChooseType": "ESettingChooseType::Tip",
         "OptionDataRow": {
@@ -1318,7 +1444,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "setting_OpenHitPause",
           "SourceString": "定帧",
-          "LocalizedString": "Frame Freezing"
+          "LocalizedString": "定帧"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1360,7 +1486,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "setting_CameraShake",
           "SourceString": "屏幕抖动",
-          "LocalizedString": "Screen Shake"
+          "LocalizedString": "屏幕抖动"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1402,7 +1528,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_DamageFloats",
           "SourceString": "伤害显示",
-          "LocalizedString": "Damage Display"
+          "LocalizedString": "伤害显示"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1444,7 +1570,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_NpcCanDialogMarkShow",
           "SourceString": "可对话头顶标识显示",
-          "LocalizedString": "Dialogue Indicator Display"
+          "LocalizedString": "可对话头顶标识显示"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1479,6 +1605,48 @@
         "Condition": null,
         "bPlaystationShow": true
       },
+      "Setting_PlayerHeadUpPxShow": {
+        "Category": "ESettingCategory::System",
+        "PlatformToDisplay": 511,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "Setting_PlayerHeadUpPxShow",
+          "SourceString": "屏蔽其他玩家姓名板",
+          "LocalizedString": "屏蔽其他玩家姓名板"
+        },
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+          },
+          "RowName": "Setting_PlayerHeadUpPxShow"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 100
+          }
+        },
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
+        "Condition": null,
+        "bPlaystationShow": true
+      },
       "Setting_PlayerBufferList": {
         "Category": "ESettingCategory::System",
         "PlatformToDisplay": 511,
@@ -1486,7 +1654,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_PlayerBufferList",
           "SourceString": "角色状态栏显示",
-          "LocalizedString": "Character Status Display"
+          "LocalizedString": "角色状态栏显示"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1528,7 +1696,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_MonsterBufferList",
           "SourceString": "怪物状态栏显示",
-          "LocalizedString": "Monster Status Display"
+          "LocalizedString": "怪物状态栏显示"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1570,7 +1738,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_BufferSimplifiedMode",
           "SourceString": "状态栏精简模式",
-          "LocalizedString": "Compact Status Bar Mode"
+          "LocalizedString": "状态栏精简模式"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1612,7 +1780,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "DefaultKey_37",
           "SourceString": "是否显示控制器按键",
-          "LocalizedString": "Show Controller Buttons"
+          "LocalizedString": "是否显示控制器按键"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1654,7 +1822,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "Gamepad_81",
           "SourceString": "控制器模式下是否显示底部提示",
-          "LocalizedString": "Show bottom hints in controller mode?"
+          "LocalizedString": "控制器模式下是否显示底部提示"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1696,7 +1864,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "GamepadTips_0045",
           "SourceString": "控制器震动强度",
-          "LocalizedString": "Controller Vibration Intensity"
+          "LocalizedString": "控制器震动强度"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -1738,7 +1906,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "Gamepad_82",
           "SourceString": "是否开启自适应扳机",
-          "LocalizedString": "Enable Adaptive Triggers?"
+          "LocalizedString": "是否开启自适应扳机"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1780,7 +1948,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "Gamepad_83",
           "SourceString": "是否开启控制器灯带",
-          "LocalizedString": "Enable Controller LED?"
+          "LocalizedString": "是否开启控制器灯带"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1822,7 +1990,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "GamepadTips_0098",
           "SourceString": "自定义控制器类型",
-          "LocalizedString": "Custom Controller Layout"
+          "LocalizedString": "自定义控制器类型"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1864,7 +2032,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "DefaultKey_52",
           "SourceString": "锁定设置",
-          "LocalizedString": "Lock Settings"
+          "LocalizedString": "锁定设置"
         },
         "ChooseType": "ESettingChooseType::Tip",
         "OptionDataRow": {
@@ -1903,7 +2071,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "BPUI_LockType",
           "SourceString": "锁定方式",
-          "LocalizedString": "Lock Mode"
+          "LocalizedString": "锁定方式"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1945,7 +2113,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "BPUI_LockSensibility",
           "SourceString": "是否启用锁定灵敏度调整",
-          "LocalizedString": "Lock Sensitivity Adjustment"
+          "LocalizedString": "是否启用锁定灵敏度调整"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -1987,7 +2155,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "BPUI_LockSensibility_Value",
           "SourceString": "锁定灵敏度",
-          "LocalizedString": "Lock Sensitivity"
+          "LocalizedString": "锁定灵敏度"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -2029,7 +2197,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "BPUI_LockMode",
           "SourceString": "是否启用手动锁定",
-          "LocalizedString": "Enable Manual Lock?"
+          "LocalizedString": "是否启用手动锁定"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -2071,7 +2239,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "DefaultKey_41",
           "SourceString": "操作控制",
-          "LocalizedString": "Controls"
+          "LocalizedString": "操作控制"
         },
         "ChooseType": "ESettingChooseType::Tip",
         "OptionDataRow": {
@@ -2103,6 +2271,48 @@
         "Condition": null,
         "bPlaystationShow": true
       },
+      "Setting_EnableAimAssist": {
+        "Category": "ESettingCategory::System",
+        "PlatformToDisplay": 511,
+        "Showname": {
+          "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
+          "Key": "GamepadTips_105",
+          "SourceString": "是否启用辅助瞄准",
+          "LocalizedString": "是否启用辅助瞄准"
+        },
+        "ChooseType": "ESettingChooseType::ComboBox",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingOptionComboBoxData'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingOptionComboBoxData.0"
+          },
+          "RowName": "Setting_EnableAimAssist"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 100
+          }
+        },
+        "SliderStepSize": 1.0,
+        "bIsForceShowFloat": false,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": {},
+        "SliderValueEvent": null,
+        "Condition": null,
+        "bPlaystationShow": true
+      },
       "CombatAutoClimb": {
         "Category": "ESettingCategory::System",
         "PlatformToDisplay": 511,
@@ -2110,7 +2320,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "BPUI_CombatAutoClimb",
           "SourceString": "是否启用战斗状态跳跃进攀爬",
-          "LocalizedString": "Enable Jump to Climb during battle?"
+          "LocalizedString": "是否启用战斗状态跳跃进攀爬"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -2152,7 +2362,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "JoyStickMode",
           "SourceString": "摇杆模式",
-          "LocalizedString": "Joystick Mode"
+          "LocalizedString": "摇杆模式"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -2194,7 +2404,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_7_4",
           "SourceString": "水平灵敏度",
-          "LocalizedString": "Horizontal Sensitivity"
+          "LocalizedString": "水平灵敏度"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -2236,7 +2446,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_7_3",
           "SourceString": "垂直灵敏度",
-          "LocalizedString": "Vertical Sensitivity"
+          "LocalizedString": "垂直灵敏度"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -2278,7 +2488,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_7_1",
           "SourceString": "瞄准水平灵敏度",
-          "LocalizedString": "Horizontal Aiming Sensitivity"
+          "LocalizedString": "瞄准水平灵敏度"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -2320,7 +2530,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_7_2",
           "SourceString": "瞄准垂直灵敏度",
-          "LocalizedString": "Vertical Aiming Sensitivity"
+          "LocalizedString": "瞄准垂直灵敏度"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -2362,7 +2572,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "DefaultKey_40",
           "SourceString": "控制器水平镜头灵敏度",
-          "LocalizedString": "Controller Horizontal Camera Sensitivity"
+          "LocalizedString": "控制器水平镜头灵敏度"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -2404,7 +2614,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "DefaultKey_42",
           "SourceString": "控制器垂直镜头灵敏度",
-          "LocalizedString": "Controller Vertical Camera Sensitivity"
+          "LocalizedString": "控制器垂直镜头灵敏度"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -2446,7 +2656,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "DefaultKey_44",
           "SourceString": "控制器X轴镜头反转",
-          "LocalizedString": "Controller Invert Camera X-Axis"
+          "LocalizedString": "控制器X轴镜头反转"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -2488,7 +2698,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "DefaultKey_43",
           "SourceString": "控制器Y轴镜头反转",
-          "LocalizedString": "Controller Invert Camera Y-Axis"
+          "LocalizedString": "控制器Y轴镜头反转"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -2530,7 +2740,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "DefaultKey_47",
           "SourceString": "控制器水平镜头灵敏度（瞄准模式）",
-          "LocalizedString": "Controller Horizontal Camera Sensitivity (Aiming Mode)"
+          "LocalizedString": "控制器水平镜头灵敏度（瞄准模式）"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -2572,7 +2782,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "DefaultKey_48",
           "SourceString": "控制器垂直镜头灵敏度（瞄准模式）",
-          "LocalizedString": "Controller Vertical Camera Sensitivity (Aiming Mode)"
+          "LocalizedString": "控制器垂直镜头灵敏度（瞄准模式）"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -2614,7 +2824,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "DefaultKey_49",
           "SourceString": "控制器X轴镜头反转（瞄准模式）",
-          "LocalizedString": "Controller Invert Camera X-Axis (Aiming Mode)"
+          "LocalizedString": "控制器X轴镜头反转（瞄准模式）"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -2656,7 +2866,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "DefaultKey_50",
           "SourceString": "控制器Y轴镜头反转（瞄准模式）",
-          "LocalizedString": "Controller Invert Camera Y-Axis (Aiming Mode)"
+          "LocalizedString": "控制器Y轴镜头反转（瞄准模式）"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -2698,7 +2908,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_MobileUICustom",
           "SourceString": "自定义布局",
-          "LocalizedString": "Custom"
+          "LocalizedString": "自定义布局"
         },
         "ChooseType": "ESettingChooseType::OpenUI",
         "OptionDataRow": {
@@ -2725,7 +2935,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "W_HTButton_AdventureManual_TurnTo",
           "SourceString": "前往",
-          "LocalizedString": "Go"
+          "LocalizedString": "前往"
         },
         "ShowInputType": "ESettingInputType::NotGamePad",
         "ComboBoxOptionEvent": null,
@@ -2740,7 +2950,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "VehicleSetting",
           "SourceString": "载具设置",
-          "LocalizedString": "Vehicle Settings"
+          "LocalizedString": "载具设置"
         },
         "ChooseType": "ESettingChooseType::Tip",
         "OptionDataRow": {
@@ -2779,7 +2989,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_Vehicle",
           "SourceString": "是否调换手刹和刹车按键",
-          "LocalizedString": "Swap Handbrake / Brake"
+          "LocalizedString": "是否调换手刹和刹车按键"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -2816,12 +3026,12 @@
       },
       "Setting_Vehicle_drive": {
         "Category": "ESettingCategory::System",
-        "PlatformToDisplay": 268,
+        "PlatformToDisplay": 270,
         "Showname": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_Vehicle_drive",
           "SourceString": "驾驶模式",
-          "LocalizedString": "Drive Mode"
+          "LocalizedString": "驾驶模式"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -2853,7 +3063,7 @@
         "ShowInputType": "ESettingInputType::All",
         "ComboBoxOptionEvent": {},
         "SliderValueEvent": null,
-        "Condition": null,
+        "Condition": {},
         "bPlaystationShow": true
       },
       "VehicleThirdPersonCameraAdditionalHeight": {
@@ -2863,7 +3073,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "VehicleThirdPersonCameraAdditionalHeight",
           "SourceString": "载具第三人称相机视角高度",
-          "LocalizedString": "Third-Person Vehicle Camera Height"
+          "LocalizedString": "载具第三人称相机视角高度"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -2905,7 +3115,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_7_5",
           "SourceString": "载具转向灵敏度",
-          "LocalizedString": "Vehicle Steering Sensitivity"
+          "LocalizedString": "载具转向灵敏度"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -2947,7 +3157,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_7_6",
           "SourceString": "载具驾驶摇杆死区范围",
-          "LocalizedString": "Vehicle Joystick Deadzone"
+          "LocalizedString": "载具驾驶摇杆死区范围"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -2989,7 +3199,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_SemiAutoThrottle",
           "SourceString": "长按保持油门",
-          "LocalizedString": "Hold to Maintain Throttle"
+          "LocalizedString": "长按保持油门"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -3031,7 +3241,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "AutoDrivingAdjustCamera",
           "SourceString": "自动驾驶回正相机",
-          "LocalizedString": "Auto-Center Camera During Autodrive"
+          "LocalizedString": "自动驾驶回正相机"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -3073,7 +3283,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "VehicleThirdPersonCameraAutoAdjustDuration",
           "SourceString": "载具第三人称相机回正时长",
-          "LocalizedString": "Third-Person Vehicle Camera Reset Time"
+          "LocalizedString": "载具第三人称相机回正时长"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -3115,7 +3325,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "VehicleFirstPersonCameraAutoAdjustDuration",
           "SourceString": "载具第一人称相机回正时长",
-          "LocalizedString": "First-Person Vehicle Camera Reset Time"
+          "LocalizedString": "载具第一人称相机回正时长"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -3150,6 +3360,48 @@
         "Condition": null,
         "bPlaystationShow": true
       },
+      "WaterVehicleSteeringSensitivity": {
+        "Category": "ESettingCategory::System",
+        "PlatformToDisplay": 511,
+        "Showname": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "WaterVehicleSteeringSensitivity",
+          "SourceString": "水上载具转向灵敏度",
+          "LocalizedString": "水上载具转向灵敏度"
+        },
+        "ChooseType": "ESettingChooseType::SliderProgress",
+        "OptionDataRow": {
+          "DataTable": {
+            "ObjectName": "DataTable'DT_SettingSliderOption'",
+            "ObjectPath": "/Game/DataTable/Setting/DT_SettingSliderOption.0"
+          },
+          "RowName": "WaterVehicleSteeringSensitivity"
+        },
+        "bIsVolumeSlider": false,
+        "bIsGamePadSlider": false,
+        "bIsPCOrMobileCameraSlider": false,
+        "SliderRange": {
+          "LowerBound": {
+            "Type": "ERangeBoundTypes::Inclusive",
+            "Value": 0
+          },
+          "UpperBound": {
+            "Type": "ERangeBoundTypes::Exclusive",
+            "Value": 10
+          }
+        },
+        "SliderStepSize": 0.1,
+        "bIsForceShowFloat": true,
+        "OpenUIClass": "",
+        "OpenUIButtonName": {
+          "CultureInvariantString": null
+        },
+        "ShowInputType": "ESettingInputType::All",
+        "ComboBoxOptionEvent": null,
+        "SliderValueEvent": {},
+        "Condition": null,
+        "bPlaystationShow": true
+      },
       "CameraSetting": {
         "Category": "ESettingCategory::System",
         "PlatformToDisplay": 511,
@@ -3157,7 +3409,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "DefaultKey_54",
           "SourceString": "摄像机设置",
-          "LocalizedString": "Camera Settings"
+          "LocalizedString": "摄像机设置"
         },
         "ChooseType": "ESettingChooseType::Tip",
         "OptionDataRow": {
@@ -3196,7 +3448,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "AutoModifyCameraWhileRunning",
           "SourceString": "移动镜头修正",
-          "LocalizedString": "Camera Movement Correction"
+          "LocalizedString": "移动镜头修正"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -3238,7 +3490,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "FightDefaultArmLengthScale",
           "SourceString": "战斗镜头默认距离缩放",
-          "LocalizedString": "Combat Camera Default Distance Scaling"
+          "LocalizedString": "战斗镜头默认距离缩放"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -3280,7 +3532,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ResetCameraWhenLockTarget",
           "SourceString": "按下锁定镜头回正",
-          "LocalizedString": "Press to reset locked camera"
+          "LocalizedString": "按下锁定镜头回正"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -3322,7 +3574,7 @@
           "TableId": "/Game/Text/Gamepad/ST_Gamepad.ST_Gamepad",
           "Key": "DefaultKey_53",
           "SourceString": "第一人称设置",
-          "LocalizedString": "First Person Settings"
+          "LocalizedString": "第一人称设置"
         },
         "ChooseType": "ESettingChooseType::Tip",
         "OptionDataRow": {
@@ -3361,7 +3613,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_FirstPersonView",
           "SourceString": "第一人称视角",
-          "LocalizedString": "First Person Camera"
+          "LocalizedString": "第一人称视角"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -3403,7 +3655,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "fFPCameraSlideYawSpeed",
           "SourceString": "第一人称水平灵敏度",
-          "LocalizedString": "First-Person Horizontal Sensitivity"
+          "LocalizedString": "第一人称水平灵敏度"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -3445,7 +3697,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "fFPCameraSlidePitchSpeed",
           "SourceString": "第一人称垂直灵敏度",
-          "LocalizedString": "First-Person Vertical Sensitivity"
+          "LocalizedString": "第一人称垂直灵敏度"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -3487,7 +3739,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "FPCameraFOV",
           "SourceString": "第一人称视野范围",
-          "LocalizedString": "First-Person Field of View"
+          "LocalizedString": "第一人称视野范围"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -3529,7 +3781,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "FPCameraSmoothScale",
           "SourceString": "第一人称移动摄像机抖动",
-          "LocalizedString": "First Person Movement Camera Shake"
+          "LocalizedString": "第一人称移动摄像机抖动"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -3571,7 +3823,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_ui",
           "SourceString": "界面设置",
-          "LocalizedString": "Interface Settings"
+          "LocalizedString": "界面设置"
         },
         "ChooseType": "ESettingChooseType::Tip",
         "OptionDataRow": {
@@ -3610,7 +3862,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_UIOpacity",
           "SourceString": "主界面透明度",
-          "LocalizedString": "UI Opacity"
+          "LocalizedString": "主界面透明度"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -3652,7 +3904,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_PropMessageOpacity",
           "SourceString": "交互和获得道具提示界面透明度",
-          "LocalizedString": "Interaction & Item Prompt Transparency"
+          "LocalizedString": "交互和获得道具提示界面透明度"
         },
         "ChooseType": "ESettingChooseType::SliderProgress",
         "OptionDataRow": {
@@ -3694,7 +3946,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_player",
           "SourceString": "玩家设置",
-          "LocalizedString": "Player Settings"
+          "LocalizedString": "玩家设置"
         },
         "ChooseType": "ESettingChooseType::Tip",
         "OptionDataRow": {
@@ -3733,7 +3985,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ChangeSex",
           "SourceString": "切换鉴定师性别",
-          "LocalizedString": "Switch Appraiser Gender"
+          "LocalizedString": "切换鉴定师性别"
         },
         "ChooseType": "ESettingChooseType::OpenUI",
         "OptionDataRow": {
@@ -3760,7 +4012,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ChangeSex_des",
           "SourceString": "切换",
-          "LocalizedString": "Switch"
+          "LocalizedString": "切换"
         },
         "ShowInputType": "ESettingInputType::All",
         "ComboBoxOptionEvent": null,
@@ -3775,7 +4027,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Setting_Other",
           "SourceString": "其他设置",
-          "LocalizedString": "Other Settings"
+          "LocalizedString": "其他设置"
         },
         "ChooseType": "ESettingChooseType::Tip",
         "OptionDataRow": {
@@ -3814,7 +4066,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Graphics_NPCQuality",
           "SourceString": "交通系统",
-          "LocalizedString": "Traffic"
+          "LocalizedString": "交通系统"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {
@@ -3856,7 +4108,7 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "OpenHarmonyHmsXeg",
           "SourceString": "超分",
-          "LocalizedString": "DLSS Super Resolution"
+          "LocalizedString": "超分"
         },
         "ChooseType": "ESettingChooseType::ComboBox",
         "OptionDataRow": {

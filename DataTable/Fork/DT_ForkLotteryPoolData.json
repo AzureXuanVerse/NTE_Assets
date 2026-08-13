@@ -17,48 +17,62 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forkshop_24",
           "SourceString": "奇迹盒盒",
-          "LocalizedString": "Miracle Box"
+          "LocalizedString": "奇迹盒盒"
         },
         "duration": 240,
         "ShowText1": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forkshop_25",
           "SourceString": "猛虎特刊",
-          "LocalizedString": "Tiger Special"
+          "LocalizedString": "猛虎特刊"
         },
         "ShowText2": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_up_nanally_02",
           "SourceString": "限定弧盘「预备备」概率提升!",
-          "LocalizedString": "Limited Arc Ready-Ready Drop Rate Up!"
+          "LocalizedString": "限定弧盘「预备备」概率提升!"
         },
         "bg": {
-          "AssetPathName": "/Game/UI/UI/ForkShop/UI_YH_Shoppingmall_hupandiban.UI_YH_Shoppingmall_hupandiban",
+          "AssetPathName": "/Game/UI/UI/ForkShop/UI_YH_Shoppingmall_hupandibannnlbg.UI_YH_Shoppingmall_hupandibannnlbg",
           "SubPathString": ""
         },
         "icon": {
           "AssetPathName": "/Game/UI/UI_Icon/Fork/1024/fork_TigerTally.fork_TigerTally",
           "SubPathString": ""
         },
+        "TabIcon": {
+          "AssetPathName": "/Game/UI/UI/ForkShop/Table/YH_UI_ARC_Pagination_02.YH_UI_ARC_Pagination_02",
+          "SubPathString": ""
+        },
+        "Decorations": [
+          {
+            "AssetPathName": "/Game/UI/UI/ForkShop/UI_YH_Shoppingmall_hupandibannnl2.UI_YH_Shoppingmall_hupandibannnl2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/ForkShop/UI_YH_Shoppingmall_hupandibannnl.UI_YH_Shoppingmall_hupandibannnl",
+            "SubPathString": ""
+          }
+        ],
         "ProbDesc": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forkshop_12",
           "SourceString": "S级弧盘<Orange>「预备备」</>概率提升！占S级弧盘基础概率的25%",
-          "LocalizedString": "S-Class Arc <Orange>Ready-Ready</> Drop Rate Up! Takes up 25% of the base S-Class Arc chance."
+          "LocalizedString": "S级弧盘<Orange>「预备备」</>概率提升！占S级弧盘基础概率的25%"
         },
         "RuleDesc1": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_rule_04",
           "SourceString": "1. <Orange>「猛虎特刊」</>研募计划限时开启！消耗三重钥匙参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「预备备」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。",
-          "LocalizedString": "1. <Orange>Tiger Special</> Research Program now available for a limited time! Spend Tri-Keys to participate in this Arc Research Program and obtain current rewards.\r\n2. During the event, the drop rate for limited S-Class Arc <Orange>Ready-Ready</> will be greatly increased!\r\n3. This Arc Research Program features <Orange>Limited Issue</> pulls. Opening 1 Limited Issue grants a total of 10 Arc rewards of any quality.\r\n4. The pity counter for obtaining Arcs is fully shared across all Limited Issues."
+          "LocalizedString": "1. <Orange>「猛虎特刊」</>研募计划限时开启！消耗三重钥匙参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「预备备」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。"
         },
         "RuleDesc2": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_rule_05",
           "SourceString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「预备备」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。",
-          "LocalizedString": "<Black>S-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>3.0000%</> to be an S-Class Arc. The overall drop rate (including pity) is <Orange>4.1900%</>, of which the limited S-Class Arc accounts for <Orange>1.6800%</>. At most <Orange>6</> pulls guarantee an S-Class Arc through pity, at most <Orange>8</> pulls guarantee the current limited S-Class Arc Ready-Ready through pity. This pull pity counter will accumulate permanently and can be inherited in different Limited Issues.\r\n<Black>A-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>7.0000%</> to be an A-Class Arc. The overall drop rate (including pity) is <Orange>13.4700%</>. At most 1 pull guarantees an A-Class or higher Arc through pity.\r\n<Black>B-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>90.0000%</> to be a B-Class Arc. The overall drop rate (including pity) is <Orange>82.3400%</>."
+          "LocalizedString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「预备备」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。"
         },
-        "LimitCurrencyID": "None",
+        "LimitCurrencyID": "WeaponGacha_Nanally",
         "CurrencyID": "WeaponGacha",
         "CurrencyCnt": 10,
         "OnceLotteryCnt": 10,
@@ -130,6 +144,7 @@
         "UpGuaranteeCnt": 80,
         "MailID": "None",
         "ShowCapitalList": [
+          "WeaponGacha_Nanally",
           "WeaponGacha",
           "Annulith"
         ]
@@ -139,20 +154,20 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forkshop_24",
           "SourceString": "奇迹盒盒",
-          "LocalizedString": "Miracle Box"
+          "LocalizedString": "奇迹盒盒"
         },
         "duration": 240,
         "ShowText1": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_up_xun_01",
           "SourceString": "名月特刊",
-          "LocalizedString": "Bright Moon Special"
+          "LocalizedString": "名月特刊"
         },
         "ShowText2": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_up_xun_02",
           "SourceString": "限定弧盘「行进于时间之外」概率提升!",
-          "LocalizedString": "Limited Arc Marching Beyond Time Drop Rate Up!"
+          "LocalizedString": "限定弧盘「行进于时间之外」概率提升!"
         },
         "bg": {
           "AssetPathName": "/Game/UI/UI/ForkShop/UI_YH_Shoppingmall_hupandiban.UI_YH_Shoppingmall_hupandiban",
@@ -162,25 +177,30 @@
           "AssetPathName": "/Game/UI/UI_Icon/Fork/1024/fork_Time.fork_Time",
           "SubPathString": ""
         },
+        "TabIcon": {
+          "AssetPathName": "/Game/UI/UI/ForkShop/Table/YH_UI_ARC_Pagination_06.YH_UI_ARC_Pagination_06",
+          "SubPathString": ""
+        },
+        "Decorations": [],
         "ProbDesc": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forkshop_12_xun",
           "SourceString": "S级弧盘<Orange>「行进于时间之外」</>概率提升！占S级弧盘基础概率的25%",
-          "LocalizedString": "S-Class Arc <Orange>Marching Beyond Time</> Drop Rate Up! Takes up 25% of the base S-Class Arc chance."
+          "LocalizedString": "S级弧盘<Orange>「行进于时间之外」</>概率提升！占S级弧盘基础概率的25%"
         },
         "RuleDesc1": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_rule_04_Xun",
           "SourceString": "1. <Orange>「名月特刊」</>研募计划限时开启！消耗三重钥匙参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「行进于时间之外」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。",
-          "LocalizedString": "1. <Orange>Bright Moon Special</> Research Program now available for a limited time! Spend Tri-Keys to participate in this Arc Research Program and obtain current rewards.\r\n2. During the event, the drop rate for limited S-Class Arc <Orange>Marching Beyond Time</> will be greatly increased!\r\n3. This Arc Research Program features <Orange>Limited Issue</> pulls. Opening 1 Limited Issue grants a total of 10 Arc rewards of any quality.\r\n4. The pity counter for obtaining Arcs is fully shared across all Limited Issues."
+          "LocalizedString": "1. <Orange>「名月特刊」</>研募计划限时开启！消耗三重钥匙参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「行进于时间之外」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。"
         },
         "RuleDesc2": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_rule_05_Xun",
           "SourceString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「行进于时间之外」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。",
-          "LocalizedString": "<Black>S-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>3.0000%</> to be an S-Class Arc. The overall drop rate (including pity) is <Orange>4.1900%</>, of which the limited S-Class Arc accounts for <Orange>1.6800%</>. At most <Orange>6</> pulls guarantee an S-Class Arc through pity, at most <Orange>8</> pulls guarantee the current limited S-Class Arc Marching Beyond Time through pity. This pull pity counter will accumulate permanently and can be inherited in different Limited Issues.\r\n<Black>A-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>7.0000%</> to be an A-Class Arc. The overall drop rate (including pity) is <Orange>13.4700%</>. At most 1 pull guarantees an A-Class or higher Arc through pity.\r\n<Black>B-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>90.0000%</> to be a B-Class Arc. The overall drop rate (including pity) is <Orange>82.3400%</>."
+          "LocalizedString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「行进于时间之外」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。"
         },
-        "LimitCurrencyID": "None",
+        "LimitCurrencyID": "WeaponGacha_Jin",
         "CurrencyID": "WeaponGacha",
         "CurrencyCnt": 10,
         "OnceLotteryCnt": 10,
@@ -252,6 +272,7 @@
         "UpGuaranteeCnt": 80,
         "MailID": "None",
         "ShowCapitalList": [
+          "WeaponGacha_Jin",
           "WeaponGacha",
           "Annulith"
         ]
@@ -261,20 +282,20 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forkshop_24",
           "SourceString": "奇迹盒盒",
-          "LocalizedString": "Miracle Box"
+          "LocalizedString": "奇迹盒盒"
         },
         "duration": 240,
         "ShowText1": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_up_anhunqu_01",
           "SourceString": "夜曲特刊",
-          "LocalizedString": "Nocturne Special"
+          "LocalizedString": "夜曲特刊"
         },
         "ShowText2": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_up_anhunqu_02",
           "SourceString": "限定弧盘「最后一朵玫瑰」概率提升!",
-          "LocalizedString": "Limited Arc The Last Rose Drop Rate Up!"
+          "LocalizedString": "限定弧盘「最后一朵玫瑰」概率提升!"
         },
         "bg": {
           "AssetPathName": "/Game/UI/UI/ForkShop/UI_YH_Shoppingmall_hupandibanahqbg.UI_YH_Shoppingmall_hupandibanahqbg",
@@ -284,23 +305,28 @@
           "AssetPathName": "/Game/UI/UI_Icon/Fork/1024/fork_Rose.fork_Rose",
           "SubPathString": ""
         },
+        "TabIcon": {
+          "AssetPathName": "/Game/UI/UI/ForkShop/Table/YH_UI_ARC_Pagination_05.YH_UI_ARC_Pagination_05",
+          "SubPathString": ""
+        },
+        "Decorations": [],
         "ProbDesc": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forkshop_12_anhunqu",
           "SourceString": "S级弧盘<Orange>「最后一朵玫瑰」</>概率提升！占S级弧盘基础概率的25%",
-          "LocalizedString": "S-Class Arc <Orange>The Last Rose</> Drop Rate Up! Takes up 25% of the base S-Class Arc chance."
+          "LocalizedString": "S级弧盘<Orange>「最后一朵玫瑰」</>概率提升！占S级弧盘基础概率的25%"
         },
         "RuleDesc1": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_rule_04_AnHunQu",
           "SourceString": "1. <Orange>「夜曲特刊」</>研募计划限时开启！消耗三重钥匙参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「最后一朵玫瑰」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。",
-          "LocalizedString": "1. How to Participate: The <Orange>Nocturne Special</> Arc Research Program is available! Use Tri-Keys in the program to obtain rewards.\r\n2. Featured Arc: During the event, the drop rate for the S-Class Arc <Orange>The Last Rose</> is greatly increased!\r\n3. Limited Issue: This program features <Orange>Limited Issue</> pulls. Opening one grants 10 Arcs of random rarity.\r\n4. Pity System: Arc pity progress is shared across all Limited Issues."
+          "LocalizedString": "1. <Orange>「夜曲特刊」</>研募计划限时开启！消耗三重钥匙参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「最后一朵玫瑰」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。"
         },
         "RuleDesc2": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_rule_05_AnHunQu",
           "SourceString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「最后一朵玫瑰」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。",
-          "LocalizedString": "<Black>S-Class Arc</>\r\nBase drop chance for any S-Class Arc: <Orange>3.0000%</>; Overall chance with pity: <Orange>4.1900%</>; Chance for featured S-Class Arc (The Last Rose): <Orange>1.6800%</>. Pity System: Every <Orange>6</> pulls guarantees an S-Class Arc; Every <Orange>8</> pulls guarantees the current featured S-Class Arc: The Last Rose. This pull pity counter will accumulate permanently and can be inherited in different Limited Issues.\r\n<Black>A-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>7.0000%</> to be an A-Class Arc. The overall drop rate (including pity) is <Orange>13.4700%</>. At most 1 pull guarantees an A-Class or higher Arc through pity.\r\n<Black>B-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>90.0000%</> to be a B-Class Arc. The overall drop rate (including pity) is <Orange>82.3400%</>."
+          "LocalizedString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「最后一朵玫瑰」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。"
         },
         "LimitCurrencyID": "None",
         "CurrencyID": "WeaponGacha",
@@ -383,20 +409,20 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forkshop_24",
           "SourceString": "奇迹盒盒",
-          "LocalizedString": "Miracle Box"
+          "LocalizedString": "奇迹盒盒"
         },
         "duration": 240,
         "ShowText1": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_up_kaesi_01",
           "SourceString": "追猎特刊",
-          "LocalizedString": "Pursuit Special"
+          "LocalizedString": "追猎特刊"
         },
         "ShowText2": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_up_kaesi_02",
           "SourceString": "限定弧盘「众人追寻之物」概率提升!",
-          "LocalizedString": "Limited Arc What's Desired Drop Rate Up!"
+          "LocalizedString": "限定弧盘「众人追寻之物」概率提升!"
         },
         "bg": {
           "AssetPathName": "/Game/UI/UI/ForkShop/UI_YH_Shoppingmall_hupandibankesbg.UI_YH_Shoppingmall_hupandibankesbg",
@@ -406,23 +432,28 @@
           "AssetPathName": "/Game/UI/UI_Icon/Fork/1024/fork_GoldWool.fork_GoldWool",
           "SubPathString": ""
         },
+        "TabIcon": {
+          "AssetPathName": "/Game/UI/UI/ForkShop/Table/YH_UI_ARC_Pagination_04.YH_UI_ARC_Pagination_04",
+          "SubPathString": ""
+        },
+        "Decorations": [],
         "ProbDesc": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forkshop_12_kaesi",
           "SourceString": "S级弧盘<Orange>「众人追寻之物」</>概率提升！占S级弧盘基础概率的25%",
-          "LocalizedString": "S-Class Arc <Orange>What's Desired</> Drop Rate Up! Takes up 25% of the base S-Class Arc chance."
+          "LocalizedString": "S级弧盘<Orange>「众人追寻之物」</>概率提升！占S级弧盘基础概率的25%"
         },
         "RuleDesc1": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_rule_04_Kaesi",
           "SourceString": "1. <Orange>「追猎特刊」</>研募计划限时开启！消耗三重钥匙参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「众人追寻之物」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。",
-          "LocalizedString": "1. How to Participate: The <Orange>Pursuit Special</> Arc Research Program is available! Use Tri-Keys in the program to obtain rewards.\r\n2. Featured Arc: During the event, the drop rate for the S-Class Arc <Orange>What's Desired</> is greatly increased!\r\n3. Limited Issue: This program features <Orange>Limited Issue</> pulls. Opening one grants 10 Arcs of random rarity.\r\n4. Pity System: Arc pity progress is shared across all Limited Issues."
+          "LocalizedString": "1. <Orange>「追猎特刊」</>研募计划限时开启！消耗三重钥匙参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「众人追寻之物」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。"
         },
         "RuleDesc2": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_rule_05_Kaesi",
           "SourceString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「众人追寻之物」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。",
-          "LocalizedString": "<Black>S-Class Arc</>\r\nBase drop chance for any S-Class Arc: <Orange>3.0000%</>; Overall chance with pity: <Orange>4.1900%</>; Chance for featured S-Class Arc (What's Desired): <Orange>1.6800%</>. Pity System: Every <Orange>6</> pulls guarantees an S-Class Arc; Every <Orange>8</> pulls guarantees the current featured S-Class Arc: What's Desired. This pull pity counter will accumulate permanently and can be inherited in different Limited Issues.\r\n<Black>A-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>7.0000%</> to be an A-Class Arc. The overall drop rate (including pity) is <Orange>13.4700%</>. At most 1 pull guarantees an A-Class or higher Arc through pity.\r\n<Black>B-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>90.0000%</> to be a B-Class Arc. The overall drop rate (including pity) is <Orange>82.3400%</>."
+          "LocalizedString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「众人追寻之物」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。"
         },
         "LimitCurrencyID": "None",
         "CurrencyID": "WeaponGacha",
@@ -505,20 +536,20 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forkshop_24",
           "SourceString": "奇迹盒盒",
-          "LocalizedString": "Miracle Box"
+          "LocalizedString": "奇迹盒盒"
         },
         "duration": 240,
         "ShowText1": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_up_zhenhong_01",
           "SourceString": "决意特刊",
-          "LocalizedString": "Resolve Special"
+          "LocalizedString": "决意特刊"
         },
         "ShowText2": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_up_zhenhong_02",
           "SourceString": "限定弧盘「穿过胭红蜃景」概率提升!",
-          "LocalizedString": "Limited Arc Blushing Mirage Drop Rate Up!"
+          "LocalizedString": "限定弧盘「穿过胭红蜃景」概率提升!"
         },
         "bg": {
           "AssetPathName": "/Game/UI/UI/ForkShop/UI_YH_Shoppingmall_hupandibanzhenhongbg.UI_YH_Shoppingmall_hupandibanzhenhongbg",
@@ -528,23 +559,28 @@
           "AssetPathName": "/Game/UI/UI_Icon/Fork/1024/fork_LunarPhase.fork_LunarPhase",
           "SubPathString": ""
         },
+        "TabIcon": {
+          "AssetPathName": "/Game/UI/UI/ForkShop/Table/YH_UI_ARC_Pagination_03.YH_UI_ARC_Pagination_03",
+          "SubPathString": ""
+        },
+        "Decorations": [],
         "ProbDesc": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forkshop_12_zhenhong",
           "SourceString": "S级弧盘<Orange>「穿过胭红蜃景」</>概率提升！占S级弧盘基础概率的25%",
-          "LocalizedString": "S-Class Arc <Orange>Blushing Mirage</> Drop Rate Up! Takes up 25% of the base S-Class Arc chance."
+          "LocalizedString": "S级弧盘<Orange>「穿过胭红蜃景」</>概率提升！占S级弧盘基础概率的25%"
         },
         "RuleDesc1": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_rule_04_Zhenhong",
           "SourceString": "1. <Orange>「决意特刊」</>研募计划限时开启！消耗「三重钥匙」或「决意钥匙」参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「穿过胭红蜃景」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。",
-          "LocalizedString": "1. <Orange>Resolve Special</> Research Program now available for a limited time! Spend Tri-Keys or Resolve Keys to participate in this Arc Research Program and obtain current rewards.\r\n2. During the event, the drop rate for limited S-Class Arc <Orange>Blushing Mirage</> will be greatly increased!\r\n3. This Arc Research Program features <Orange>Limited Issue</> pulls. Opening 1 Limited Issue grants a total of 10 Arc rewards of any rarity.\r\n4. The pity counter for obtaining Arcs is fully shared across all Limited Issues."
+          "LocalizedString": "1. <Orange>「决意特刊」</>研募计划限时开启！消耗「三重钥匙」或「决意钥匙」参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「穿过胭红蜃景」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。"
         },
         "RuleDesc2": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_rule_05_Zhenhong",
           "SourceString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「穿过胭红蜃景」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。",
-          "LocalizedString": "<Black>S-Class Arc</>\r\nBase drop chance for any S-Class Arc: <Orange>3.0000%</>; Overall chance with pity: <Orange>4.1900%</>; Chance for featured S-Class Arc (Blushing Mirage): <Orange>1.6800%</>. Pity System: Every <Orange>6</> pulls guarantees an S-Class Arc; Every <Orange>8</> pulls guarantees the current featured S-Class Arc: Blushing Mirage. This pull pity counter will accumulate permanently and can be inherited in different Limited Issues.\r\n<Black>A-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>7.0000%</> to be an A-Class Arc. The overall drop rate (including pity) is <Orange>13.4700%</>. At most 1 pull guarantees an A-Class or higher Arc through pity.\r\n<Black>B-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>90.0000%</> to be a B-Class Arc. The overall drop rate (including pity) is <Orange>82.3400%</>."
+          "LocalizedString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「穿过胭红蜃景」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。"
         },
         "LimitCurrencyID": "WeaponGacha_Shinku",
         "CurrencyID": "WeaponGacha",
@@ -628,20 +664,20 @@
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forkshop_24",
           "SourceString": "奇迹盒盒",
-          "LocalizedString": "Miracle Box"
+          "LocalizedString": "奇迹盒盒"
         },
         "duration": 240,
         "ShowText1": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_up_yiluoyi_01",
           "SourceString": "启门特刊",
-          "LocalizedString": "Dreamgate Special"
+          "LocalizedString": "启门特刊"
         },
         "ShowText2": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_up_yiluoyi_02",
           "SourceString": "限定弧盘「错误的门」概率提升!",
-          "LocalizedString": "Limited Arc The Wrong Gate Drop Rate Up!"
+          "LocalizedString": "限定弧盘「错误的门」概率提升!"
         },
         "bg": {
           "AssetPathName": "/Game/UI/UI/ForkShop/UI_YH_Shoppingmall_hupandibanylybg.UI_YH_Shoppingmall_hupandibanylybg",
@@ -651,23 +687,28 @@
           "AssetPathName": "/Game/UI/UI_Icon/Fork/1024/fork_Door.fork_Door",
           "SubPathString": ""
         },
+        "TabIcon": {
+          "AssetPathName": "/Game/UI/UI/ForkShop/Table/YH_UI_ARC_Pagination_01.YH_UI_ARC_Pagination_01",
+          "SubPathString": ""
+        },
+        "Decorations": [],
         "ProbDesc": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forkshop_12_yiluoyi",
           "SourceString": "S级弧盘<Orange>「错误的门」</>概率提升！占S级弧盘基础概率的25%",
-          "LocalizedString": "S-Class Arc <Orange>The Wrong Gate</> Drop Rate Up! Takes up 25% of the base S-Class Arc chance."
+          "LocalizedString": "S级弧盘<Orange>「错误的门」</>概率提升！占S级弧盘基础概率的25%"
         },
         "RuleDesc1": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_rule_04_Yiluoyi",
           "SourceString": "1. <Orange>「启门特刊」</>研募计划限时开启！消耗「三重钥匙」或「启门钥匙」参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「错误的门」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。",
-          "LocalizedString": "1. <Orange>Dreamgate Special</> Research Program now available for a limited time! Spend Tri-Keys or Dreamgate Keys to participate in this Arc Research Program and obtain current rewards.\r\n2. During the event, the drop rate for limited S-Class Arc <Orange>The Wrong Gate</> will be greatly increased!\r\n3. This Arc Research Program features <Orange>Limited Issue</> pulls. Opening 1 Limited Issue grants a total of 10 Arc rewards of any rarity.\r\n4. The pity counter for obtaining Arcs is fully shared across all Limited Issues."
+          "LocalizedString": "1. <Orange>「启门特刊」</>研募计划限时开启！消耗「三重钥匙」或「启门钥匙」参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「错误的门」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。"
         },
         "RuleDesc2": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_rule_05_Yiluoyi",
           "SourceString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「错误的门」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。",
-          "LocalizedString": "<Black>S-Class Arc</>\r\nBase drop chance for any S-Class Arc: <Orange>3.0000%</>; Overall chance with pity: <Orange>4.1900%</>; Chance for featured S-Class Arc (What's Desired): <Orange>1.6800%</>. Pity System: Every <Orange>6</> pulls guarantees an S-Class Arc; Every <Orange>8</> pulls guarantees the current featured S-Class Arc: The Wrong Gate. This pull pity counter will accumulate permanently and can be inherited in different Limited Issues.\r\n<Black>A-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>7.0000%</> to be an A-Class Arc. The overall drop rate (including pity) is <Orange>13.4700%</>. At most 1 pull guarantees an A-Class or higher Arc through pity.\r\n<Black>B-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>90.0000%</> to be a B-Class Arc. The overall drop rate (including pity) is <Orange>82.3400%</>."
+          "LocalizedString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「错误的门」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。"
         },
         "LimitCurrencyID": "WeaponGacha_Oneiroi",
         "CurrencyID": "WeaponGacha",
@@ -746,25 +787,299 @@
           "Annulith"
         ]
       },
+      "ForkLottery_Canhong": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_forkshop_24",
+          "SourceString": "奇迹盒盒",
+          "LocalizedString": "奇迹盒盒"
+        },
+        "duration": 240,
+        "ShowText1": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_forklottery_up_canhong_01",
+          "SourceString": "摄心特刊",
+          "LocalizedString": "摄心特刊"
+        },
+        "ShowText2": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_forklottery_up_canhong_02",
+          "SourceString": "限定弧盘「噬心诡刃」概率提升!",
+          "LocalizedString": "限定弧盘「噬心诡刃」概率提升!"
+        },
+        "bg": {
+          "AssetPathName": "/Game/UI/UI/ForkShop/UI_YH_Shoppingmall_hupandibanchanhongbgdi.UI_YH_Shoppingmall_hupandibanchanhongbgdi",
+          "SubPathString": ""
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/1024/fork_DemonBlade.fork_DemonBlade",
+          "SubPathString": ""
+        },
+        "TabIcon": {
+          "AssetPathName": "/Game/UI/UI/ForkShop/Table/YH_UI_ARC_Pagination_07.YH_UI_ARC_Pagination_07",
+          "SubPathString": ""
+        },
+        "Decorations": [
+          {
+            "AssetPathName": "/Game/UI/UI/ForkShop/UI_YH_Shoppingmall_hupandibanchanhongbg2.UI_YH_Shoppingmall_hupandibanchanhongbg2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/ForkShop/UI_YH_Shoppingmall_hupandibanchanhongbg.UI_YH_Shoppingmall_hupandibanchanhongbg",
+            "SubPathString": ""
+          }
+        ],
+        "ProbDesc": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_forkshop_12_canhong",
+          "SourceString": "S级弧盘<Orange>「噬心诡刃」</>概率提升！占S级弧盘基础概率的25%",
+          "LocalizedString": "S级弧盘<Orange>「噬心诡刃」</>概率提升！占S级弧盘基础概率的25%"
+        },
+        "RuleDesc1": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_forklottery_rule_04_canhong",
+          "SourceString": "1. <Orange>「摄心特刊」</>研募计划限时开启！消耗「三重钥匙」或「摄心钥匙」参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「噬心诡刃」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。",
+          "LocalizedString": "1. <Orange>「摄心特刊」</>研募计划限时开启！消耗「三重钥匙」或「摄心钥匙」参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「噬心诡刃」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。"
+        },
+        "RuleDesc2": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_forklottery_rule_05_Yiluoyi",
+          "SourceString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「错误的门」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。",
+          "LocalizedString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「错误的门」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。"
+        },
+        "LimitCurrencyID": "WeaponGacha_zankou",
+        "CurrencyID": "WeaponGacha",
+        "CurrencyCnt": 10,
+        "OnceLotteryCnt": 10,
+        "ShowRewards": [
+          {
+            "ItemID": "fork_DemonBlade",
+            "IsUp": true
+          },
+          {
+            "ItemID": "fork_Butterfly",
+            "IsUp": false
+          },
+          {
+            "ItemID": "fork_BlackBook",
+            "IsUp": false
+          },
+          {
+            "ItemID": "fork_mofeikesi",
+            "IsUp": false
+          },
+          {
+            "ItemID": "fork_jingmotingyuan",
+            "IsUp": false
+          },
+          {
+            "ItemID": "fork_wushoutieyu",
+            "IsUp": false
+          }
+        ],
+        "ExtraRewards": [
+          {
+            "Key": "ITEM_QUALITY_ORANGE",
+            "Value": {
+              "ItemList": [
+                {
+                  "ItemID": "Dice_ticket_01",
+                  "Amount": 40
+                }
+              ]
+            }
+          },
+          {
+            "Key": "ITEM_QUALITY_PURPLE",
+            "Value": {
+              "ItemList": [
+                {
+                  "ItemID": "Dice_ticket_01",
+                  "Amount": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "ITEM_QUALITY_BLUE",
+            "Value": {
+              "ItemList": [
+                {
+                  "ItemID": "Dice_ticket_02",
+                  "Amount": 20
+                }
+              ]
+            }
+          }
+        ],
+        "BaseDropID": "drop_ForkPull_Canhong",
+        "UpList": [
+          "fork_DemonBlade"
+        ],
+        "UpGuaranteeCnt": 80,
+        "MailID": "None",
+        "ShowCapitalList": [
+          "WeaponGacha_zankou",
+          "WeaponGacha",
+          "Annulith"
+        ]
+      },
+      "ForkLottery_LingKe": {
+        "Name": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_forkshop_24",
+          "SourceString": "奇迹盒盒",
+          "LocalizedString": "奇迹盒盒"
+        },
+        "duration": 240,
+        "ShowText1": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_forklottery_up_lingke_01",
+          "SourceString": "万籁特刊",
+          "LocalizedString": "万籁特刊"
+        },
+        "ShowText2": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_forklottery_up_lingke_02",
+          "SourceString": "限定弧盘「远行者之声」概率提升!",
+          "LocalizedString": "限定弧盘「远行者之声」概率提升!"
+        },
+        "bg": {
+          "AssetPathName": "/Game/UI/UI/ForkShop/UI_YH_Shoppingmall_hupandibanlingkebg.UI_YH_Shoppingmall_hupandibanlingkebg",
+          "SubPathString": ""
+        },
+        "icon": {
+          "AssetPathName": "/Game/UI/UI_Icon/Fork/1024/fork_GoldRecord.fork_GoldRecord",
+          "SubPathString": ""
+        },
+        "TabIcon": {
+          "AssetPathName": "/Game/UI/UI/ForkShop/Table/YH_UI_ARC_Pagination_08.YH_UI_ARC_Pagination_08",
+          "SubPathString": ""
+        },
+        "Decorations": [
+          {
+            "AssetPathName": "/Game/UI/UI/ForkShop/UI_YH_Shoppingmall_hupandibanlingkebg2.UI_YH_Shoppingmall_hupandibanlingkebg2",
+            "SubPathString": ""
+          },
+          {
+            "AssetPathName": "/Game/UI/UI/ForkShop/UI_YH_Shoppingmall_hupandibanlingkebgdi.UI_YH_Shoppingmall_hupandibanlingkebgdi",
+            "SubPathString": ""
+          }
+        ],
+        "ProbDesc": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_forkshop_12_lingke",
+          "SourceString": "S级弧盘<Orange>「远行者之声」</>概率提升！占S级弧盘基础概率的25%",
+          "LocalizedString": "S级弧盘<Orange>「远行者之声」</>概率提升！占S级弧盘基础概率的25%"
+        },
+        "RuleDesc1": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_forklottery_rule_04_lingke",
+          "SourceString": "1. <Orange>「万籁特刊」</>研募计划限时开启！消耗「三重钥匙」或「万籁钥匙」参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「远行者之声」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。",
+          "LocalizedString": "1. <Orange>「万籁特刊」</>研募计划限时开启！消耗「三重钥匙」或「万籁钥匙」参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「远行者之声」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。"
+        },
+        "RuleDesc2": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "ui_forklottery_rule_05_Yiluoyi",
+          "SourceString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「错误的门」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。",
+          "LocalizedString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「错误的门」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。"
+        },
+        "LimitCurrencyID": "WeaponGacha_lingke",
+        "CurrencyID": "WeaponGacha",
+        "CurrencyCnt": 10,
+        "OnceLotteryCnt": 10,
+        "ShowRewards": [
+          {
+            "ItemID": "fork_GoldRecord",
+            "IsUp": true
+          },
+          {
+            "ItemID": "fork_Butterfly",
+            "IsUp": false
+          },
+          {
+            "ItemID": "fork_BlackBook",
+            "IsUp": false
+          },
+          {
+            "ItemID": "fork_mofeikesi",
+            "IsUp": false
+          },
+          {
+            "ItemID": "fork_jingmotingyuan",
+            "IsUp": false
+          },
+          {
+            "ItemID": "fork_wushoutieyu",
+            "IsUp": false
+          }
+        ],
+        "ExtraRewards": [
+          {
+            "Key": "ITEM_QUALITY_ORANGE",
+            "Value": {
+              "ItemList": [
+                {
+                  "ItemID": "Dice_ticket_01",
+                  "Amount": 40
+                }
+              ]
+            }
+          },
+          {
+            "Key": "ITEM_QUALITY_PURPLE",
+            "Value": {
+              "ItemList": [
+                {
+                  "ItemID": "Dice_ticket_01",
+                  "Amount": 4
+                }
+              ]
+            }
+          },
+          {
+            "Key": "ITEM_QUALITY_BLUE",
+            "Value": {
+              "ItemList": [
+                {
+                  "ItemID": "Dice_ticket_02",
+                  "Amount": 20
+                }
+              ]
+            }
+          }
+        ],
+        "BaseDropID": "drop_ForkPull_LingKe",
+        "UpList": [
+          "fork_GoldRecord"
+        ],
+        "UpGuaranteeCnt": 80,
+        "MailID": "None",
+        "ShowCapitalList": [
+          "WeaponGacha_lingke",
+          "WeaponGacha",
+          "Annulith"
+        ]
+      },
       "1": {
         "Name": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forkshop_24",
           "SourceString": "奇迹盒盒",
-          "LocalizedString": "Miracle Box"
+          "LocalizedString": "奇迹盒盒"
         },
         "duration": 240,
         "ShowText1": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forkshop_25",
           "SourceString": "猛虎特刊",
-          "LocalizedString": "Tiger Special"
+          "LocalizedString": "猛虎特刊"
         },
         "ShowText2": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_up_nanally_02",
           "SourceString": "限定弧盘「预备备」概率提升!",
-          "LocalizedString": "Limited Arc Ready-Ready Drop Rate Up!"
+          "LocalizedString": "限定弧盘「预备备」概率提升!"
         },
         "bg": {
           "AssetPathName": "/Game/UI/UI/ForkShop/UI_YH_Shoppingmall_hupandiban.UI_YH_Shoppingmall_hupandiban",
@@ -774,23 +1089,28 @@
           "AssetPathName": "/Game/UI/UI_Icon/Fork/1024/fork_TigerTally.fork_TigerTally",
           "SubPathString": ""
         },
+        "TabIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Decorations": [],
         "ProbDesc": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forkshop_12",
           "SourceString": "S级弧盘<Orange>「预备备」</>概率提升！占S级弧盘基础概率的25%",
-          "LocalizedString": "S-Class Arc <Orange>Ready-Ready</> Drop Rate Up! Takes up 25% of the base S-Class Arc chance."
+          "LocalizedString": "S级弧盘<Orange>「预备备」</>概率提升！占S级弧盘基础概率的25%"
         },
         "RuleDesc1": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_rule_04",
           "SourceString": "1. <Orange>「猛虎特刊」</>研募计划限时开启！消耗三重钥匙参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「预备备」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。",
-          "LocalizedString": "1. <Orange>Tiger Special</> Research Program now available for a limited time! Spend Tri-Keys to participate in this Arc Research Program and obtain current rewards.\r\n2. During the event, the drop rate for limited S-Class Arc <Orange>Ready-Ready</> will be greatly increased!\r\n3. This Arc Research Program features <Orange>Limited Issue</> pulls. Opening 1 Limited Issue grants a total of 10 Arc rewards of any quality.\r\n4. The pity counter for obtaining Arcs is fully shared across all Limited Issues."
+          "LocalizedString": "1. <Orange>「猛虎特刊」</>研募计划限时开启！消耗三重钥匙参与本期弧盘研募计划并获取当期计划奖励。\r\n2. 活动期间，限定S级弧盘<Orange>「预备备」</>的获取概率将大幅提升！\r\n3. 本期「弧盘研募计划」的研募类型为<Orange>「限定特刊」</>，开启1次「限定特刊」共计可获得10个任意品质的弧盘奖励。\r\n4. 所有「限定特刊」中获取弧盘的保底次数完全共享。"
         },
         "RuleDesc2": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "ui_forklottery_rule_05",
           "SourceString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「预备备」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。",
-          "LocalizedString": "<Black>S-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>3.0000%</> to be an S-Class Arc. The overall drop rate (including pity) is <Orange>4.1900%</>, of which the limited S-Class Arc accounts for <Orange>1.6800%</>. At most <Orange>6</> pulls guarantee an S-Class Arc through pity, at most <Orange>8</> pulls guarantee the current limited S-Class Arc Ready-Ready through pity. This pull pity counter will accumulate permanently and can be inherited in different Limited Issues.\r\n<Black>A-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>7.0000%</> to be an A-Class Arc. The overall drop rate (including pity) is <Orange>13.4700%</>. At most 1 pull guarantees an A-Class or higher Arc through pity.\r\n<Black>B-Class Arc</>\r\nIn this Arc Research Program, each Arc obtained has a base chance of <Orange>90.0000%</> to be a B-Class Arc. The overall drop rate (including pity) is <Orange>82.3400%</>."
+          "LocalizedString": "<Black>【S级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为S级弧盘的基础概率为<Orange>3.0000%</>，综合概率（含保底）为<Orange>4.1900%</>（其中，限定S级弧盘为<Orange>1.6800%</>），至多<Orange>6</>次研募必定能通过保底获得S级弧盘，至多<Orange>8</>次研募必能通过保底获取当期限定S级弧盘「预备备」。该研募保底次数将永久累计并可以继承至其他「限定特刊」中。\r\n<Black>【A级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为A级弧盘的基础概率为<Orange>7.0000%</>，综合概率（含保底）为<Orange>13.4700%</>，至多1次研募必能通过保底获得A级或以上弧盘。\r\n<Black>【B级弧盘】</>\r\n在本期弧盘研募计划中，每获得1个弧盘时，其为B级弧盘的基础概率为<Orange>90.0000%</>，综合概率（含保底）为<Orange>82.3400%</>。"
         },
         "LimitCurrencyID": "None",
         "CurrencyID": "WeaponGacha",
