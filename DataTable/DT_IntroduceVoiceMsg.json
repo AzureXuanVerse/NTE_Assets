@@ -334222,8 +334222,8 @@
         "Desc": {
           "TableId": "/Game/Text/Dialogue/ST_Miandialogue_Wuchao.ST_Miandialogue_Wuchao",
           "Key": "MT01_06_NPC027_064",
-          "SourceString": "嘿嘿，我好像超大号的心猎骑手。",
-          "LocalizedString": "嘿嘿，我好像超大号的心猎骑手。"
+          "SourceString": "嘿嘿，我好像超大号的心猎铁骑。",
+          "LocalizedString": "嘿嘿，我好像超大号的心猎铁骑。"
         },
         "SpeakerName": {
           "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
@@ -448987,6 +448987,157 @@
         },
         "DialogSoundEvent": {
           "AssetPathName": "/Game/WwiseAudio/Events/Voice/Dialogue/NPC031/Play_Vo_MT01_06_NPC031_042.Play_Vo_MT01_06_NPC031_042",
+          "SubPathString": ""
+        },
+        "IsSelf": false,
+        "duration": 2.0,
+        "Delay": 0.5,
+        "EndByVoice": true,
+        "NeedTyping": true,
+        "ClearNeedQuestID": "q110722",
+        "MontageInfos": [],
+        "LockTargetInfo": null,
+        "VoiceInfo": null,
+        "RTPCConfigs": [],
+        "AuxBus": []
+      },
+      "Sfx_Npc_Mon_056_Into": {
+        "Desc": {
+          "TableId": "/Game/Text/Dialogue/ST_Miandialogue_Wuchao.ST_Miandialogue_Wuchao",
+          "Key": "Sfx_Npc_Mon_056_Into",
+          "SourceString": "实验——开始！",
+          "LocalizedString": "实验——开始！"
+        },
+        "SpeakerName": {
+          "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
+          "Key": "_NPC_1060_Name",
+          "SourceString": "「学者」",
+          "LocalizedString": "「学者」"
+        },
+        "IconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "MaleIconBrush": {
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 1.0,
+              "G": 1.0,
+              "B": 1.0,
+              "A": 1.0,
+              "Hex": "FFFFFF"
+            },
+            "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image",
+          "Tiling": "ESlateBrushTileType::NoTile",
+          "Mirroring": "ESlateBrushMirrorType::NoMirror",
+          "ImageType": "ESlateBrushImageType::NoImage",
+          "ImageSize": {
+            "X": 32.0,
+            "Y": 32.0
+          },
+          "Margin": {
+            "Left": 0.0,
+            "Top": 0.0,
+            "Right": 0.0,
+            "Bottom": 0.0
+          },
+          "ResourceObject": null,
+          "OutlineSettings": {
+            "CornerRadii": {
+              "X": 0.0,
+              "Y": 0.0,
+              "Z": 0.0,
+              "W": 0.0
+            },
+            "Color": {
+              "SpecifiedColor": {
+                "R": 0.0,
+                "G": 0.0,
+                "B": 0.0,
+                "A": 0.0,
+                "Hex": "000000"
+              },
+              "ColorUseRule": "ESlateColorStylingMode::UseColor_Specified"
+            },
+            "Width": 0.0,
+            "RoundingType": "ESlateBrushRoundingType::HalfHeightRadius",
+            "bUseBrushTransparency": false
+          },
+          "UVRegion": {
+            "Min": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Max": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "bIsValid": 0
+          },
+          "bIsDynamicallyLoaded": false,
+          "ResourceName": "None"
+        },
+        "DialogSoundEvent": {
+          "AssetPathName": "/Game/WwiseAudio/Events/Voice/Vo_Boss_Dia/Mon_56/Play_Sfx_Npc_Mon_056_Vo_Into.Play_Sfx_Npc_Mon_056_Vo_Into",
           "SubPathString": ""
         },
         "IsSelf": false,
