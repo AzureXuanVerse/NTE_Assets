@@ -2,4 +2,4 @@
 
 There will be various assets in this repository, such as icons, text, and DataTable.
 
-> Version: 1.3.5 (Global)
+> Version: 1.3.7 (Global)

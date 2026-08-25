@@ -16481,8 +16481,8 @@
                 "Title": {
                   "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                   "Key": "Trial_Radio_3",
-                  "SourceString": "长按普攻，进行1次分支攻击",
-                  "LocalizedString": "Hold Basic Attack to perform a Branch Attack"
+                  "SourceString": "长按普攻，触发1次「普通攻击：恶灵大巴掌！」",
+                  "LocalizedString": "Hold Basic Attack to trigger Spectral Smack once."
                 },
                 "SlotClass": {
                   "AssetPathName": "",
@@ -16533,10 +16533,10 @@
                   "IndependentShowUI": false,
                   "SlotContent": {
                     "Title": {
-                      "Namespace": "",
-                      "Key": "CABC0BBA4DFA57DDEF9148A156960B0F",
-                      "SourceString": "释放一次e技能",
-                      "LocalizedString": "释放一次e技能"
+                      "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+                      "Key": "Trial_Radio_4",
+                      "SourceString": "点按释放一次「变轨技能：瞬息全频振」",
+                      "LocalizedString": "Press to cast Full-Frequency Pulse once."
                     },
                     "SlotClass": {
                       "AssetPathName": "",
@@ -16544,7 +16544,16 @@
                     }
                   },
                   "StageFinishWaitTime": 0.0,
-                  "TeachApplyEffects": []
+                  "TeachApplyEffects": [
+                    {
+                      "GuideID": "Teach_Radio_4_1",
+                      "ApplyTargetType": "ETeachApplyTargetType::Player",
+                      "ApplyOperation": "ETeachApplyOperation::Add",
+                      "ApplyTime": 1,
+                      "ApplyTime_GEClass": "None",
+                      "ApplyNetPolicy": "ETeachApplyNetPolicy::Client"
+                    }
+                  ]
                 },
                 {
                   "GaCounterTeachStages": [
@@ -16569,10 +16578,10 @@
                   "IndependentShowUI": false,
                   "SlotContent": {
                     "Title": {
-                      "Namespace": "",
-                      "Key": "3958B2744F34F0BDE780D79B8273DBDF",
-                      "SourceString": "进入时停后，通过方向键选择队友释放lte",
-                      "LocalizedString": "进入时停后，通过方向键选择队友释放lte"
+                      "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+                      "Key": "Trial_Radio_4_1",
+                      "SourceString": "变轨技能命中敌人后，点按选择一名队友（或小贞）释放对应的「同频合击」",
+                      "LocalizedString": "Hit an enemy with a Redirect Skill, then press to select an ally or Xiaozhen to perform the corresponding Synced Strike."
                     },
                     "SlotClass": {
                       "AssetPathName": "",
@@ -16604,14 +16613,6 @@
               },
               "StageFinishWaitTime": 0.0,
               "TeachApplyEffects": [
-                {
-                  "GuideID": "Teach_Radio_4_1",
-                  "ApplyTargetType": "ETeachApplyTargetType::Player",
-                  "ApplyOperation": "ETeachApplyOperation::Add",
-                  "ApplyTime": 1,
-                  "ApplyTime_GEClass": "None",
-                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Client"
-                },
                 {
                   "ApplyGEClass": {
                     "ObjectName": "BlueprintGeneratedClass'Buff_ClearSkillCD_TA_C'",
@@ -16684,10 +16685,10 @@
                   "IndependentShowUI": false,
                   "SlotContent": {
                     "Title": {
-                      "Namespace": "",
-                      "Key": "D124D6654B28B4A225694AB588379112",
-                      "SourceString": "释放一次大招",
-                      "LocalizedString": "释放一次大招"
+                      "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+                      "Key": "Trial_Radio_5",
+                      "SourceString": "释放「极轨终结：超负荷共鸣」，灵可进入异能过载状态，展开持续一定时间的「共鸣领域」1次",
+                      "LocalizedString": "Press Oversync once to enter Overdrive and deploy a Resonance Field for a set duration."
                     },
                     "SlotClass": {
                       "AssetPathName": "",
@@ -16695,7 +16696,16 @@
                     }
                   },
                   "StageFinishWaitTime": 0.0,
-                  "TeachApplyEffects": []
+                  "TeachApplyEffects": [
+                    {
+                      "GuideID": "Teach_Radio_5_1",
+                      "ApplyTargetType": "ETeachApplyTargetType::Player",
+                      "ApplyOperation": "ETeachApplyOperation::Add",
+                      "ApplyTime": 1,
+                      "ApplyTime_GEClass": "None",
+                      "ApplyNetPolicy": "ETeachApplyNetPolicy::Client"
+                    }
+                  ]
                 },
                 {
                   "GaCounterTeachStages": [
@@ -16720,10 +16730,10 @@
                   "IndependentShowUI": false,
                   "SlotContent": {
                     "Title": {
-                      "Namespace": "",
-                      "Key": "613B4A794D9AED81AAD3DD8B3B472936",
-                      "SourceString": "在大招期间释放e技能触发所有角色的lte",
-                      "LocalizedString": "在大招期间释放e技能触发所有角色的lte"
+                      "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+                      "Key": "Trial_Radio_5_1",
+                      "SourceString": "在「共鸣领域」持续期间，点按变轨技能召唤队友，释放「同频合击」3次",
+                      "LocalizedString": "Press Redirect Skill 3 times while Resonance Field is active to call on allies to perform Synced Strikes."
                     },
                     "SlotClass": {
                       "AssetPathName": "",
@@ -16756,10 +16766,10 @@
                   "IndependentShowUI": false,
                   "SlotContent": {
                     "Title": {
-                      "Namespace": "",
-                      "Key": "C7052D604A4015DC9D535A8CA54F8BE9",
-                      "SourceString": "再次释放终结技能",
-                      "LocalizedString": "再次释放终结技能"
+                      "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+                      "Key": "Trial_Radio_5_2",
+                      "SourceString": "再次点按极轨终结，对「共鸣领域」内的所有敌方单位造成爆发伤害1次",
+                      "LocalizedString": "Press Ultimate again once to deal Burst DMG to all enemies within Resonance Field."
                     },
                     "SlotClass": {
                       "AssetPathName": "",
@@ -16791,14 +16801,6 @@
               },
               "StageFinishWaitTime": 0.0,
               "TeachApplyEffects": [
-                {
-                  "GuideID": "Teach_Radio_5_1",
-                  "ApplyTargetType": "ETeachApplyTargetType::Player",
-                  "ApplyOperation": "ETeachApplyOperation::Add",
-                  "ApplyTime": 1,
-                  "ApplyTime_GEClass": "None",
-                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Client"
-                },
                 {
                   "ApplyGEClass": {
                     "ObjectName": "BlueprintGeneratedClass'Buff_CantUseUltraSkill_TA_Infinity_C'",
@@ -16871,7 +16873,7 @@
             }
           },
           {
-            "bStateMonsterNeedAttack": true,
+            "bStateMonsterNeedAttack": false,
             "bMonsterDeadDontRefresh": false,
             "bNoShowProgressCount": false,
             "TeachSateges": {
@@ -16901,10 +16903,10 @@
                   "IndependentShowUI": false,
                   "SlotContent": {
                     "Title": {
-                      "Namespace": "",
-                      "Key": "DFB862F24EBE649652B7B4BAB0754A0D",
-                      "SourceString": "切换非灵可角色，等待小镇攻击敌人施加印记，测试",
-                      "LocalizedString": "切换非灵可角色，等待小镇攻击敌人施加印记，测试"
+                      "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+                      "Key": "Trial_Radio_6",
+                      "SourceString": "当灵可位于后台时\r\n会周期性地派出小贞偷袭敌人，小贞造成伤害并为其施加「小鬼打这里！」标记1次",
+                      "LocalizedString": "While Linko is off-field,\r\nshe periodically sends Xiaozhen to ambush enemies, dealing DMG and inflicting a \\\rHit 'Em Here!\n mark."
                     },
                     "SlotClass": {
                       "AssetPathName": "",
@@ -16937,10 +16939,10 @@
                   "IndependentShowUI": false,
                   "SlotContent": {
                     "Title": {
-                      "Namespace": "",
-                      "Key": "4B8A28B545F062717BE185B7B05E20D4",
-                      "SourceString": "灵可触发Lte出场",
-                      "LocalizedString": "灵可触发Lte出场"
+                      "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
+                      "Key": "Trial_Radio_6_1",
+                      "SourceString": "使用其他角色释放变轨技能击碎「小鬼打这里！」标记，召唤队伍后台中的灵可发动「同频合击」攻击敌人1次",
+                      "LocalizedString": "Use another ally's Redirect Skill to break a Hit 'Em Here! mark and call in off-field Linko to perform 1 Synced Strike."
                     },
                     "SlotClass": {
                       "AssetPathName": "",

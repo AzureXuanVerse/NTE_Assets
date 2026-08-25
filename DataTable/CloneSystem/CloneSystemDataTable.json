@@ -22864,7 +22864,7 @@
                   "CurrencyCount": 100.0
                 }
               ],
-              "SkillCount": 2
+              "SkillCount": 4
             }
           },
           {
@@ -23500,10 +23500,10 @@
           "CultureInvariantString": null
         },
         "CloneName": {
-          "TableId": "/Game/Text/ST_Clone.ST_Clone",
-          "Key": "DiyBoss04_Name",
-          "SourceString": "请遵守信用",
-          "LocalizedString": "Settle Your Tab"
+          "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
+          "Key": "BPUI_OpActMotorboatCollectMain_Title",
+          "SourceString": "遗舸寻珍",
+          "LocalizedString": "Shipwreck Salvage"
         },
         "CloneMode": "ECloneMode::SingleClone",
         "CloneType": "ECloneType::Motorboat_Collect",
@@ -23629,6 +23629,360 @@
         "EnterCloneTransferLoadingUI": "",
         "ExitTransferLoadingUI": "",
         "TransferLoadingUIReset": "",
+        "EnterSpecialLoadingID": "",
+        "ExitCloneRewardedTips": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "Diyboss_Exit_Desc",
+          "SourceString": "是否退出本次挑战？",
+          "LocalizedString": "Exit the challenge?"
+        },
+        "ExitCloneNotRewardTips": {
+          "TableId": "/Game/Text/ST_Common.ST_Common",
+          "Key": "Diyboss_Exit_Desc",
+          "SourceString": "是否退出本次挑战？",
+          "LocalizedString": "Exit the challenge?"
+        },
+        "ExtensionData": null
+      },
+      "DLC_Scaled_Single": {
+        "CloneID": "DLC_Scaled_Single",
+        "bCrossScene": true,
+        "MatchCfgMapKey": "DLC_Scaled_Single",
+        "OnlineTeamCfgMapKey": "None",
+        "CloneOutPut": {
+          "CultureInvariantString": null
+        },
+        "CloneName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_Scaled_Name",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        "CloneMode": "ECloneMode::SingleClone",
+        "CloneType": "ECloneType::SingleVision",
+        "StaminaID": "None",
+        "IsDoubleAward": false,
+        "CloneSystemSubNodes": [
+          {
+            "MatchCfgMapKey": "DLC_Scaled_Single",
+            "CloneDesArray": [
+              {
+                "CloneDesTitle": {
+                  "CultureInvariantString": null
+                },
+                "SubCloneDesTitle": {
+                  "CultureInvariantString": null
+                },
+                "CloneDesBody": {
+                  "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                  "Key": "Hospital_CusConmment_1_Dis_Player",
+                  "SourceString": "一处名为「冷山医院」的地点异象，位置不明，需借助委托人的异能才能进入其中。医院内存在绷带组成的人形伴生异象，部分具有对光或声的趋避行为。须收集医院各处的线索并提交至档案室，方能完成委托。已验证至少存在一种让其回应的线索组合，并被其通过一段放映影像告知了「真相」，成功脱离。\r\n无法确认「真相」是否唯一，有待进一步考察。",
+                  "LocalizedString": "A Location Anomaly known as Coldmount Hospital, location unknown. Requires the client's Esper Ability to enter. Within the hospital exist humanoid Surge Anomalies composed of bandages, some exhibiting avoidance behavior toward light or sound. Clues must be collected from throughout the hospital and submitted to the records room to complete the commission. At least one clue combination that elicits a response has been verified, and it provided the \"truth\" through a projected video sequence, allowing successful escape.\r\nCannot confirm whether the \"truth\" is unique, further investigation required."
+                },
+                "ReviewerArray": []
+              }
+            ],
+            "EnterCloneSceneData": {
+              "EnterSceneCloneDesArray": [],
+              "NewAttrIconArray": [
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
+                    "SubPathString": ""
+                  }
+                }
+              ],
+              "SceneIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              }
+            },
+            "CloneStageDatas": [],
+            "StaminaCount": 0,
+            "DropID": "None",
+            "DifficultyLevel": 0,
+            "TeamLevel": 0,
+            "KillMonsterTimeLimit": 20,
+            "SpawnID": "None",
+            "ExtensionData": null
+          }
+        ],
+        "CloneLevelInstance": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bIsAutoSpawnMonster": true,
+        "AutoSpawnMonsterDelayTime": 0.5,
+        "KillMonsterLimitDes": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_Scaled_Name",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        "LimitDes": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_Scaled_Name",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        "BgIcon": {
+          "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_LoginImages_6.UI_YH_FB_LoginImages_6",
+          "SubPathString": ""
+        },
+        "AdventureManualBGIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SpawnStart": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.70710677,
+            "W": 0.70710677,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": 20527.184,
+            "Y": 24649.281,
+            "Z": 97.21709
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "CloneAwardTemplate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHasChallengeTime": false,
+        "CloneDataLayerAssets": [],
+        "ResetLayerAssets": [],
+        "ReliveOrChallengeTransforms": [],
+        "CloneBoxTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Distance": 100,
+        "Rotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "QuestId": "None",
+        "EntryQuestDetailsArray": [],
+        "PreQuestDetails": {
+          "PreFinishedQuestID": "None",
+          "PreQuestFinishedText": {
+            "CultureInvariantString": null
+          }
+        },
+        "CloneFinishedQuestID": "None",
+        "bShowSkipUI": false,
+        "bShowInAdventure": false,
+        "bRepetitionChallenge": false,
+        "EnterCloneTransferLoadingUI": "",
+        "ExitTransferLoadingUI": "CloneLoadingUI",
+        "TransferLoadingUIReset": "CloneLoadingUIReset",
+        "EnterSpecialLoadingID": "",
+        "ExitCloneRewardedTips": {
+          "CultureInvariantString": null
+        },
+        "ExitCloneNotRewardTips": {
+          "CultureInvariantString": null
+        },
+        "ExtensionData": null
+      },
+      "DLC_Scaled_Multi": {
+        "CloneID": "DLC_Scaled_Multi",
+        "bCrossScene": true,
+        "MatchCfgMapKey": "DLC_Scaled_Multi",
+        "OnlineTeamCfgMapKey": "DLC_Scaled_Multi",
+        "CloneOutPut": {
+          "CultureInvariantString": null
+        },
+        "CloneName": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_Scaled_Name",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        "CloneMode": "ECloneMode::MultClone",
+        "CloneType": "ECloneType::MultiVision",
+        "StaminaID": "None",
+        "IsDoubleAward": false,
+        "CloneSystemSubNodes": [
+          {
+            "MatchCfgMapKey": "DLC_Scaled_Multi",
+            "CloneDesArray": [
+              {
+                "CloneDesTitle": {
+                  "CultureInvariantString": null
+                },
+                "SubCloneDesTitle": {
+                  "CultureInvariantString": null
+                },
+                "CloneDesBody": {
+                  "TableId": "/Game/Text/ST_VisionArchives.ST_VisionArchives",
+                  "Key": "Hospital_CusConmment_1_Dis_Player",
+                  "SourceString": "一处名为「冷山医院」的地点异象，位置不明，需借助委托人的异能才能进入其中。医院内存在绷带组成的人形伴生异象，部分具有对光或声的趋避行为。须收集医院各处的线索并提交至档案室，方能完成委托。已验证至少存在一种让其回应的线索组合，并被其通过一段放映影像告知了「真相」，成功脱离。\r\n无法确认「真相」是否唯一，有待进一步考察。",
+                  "LocalizedString": "A Location Anomaly known as Coldmount Hospital, location unknown. Requires the client's Esper Ability to enter. Within the hospital exist humanoid Surge Anomalies composed of bandages, some exhibiting avoidance behavior toward light or sound. Clues must be collected from throughout the hospital and submitted to the records room to complete the commission. At least one clue combination that elicits a response has been verified, and it provided the \"truth\" through a projected video sequence, allowing successful escape.\r\nCannot confirm whether the \"truth\" is unique, further investigation required."
+                },
+                "ReviewerArray": []
+              }
+            ],
+            "EnterCloneSceneData": {
+              "EnterSceneCloneDesArray": [],
+              "NewAttrIconArray": [
+                {
+                  "AttrType": "ECharacterElementType::CHARACTER_ELEMENT_TYPE_CHAOS",
+                  "LightTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6.UI_YH_FB_Icon_6",
+                    "SubPathString": ""
+                  },
+                  "GreyTextureIcon": {
+                    "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_Icon_6_Dark.UI_YH_FB_Icon_6_Dark",
+                    "SubPathString": ""
+                  }
+                }
+              ],
+              "SceneIcon": {
+                "AssetPathName": "",
+                "SubPathString": ""
+              }
+            },
+            "CloneStageDatas": [],
+            "StaminaCount": 0,
+            "DropID": "None",
+            "DifficultyLevel": 0,
+            "TeamLevel": 0,
+            "KillMonsterTimeLimit": 20,
+            "SpawnID": "None",
+            "ExtensionData": null
+          }
+        ],
+        "CloneLevelInstance": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bIsAutoSpawnMonster": true,
+        "AutoSpawnMonsterDelayTime": 0.5,
+        "KillMonsterLimitDes": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_Scaled_Name",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        "LimitDes": {
+          "TableId": "/Game/Text/ST_Clone.ST_Clone",
+          "Key": "DLC_Scaled_Name",
+          "SourceString": null,
+          "LocalizedString": ""
+        },
+        "BgIcon": {
+          "AssetPathName": "/Game/UI/UI/CloneSystem/UI_YH_FB_LoginImages_6.UI_YH_FB_LoginImages_6",
+          "SubPathString": ""
+        },
+        "AdventureManualBGIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "SpawnStart": {
+          "Rotation": {
+            "X": -0.0,
+            "Y": 0.0,
+            "Z": -0.70710677,
+            "W": 0.70710677,
+            "IsNormalized": true,
+            "Size": 0.99999994,
+            "SizeSquared": 0.99999994
+          },
+          "Translation": {
+            "X": 20527.184,
+            "Y": 24649.281,
+            "Z": 97.21709
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "CloneAwardTemplate": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bHasChallengeTime": false,
+        "CloneDataLayerAssets": [],
+        "ResetLayerAssets": [],
+        "ReliveOrChallengeTransforms": [],
+        "CloneBoxTransform": {
+          "Rotation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0,
+            "W": 1.0,
+            "IsNormalized": true,
+            "Size": 1.0,
+            "SizeSquared": 1.0
+          },
+          "Translation": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "Scale3D": {
+            "X": 1.0,
+            "Y": 1.0,
+            "Z": 1.0
+          }
+        },
+        "Distance": 100,
+        "Rotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "QuestId": "None",
+        "EntryQuestDetailsArray": [],
+        "PreQuestDetails": {
+          "PreFinishedQuestID": "None",
+          "PreQuestFinishedText": {
+            "CultureInvariantString": null
+          }
+        },
+        "CloneFinishedQuestID": "None",
+        "bShowSkipUI": false,
+        "bShowInAdventure": false,
+        "bRepetitionChallenge": false,
+        "EnterCloneTransferLoadingUI": "",
+        "ExitTransferLoadingUI": "CloneLoadingUI",
+        "TransferLoadingUIReset": "CloneLoadingUIReset",
         "EnterSpecialLoadingID": "",
         "ExitCloneRewardedTips": {
           "CultureInvariantString": null
