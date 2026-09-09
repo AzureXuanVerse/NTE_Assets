@@ -22687,10 +22687,10 @@
           "CultureInvariantString": null
         },
         "CloneName": {
-          "Namespace": "",
-          "Key": "8F28FB484F9B1B945A7E6499B0F3B90E",
-          "SourceString": "肉鸽 幸存者玩法",
-          "LocalizedString": "肉鸽 幸存者玩法"
+          "TableId": "/Game/Text/ST_UI_lsh.ST_UI_lsh",
+          "Key": "UI_SurvivalGamePlay_Title",
+          "SourceString": "轨外回响",
+          "LocalizedString": "Runaway Echoes"
         },
         "CloneMode": "ECloneMode::SingleClone",
         "CloneType": "ECloneType::Survival_Clone",
@@ -22717,13 +22717,16 @@
             "SpawnID": "None",
             "ExtensionData": {
               "Name": {
-                "Namespace": "",
-                "Key": "28CD59544666953F33746C9C73EFA3E9",
-                "SourceString": "难度1",
-                "LocalizedString": "难度1"
+                "TableId": "/Game/Text/ST_Common.ST_Common",
+                "Key": "SurvivalClone_1_Name",
+                "SourceString": "模拟演习-1",
+                "LocalizedString": "Simulation Drill I"
               },
               "Des": {
-                "CultureInvariantString": null
+                "TableId": "/Game/Text/ST_Common.ST_Common",
+                "Key": "SurvivalClone_1_Des",
+                "SourceString": "通关条件：在120秒内击败规定数量的回响BOSS。\r\n未能在时限内完成目标，或角色生命值降为0，则均视为演习失败。",
+                "LocalizedString": "Clear Condition: Defeat the required number of Echo Bosses within 120s.\r\nThe drill fails if time runs out or your character's HP reaches 0."
               },
               "SceneIcon": {
                 "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
@@ -22731,7 +22734,19 @@
               },
               "MonsterIcons": [
                 {
-                  "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_Heiyu/Mesh/building/StaticMeshes/buliding008/Textures/20260713151440.20260713151440",
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss05.UI_YH_SGP_boss05",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss01.UI_YH_SGP_boss01",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_12.UI_YH_Archive_FileImages_12",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss04.UI_YH_SGP_boss04",
                   "SubPathString": ""
                 }
               ],
@@ -22742,18 +22757,8 @@
               "KillMonsterRanges": [
                 {
                   "Min": 0,
-                  "Max": 2,
-                  "CurrencyCount": 100.0
-                },
-                {
-                  "Min": 2,
-                  "Max": 5,
-                  "CurrencyCount": 80.0
-                },
-                {
-                  "Min": 5,
-                  "Max": 10,
-                  "CurrencyCount": 70.0
+                  "Max": 100,
+                  "CurrencyCount": 10.0
                 }
               ],
               "SkillCount": 2
@@ -22775,17 +22780,20 @@
             "DropID": "None",
             "DifficultyLevel": 2,
             "TeamLevel": 0,
-            "KillMonsterTimeLimit": 240,
+            "KillMonsterTimeLimit": 180,
             "SpawnID": "None",
             "ExtensionData": {
               "Name": {
-                "Namespace": "",
-                "Key": "CB53203D4365AC26D205889C60BDC090",
-                "SourceString": "难度2",
-                "LocalizedString": "难度2"
+                "TableId": "/Game/Text/ST_Common.ST_Common",
+                "Key": "SurvivalClone_2_Name",
+                "SourceString": "模拟演习-2",
+                "LocalizedString": "Simulation Drill II"
               },
               "Des": {
-                "CultureInvariantString": null
+                "TableId": "/Game/Text/ST_Common.ST_Common",
+                "Key": "SurvivalClone_2_Des",
+                "SourceString": "通关条件：在180秒内击败规定数量的回响BOSS。\r\n未能在时限内完成目标，或角色生命值降为0，则均视为演习失败。",
+                "LocalizedString": "Clear Condition: Defeat the required number of Echo Bosses within 180s.\r\nThe drill fails if time runs out or your character's HP reaches 0."
               },
               "SceneIcon": {
                 "AssetPathName": "/Game/UI/Blueprints/Room/yaoqing/jiaohu/character_icon/1.1",
@@ -22793,19 +22801,35 @@
               },
               "MonsterIcons": [
                 {
-                  "AssetPathName": "/Game/UI/Blueprints/Room/yaoqing/jiaohu/character_icon/nanali/danren/1.1",
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss05.UI_YH_SGP_boss05",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss01.UI_YH_SGP_boss01",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_12.UI_YH_Archive_FileImages_12",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss02.UI_YH_SGP_boss02",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss04.UI_YH_SGP_boss04",
                   "SubPathString": ""
                 }
               ],
               "IsEndlessMode": false,
               "KillBossCount": 2,
               "CurrencyID": "TalentPoint_Survival",
-              "CurrencyCount": 1000,
+              "CurrencyCount": 2000,
               "KillMonsterRanges": [
                 {
                   "Min": 0,
-                  "Max": 10,
-                  "CurrencyCount": 100.0
+                  "Max": 200,
+                  "CurrencyCount": 10.0
                 }
               ],
               "SkillCount": 3
@@ -22827,17 +22851,20 @@
             "DropID": "None",
             "DifficultyLevel": 3,
             "TeamLevel": 0,
-            "KillMonsterTimeLimit": 360,
+            "KillMonsterTimeLimit": 240,
             "SpawnID": "None",
             "ExtensionData": {
               "Name": {
-                "Namespace": "",
-                "Key": "CE4E57FE4D93BEE9B6E79E969D4D7E5F",
-                "SourceString": "难度3",
-                "LocalizedString": "难度3"
+                "TableId": "/Game/Text/ST_Common.ST_Common",
+                "Key": "SurvivalClone_3_Name",
+                "SourceString": "模拟演习-3",
+                "LocalizedString": "Simulation Drill III"
               },
               "Des": {
-                "CultureInvariantString": null
+                "TableId": "/Game/Text/ST_Common.ST_Common",
+                "Key": "SurvivalClone_3_Des",
+                "SourceString": "通关条件：在240秒内击败规定数量的回响BOSS。\r\n未能在时限内完成目标，或角色生命值降为0，则均视为演习失败。",
+                "LocalizedString": "Clear Condition: Defeat the required number of Echo Bosses within 240s.\r\nThe drill fails if time runs out or your character's HP reaches 0."
               },
               "SceneIcon": {
                 "AssetPathName": "/Game/UI/UI/ScratchCard/3/1.1",
@@ -22845,23 +22872,39 @@
               },
               "MonsterIcons": [
                 {
-                  "AssetPathName": "/Game/UI/UI/ScratchCard/1/1.1",
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss05.UI_YH_SGP_boss05",
                   "SubPathString": ""
                 },
                 {
-                  "AssetPathName": "/Game/UI/UI/ScratchCard/5/1.1",
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss01.UI_YH_SGP_boss01",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_12.UI_YH_Archive_FileImages_12",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss02.UI_YH_SGP_boss02",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss03.UI_YH_SGP_boss03",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss04.UI_YH_SGP_boss04",
                   "SubPathString": ""
                 }
               ],
               "IsEndlessMode": false,
               "KillBossCount": 3,
               "CurrencyID": "TalentPoint_Survival",
-              "CurrencyCount": 1000,
+              "CurrencyCount": 3000,
               "KillMonsterRanges": [
                 {
                   "Min": 0,
-                  "Max": 10,
-                  "CurrencyCount": 100.0
+                  "Max": 200,
+                  "CurrencyCount": 15.0
                 }
               ],
               "SkillCount": 4
@@ -22883,17 +22926,20 @@
             "DropID": "None",
             "DifficultyLevel": 4,
             "TeamLevel": 0,
-            "KillMonsterTimeLimit": 480,
+            "KillMonsterTimeLimit": 300,
             "SpawnID": "None",
             "ExtensionData": {
               "Name": {
-                "Namespace": "",
-                "Key": "593F63F84006CB309F7A208ED92F1001",
-                "SourceString": "看了吗萨达没开门",
-                "LocalizedString": "看了吗萨达没开门"
+                "TableId": "/Game/Text/ST_Common.ST_Common",
+                "Key": "SurvivalClone_4_Name",
+                "SourceString": "模拟演习-4",
+                "LocalizedString": "Simulation Drill IV"
               },
               "Des": {
-                "CultureInvariantString": null
+                "TableId": "/Game/Text/ST_Common.ST_Common",
+                "Key": "SurvivalClone_4_Des",
+                "SourceString": "通关条件：在300秒内击败规定数量的回响BOSS。\r\n未能在时限内完成目标，或角色生命值降为0，则均视为演习失败。",
+                "LocalizedString": "Clear Condition: Defeat the required number of Echo Bosses within 300s.\r\nThe drill fails if time runs out or your character's HP reaches 0."
               },
               "SceneIcon": {
                 "AssetPathName": "/Game/UI/Blueprints/Room/yaoqing/jiaohu/character_icon/nanali/danren/1.1",
@@ -22901,23 +22947,43 @@
               },
               "MonsterIcons": [
                 {
-                  "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/2.2",
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss05.UI_YH_SGP_boss05",
                   "SubPathString": ""
                 },
                 {
-                  "AssetPathName": "/Game/UI/UI/ScratchCard/1/2.2",
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss01.UI_YH_SGP_boss01",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_12.UI_YH_Archive_FileImages_12",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss02.UI_YH_SGP_boss02",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss03.UI_YH_SGP_boss03",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_32.UI_YH_Archive_FileImages_32",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss04.UI_YH_SGP_boss04",
                   "SubPathString": ""
                 }
               ],
               "IsEndlessMode": false,
               "KillBossCount": 4,
               "CurrencyID": "TalentPoint_Survival",
-              "CurrencyCount": 1000,
+              "CurrencyCount": 4000,
               "KillMonsterRanges": [
                 {
                   "Min": 0,
-                  "Max": 10,
-                  "CurrencyCount": 100.0
+                  "Max": 250,
+                  "CurrencyCount": 16.0
                 }
               ],
               "SkillCount": 5
@@ -22939,17 +23005,20 @@
             "DropID": "None",
             "DifficultyLevel": 5,
             "TeamLevel": 0,
-            "KillMonsterTimeLimit": 600,
+            "KillMonsterTimeLimit": 360,
             "SpawnID": "None",
             "ExtensionData": {
               "Name": {
-                "Namespace": "",
-                "Key": "A58700814CAC54E5A032ACB298693063",
-                "SourceString": "难度5",
-                "LocalizedString": "难度5"
+                "TableId": "/Game/Text/ST_Common.ST_Common",
+                "Key": "SurvivalClone_5_Name",
+                "SourceString": "模拟演习-5",
+                "LocalizedString": "Simulation Drill V"
               },
               "Des": {
-                "CultureInvariantString": null
+                "TableId": "/Game/Text/ST_Common.ST_Common",
+                "Key": "SurvivalClone_5_Des",
+                "SourceString": "通关条件：在360秒内击败规定数量的回响BOSS。\r\n未能在时限内完成目标，或角色生命值降为0，则均视为演习失败。",
+                "LocalizedString": "Clear Condition: Defeat the required number of Echo Bosses within 360s.\r\nThe drill fails if time runs out or your character's HP reaches 0."
               },
               "SceneIcon": {
                 "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
@@ -22957,19 +23026,47 @@
               },
               "MonsterIcons": [
                 {
-                  "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_Heiyu/Mesh/building/StaticMeshes/buliding008/Textures/20260713151440.20260713151440",
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss05.UI_YH_SGP_boss05",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss01.UI_YH_SGP_boss01",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_12.UI_YH_Archive_FileImages_12",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss02.UI_YH_SGP_boss02",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss03.UI_YH_SGP_boss03",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_32.UI_YH_Archive_FileImages_32",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss04.UI_YH_SGP_boss04",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_30.UI_YH_Archive_FileImages_30",
                   "SubPathString": ""
                 }
               ],
               "IsEndlessMode": false,
               "KillBossCount": 5,
               "CurrencyID": "TalentPoint_Survival",
-              "CurrencyCount": 1000,
+              "CurrencyCount": 5000,
               "KillMonsterRanges": [
                 {
                   "Min": 0,
-                  "Max": 10,
-                  "CurrencyCount": 100.0
+                  "Max": 250,
+                  "CurrencyCount": 20.0
                 }
               ],
               "SkillCount": 6
@@ -22991,17 +23088,20 @@
             "DropID": "None",
             "DifficultyLevel": 6,
             "TeamLevel": 0,
-            "KillMonsterTimeLimit": 600,
+            "KillMonsterTimeLimit": 420,
             "SpawnID": "None",
             "ExtensionData": {
               "Name": {
-                "Namespace": "",
-                "Key": "E7C827B14666EA36757A12961E54D615",
-                "SourceString": "难度6",
-                "LocalizedString": "难度6"
+                "TableId": "/Game/Text/ST_Common.ST_Common",
+                "Key": "SurvivalClone_6_Name",
+                "SourceString": "模拟演习-6",
+                "LocalizedString": "Simulation Drill VI"
               },
               "Des": {
-                "CultureInvariantString": null
+                "TableId": "/Game/Text/ST_Common.ST_Common",
+                "Key": "SurvivalClone_6_Des",
+                "SourceString": "通关条件：在420秒内击败规定数量的回响BOSS。\r\n未能在时限内完成目标，或角色生命值降为0，则均视为演习失败。",
+                "LocalizedString": "Clear Condition: Defeat the required number of Echo Bosses within 420s.\r\nThe drill fails if time runs out or your character's HP reaches 0."
               },
               "SceneIcon": {
                 "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
@@ -23009,19 +23109,47 @@
               },
               "MonsterIcons": [
                 {
-                  "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_Heiyu/Mesh/building/StaticMeshes/buliding008/Textures/20260713151440.20260713151440",
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss05.UI_YH_SGP_boss05",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss01.UI_YH_SGP_boss01",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_12.UI_YH_Archive_FileImages_12",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss02.UI_YH_SGP_boss02",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss03.UI_YH_SGP_boss03",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_32.UI_YH_Archive_FileImages_32",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss04.UI_YH_SGP_boss04",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_30.UI_YH_Archive_FileImages_30",
                   "SubPathString": ""
                 }
               ],
               "IsEndlessMode": false,
-              "KillBossCount": 5,
+              "KillBossCount": 6,
               "CurrencyID": "TalentPoint_Survival",
-              "CurrencyCount": 1000,
+              "CurrencyCount": 6000,
               "KillMonsterRanges": [
                 {
                   "Min": 0,
-                  "Max": 10,
-                  "CurrencyCount": 100.0
+                  "Max": 300,
+                  "CurrencyCount": 20.0
                 }
               ],
               "SkillCount": 6
@@ -23043,17 +23171,20 @@
             "DropID": "None",
             "DifficultyLevel": 7,
             "TeamLevel": 0,
-            "KillMonsterTimeLimit": 36000,
+            "KillMonsterTimeLimit": 3600,
             "SpawnID": "None",
             "ExtensionData": {
               "Name": {
-                "Namespace": "",
-                "Key": "EA4211834D76F995D84717B7AE3470AD",
-                "SourceString": "难度7",
-                "LocalizedString": "难度7"
+                "TableId": "/Game/Text/ST_Common.ST_Common",
+                "Key": "SurvivalClone_7_Name",
+                "SourceString": "无尽挑战模式",
+                "LocalizedString": "Saga of Infinity Mode"
               },
               "Des": {
-                "CultureInvariantString": null
+                "TableId": "/Game/Text/ST_Common.ST_Common",
+                "Key": "SurvivalClone_7_Des",
+                "SourceString": "挑战目标：在无尽的怪物浪潮中尽可能坚持更长时间，挑战自身生存极限。",
+                "LocalizedString": "Challenge Objective: Survive as long as possible against endless waves of enemies and push your survival limits."
               },
               "SceneIcon": {
                 "AssetPathName": "/Game/FX/Nia/UI_2D/Player/Arousal_Big/11/1.1",
@@ -23061,24 +23192,47 @@
               },
               "MonsterIcons": [
                 {
-                  "AssetPathName": "/Game/Environment/Building/DLC_Structures/DLC_Heiyu/Mesh/building/StaticMeshes/buliding008/Textures/20260713151440.20260713151440",
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss05.UI_YH_SGP_boss05",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss01.UI_YH_SGP_boss01",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_12.UI_YH_Archive_FileImages_12",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss02.UI_YH_SGP_boss02",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss03.UI_YH_SGP_boss03",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_32.UI_YH_Archive_FileImages_32",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/PVERogueLike/level/UI_YH_SGP_boss04.UI_YH_SGP_boss04",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/UI/UI/VisionExplore/BigArchive/UI_YH_Archive_FileImages_30.UI_YH_Archive_FileImages_30",
                   "SubPathString": ""
                 }
               ],
               "IsEndlessMode": true,
-              "KillBossCount": 10,
+              "KillBossCount": 9999,
               "CurrencyID": "TalentPoint_Survival",
               "CurrencyCount": 0,
               "KillMonsterRanges": [
                 {
                   "Min": 0,
-                  "Max": 10,
-                  "CurrencyCount": 100.0
-                },
-                {
-                  "Min": 10,
-                  "Max": 20,
-                  "CurrencyCount": 50.0
+                  "Max": 3000,
+                  "CurrencyCount": 20.0
                 }
               ],
               "SkillCount": 6

@@ -480,16 +480,15 @@
         }
       },
       "FD_007": {
-        "UnlockRacerID": "Racer007_06",
+        "UnlockRacerID": "Racer007_05",
         "DirectionTracks": [
-          "Track_haoyou_07_05",
-          "Track_haoyou_07_06"
+          "Track_haoyou_07_05"
         ],
         "TrackName": {
           "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
-          "Key": "Race_Track_07",
-          "SourceString": "纪行地平线",
-          "LocalizedString": "Horizon Tour"
+          "Key": "Race_Track_07_A",
+          "SourceString": "纪行地平线A",
+          "LocalizedString": "Horizon Tour A"
         },
         "TrackDesc": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -506,6 +505,44 @@
           "SubPathString": ""
         },
         "UnlockConditionText": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "UI_Race_Track_TS_07_05",
+          "SourceString": "通关夜鸮车队第5关拓",
+          "LocalizedString": "Clear Night Raptor Stage 5: Taku"
+        },
+        "LockedStateTipsText": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "UI_Race_Track_TS_07_05",
+          "SourceString": "通关夜鸮车队第5关拓",
+          "LocalizedString": "Clear Night Raptor Stage 5: Taku"
+        }
+      },
+      "FD_007B": {
+        "UnlockRacerID": "Racer007_06",
+        "DirectionTracks": [
+          "Track_haoyou_07_06"
+        ],
+        "TrackName": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "Race_Track_07_B",
+          "SourceString": "纪行地平线B",
+          "LocalizedString": "Horizon Tour B"
+        },
+        "TrackDesc": {
+          "TableId": "/Game/Text/ST_Ui.ST_Ui",
+          "Key": "UI_Race_Track_Desc_07",
+          "SourceString": "一条长得仿佛没有尽头的路，油门踩到底，尽情吹风，肆意狂奔吧。当风景向后飞快掠过的时候，你又在做着哪一场白日梦？",
+          "LocalizedString": "On a road that seems to stretch on forever, put the pedal to the metal, feel the wind in your hair, and run wild. As the scenery races past, you can only reminisce on the dreams you chase."
+        },
+        "LockedBackImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/saidao/UI_YH_RacingTrack_07_2_Lock.UI_YH_RacingTrack_07_2_Lock",
+          "SubPathString": ""
+        },
+        "UnlockBackImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/saidao/UI_YH_RacingTrack_07_2.UI_YH_RacingTrack_07_2",
+          "SubPathString": ""
+        },
+        "UnlockConditionText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "UI_Race_Track_TS_07",
           "SourceString": "通关夜鸮车队第6关飞鸟",
@@ -519,16 +556,15 @@
         }
       },
       "FD_008": {
-        "UnlockRacerID": "Racer008_06",
+        "UnlockRacerID": "Racer008_01",
         "DirectionTracks": [
-          "Track_haoyou_08_01",
-          "Track_haoyou_08_03"
+          "Track_haoyou_08_01"
         ],
         "TrackName": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "UI_Race_Track_08",
-          "SourceString": "山野线",
-          "LocalizedString": "Wildlands Track"
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "Race_Track_08_A",
+          "SourceString": "山野线A",
+          "LocalizedString": "Wildlands Track A"
         },
         "TrackDesc": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -545,29 +581,66 @@
           "SubPathString": ""
         },
         "UnlockConditionText": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "UI_Race_Track_TS_08",
-          "SourceString": "通关新章车队第6关桐生",
-          "LocalizedString": "Clear Chapter Nova Stage 6: Kiryu"
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "UI_Race_Track_TS_08_01",
+          "SourceString": "通关新章车队第1关结城",
+          "LocalizedString": "Clear Chapter Nova Stage 1: Yuki"
         },
         "LockedStateTipsText": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "UI_Race_Track_TS_08_01",
+          "SourceString": "通关新章车队第1关结城",
+          "LocalizedString": "Clear Chapter Nova Stage 1: Yuki"
+        }
+      },
+      "FD_008B": {
+        "UnlockRacerID": "Racer008_03",
+        "DirectionTracks": [
+          "Track_haoyou_08_03"
+        ],
+        "TrackName": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "Race_Track_08_B",
+          "SourceString": "山野线B",
+          "LocalizedString": "Wildlands Track B"
+        },
+        "TrackDesc": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "UI_Race_Track_TS_08",
-          "SourceString": "通关新章车队第6关桐生",
-          "LocalizedString": "Clear Chapter Nova Stage 6: Kiryu"
+          "Key": "UI_Race_Track_Desc_08",
+          "SourceString": "蜿蜒于山间的野路，能给习惯了平坦开阔道路的你多几分山野趣味。上路后记得多几分谨慎，但周围的风景或许会给你别样的惊喜。",
+          "LocalizedString": "A winding mountain back road offers a bit more interesting scenery for those used to flat, open roads."
+        },
+        "LockedBackImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/saidao/UI_YH_RacingTrack_08_2_Lock.UI_YH_RacingTrack_08_2_Lock",
+          "SubPathString": ""
+        },
+        "UnlockBackImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/saidao/UI_YH_RacingTrack_08_2.UI_YH_RacingTrack_08_2",
+          "SubPathString": ""
+        },
+        "UnlockConditionText": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "UI_Race_Track_TS_08_03",
+          "SourceString": "通关新章车队第3关晴",
+          "LocalizedString": "Clear Chapter Nova Stage 3: Haru"
+        },
+        "LockedStateTipsText": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "UI_Race_Track_TS_08_03",
+          "SourceString": "通关新章车队第3关晴",
+          "LocalizedString": "Clear Chapter Nova Stage 3: Haru"
         }
       },
       "FD_009": {
-        "UnlockRacerID": "Racer009_06",
+        "UnlockRacerID": "Racer009_01",
         "DirectionTracks": [
-          "Track_haoyou_09_01",
-          "Track_haoyou_09_05"
+          "Track_haoyou_09_01"
         ],
         "TrackName": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "UI_Race_Track_09",
-          "SourceString": "稻香乡道线",
-          "LocalizedString": "Harvest Track"
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "Race_Track_09_A",
+          "SourceString": "稻香乡道线A",
+          "LocalizedString": "Harvest Track A"
         },
         "TrackDesc": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -584,29 +657,66 @@
           "SubPathString": ""
         },
         "UnlockConditionText": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "UI_Race_Track_TS_09",
-          "SourceString": "通关第一感车队第6关黑川",
-          "LocalizedString": "Clear First Sense Stage 6: Kurokawa"
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "UI_Race_Track_TS_09_01",
+          "SourceString": "通关第一感车队第1关杏",
+          "LocalizedString": "Clear First Sense Stage 1: Anzu"
         },
         "LockedStateTipsText": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "UI_Race_Track_TS_09_01",
+          "SourceString": "通关第一感车队第1关杏",
+          "LocalizedString": "Clear First Sense Stage 1: Anzu"
+        }
+      },
+      "FD_009B": {
+        "UnlockRacerID": "Racer009_05",
+        "DirectionTracks": [
+          "Track_haoyou_09_05"
+        ],
+        "TrackName": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "Race_Track_09_B",
+          "SourceString": "稻香乡道线B",
+          "LocalizedString": "Harvest Track B"
+        },
+        "TrackDesc": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "UI_Race_Track_TS_09",
-          "SourceString": "通关第一感车队第6关黑川",
-          "LocalizedString": "Clear First Sense Stage 6: Kurokawa"
+          "Key": "UI_Race_Track_Desc_09",
+          "SourceString": "如果有一条有颜色的公路，会是什么样的呢？也许这条路线会给你答案。春天的田野，秋天的麦田，在不同的季节来跑一跑，让不同的颜色装点你的速度吧。",
+          "LocalizedString": "If roads had colors, what would they look like? Perhaps this route has the answer. Race past spring fields and autumn wheatlands, and let each season paint your ride in a different hue."
+        },
+        "LockedBackImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/saidao/UI_YH_RacingTrack_09_2_Lock.UI_YH_RacingTrack_09_2_Lock",
+          "SubPathString": ""
+        },
+        "UnlockBackImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/saidao/UI_YH_RacingTrack_09_2.UI_YH_RacingTrack_09_2",
+          "SubPathString": ""
+        },
+        "UnlockConditionText": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "UI_Race_Track_TS_09_05",
+          "SourceString": "通关第一感车队第5关尼科",
+          "LocalizedString": "Clear First Sense Stage 5: Nico"
+        },
+        "LockedStateTipsText": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "UI_Race_Track_TS_09_05",
+          "SourceString": "通关第一感车队第5关尼科",
+          "LocalizedString": "Clear First Sense Stage 5: Nico"
         }
       },
       "FD_010": {
-        "UnlockRacerID": "Racer010_06",
+        "UnlockRacerID": "Racer010_01",
         "DirectionTracks": [
-          "Track_haoyou_10_01",
-          "Track_haoyou_10_03"
+          "Track_haoyou_10_01"
         ],
         "TrackName": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "UI_Race_Track_10",
-          "SourceString": "都市街道线",
-          "LocalizedString": "Urban Track"
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "Race_Track_10_A",
+          "SourceString": "都市街道线A",
+          "LocalizedString": "Urban Track A"
         },
         "TrackDesc": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
@@ -623,16 +733,54 @@
           "SubPathString": ""
         },
         "UnlockConditionText": {
-          "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "UI_Race_Track_TS_10",
-          "SourceString": "通关银冠车队第6关三浦",
-          "LocalizedString": "Clear Silver Crown Stage 6: Miura"
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "UI_Race_Track_TS_10_01",
+          "SourceString": "通关银冠车队第1关诗织",
+          "LocalizedString": "Clear Silver Crown Stage 1: Shiori"
         },
         "LockedStateTipsText": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "UI_Race_Track_TS_10_01",
+          "SourceString": "通关银冠车队第1关诗织",
+          "LocalizedString": "Clear Silver Crown Stage 1: Shiori"
+        }
+      },
+      "FD_010B": {
+        "UnlockRacerID": "Racer010_03",
+        "DirectionTracks": [
+          "Track_haoyou_10_03"
+        ],
+        "TrackName": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "Race_Track_10_B",
+          "SourceString": "都市街道线B",
+          "LocalizedString": "Urban Track B"
+        },
+        "TrackDesc": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
-          "Key": "UI_Race_Track_TS_10",
-          "SourceString": "通关银冠车队第6关三浦",
-          "LocalizedString": "Clear Silver Crown Stage 6: Miura"
+          "Key": "UI_Race_Track_Desc_10",
+          "SourceString": "城市里的道路看起来似乎总是一成不变，就和日复一日的生活一样。但在路上远比停滞不前要好，毕竟，跑起来就不会遇见同一片风。",
+          "LocalizedString": "City streets can seem endlessly unchanging, just like the routine of everyday life. But being on the road is always better than standing still—once you get moving, you'll never feel the same breeze twice."
+        },
+        "LockedBackImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/saidao/UI_YH_RacingTrack_10_2_Lock.UI_YH_RacingTrack_10_2_Lock",
+          "SubPathString": ""
+        },
+        "UnlockBackImage": {
+          "AssetPathName": "/Game/UI/UI/RaceCar/saidao/UI_YH_RacingTrack_10_2.UI_YH_RacingTrack_10_2",
+          "SubPathString": ""
+        },
+        "UnlockConditionText": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "UI_Race_Track_TS_10_03",
+          "SourceString": "通关银冠车队第3关旅",
+          "LocalizedString": "Clear Silver Crown Stage 3: Tabi"
+        },
+        "LockedStateTipsText": {
+          "TableId": "/Game/Text/ST_UI_hpy.ST_UI_hpy",
+          "Key": "UI_Race_Track_TS_10_03",
+          "SourceString": "通关银冠车队第3关旅",
+          "LocalizedString": "Clear Silver Crown Stage 3: Tabi"
         }
       }
     }

@@ -16457,7 +16457,7 @@
             "bMonsterDeadDontRefresh": false,
             "bNoShowProgressCount": false,
             "TeachSateges": {
-              "GaCounterTeachStages": [
+              "GameplayEffectTeachStages": [
                 {
                   "SlotContent": {
                     "Title": {
@@ -16468,21 +16468,21 @@
                       "SubPathString": ""
                     }
                   },
-                  "AbilityName": "GA_Radio072_Melee",
-                  "AbilitySectionName": "Entry2",
-                  "FinishCount": 1,
-                  "DetailConditionType": "ETrialTeachFinishDetailConditionType::FinisDetailCondition_End",
-                  "DelayFinishTime": -1.0
+                  "Type": "ETeachApplyTargetType::Monster",
+                  "TeachGE": {
+                    "ObjectName": "BlueprintGeneratedClass'GE_Player_Radio072_Branch_Damage_C'",
+                    "ObjectPath": "/Game/Blueprints/Abilities/Player/Ability_072_Radio/Damage/GE_Player_Radio072_Branch_Damage.1"
+                  },
+                  "GEApplyCount": 1
                 }
               ],
-              "PeriodGAName": "None",
               "IndependentShowUI": false,
               "SlotContent": {
                 "Title": {
                   "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                   "Key": "Trial_Radio_3",
-                  "SourceString": "长按普攻，触发1次「普通攻击：恶灵大巴掌！」",
-                  "LocalizedString": "Hold Basic Attack to trigger Spectral Smack once."
+                  "SourceString": "普攻任意一段后长按普攻，触发1次「普通攻击：恶灵大巴掌！」",
+                  "LocalizedString": "After any stage of Basic Attack, hold Basic Attack to trigger Spectral Smack once."
                 },
                 "SlotClass": {
                   "AssetPathName": "",
@@ -16490,16 +16490,7 @@
                 }
               },
               "StageFinishWaitTime": 0.0,
-              "TeachApplyEffects": [
-                {
-                  "GuideID": "Teach_Radio_3_1",
-                  "ApplyTargetType": "ETeachApplyTargetType::Player",
-                  "ApplyOperation": "ETeachApplyOperation::Add",
-                  "ApplyTime": 1,
-                  "ApplyTime_GEClass": "None",
-                  "ApplyNetPolicy": "ETeachApplyNetPolicy::Client"
-                }
-              ]
+              "TeachApplyEffects": []
             }
           },
           {
@@ -16688,7 +16679,7 @@
                       "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                       "Key": "Trial_Radio_5",
                       "SourceString": "释放「极轨终结：超负荷共鸣」，灵可进入异能过载状态，展开持续一定时间的「共鸣领域」1次",
-                      "LocalizedString": "Press Oversync once to enter Overdrive and deploy a Resonance Field for a set duration."
+                      "LocalizedString": "Press Oversync once to enter overdrive state and deploy a Resonance Field for a set duration."
                     },
                     "SlotClass": {
                       "AssetPathName": "",
@@ -16733,7 +16724,7 @@
                       "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                       "Key": "Trial_Radio_5_1",
                       "SourceString": "在「共鸣领域」持续期间，点按变轨技能召唤队友，释放「同频合击」3次",
-                      "LocalizedString": "Press Redirect Skill 3 times while Resonance Field is active to call on allies to perform Synced Strikes."
+                      "LocalizedString": "Press Redirect Skill 3 times while Resonance Field is active to call on allies to perform 3 Synced Strikes."
                     },
                     "SlotClass": {
                       "AssetPathName": "",
@@ -16769,7 +16760,7 @@
                       "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                       "Key": "Trial_Radio_5_2",
                       "SourceString": "再次点按极轨终结，对「共鸣领域」内的所有敌方单位造成爆发伤害1次",
-                      "LocalizedString": "Press Ultimate again once to deal Burst DMG to all enemies within Resonance Field."
+                      "LocalizedString": "Press Ultimate once again to deal Burst DMG to all enemies within Resonance Field."
                     },
                     "SlotClass": {
                       "AssetPathName": "",
@@ -16873,7 +16864,7 @@
             }
           },
           {
-            "bStateMonsterNeedAttack": false,
+            "bStateMonsterNeedAttack": true,
             "bMonsterDeadDontRefresh": false,
             "bNoShowProgressCount": false,
             "TeachSateges": {
@@ -16906,7 +16897,7 @@
                       "TableId": "/Game/Text/ST_CharacterTeachGuide.ST_CharacterTeachGuide",
                       "Key": "Trial_Radio_6",
                       "SourceString": "当灵可位于后台时\r\n会周期性地派出小贞偷袭敌人，小贞造成伤害并为其施加「小鬼打这里！」标记1次",
-                      "LocalizedString": "While Linko is off-field,\r\nshe periodically sends Xiaozhen to ambush enemies, dealing DMG and inflicting a \\\rHit 'Em Here!\n mark."
+                      "LocalizedString": "While Linko is off-field,\r\nshe periodically sends Xiaozhen to ambush enemies, dealing DMG and inflicting a Hit 'Em Here! mark."
                     },
                     "SlotClass": {
                       "AssetPathName": "",

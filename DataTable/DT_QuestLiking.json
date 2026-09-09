@@ -1641,14 +1641,14 @@
       "K112401": {
         "QuestId": "K112401",
         "QuestName": {
-          "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+          "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
           "Key": "K112401_QuestName",
-          "SourceString": "<!>前往灵可约见地点",
-          "LocalizedString": "<!>前往灵可约见地点"
+          "SourceString": "外星人来袭？！",
+          "LocalizedString": "Alien Alert?!"
         },
         "ChapterID": "SU112",
         "ChapterProgress": 1.0,
-        "DisplayMapName": "QiaoJianDi",
+        "DisplayMapName": "YangCongTou",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
@@ -1667,7 +1667,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_027/BP_NPC_027_K112401.BP_NPC_027_K112401_C",
               "SubPathString": ""
             },
             "MonsterTrackIcon": {
@@ -1677,10 +1677,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+              "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
               "Key": "K112401_ObjDes_1",
-              "SourceString": "<!>前往灵可约见地点",
-              "LocalizedString": "<!>前往灵可约见地点"
+              "SourceString": "与<blue>灵可</>在约定地点会合",
+              "LocalizedString": "Meet with <blue>Linko</> at the rendezvous point"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -1689,11 +1689,11 @@
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
-              "bForceTrackLocation": true,
+              "bForceTrackLocation": false,
               "TrackLocation": {
-                "X": -91270.55,
-                "Y": 164670.42,
-                "Z": 4119.2114
+                "X": -261300.8,
+                "Y": 98024.164,
+                "Z": 5120.523
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -1734,10 +1734,10 @@
         "bUseSpecialQuestSettleUI": false,
         "bForceHybridQuest": false,
         "PanelDescription": {
-          "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+          "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
           "Key": "K112401_QuestPanel",
-          "SourceString": "<!>前往灵可约见地点",
-          "LocalizedString": "<!>前往灵可约见地点"
+          "SourceString": "灵可声称自己找到了外星人，还发来了一起调查的邀请，去看看是怎么回事吧。",
+          "LocalizedString": "Linko claims she found aliens and invited you to investigate with her. Go see what's going on."
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -1776,7 +1776,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1200.0,
+          "LockTime": 1600.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -1798,14 +1798,14 @@
       "K112402": {
         "QuestId": "K112402",
         "QuestName": {
-          "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+          "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
           "Key": "K112402_QuestName",
-          "SourceString": "<!>前往商店",
-          "LocalizedString": "<!>前往商店"
+          "SourceString": "基于奶牛的作战计划？",
+          "LocalizedString": "Operation: Cow Bait?"
         },
         "ChapterID": "SU112",
         "ChapterProgress": 2.0,
-        "DisplayMapName": "QiaoJianDi",
+        "DisplayMapName": "YangCongTou",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
@@ -1834,10 +1834,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+              "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
               "Key": "K112402_ObjDes_1",
-              "SourceString": "<!>前往商店",
-              "LocalizedString": "<!>前往商店"
+              "SourceString": "与<blue>灵可</>商讨诱捕外星人的计划",
+              "LocalizedString": "Work out a plan with <blue>Linko</> to lure the aliens out"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -1848,9 +1848,9 @@
             "TrackInfo": {
               "bForceTrackLocation": true,
               "TrackLocation": {
-                "X": -91270.55,
-                "Y": 164670.42,
-                "Z": 4119.2114
+                "X": -246997.0,
+                "Y": 132723.67,
+                "Z": 3128.0
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -1891,10 +1891,10 @@
         "bUseSpecialQuestSettleUI": false,
         "bForceHybridQuest": false,
         "PanelDescription": {
-          "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+          "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
           "Key": "K112402_QuestPanel",
-          "SourceString": "<!>前往商店",
-          "LocalizedString": "<!>前往商店"
+          "SourceString": "灵可对外星人的存在深信不疑，还计划将它们引诱出来……总之陪她玩一会儿吧。",
+          "LocalizedString": "Linko's absolutely convinced aliens are real, and she's even planning to draw them out of hiding… might as well humor her for a bit."
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -1938,7 +1938,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1200.0,
+          "LockTime": 1700.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -1960,14 +1960,14 @@
       "K112403": {
         "QuestId": "K112403",
         "QuestName": {
-          "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+          "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
           "Key": "K112403_QuestName",
-          "SourceString": "<!>返回ufo所在",
-          "LocalizedString": "<!>返回ufo所在"
+          "SourceString": "第四类接触？！",
+          "LocalizedString": "Close Encounter of the Fourth Kind?!"
         },
         "ChapterID": "SU112",
         "ChapterProgress": 3.0,
-        "DisplayMapName": "QiaoJianDi",
+        "DisplayMapName": "YangCongTou",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
@@ -1996,10 +1996,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+              "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
               "Key": "K112403_ObjDes_1",
-              "SourceString": "<!>返回ufo所在",
-              "LocalizedString": "<!>返回ufo所在"
+              "SourceString": "与<blue>灵可</>回到约定地点，准备诱捕外星人",
+              "LocalizedString": "Head back to the rendezvous point with <blue>Linko</> and prepare to lure out the aliens"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -2010,9 +2010,9 @@
             "TrackInfo": {
               "bForceTrackLocation": true,
               "TrackLocation": {
-                "X": -91270.55,
-                "Y": 164670.42,
-                "Z": 4119.2114
+                "X": -261300.8,
+                "Y": 98024.164,
+                "Z": 5120.523
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -2043,7 +2043,7 @@
         "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
         "bMainQuestAutoSpeak": true,
         "bShowQuestAcceptTips": false,
-        "bShowQuestCompleteTip": false,
+        "bShowQuestCompleteTip": true,
         "HideOrShowMainFormWidgets": null,
         "bHideQuestMark": false,
         "bHideTrackMark": false,
@@ -2053,10 +2053,10 @@
         "bUseSpecialQuestSettleUI": false,
         "bForceHybridQuest": false,
         "PanelDescription": {
-          "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+          "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
           "Key": "K112403_QuestPanel",
-          "SourceString": "<!>返回ufo所在",
-          "LocalizedString": "<!>返回ufo所在"
+          "SourceString": "虽然几乎毫无道理，但计划已经进展了这一步……和灵可一起，用牛奶诱捕外星人吧！",
+          "LocalizedString": "It makes absolutely no sense, but we've already gotten this far… Team up with Linko and use milk to bait the aliens!"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -2081,7 +2081,7 @@
         "QuestResetTime": null,
         "FailedData": null,
         "NextQuests": [],
-        "bAutoNext": true,
+        "bAutoNext": false,
         "NeedSubmit": false,
         "PatcherTag": "None",
         "QuestSubmitDescription": {
@@ -2107,7 +2107,7 @@
           "bShowInPanel": true
         },
         "QuestTimeLock": {
-          "LockTime": 1200.0,
+          "LockTime": 1700.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -2209,10 +2209,10 @@
       "K112404": {
         "QuestId": "K112404",
         "QuestName": {
-          "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+          "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
           "Key": "K112404_QuestName",
-          "SourceString": "<!>前往旧电器店",
-          "LocalizedString": "<!>前往旧电器店"
+          "SourceString": "小贞大危机！",
+          "LocalizedString": "Xiaozhen in Trouble!"
         },
         "ChapterID": "SU110",
         "ChapterProgress": 1.0,
@@ -2245,10 +2245,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+              "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
               "Key": "K112404_ObjDes_1",
-              "SourceString": "<!>前往旧电器店",
-              "LocalizedString": "<!>前往旧电器店"
+              "SourceString": "前往<blue>旧电器店</>，与灵可会合",
+              "LocalizedString": "Go to the <blue>Old Electronics Store</> and meet up with Linko"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -2259,9 +2259,9 @@
             "TrackInfo": {
               "bForceTrackLocation": true,
               "TrackLocation": {
-                "X": -91270.55,
-                "Y": 164670.42,
-                "Z": 4119.2114
+                "X": -88839.375,
+                "Y": 155911.22,
+                "Z": 4159.5137
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -2302,10 +2302,10 @@
         "bUseSpecialQuestSettleUI": false,
         "bForceHybridQuest": false,
         "PanelDescription": {
-          "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+          "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
           "Key": "K112404_QuestPanel",
-          "SourceString": "<!>前往旧电器店",
-          "LocalizedString": "<!>前往旧电器店"
+          "SourceString": "灵可的电视机发生了一些意外，小贞从那之后就没有出现过……去看看灵可的情况吧。",
+          "LocalizedString": "Linko's TV ran into some trouble, and Xiaozhen hasn't shown up since… Go check on Linko."
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -2344,7 +2344,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1200.0,
+          "LockTime": 1400.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -2366,10 +2366,10 @@
       "K112405": {
         "QuestId": "K112405",
         "QuestName": {
-          "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+          "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
           "Key": "K112405_QuestName",
-          "SourceString": "<!>返回伊波恩找塔吉多",
-          "LocalizedString": "<!>返回伊波恩找塔吉多"
+          "SourceString": "旧电视，旧时光",
+          "LocalizedString": "Old TV, Old Memories"
         },
         "ChapterID": "SU110",
         "ChapterProgress": 2.0,
@@ -2392,7 +2392,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Character/Anomaly/Anomaly_004/BP_NPC_004_A_K112401.BP_NPC_004_A_K112401_C",
               "SubPathString": ""
             },
             "MonsterTrackIcon": {
@@ -2402,10 +2402,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+              "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
               "Key": "K112405_ObjDes_1",
-              "SourceString": "<!>返回伊波恩找塔吉多",
-              "LocalizedString": "<!>返回伊波恩找塔吉多"
+              "SourceString": "前往<blue>伊波恩</>与<blue>塔吉多</>交谈",
+              "LocalizedString": "Go to <blue>Eibon</> and talk to <blue>Taygedo</>"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -2414,11 +2414,11 @@
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
-              "bForceTrackLocation": true,
+              "bForceTrackLocation": false,
               "TrackLocation": {
-                "X": -91270.55,
-                "Y": 164670.42,
-                "Z": 4119.2114
+                "X": -89389.45,
+                "Y": 147630.83,
+                "Z": 4150.1323
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -2459,10 +2459,10 @@
         "bUseSpecialQuestSettleUI": false,
         "bForceHybridQuest": false,
         "PanelDescription": {
-          "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+          "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
           "Key": "K112405_QuestPanel",
-          "SourceString": "<!>返回伊波恩找塔吉多",
-          "LocalizedString": "<!>返回伊波恩找塔吉多"
+          "SourceString": "布朗老爹没法修好电视，但好在伊波恩有一位对电视钻研颇深的维修专家……",
+          "LocalizedString": "Old Brown couldn't fix the TV, but luckily, Eibon has a repair expert who really knows his stuff…"
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -2506,7 +2506,7 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1200.0,
+          "LockTime": 1400.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -2528,10 +2528,10 @@
       "K112406": {
         "QuestId": "K112406",
         "QuestName": {
-          "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+          "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
           "Key": "K112406_QuestName",
-          "SourceString": "<!>前往小工具房查看塔吉多",
-          "LocalizedString": "<!>前往小工具房查看塔吉多"
+          "SourceString": "恶灵复苏！",
+          "LocalizedString": "The Ghost Returns!"
         },
         "ChapterID": "SU110",
         "ChapterProgress": 3.0,
@@ -2564,10 +2564,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+              "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
               "Key": "K112406_ObjDes_1",
-              "SourceString": "<!>前往小工具房查看塔吉多",
-              "LocalizedString": "<!>前往小工具房查看塔吉多"
+              "SourceString": "前往<blue>伊波恩后院</>，查看塔吉多的情况",
+              "LocalizedString": "Go to <blue>Eibon's Backyard</> and check on Taygedo"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -2578,9 +2578,9 @@
             "TrackInfo": {
               "bForceTrackLocation": true,
               "TrackLocation": {
-                "X": -91270.55,
-                "Y": 164670.42,
-                "Z": 4119.2114
+                "X": -88113.64,
+                "Y": 146325.89,
+                "Z": 4150.1323
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -2599,7 +2599,25 @@
               "bShowNavigationPath": true
             },
             "CompleteTeleportID": "None",
-            "CompleteTeleport": null,
+            "CompleteTeleport": {
+              "CompletedTeleportPosition": {
+                "X": -88138.42,
+                "Y": 147092.72,
+                "Z": 4059.4656
+              },
+              "CompletedRotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "LoadingUIType": "ETransferLoadingUIType::ForceTransfer",
+              "CameraRotation": {
+                "Pitch": 0.0,
+                "Yaw": 0.0,
+                "Roll": 0.0
+              },
+              "bKeepPlayerRotation": true
+            },
             "CompleteCameraRotation": null,
             "CompleteDistance": null,
             "ShortcutJumpData": null
@@ -2611,7 +2629,7 @@
         "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
         "bMainQuestAutoSpeak": true,
         "bShowQuestAcceptTips": false,
-        "bShowQuestCompleteTip": false,
+        "bShowQuestCompleteTip": true,
         "HideOrShowMainFormWidgets": null,
         "bHideQuestMark": false,
         "bHideTrackMark": false,
@@ -2621,10 +2639,10 @@
         "bUseSpecialQuestSettleUI": false,
         "bForceHybridQuest": false,
         "PanelDescription": {
-          "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+          "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
           "Key": "K112406_QuestPanel",
-          "SourceString": "<!>前往小工具房查看塔吉多",
-          "LocalizedString": "<!>前往小工具房查看塔吉多"
+          "SourceString": "后院居然传出了塔吉多的悲鸣，去看看发生了什么吧，希望獭没事……",
+          "LocalizedString": "Taygedo's cries are coming from the backyard. Go investigate."
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -2649,7 +2667,7 @@
         "QuestResetTime": null,
         "FailedData": null,
         "NextQuests": [],
-        "bAutoNext": true,
+        "bAutoNext": false,
         "NeedSubmit": false,
         "PatcherTag": "None",
         "QuestSubmitDescription": {
@@ -2675,7 +2693,7 @@
           "bShowInPanel": true
         },
         "QuestTimeLock": {
-          "LockTime": 1200.0,
+          "LockTime": 1400.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
@@ -2777,14 +2795,14 @@
       "K112407": {
         "QuestId": "K112407",
         "QuestName": {
-          "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+          "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
           "Key": "K112407_QuestName",
-          "SourceString": "<!>找灵可",
-          "LocalizedString": "<!>找灵可"
+          "SourceString": "天外来客",
+          "LocalizedString": "Visitor from the Stars"
         },
         "ChapterID": "SU111",
         "ChapterProgress": 1.0,
-        "DisplayMapName": "QiaoJianDi",
+        "DisplayMapName": "ShangQingTa",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
@@ -2803,7 +2821,7 @@
             "ObjectiveType": "EObjectiveType::EOT_TALK",
             "Amount": 1,
             "TargetType": {
-              "AssetPathName": "",
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_027/BP_NPC_027_K112407.BP_NPC_027_K112407_C",
               "SubPathString": ""
             },
             "MonsterTrackIcon": {
@@ -2813,10 +2831,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+              "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
               "Key": "K112407_ObjDes_1",
-              "SourceString": "<!>找灵可",
-              "LocalizedString": "<!>找灵可"
+              "SourceString": "前往<blue>上晴塔餐厅</>，与灵可交谈",
+              "LocalizedString": "Go to the <blue>Hethereau Skytower Dining Room</> and talk to Linko"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -2825,11 +2843,11 @@
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
-              "bForceTrackLocation": true,
+              "bForceTrackLocation": false,
               "TrackLocation": {
-                "X": -91270.55,
-                "Y": 164670.42,
-                "Z": 4119.2114
+                "X": 26750.816,
+                "Y": 43258.938,
+                "Z": 52196.883
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -2870,10 +2888,10 @@
         "bUseSpecialQuestSettleUI": false,
         "bForceHybridQuest": false,
         "PanelDescription": {
-          "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+          "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
           "Key": "K112407_QuestPanel",
-          "SourceString": "<!>找灵可",
-          "LocalizedString": "<!>找灵可"
+          "SourceString": "灵可想向你介绍一位来自宇宙的朋友，去和她谈谈吧。",
+          "LocalizedString": "Linko wishes to introduce you to a friend from outer space. Go speak with her."
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -2912,9 +2930,9 @@
         "LikeabilityData": null,
         "QuestAward": null,
         "QuestTimeLock": {
-          "LockTime": 1200.0,
+          "LockTime": 1800.0,
           "TransitionSpeed": -1.0,
-          "ProtectTimeSeconds": 600.0
+          "ProtectTimeSeconds": 6000.0
         },
         "QuestWeatherLock": {
           "LockWeatherIndex": "EWeatherIndex::Weather_Sunny",
@@ -2934,14 +2952,14 @@
       "K112408": {
         "QuestId": "K112408",
         "QuestName": {
-          "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+          "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
           "Key": "K112408_QuestName",
-          "SourceString": "<!>跟灵可对话",
-          "LocalizedString": "<!>跟灵可对话"
+          "SourceString": "宇宙尽头的告白",
+          "LocalizedString": "A Confession Across the Stars"
         },
         "ChapterID": "SU111",
         "ChapterProgress": 2.0,
-        "DisplayMapName": "QiaoJianDi",
+        "DisplayMapName": "ShangQingTa",
         "TrackMapName": "XL_map_bigworld_test",
         "BelongsGameplayAreaID": "None",
         "BelongsFloorArea": "None",
@@ -2970,10 +2988,10 @@
             "TargetTag": "None",
             "Optional": false,
             "Description": {
-              "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+              "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
               "Key": "K112408_ObjDes_1",
-              "SourceString": "<!>跟灵可对话",
-              "LocalizedString": "<!>跟灵可对话"
+              "SourceString": "前往<blue>上晴塔塔顶</>，等待彗星经过",
+              "LocalizedString": "Go to the <blue>Hethereau Skytower Rooftop</> and wait for the comet to pass by"
             },
             "CompletedDescription": {
               "CultureInvariantString": null
@@ -2984,9 +3002,9 @@
             "TrackInfo": {
               "bForceTrackLocation": true,
               "TrackLocation": {
-                "X": -91270.55,
-                "Y": 164670.42,
-                "Z": 4119.2114
+                "X": 23991.852,
+                "Y": 42848.254,
+                "Z": 52693.15
               },
               "fRange": 0.0,
               "ShowCenter": false,
@@ -3017,7 +3035,7 @@
         "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
         "bMainQuestAutoSpeak": true,
         "bShowQuestAcceptTips": false,
-        "bShowQuestCompleteTip": false,
+        "bShowQuestCompleteTip": true,
         "HideOrShowMainFormWidgets": null,
         "bHideQuestMark": false,
         "bHideTrackMark": false,
@@ -3027,10 +3045,10 @@
         "bUseSpecialQuestSettleUI": false,
         "bForceHybridQuest": false,
         "PanelDescription": {
-          "TableId": "/Game/Text/ST_QuestLiking_lx.ST_QuestLiking_lx",
+          "TableId": "/Game/Text/Dialogue/ST_Likingquest_Linko.ST_Likingquest_Linko",
           "Key": "K112408_QuestPanel",
-          "SourceString": "<!>跟灵可对话",
-          "LocalizedString": "<!>跟灵可对话"
+          "SourceString": "星与星的距离太过遥远，但电波能够跨越亿万光年的真空，让你我相连。",
+          "LocalizedString": "The stars are far apart, but frequencies can span billions of light-years, connecting you and me."
         },
         "UnlockTeleportID": "None",
         "BuffInfo": null,
@@ -3055,7 +3073,7 @@
         "QuestResetTime": null,
         "FailedData": null,
         "NextQuests": [],
-        "bAutoNext": true,
+        "bAutoNext": false,
         "NeedSubmit": false,
         "PatcherTag": "None",
         "QuestSubmitDescription": {
@@ -3077,7 +3095,7 @@
           "bShowInPanel": true
         },
         "QuestTimeLock": {
-          "LockTime": 1200.0,
+          "LockTime": 2100.0,
           "TransitionSpeed": -1.0,
           "ProtectTimeSeconds": 600.0
         },
