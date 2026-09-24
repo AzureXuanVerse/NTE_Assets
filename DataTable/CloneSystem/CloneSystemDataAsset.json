@@ -22,7 +22,7 @@
         "ObjectName": "DataTable'DT_CloneMonsterInfo'",
         "ObjectPath": "/Game/DataTable/CloneSystem/DT_CloneMonsterInfo.0"
       },
-      "ExitGameCoolDownTime": 999,
+      "ExitGameCoolDownTime": 3500,
       "CloneReliveHPPer": 1.0,
       "ReceiveAwardDatas": [
         {
@@ -228,6 +228,34 @@
             "EnterCloneTipsUI": "",
             "CloneChallengeResultUI": "MotorboatCollectCloneSuccess",
             "CloneChallengeResultFailedUI": "MotorboatCollectCloneFailed",
+            "OnlineCloneChallengeResultFailedUI": "",
+            "CloneAwardUI": ""
+          }
+        },
+        {
+          "CloneType": [
+            "ECloneType::EndlessTrial"
+          ],
+          "CloneUIxtensionData": {
+            "CloneMainFormSlot": "EndlessTrialGaming",
+            "CloneSkillPanelSlot": "",
+            "EnterCloneTipsUI": "",
+            "CloneChallengeResultUI": "EndlessTrialCloneSettle",
+            "CloneChallengeResultFailedUI": "EndlessTrialCloneFailed",
+            "OnlineCloneChallengeResultFailedUI": "",
+            "CloneAwardUI": ""
+          }
+        },
+        {
+          "CloneType": [
+            "ECloneType::DefendAthena"
+          ],
+          "CloneUIxtensionData": {
+            "CloneMainFormSlot": "DefendAthenaMainForm",
+            "CloneSkillPanelSlot": "",
+            "EnterCloneTipsUI": "",
+            "CloneChallengeResultUI": "",
+            "CloneChallengeResultFailedUI": "",
             "OnlineCloneChallengeResultFailedUI": "",
             "CloneAwardUI": ""
           }

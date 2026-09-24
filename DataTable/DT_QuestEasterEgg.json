@@ -26,6 +26,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "SelfieCapturedIDArray": [
@@ -52,6 +53,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -165,6 +167,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -193,6 +196,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -309,6 +313,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "SelfieCapturedIDArray": [
@@ -335,6 +340,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -448,6 +454,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -476,6 +483,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -578,6 +586,580 @@
           "CultureInvariantString": null
         }
       },
+      "W100301": {
+        "QuestId": "W100301",
+        "QuestName": {
+          "CultureInvariantString": "乐园章鱼游客拍照1"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "BelongsGameplayAreaID": "None",
+        "BelongsFloorArea": "None",
+        "floor": 0,
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
+        "ObjectivesInfo": [
+          {
+            "SelfieCapturedIDArray": [
+              "W100301"
+            ],
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_SELFIE_CAPTURED",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -94050.0,
+                "Y": 166150.0,
+                "Z": 4080.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG_WORLD",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "W100302"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "NeedIgnoreFavorabilityNPCWhenTracking": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "SubmitActivateYahahaIDs": [],
+        "AcceptActivateYahahaIDs": [],
+        "ActivateFogID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "W100302": {
+        "QuestId": "W100302",
+        "QuestName": {
+          "CultureInvariantString": "乐园章鱼游客拍照2"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "BelongsGameplayAreaID": "None",
+        "BelongsFloorArea": "None",
+        "floor": 0,
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/CNPC/CNPC_106/CNPC_106003/BP_CNPC_106003.BP_CNPC_106003_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -94050.0,
+                "Y": 166150.0,
+                "Z": 4080.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG_WORLD",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "W100301",
+            "ObjectiveID": "1"
+          }
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "NeedIgnoreFavorabilityNPCWhenTracking": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "SubmitActivateYahahaIDs": [],
+        "AcceptActivateYahahaIDs": [],
+        "ActivateFogID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "W100401": {
+        "QuestId": "W100401",
+        "QuestName": {
+          "CultureInvariantString": "乐园摩天轮游客拍照1"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "BelongsGameplayAreaID": "None",
+        "BelongsFloorArea": "None",
+        "floor": 0,
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
+        "ObjectivesInfo": [
+          {
+            "SelfieCapturedIDArray": [
+              "W100401"
+            ],
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_SELFIE_CAPTURED",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -94050.0,
+                "Y": 166150.0,
+                "Z": 4080.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG_WORLD",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "W100402"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "NeedIgnoreFavorabilityNPCWhenTracking": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "SubmitActivateYahahaIDs": [],
+        "AcceptActivateYahahaIDs": [],
+        "ActivateFogID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "W100402": {
+        "QuestId": "W100402",
+        "QuestName": {
+          "CultureInvariantString": "乐园摩天轮游客拍照2"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "BelongsGameplayAreaID": "None",
+        "BelongsFloorArea": "None",
+        "floor": 0,
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/CNPC/CNPC_034/CNPC_034056/BP_CNPC_034056.BP_CNPC_034056_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -94050.0,
+                "Y": 166150.0,
+                "Z": 4080.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG_WORLD",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "W100401",
+            "ObjectiveID": "1"
+          }
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "NeedIgnoreFavorabilityNPCWhenTracking": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "SubmitActivateYahahaIDs": [],
+        "AcceptActivateYahahaIDs": [],
+        "ActivateFogID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
       "W101301": {
         "QuestId": "W101301",
         "QuestName": {
@@ -592,6 +1174,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -620,6 +1203,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": true,
             "TrackInfo": {
@@ -738,6 +1322,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -766,6 +1351,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": true,
             "TrackInfo": {
@@ -882,6 +1468,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -910,6 +1497,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -1023,6 +1611,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "SelfieCapturedIDArray": [
@@ -1049,6 +1638,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -1167,6 +1757,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -1195,6 +1786,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -1251,6 +1843,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -1345,6 +1938,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -1373,6 +1967,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -1486,6 +2081,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "SelfieCapturedIDArray": [
@@ -1512,6 +2108,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -1630,6 +2227,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -1658,6 +2256,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -1714,6 +2313,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -1808,6 +2408,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -1836,6 +2437,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -1949,6 +2551,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "SelfieCapturedIDArray": [
@@ -1975,6 +2578,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -2093,6 +2697,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -2121,6 +2726,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -2177,6 +2783,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -2271,6 +2878,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -2299,6 +2907,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -2412,6 +3021,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -2440,6 +3050,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -2496,6 +3107,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -2590,6 +3202,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -2618,6 +3231,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -2731,6 +3345,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -2759,6 +3374,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -2815,6 +3431,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -2909,6 +3526,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -2937,6 +3555,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -3048,6 +3667,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -3076,6 +3696,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -3189,6 +3810,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -3217,6 +3839,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -3333,6 +3956,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -3361,6 +3985,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -3472,6 +4097,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -3500,6 +4126,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -3611,6 +4238,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -3639,6 +4267,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -3750,6 +4379,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -3778,6 +4408,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -3896,6 +4527,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 8.0,
@@ -3922,6 +4554,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -3980,6 +4613,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -4071,6 +4705,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 8.0,
@@ -4097,6 +4732,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -4155,6 +4791,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -4246,6 +4883,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 8.0,
@@ -4272,6 +4910,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -4330,6 +4969,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -4425,6 +5065,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "ChatItemIDArray": [
@@ -4451,6 +5092,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -4509,6 +5151,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -4598,6 +5241,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -4626,6 +5270,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -4722,6 +5367,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -4750,6 +5396,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -4866,6 +5513,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -4894,6 +5542,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -4952,6 +5601,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -5043,6 +5693,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 0.0,
@@ -5069,6 +5720,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -5180,6 +5832,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -5208,6 +5861,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -5264,6 +5918,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -5353,6 +6008,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 0.0,
@@ -5379,6 +6035,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -5490,6 +6147,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -5518,6 +6176,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -5631,6 +6290,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -5659,6 +6319,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -5772,6 +6433,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -5800,6 +6462,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -5918,6 +6581,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -5946,6 +6610,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -6062,6 +6727,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 0.0,
@@ -6088,6 +6754,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -6146,6 +6813,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -6180,6 +6848,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -6269,6 +6938,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -6297,6 +6967,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -6355,6 +7026,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -6391,6 +7063,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -6487,6 +7160,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 0.0,
@@ -6513,6 +7187,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -6569,6 +7244,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -6658,6 +7334,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -6686,6 +7363,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -6804,6 +7482,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 0.0,
@@ -6830,6 +7509,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -6883,6 +7563,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -6917,6 +7598,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -7011,6 +7693,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 0.0,
@@ -7037,6 +7720,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -7095,6 +7779,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -7129,6 +7814,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -7218,6 +7904,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 0.0,
@@ -7244,6 +7931,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -7302,6 +7990,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -7336,6 +8025,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -7425,6 +8115,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 0.0,
@@ -7451,6 +8142,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -7509,6 +8201,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -7543,6 +8236,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -7632,6 +8326,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 0.0,
@@ -7658,6 +8353,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -7716,6 +8412,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -7750,6 +8447,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -7839,6 +8537,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -7867,6 +8566,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -7978,6 +8678,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 0.0,
@@ -8004,6 +8705,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -8062,6 +8764,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -8153,6 +8856,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 0.0,
@@ -8179,6 +8883,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -8237,6 +8942,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -8271,6 +8977,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -8365,6 +9072,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -8393,6 +9101,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -8509,6 +9218,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -8537,6 +9247,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -8653,6 +9364,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -8681,6 +9393,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -8800,6 +9513,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -8828,6 +9542,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -8944,6 +9659,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -8972,6 +9688,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -9090,6 +9807,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bNeedItemsByType": false,
@@ -9120,6 +9838,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -9178,6 +9897,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -9277,6 +9997,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -9305,6 +10026,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -9418,6 +10140,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -9446,6 +10169,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -9548,6 +10272,634 @@
           "CultureInvariantString": null
         }
       },
+      "W108501": {
+        "QuestId": "W108501",
+        "QuestName": {
+          "CultureInvariantString": "<!>爱讲故事的老爷爷1"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "BelongsGameplayAreaID": "None",
+        "BelongsFloorArea": "None",
+        "floor": 0,
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
+        "ObjectivesInfo": [
+          {
+            "BeginTime": 0.0,
+            "EndTime": 24.0,
+            "WaittingDays": 1,
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_CHANGE_TIME",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -151210.0,
+                "Y": 151920.0,
+                "Z": 6650.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          },
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "2",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/CNPC/CNPC_084/CNPC_084014/BP_CNPC_084014_2.BP_CNPC_084014_2_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG_WORLD",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [
+          "W108102"
+        ],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "NeedIgnoreFavorabilityNPCWhenTracking": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "SubmitActivateYahahaIDs": [],
+        "AcceptActivateYahahaIDs": [],
+        "ActivateFogID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "W108502": {
+        "QuestId": "W108502",
+        "QuestName": {
+          "CultureInvariantString": "<!>爱讲故事的老爷爷2"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "BelongsGameplayAreaID": "None",
+        "BelongsFloorArea": "None",
+        "floor": 0,
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
+        "ObjectivesInfo": [
+          {
+            "BeginTime": 0.0,
+            "EndTime": 24.0,
+            "WaittingDays": 1,
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_CHANGE_TIME",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -151210.0,
+                "Y": 151920.0,
+                "Z": 6650.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          },
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "2",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/CNPC/CNPC_084/CNPC_084014/BP_CNPC_084014_3.BP_CNPC_084014_3_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG_WORLD",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "<!>爱讲故事的老爷爷1",
+            "ObjectiveID": "W108501"
+          }
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "NeedIgnoreFavorabilityNPCWhenTracking": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "SubmitActivateYahahaIDs": [],
+        "AcceptActivateYahahaIDs": [],
+        "ActivateFogID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "W108601": {
+        "QuestId": "W108601",
+        "QuestName": {
+          "Namespace": "",
+          "Key": "A1E49D0249D17E0A1A14FEA9672492E5",
+          "SourceString": "<!>乐园找小孩老师",
+          "LocalizedString": "<!>乐园找小孩老师"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "BelongsGameplayAreaID": "None",
+        "BelongsFloorArea": "None",
+        "floor": 0,
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
+        "ObjectivesInfo": [
+          {
+            "bMainQuestAutoSpeak": true,
+            "SpecialDialog": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "ObjectiveID": "None",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_TALK",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "/Game/Blueprints/Character/NPC/NPC_Sub/CNPC/CNPC_023/CNPC_023006/BP_CNPC_023006.BP_CNPC_023006_C",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": null,
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG_WORLD",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "NeedIgnoreFavorabilityNPCWhenTracking": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "SubmitActivateYahahaIDs": [],
+        "AcceptActivateYahahaIDs": [],
+        "ActivateFogID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
+      "W108602": {
+        "QuestId": "W108602",
+        "QuestName": {
+          "Namespace": "",
+          "Key": "7133891D4C10C706F8B078817C5F1E08",
+          "SourceString": "<!>乐园刷新小孩",
+          "LocalizedString": "<!>乐园刷新小孩"
+        },
+        "ChapterID": "None",
+        "ChapterProgress": -1.0,
+        "DisplayMapName": "None",
+        "TrackMapName": "XL_map_bigworld_test",
+        "BelongsGameplayAreaID": "None",
+        "BelongsFloorArea": "None",
+        "floor": 0,
+        "bNeedCrossBox": false,
+        "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
+        "ObjectivesInfo": [
+          {
+            "BeginTime": 0.0,
+            "EndTime": 1.0,
+            "WaittingDays": 1,
+            "ObjectiveID": "1",
+            "ObjectiveTips": "",
+            "ObjectiveType": "EObjectiveType::EOT_CHANGE_TIME",
+            "Amount": 1,
+            "TargetType": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "MonsterTrackIcon": {
+              "AssetPathName": "",
+              "SubPathString": ""
+            },
+            "TargetTag": "None",
+            "Optional": false,
+            "Description": {
+              "CultureInvariantString": null
+            },
+            "CompletedDescription": {
+              "CultureInvariantString": null
+            },
+            "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
+            "IntroduceInfo": null,
+            "bOnlyInClient": false,
+            "TrackInfo": {
+              "bForceTrackLocation": false,
+              "TrackLocation": {
+                "X": -151210.0,
+                "Y": 151920.0,
+                "Z": 6650.0
+              },
+              "fRange": 0.0,
+              "ShowCenter": false,
+              "MulTrackLocationArray": [],
+              "TrackOffLocation": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "TrackMapName": "",
+              "bNeedCrossBox": false,
+              "bTrackGoalEnable": true,
+              "bNeedPassParking": false,
+              "VehicleParkingArray": [],
+              "AzimuthIndicatorable": true,
+              "bShowNavigationPath": true
+            },
+            "CompleteTeleportID": "None",
+            "CompleteTeleport": null,
+            "CompleteCameraRotation": null,
+            "CompleteDistance": null,
+            "ShortcutJumpData": null
+          }
+        ],
+        "QuestType": "EQuestType::EQT_EASTER_EGG_WORLD",
+        "bNeedRedpoint": false,
+        "bLoop": false,
+        "ObjectiveType": "EQuestProcessType::EQPT_SEQUENCE",
+        "bMainQuestAutoSpeak": true,
+        "bShowQuestAcceptTips": false,
+        "bShowQuestCompleteTip": false,
+        "HideOrShowMainFormWidgets": null,
+        "bHideQuestMark": false,
+        "bHideTrackMark": false,
+        "ShowAcceptMsg": false,
+        "ShowSubmitMsg": false,
+        "bNeedPlayAnimation": true,
+        "bUseSpecialQuestSettleUI": false,
+        "bForceHybridQuest": false,
+        "PanelDescription": {
+          "CultureInvariantString": null
+        },
+        "UnlockTeleportID": "None",
+        "BuffInfo": null,
+        "TrackQuestConditionRange": null,
+        "TrackConditionList": [],
+        "PreQuests": [
+          {
+            "PreQuestName": "<!>乐园找小孩老师",
+            "ObjectiveID": "W108601"
+          }
+        ],
+        "PreQuestConditionType": "EQuestConditionType::And",
+        "NeedLevel": 0,
+        "NeedYahahaID": "None",
+        "NeedVisionID": "None",
+        "NeedTycoonLevel": 0,
+        "AcceptQuestConditionRange": null,
+        "NeedConditionType": "EQuestConditionType::And",
+        "bNotSatisfyCanNotAccept": false,
+        "SatisfyData": null,
+        "LimitMapName": "None",
+        "QuestResetTime": null,
+        "FailedData": null,
+        "NextQuests": [],
+        "bAutoNext": true,
+        "NeedSubmit": false,
+        "PatcherTag": "None",
+        "QuestSubmitDescription": {
+          "CultureInvariantString": null
+        },
+        "SubmitConsume": null,
+        "UIParamString": "",
+        "bFreezeSinPoint": false,
+        "bNeedTmporaryTrack": true,
+        "bForceTrack": false,
+        "bForceTrackExceptMain": false,
+        "NeedIgnoreFavorabilityNPCWhenTracking": false,
+        "bCanMainQuestChangeTrack": false,
+        "LikeabilityData": null,
+        "QuestAward": null,
+        "QuestTimeLock": null,
+        "QuestWeatherLock": null,
+        "ReloadLocation": null,
+        "TrialCharacterID": "None",
+        "ActivateYahahaID": "None",
+        "SubmitActivateYahahaIDs": [],
+        "AcceptActivateYahahaIDs": [],
+        "ActivateFogID": "None",
+        "bChangeTrackAnim": false,
+        "CustomTrackText": {
+          "CultureInvariantString": null
+        }
+      },
       "W106701": {
         "QuestId": "W106701",
         "QuestName": {
@@ -9562,6 +10914,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -9590,6 +10943,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -9701,6 +11055,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 0.0,
@@ -9727,6 +11082,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -9785,6 +11141,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -9874,6 +11231,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -9902,6 +11260,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -9996,6 +11355,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -10024,6 +11384,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -10118,6 +11479,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -10146,6 +11508,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -10240,6 +11603,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -10268,6 +11632,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -10362,6 +11727,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 0.0,
@@ -10388,6 +11754,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": {
@@ -10504,6 +11871,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -10532,6 +11900,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -10623,6 +11992,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -10651,6 +12021,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -10742,6 +12113,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -10770,6 +12142,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -10861,6 +12234,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -10889,6 +12263,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -10980,6 +12355,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -11008,6 +12384,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -11102,6 +12479,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -11130,6 +12508,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -11221,6 +12600,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -11249,6 +12629,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -11283,6 +12664,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -11379,6 +12761,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -11407,6 +12790,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -11503,6 +12887,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -11531,6 +12916,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -11632,6 +13018,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -11660,6 +13047,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -11756,6 +13144,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "bMainQuestAutoSpeak": true,
@@ -11784,6 +13173,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,
@@ -11878,6 +13268,7 @@
         "floor": 0,
         "bNeedCrossBox": false,
         "bProgressNeedTrack": false,
+        "bAllowPukalandCancelTracking": true,
         "ObjectivesInfo": [
           {
             "BeginTime": 0.0,
@@ -11904,6 +13295,7 @@
               "CultureInvariantString": null
             },
             "NeedShowProgress": false,
+            "bHideTrackIndicatorInFightState": true,
             "IntroduceInfo": null,
             "bOnlyInClient": false,
             "TrackInfo": null,

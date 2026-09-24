@@ -154,6 +154,10 @@
           {
             "ObjectName": "BlueprintGeneratedClass'AIRC_Wea_Default_C'",
             "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Weather/AIRC_Wea_Default.1"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'L110401-L110448_destroy_C'",
+            "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Quest/L110401-L110448_destroy.0"
           }
         ]
       },
@@ -167,6 +171,10 @@
           {
             "ObjectName": "BlueprintGeneratedClass'AIRC_Wea_Default_C'",
             "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Weather/AIRC_Wea_Default.1"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'L110401-L110448_destroy_C'",
+            "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Quest/L110401-L110448_destroy.0"
           }
         ]
       },
@@ -176,6 +184,10 @@
           {
             "ObjectName": "BlueprintGeneratedClass'AIRC_Time_08001500_C'",
             "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Time/AIRC_Time_08001500.1"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'L110401-L110448_destroy_C'",
+            "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Quest/L110401-L110448_destroy.0"
           }
         ]
       },
@@ -185,6 +197,10 @@
           {
             "ObjectName": "BlueprintGeneratedClass'AIRC_Time_17002000_C'",
             "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Time/AIRC_Time_17002000.1"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'L110401-L110448_destroy_C'",
+            "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Quest/L110401-L110448_destroy.0"
           }
         ]
       },
@@ -198,6 +214,10 @@
           {
             "ObjectName": "BlueprintGeneratedClass'AIRC_Wea_Default_C'",
             "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Weather/AIRC_Wea_Default.1"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'L110401-L110448_destroy_C'",
+            "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Quest/L110401-L110448_destroy.0"
           }
         ]
       },
@@ -211,6 +231,10 @@
           {
             "ObjectName": "BlueprintGeneratedClass'AIRC_Wea_Default_C'",
             "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Weather/AIRC_Wea_Default.1"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'L110401-L110448_destroy_C'",
+            "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Quest/L110401-L110448_destroy.0"
           }
         ]
       },
@@ -224,6 +248,10 @@
           {
             "ObjectName": "BlueprintGeneratedClass'AIRC_Wea_Default_C'",
             "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Weather/AIRC_Wea_Default.1"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'L110401-L110448_destroy_C'",
+            "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Quest/L110401-L110448_destroy.0"
           }
         ]
       },
@@ -259,6 +287,10 @@
           {
             "ObjectName": "BlueprintGeneratedClass'AIRC_Wea_Default_C'",
             "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Weather/AIRC_Wea_Default.1"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'L110401-L110448_destroy_C'",
+            "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Quest/L110401-L110448_destroy.0"
           }
         ]
       },
@@ -464,6 +496,54 @@
           {
             "ObjectName": "BlueprintGeneratedClass'AIRC_Yahaha_WorldBoss_09_C'",
             "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Yahaha/AIRC_Yahaha_WorldBoss_09.1"
+          }
+        ]
+      },
+      "Pukaland_DayTime": {
+        "RefreshOperation": "ESpawnResultsOperation::AND",
+        "AIRefreshConditionEntriesOverride": [
+          {
+            "ObjectName": "BlueprintGeneratedClass'AIRC_Wea_Sunny_C'",
+            "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Weather/AIRC_Wea_Sunny.1"
+          }
+        ]
+      },
+      "Pukaland_DayTime_alltime": {
+        "RefreshOperation": "ESpawnResultsOperation::AND",
+        "AIRefreshConditionEntriesOverride": []
+      },
+      "Pukaland_NightTime": {
+        "RefreshOperation": "ESpawnResultsOperation::AND",
+        "AIRefreshConditionEntriesOverride": [
+          {
+            "ObjectName": "BlueprintGeneratedClass'AIRC_Time_18002400_C'",
+            "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Time/AIRC_Time_18002400.1"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'AIRC_Wea_Sunny_C'",
+            "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Weather/AIRC_Wea_Sunny.1"
+          }
+        ]
+      },
+      "Pukaland_NightTime_alltime": {
+        "RefreshOperation": "ESpawnResultsOperation::AND",
+        "AIRefreshConditionEntriesOverride": [
+          {
+            "ObjectName": "BlueprintGeneratedClass'AIRC_Time_18002400_C'",
+            "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Time/AIRC_Time_18002400.1"
+          }
+        ]
+      },
+      "Pukaland_DayTime_beforenight": {
+        "RefreshOperation": "ESpawnResultsOperation::AND",
+        "AIRefreshConditionEntriesOverride": [
+          {
+            "ObjectName": "BlueprintGeneratedClass'AIRC_Wea_Sunny_C'",
+            "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Weather/AIRC_Wea_Sunny.1"
+          },
+          {
+            "ObjectName": "BlueprintGeneratedClass'AIRC_Time_08001800_C'",
+            "ObjectPath": "/Game/Blueprints/AI/AIRefreshCondition/Time/AIRC_Time_08001800.1"
           }
         ]
       }

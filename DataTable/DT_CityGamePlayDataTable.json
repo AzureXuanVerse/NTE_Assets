@@ -13,12 +13,12 @@
     },
     "Rows": {
       "Takeorders": {
-        "GameplayID": "Takeorders",
+        "GameplayId": "Takeorders",
         "GameplayText": {
           "TableId": "/Game/Text/TakeOrders/ST_TakeOrders.ST_TakeOrders",
           "Key": "toq_QuestName",
           "SourceString": "同城派送",
-          "LocalizedString": "City Delivery"
+          "LocalizedString": "同城派送"
         },
         "GameplayIcon": {
           "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_006.UI_YH_CityGameplay_List_006",
@@ -39,15 +39,16 @@
         ],
         "StaminaChangeType": "EStaminaChangeType::TakeOrders",
         "ExStaminaChangeTypeArray": [],
-        "bDisplayBountyGameplay": false
+        "bDisplayBountyGameplay": false,
+        "bCreateSlotInCityGameplay": true
       },
       "Race": {
-        "GameplayID": "Race",
+        "GameplayId": "Race",
         "GameplayText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "UI_Race",
           "SourceString": "车辆赛事",
-          "LocalizedString": "Races"
+          "LocalizedString": "车辆赛事"
         },
         "GameplayIcon": {
           "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_003.UI_YH_CityGameplay_List_003",
@@ -68,15 +69,16 @@
         "ExStaminaChangeTypeArray": [
           "EStaminaChangeType::RacingPVEResult"
         ],
-        "bDisplayBountyGameplay": false
+        "bDisplayBountyGameplay": false,
+        "bCreateSlotInCityGameplay": true
       },
       "Store": {
-        "GameplayID": "Store",
+        "GameplayId": "Store",
         "GameplayText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Store_131",
           "SourceString": "店长特供",
-          "LocalizedString": "Owner's Selection"
+          "LocalizedString": "店长特供"
         },
         "GameplayIcon": {
           "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_007.UI_YH_CityGameplay_List_007",
@@ -95,15 +97,16 @@
         "MutexGameplayArray": [],
         "StaminaChangeType": "EStaminaChangeType::StoreManagerResult",
         "ExStaminaChangeTypeArray": [],
-        "bDisplayBountyGameplay": false
+        "bDisplayBountyGameplay": false,
+        "bCreateSlotInCityGameplay": true
       },
       "Taxi": {
-        "GameplayID": "Taxi",
+        "GameplayId": "Taxi",
         "GameplayText": {
           "TableId": "/Game/Text/UI/ST_LyyUI.ST_LyyUI",
           "Key": "TaxiGameplay_007",
           "SourceString": "雨燕出行",
-          "LocalizedString": "Swift Travel"
+          "LocalizedString": "雨燕出行"
         },
         "GameplayIcon": {
           "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_002.UI_YH_CityGameplay_List_002",
@@ -124,15 +127,16 @@
         ],
         "StaminaChangeType": "EStaminaChangeType::TaxiGameplay",
         "ExStaminaChangeTypeArray": [],
-        "bDisplayBountyGameplay": false
+        "bDisplayBountyGameplay": false,
+        "bCreateSlotInCityGameplay": true
       },
       "Robbank": {
-        "GameplayID": "Robbank",
+        "GameplayId": "Robbank",
         "GameplayText": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DLC_bank_Safety_Name",
           "SourceString": "粉爪大劫案",
-          "LocalizedString": "Pink Paws Heist"
+          "LocalizedString": "粉爪大劫案"
         },
         "GameplayIcon": {
           "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_004.UI_YH_CityGameplay_List_004",
@@ -151,15 +155,16 @@
         "MutexGameplayArray": [],
         "StaminaChangeType": "EStaminaChangeType::NaturalIncrease",
         "ExStaminaChangeTypeArray": [],
-        "bDisplayBountyGameplay": true
+        "bDisplayBountyGameplay": true,
+        "bCreateSlotInCityGameplay": true
       },
       "FishingEntry": {
-        "GameplayID": "FishingEntry",
+        "GameplayId": "FishingEntry",
         "GameplayText": {
           "TableId": "/Game/Text/ST_Fishing.ST_Fishing",
           "Key": "UI_Fishing_Title",
           "SourceString": "海上钓客",
-          "LocalizedString": "Sea Angler"
+          "LocalizedString": "海上钓客"
         },
         "GameplayIcon": {
           "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_008.UI_YH_CityGameplay_List_008",
@@ -178,15 +183,16 @@
         "MutexGameplayArray": [],
         "StaminaChangeType": "EStaminaChangeType::FishSell",
         "ExStaminaChangeTypeArray": [],
-        "bDisplayBountyGameplay": false
+        "bDisplayBountyGameplay": false,
+        "bCreateSlotInCityGameplay": true
       },
       "majiang": {
-        "GameplayID": "majiang",
+        "GameplayId": "majiang",
         "GameplayText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "mahjong_entry",
           "SourceString": "小小麻雀",
-          "LocalizedString": "Little Sparrow"
+          "LocalizedString": "小小麻雀"
         },
         "GameplayIcon": {
           "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_001.UI_YH_CityGameplay_List_001",
@@ -205,15 +211,16 @@
         "MutexGameplayArray": [],
         "StaminaChangeType": "EStaminaChangeType::ChuanMaResult",
         "ExStaminaChangeTypeArray": [],
-        "bDisplayBountyGameplay": false
+        "bDisplayBountyGameplay": false,
+        "bCreateSlotInCityGameplay": true
       },
       "Tetris": {
-        "GameplayID": "Tetris",
+        "GameplayId": "Tetris",
         "GameplayText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "Tetris_Name",
           "SourceString": "泯除方块",
-          "LocalizedString": "Tetrominoes"
+          "LocalizedString": "泯除方块"
         },
         "GameplayIcon": {
           "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_005.UI_YH_CityGameplay_List_005",
@@ -232,15 +239,16 @@
         "MutexGameplayArray": [],
         "StaminaChangeType": "EStaminaChangeType::TetrisGameResult",
         "ExStaminaChangeTypeArray": [],
-        "bDisplayBountyGameplay": false
+        "bDisplayBountyGameplay": false,
+        "bCreateSlotInCityGameplay": true
       },
       "Wiku": {
-        "GameplayID": "Wiku",
+        "GameplayId": "Wiku",
         "GameplayText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "BPUI_DrumPlaylistModule_Name",
           "SourceString": "超强音",
-          "LocalizedString": "Super Sound"
+          "LocalizedString": "超强音"
         },
         "GameplayIcon": {
           "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_009.UI_YH_CityGameplay_List_009",
@@ -259,15 +267,16 @@
         "MutexGameplayArray": [],
         "StaminaChangeType": "EStaminaChangeType::PlaySongConsume",
         "ExStaminaChangeTypeArray": [],
-        "bDisplayBountyGameplay": false
+        "bDisplayBountyGameplay": false,
+        "bCreateSlotInCityGameplay": true
       },
       "JailFight": {
-        "GameplayID": "JailFight",
+        "GameplayId": "JailFight",
         "GameplayText": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
           "Key": "BPUI_PrisonMatch_MainTitle",
           "SourceString": "格斗俱乐部",
-          "LocalizedString": "Fight Club"
+          "LocalizedString": "格斗俱乐部"
         },
         "GameplayIcon": {
           "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_012.UI_YH_CityGameplay_List_012",
@@ -286,15 +295,16 @@
         "MutexGameplayArray": [],
         "StaminaChangeType": "EStaminaChangeType::PrisonBoxingResult",
         "ExStaminaChangeTypeArray": [],
-        "bDisplayBountyGameplay": false
+        "bDisplayBountyGameplay": false,
+        "bCreateSlotInCityGameplay": true
       },
       "Volleyball": {
-        "GameplayID": "Volleyball",
+        "GameplayId": "Volleyball",
         "GameplayText": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
           "Key": "UI_Volleyball",
           "SourceString": "排球之星",
-          "LocalizedString": "Volley Star"
+          "LocalizedString": "排球之星"
         },
         "GameplayIcon": {
           "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_013.UI_YH_CityGameplay_List_013",
@@ -315,15 +325,16 @@
         "ExStaminaChangeTypeArray": [
           "EStaminaChangeType::VolleyPVEWeekResult"
         ],
-        "bDisplayBountyGameplay": true
+        "bDisplayBountyGameplay": true,
+        "bCreateSlotInCityGameplay": true
       },
       "PropHunt": {
-        "GameplayID": "PropHunt",
+        "GameplayId": "PropHunt",
         "GameplayText": {
           "TableId": "/Game/Text/ST_Ui.ST_Ui",
           "Key": "PropHunt_Title",
           "SourceString": "徊影憧憧",
-          "LocalizedString": "Shadow-n-Seek"
+          "LocalizedString": "徊影憧憧"
         },
         "GameplayIcon": {
           "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_016.UI_YH_CityGameplay_List_016",
@@ -342,15 +353,16 @@
         "MutexGameplayArray": [],
         "StaminaChangeType": "EStaminaChangeType::PropHuntResult",
         "ExStaminaChangeTypeArray": [],
-        "bDisplayBountyGameplay": false
+        "bDisplayBountyGameplay": false,
+        "bCreateSlotInCityGameplay": true
       },
       "BidKing": {
-        "GameplayID": "BidKing",
+        "GameplayId": "BidKing",
         "GameplayText": {
           "TableId": "/Game/Text/ST_UI_GYJ.ST_UI_GYJ",
           "Key": "BPUI_BidKingMainForm_Title",
           "SourceString": "即刻落槌",
-          "LocalizedString": "Going, Going, Gone!"
+          "LocalizedString": "即刻落槌"
         },
         "GameplayIcon": {
           "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_014.UI_YH_CityGameplay_List_014",
@@ -372,15 +384,16 @@
         "MutexGameplayArray": [],
         "StaminaChangeType": "EStaminaChangeType::NaturalIncrease",
         "ExStaminaChangeTypeArray": [],
-        "bDisplayBountyGameplay": true
+        "bDisplayBountyGameplay": true,
+        "bCreateSlotInCityGameplay": true
       },
       "ActWork": {
-        "GameplayID": "ActWork",
+        "GameplayId": "ActWork",
         "GameplayText": {
           "TableId": "/Game/Text/ST_UI_C.ST_UI_C",
           "Key": "DT_CityGamePlayDataTable_actwork",
           "SourceString": "添砖加瓦",
-          "LocalizedString": "Brick by Brick"
+          "LocalizedString": "添砖加瓦"
         },
         "GameplayIcon": {
           "AssetPathName": "/Game/UI/UI/GameplayEntrance/FunctionIcon/UI_YH_CityGameplay_List_015.UI_YH_CityGameplay_List_015",
@@ -399,7 +412,36 @@
         "MutexGameplayArray": [],
         "StaminaChangeType": "EStaminaChangeType::ConstructionSiteResult",
         "ExStaminaChangeTypeArray": [],
-        "bDisplayBountyGameplay": false
+        "bDisplayBountyGameplay": false,
+        "bCreateSlotInCityGameplay": true
+      },
+      "Planting": {
+        "GameplayId": "Planting",
+        "GameplayText": {
+          "TableId": "/Game/Text/ST_UI_XZC.ST_UI_XZC",
+          "Key": "Planting",
+          "SourceString": "田地种植",
+          "LocalizedString": "田地种植"
+        },
+        "GameplayIcon": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "bIgnoreInOnline": false,
+        "JumpType": "ECityGameplayJumpType::ECityGameplayJumpType_CommonJumpUI",
+        "MapUniqueID": "None",
+        "JumpFixedIcon": "None",
+        "JumpExtensionID": "None",
+        "CommonJumpID": "ConstructionSiteMain",
+        "JumpQuestIDs": [],
+        "NearlyMapIconID": "None",
+        "UnlockFunctionID": "ActWork",
+        "EntrySwitchType": "ESwitchType::Max",
+        "MutexGameplayArray": [],
+        "StaminaChangeType": "EStaminaChangeType::FruitSell",
+        "ExStaminaChangeTypeArray": [],
+        "bDisplayBountyGameplay": false,
+        "bCreateSlotInCityGameplay": false
       }
     }
   }
