@@ -342,13 +342,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_FilmOrbit_map_Title",
           "SourceString": "「菲林轨迹」照相馆",
-          "LocalizedString": "Film Orbit Studio"
+          "LocalizedString": "「菲林轨迹」照相馆"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_FilmOrbit_map_Title",
           "SourceString": "「菲林轨迹」照相馆",
-          "LocalizedString": "Film Orbit Studio"
+          "LocalizedString": "「菲林轨迹」照相馆"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -443,13 +443,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_hotel",
           "SourceString": "「卡佩」大酒店",
-          "LocalizedString": "The Kapé"
+          "LocalizedString": "「卡佩」大酒店"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_hotel",
           "SourceString": "「卡佩」大酒店",
-          "LocalizedString": "The Kapé"
+          "LocalizedString": "「卡佩」大酒店"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -544,13 +544,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_SpiralDreams",
           "SourceString": "「游梦洄廊」",
-          "LocalizedString": "Dreamwalk Corridor"
+          "LocalizedString": "「游梦洄廊」"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_SpiralDreams",
           "SourceString": "「游梦洄廊」",
-          "LocalizedString": "Dreamwalk Corridor"
+          "LocalizedString": "「游梦洄廊」"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -617,12 +617,12 @@
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
         "bLimitCanSwitchSkill": false,
-        "bLimitCanTransformFly": false,
+        "bLimitCanTransformFly": true,
         "bLimitCanLongPressFly": true,
         "LimitAddGamePlayTags": [],
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
-        "bLimitSpawnVehicle": false,
+        "bLimitSpawnVehicle": true,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -645,13 +645,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_DeadNumber",
           "SourceString": "「空号」",
-          "LocalizedString": "Invalid Number"
+          "LocalizedString": "「空号」"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_DeadNumber",
           "SourceString": "「空号」",
-          "LocalizedString": "Invalid Number"
+          "LocalizedString": "「空号」"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -686,18 +686,18 @@
             "Z": 0.0
           },
           "EnterSpecLoadingID": "DLC_SpiralDreams_Entry",
-          "EnterTransformID": "DLC_SpiralDreams_Entrance",
+          "EnterTransformID": "DLC_DeadNumber_Entrance",
           "ExitSpecLoadingID": "DLC_SpiralDreams_Exit"
         },
         "MapEntranceList": [
-          "BigWorld_To_SpiralDreams"
+          "BigWorld_To_DeadNumber"
         ],
         "MainFormThemeID": "None",
         "ShieldUIFlags": 1,
         "ShieldFunctionID": "StoryClone",
         "bLimitCloneEffect": true,
-        "bLimitCanVault": false,
-        "bLimitCanVines": false,
+        "bLimitCanVault": true,
+        "bLimitCanVines": true,
         "bLimitCanMelee": false,
         "bLimitCanAbility": false,
         "bLimitCanEvade": false,
@@ -718,12 +718,12 @@
         "bLimitCanForbiddenMainUIT": false,
         "bLimitCanPassThroughWalls": false,
         "bLimitCanSwitchSkill": false,
-        "bLimitCanTransformFly": false,
+        "bLimitCanTransformFly": true,
         "bLimitCanLongPressFly": true,
         "LimitAddGamePlayTags": [],
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
-        "bLimitSpawnVehicle": false,
+        "bLimitSpawnVehicle": true,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -825,13 +825,13 @@
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DLC_Hockshop_Name",
           "SourceString": "月光当铺",
-          "LocalizedString": "Pawn Moonlight"
+          "LocalizedString": "月光当铺"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DLC_Hockshop_Introduce",
           "SourceString": "月光当铺是异象墨菲克斯产生的单独空间，只有拥有强烈愿望的人才能进入。",
-          "LocalizedString": "Pawn Moonlight is a separate space created by the Anomaly Morphix; only those with strong desires can enter."
+          "LocalizedString": "月光当铺是异象墨菲克斯产生的单独空间，只有拥有强烈愿望的人才能进入。"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -926,13 +926,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_MoonDog",
           "SourceString": "「月亮狗之夜」",
-          "LocalizedString": "Night of Moondog"
+          "LocalizedString": "「月亮狗之夜」"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_MoonDog",
           "SourceString": "「月亮狗之夜」",
-          "LocalizedString": "Night of Moondog"
+          "LocalizedString": "「月亮狗之夜」"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -1025,13 +1025,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_MoonDog",
           "SourceString": "「月亮狗之夜」",
-          "LocalizedString": "Night of Moondog"
+          "LocalizedString": "「月亮狗之夜」"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_MoonDog",
           "SourceString": "「月亮狗之夜」",
-          "LocalizedString": "Night of Moondog"
+          "LocalizedString": "「月亮狗之夜」"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -1043,8 +1043,10 @@
           "bUseNavPathEffect": true,
           "bForceNoNavPathEffect": true,
           "bEnableTrackTeammate": true,
-          "LimitTrackChapterID": "None",
-          "LimitTrackChapterList": [],
+          "LimitTrackChapterID": "LC04",
+          "LimitTrackChapterList": [
+            "LC04"
+          ],
           "bMiniMapIconNeedCrossBox": false,
           "bShowQuestItemDistance": true
         },
@@ -1063,9 +1065,9 @@
             "Y": 0.0,
             "Z": 0.0
           },
-          "EnterSpecLoadingID": "DLC_MoonDog_Entry",
+          "EnterSpecLoadingID": "DLC_SchoolWp_Entry",
           "EnterTransformID": "DLC_School_boss01_WP_Entrance",
-          "ExitSpecLoadingID": "DLC_MoonDog_Exit"
+          "ExitSpecLoadingID": "DLC_SchoolWp_Exit"
         },
         "MapEntranceList": [
           "BigWorld_to_DLC_School_boss01_WP"
@@ -1084,13 +1086,13 @@
         "bLimitCanUltSkill": false,
         "bLimitCanRun": false,
         "bLimitCanSprint": false,
-        "bLimitCanGliding": false,
-        "bLimitCanDynamicGravity": false,
+        "bLimitCanGliding": true,
+        "bLimitCanDynamicGravity": true,
         "bLimitCanCantChangePlayer": false,
         "bLimitCanAnim": false,
         "bLimitCanDriving": true,
         "bLimitCanForkAbility": false,
-        "bLimitCanSneak": false,
+        "bLimitCanSneak": true,
         "bLimitCanJinEffect": false,
         "bLimitCanCloseMainUI": false,
         "bLimitCanForbiddenMainUIT": false,
@@ -1101,7 +1103,7 @@
         "LimitAddGamePlayTags": [],
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
-        "bLimitSpawnVehicle": false,
+        "bLimitSpawnVehicle": true,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
@@ -1808,13 +1810,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_FilmOrbit_map_Title",
           "SourceString": "「菲林轨迹」照相馆",
-          "LocalizedString": "Film Orbit Studio"
+          "LocalizedString": "「菲林轨迹」照相馆"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_FilmOrbit_map_Title",
           "SourceString": "「菲林轨迹」照相馆",
-          "LocalizedString": "Film Orbit Studio"
+          "LocalizedString": "「菲林轨迹」照相馆"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -1983,13 +1985,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_RT_C1",
           "SourceString": "城际巡回",
-          "LocalizedString": "Intercity Tour"
+          "LocalizedString": "城际巡回"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_RT_C1",
           "SourceString": "城际巡回",
-          "LocalizedString": "Intercity Tour"
+          "LocalizedString": "城际巡回"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -2065,13 +2067,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_RT_C2",
           "SourceString": "日落霓虹",
-          "LocalizedString": "Sunset Neon"
+          "LocalizedString": "日落霓虹"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_RT_C2",
           "SourceString": "日落霓虹",
-          "LocalizedString": "Sunset Neon"
+          "LocalizedString": "日落霓虹"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -2147,13 +2149,13 @@
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DLC_RT_C1_clone_name",
           "SourceString": "试驾中心",
-          "LocalizedString": "Test Drive Center"
+          "LocalizedString": "试驾中心"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DLC_RT_C1_clone_name",
           "SourceString": "试驾中心",
-          "LocalizedString": "Test Drive Center"
+          "LocalizedString": "试驾中心"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -2229,13 +2231,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_RT_C2",
           "SourceString": "日落霓虹",
-          "LocalizedString": "Sunset Neon"
+          "LocalizedString": "日落霓虹"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_RT_C2",
           "SourceString": "日落霓虹",
-          "LocalizedString": "Sunset Neon"
+          "LocalizedString": "日落霓虹"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -2463,13 +2465,13 @@
           "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
           "Key": "NPC_1004_Lamp_Name",
           "SourceString": "钨丝",
-          "LocalizedString": "Tungsten"
+          "LocalizedString": "钨丝"
         },
         "Description": {
           "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
           "Key": "NPC_1004_Lamp_Name",
           "SourceString": "钨丝",
-          "LocalizedString": "Tungsten"
+          "LocalizedString": "钨丝"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -2564,13 +2566,13 @@
           "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
           "Key": "NPC_1004_Lamp_Name",
           "SourceString": "钨丝",
-          "LocalizedString": "Tungsten"
+          "LocalizedString": "钨丝"
         },
         "Description": {
           "TableId": "/Game/Text/ST_ActorName.ST_ActorName",
           "Key": "NPC_1004_Lamp_Name",
           "SourceString": "钨丝",
-          "LocalizedString": "Tungsten"
+          "LocalizedString": "钨丝"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -3292,7 +3294,7 @@
           "TableId": "/Game/Text/ST_robbank.ST_robbank",
           "Key": "Bank_floor_01",
           "SourceString": "银行大厅",
-          "LocalizedString": "Banking Hall"
+          "LocalizedString": "银行大厅"
         },
         "Description": {
           "CultureInvariantString": null
@@ -3827,7 +3829,7 @@
           "TableId": "/Game/Maps_4N/Text/ST_MapAreaDetails_4N.ST_MapAreaDetails_4N",
           "Key": "4N_Main",
           "SourceString": "沃伦大陆",
-          "LocalizedString": "Warren Continent"
+          "LocalizedString": "沃伦大陆"
         },
         "Description": {
           "CultureInvariantString": null
@@ -4560,13 +4562,13 @@
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
           "Key": "UI_Volleyball",
           "SourceString": "排球之星",
-          "LocalizedString": "Volley Star"
+          "LocalizedString": "排球之星"
         },
         "Description": {
           "TableId": "/Game/Text/ST_UI_Volleyball.ST_UI_Volleyball",
           "Key": "Avatar_Volleyball_Desc",
           "SourceString": "独属于这个夏天的纪念。",
-          "LocalizedString": "A memento of a summer like no other."
+          "LocalizedString": "独属于这个夏天的纪念。"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -4870,13 +4872,13 @@
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DLC_RT_C1_clone_name",
           "SourceString": "试驾中心",
-          "LocalizedString": "Test Drive Center"
+          "LocalizedString": "试驾中心"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Clone.ST_Clone",
           "Key": "DLC_RT_C1_clone_name",
           "SourceString": "试驾中心",
-          "LocalizedString": "Test Drive Center"
+          "LocalizedString": "试驾中心"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -5104,13 +5106,13 @@
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_HeiYu",
           "SourceString": "西风谷地",
-          "LocalizedString": "Westwind Vale"
+          "LocalizedString": "西风谷地"
         },
         "Description": {
           "TableId": "/Game/Text/ST_Level.ST_Level",
           "Key": "DLC_HeiYu",
           "SourceString": "西风谷地",
-          "LocalizedString": "Westwind Vale"
+          "LocalizedString": "西风谷地"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -5511,13 +5513,13 @@
           "TableId": "/Game/Text/ST_UI_GingerbreadDuel.ST_UI_GingerbreadDuel",
           "Key": "UI_GingerbreadDuel_Name",
           "SourceString": "咔滋！黄金双脆",
-          "LocalizedString": "Snap! Golden Crackshot"
+          "LocalizedString": "咔滋！黄金双脆"
         },
         "Description": {
           "TableId": "/Game/Text/ST_UI_GingerbreadDuel.ST_UI_GingerbreadDuel",
           "Key": "UI_GingerbreadDuel_Desc",
           "SourceString": "赌半块面包你的武器里没有子弹。",
-          "LocalizedString": "Bet half a loaf your weapon's out of ammo."
+          "LocalizedString": "赌半块面包你的武器里没有子弹。"
         },
         "StrategyText": {
           "CultureInvariantString": null
@@ -5571,6 +5573,82 @@
         "bLimitCanCloseChase": true,
         "bLimitLevelClock": false,
         "bLimitSpawnVehicle": true,
+        "bShowSoundMuteButton": false,
+        "ResetLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 0.0
+        },
+        "ResetRotator": {
+          "Pitch": 0.0,
+          "Yaw": 0.0,
+          "Roll": 0.0
+        },
+        "bUseEmptyQuickBar": false,
+        "QuickBarProfileTag": "None",
+        "bCanUIOpenPauseTime": true,
+        "bCanPlayGuitar": true
+      },
+      "DLC_WuChao_Week": {
+        "SceneType": "ELevelSceneType::LEVEL_TYPE_CLONE_LEVEL",
+        "Title": {
+          "CultureInvariantString": null
+        },
+        "Description": {
+          "CultureInvariantString": null
+        },
+        "StrategyText": {
+          "CultureInvariantString": null
+        },
+        "TrackLimit": {
+          "bEnableCrossMapTrack": false,
+          "bDisableSwitchTrack": false,
+          "bEnableCrossBoxTrack": true,
+          "bUseNavPathEffect": true,
+          "bForceNoNavPathEffect": false,
+          "bEnableTrackTeammate": false,
+          "LimitTrackChapterID": "None",
+          "LimitTrackChapterList": [],
+          "bMiniMapIconNeedCrossBox": false,
+          "bShowQuestItemDistance": true
+        },
+        "bShowTeammateTrack": false,
+        "bCanVines": true,
+        "bGuideNPCEnabled": true,
+        "SingleExtensionData": null,
+        "MapEntranceList": [],
+        "MainFormThemeID": "None",
+        "ShieldUIFlags": 1,
+        "ShieldFunctionID": "SurvivalGamePlay",
+        "bLimitCloneEffect": false,
+        "bLimitCanVault": false,
+        "bLimitCanVines": false,
+        "bLimitCanMelee": false,
+        "bLimitCanAbility": false,
+        "bLimitCanEvade": false,
+        "bLimitCanJump": false,
+        "bLimitCanSecondJump": false,
+        "bLimitCanUltSkill": false,
+        "bLimitCanRun": false,
+        "bLimitCanSprint": false,
+        "bLimitCanGliding": false,
+        "bLimitCanDynamicGravity": false,
+        "bLimitCanCantChangePlayer": false,
+        "bLimitCanAnim": false,
+        "bLimitCanDriving": true,
+        "bLimitCanForkAbility": false,
+        "bLimitCanSneak": false,
+        "bLimitCanJinEffect": false,
+        "bLimitCanCloseMainUI": false,
+        "bLimitCanForbiddenMainUIT": false,
+        "bLimitCanPassThroughWalls": false,
+        "bLimitCanSwitchSkill": false,
+        "bLimitCanTransformFly": false,
+        "bLimitCanLongPressFly": false,
+        "LimitAddGamePlayTags": [],
+        "bLimitCanCloseChase": true,
+        "bLimitLevelClock": false,
+        "bLimitSpawnVehicle": false,
         "bShowSoundMuteButton": false,
         "ResetLocation": {
           "X": 0.0,
